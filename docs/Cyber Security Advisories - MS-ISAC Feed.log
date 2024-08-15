@@ -56,3 +56,41 @@ Filter: [Oracle Quarterly Critical Patches Issued April 16, 2024](https://www.ci
 Filter: [Multiple Vulnerabilities in Ivanti Avalanche Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ivanti-avalanche-could-allow-for-remote-code-execution_2024-041)
 append_entries: 18
 Finish: 2024-08-15 17:08:23.623837
+------------------------------------------------------
+Started: 2024-08-15 17:21:59.619987
+Existing_entries: 18
+Fetching from https://www.cisecurity.org/feed/advisories
+Filter: [Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-091)
+Filter: [Multiple Vulnerabilities in Ivanti Products Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ivanti-products-could-allow-for-remote-code-execution_2024-090)
+Filter: [Critical Patches Issued for Microsoft Products, August 13, 2024](https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-august-13-2024_2024-089)
+Filter: [Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-086)
+Filter: [A Vulnerability in Cisco Secure Email Gateway Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-secure-email-gateway-could-allow-for-remote-code-execution_2024-083)
+Filter: [Oracle Quarterly Critical Patches Issued July 16, 2024](https://www.cisecurity.org/advisory/oracle-quarterly-critical-patches-issued-july-16-2024_2024-082)
+Filter: [Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-080)
+Filter: [Critical Patches Issued for Microsoft Products, July 09, 2024](https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-july-09-2024_2024-078)
+Filter: [Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-079)
+Filter: [A Vulnerability in OpenSSH Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/a-vulnerability-in-openssh-could-allow-for-remote-code-execution_2024-077)
+Filter: [A Vulnerability in OpenSSH Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/a-vulnerability-in-openssh-could-allow-for-remote-code-execution_2024-076)
+Filter: [Multiple Vulnerabilities in Progress MOVEit Products Could Allow for Authentication Bypass](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-progress-moveit-products-could-allow-for-authentication-bypass_2024-075)
+Filter: [Multiple Vulnerabilities in VMware Products Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-vmware-products-could-allow-for-remote-code-execution_2024-073)
+Filter: [Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-071)
+Filter: [Critical Patches Issued for Microsoft Products, June 11, 2024](https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-june-11-2024_2024-070)
+Filter: [Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-069)
+Filter: [A Vulnerability in SolarWinds Serv-U Could Allow for Path Transversal](https://www.cisecurity.org/advisory/a-vulnerability-in-solarwinds-serv-u-could-allow-for-path-transversal_2024-068)
+Filter: [Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-remote-code-execution_2024-067)
+Filter: [Multiple Vulnerabilities in Progress Telerik Report Server Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-progress-telerik-report-server-could-allow-for-remote-code-execution_2024-066)
+Filter: [A Vulnerability in Check Point Security Gateways Could Allow for Credential Access](https://www.cisecurity.org/advisory/a-vulnerability-in-check-point-security-gateways-could-allow-for-credential-access_2024-065)
+Filter: [Multiple Vulnerabilities in LenelS2 NetBox Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-lenels2-netbox-could-allow-for-arbitrary-code-execution_2024-063)
+Filter: [Multiple Vulnerabilities in Fortinet FortiSIEM Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-fortinet-fortisiem-could-allow-for-remote-code-execution_2024-062)
+Filter: [A Vulnerability in SolarWinds Access Rights Manager Could Allow for Privilege Escalation](https://www.cisecurity.org/advisory/a-vulnerability-in-solarwinds-access-rights-manager-could-allow-for-privilege-escalation_2024-057)
+Filter: [Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-056)
+Filter: [Multiple Vulnerabilities in Siemens Ruggedcom Crossbow Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-siemens-ruggedcom-crossbow-could-allow-for-arbitrary-code-execution_2024-055)
+Filter: [Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-054)
+Filter: [Critical Patches Issued for Microsoft Products, May 14, 2024](https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-may-14-2024_2024-053)
+Filter: [A Vulnerability in Apache OFBiz Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/a-vulnerability-in-apache-ofbiz-could-allow-for-remote-code-execution_2024-049)
+Filter: [A Vulnerability in F5 BIG-IP Next Central Manager Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/a-vulnerability-in-f5-big-ip-next-central-manager-could-allow-for-remote-code-execution_2024-048)
+Filter: [A Vulnerability in Mozilla PDF.js Could Allow for Arbitrary Code Execution](https://www.cisecurity.org/advisory/a-vulnerability-in-mozilla-pdfjs-could-allow-for-arbitrary-code-execution_2024-046)
+Filter: [Oracle Quarterly Critical Patches Issued April 16, 2024](https://www.cisecurity.org/advisory/oracle-quarterly-critical-patches-issued-april-16-2024_2024-042)
+Filter: [Multiple Vulnerabilities in Ivanti Avalanche Could Allow for Remote Code Execution](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ivanti-avalanche-could-allow-for-remote-code-execution_2024-041)
+append_entries: 0
+Finish: 2024-08-15 17:21:59.735515
