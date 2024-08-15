@@ -56,3 +56,68 @@ Filter: [Dark Reading News Desk Live From Black Hat USA 2024](https://www.darkre
 Filter: [Memory Safety Is Key to Preventing Hardware Hacks](https://www.darkreading.com/endpoint-security/memory-safety-is-key-to-preventing-hardware-hacks)
 append_entries: 1
 Finish: 2024-08-15 15:41:54.097153
+------------------------------------------------------
+Started: 2024-08-15 16:10:48.271028
+Existing_entries: 1
+Fetching from https://www.darkreading.com/rss.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [How Can Organizations Navigate SEC's Cyber Materiality Disclosures?](https://www.darkreading.com/cyber-risk/how-can-organizations-navigate-sec-cyber-materiality-disclosures)
+Summarization failed, append the original article
+error: Connection error.
+Append: [Beyond the Hype: Unveiling the Realities of WormGPT in Cybersecurity](https://www.darkreading.com/vulnerabilities-threats/beyond-the-hype-unveiling-realities-of-wormgpt-in-cybersecurity)
+Summarization failed, append the original article
+error: Connection error.
+Append: [Ransomware Group Behind Major Indonesian Attack Wears Many Masks](https://www.darkreading.com/threat-intelligence/ransomware-group-behind-major-indonesian-attack-wears-many-masks)
+Summarization failed, append the original article
+error: Connection error.
+Append: [New ISAGCA Report Explores Zero-Trust Outcomes in OT Cybersecurity](https://www.darkreading.com/ics-ot-security/new-isagca-report-explores-zero-trust-outcomes-in-ot-cybersecurity)
+Summarization failed, append the original article
+error: Connection error.
+Append: ['EastWind' Cyber-Spy Campaign Combines Various Chinese APT Tools](https://www.darkreading.com/cyberattacks-data-breaches/eastwind-cyber-spy-campaign-chinese-apt-tools)
+Append: [Mimecast Announces Acquisition of Aware, Doubles Down on AI-Powered Human Risk Management Capabilities](https://www.darkreading.com/endpoint-security/mimecast-announces-acquisition-of-aware-doubles-down-on-ai-powered-human-risk-management-capabilities)
+Append: [DigiCert to Acquire Vercara](https://www.darkreading.com/cloud-security/digicert-to-acquire-vercara)
+Append: [Guardz Launches Free 'Community Shield' Plan to Empower MSPs](https://www.darkreading.com/cybersecurity-operations/guardz-launches-free-community-shield-plan-to-empower-msps)
+Append: [Gcore Radar Report Shows 46% Increase in Number of DDoS Attacks in First Half of 2024](https://www.darkreading.com/cloud-security/gcore-radar-report-shows-46-increase-in-number-of-ddos-attacks-in-first-half-of-2024)
+Append: [Zimperium Teams Up With Okta to Enhance Zero-Trust Identity Threat Protection With AI-Driven Mobile Security Solutions](https://www.darkreading.com/cybersecurity-operations/zimperium-teams-up-with-okta-to-enhance-zero-trust-identity-threat-protection-with-ai-driven-mobile-security-solutions)
+Append: [Digital Align Inc. Achieves SOC 2 Type 2 Certification for Secure Automation Intelligence](https://www.darkreading.com/cybersecurity-operations/digital-align-inc-achieves-soc-2-type-2-certification-for-secure-automation-intelligence)
+Append: [Experian Acquires Behavioral Analytics Company NeuroID](https://www.darkreading.com/endpoint-security/experian-acquires-behavioral-analytics-company-neuroid)
+Append: [UK Royal Family, Prime Minister Deepfakes Make Rounds on Meta](https://www.darkreading.com/vulnerabilities-threats/uk-royal-family-prime-minister-deepfakes-meta)
+Append: [Cybersecurity's Real Challenge Is Communication, Not Just Technology](https://www.darkreading.com/cybersecurity-operations/cybersecuritys-real-challenge-is-communication-not-just-technology)
+Append: [Cybercriminal Leader 'J.P.Morgan' Busted for Pioneering RaaS Model](https://www.darkreading.com/cyber-risk/cybercriminal-leader-jp-morgan-busted-pioneering-raas)
+Append: [NIST Releases 3 Post-Quantum Standards, Urges Orgs to Start PQC Journey](https://www.darkreading.com/endpoint-security/nist-releases-3-post-quantum-standards-urges-orgs-to-start-pqc-journey)
+Append: [DNC Credentials Compromised by 'IntelFetch' Telegram Bot](https://www.darkreading.com/cyberattacks-data-breaches/dnc-credentials-compromised-intelfetch-telegram-bot)
+Append: [Inc Ransomware Encryptor Contains Keys to Victim Data Recovery](https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-encryptor-contains-keys-to-victim-data-recovery)
+Append: [It's Time to Promote Security Talent From Within](https://www.darkreading.com/cybersecurity-operations/it-s-time-to-promote-security-talent-from-within)
+Append: [Gold Mining Company Struck by Ransomware Attack](https://www.darkreading.com/cyberattacks-data-breaches/gold-mining-company-struck-by-ransomware-attack)
+Append: [Microsoft Discloses 10 Zero-Day Bugs in Patch Tuesday Update](https://www.darkreading.com/vulnerabilities-threats/microsoft-discloses-10-zero-day-bugs-in-pacth-tuesday-update)
+Append: [NIST Finalizes Post-Quantum Encryption Standards](https://www.darkreading.com/endpoint-security/nist-finalizes-post-quantum-encryption-standards)
+Append: [Cybercriminal Duo Attracts FBI Notice by Spending Big &amp; Living Large](https://www.darkreading.com/cybersecurity-operations/cybercriminal-duo-attract-fbi-by-spending-big-and-living-large)
+Append: [Critical Ivanti vTM Bug Allows Unauthorized Admin Access](https://www.darkreading.com/remote-workforce/critical-ivanti-vtm-bug-unauthorized-admin-access)
+Append: [Microsoft Azure AI Health Bot Infected With Critical Vulnerabilities](https://www.darkreading.com/application-security/microsoft-azure-ai-health-bot-infected-with-critical-vulnerabilities)
+Append: [APT41 Spinoff Expands Chinese Actor's Scope Beyond Asia](https://www.darkreading.com/cyberattacks-data-breaches/apt41-spinoff-expands-chinese-actor-scope-beyond-asia)
+Append: [FBI Shuts Down Dozens of Radar/Dispossessor Ransomware Servers](https://www.darkreading.com/cyberattacks-data-breaches/fbi-shuts-down-dozens-of-radar-dispossessor-ransomware-servers)
+Append: [The Changing Expectations for Developers in an AI-Coding Future](https://www.darkreading.com/application-security/the-changing-expectations-for-developers-in-an-ai-coding-future)
+Append: [DARPA Aims to Ditch C Code, Move to Rust](https://www.darkreading.com/application-security/darpa-aims-to-ditch-c-code-move-to-rust)
+Append: [CrowdStrike Tries to Patch Things Up With Cybersecurity Industry](https://www.darkreading.com/cybersecurity-operations/crowdstrike-tries-patch-things-up-cybersecurity-industry)
+Append: [UN Approves Cybercrime Treaty Despite Major Tech, Privacy Concerns](https://www.darkreading.com/cyberattacks-data-breaches/un-approves-cybercrime-treaty-despite-major-tech-privacy-concerns)
+Append: [AMD Issues Updates for Silicon-Level 'SinkClose' Processor Flaw](https://www.darkreading.com/remote-workforce/amd-issues-updates-for-silicon-level-sinkclose-flaw)
+Append: [Ukraine CERT: Mass Phishing Campaign Poses as Nation's Security Service](https://www.darkreading.com/vulnerabilities-threats/ukraine-cert-phishing-campaign-poses-as-nations-security-service)
+Append: [CLFS Bug Crashes Even Updated Windows 10, 11 Systems](https://www.darkreading.com/vulnerabilities-threats/clfs-bug-crashes-even-updated-windows-10-11-systems)
+Append: [A Lesson From the CrowdStrike Incident](https://www.darkreading.com/vulnerabilities-threats/lesson-from-crowdstrike-incident)
+Append: [Tennessee Man Helped DPRK Workers Get Jobs at US Orgs, Fund WMDs](https://www.darkreading.com/remote-workforce/tennessee-man-helped-dprk-workers-get-jobs-at-us-orgs-fund-wmds)
+Append: [Healthcare Providers Must Plan for Ransomware Attacks on Third-Party Suppliers](https://www.darkreading.com/endpoint-security/healthcare-providers-must-plan-for-ransomware-attacks-on-third-party-suppliers)
+Append: [Vectra AI Expands XDR Platform to Deliver a Real-Time View of Active Posture to Monitor Exposure to Attackers](https://www.darkreading.com/endpoint-security/vectra-ai-expands-xdr-platform-to-deliver-a-real-time-view-of-active-posture-to-monitor-exposure-to-attackers)
+Append: [WiCyS and ISC2 Launch Fall Camp for Cybersecurity Certification](https://www.darkreading.com/cybersecurity-operations/wicys-and-isc2-launch-fall-camp-for-cybersecurity-certification)
+Append: [Solar Power Installations Worldwide Open to Cloud API Bugs](https://www.darkreading.com/ics-ot-security/solar-power-installations-worldwide-open-to-cloud-api-bugs)
+Append: [Anthropic: Expanding Our Model Safety Bug Bounty Program](https://www.darkreading.com/cybersecurity-operations/antrhopic-expanding-our-model-safety-bug-bounty-program)
+Append: [HPE Aruba Networking Strengthens Cyber Defenses With AI-Powered Network Detection and Response](https://www.darkreading.com/cyberattacks-data-breaches/hpe-aruba-networking-strengthens-cyber-defenses-with-ai-powered-network-detection-and-response)
+Append: [Entro Extends Non-Human Identity Security Platform](https://www.darkreading.com/endpoint-security/entro-extends-industry-leading-non-human-identity-security-platform)
+Append: [Progress Announces Conclusion of SEC Investigation into MOVEit](https://www.darkreading.com/cybersecurity-operations/progress-announces-conclusion-of-sec-investigation-into-moveit)
+Append: [Media &amp; Victims Find Common Ground Against Hackers](https://www.darkreading.com/cyberattacks-data-breaches/media-and-victims-find-common-ground-against-hackers)
+Append: [Rubrik Partners With Mandiant for Cyber Resilience and Accelerated Incident Response Recovery](https://www.darkreading.com/cybersecurity-operations/rubrik-partners-with-mandiant-for-cyber-resilience-and-accelerated-incident-response-recovery)
+Append: [Tackling Vulnerabilities &amp; Errors Head-on for Proactive Security](https://www.darkreading.com/vulnerabilities-threats/tackling-vulnerabilities-and-errors-head-on-for-proactive-security)
+Append: [Dark Reading News Desk Live From Black Hat USA 2024](https://www.darkreading.com/threat-intelligence/dark-reading-news-desk-live-at-black-hat-usa-2024)
+Append: [Memory Safety Is Key to Preventing Hardware Hacks](https://www.darkreading.com/endpoint-security/memory-safety-is-key-to-preventing-hardware-hacks)
+append_entries: 49
+Finish: 2024-08-15 16:11:14.578942
