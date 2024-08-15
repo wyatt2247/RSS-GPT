@@ -4,6 +4,17 @@
 <title>security-announce Mailing List</title>
 <link>https://lists.apple.com/archives/security-announce/2021/Feb/index.html</link>
 
+<item>
+<title>Unfixed Microsoft Entra ID Authentication Bypass Threatens Hybrid IDs</title>
+<link>https://www.darkreading.com/application-security/unfixed-microsoft-entra-id-authentication-bypass-threatens-hybrid-clouds</link>
+<guid>https://www.darkreading.com/application-security/unfixed-microsoft-entra-id-authentication-bypass-threatens-hybrid-clouds</guid>
+<content:encoded><![CDATA[
+
+The attack affects organizations that have synced multiple on-premises Active Directory domains to a single Azure tenant.
+]]></content:encoded>
+<pubDate>Thu, 15 Aug 2024 20:09:34 GMT</pubDate>
+<pubDate>Thu, 15 Aug 2024 20:09:34 GMT</pubDate>
+</item>
 
 <item>
 <title>SolarWinds: Critical RCE Bug Requires Urgent Patch</title>

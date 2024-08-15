@@ -219,3 +219,12 @@ Fetching from https://www.google.com/alerts/feeds/17211248053978002891/101922917
 Fetching from https://lists.apple.com/rss/security-announce.rss
 append_entries: 0
 Finish: 2024-08-15 20:26:18.444398
+------------------------------------------------------
+Started: 2024-08-15 22:31:02.262779
+Existing_entries: 52
+Fetching from https://www.darkreading.com/rss.xml
+Append: [Unfixed Microsoft Entra ID Authentication Bypass Threatens Hybrid IDs](https://www.darkreading.com/application-security/unfixed-microsoft-entra-id-authentication-bypass-threatens-hybrid-clouds)
+Fetching from https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Fetching from https://lists.apple.com/rss/security-announce.rss
+append_entries: 1
+Finish: 2024-08-15 22:31:03.287213
