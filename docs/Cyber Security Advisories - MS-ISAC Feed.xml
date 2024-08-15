@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Cyber Security Advisories - MS-ISAC</title>
+<link>https://www.cisecurity.org/feed/advisories</link>
+
+<item>
+<title>Multiple Vulnerabilities in Google Android OS Could Allow for Privilege Escalation</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-privilege-escalation_2024-088</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-privilege-escalation_2024-088</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for privilege escalation. Android is an operating system developed by Google for mobile devices, including, but not limited to, smartphones, tablets, and watches. Successful exploitation of the most severe of these vulnerabilities could allow for privilege escalation. Depending on the privileges associated with the exploited component, an attacker could then install programs; view, change, or delete data; or create new accounts with full rights.</p>
+]]></content:encoded>
+<pubDate>Wed, 07 Aug 2024 14:06:56 -0400</pubDate>
+<pubDate>Wed, 07 Aug 2024 14:06:56 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-087</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-087</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Wed, 07 Aug 2024 03:03:31 -0400</pubDate>
+<pubDate>Wed, 07 Aug 2024 03:03:31 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-085</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-085</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Tue, 30 Jul 2024 20:28:55 -0400</pubDate>
+<pubDate>Tue, 30 Jul 2024 20:28:55 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-084</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-084</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Tue, 23 Jul 2024 23:03:48 -0400</pubDate>
+<pubDate>Tue, 23 Jul 2024 23:03:48 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-081</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-081</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Wed, 17 Jul 2024 08:05:07 -0400</pubDate>
+<pubDate>Wed, 17 Jul 2024 08:05:07 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-074</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-074</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Tue, 25 Jun 2024 15:04:25 -0400</pubDate>
+<pubDate>Tue, 25 Jun 2024 15:04:25 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-072</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-072</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Wed, 12 Jun 2024 09:10:19 -0400</pubDate>
+<pubDate>Wed, 12 Jun 2024 09:10:19 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-064</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-064</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Fri, 31 May 2024 02:01:37 -0400</pubDate>
+<pubDate>Fri, 31 May 2024 02:01:37 -0400</pubDate>
+</item>
+<item>
+<title>A Vulnerability in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-061</link>
+<guid>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-061</guid>
+<content:encoded><![CDATA[
+
+<p>A vulnerability has been discovered in Google Chrome that could allow for arbitrary code execution. Google Chrome is a web browser used to access the internet. Successful exploitation of this vulnerability could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the logged on user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have less rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Fri, 24 May 2024 08:59:23 -0400</pubDate>
+<pubDate>Fri, 24 May 2024 08:59:23 -0400</pubDate>
+</item>
+<item>
+<title>A Vulnerability in GitHub Enterprise Server (GHES) Could Allow for Authentication Bypass</title>
+<link>https://www.cisecurity.org/advisory/a-vulnerability-in-github-enterprise-server-ghes-could-allow-for-authentication-bypass_2024-060</link>
+<guid>https://www.cisecurity.org/advisory/a-vulnerability-in-github-enterprise-server-ghes-could-allow-for-authentication-bypass_2024-060</guid>
+<content:encoded><![CDATA[
+
+<p>A vulnerability has been discovered in GitHub Enterprise Server (GHES), which could allow for authentication bypass. GHES is a popular platform for software developers. Organizations can build and store software applications using Git version control and automate deployment pipelines. Successful exploitation of this vulnerability could allow for an attacker to forge a SAML response to provision and/or gain access to a user with site administrator privileges. An attacker could then view, change, or delete data; or create new accounts with full user rights.</p>
+]]></content:encoded>
+<pubDate>Thu, 23 May 2024 16:45:55 -0400</pubDate>
+<pubDate>Thu, 23 May 2024 16:45:55 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-058</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-058</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 20:27:29 -0400</pubDate>
+<pubDate>Wed, 15 May 2024 20:27:29 -0400</pubDate>
+</item>
+<item>
+<title>A Vulnerability in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-052</link>
+<guid>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-052</guid>
+<content:encoded><![CDATA[
+
+<p>A vulnerability has been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of this vulnerability could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Tue, 14 May 2024 15:03:37 -0400</pubDate>
+<pubDate>Tue, 14 May 2024 15:03:37 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-051</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-051</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 18:04:04 -0400</pubDate>
+<pubDate>Mon, 13 May 2024 18:04:04 -0400</pubDate>
+</item>
+<item>
+<title>A Vulnerability in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-050</link>
+<guid>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-050</guid>
+<content:encoded><![CDATA[
+
+<p>A vulnerability has been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of this vulnerability could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Thu, 09 May 2024 22:13:23 -0400</pubDate>
+<pubDate>Thu, 09 May 2024 22:13:23 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-047</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-047</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Tue, 07 May 2024 20:53:37 -0400</pubDate>
+<pubDate>Tue, 07 May 2024 20:53:37 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Android OS Could Allow for Privilege Escalation</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-privilege-escalation_2024-045</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-privilege-escalation_2024-045</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for privilege escalation. Android is an operating system developed by Google for mobile devices, including, but not limited to, smartphones, tablets, and watches. Successful exploitation of the most severe of these vulnerabilities could allow for privilege escalation. Depending on the privileges associated with the exploited component, an attacker could then install programs; view, change, or delete data; or create new accounts with full rights.</p>
+]]></content:encoded>
+<pubDate>Mon, 06 May 2024 23:47:37 -0400</pubDate>
+<pubDate>Mon, 06 May 2024 23:47:37 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-044</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-044</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Tue, 30 Apr 2024 21:42:46 -0400</pubDate>
+<pubDate>Tue, 30 Apr 2024 21:42:46 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-043</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-043</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Wed, 24 Apr 2024 18:47:25 -0400</pubDate>
+<pubDate>Wed, 24 Apr 2024 18:47:25 -0400</pubDate>
+</item>
+
+</channel>
+</rss>

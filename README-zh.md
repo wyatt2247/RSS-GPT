@@ -55,5 +55,7 @@
 <a href="https://www.buymeacoffee.com/yinan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 - https://www.darkreading.com/rss.xml, https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497, https://lists.apple.com/rss/security-announce.rss -> https://wyatt2247.github.io/RSS-GPT/test-feed.xml
-- https://www.darkreading.com/rss.xml -> https://wyatt2247.github.io/RSS-GPT/DARK READING.xml
-- https://lists.apple.com/rss/security-announce.rss -> https://wyatt2247.github.io/RSS-GPT/Apple Security Announcements.xml
+- https://www.darkreading.com/rss.xml -> https://wyatt2247.github.io/RSS-GPT/Dark Reading Feed.xml
+- https://lists.apple.com/rss/security-announce.rss -> https://wyatt2247.github.io/RSS-GPT/Apple Security Announcements Feed.xml
+- https://www.cisecurity.org/feed/advisories -> https://wyatt2247.github.io/RSS-GPT/Cyber Security Advisories - MS-ISAC Feed.xml
+- https://www.cisecurity.org/feed/advisories,  https://nao-sec.org/feed,  https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497,  https://lists.apple.com/rss/security-announce.rss -> https://wyatt2247.github.io/RSS-GPT/Other Cybersecurity Mega Feed.xml

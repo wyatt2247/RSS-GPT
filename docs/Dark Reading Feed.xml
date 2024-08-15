@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>darkreading</title>
+<link>https://www.darkreading.com</link>
+
+<item>
+<title>GitHub Attack Vector Cracks Open Google, Microsoft, AWS Projects</title>
+<link>https://www.darkreading.com/cloud-security/github-attack-vector-google-microsoft-aws-projects</link>
+<guid>https://www.darkreading.com/cloud-security/github-attack-vector-google-microsoft-aws-projects</guid>
+<content:encoded><![CDATA[
+
+Cloud services and thus millions of end users who access them could have been affected by the poisoning of artifacts in the development workflow of open source projects.
+]]></content:encoded>
+<pubDate>Wed, 14 Aug 2024 14:16:57 GMT</pubDate>
+<pubDate>Wed, 14 Aug 2024 14:16:57 GMT</pubDate>
+</item>
+
+</channel>
+</rss>
