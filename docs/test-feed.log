@@ -167,3 +167,14 @@ Fetching from https://www.google.com/alerts/feeds/17211248053978002891/101922917
 Fetching from https://lists.apple.com/rss/security-announce.rss
 append_entries: 0
 Finish: 2024-08-15 17:21:58.736294
+------------------------------------------------------
+Started: 2024-08-15 18:02:47.605296
+Existing_entries: 50
+Fetching from https://www.darkreading.com/rss.xml
+Summarization failed, append the original article
+error: Connection error.
+Append: [Google: Iran's Charming Kitten Targets US Presidential Elections, Israeli Military](https://www.darkreading.com/cyberattacks-data-breaches/google-iran-charming-kitten-targets-presidential-elections-israeli-military)
+Fetching from https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Fetching from https://lists.apple.com/rss/security-announce.rss
+append_entries: 1
+Finish: 2024-08-15 18:02:54.796371
