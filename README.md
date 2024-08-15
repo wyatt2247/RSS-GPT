@@ -57,3 +57,4 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 
 - https://www.darkreading.com/rss.xml, https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497, https://lists.apple.com/rss/security-announce.rss -> https://wyatt2247.github.io/RSS-GPT/test-feed.xml
 - https://www.darkreading.com/rss.xml -> https://wyatt2247.github.io/RSS-GPT/DARK READING.xml
+- https://lists.apple.com/rss/security-announce.rss -> https://wyatt2247.github.io/RSS-GPT/Apple Security Announcements.xml
