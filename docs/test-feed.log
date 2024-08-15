@@ -202,3 +202,12 @@ Fetching from https://www.google.com/alerts/feeds/17211248053978002891/101922917
 Fetching from https://lists.apple.com/rss/security-announce.rss
 append_entries: 0
 Finish: 2024-08-15 18:42:25.407806
+------------------------------------------------------
+Started: 2024-08-15 19:11:16.455385
+Existing_entries: 51
+Fetching from https://www.darkreading.com/rss.xml
+Append: [SolarWinds: Critical RCE Bug Requires Urgent Patch](https://www.darkreading.com/vulnerabilities-threats/solarwinds-critical-rce-bug-requires-urgent-patch)
+Fetching from https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Fetching from https://lists.apple.com/rss/security-announce.rss
+append_entries: 1
+Finish: 2024-08-15 19:11:17.540404

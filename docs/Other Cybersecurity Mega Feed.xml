@@ -4,17 +4,16 @@
 <title>security-announce Mailing List</title>
 <link>https://lists.apple.com/archives/security-announce/2021/Feb/index.html</link>
 
+
 <item>
 <title>Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-091</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-091</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution.</p>
 <p>Adobe is a software that is used for creating and publishing a wide variety of contents including graphics, photography, illustration, animation, multimedia, motion pictures and print. </p>
 <p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights</p>
 ]]></content:encoded>
-<pubDate>Tue, 13 Aug 2024 19:48:03 -0400</pubDate>
 <pubDate>Tue, 13 Aug 2024 19:48:03 -0400</pubDate>
 </item>
 <item>
@@ -22,7 +21,6 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ivanti-products-could-allow-for-remote-code-execution_2024-090</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ivanti-products-could-allow-for-remote-code-execution_2024-090</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Ivanti products, the most severe of which could allow for remote code execution. </p>
 <ul>
 <li>Ivanti Avalanche is a mobile device management system. </li>
@@ -32,17 +30,14 @@
 <p>Successful exploitation could allow for remote code execution in the context of the system. Depending on the privileges associated with the system, an attacker could then install programs; view, change, or delete data.</p>
 ]]></content:encoded>
 <pubDate>Tue, 13 Aug 2024 16:30:54 -0400</pubDate>
-<pubDate>Tue, 13 Aug 2024 16:30:54 -0400</pubDate>
 </item>
 <item>
 <title>Critical Patches Issued for Microsoft Products, August 13, 2024</title>
 <link>https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-august-13-2024_2024-089</link>
 <guid>https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-august-13-2024_2024-089</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 13 Aug 2024 15:13:39 -0400</pubDate>
 <pubDate>Tue, 13 Aug 2024 15:13:39 -0400</pubDate>
 </item>
 <item>
@@ -50,10 +45,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-086</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-086</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Mozilla products, the most severe of which could allow for arbitrary code execution. Mozilla Firefox is a web browser used to access the Internet. Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 06 Aug 2024 15:02:02 -0400</pubDate>
 <pubDate>Tue, 06 Aug 2024 15:02:02 -0400</pubDate>
 </item>
 <item>
@@ -61,10 +54,8 @@
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-secure-email-gateway-could-allow-for-remote-code-execution_2024-083</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-secure-email-gateway-could-allow-for-remote-code-execution_2024-083</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in Cisco Secure Email Gateway that could allow for remote code execution. Cisco Secure Email Gateway is an email security product that uses signature analysis and machine learning to identify and block malicious emails before they reach recipients inboxes. Successful exploitation could allow the attacker to replace any file on the underlying file system. The attacker could then perform any of the following actions: add users with root privileges, modify the device configuration, execute arbitrary code, or cause a permanent denial of service (DoS) condition on the affected device.</p>
 ]]></content:encoded>
-<pubDate>Mon, 22 Jul 2024 16:13:50 -0400</pubDate>
 <pubDate>Mon, 22 Jul 2024 16:13:50 -0400</pubDate>
 </item>
 <item>
@@ -72,10 +63,8 @@
 <link>https://www.cisecurity.org/advisory/oracle-quarterly-critical-patches-issued-july-16-2024_2024-082</link>
 <guid>https://www.cisecurity.org/advisory/oracle-quarterly-critical-patches-issued-july-16-2024_2024-082</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Oracle products, the most severe of which could allow for remote code execution.</p>
 ]]></content:encoded>
-<pubDate>Thu, 18 Jul 2024 14:50:13 -0400</pubDate>
 <pubDate>Thu, 18 Jul 2024 14:50:13 -0400</pubDate>
 </item>
 <item>
@@ -83,10 +72,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-080</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-080</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Mozilla products, the most severe of which could allow for arbitrary code execution. Mozilla Firefox is a web browser used to access the Internet. Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 09 Jul 2024 18:38:40 -0400</pubDate>
 <pubDate>Tue, 09 Jul 2024 18:38:40 -0400</pubDate>
 </item>
 <item>
@@ -94,10 +81,8 @@
 <link>https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-july-09-2024_2024-078</link>
 <guid>https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-july-09-2024_2024-078</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 09 Jul 2024 15:32:14 -0400</pubDate>
 <pubDate>Tue, 09 Jul 2024 15:32:14 -0400</pubDate>
 </item>
 <item>
@@ -105,7 +90,6 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-079</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-079</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution.</p>
 <ul>
 <li>Adobe Premiere Pro is a timeline-based and non-linear video editing software application.</li>
@@ -115,17 +99,14 @@
 <p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights</p>
 ]]></content:encoded>
 <pubDate>Tue, 09 Jul 2024 15:31:24 -0400</pubDate>
-<pubDate>Tue, 09 Jul 2024 15:31:24 -0400</pubDate>
 </item>
 <item>
 <title>A Vulnerability in OpenSSH Could Allow for Remote Code Execution</title>
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-openssh-could-allow-for-remote-code-execution_2024-077</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-openssh-could-allow-for-remote-code-execution_2024-077</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in OpenSSH that could allow for remote code execution. OpenSSH is a suite of secure networking utilities based on the SSH protocol and is crucial for secure communication over unsecured networks. It is widely used in enterprise environments for remote server management, secure file transfers, and various DevOps practices. Successful exploitation of this vulnerability could allow for remote code execution in the context of the unprivileged user running the sshd server. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 09 Jul 2024 14:37:57 -0400</pubDate>
 <pubDate>Tue, 09 Jul 2024 14:37:57 -0400</pubDate>
 </item>
 <item>
@@ -133,10 +114,8 @@
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-openssh-could-allow-for-remote-code-execution_2024-076</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-openssh-could-allow-for-remote-code-execution_2024-076</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in OpenSSH, which could allow for remote code execution. OpenSSH is a suite of secure networking utilities based on the SSH protocol and is crucial for secure communication over unsecured networks. It is widely used in enterprise environments for remote server management, secure file transfers, and various DevOps practices. Successful exploitation of this vulnerability could allow for remote code execution in the context of the administrator account. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>
 ]]></content:encoded>
-<pubDate>Mon, 01 Jul 2024 16:30:27 -0400</pubDate>
 <pubDate>Mon, 01 Jul 2024 16:30:27 -0400</pubDate>
 </item>
 <item>
@@ -144,7 +123,6 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-progress-moveit-products-could-allow-for-authentication-bypass_2024-075</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-progress-moveit-products-could-allow-for-authentication-bypass_2024-075</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in MOVEit products, which could allow for authentication bypass. </p>
 <ul>
 <li>MOVEit Gateway acts as a proxy between inbound connections from the public network and your internal trusted network.</li>
@@ -153,17 +131,14 @@
 <p>Successful exploitation of these vulnerabilities could allow for an attacker to bypass authentication. An attacker could then view, change, or delete data; or create new accounts with full user rights.</p>
 ]]></content:encoded>
 <pubDate>Tue, 25 Jun 2024 15:58:34 -0400</pubDate>
-<pubDate>Tue, 25 Jun 2024 15:58:34 -0400</pubDate>
 </item>
 <item>
 <title>Multiple Vulnerabilities in VMware Products Could Allow for Remote Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-vmware-products-could-allow-for-remote-code-execution_2024-073</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-vmware-products-could-allow-for-remote-code-execution_2024-073</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in VMware vCenter Server and Cloud Foundation, the most severe of which could allow for remote code execution. VMware vCenter Server is the centralized management utility for VMware. VMware Cloud Foundation is a multi-cloud platform that provides a full-stack hyperconverged infrastructure (HCI) that is made for modernizing data centers and deploying modern container-based applications. Successful exploitation of these vulnerabilities could allow for remote code execution in the context of the administrator account. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 18 Jun 2024 15:46:36 -0400</pubDate>
 <pubDate>Tue, 18 Jun 2024 15:46:36 -0400</pubDate>
 </item>
 <item>
@@ -171,7 +146,6 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-071</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-071</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution.</p>
 <ul>
 <li>Adobe Photoshop is a raster graphics editor.</li>
@@ -188,17 +162,14 @@
 <p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights</p>
 ]]></content:encoded>
 <pubDate>Tue, 11 Jun 2024 20:39:20 -0400</pubDate>
-<pubDate>Tue, 11 Jun 2024 20:39:20 -0400</pubDate>
 </item>
 <item>
 <title>Critical Patches Issued for Microsoft Products, June 11, 2024</title>
 <link>https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-june-11-2024_2024-070</link>
 <guid>https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-june-11-2024_2024-070</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 11 Jun 2024 20:30:23 -0400</pubDate>
 <pubDate>Tue, 11 Jun 2024 20:30:23 -0400</pubDate>
 </item>
 <item>
@@ -206,10 +177,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-069</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-069</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Mozilla products, the most severe of which could allow for arbitrary code execution. Mozilla Firefox is a web browser used to access the Internet. Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 11 Jun 2024 20:19:19 -0400</pubDate>
 <pubDate>Tue, 11 Jun 2024 20:19:19 -0400</pubDate>
 </item>
 <item>
@@ -217,10 +186,8 @@
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-solarwinds-serv-u-could-allow-for-path-transversal_2024-068</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-solarwinds-serv-u-could-allow-for-path-transversal_2024-068</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in SolarWinds Serv-U that could allow for path transversal that could lead to disclosure of sensitive information. SolarWinds Serv-U is a managed file transfer solution used to store and share files across an enterprise network. It can be hosted on both Windows and Linux-based servers. Successful exploitation of this vulnerability could allow for the disclosure of sensitive information in the context of the files and directories. Depending on the permissions associated with the files, an attacker could view content within them. Files with stricter access controls and file permissions could be less impacted than those without.</p>
 ]]></content:encoded>
-<pubDate>Fri, 07 Jun 2024 17:43:54 -0400</pubDate>
 <pubDate>Fri, 07 Jun 2024 17:43:54 -0400</pubDate>
 </item>
 <item>
@@ -228,10 +195,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-remote-code-execution_2024-067</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-remote-code-execution_2024-067</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in PHP which could allow for remote code execution. PHP is a programming language originally designed for use in web-based applications with HTML content. Successful exploitation could allow for remote code execution in the context of the affected service account. Depending on the privileges associated with the service account an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Service accounts that are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Fri, 07 Jun 2024 15:42:16 -0400</pubDate>
 <pubDate>Fri, 07 Jun 2024 15:42:16 -0400</pubDate>
 </item>
 <item>
@@ -239,10 +204,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-progress-telerik-report-server-could-allow-for-remote-code-execution_2024-066</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-progress-telerik-report-server-could-allow-for-remote-code-execution_2024-066</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Progress Telerik Report Server, which could allow for remote code execution. Telerik Report Server provides centralized management for Progress’ business intelligence reporting suite through a web application. Successful chain exploitation of these vulnerabilities could allow for remote code execution in the context of the affected service account. Depending on the privileges associated with the service account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Services whose accounts are configured to have fewer rights on the system could be less impacted than those who operate with administrative rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 04 Jun 2024 17:30:39 -0400</pubDate>
 <pubDate>Tue, 04 Jun 2024 17:30:39 -0400</pubDate>
 </item>
 <item>
@@ -250,10 +213,8 @@
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-check-point-security-gateways-could-allow-for-credential-access_2024-065</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-check-point-security-gateways-could-allow-for-credential-access_2024-065</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in Check Point Security Gateway Products that could allow for credential access. A Check Point Security Gateway sits between an organization’s environment and the Internet to enforce policy and block threats and malware. Successful exploitation of this vulnerability could allow for credential access to local accounts due to an arbitrary file read vulnerability. Other sensitive files such as SSH keys and certificates may also be read. Depending on the privileges associated with the accounts, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Local accounts that are configured to have fewer rights on the system could be less impacted than those that operate with administrative rights.</p>
 ]]></content:encoded>
-<pubDate>Fri, 31 May 2024 19:16:28 -0400</pubDate>
 <pubDate>Fri, 31 May 2024 19:16:28 -0400</pubDate>
 </item>
 <item>
@@ -261,10 +222,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-lenels2-netbox-could-allow-for-arbitrary-code-execution_2024-063</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-lenels2-netbox-could-allow-for-arbitrary-code-execution_2024-063</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in LenelS2 NetBox, the most severe of which could allow for arbitrary code execution. LenelS2 NetBox is a browser-based enterprise access control and event monitoring system designed for deployments with demanding security requirements. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected user account. Depending on the privileges associated with the user account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have less rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Thu, 30 May 2024 20:42:33 -0400</pubDate>
 <pubDate>Thu, 30 May 2024 20:42:33 -0400</pubDate>
 </item>
 <item>
@@ -272,10 +231,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-fortinet-fortisiem-could-allow-for-remote-code-execution_2024-062</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-fortinet-fortisiem-could-allow-for-remote-code-execution_2024-062</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Fortinet FortiSIEM which could allow for remote code execution. FortiSIEM is a multi-tenant SIEM that offers real-time infrastructure and user awareness for precise threat detection, analysis, and reporting. Successful exploitation could allow for remote code execution in the context of the affected service account. Depending on the privileges associated with the service account an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Service accounts that are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Wed, 29 May 2024 19:59:43 -0400</pubDate>
 <pubDate>Wed, 29 May 2024 19:59:43 -0400</pubDate>
 </item>
 <item>
@@ -283,10 +240,8 @@
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-solarwinds-access-rights-manager-could-allow-for-privilege-escalation_2024-057</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-solarwinds-access-rights-manager-could-allow-for-privilege-escalation_2024-057</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in SolarWinds Access Rights Manager that could allow for privilege escalation. Successful exploitation of this vulnerability could allow for privilege escalation in the context of the affected service account. Depending on the privileges associated with the service account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Service accounts whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Wed, 15 May 2024 20:43:00 -0400</pubDate>
 <pubDate>Wed, 15 May 2024 20:43:00 -0400</pubDate>
 </item>
 <item>
@@ -294,7 +249,6 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-056</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2024-056</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Mozilla Products, the most severe of which could allow for arbitrary code execution.</p>
 <ul>
 <li>Mozilla Firefox is a web browser used to access the Internet. </li>
@@ -304,17 +258,14 @@
 <p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
 <pubDate>Wed, 15 May 2024 00:10:59 -0400</pubDate>
-<pubDate>Wed, 15 May 2024 00:10:59 -0400</pubDate>
 </item>
 <item>
 <title>Multiple Vulnerabilities in Siemens Ruggedcom Crossbow Could Allow for Arbitrary Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-siemens-ruggedcom-crossbow-could-allow-for-arbitrary-code-execution_2024-055</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-siemens-ruggedcom-crossbow-could-allow-for-arbitrary-code-execution_2024-055</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Siemens Ruggedcom Crossbow, the most severe of which could allow for arbitrary code execution. Siemens Ruggedcom Crossbow Access Management solution designed to provide cybersecurity compliance for industrial control systems. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged-on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Wed, 15 May 2024 00:00:17 -0400</pubDate>
 <pubDate>Wed, 15 May 2024 00:00:17 -0400</pubDate>
 </item>
 <item>
@@ -322,7 +273,6 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-054</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2024-054</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution.</p>
 <ul>
 <li>Adobe Acrobat is a family of application software and Web services used to view, create, manipulate, print and manage Portable Document Format (PDF) files.</li>
@@ -337,17 +287,14 @@
 <p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights</p>
 ]]></content:encoded>
 <pubDate>Tue, 14 May 2024 21:41:52 -0400</pubDate>
-<pubDate>Tue, 14 May 2024 21:41:52 -0400</pubDate>
 </item>
 <item>
 <title>Critical Patches Issued for Microsoft Products, May 14, 2024</title>
 <link>https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-may-14-2024_2024-053</link>
 <guid>https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-may-14-2024_2024-053</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 14 May 2024 15:10:33 -0400</pubDate>
 <pubDate>Tue, 14 May 2024 15:10:33 -0400</pubDate>
 </item>
 <item>
@@ -355,10 +302,8 @@
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-apache-ofbiz-could-allow-for-remote-code-execution_2024-049</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-apache-ofbiz-could-allow-for-remote-code-execution_2024-049</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in the Apache OFBiz, which could allow for remote code execution. Apache OFBiz is an open-source product for the automation of enterprise processes. It includes framework components and business applications for ERP, CRM, E-Business/E-Commerce, Supply Chain Management and Manufacturing Resource Planning. Successful exploitation of this vulnerability could allow for remote code execution in the context of the affected service account. Depending on the privileges associated with the service account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Services whose accounts are configured to have less rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Thu, 09 May 2024 16:51:10 -0400</pubDate>
 <pubDate>Thu, 09 May 2024 16:51:10 -0400</pubDate>
 </item>
 <item>
@@ -366,10 +311,8 @@
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-f5-big-ip-next-central-manager-could-allow-for-remote-code-execution_2024-048</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-f5-big-ip-next-central-manager-could-allow-for-remote-code-execution_2024-048</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in F5 BIG-IP Next Central Manager that could allow for remote code execution. BIG-IP Next Central Manager is the management and application orchestration platform used to control BIG-IP Next instances. It can be installed on dedicated hardware or virtualized through VMware ESXi. Successful exploitation of this vulnerability could allow for Remote Code Execution in the context of the affected service account. Depending on the privileges associated with the service account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Services accounts that are configured to have less rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Thu, 09 May 2024 16:46:48 -0400</pubDate>
 <pubDate>Thu, 09 May 2024 16:46:48 -0400</pubDate>
 </item>
 <item>
@@ -377,10 +320,8 @@
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-mozilla-pdfjs-could-allow-for-arbitrary-code-execution_2024-046</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-mozilla-pdfjs-could-allow-for-arbitrary-code-execution_2024-046</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in Mozilla PDF.js could allow for arbitrary code execution. Mozilla PDF.js is a PDF viewer that is built into Mozilla Firefox and can be used by other web browsers. Exploitation of this vulnerability could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have less rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 07 May 2024 18:24:23 -0400</pubDate>
 <pubDate>Tue, 07 May 2024 18:24:23 -0400</pubDate>
 </item>
 <item>
@@ -388,10 +329,8 @@
 <link>https://www.cisecurity.org/advisory/oracle-quarterly-critical-patches-issued-april-16-2024_2024-042</link>
 <guid>https://www.cisecurity.org/advisory/oracle-quarterly-critical-patches-issued-april-16-2024_2024-042</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Oracle products, the most severe of which could allow for remote code execution.</p>
 ]]></content:encoded>
-<pubDate>Wed, 17 Apr 2024 19:51:17 -0400</pubDate>
 <pubDate>Wed, 17 Apr 2024 19:51:17 -0400</pubDate>
 </item>
 <item>
@@ -399,10 +338,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ivanti-avalanche-could-allow-for-remote-code-execution_2024-041</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ivanti-avalanche-could-allow-for-remote-code-execution_2024-041</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Ivanti Avalanche, the most severe of which could allow for remote code execution. Ivanti Avalanche is a mobile device management system. Network security features allow one to manage wireless settings (including encryption and authentication), and apply those settings on a schedule throughout the network. Successful exploitation could allow for remote code execution in the context of the system. Depending on the privileges associated with the system, an attacker could then install programs; view, change, or delete data.</p>
 ]]></content:encoded>
-<pubDate>Wed, 17 Apr 2024 16:29:09 -0400</pubDate>
 <pubDate>Wed, 17 Apr 2024 16:29:09 -0400</pubDate>
 </item>
 <item>
@@ -410,7 +347,6 @@
 <link>http://nao-sec.org/2024/06/building-caspers-shadow.html</link>
 <guid>http://nao-sec.org/2024/06/building-caspers-shadow.html</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="" src="https://nao-sec.org/assets/2024-07-01/top.png" /></p>
 
 <h2 id="introduction">Introduction</h2>
@@ -670,14 +606,12 @@
 </div>
 ]]></content:encoded>
 <pubDate>2024-06-30T15:00:00+00:00</pubDate>
-<pubDate>2024-06-30T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>GroundPeony: Crawling with Malice</title>
 <link>http://nao-sec.org/2023/08/groundpeony-crawling-with-malice.html</link>
 <guid>http://nao-sec.org/2023/08/groundpeony-crawling-with-malice.html</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="" src="https://nao-sec.org/assets/2023-08-22/top.png" /></p>
 
 <p>This blog post is based on “GroundPeony: Crawling with Malice” that we presented at HITCON CMT 2023. We are grateful to HITCON for giving us the opportunity to present.</p>
@@ -907,14 +841,12 @@ The 4 files are renamed to mic.exe, version.dll, mic.doc and mic.ver. And then, 
 </div>
 ]]></content:encoded>
 <pubDate>2023-08-22T03:00:00+00:00</pubDate>
-<pubDate>2023-08-22T03:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Exploit Kit still sharpens a sword</title>
 <link>http://nao-sec.org/2021/04/exploit-kit-still-sharpens-a-sword.html</link>
 <guid>http://nao-sec.org/2021/04/exploit-kit-still-sharpens-a-sword.html</guid>
 <content:encoded><![CDATA[
-
 <p>Note: This blog post doesn’t make sense to many</p>
 
 <p>It’s 2021 now. Moreover, the quarter has already passed. I thought Drive-by Download attack was dead four years ago. Angler Exploit Kit has disappeared, pseudo-Darkleech and EITest campaign have disappeared, and RIG Exploit Kit has also declined. At that time, Drive-by Download attack was definitely supposed to die. However, even if in 2021, it will not disappear fire still slightly.</p>
@@ -1074,14 +1006,12 @@ The 4 files are renamed to mic.exe, version.dll, mic.doc and mic.ver. And then, 
 [4] <a href="http://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_103_koike-takai_jp.pdf">http://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_103_koike-takai_jp.pdf</a></p>
 ]]></content:encoded>
 <pubDate>2021-04-15T15:00:00+00:00</pubDate>
-<pubDate>2021-04-15T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Royal Road! Re:Dive</title>
 <link>http://nao-sec.org/2021/01/royal-road-redive.html</link>
 <guid>http://nao-sec.org/2021/01/royal-road-redive.html</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="" src="https://nao-sec.org/assets/2021-01-05/00.png" /></p>
 
 <h2 id="abstract">Abstract</h2>
@@ -1328,14 +1258,12 @@ The 4 files are renamed to mic.exe, version.dll, mic.doc and mic.ver. And then, 
 [17] Proofpoint, “TA410: The Group Behind LookBack Attacks Against U.S. Utilities Sector Returns with New Malware”, https://www.proofpoint.com/us/blog/threat-insight/ta410-group-behind-lookback-attacks-against-us-utilities-sector-returns-new</p>
 ]]></content:encoded>
 <pubDate>2021-01-04T15:00:00+00:00</pubDate>
-<pubDate>2021-01-04T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>An Overhead View of the Royal Road</title>
 <link>http://nao-sec.org/2020/01/an-overhead-view-of-the-royal-road.html</link>
 <guid>http://nao-sec.org/2020/01/an-overhead-view-of-the-royal-road.html</guid>
 <content:encoded><![CDATA[
-
 <h2 id="abstract">Abstract</h2>
 <p>Several targeted attack groups share the tools used in the attack and are reported to be doing similar attacks. Attack tools are also shared in attacks targeting Japanese organizations, for example, Tick. Tick may use a tool called Royal Road RTF Weaponizer. And Royal Road is used by targeted attack groups such as Goblin Panda and Temp.Trident that is suspected of being involved in China.</p>
 
@@ -1461,14 +1389,12 @@ There are many actors who use Royal Road. We can divide them into three groups a
 <p>Full report is here: <a href="https://github.com/nao-sec/materials/raw/master/JSAC%2BCPRCon2020/An_Overhead_View_of_the_Royal_Road.pdf">[PDF (EN)]</a></p>
 ]]></content:encoded>
 <pubDate>2020-01-29T15:00:00+00:00</pubDate>
-<pubDate>2020-01-29T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Say hello to Bottle Exploit Kit targeting Japan</title>
 <link>http://nao-sec.org/2019/12/say-hello-to-bottle-exploit-kit.html</link>
 <guid>http://nao-sec.org/2019/12/say-hello-to-bottle-exploit-kit.html</guid>
 <content:encoded><![CDATA[
-
 <h2 id="first">First</h2>
 <p>On December 11, 2019, we were strolling through ad-networks. As before, we observed RIG, Fallout and Underminer Exploit Kit, but observed other interesting Drive-by Download attack. We call it “Bottle Exploit Kit”. BottleEK targets only Japanese users. According to our research, BottleEK has been active at least in September 2019. This time we introduce BottleEK.</p>
 
@@ -1928,14 +1854,12 @@ The list of APIs to use is as follows:</p>
 </ul>
 ]]></content:encoded>
 <pubDate>2019-12-12T15:00:00+00:00</pubDate>
-<pubDate>2019-12-12T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Weak Drive-by Download attack with “Radio Exploit Kit”</title>
 <link>http://nao-sec.org/2019/07/weak-dbd-attack-with-radioek.html</link>
 <guid>http://nao-sec.org/2019/07/weak-dbd-attack-with-radioek.html</guid>
 <content:encoded><![CDATA[
-
 <h2 id="first">First</h2>
 <p>Since July 11 2019, we have observed a new Drive-by Download attack. It is redirected from the ad-network. It does not use a conventional Exploit Kit such as RIG or Fallout, but uses its own exploit kit. We call this “Radio Exploit Kit”.</p>
 
@@ -2112,14 +2036,12 @@ The list of APIs to use is as follows:</p>
 <p>Radio EK is active, but its attack power is very low. Compared to RIG and Fallout, the threat is not something that bothers you. However, there may be aggressive updates in the future. You should be aware of the existence of this EK.</p>
 ]]></content:encoded>
 <pubDate>2019-07-15T15:00:00+00:00</pubDate>
-<pubDate>2019-07-15T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Steady Evolution of Fallout v4</title>
 <link>http://nao-sec.org/2019/07/steady-evolution-of-fallout-v4.html</link>
 <guid>http://nao-sec.org/2019/07/steady-evolution-of-fallout-v4.html</guid>
 <content:encoded><![CDATA[
-
 <h2 id="first">First</h2>
 <p>We have been observing the Fallout Exploit Kit since August 2018. Fallout is using non-characteristic URL and heavily obfuscated landing page. The user still exists and attacks are observed daily. Recently, we were investigating an attack campaign that infects Raccoon Stealer in the flow of PopAds-&gt; KeitaroTDS-&gt; Fallout.</p>
 
@@ -2649,14 +2571,12 @@ Once again, It uses the dualaccModFFF1Hash algorithm.</p>
 <p>Fallout has been heavily updated, making analysis very difficult. Very sophisticated techniques such as Diffie-Hellman key exchange, VM detection, process detection, etc. are used. We need to be careful as they may be updated in the future.</p>
 ]]></content:encoded>
 <pubDate>2019-07-09T15:00:00+00:00</pubDate>
-<pubDate>2019-07-09T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Analyzing Amadey</title>
 <link>http://nao-sec.org/2019/04/Analyzing-amadey.html</link>
 <guid>http://nao-sec.org/2019/04/Analyzing-amadey.html</guid>
 <content:encoded><![CDATA[
-
 <h2 id="initial-access">Initial Access</h2>
 
 <p>Amedey is installed by msiexec.exe when you open a malicious excel file.
@@ -3045,14 +2965,12 @@ ZoneIdent =[0x72, 0xBF, 0xD1, 0xD2, 0x98, 0x67, 0x82, 0x98, 0x9B, 0xA7, 0xA7, 0x
 </ul>
 ]]></content:encoded>
 <pubDate>2019-04-27T15:00:00+00:00</pubDate>
-<pubDate>2019-04-27T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Analysis of Fallout Exploit Kit v3</title>
 <link>http://nao-sec.org/2019/03/analysis-of-fallout-exploit-kit-v3.html</link>
 <guid>http://nao-sec.org/2019/03/analysis-of-fallout-exploit-kit-v3.html</guid>
 <content:encoded><![CDATA[
-
 <h2 id="first">First</h2>
 <p>We already tweeted, but the Fallout Exploit Kit has been updated. In the new Fallout, the traffic chain, obfuscation method of landing page and shellcode are changing. We will introduce details on the changes using <a href="http://malware-traffic-analysis.net/2019/02/28/index.html">Malware-Traffic-Analysis.net’s saz file</a>.</p>
 
@@ -3366,9 +3284,7 @@ $I1111111 = New-Object lI111;
 <p>Fallout has also evolved. Analysis has become more difficult than before. You should keep an eye on Fallout in the future.</p>
 ]]></content:encoded>
 <pubDate>2019-03-06T15:00:00+00:00</pubDate>
-<pubDate>2019-03-06T15:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Multiple Vulnerabilities in Google Android OS Could Allow for Privilege Escalation</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-privilege-escalation_2024-088</link>
