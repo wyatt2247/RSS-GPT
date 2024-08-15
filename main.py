@@ -154,7 +154,7 @@ def truncate_entries(entries, max_entries):
         entries = entries[:max_entries]
     return entries
 
-def gpt_summary(query,model,language):
+def gpt_summary(query, model, language, keyword_length, summary_length):
     if language == "zh":
         messages = [
             {"role": "user", "content": query},
@@ -165,25 +165,28 @@ def gpt_summary(query,model,language):
             {"role": "user", "content": query},
             {"role": "assistant", "content": f"Please summarize this article in {language} language, first extract {keyword_length} keywords, output in the same line, then line break, write a summary containing all the points in {summary_length} words in {language}, output in order by points, and output in the following format '<br><br>Summary:' , <br> is the line break of HTML, 2 must be retained when output, and must be before the word 'Summary:'"}
         ]
-    if not OPENAI_PROXY:
-        client = OpenAI(
-            api_key=OPENAI_API_KEY,
-            base_url=OPENAI_BASE_URL,
+
+    try:
+        if not OPENAI_PROXY:
+            client = OpenAI(
+                api_key=OPENAI_API_KEY,
+                base_url=OPENAI_BASE_URL,
+            )
+        else:
+            client = OpenAI(
+                api_key=OPENAI_API_KEY,
+                base_url=OPENAI_BASE_URL,
+                http_client=httpx.Client(proxy=OPENAI_PROXY),
+            )
+        
+        completion = client.chat.completions.create(
+            model=model,
+            messages=messages,
         )
-    else:
-        client = OpenAI(
-            api_key=OPENAI_API_KEY,
-            # Or use the `OPENAI_BASE_URL` env var
-            base_url=OPENAI_BASE_URL,
-            # example: "http://my.test.server.example.com:8083",
-            http_client=httpx.Client(proxy=OPENAI_PROXY),
-            # example:"http://my.test.proxy.example.com",
-        )
-    completion = client.chat.completions.create(
-        model=model,
-        messages=messages,
-    )
-    return completion.choices[0].message.content
+        return completion.choices[0].message.content
+    except Exception as e:
+        print(f"Error: {e}")
+        return None
 
 def output(sec, language):
     """ output
