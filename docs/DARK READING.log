@@ -121,3 +121,9 @@ Append: [Dark Reading News Desk Live From Black Hat USA 2024](https://www.darkre
 Append: [Memory Safety Is Key to Preventing Hardware Hacks](https://www.darkreading.com/endpoint-security/memory-safety-is-key-to-preventing-hardware-hacks)
 append_entries: 49
 Finish: 2024-08-15 16:11:14.578942
+------------------------------------------------------
+Started: 2024-08-15 16:37:07.188540
+Existing_entries: 50
+Fetching from https://www.darkreading.com/rss.xml
+append_entries: 0
+Finish: 2024-08-15 16:37:07.560088
