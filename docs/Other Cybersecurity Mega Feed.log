@@ -369,3 +369,12 @@ Fetching from  https://www.google.com/alerts/feeds/17211248053978002891/10192291
 Fetching from  https://lists.apple.com/rss/security-announce.rss
 append_entries: 0
 Finish: 2024-08-16 04:32:10.809781
+------------------------------------------------------
+Started: 2024-08-16 06:37:59.235688
+Existing_entries: 60
+Fetching from https://www.cisecurity.org/feed/advisories
+Fetching from  https://nao-sec.org/feed
+Fetching from  https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Fetching from  https://lists.apple.com/rss/security-announce.rss
+append_entries: 0
+Finish: 2024-08-16 06:38:00.233038
