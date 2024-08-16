@@ -5,14 +5,35 @@
 <link>https://lists.apple.com/archives/security-announce/2021/Feb/index.html</link>
 
 <item>
+<title>Why Are Organizations Losing the Ransomware Battle?</title>
+<link>https://www.darkreading.com/vulnerabilities-threats/why-are-organizations-losing-ransomware-battle</link>
+<guid>https://www.darkreading.com/vulnerabilities-threats/why-are-organizations-losing-ransomware-battle</guid>
+<content:encoded><![CDATA[
+
+Institutionalizing and sustaining fundamental cybersecurity practices requires a commitment to ongoing vigilance, active management, and a comprehensive understanding of evolving threats.
+]]></content:encoded>
+<pubDate>Fri, 16 Aug 2024 14:00:00 GMT</pubDate>
+<pubDate>Fri, 16 Aug 2024 14:00:00 GMT</pubDate>
+</item>
+<item>
+<title>New Banshee Stealer <b>macOS</b> Malware Priced at $3,000 Per Month - SecurityWeek</title>
+<link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.securityweek.com/new-banshee-stealer-macos-malware-priced-at-3000-per-month/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3c40Oya2MQfFmrwoHDFFng</link>
+<guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.securityweek.com/new-banshee-stealer-macos-malware-priced-at-3000-per-month/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3c40Oya2MQfFmrwoHDFFng</guid>
+<content:encoded><![CDATA[
+
+“While Banshee Stealer is not overly complex in its design, its focus on <b>macOS</b> ... AMD Says New Sinkclose CPU <b>Vulnerability</b> Only Affects 'Seriously&nbsp;...
+]]></content:encoded>
+<pubDate>2024-08-16T12:06:50Z</pubDate>
+<pubDate>2024-08-16T12:06:50Z</pubDate>
+</item>
+
+<item>
 <title>White House Pledges $10 Million for Open Source Initiative</title>
 <link>https://www.darkreading.com/application-security/white-house-pledges-10-million-for-open-source-initiative</link>
 <guid>https://www.darkreading.com/application-security/white-house-pledges-10-million-for-open-source-initiative</guid>
 <content:encoded><![CDATA[
-
 The Open-Source Software Prevalence Initiative, announced at DEF CON, will examine how open source software is used in critical infrastructure.
 ]]></content:encoded>
-<pubDate>Thu, 15 Aug 2024 22:36:55 GMT</pubDate>
 <pubDate>Thu, 15 Aug 2024 22:36:55 GMT</pubDate>
 </item>
 <item>
@@ -20,13 +41,10 @@ The Open-Source Software Prevalence Initiative, announced at DEF CON, will exami
 <link>https://www.darkreading.com/application-security/darpa-announces-ai-cyber-challenge-finalists</link>
 <guid>https://www.darkreading.com/application-security/darpa-announces-ai-cyber-challenge-finalists</guid>
 <content:encoded><![CDATA[
-
 Teams designed AI systems to secure open source infrastructure software to be used in industries like financial services, utilities, and healthcare. Each finalist was awarded a $2 million prize.
 ]]></content:encoded>
 <pubDate>Thu, 15 Aug 2024 22:25:24 GMT</pubDate>
-<pubDate>Thu, 15 Aug 2024 22:25:24 GMT</pubDate>
 </item>
-
 <item>
 <title>Unfixed Microsoft Entra ID Authentication Bypass Threatens Hybrid IDs</title>
 <link>https://www.darkreading.com/application-security/unfixed-microsoft-entra-id-authentication-bypass-threatens-hybrid-clouds</link>

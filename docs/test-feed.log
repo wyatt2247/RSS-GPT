@@ -278,3 +278,13 @@ Fetching from https://www.google.com/alerts/feeds/17211248053978002891/101922917
 Fetching from https://lists.apple.com/rss/security-announce.rss
 append_entries: 2
 Finish: 2024-08-16 12:57:05.833855
+------------------------------------------------------
+Started: 2024-08-16 14:21:23.854575
+Existing_entries: 55
+Fetching from https://www.darkreading.com/rss.xml
+Append: [Why Are Organizations Losing the Ransomware Battle?](https://www.darkreading.com/vulnerabilities-threats/why-are-organizations-losing-ransomware-battle)
+Fetching from https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Append: [New Banshee Stealer <b>macOS</b> Malware Priced at $3,000 Per Month - SecurityWeek](https://www.google.com/url?rct=j&sa=t&url=https://www.securityweek.com/new-banshee-stealer-macos-malware-priced-at-3000-per-month/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw3c40Oya2MQfFmrwoHDFFng)
+Fetching from https://lists.apple.com/rss/security-announce.rss
+append_entries: 2
+Finish: 2024-08-16 14:21:24.429920
