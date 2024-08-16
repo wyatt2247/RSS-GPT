@@ -228,3 +228,11 @@ Fetching from https://www.google.com/alerts/feeds/17211248053978002891/101922917
 Fetching from https://lists.apple.com/rss/security-announce.rss
 append_entries: 1
 Finish: 2024-08-15 22:31:03.287213
+------------------------------------------------------
+Started: 2024-08-16 02:28:02.635644
+Existing_entries: 53
+Fetching from https://www.darkreading.com/rss.xml
+Fetching from https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Fetching from https://lists.apple.com/rss/security-announce.rss
+append_entries: 0
+Finish: 2024-08-16 02:28:03.216544
