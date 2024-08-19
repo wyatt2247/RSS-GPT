@@ -471,3 +471,18 @@ Append: [AI SPERA and Hackers Central Partner to Expand Mexico's Security Market
 Fetching from  https://lists.apple.com/rss/security-announce.rss
 append_entries: 3
 Finish: 2024-08-19 18:36:42.243330
+------------------------------------------------------
+Started: 2024-08-19 20:26:44.379352
+Existing_entries: 71
+Fetching from https://www.cisecurity.org/feed/advisories
+Fetching from  https://nao-sec.org/feed
+Fetching from  https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Summarization failed, append the original article
+error: gpt_summary() missing 2 required positional arguments: 'keyword_length' and 'summary_length'
+Append: [Bugs in Microsoft apps for <b>macOS</b> could give privileges to attackers | SC Media](https://www.google.com/url?rct=j&sa=t&url=https://www.scmagazine.com/news/bugs-in-microsoft-apps-for-macos-could-give-privileges-to-attackers&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw3ngRKZcg9g9bCFRUZXIiqk)
+Summarization failed, append the original article
+error: gpt_summary() missing 2 required positional arguments: 'keyword_length' and 'summary_length'
+Append: [Bugs in Microsoft <b>macOS</b> apps open door to camera, mic access • The Register - Theregister](https://www.google.com/url?rct=j&sa=t&url=https://www.theregister.com/2024/08/19/cisco_talos_microsoft_macos/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw3fCYXC-pPKUE73J-XqKmvj)
+Fetching from  https://lists.apple.com/rss/security-announce.rss
+append_entries: 2
+Finish: 2024-08-19 20:26:45.440832
