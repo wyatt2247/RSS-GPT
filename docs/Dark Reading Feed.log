@@ -924,3 +924,11 @@ Filter: [Healthcare Providers Must Plan for Ransomware Attacks on Third-Party Su
 Filter: [Vectra AI Expands XDR Platform to Deliver a Real-Time View of Active Posture to Monitor Exposure to Attackers](https://www.darkreading.com/endpoint-security/vectra-ai-expands-xdr-platform-to-deliver-a-real-time-view-of-active-posture-to-monitor-exposure-to-attackers)
 append_entries: 0
 Finish: 2024-08-19 12:58:11.986741
+------------------------------------------------------
+Started: 2024-08-19 14:33:10.560760
+Existing_entries: 2
+Fetching from https://www.darkreading.com/rss.xml
+Fetch error: 403
+Fetch failed from https://www.darkreading.com/rss.xml
+append_entries: 0
+error when rendering xml, skip docs/Dark Reading Feed
