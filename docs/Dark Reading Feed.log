@@ -956,3 +956,11 @@ Fetch error: 403
 Fetch failed from https://www.darkreading.com/rss.xml
 append_entries: 0
 error when rendering xml, skip docs/Dark Reading Feed
+------------------------------------------------------
+Started: 2024-08-19 22:32:53.036141
+Existing_entries: 2
+Fetching from https://www.darkreading.com/rss.xml
+Fetch error: 403
+Fetch failed from https://www.darkreading.com/rss.xml
+append_entries: 0
+error when rendering xml, skip docs/Dark Reading Feed
