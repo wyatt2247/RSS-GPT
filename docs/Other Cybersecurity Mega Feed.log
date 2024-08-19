@@ -436,3 +436,22 @@ Fetching from  https://www.google.com/alerts/feeds/17211248053978002891/10192291
 Fetching from  https://lists.apple.com/rss/security-announce.rss
 append_entries: 0
 Finish: 2024-08-19 14:33:12.500745
+------------------------------------------------------
+Started: 2024-08-19 16:36:55.191363
+Existing_entries: 62
+Fetching from https://www.cisecurity.org/feed/advisories
+Fetching from  https://nao-sec.org/feed
+Fetching from  https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Summarization failed, append the original article
+error: gpt_summary() missing 2 required positional arguments: 'keyword_length' and 'summary_length'
+Append: [Security flaws in Microsoft Mac apps could let attackers spy on users - AppleInsider](https://www.google.com/url?rct=j&sa=t&url=https://appleinsider.com/articles/24/08/19/security-flaws-in-microsoft-mac-apps-could-let-attackers-spy-on-users&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw1HC1Swld_tAnn-ETkzySif)
+Summarization failed, append the original article
+error: gpt_summary() missing 2 required positional arguments: 'keyword_length' and 'summary_length'
+Append: [Microsoft Apps for <b>macOS</b> Exposed to Library Injection Attacks - Infosecurity Magazine](https://www.google.com/url?rct=j&sa=t&url=https://www.infosecurity-magazine.com/news/microsoft-apps-macos-exposed/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw3xHxQoMdj4Q30M-K_JUvab)
+Append: [Security flaw in Microsoft's <b>macOS</b> apps may allow hackers to spy on users - Times of India](https://www.google.com/url?rct=j&sa=t&url=https://timesofindia.indiatimes.com/technology/tech-news/security-flaw-in-microsofts-macos-apps-may-allow-hackers-to-spy-on-users-claims-researchers/articleshow/112630001.cms&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw0huziOVIHA8LGAMmfGFj3y)
+Append: [<b>Vulnerabilities</b> in Microsoft's <b>macOS</b> apps could help hackers access microphones and cameras](https://www.google.com/url?rct=j&sa=t&url=https://therecord.media/microsoft-macos-apps-vulnerabilities-cisco&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw02pNdR1kYr8hljArDxl7W0)
+Append: [0.0.0.0 Day: 18-Year-Old Browser Flaw Affects Linux and <b>macOS</b> - Security Boulevard](https://www.google.com/url?rct=j&sa=t&url=https://securityboulevard.com/2024/08/0-0-0-0-day-18-year-old-browser-flaw-affects-linux-and-macos/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw3LD7CsnlMUMmjc4fjOZwya)
+Append: [Serious flaws in Microsoft apps on <b>macOS</b> could let hackers spy on users | ITPro](https://www.google.com/url?rct=j&sa=t&url=https://www.itpro.com/security/serious-flaws-in-microsoft-apps-on-macos-could-let-hackers-spy-on-users&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw1Ubmi4XFZDdw4StZNvDyJY)
+Fetching from  https://lists.apple.com/rss/security-announce.rss
+append_entries: 6
+Finish: 2024-08-19 16:36:56.146659
