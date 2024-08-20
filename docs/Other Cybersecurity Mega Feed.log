@@ -501,3 +501,15 @@ Append: [<b>macOS</b> Users at Risk of <b>Vulnerabilities</b> in Microsoft Apps:
 Fetching from  https://lists.apple.com/rss/security-announce.rss
 append_entries: 2
 Finish: 2024-08-19 22:32:55.039703
+------------------------------------------------------
+Started: 2024-08-20 02:27:46.859074
+Existing_entries: 75
+Fetching from https://www.cisecurity.org/feed/advisories
+Fetching from  https://nao-sec.org/feed
+Fetching from  https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Summarization failed, append the original article
+error: gpt_summary() missing 2 required positional arguments: 'keyword_length' and 'summary_length'
+Append: [<b>Vulnerability</b> in Microsoft apps allowed hackers to spy on Mac users - 9to5Mac](https://www.google.com/url?rct=j&sa=t&url=https://9to5mac.com/2024/08/19/vulnerability-microsoft-apps-mac/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw0LLQ1x2EUlsMNaIprAJrYs)
+Fetching from  https://lists.apple.com/rss/security-announce.rss
+append_entries: 1
+Finish: 2024-08-20 02:27:47.872486
