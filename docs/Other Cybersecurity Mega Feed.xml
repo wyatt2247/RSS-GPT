@@ -4,15 +4,14 @@
 <title>security-announce Mailing List</title>
 <link>https://lists.apple.com/archives/security-announce/2021/Feb/index.html</link>
 
+
 <item>
 <title>Microsoft apps on Apple <b>macOS</b> susceptible to code injection attacks, find researchers</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.thehindu.com/sci-tech/technology/microsoft-apps-on-apple-macos-susceptible-to-code-injection-attacks-find-researchers/article68545854.ece&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0Gis38C-9urOJPdH8cvdrw</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.thehindu.com/sci-tech/technology/microsoft-apps-on-apple-macos-susceptible-to-code-injection-attacks-find-researchers/article68545854.ece&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0Gis38C-9urOJPdH8cvdrw</guid>
 <content:encoded><![CDATA[
-
 Microsoft apps for <b>macOS vulnerable</b> to code injection attacks due to macOS permission settings, according to Cisco Talos research.
 ]]></content:encoded>
-<pubDate>2024-08-20T08:26:06Z</pubDate>
 <pubDate>2024-08-20T08:26:06Z</pubDate>
 </item>
 <item>
@@ -20,10 +19,8 @@ Microsoft apps for <b>macOS vulnerable</b> to code injection attacks due to macO
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.gadgets360.com/laptops/news/microsoft-office-outlook-teams-security-vulnerabilities-camera-microphone-access-6376021&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw30-T_3YHkMQxFieGaihaqJ</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.gadgets360.com/laptops/news/microsoft-office-outlook-teams-security-vulnerabilities-camera-microphone-access-6376021&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw30-T_3YHkMQxFieGaihaqJ</guid>
 <content:encoded><![CDATA[
-
 Microsoft's apps for <b>macOS</b> are affected by eight security <b>vulnerabilities</b> that could allow hackers to access the camera and microphones of users&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-08-20T08:18:22Z</pubDate>
 <pubDate>2024-08-20T08:18:22Z</pubDate>
 </item>
 <item>
@@ -31,10 +28,8 @@ Microsoft's apps for <b>macOS</b> are affected by eight security <b>vulnerabilit
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.gearrice.com/update/microsoft-app-flaw-exposes-mac-users/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0tQVvAxDJUb-YfdtUOpHkF</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.gearrice.com/update/microsoft-app-flaw-exposes-mac-users/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0tQVvAxDJUb-YfdtUOpHkF</guid>
 <content:encoded><![CDATA[
-
 A <b>vulnerability</b> in Microsoft's <b>macOS</b> apps recently allowed hackers to ... This <b>exploit</b> leverages <b>macOS</b>' permission management framework&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-08-20T08:06:03Z</pubDate>
 <pubDate>2024-08-20T08:06:03Z</pubDate>
 </item>
 <item>
@@ -42,10 +37,8 @@ A <b>vulnerability</b> in Microsoft's <b>macOS</b> apps recently allowed hackers
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.firstpost.com/tech/how-a-major-vulnerability-in-microsofts-apps-allowed-hackers-to-break-into-macs-13806368.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw329mH2iEVuuVKoOaAlQFlW</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.firstpost.com/tech/how-a-major-vulnerability-in-microsofts-apps-allowed-hackers-to-break-into-macs-13806368.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw329mH2iEVuuVKoOaAlQFlW</guid>
 <content:encoded><![CDATA[
-
 A critical <b>vulnerability</b> in Microsoft's apps for <b>MacOS</b> was discovered recently. This <b>vulnerability</b> allowed hackers to spy on Mac users by&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-08-20T07:59:59Z</pubDate>
 <pubDate>2024-08-20T07:59:59Z</pubDate>
 </item>
 <item>
@@ -53,13 +46,10 @@ A critical <b>vulnerability</b> in Microsoft's apps for <b>MacOS</b> was discove
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.techzine.eu/news/security/123563/ms-office-apps-for-macos-allow-circumventing-of-permissions/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw26Z8g26w1Pon9N20UvPjcV</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.techzine.eu/news/security/123563/ms-office-apps-for-macos-allow-circumventing-of-permissions/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw26Z8g26w1Pon9N20UvPjcV</guid>
 <content:encoded><![CDATA[
-
 Some of the most widely used Microsoft Office apps for <b>macOS</b> contain a <b>vulnerability</b> that abuses existing permissions.
 ]]></content:encoded>
 <pubDate>2024-08-20T07:43:13Z</pubDate>
-<pubDate>2024-08-20T07:43:13Z</pubDate>
 </item>
-
 <item>
 <title>Microsoft 365 app for Apple <b>macOS</b> has a <b>vulnerability</b> that allows hackers to bypass ...</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://passionategeekz.com/microsoft-365-app-for-apple-macos-has-a-vulnerability-that-allows-hackers-to-bypass-permissions-and-perform-malicious-operations/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3L74exu0d_HvtosmMEFoY4</link>
