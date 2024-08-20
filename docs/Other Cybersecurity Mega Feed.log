@@ -542,3 +542,21 @@ Append: [Researchers Uncover Security Flaws In Microsoft <b>macOS</b> Apps, Pote
 Fetching from  https://lists.apple.com/rss/security-announce.rss
 append_entries: 4
 Finish: 2024-08-20 06:39:03.626541
+------------------------------------------------------
+Started: 2024-08-20 08:33:26.659685
+Existing_entries: 81
+Fetching from https://www.cisecurity.org/feed/advisories
+Fetching from  https://nao-sec.org/feed
+Fetching from  https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Summarization failed, append the original article
+error: gpt_summary() missing 2 required positional arguments: 'keyword_length' and 'summary_length'
+Append: [Microsoft apps on Apple <b>macOS</b> susceptible to code injection attacks, find researchers](https://www.google.com/url?rct=j&sa=t&url=https://www.thehindu.com/sci-tech/technology/microsoft-apps-on-apple-macos-susceptible-to-code-injection-attacks-find-researchers/article68545854.ece&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw0Gis38C-9urOJPdH8cvdrw)
+Summarization failed, append the original article
+error: gpt_summary() missing 2 required positional arguments: 'keyword_length' and 'summary_length'
+Append: [Microsoft Office, Teams <b>Vulnerabilities</b> Enable Hackers to Access Camera and Microphone ...](https://www.google.com/url?rct=j&sa=t&url=https://www.gadgets360.com/laptops/news/microsoft-office-outlook-teams-security-vulnerabilities-camera-microphone-access-6376021&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw30-T_3YHkMQxFieGaihaqJ)
+Append: [Microsoft App Flaw Exposes Mac Users - GEARRICE](https://www.google.com/url?rct=j&sa=t&url=https://www.gearrice.com/update/microsoft-app-flaw-exposes-mac-users/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw0tQVvAxDJUb-YfdtUOpHkF)
+Append: [How a major <b>vulnerability</b> in Microsoft's apps allowed hackers to break into Macs - Firstpost](https://www.google.com/url?rct=j&sa=t&url=https://www.firstpost.com/tech/how-a-major-vulnerability-in-microsofts-apps-allowed-hackers-to-break-into-macs-13806368.html&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw329mH2iEVuuVKoOaAlQFlW)
+Append: [MS Office apps for <b>macOS</b> allow circumventing of permissions - Techzine Global](https://www.google.com/url?rct=j&sa=t&url=https://www.techzine.eu/news/security/123563/ms-office-apps-for-macos-allow-circumventing-of-permissions/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw26Z8g26w1Pon9N20UvPjcV)
+Fetching from  https://lists.apple.com/rss/security-announce.rss
+append_entries: 5
+Finish: 2024-08-20 08:33:27.630118
