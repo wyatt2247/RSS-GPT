@@ -578,3 +578,34 @@ Fetching from  https://www.google.com/alerts/feeds/17211248053978002891/10192291
 Fetching from  https://lists.apple.com/rss/security-announce.rss
 append_entries: 0
 Finish: 2024-08-20 12:58:43.227232
+------------------------------------------------------
+Started: 2024-08-20 14:30:36.979843
+Existing_entries: 86
+Fetching from https://www.cisecurity.org/feed/advisories
+Fetching from  https://nao-sec.org/feed
+Fetching from  https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Summarization failed, append the original article
+error: gpt_summary() missing 2 required positional arguments: 'keyword_length' and 'summary_length'
+Append: [Microsoft “declined” to fix flaws that allow hackers to spy on Mac users - Dexerto](https://www.google.com/url?rct=j&sa=t&url=https://www.dexerto.com/tech/microsoft-declined-to-fix-flaws-that-allow-hackers-to-spy-on-mac-users-2869388/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw1No3oZQ_tfTEewsjM51tLP)
+Summarization failed, append the original article
+error: gpt_summary() missing 2 required positional arguments: 'keyword_length' and 'summary_length'
+Append: [Microsoft Office apps circumvent Mac security - Computerworld](https://www.google.com/url?rct=j&sa=t&url=https://www.computerworld.com/article/3489043/microsoft-office-apps-circumvent-mac-security.html&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw2PH88XkpvdbZ-C1V3rCUqY)
+Append: [Flaws in Microsoft Apps for <b>MacOS</b> Threaten App Permission Bypass | ChannelE2E](https://www.google.com/url?rct=j&sa=t&url=https://www.channele2e.com/brief/flaws-in-microsoft-apps-for-macos-threaten-app-permission-bypass&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw1pFwVaCwKeKU2PcBtcmo2Y)
+Append: [Patched Windows Zero-Day Used in Lazarus Attack | ChannelE2E](https://www.google.com/url?rct=j&sa=t&url=https://www.channele2e.com/brief/patched-windows-zero-day-used-in-lazarus-attack&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw3iJf7jRRBs7FaamR3-292V)
+Append: [Microsoft 365 on <b>macOS</b> users at risk from hackers, but Redmond may underestimate threat](https://www.google.com/url?rct=j&sa=t&url=https://mspoweruser.com/microsoft-365-on-macos-users-at-risk-from-hackers-but-redmond-may-underestimate-threat/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw3PU_NUTc3IBvgTVUbOVWOa)
+Append: [Cisco, Microsoft Disagree on Severity of <b>macOS</b> App <b>Vulnerabilities</b> - SecurityWeek](https://www.google.com/url?rct=j&sa=t&url=https://www.securityweek.com/cisco-microsoft-disagree-on-severity-of-macos-app-vulnerabilities/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw2K-zr4Z6qWgZprEdseEPb4)
+Append: [New Microsoft 365 <b>Vulnerabilities</b> Found to Expose Your Mac to Hackers - Techopedia](https://www.google.com/url?rct=j&sa=t&url=https://www.techopedia.com/news/new-microsoft-365-vulnerabilities-found-to-expose-your-mac-to-hackers&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw0md_SW987xtCJrDL75JOu-)
+Append: [Hackers Could <b>Exploit</b> Microsoft Teams on <b>macOS</b> to Steal Data - Hackread](https://www.google.com/url?rct=j&sa=t&url=https://hackread.com/hackers-exploit-microsoft-teams-macos-steal-data/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw01G5y3XoZ1ElxYGQkL4J_t)
+Append: [Microsoft 365 <b>MacOS</b> Apps <b>Vulnerable</b> to Security Exploits - WinBuzzer](https://www.google.com/url?rct=j&sa=t&url=https://winbuzzer.com/2024/08/20/critical-flaws-found-in-microsoft-macos-applications-xcxwbn/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw2eYZlCrOdeoEca0yC6bPIL)
+Append: [Microsoft apps on <b>macOS vulnerable</b> to potential spyware attacks, experts warn](https://www.google.com/url?rct=j&sa=t&url=https://www.indiatoday.in/amp/technology/news/story/microsoft-apps-on-macos-vulnerable-to-potential-spyware-attacks-experts-warn-2585193-2024-08-20&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw3Y2kslCPXia8zNXrtEs6-q)
+Append: [Critical <b>Vulnerability</b> In Microsoft Apps For Mac: What You Need To Know - AppleMagazine](https://www.google.com/url?rct=j&sa=t&url=https://applemagazine.com/critical-vulnerability-in-microsoft-apps-for-mac-what-you-need-to-know/67658&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw0UbAHK7dE_5NPc_mZWYJrE)
+Append: [<b>Vulnerabilities</b> in Microsoft <b>macOS</b> apps may give attackers access to microphone, camera](https://www.google.com/url?rct=j&sa=t&url=https://www.helpnetsecurity.com/2024/08/20/microsoft-macos-vulnerabilities/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw2QZwAaa7JXNiErcCAwh9y4)
+Append: [Microsoft apps for <b>macOS vulnerable</b> to hacking, researchers find - Computing UK](https://www.google.com/url?rct=j&sa=t&url=https://www.computing.co.uk/news/4348469/microsoft-apps-macos-vulnerable-hacking-researchers&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw16xoteN3NL6bB8sgRa0Dvd)
+Append: [National Public Data breach update, Flaws in <b>macOS</b> apps - CISO Series](https://www.google.com/url?rct=j&sa=t&url=https://cisoseries.com/cybersecurity-news-national-public-data-breach-update-flaws-in-macos-apps-flighttracker-configuration-issue/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw1Xde9V-LRMBHA0JTJDiC1B)
+Append: [Major Flaw in Microsoft Mac Apps Could Let Hackers Spy Through Mic and Camera](https://www.google.com/url?rct=j&sa=t&url=https://thecyberexpress.com/microsoft-apps-macs-hackers-flaw/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw1O6j64o2d0SPHeLqppX3nB)
+Append: [Microsoft App <b>Vulnerability</b> in <b>macOS</b>: Researchers Find 8 Applications <b>Vulnerable</b> to ... - LatestLY](https://www.google.com/url?rct=j&sa=t&url=https://www.latestly.com/technology/microsoft-app-vulnerability-in-macos-researchers-find-8-applications-vulnerable-to-attacks-allowing-hackers-to-get-full-permissions-of-apple-devices-6202179.html&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw0lBZ090zsJNs4Fbi5dBQN9)
+Append: [Attackers Can Spy On User Cameras Thanks To New Security <b>Vulnerabilities</b> In Different ...](https://www.google.com/url?rct=j&sa=t&url=https://www.digitalinformationworld.com/2024/08/attackers-can-spy-on-user-cameras.html&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw1nlfDKKc9KIeqCQ8Kn35Hz)
+Append: [Macs in danger due to <b>vulnerabilities</b> in Microsoft Office apps | Cybernews](https://www.google.com/url?rct=j&sa=t&url=https://cybernews.com/security/macs-in-danger-microsoft-office-apps-vulnerable/&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw0Sla-6sCYIDwZJMuttlDqD)
+Fetching from  https://lists.apple.com/rss/security-announce.rss
+append_entries: 18
+Finish: 2024-08-20 14:30:38.021946
