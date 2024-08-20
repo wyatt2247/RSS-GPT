@@ -513,3 +513,15 @@ Append: [<b>Vulnerability</b> in Microsoft apps allowed hackers to spy on Mac us
 Fetching from  https://lists.apple.com/rss/security-announce.rss
 append_entries: 1
 Finish: 2024-08-20 02:27:47.872486
+------------------------------------------------------
+Started: 2024-08-20 04:38:48.746375
+Existing_entries: 76
+Fetching from https://www.cisecurity.org/feed/advisories
+Fetching from  https://nao-sec.org/feed
+Fetching from  https://www.google.com/alerts/feeds/17211248053978002891/10192291778288081497
+Summarization failed, append the original article
+error: gpt_summary() missing 2 required positional arguments: 'keyword_length' and 'summary_length'
+Append: [CISA: Attacks leveraging critical SolarWinds RCE underway | SC Media](https://www.google.com/url?rct=j&sa=t&url=https://www.scmagazine.com/brief/cisa-attacks-leveraging-critical-solarwinds-rce-underway&ct=ga&cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&usg=AOvVaw2b-53OsR8ia7Fap7_jzWDU)
+Fetching from  https://lists.apple.com/rss/security-announce.rss
+append_entries: 1
+Finish: 2024-08-20 04:38:50.042942
