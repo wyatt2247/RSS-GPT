@@ -4,20 +4,18 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>macOS Version of HZ RAT Backdoor Targets Chinese Messaging App Users</title>
 <link>https://thehackernews.com/2024/08/macos-version-of-hz-rat-backdoor.html</link>
 <guid>https://thehackernews.com/2024/08/macos-version-of-hz-rat-backdoor.html</guid>
 <content:encoded><![CDATA[
-
 Users of Chinese instant messaging apps like DingTalk and WeChat are the target of an Apple macOS version of a backdoor named HZ RAT.
 The artifacts "almost exactly replicate the functionality of the Windows version of the backdoor and differ only in the payload, which is received in the form of shell scripts from the attackers' server," Kaspersky researcher Sergey Puzan said.
 HZ RAT was first
 ]]></content:encoded>
 <pubDate>Tue, 27 Aug 2024 21:38:00 +0530</pubDate>
-<pubDate>Tue, 27 Aug 2024 21:38:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Multiple Microsoft Apps for macOS Vulnerable to Library Injection Attacks</title>
 <link>https://www.darkreading.com/remote-workforce/multiple-microsoft-apps-for-macos-vuln-to-malicious-library-injection-attacks</link>
