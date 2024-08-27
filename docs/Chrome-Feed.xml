@@ -4,15 +4,14 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Google Chrome Update Fixes Flaw Exploited in the Wild</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/google-chrome-update-fixes-flaw-exploited-in-the-wild</link>
 <guid>https://www.darkreading.com/vulnerabilities-threats/google-chrome-update-fixes-flaw-exploited-in-the-wild</guid>
 <content:encoded><![CDATA[
-
 New Chrome release set to roll out over the next few days addresses 38 security issues in the browser.
 ]]></content:encoded>
-<pubDate>Thu, 22 Aug 2024 18:38:17 GMT</pubDate>
 <pubDate>Thu, 22 Aug 2024 18:38:17 GMT</pubDate>
 </item>
 <item>
@@ -20,10 +19,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-092</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-092</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Fri, 23 Aug 2024 02:16:03 -0400</pubDate>
 <pubDate>Fri, 23 Aug 2024 02:16:03 -0400</pubDate>
 </item>
 <item>
@@ -31,10 +28,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-087</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-087</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Wed, 07 Aug 2024 03:03:31 -0400</pubDate>
 <pubDate>Wed, 07 Aug 2024 03:03:31 -0400</pubDate>
 </item>
 <item>
@@ -42,10 +37,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-084</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-084</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 23 Jul 2024 23:03:48 -0400</pubDate>
 <pubDate>Tue, 23 Jul 2024 23:03:48 -0400</pubDate>
 </item>
 <item>
@@ -53,10 +46,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-081</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-081</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Wed, 17 Jul 2024 08:05:07 -0400</pubDate>
 <pubDate>Wed, 17 Jul 2024 08:05:07 -0400</pubDate>
 </item>
 <item>
@@ -64,10 +55,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-074</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-074</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 25 Jun 2024 15:04:25 -0400</pubDate>
 <pubDate>Tue, 25 Jun 2024 15:04:25 -0400</pubDate>
 </item>
 <item>
@@ -75,10 +64,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-072</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-072</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Wed, 12 Jun 2024 09:10:19 -0400</pubDate>
 <pubDate>Wed, 12 Jun 2024 09:10:19 -0400</pubDate>
 </item>
 <item>
@@ -86,10 +73,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-064</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-064</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Fri, 31 May 2024 02:01:37 -0400</pubDate>
 <pubDate>Fri, 31 May 2024 02:01:37 -0400</pubDate>
 </item>
 <item>
@@ -97,10 +82,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-061</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-061</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in Google Chrome that could allow for arbitrary code execution. Google Chrome is a web browser used to access the internet. Successful exploitation of this vulnerability could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the logged on user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have less rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Fri, 24 May 2024 08:59:23 -0400</pubDate>
 <pubDate>Fri, 24 May 2024 08:59:23 -0400</pubDate>
 </item>
 <item>
@@ -108,10 +91,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-058</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-058</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Wed, 15 May 2024 20:27:29 -0400</pubDate>
 <pubDate>Wed, 15 May 2024 20:27:29 -0400</pubDate>
 </item>
 <item>
@@ -119,10 +100,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-052</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-052</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of this vulnerability could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 14 May 2024 15:03:37 -0400</pubDate>
 <pubDate>Tue, 14 May 2024 15:03:37 -0400</pubDate>
 </item>
 <item>
@@ -130,10 +109,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-050</link>
 <guid>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-050</guid>
 <content:encoded><![CDATA[
-
 <p>A vulnerability has been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of this vulnerability could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Thu, 09 May 2024 22:13:23 -0400</pubDate>
 <pubDate>Thu, 09 May 2024 22:13:23 -0400</pubDate>
 </item>
 <item>
@@ -141,10 +118,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-047</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-047</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 07 May 2024 20:53:37 -0400</pubDate>
 <pubDate>Tue, 07 May 2024 20:53:37 -0400</pubDate>
 </item>
 <item>
@@ -152,10 +127,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-044</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-044</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 30 Apr 2024 21:42:46 -0400</pubDate>
 <pubDate>Tue, 30 Apr 2024 21:42:46 -0400</pubDate>
 </item>
 <item>
@@ -163,10 +136,8 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-043</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-043</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Wed, 24 Apr 2024 18:47:25 -0400</pubDate>
 <pubDate>Wed, 24 Apr 2024 18:47:25 -0400</pubDate>
 </item>
 <item>
@@ -174,7 +145,6 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 <link>http://nao-sec.org/2021/04/exploit-kit-still-sharpens-a-sword.html</link>
 <guid>http://nao-sec.org/2021/04/exploit-kit-still-sharpens-a-sword.html</guid>
 <content:encoded><![CDATA[
-
 <p>Note: This blog post doesn’t make sense to many</p>
 
 <p>It’s 2021 now. Moreover, the quarter has already passed. I thought Drive-by Download attack was dead four years ago. Angler Exploit Kit has disappeared, pseudo-Darkleech and EITest campaign have disappeared, and RIG Exploit Kit has also declined. At that time, Drive-by Download attack was definitely supposed to die. However, even if in 2021, it will not disappear fire still slightly.</p>
@@ -334,14 +304,12 @@ New Chrome release set to roll out over the next few days addresses 38 security 
 [4] <a href="http://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_103_koike-takai_jp.pdf">http://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_103_koike-takai_jp.pdf</a></p>
 ]]></content:encoded>
 <pubDate>2021-04-15T15:00:00+00:00</pubDate>
-<pubDate>2021-04-15T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Steady Evolution of Fallout v4</title>
 <link>http://nao-sec.org/2019/07/steady-evolution-of-fallout-v4.html</link>
 <guid>http://nao-sec.org/2019/07/steady-evolution-of-fallout-v4.html</guid>
 <content:encoded><![CDATA[
-
 <h2 id="first">First</h2>
 <p>We have been observing the Fallout Exploit Kit since August 2018. Fallout is using non-characteristic URL and heavily obfuscated landing page. The user still exists and attacks are observed daily. Recently, we were investigating an attack campaign that infects Raccoon Stealer in the flow of PopAds-&gt; KeitaroTDS-&gt; Fallout.</p>
 
@@ -871,14 +839,12 @@ Once again, It uses the dualaccModFFF1Hash algorithm.</p>
 <p>Fallout has been heavily updated, making analysis very difficult. Very sophisticated techniques such as Diffie-Hellman key exchange, VM detection, process detection, etc. are used. We need to be careful as they may be updated in the future.</p>
 ]]></content:encoded>
 <pubDate>2019-07-09T15:00:00+00:00</pubDate>
-<pubDate>2019-07-09T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Analysis of Fallout Exploit Kit v3</title>
 <link>http://nao-sec.org/2019/03/analysis-of-fallout-exploit-kit-v3.html</link>
 <guid>http://nao-sec.org/2019/03/analysis-of-fallout-exploit-kit-v3.html</guid>
 <content:encoded><![CDATA[
-
 <h2 id="first">First</h2>
 <p>We already tweeted, but the Fallout Exploit Kit has been updated. In the new Fallout, the traffic chain, obfuscation method of landing page and shellcode are changing. We will introduce details on the changes using <a href="http://malware-traffic-analysis.net/2019/02/28/index.html">Malware-Traffic-Analysis.net’s saz file</a>.</p>
 
@@ -1192,17 +1158,14 @@ $I1111111 = New-Object lI111;
 <p>Fallout has also evolved. Analysis has become more difficult than before. You should keep an eye on Fallout in the future.</p>
 ]]></content:encoded>
 <pubDate>2019-03-06T15:00:00+00:00</pubDate>
-<pubDate>2019-03-06T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Google Addresses Tenth Zero-Day in Chrome This Year - WinBuzzer</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://winbuzzer.com/2024/08/27/google-addresses-tenth-zero-day-in-chrome-this-year-xcxwbn/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw1t036MLesemfHNhNcLI4Dr</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://winbuzzer.com/2024/08/27/google-addresses-tenth-zero-day-in-chrome-this-year-xcxwbn/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw1t036MLesemfHNhNcLI4Dr</guid>
 <content:encoded><![CDATA[
-
 In an ongoing battle against security exploits, Google has patched the tenth zero-day <b>vulnerability</b> in Chrome this year. ... <b>macOS</b>, along with version&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-08-27T14:00:02Z</pubDate>
 <pubDate>2024-08-27T14:00:02Z</pubDate>
 </item>
 <item>
@@ -1210,11 +1173,9 @@ In an ongoing battle against security exploits, Google has patched the tenth zer
 <link>https://www.securityweek.com/google-warns-of-exploited-chrome-vulnerability/</link>
 <guid>https://www.securityweek.com/google-warns-of-exploited-chrome-vulnerability/</guid>
 <content:encoded><![CDATA[
-
 <p>Google flags another high-severity vulnerability patched with the latest Chrome 128 release as exploited in the wild.</p>
 <p>The post <a href="https://www.securityweek.com/google-warns-of-exploited-chrome-vulnerability/">Google Warns of Exploited Chrome Vulnerability</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
 ]]></content:encoded>
-<pubDate>Tue, 27 Aug 2024 08:58:53 +0000</pubDate>
 <pubDate>Tue, 27 Aug 2024 08:58:53 +0000</pubDate>
 </item>
 <item>
@@ -1222,7 +1183,6 @@ In an ongoing battle against security exploits, Google has patched the tenth zer
 <link>https://www.cysecurity.news/2024/08/new-styx-stealer-malware-targets.html</link>
 <guid>https://www.cysecurity.news/2024/08/new-styx-stealer-malware-targets.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div style="text-align: justify;"><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2cs1e52c2zZX_kEEBVYJx6SW7nHbWCgvA_C3YS0RDLwZnV7CM6sViUxYQFMzQhH6Bt3M0winQRK0csAATRO1QA2kY25Xs4a6EIjcqnW32pt172h3gD1AiioGphJITok1gX0w_ZJEw_rVFVpQtntBg0mdHwNbenSq8RStUtFPBArUmwOrq8VPECnGnKoM/s1280/hacker-1944688_1280.jpg" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2cs1e52c2zZX_kEEBVYJx6SW7nHbWCgvA_C3YS0RDLwZnV7CM6sViUxYQFMzQhH6Bt3M0winQRK0csAATRO1QA2kY25Xs4a6EIjcqnW32pt172h3gD1AiioGphJITok1gX0w_ZJEw_rVFVpQtntBg0mdHwNbenSq8RStUtFPBArUmwOrq8VPECnGnKoM/s600/hacker-1944688_1280.jpg" width="600" /></a></div>A new malware strain known as Styx Stealer has recently emerged, posing a significant threat to online security. Discovered in April 2024, Styx Stealer primarily targets popular browsers based on the Chromium and Gecko engines, such as Chrome and Firefox. The malware is designed to pilfer a wide range of sensitive information from these browsers, including saved passwords, cookies, auto-fill data (which may include credit card details), cryptocurrency wallet information, system data like hardware specifics, external IP addresses, and even screenshots.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The implications of such a broad data theft capability are alarming, as the stolen information could be used for identity theft, financial fraud, or even more targeted cyberattacks.
 
 Styx Stealer doesn’t stop at browsers. It also targets widely used instant messaging applications like Telegram and Discord. By compromising these platforms, the malware can gain access to users’ chats, potentially exposing sensitive conversations. This further exacerbates the threat, as the attackers could exploit this data to compromise the victim’s online identity or carry out social engineering attacks.
@@ -1235,7 +1195,6 @@ Styx Stealer appears to be a derivative of the Phemedrone Stealer malware, inher
 
 The discovery of Styx Stealer highlights the ongoing evolution of cyber threats. Although the leak by the developer has likely disrupted Styx Stealer’s initial operations, it’s crucial to remain vigilant as cybercriminals adapt quickly.</div>
 ]]></content:encoded>
-<pubDate>2024-08-25T11:03:00.002-04:00</pubDate>
 <pubDate>2024-08-25T11:03:46.174-04:00</pubDate>
 </item>
 <item>
@@ -1243,12 +1202,10 @@ The discovery of Styx Stealer highlights the ongoing evolution of cyber threats.
 <link>https://thehackernews.com/2024/08/google-warns-of-cve-2024-7965-chrome.html</link>
 <guid>https://thehackernews.com/2024/08/google-warns-of-cve-2024-7965-chrome.html</guid>
 <content:encoded><![CDATA[
-
 Google has revealed that a security flaw that was patched as part of a software update rolled out last week to its Chrome browser has come under active exploitation in the wild.
 Tracked as CVE-2024-7965, the vulnerability has been described as an inappropriate implementation bug in the V8 JavaScript and WebAssembly engine.
 "Inappropriate implementation in V8 in Google Chrome prior to
 ]]></content:encoded>
-<pubDate>Tue, 27 Aug 2024 10:15:00 +0530</pubDate>
 <pubDate>Tue, 27 Aug 2024 10:15:00 +0530</pubDate>
 </item>
 <item>
@@ -1256,12 +1213,10 @@ Tracked as CVE-2024-7965, the vulnerability has been described as an inappropria
 <link>https://thehackernews.com/2024/08/new-qilin-ransomware-attack-uses-vpn.html</link>
 <guid>https://thehackernews.com/2024/08/new-qilin-ransomware-attack-uses-vpn.html</guid>
 <content:encoded><![CDATA[
-
 The threat actors behind a recently observed Qilin ransomware attack have stolen credentials stored in Google Chrome browsers on a small set of compromised endpoints.
 The use of credential harvesting in connection with a ransomware infection marks an unusual twist, and one that could have cascading consequences, cybersecurity firm Sophos said in a Thursday report.
 The attack, detected in July
 ]]></content:encoded>
-<pubDate>Fri, 23 Aug 2024 15:54:00 +0530</pubDate>
 <pubDate>Fri, 23 Aug 2024 15:54:00 +0530</pubDate>
 </item>
 <item>
@@ -1269,12 +1224,10 @@ The attack, detected in July
 <link>https://thehackernews.com/2024/08/google-fixes-high-severity-chrome-flaw.html</link>
 <guid>https://thehackernews.com/2024/08/google-fixes-high-severity-chrome-flaw.html</guid>
 <content:encoded><![CDATA[
-
 Google has rolled out security fixes to address a high-severity security flaw in its Chrome browser that it said has come under active exploitation in the wild.
 Tracked as CVE-2024-7971, the vulnerability has been described as a type confusion bug in the V8 JavaScript and WebAssembly engine.
 "Type confusion in V8 in Google Chrome prior to 128.0.6613.84 allowed a remote attacker to exploit heap
 ]]></content:encoded>
-<pubDate>Thu, 22 Aug 2024 10:49:00 +0530</pubDate>
 <pubDate>Thu, 22 Aug 2024 10:49:00 +0530</pubDate>
 </item>
 <item>
@@ -1282,10 +1235,8 @@ Tracked as CVE-2024-7971, the vulnerability has been described as a type confusi
 <link>https://portswigger.net/research/exploiting-xss-in-hidden-inputs-and-meta-tags</link>
 <guid>https://portswigger.net/research/exploiting-xss-in-hidden-inputs-and-meta-tags</guid>
 <content:encoded><![CDATA[
-
 In this post we are going to show how you can (ab)use the new HTML popup functionality in Chrome to exploit XSS in meta tags and hidden inputs. It all started when I noticed the new popover behaviour
 ]]></content:encoded>
-<pubDate>Tue, 11 Jul 2023 13:00:00 GMT</pubDate>
 <pubDate>Tue, 11 Jul 2023 13:00:00 GMT</pubDate>
 </item>
 <item>
@@ -1293,10 +1244,8 @@ In this post we are going to show how you can (ab)use the new HTML popup functio
 <link>https://portswigger.net/research/the-curl-quirk-that-exposed-burp-suite-amp-google-chrome</link>
 <guid>https://portswigger.net/research/the-curl-quirk-that-exposed-burp-suite-amp-google-chrome</guid>
 <content:encoded><![CDATA[
-
 In this post, we'll explore a little-known feature in curl that led to a local-file disclosure vulnerability in both Burp Suite Pro, and Google Chrome. We patched Burp Suite a while back, but suspect
 ]]></content:encoded>
-<pubDate>Tue, 28 Mar 2023 13:13:51 GMT</pubDate>
 <pubDate>Tue, 28 Mar 2023 13:13:51 GMT</pubDate>
 </item>
 <item>
@@ -1304,10 +1253,8 @@ In this post, we'll explore a little-known feature in curl that led to a local-f
 <link>https://portswigger.net/research/using-hackability-to-uncover-a-chrome-infoleak</link>
 <guid>https://portswigger.net/research/using-hackability-to-uncover-a-chrome-infoleak</guid>
 <content:encoded><![CDATA[
-
 I've been hacking browsers for over 15 years and one of the challenges I set myself was to find a SOP bypass or info leak in every major browser. Chrome was the last browser standing…until now. This p
 ]]></content:encoded>
-<pubDate>Thu, 01 Sep 2022 13:00:00 GMT</pubDate>
 <pubDate>Thu, 01 Sep 2022 13:00:00 GMT</pubDate>
 </item>
 <item>
@@ -1315,10 +1262,8 @@ I've been hacking browsers for over 15 years and one of the challenges I set mys
 <link>https://portswigger.net/research/framing-without-iframes</link>
 <guid>https://portswigger.net/research/framing-without-iframes</guid>
 <content:encoded><![CDATA[
-
 Whilst testing for XSS vectors, we found some new ways of framing a web site that don't use the iframe element. Naturally, we've updated our XSS cheat sheet to document them. We discovered that Chrome
 ]]></content:encoded>
-<pubDate>Wed, 27 Jul 2022 14:57:48 GMT</pubDate>
 <pubDate>Wed, 27 Jul 2022 14:57:48 GMT</pubDate>
 </item>
 <item>
@@ -1326,7 +1271,6 @@ Whilst testing for XSS vectors, we found some new ways of framing a web site tha
 <link>http://security.googleblog.com/2024/08/post-quantum-cryptography-standards.html</link>
 <guid>http://security.googleblog.com/2024/08/post-quantum-cryptography-standards.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Royal Hansen, VP, Privacy, Safety and Security Engineering, Google, and Phil Venables, VP, TI Security & CISO, Google Cloud</span>
 
 <p>
@@ -1405,7 +1349,6 @@ Google engineers have contributed to the standards released by NIST, as well as 
 As we make progress on our own PQC transition, Google will continue to provide PQC updates on Google services, with updates to come from Android, Chrome, Cloud, and others.
 </p>
 ]]></content:encoded>
-<pubDate>2024-08-13T00:33:00.003-04:00</pubDate>
 <pubDate>2024-08-13T10:00:07.223-04:00</pubDate>
 </item>
 <item>
@@ -1413,7 +1356,6 @@ As we make progress on our own PQC transition, Google will continue to provide P
 <link>http://security.googleblog.com/2024/07/improving-security-of-chrome-cookies-on.html</link>
 <guid>http://security.googleblog.com/2024/07/improving-security-of-chrome-cookies-on.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Will Harris, Chrome Security Team</span>
 
 <p>
@@ -1455,7 +1397,6 @@ To further help detect any incompatibilities, Chrome emits an event when a faile
 App-Bound Encryption increases the cost of data theft to attackers and also makes their actions far noisier on the system. It helps defenders draw a clear line in the sand for what is acceptable behavior for other apps on the system. As the malware landscape continually evolves we are keen to continue engaging with others in the security community on improving detections and strengthening operating system protections, such as stronger app isolation primitives, for any bypasses.
 </p>
 ]]></content:encoded>
-<pubDate>2024-07-30T13:01:00.002-04:00</pubDate>
 <pubDate>2024-07-30T13:02:03.926-04:00</pubDate>
 </item>
 <item>
@@ -1463,7 +1404,6 @@ App-Bound Encryption increases the cost of data theft to attackers and also make
 <link>http://security.googleblog.com/2024/07/building-security-into-redesigned.html</link>
 <guid>http://security.googleblog.com/2024/07/building-security-into-redesigned.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Jasika Bawa, Lily Chen, and Daniel Rubery, Chrome Security</span>
 
 <p>
@@ -1526,7 +1466,6 @@ For those who use Standard Protection mode which is the default in Chrome, we st
 The Chrome Security team works closely with Safe Browsing, Google's <a href="https://blog.google/threat-analysis-group/">Threat Analysis Group</a>, and security researchers from around the world to gain insights into the techniques attackers are using. Using these insights, we are constantly adapting our product strategy to stay ahead of attackers and to keep users safe while downloading files in Chrome. We look forward to sharing more in the future!
 </p>
 ]]></content:encoded>
-<pubDate>2024-07-24T12:00:00.002-04:00</pubDate>
 <pubDate>2024-07-24T12:01:36.224-04:00</pubDate>
 </item>
 <item>
@@ -1534,7 +1473,6 @@ The Chrome Security team works closely with Safe Browsing, Google's <a href="htt
 <link>http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html</link>
 <guid>http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Chrome Root Program, Chrome Security Team</span>
 
 <p>
@@ -1695,7 +1633,6 @@ Customer organizations should defer to platform provider guidance.
 </p><h3><strong>What about other Google products?</strong></h3><p>
 Other Google product team updates may be made available in the future.</p><p></p><p></p>
 ]]></content:encoded>
-<pubDate>2024-06-27T13:16:00.001-04:00</pubDate>
 <pubDate>2024-07-22T14:53:37.400-04:00</pubDate>
 </item>
 <item>
@@ -1703,7 +1640,6 @@ Other Google product team updates may be made available in the future.</p><p></p
 <link>http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html</link>
 <guid>http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Benjamin Ackerman, Anunoy Ghosh and David Warren, Chrome Security Team </span>
 
 
@@ -1842,7 +1778,6 @@ The Enhanced protection mode of Safe Browsing is Chrome’s <a href="https://sec
 </p>
 </div>
 ]]></content:encoded>
-<pubDate>2024-06-20T12:20:00.000-04:00</pubDate>
 <pubDate>2024-06-20T12:20:37.708-04:00</pubDate>
 </item>
 <item>
@@ -1850,7 +1785,6 @@ The Enhanced protection mode of Safe Browsing is Chrome’s <a href="https://sec
 <link>http://security.googleblog.com/2024/04/detecting-browser-data-theft-using.html</link>
 <guid>http://security.googleblog.com/2024/04/detecting-browser-data-theft-using.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by  Will Harris, Chrome Security Team</span>
 
 
@@ -1977,7 +1911,6 @@ The Enhanced protection mode of Safe Browsing is Chrome’s <a href="https://sec
 </p>
 <p>This blog has described a technique for strong detection of cookie and credential theft. We hope that all defenders find this post useful. Thanks to Microsoft for adding the DPAPIDefInformationEvent log type, without which this would not be possible.</p>
 ]]></content:encoded>
-<pubDate>2024-04-30T12:14:00.000-04:00</pubDate>
 <pubDate>2024-04-30T12:14:48.193-04:00</pubDate>
 </item>
 <item>
@@ -1985,7 +1918,6 @@ The Enhanced protection mode of Safe Browsing is Chrome’s <a href="https://sec
 <link>http://security.googleblog.com/2024/04/uncovering-potential-threats-to-your.html</link>
 <guid>http://security.googleblog.com/2024/04/uncovering-potential-threats-to-your.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Yoshi Yamaguchi, Santiago Díaz, Maud Nalpas,  Eiji Kitamura, DevRel team</span>
 
 <p>
@@ -2210,7 +2142,6 @@ In this article, we explained how web developers can collect client-side issues 
 </li><li><a href="https://bughunters.google.com/blog/5896512897417216/a-recipe-for-scaling-security">A Recipe for Scaling Security – Google Bug Hunters</a>
 </li></ul>
 ]]></content:encoded>
-<pubDate>2024-04-23T13:15:00.000-04:00</pubDate>
 <pubDate>2024-04-23T13:15:47.498-04:00</pubDate>
 </item>
 <item>
@@ -2218,7 +2149,6 @@ In this article, we explained how web developers can collect client-side issues 
 <link>http://security.googleblog.com/2024/04/prevent-generative-ai-data-leaks-with.html</link>
 <guid>http://security.googleblog.com/2024/04/prevent-generative-ai-data-leaks-with.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted Kaleigh Rosenblat, Chrome Enterprise Senior Staff Software Engineer, Security Lead </span>
 
 <p>
@@ -2230,7 +2160,6 @@ Businesses want to leverage the power of LLMs, like Gemini, but many may have se
 <p>
 In this blog post, we'll explore reporting and enforcement policies that enterprise security teams can implement within <a href="https://chromeenterprise.google/products/chrome-enterprise-premium/">Chrome Enterprise Premium</a> for data loss prevention (DLP).</p><p>1.&nbsp;<strong>View login events*</strong> to understand usage of Generative AI services within the organization. With <a href="https://support.google.com/chrome/a/answer/11375053?hl=en">Chrome Enterprise's Reporting Connector</a>, security and IT teams can see when a user successfully signs into a specific domain, including Generative AI websites. Security Operations teams can further leverage this telemetry to detect anomalies and threats by streaming the data into <a href="https://chronicle.security/">Chronicle</a> or other <a href="https://support.google.com/chrome/a/answer/11375053?hl=en">third-party SIEMs</a> at no additional cost.</p><p>2.&nbsp;<strong>Enable URL Filtering </strong>to warn users about sensitive data policies and let them decide whether or not they want to navigate to the URL, or to block users from navigating to certain groups of sites altogether.</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMt_f50AXMmZyo61C-WE0P4SSv2a8gO3VvV0JxW8uH84Mc-Np618NK3_KMmg4U-O9MmZnjwE7OP3FuhBT5e9tABl3N3V44MvsYaz9rSX50GxGuL5gQ3aDE5AyfPtb-nxB_0Y1rW19AV1ogvt8ZKRd4r6rwrLQreQzWWOiSVfAayedBAASUdLC330oiNY9w/s1274/unnamed%20(1).png" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMt_f50AXMmZyo61C-WE0P4SSv2a8gO3VvV0JxW8uH84Mc-Np618NK3_KMmg4U-O9MmZnjwE7OP3FuhBT5e9tABl3N3V44MvsYaz9rSX50GxGuL5gQ3aDE5AyfPtb-nxB_0Y1rW19AV1ogvt8ZKRd4r6rwrLQreQzWWOiSVfAayedBAASUdLC330oiNY9w/s16000/unnamed%20(1).png" /></a></div><br /><p>For example, with Chrome Enterprise URL Filtering, IT admins can create rules that warn developers  not to submit source code to specific Generative AI apps or tools, or block them.</p><p>3.&nbsp;<strong>Warn, block or monitor sensitive data actions within Generative AI websites </strong>with dynamic content-based rules for actions like paste, file uploads/downloads, and print.&nbsp;<a href="https://support.google.com/a/answer/10104463?hl=en">Chrome Enterprise DLP rules</a> give IT admins granular control over browser activities, such as entering financial information in Gen AI websites. Admins can customize DLP rules to restrict the type and amount of data entered into these websites from managed browsers.</p><p>For most organizations, safely leveraging Generative AI requires a certain amount of control. As enterprises work through their policies and processes involving GenAI, <a href="https://chromeenterprise.google/browser/">Chrome Enterprise Premium</a> empowers them to strike the balance that works best. Hear directly from security leaders at Snap on their use of DLP for Gen AI in <a href="https://youtu.be/9f97uhY6iW0?feature=shared&amp;t=439">this recording here.</a></p><p>Learn more about how Chrome Enterprise can secure businesses just like yours <a href="https://chromeenterprise.google/products/chrome-enterprise-premium/">here</a>.</p><p>*Available at no additional cost in <a href="https://chromeenterprise.google/products/cloud-management/">Chrome Enterprise Core</a></p>
 ]]></content:encoded>
-<pubDate>2024-04-18T12:07:00.002-04:00</pubDate>
 <pubDate>2024-04-18T13:40:42.728-04:00</pubDate>
 </item>
 <item>
@@ -2238,7 +2167,6 @@ In this blog post, we'll explore reporting and enforcement policies that enterpr
 <link>http://security.googleblog.com/2024/03/blog-post.html</link>
 <guid>http://security.googleblog.com/2024/03/blog-post.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Jasika Bawa, Xinghui Lu, Google Chrome Security &amp; Jonathan Li, Alex Wozniak, Google Safe Browsing
 </span>
 <p>
@@ -2364,7 +2292,6 @@ The real-time feature of the Standard protection mode of Safe Browsing is on by 
 While Chrome is the first surface where these protections are available, we plan to make them available to eligible developers for non-commercial use cases via the Safe Browsing API. Using the API, developers and privacy server operators can partner to better protect their products’ users from fast-moving malicious actors in a privacy-preserving manner. To learn more, keep an eye out for our upcoming developer documentation to be published on the <a href="https://developers.google.com/">Google for Developers</a> site.
 </p>
 ]]></content:encoded>
-<pubDate>2024-03-14T10:00:00.010-04:00</pubDate>
 <pubDate>2024-03-14T12:01:32.039-04:00</pubDate>
 </item>
 <item>
@@ -2372,7 +2299,6 @@ While Chrome is the first surface where these protections are available, we plan
 <link>http://security.googleblog.com/2024/03/vulnerability-reward-program-2023-year.html</link>
 <guid>http://security.googleblog.com/2024/03/vulnerability-reward-program-2023-year.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Sarah Jacobus, Vulnerability Rewards Team</span>
 
 <p>
@@ -2466,7 +2392,6 @@ A huge thank you to our bug hunter community for helping to make Google products
 <em>Thank you to Adam Bacchus, Dirk Göhmann, Eduardo Vela, Sarah Jacobus, Amy Ressler, Martin Straka, Jan Keller, Tony Mendez. </em>
 </p>
 ]]></content:encoded>
-<pubDate>2024-03-12T11:59:00.000-04:00</pubDate>
 <pubDate>2024-03-12T11:59:14.127-04:00</pubDate>
 </item>
 <item>
@@ -2474,7 +2399,6 @@ A huge thank you to our bug hunter community for helping to make Google products
 <link>http://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html</link>
 <guid>http://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Alex Rebert, Software Engineer, Christoph Kern, Principal Engineer, Security Foundations</span><div><br /></div><div><span class="byline-author"><br /></span></div><div><span class="byline-author"><p dir="ltr" style="line-height: 1.38; margin-bottom: 12pt; margin-top: 12pt;"><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">Google’s Project Zero </span><a href="https://googleprojectzero.blogspot.com/2022/04/the-more-you-know-more-you-know-you.html"><span style="color: #1155cc; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">reports</span></a><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;"> that </span><a href="https://www.memorysafety.org/docs/memory-safety/"><span style="color: #1155cc; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">memory safety vulnerabilities</span></a><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">—security defects caused by subtle coding errors related to how a program accesses memory—have been "the standard for attacking software for the last few decades and it’s still how attackers are having success". Their analysis shows two thirds of 0-day exploits detected in the wild used memory corruption vulnerabilities. Despite substantial investments to improve memory-unsafe languages, those vulnerabilities continue to top the </span><a href="https://cwe.mitre.org/top25/archive/2023/2023_kev_list.html"><span style="color: #1155cc; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">most commonly exploited vulnerability classes</span></a><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">.</span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 12pt; margin-top: 12pt;"></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 12pt; margin-top: 12pt;"><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">In this post, we share our perspective on memory safety in a </span><a href="https://research.google/pubs/pub53121/"><span style="color: #1155cc; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">comprehensive whitepaper</span></a><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">. This paper delves into the data, challenges of tackling memory unsafety, and discusses possible approaches for achieving memory safety and their tradeoffs. We'll also highlight our commitments towards implementing several of the solutions outlined in the whitepaper, most recently with a </span><a href="https://security.googleblog.com/2024/02/improving-interoperability-between-rust-and-c.html"><span style="color: #1155cc; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">$1,000,000 grant to the Rust Foundation</span></a><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">, thereby advancing the development of a robust memory-safe ecosystem.</span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 12pt; margin-top: 12pt;"></p>
   
   <h1 dir="ltr" style="line-height: 1.38; margin-bottom: 10pt; margin-top: 24pt;"><span style="color: #4285f4; font-family: Roboto, sans-serif; font-size: 16pt; font-weight: 400; vertical-align: baseline;">Why we’re publishing this now</span></h1><p dir="ltr" style="line-height: 1.38; margin-bottom: 12pt; margin-top: 12pt;"><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">2022 marked the 50th anniversary of memory safety vulnerabilities. Since then, memory safety risks have grown more obvious. Like others', Google's internal vulnerability data and research show that memory safety bugs are widespread and one of the leading causes of vulnerabilities in memory-unsafe codebases. Those vulnerabilities endanger end users, our industry, and the broader society. We're encouraged to see governments also taking this issue seriously, as with the U.S. Office of the National Cyber Director publication of a </span><a href="https://www.whitehouse.gov/wp-content/uploads/2024/02/Final-ONCD-Technical-Report.pdf"><span style="color: #1155cc; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">paper</span></a><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;"> on the topic last week.</span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 12pt; margin-top: 12pt;"></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 12pt; margin-top: 12pt;"><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">By sharing our insights and experiences, we hope to inspire the broader community and industry to adopt memory-safe practices and technologies, ultimately making technology safer.</span></p><p dir="ltr" style="line-height: 1.38; margin-bottom: 12pt; margin-top: 12pt;"></p>
@@ -2496,7 +2420,6 @@ A huge thank you to our bug hunter community for helping to make Google products
   
   <p dir="ltr" style="line-height: 1.38; margin-bottom: 10pt; margin-top: 0pt;"><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">To access the full whitepaper and learn more about Google's perspective on memory safety, visit </span><a href="https://research.google/pubs/secure-by-design-googles-perspective-on-memory-safety/"><span style="color: #1155cc; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;">https://research.google/pubs/secure-by-design-googles-perspective-on-memory-safety/</span></a><span style="color: #434343; font-family: Roboto, sans-serif; font-size: 12pt; vertical-align: baseline;"> </span></p></span></div>
 ]]></content:encoded>
-<pubDate>2024-03-04T14:00:00.022-05:00</pubDate>
 <pubDate>2024-03-08T05:12:51.193-05:00</pubDate>
 </item>
 <item>
@@ -2504,7 +2427,6 @@ A huge thank you to our bug hunter community for helping to make Google products
 <link>https://www.thezdi.com/blog/2024/8/14/cve-2024-38213-copy2pwn-exploit-evades-windows-web-protections</link>
 <guid>https://www.thezdi.com/blog/2024/8/14/cve-2024-38213-copy2pwn-exploit-evades-windows-web-protections</guid>
 <content:encoded><![CDATA[
-
 <p class=""><em>Zero Day Initiative threat researchers discovered CVE-2024-38213, a simple and effective way to bypass Windows mark-of-the-web protections leading to remote code execution.</em></p><p class="">In March 2024, Trend Micro’s Zero Day Initiative Threat Hunting team started analyzing samples connected to the activity carried out by DarkGate operators to infect users through copy-and-paste operations. This DarkGate campaign was an update from a <a href="https://www.trendmicro.com/en_us/research/24/c/cve-2024-21412--darkgate-operators-exploit-microsoft-windows-sma.html">previous campaign</a>&nbsp; in which the DarkGate operators were exploiting a zero-day vulnerability, <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21412">CVE-2024-21412</a>, which we disclosed to Microsoft earlier this year. </p><p class="">The investigation into this campaign directly influenced further vulnerability research into Windows Defender SmartScreen and how files originating from WebDAV shares are handled during copy-and-paste operations. As a result, we discovered and reported CVE-2024-38213 to Microsoft, which they patched in June. This exploit, which we've named copy2pwn, results in a file from a WebDAV share being copied locally without Mark-of-the-Web protections.</p><h2>What is Web-based Distributed Authoring and Versioning (WebDAV)?</h2><p class="">Web-based Distributed Authoring and Versioning (WebDAV) is an extension to the Hypertext Transfer Protocol (HTTP). It provides added functionality to HTTP, including features such as authoring, sharing, and versioning.</p>
 
 
@@ -3350,14 +3272,12 @@ A huge thank you to our bug hunter community for helping to make Google products
   <p class="">Copy and paste operations are ubiquitous so Windows users need to ensure that they are fully protected from <a href="https://www.geeksforgeeks.org/clipboard-hijacking-attack/" target="_blank" title="https://www.geeksforgeeks.org/clipboard-hijacking-attack/">clipboard hijacking</a>, <a href="https://www.geeksforgeeks.org/what-is-pastejacking/" target="_blank" title="https://www.geeksforgeeks.org/what-is-pastejacking/">pastejacking</a>&nbsp;, and copy2pwn attacks, especially in light of recent threat actor activity leveraging WebDAV shares for payload deployment.</p><h2>Conclusion</h2><p class="">The Zero Day Initiative Threat Hunting Team constantly monitors for new and emerging zero-day threats. During our analysis of existing and previous threat actors and APT activities, we often discover new tactics, techniques, procedures, and hidden zero-day vulnerabilities. </p><p class="">This case emphasizes the integration of ZDI threat hunting with proactive vulnerability research within the ZDI program. By combining threat research with the Zero Day Initiative's core vulnerability research program, the ZDI Threat Hunting Team can develop new adversarial models and simulate new attack strategies as they might occur in the real world. This integration enables us to protect and defend customers from potentially hidden attack methods and chains before threat actors can incorporate them into their attack strategies.</p><p class="">We’ll be back with more findings as we have them. Until then, follow the team on <a href="https://www.twitter.com/thezdi">Twitter</a>, <a href="https://infosec.exchange/@thezdi">Mastodon</a>, <a href="https://www.linkedin.com/company/zerodayinitiative">LinkedIn</a>, or <a href="https://www.instagram.com/thezdi">Instagram</a> for the latest in exploit techniques and security patches.</p>
 ]]></content:encoded>
 <pubDate>Thu, 15 Aug 2024 15:41:52 +0000</pubDate>
-<pubDate>Thu, 15 Aug 2024 15:41:52 +0000</pubDate>
 </item>
 <item>
 <title>CVE-2024-2887: A Pwn2Own Winning Bug in Google Chrome</title>
 <link>https://www.thezdi.com/blog/2024/5/2/cve-2024-2887-a-pwn2own-winning-bug-in-google-chrome</link>
 <guid>https://www.thezdi.com/blog/2024/5/2/cve-2024-2887-a-pwn2own-winning-bug-in-google-chrome</guid>
 <content:encoded><![CDATA[
-
 <p class=""><em>In this guest blog from Master of Pwn winner Manfred Paul, he details CVE-2024-2887 – a type confusion bug that occurs in both Google Chrome and Microsoft Edge (Chromium). He used this bug as a part of his winning exploit that led to code execution in the renderer of both browsers. This bug was quickly patched by both </em><a href="https://chromereleases.googleblog.com/2024/03/stable-channel-update-for-desktop_26.html"><em>Google</em></a><em> and </em><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-2887"><em>Microsoft</em></a><em>. Manfred has graciously provided this detailed write-up of the vulnerability and how he exploited it at the contest.</em></p>
 
 
@@ -3450,17 +3370,14 @@ actual underlying backing store. This offset must be taken into account when com
   <p class=""><em>Thanks again to Manfred for providing this thorough write-up. He has contributed multiple bugs to the ZDI program over the last few years, and we certainly hope to see more submissions from him in the future. Until then, follow the team on </em><a href="https://www.twitter.com/thezdi"><em>Twitter</em></a><em>, </em><a href="https://infosec.exchange/@thezdi"><em>Mastodon</em></a><em>, </em><a href="https://www.linkedin.com/company/zerodayinitiative"><em>LinkedIn</em></a><em>, or </em><a href="https://www.instagram.com/thezdi"><em>Instagram</em></a><em> for the latest in exploit techniques and security patches.</em></p>
 ]]></content:encoded>
 <pubDate>Thu, 02 May 2024 16:14:11 +0000</pubDate>
-<pubDate>Thu, 02 May 2024 16:14:11 +0000</pubDate>
 </item>
 <item>
 <title>ZDI-24-1041: Google Chrome Updater DosDevices Local Privilege Escalation Vulnerability</title>
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1041/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1041/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows local attackers to escalate privileges on affected installations of Google Chrome. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2023-7261.
 ]]></content:encoded>
-<pubDate>Thu, 01 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 01 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -3468,7 +3385,6 @@ This vulnerability allows local attackers to escalate privileges on affected ins
 <link>https://cyble.com/blog/high-risk-cve-2024-7965-vulnerability-in-chromes-v8-engine-requires-quick-fix/</link>
 <guid>https://cyble.com/blog/high-risk-cve-2024-7965-vulnerability-in-chromes-v8-engine-requires-quick-fix/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Cyble-blogs-CVE-2024-7965-Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/08/Cyble-blogs-CVE-2024-7965-Vulnerability.jpg" tabindex="0" width="1200" /></p>
 <p><!-- wp:paragraph --></p>
 <p><!-- /wp:paragraph --></p>
@@ -3564,14 +3480,12 @@ This vulnerability allows local attackers to escalate privileges on affected ins
 <p>The post <a href="https://cyble.com/blog/high-risk-cve-2024-7965-vulnerability-in-chromes-v8-engine-requires-quick-fix/" rel="nofollow">High-Risk CVE-2024-7965 Vulnerability in Chrome’s V8 Engine Requires Quick Fix</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Tue, 27 Aug 2024 14:28:01 +0000</pubDate>
-<pubDate>Tue, 27 Aug 2024 14:28:01 +0000</pubDate>
 </item>
 <item>
 <title>New Cheana Stealer Targets VPN Users Across Multiple Operating Systems</title>
 <link>https://cyble.com/blog/new-cheana-stealer-targets-vpn-user/</link>
 <guid>https://cyble.com/blog/new-cheana-stealer-targets-vpn-user/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="2" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/08/2.webp" tabindex="0" width="1200" /></p>
 <p><!-- wp:heading --></p>
 <h2 class="wp-block-heading">Key takeaways&nbsp;</h2>
@@ -4129,8 +4043,6 @@ This vulnerability allows local attackers to escalate privileges on affected ins
 <p>The post <a href="https://cyble.com/blog/new-cheana-stealer-targets-vpn-user/" rel="nofollow">New Cheana Stealer Targets VPN Users Across Multiple Operating Systems</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Thu, 22 Aug 2024 16:38:23 +0000</pubDate>
-<pubDate>Thu, 22 Aug 2024 16:38:23 +0000</pubDate>
 </item>
-
 </channel>
 </rss>

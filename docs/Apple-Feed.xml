@@ -5,14 +5,26 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>macOS Version of HZ RAT Backdoor Targets Chinese Messaging App Users</title>
+<link>https://thehackernews.com/2024/08/macos-version-of-hz-rat-backdoor.html</link>
+<guid>https://thehackernews.com/2024/08/macos-version-of-hz-rat-backdoor.html</guid>
+<content:encoded><![CDATA[
+
+Users of Chinese instant messaging apps like DingTalk and WeChat are the target of an Apple macOS version of a backdoor named HZ RAT.
+The artifacts "almost exactly replicate the functionality of the Windows version of the backdoor and differ only in the payload, which is received in the form of shell scripts from the attackers' server," Kaspersky researcher Sergey Puzan said.
+HZ RAT was first
+]]></content:encoded>
+<pubDate>Tue, 27 Aug 2024 21:38:00 +0530</pubDate>
+<pubDate>Tue, 27 Aug 2024 21:38:00 +0530</pubDate>
+</item>
+
+<item>
 <title>Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-085</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-085</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 30 Jul 2024 20:28:55 -0400</pubDate>
 <pubDate>Tue, 30 Jul 2024 20:28:55 -0400</pubDate>
 </item>
 <item>
@@ -20,10 +32,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-051</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-051</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Mon, 13 May 2024 18:04:04 -0400</pubDate>
 <pubDate>Mon, 13 May 2024 18:04:04 -0400</pubDate>
 </item>
 <item>
@@ -31,7 +41,6 @@
 <link>https://www.cysecurity.news/2024/08/fake-macos-apps-infect-devices-steal.html</link>
 <guid>https://www.cysecurity.news/2024/08/fake-macos-apps-infect-devices-steal.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtIWsFVOOhofQTNANWKed9vx_6OaCkt6l0mefU4vmhE8_XUNBVgS65Vqs7EGULBHTquae2xKeLGvh8KPjePeF0EF89ojhf0N3PuOr-lJqkVz8oeseo3nGhK-PKfF5Wu0XRrKot-R5cXDo7UFF2XmQ9NzizenTQApFwj0PTcj2OeHAFoLF6_f0Ggv2BHuqR/s6000/pexels-mikhail-nilov-6963098%20(1).jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtIWsFVOOhofQTNANWKed9vx_6OaCkt6l0mefU4vmhE8_XUNBVgS65Vqs7EGULBHTquae2xKeLGvh8KPjePeF0EF89ojhf0N3PuOr-lJqkVz8oeseo3nGhK-PKfF5Wu0XRrKot-R5cXDo7UFF2XmQ9NzizenTQApFwj0PTcj2OeHAFoLF6_f0Ggv2BHuqR/w640-h426/pexels-mikhail-nilov-6963098%20(1).jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">The latest cyber-attack uncovered by security researchers is an information stealer that targets Apple macOS hosts and gathers a wide array of information to reach sensitive computer data. It underscores how threat actors are increasingly targeting the OS as a target.
 
 As of late 2023, malware dubbed Cthulhu Stealer was available as a malware-as-a-service (MaaS) product and was priced at $500 per month as part of a subscription-based price structure.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As far as the architecture is concerned, it can support both x86_64 and Arm platforms. 
@@ -52,7 +61,6 @@ It is important to note that Cthulhu Stealer does not have very sophisticated an
 
 Malware like Cthulhu Stealer, as well as other software threats like it, can cause far less damage when users take macOS' security features seriously, so they do not fall victim to them.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">MacOS is much less commonly targeted by malware threats than Windows or Linux, but users are advised to stay away from downloading software from sources they don't trust, stay away from installing apps that are not verified, and make sure their systems are updated with the latest security measures.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">There has been a surge in macOS malware recently and in response Apple announced this week that an update is coming to its next version of the operating system that will add more friction when trying to open software that is not signed correctly or notarized, which will help prevent future outbreaks of macOS malware.</div>
 ]]></content:encoded>
-<pubDate>2024-08-27T06:52:00.000-04:00</pubDate>
 <pubDate>2024-08-27T06:52:36.795-04:00</pubDate>
 </item>
 <item>
@@ -60,10 +68,8 @@ Malware like Cthulhu Stealer, as well as other software threats like it, can cau
 <link>https://www.cysecurity.news/2024/08/16-years-of-cybercrime-story-of-greasy.html</link>
 <guid>https://www.cysecurity.news/2024/08/16-years-of-cybercrime-story-of-greasy.html</guid>
 <content:encoded><![CDATA[
-
 <p style="text-align: justify;"></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCk4wsDmZPq1z0g9eFKcv3m_hj6ixOb2z4rzL3SRlUTAlYrc3DNACCPXypF3IkTJFmf7grwR7bWZIUDMXLeXc8X4kZ7_QGzQLamlHMsw8u0fh7YjbT-HqN9op7-mCYzcBKaFPum3fGxL50Ie-Wceu0H-vtZsOmecp9ZCDO8GCEknkuSHhM7iEXY7aVxl56/s960/Internet%20of%20Things.png" style="margin-left: 1em; margin-right: 1em;"><img alt="16 Years of Cybercrime: The Story of Greasy Opal’s CAPTCHA Solver" border="0" height="416" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCk4wsDmZPq1z0g9eFKcv3m_hj6ixOb2z4rzL3SRlUTAlYrc3DNACCPXypF3IkTJFmf7grwR7bWZIUDMXLeXc8X4kZ7_QGzQLamlHMsw8u0fh7YjbT-HqN9op7-mCYzcBKaFPum3fGxL50Ie-Wceu0H-vtZsOmecp9ZCDO8GCEknkuSHhM7iEXY7aVxl56/w640-h416/Internet%20of%20Things.png" title="16 Years of Cybercrime: The Story of Greasy Opal’s CAPTCHA Solver" width="640" /></a></div><br />Certain tools and techniques have been persistent, continually adapting to new challenges and threats. One such tool is the CAPTCHA solver developed by Greasy Opal, a name that has become synonymous with cybercrime over the past 16 years. This blog delves into the history, impact, and ongoing relevance of Greasy Opal’s CAPTCHA solver in the cybercriminal ecosystem.<p></p><h3 style="text-align: justify;">The Genesis of Greasy Opal’s CAPTCHA Solver</h3><p style="text-align: justify;">CAPTCHAs, or Completely Automated Public Turing tests to tell Computers and Humans Apart, were introduced as a security measure to prevent automated bots from accessing websites and online services. However, as with any security measure, some sought to circumvent it. Enter Greasy Opal, a developer who saw an opportunity in the burgeoning field of CAPTCHA-solving technology.</p><p style="text-align: justify;">Greasy Opal’s tool, which started as a simple script, quickly evolved into a sophisticated piece of software capable of solving CAPTCHAs with high accuracy. The tool’s effectiveness made it a favorite among cybercriminals, who used it to automate various illicit activities, from spamming and social media promotion to black hat SEO and account takeovers.</p><h3 style="text-align: justify;">The Mechanics of CAPTCHA Solving</h3><p style="text-align: justify;">At its core, a CAPTCHA solver mimics human behavior to bypass the security checks designed to differentiate between humans and bots. Greasy Opal’s solver employs advanced machine learning algorithms and image recognition techniques to decode the distorted text and images commonly used in CAPTCHAs. The tool’s ability to solve CAPTCHAs at scale has made it an invaluable asset for cybercriminals looking to automate their operations.</p><p style="text-align: justify;">The solver is available in free and paid versions, offering higher accuracy and faster recognition times. This tiered approach has allowed Greasy Opal to monetize the tool while maintaining a veneer of legitimacy by paying taxes and operating as a seemingly lawful business.</p><h3 style="text-align: justify;">The Impact on Cybercrime</h3><p style="text-align: justify;">The widespread use of Greasy Opal’s CAPTCHA solver has had a profound impact on the cybercriminal landscape. By automating the process of solving CAPTCHAs, the tool has lowered the barrier to entry for less-skilled threat actors, enabling them to carry out large-scale attacks with minimal effort. This democratization of cybercrime has led to an increase in the volume and sophistication of attacks targeting various sectors, including e-commerce, social media, and government services.</p><p style="text-align: justify;">Prominent entities such as Amazon, Apple, and Facebook have been targeted using Greasy Opal’s tool, highlighting the far-reaching implications of this technology. Researchers at Arkose Labs have acknowledged the tool’s efficiency, noting its role in facilitating a wide range of cybercriminal activities.</p><h3 style="text-align: justify;">Ethical and Legal Considerations</h3><p style="text-align: justify;">Despite its clear association with illegal activities, Greasy Opal continues to operate under a legitimate guise. The developer’s decision to pay taxes and comply with certain legal requirements has allowed them to avoid significant legal repercussions. However, this raises important ethical questions about the responsibility of developers in the cybersecurity space.</p><p style="text-align: justify;">The case of Greasy Opal underscores the need for stricter regulations and enforcement mechanisms to curb the misuse of technology for criminal purposes. It also highlights the importance of ongoing research and innovation in developing more robust security measures to counteract such threats.</p><h3 style="text-align: justify;">The Future of CAPTCHA Solving</h3><p style="text-align: justify;">As cybersecurity measures continue to evolve, so too will the techniques used to bypass them. Greasy Opal’s CAPTCHA solver is a testament to the enduring cat-and-mouse game between security professionals and cybercriminals. While CAPTCHAs remain a widely used security measure, their effectiveness is increasingly being called into question as tools like Greasy Opal’s become more advanced.</p>
 ]]></content:encoded>
-<pubDate>2024-08-25T11:03:00.001-04:00</pubDate>
 <pubDate>2024-08-25T11:03:29.548-04:00</pubDate>
 </item>
 <item>
@@ -71,11 +77,9 @@ Malware like Cthulhu Stealer, as well as other software threats like it, can cau
 <link>https://thehackernews.com/2024/08/new-macos-malware-cthulhu-stealer.html</link>
 <guid>https://thehackernews.com/2024/08/new-macos-malware-cthulhu-stealer.html</guid>
 <content:encoded><![CDATA[
-
 Cybersecurity researchers have uncovered a new information stealer that's designed to target Apple macOS hosts and harvest a wide range of information, underscoring how threat actors are increasingly setting their sights on the operating system.
 Dubbed Cthulhu Stealer, the malware has been available under a malware-as-a-service (MaaS) model for $500 a month from late 2023. It's capable of
 ]]></content:encoded>
-<pubDate>Fri, 23 Aug 2024 10:31:00 +0530</pubDate>
 <pubDate>Fri, 23 Aug 2024 10:31:00 +0530</pubDate>
 </item>
 <item>
@@ -83,7 +87,6 @@ Dubbed Cthulhu Stealer, the malware has been available under a malware-as-a-serv
 <link>http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html</link>
 <guid>http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Chrome Root Program, Chrome Security Team</span>
 
 <p>
@@ -244,7 +247,6 @@ Customer organizations should defer to platform provider guidance.
 </p><h3><strong>What about other Google products?</strong></h3><p>
 Other Google product team updates may be made available in the future.</p><p></p><p></p>
 ]]></content:encoded>
-<pubDate>2024-06-27T13:16:00.001-04:00</pubDate>
 <pubDate>2024-07-22T14:53:37.400-04:00</pubDate>
 </item>
 <item>
@@ -252,7 +254,6 @@ Other Google product team updates may be made available in the future.</p><p></p
 <link>http://security.googleblog.com/2024/05/google-and-apple-deliver-support-for.html</link>
 <guid>http://security.googleblog.com/2024/05/google-and-apple-deliver-support-for.html</guid>
 <content:encoded><![CDATA[
-
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQOITJPf4gl6M1N-P6scyxNqjLYqacEx0Cqsq4YRmbhHbAm6sbf3w66cbys7xgxfkEyLmaXHDQQwQ2Z2tComzFkdq51DHfASo1-ebQv4K5koM44Cvsa0NrB47RNZRpDYlRTy3rak1gHeXa0-uPnkuTFkjm_xeSOMfN7rmm2WK0qpX8rEN4AMlZyjp0592T/s653/Apple-Google-partner-tracking-detection-hero_inline.jpg.large.jpg" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQOITJPf4gl6M1N-P6scyxNqjLYqacEx0Cqsq4YRmbhHbAm6sbf3w66cbys7xgxfkEyLmaXHDQQwQ2Z2tComzFkdq51DHfASo1-ebQv4K5koM44Cvsa0NrB47RNZRpDYlRTy3rak1gHeXa0-uPnkuTFkjm_xeSOMfN7rmm2WK0qpX8rEN4AMlZyjp0592T/s320/Apple-Google-partner-tracking-detection-hero_inline.jpg.large.jpg" width="320" /></a></div>
 
 <p>
@@ -268,7 +269,6 @@ If a user gets such an alert on their Android device, it means that someone else
 Google’s Find My Device is secure by default and private by design. <a href="https://security.googleblog.com/2024/04/find-my-device-network-security-privacy-protections.html">Multi-layered user protections</a>, including first of its kind safety-first protections, help mitigate potential risks to user privacy and safety while allowing users to effectively locate and recover lost devices. This cross-platform collaboration — an industry first, involving community and industry input — offers instructions and best practices for manufacturers, should they choose to build unwanted tracking alert capabilities into their products. Google and Apple will continue to work with the <a href="https://www.ietf.org/about/introduction/">Internet Engineering Task Force</a> via the Detecting Unwanted Location Trackers working group to develop the official standard for this technology.
 </p>
 ]]></content:encoded>
-<pubDate>2024-05-13T13:00:00.001-04:00</pubDate>
 <pubDate>2024-05-13T13:03:52.577-04:00</pubDate>
 </item>
 <item>
@@ -276,7 +276,6 @@ Google’s Find My Device is secure by default and private by design. <a href="h
 <link>https://www.thezdi.com/blog/2024/7/16/announcing-pwn2own-ireland-2024</link>
 <guid>https://www.thezdi.com/blog/2024/7/16/announcing-pwn2own-ireland-2024</guid>
 <content:encoded><![CDATA[
-
 <p class=""><em>If you just want to read the rules, you can find them </em><a href="https://zerodayinitiative.com/Pwn2OwnIreland2024Rules.html" target="_blank"><em>here</em></a><em>. </em></p><p class="">&nbsp;</p><p class="">Over the last few years, our consumer-focused Pwn2Own event took place in the Trend Micro office in Toronto. However, that office closed, so we needed to find a new home. This isn’t unusual for this event, as it moved from Amsterdam to Tokyo to Austin to Toronto. We’re moving again. This year, we are heading to our offices in Cork, Ireland! We’re excited about our new location, and I personally have <a href="https://youtube.com/shorts/IimtaPyt7uE?feature=share" target="_blank">viewed</a> several locations for after-hours and special events. Some of those will be secret until the competition, but I can tell you that our awards ceremony and end-of-contest party will be held at the historic <a href="https://corkcitygaol.com/" target="_blank">Cork City Goal</a>. It promises to be a fun and spooky event, and we’ll have more details about that in the future.</p><p class="">Beyond our new location, we’re excited to announce <strong>Meta</strong> has joined as a sponsor of this event and will participate in the new Messenger App category. That’s right – <strong>WhatsApp</strong> will be a target, with both 0-click and 1-click exploits being in scope. We’re offering $300,000 USD for a 0-click, so we hope to see some great research on an application used by millions. We’re also excited to announce the return of <strong>Synology</strong> as a co-sponsor of the event and <strong>QNAP</strong> joins them as a co-sponsor. </p><p class="">The Messenger App category isn’t the only exciting thing heading to Ireland. This will be our first competition to feature AI-enabled devices. Both the Samsung and Google phones include <a href="https://www.samsung.com/ca/smartphones/galaxy-s24/?cid=ca_pd_ppc_google_f1h24-galaxy-s24-series_launch_im-hhp-retention_text_rtb_20180102-w-samsung%20galaxy%20s24&amp;gad_source=1&amp;gclid=EAIaIQobChMI7sPGn7WshwMViG8PAh1PfQdiEAAYASAAEgJoF_D_BwE#:~:text=Buy%20now-,Galaxy%20AI%20is%20here,-Welcome%20to%20the">Galaxy AI</a> and <a href="https://store.google.com/intl/en/ideas/categories/ai/">Google AI</a> respectively. Multiple Synology devices use AI for tasks such as people and vehicle recognition on the cameras and AI-driven photo albums on their NAS devices. The Ubiquiti camera also uses AI for greater detection precision and range. There’s no special bonus for exploiting an AI feature, but it will be interesting to see if AI helps or hurts exploit attempts.</p><p class="">Last year’s favorite category was the “SOHO Smashup”, and it returns for another year. This category challenges contestants by having them start by exploiting the external interface of a router, compromise the router, and then pivot to another device connected to the network. In the Toronto event last year, several teams had winning entries in this category. It’s always amazing to watch the researchers as they pivot through multiple attack surfaces to hit their final goal. We’re also bringing wired and wireless cameras back into the contest under the surveillance category. Last year, we awarded $1,038,500 during the event for 58 unique 0-days. It will be interesting to see if the luck of the Irish will take that number up or down.</p><p class="">As for the contest itself, it will run from October 22-25, 2024. As always, we’ll have a random drawing to determine the schedule of attempts on the first day of the contest, and we will proceed from there. Registration closes at 5:00 p.m. Irish Standard Time on Oct 17th, 2024. There are no exceptions for late entries, so if you have questions, please contact us at <a href="mailto:pwn2own@trendmicro.com">pwn2own@trendmicro.com</a> (note the new address). We will be happy to address your issues or concerns directly.</p><p class="">Now on to the specific target categories. We’ll have seven different categories for this year’s event:</p>
 
 
@@ -1590,14 +1589,12 @@ Google’s Find My Device is secure by default and private by design. <a href="h
   <p class=""><br /></p><p class="">©2024 Trend Micro Incorporated. All rights reserved. PWN2OWN, ZERO DAY INITIATIVE, ZDI, and Trend Micro are trademarks or registered trademarks of Trend Micro Incorporated. All other trademarks and trade names are the property of their respective owners.</p>
 ]]></content:encoded>
 <pubDate>Thu, 18 Jul 2024 13:12:11 +0000</pubDate>
-<pubDate>Thu, 18 Jul 2024 13:12:11 +0000</pubDate>
 </item>
 <item>
 <title>The May 2024 Security Update Review</title>
 <link>https://www.thezdi.com/blog/2024/5/14/the-may-2024-security-update-review</link>
 <guid>https://www.thezdi.com/blog/2024/5/14/the-may-2024-security-update-review</guid>
 <content:encoded><![CDATA[
-
 <p class="">Welcome to the second Tuesday of May. As expected, Adobe and Microsoft have released their standard bunch of security patches. Take a break from your regular activities and join us as we review the details of their latest advisories. If you’d rather watch the full video recap covering the entire release, you can check it out here:</p>
 
 
@@ -2349,14 +2346,12 @@ Google’s Find My Device is secure by default and private by design. <a href="h
   <p class=""><em>* Indicates this CVE had been released by a third party and is now being included in Microsoft releases</em>.</p><p class=""><em>† Indicates further administrative actions are required to fully address the vulnerability.</em></p><p class="">&nbsp;</p><p class="">There’s just one Critical-rated bug this month, and it deals with a remote code execution (RCE) vulnerability in SharePoint server. An authenticated attacker could use this bug to execute arbitrary code in the context of the SharePoint Server. While permissions are needed for this to occur, any authorized user on the server has the needed level of permissions.</p><p class="">Looking at the other RCE bugs, we see a lot of vulnerabilities in rarely used protocols. The Windows Mobile Broadband driver and the Routing and Remote Access Service (RRAS) make up the bulk of this category. More notable are the two bugs in Hyper-V. One of these would allow an authenticated attacker to execute code on the host system. This would result in a guest-to-host escape, but Microsoft doesn’t indicate what level the code execution occurs on the host OS. After a couple of months with many SQL-related fixes, there’s just one this month. As with the previous bugs, you would need to connect to a malicious SQL server. The bug in Cryptographic Services requires a machine-in-the-middle (MITM) but could lead to a malicious certificate being imported onto the target system. The RCE bugs are rounded out with open-and-own style bugs in Excel and .NET and Visual Studio.</p><p class="">Moving on to the elevation of privilege (EoP) patches in this month’s release, almost all lead to SYSTEM-level code execution if an authenticated user runs specially crafted code. While there isn’t a lot else to say about these bugs, they are often used by attackers to take over a system when combined with a code execution bug – like the Excel bug mentioned above. They convince a user to open a specially crafted Excel document that executes the EoP and takes over the system. The lone exception to this is the bug in the Brokering File System component. The vulnerability allows attackers to gain the ability to authenticate against a remote host using the current user’s credentials. The attack could be launched from a low-privileged AppContainer, which would allow the attacker to execute code or access resources at a higher integrity level than that of the AppContainer execution environment.</p><p class="">We’ve already discussed the MotW security feature bypass (SFB), and the only other SFB vulnerability receiving a fix this month is the MSHTML engine. Just when you thought you were safe from Internet Explorer, the Trident engine rears its ugly head. This bug allows an unauthenticated attacker to get code execution if they can convince a user to open a malicious document. The code execution occurs in the context of the user, so this is another reminder not to log on with Admin privileges unless you absolutely need to.</p><p class="">There are only seven information disclosure bugs receiving fixes this month, and we’ve already covered the one in SharePoint. As usual, most of these vulnerabilities only result in info leaks consisting of unspecified memory contents. The bug in Power BI could result in the disclosing of “sensitive information,” but Microsoft doesn’t narrow down what type of “sensitive information” could be leaked. Similarly, the bug in Deployment Services could leak “file contents.” Microsoft provides no information on whether that’s any arbitrary file contents or only specific files, so your guess is as good as mine.</p><p class="">The May release includes four spoofing bugs. The first is a stored cross-site scripting (XSS) bug in Azure Migrate. There’s not a straightforward patch for this one. You need the latest Azure Migrate Agent and ConfigManager updates. More info on how to do that can be found <a href="https://learn.microsoft.com/en-us/azure/migrate/common-questions-appliance#how-to-troubleshoot-auto-update-failures-for-azure-migrate-appliance.">here</a>. There are two spoofing bugs in Dynamics 365, but they read more like XSS bugs. The final spoofing bug addressed this month is in the Bing search engine. An attacker could modify the content of the vulnerable link to redirect the victim to a malicious site.</p><p class="">There’s a single Tampering bug addressed in this release fixing a bug in Microsoft Intune Mobile Application Management. An attacker could gain sensitive information on a target device that has been rooted.</p><p class="">The final bugs for May are Denial-of-Service (DoS) vulnerabilities in ASP.NET, DHCP server, and Hyper-V. Unfortunately, Microsoft provides no additional information about these bugs and how they would manifest on affected systems.</p><p class="">There are no new advisories in this month’s release.</p><p class=""><strong>Looking Ahead</strong></p><p class="">The next Patch Tuesday of 2024 will be on June 11, and I’ll return with details and patch analysis then. Until then, stay safe, happy patching, and may all your reboots be smooth and clean!</p>
 ]]></content:encoded>
 <pubDate>Tue, 14 May 2024 17:28:20 +0000</pubDate>
-<pubDate>Tue, 14 May 2024 17:28:20 +0000</pubDate>
 </item>
 <item>
 <title>The April 2024 Security Updates Review</title>
 <link>https://www.thezdi.com/blog/2024/4/9/the-april-2024-security-updates-review</link>
 <guid>https://www.thezdi.com/blog/2024/4/9/the-april-2024-security-updates-review</guid>
 <content:encoded><![CDATA[
-
 <p class="">It’s the second Tuesday of the month, and Adobe and Microsoft have released a fresh crop of security updates. Take a break from your other activities and join us as we review the details of their latest advisories. If you’d rather watch the full video recap covering the entire release, you can check it out here:</p>
 
 
@@ -4027,17 +4022,14 @@ Google’s Find My Device is secure by default and private by design. <a href="h
   <p class=""><em>* Indicates this CVE had been released by a third party and is now being included in Microsoft releases</em>.</p><p class=""><em>† Indicates further administrative actions are required to fully address the vulnerability.</em></p><p class="">&nbsp;</p><p class="">Moving on to the Critical-rated bugs, all impact Microsoft Defender for IoT. An authenticated attacker with file upload privileges could get arbitrary code execution through a path traversal vulnerability. They would need to upload specially crafted files to sensitive locations on the target. It’s not clear how likely this would be, but anything that targets your defensive tools should be taken seriously.</p><p class="">All told, there are almost 70 fixes for bugs that could lead to code execution in this release. The (somewhat) good news is that nearly half of these impact SQL server components. In these cases, an attacker would need to have an affected system connect to a specially crafted SQL database and perform a query. If you can socially engineer that, then you will get code execution. However, that does seem unlikely. More practically, I would concern myself with the DNS and DHCP code execution bugs in this release. I’ve already mentioned the DNS bugs. For the DHCP bugs, the attacker would need elevated privileges. This would be a good time to audit your DHCP server to see who has privileges and who should be removed. The fix for Azure Migrate is only network adjacent, but you’ll need to take extra steps to be fully protected. You need to the latest Azure Migrate Appliance's AutoUpdater, which ensures MSI installers downloaded from the Download Center have been authentically signed by Microsoft prior to installation. Check <a href="Azure%20Migrate%20Appliance's%20AutoUpdater%20which%20ensures%20MSI%20installers%20downloaded%20from%20the%20Download%20Center%20have%20been%20authentically%20signed%20by%20Microsoft%20prior%20to%20installation.">here</a> for more details. There is an update for Excel to address an open-an-own bug, but you’re out of luck if you’re on macOS. Updates for Apple users are not available yet. </p><p class="">There’s a mountain of elevation of privilege (EoP) patches in this month’s release, and in most cases, exploitation requires an attacker to log on the an affected system then run their code. Again, this usually results in getting code to elevate to SYSTEM. The Azure EoPs are a little bit different and require some extra steps. The bug in Azure Arc-enabled Kubernetes could allow an attacker to gain access to sensitive information, such as Azure IoT Operations secrets and potentially other credentials or access tokens stored within the Kubernetes cluster. You’ll also need to update any affected Extensions that are used in your environment and ensure you update your Azure Arc Agent. The bug in Azure Content Gallery also needs extra actions to be protected. This bug has been mitigated by the latest change to the Azure Compute Gallery (ACG) image creation permission requirements, which means you’ll need to check the permissions and possibly update them. For information on how to update permissions, see <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/shared-image-galleries?tabs=vhdsource%2Cazure-cli#what-rbac-permissions-are-required-to-create-an-acg-image">here</a> for details. For the Azure Monitor Agent EoP, you need to make sure you have Automatic Extension Upgrades enabled. If you don’t you can manually get the updates following <a href="https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-manage?tabs=azure-portal#update">these</a> instructions. Finally, the bug in the Azure Kubernetes Service also needs some extra work. To be fully protected, you need to ensure you are running the latest version of “az confcom” and Kata Image. If you don’t have “az conform” installed, you can get the latest version by running the command “az extension add -n conform”. See the bulletin for full details.</p><p class="">Moving on to the security feature bypass (SFB) bugs, how in the world are there 23 different SFB patches for Secure Boot? As if that isn’t enough, you’ll need to take additional steps to be protected. The patch fixes the bugs, but the protections aren’t enabled by default. You’ll need to check out this <a href="https://support.microsoft.com/help/5025885">KB article</a> and follow the instructions listed there. With 23 bugs and manual actions needed to address them, I don’t think we should call it “secure” boot anymore. Other SFB bugs include one that could bypass RSA signature verification and a bug in BitLocker that could also bypass secure boot. At least that one just requires a patch and no extra steps.</p><p class="">There are more than a dozen information disclosure bugs. Fortunately, most only result in info leaks consisting of unspecified memory contents. The bug in Azure AI Search could allow an attacker to obtain sensitive API Keys. While this bug has been mitigated by a recent update to Azure AI Search's backend infrastructure, you’ll need to manually rotate specific credentials that have been notified through <a href="https://learn.microsoft.com/en-us/azure/service-health/overview">Azure Service Health</a> alerts. The bug in Azure Identity Library for .NET could divulge data inside the targeted website like IDs, tokens, nonces, and other sensitive information. At least there are no additional steps beyond the patch for this one. Finally, the bug in Windows DFS could disclose the ever-descriptive “sensitive information”.</p><p class="">The April release is rounded out by a handful of spoofing and denial-of-service (DoS) bugs. Microsoft doesn’t provide a lot of useful information here, but if you need to focus on something, the DoS bugs in the DHCP service are where I’d start. Shutting down DHCP for any time in an enterprise will likely lead to a “no fun at all” day.</p><p class="">Finally, Microsoft has updated <a href="https://msrc.microsoft.com/update-guide/advisory/ADV990001">ADV99001</a> with the latest servicing stack updates. Be sure to check them out. </p><p class=""><strong>Looking Ahead</strong></p><p class="">The next Patch Tuesday of 2024 will be on May 14, and I’ll return with details and patch analysis then. Until then, stay safe, happy patching, and may all your reboots be smooth and clean!</p>
 ]]></content:encoded>
 <pubDate>Tue, 09 Apr 2024 17:49:06 +0000</pubDate>
-<pubDate>Tue, 09 Apr 2024 17:49:06 +0000</pubDate>
 </item>
 <item>
 <title>ZDI-24-1180: Apple macOS AMDRadeonX6000MTLDriver KTX Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability</title>
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1180/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1180/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Fri, 23 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Fri, 23 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4045,10 +4037,8 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1179/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1179/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Fri, 23 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Fri, 23 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4056,10 +4046,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1160/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1160/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-40789.
 ]]></content:encoded>
-<pubDate>Thu, 22 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 22 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4067,10 +4055,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1122/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1122/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.1. The following CVEs are assigned: CVE-2024-27829.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4078,10 +4064,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1121/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1121/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-27829.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4089,10 +4073,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1120/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1120/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2024-27829.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4100,10 +4082,8 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1119/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1119/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4111,10 +4091,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1118/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1118/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4122,10 +4100,8 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1117/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1117/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4133,10 +4109,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1116/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1116/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4144,10 +4118,8 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1115/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1115/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4155,10 +4127,8 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1114/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1114/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4166,10 +4136,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1113/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1113/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4177,10 +4145,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1112/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1112/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4188,10 +4154,8 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1111/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1111/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4199,10 +4163,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1110/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1110/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4210,10 +4172,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1109/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1109/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4221,10 +4181,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1108/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1108/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4232,10 +4190,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1107/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1107/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27857.
 ]]></content:encoded>
-<pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Thu, 08 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4243,10 +4199,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1101/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1101/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the Metal framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-27802.
 ]]></content:encoded>
-<pubDate>Tue, 06 Aug 2024 00:00:00 -0500</pubDate>
 <pubDate>Tue, 06 Aug 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4254,10 +4208,8 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1040/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1040/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-27877.
 ]]></content:encoded>
-<pubDate>Wed, 31 Jul 2024 00:00:00 -0500</pubDate>
 <pubDate>Wed, 31 Jul 2024 00:00:00 -0500</pubDate>
 </item>
 <item>
@@ -4265,7 +4217,6 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <link>https://cyble.com/blog/surge-in-software-supply-chain-attacks-heightens-third-party-vigilance/</link>
 <guid>https://cyble.com/blog/surge-in-software-supply-chain-attacks-heightens-third-party-vigilance/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Blog Image" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/08/Blog-Image2-1.webp" tabindex="0" width="1200" /></p>
 <p><!-- wp:heading --></p>
 <h2 class="wp-block-heading">Key Takeaways&nbsp;</h2>
@@ -4504,8 +4455,6 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 <p>The post <a href="https://cyble.com/blog/surge-in-software-supply-chain-attacks-heightens-third-party-vigilance/" rel="nofollow">Surge in Software Supply Chain Attacks Demands Heightened Third-Party Vigilance</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Tue, 20 Aug 2024 16:57:13 +0000</pubDate>
-<pubDate>Tue, 20 Aug 2024 16:57:13 +0000</pubDate>
 </item>
-
 </channel>
 </rss>

@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Building Casper’s Shadow</title>
 <link>http://nao-sec.org/2024/06/building-caspers-shadow.html</link>
 <guid>http://nao-sec.org/2024/06/building-caspers-shadow.html</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="" src="https://nao-sec.org/assets/2024-07-01/top.png" /></p>
 
 <h2 id="introduction">Introduction</h2>
@@ -269,20 +269,16 @@
 </div>
 ]]></content:encoded>
 <pubDate>2024-06-30T15:00:00+00:00</pubDate>
-<pubDate>2024-06-30T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Xeon Sender Tool Exploits Cloud APIs for Large-Scale SMS Phishing Attacks</title>
 <link>https://thehackernews.com/2024/08/xeon-sender-tool-exploits-cloud-apis.html</link>
 <guid>https://thehackernews.com/2024/08/xeon-sender-tool-exploits-cloud-apis.html</guid>
 <content:encoded><![CDATA[
-
 Malicious actors are using a cloud attack tool named Xeon Sender to conduct SMS phishing and spam campaigns on a large scale by abusing legitimate services.
 "Attackers can use Xeon to send messages through multiple software-as-a-service (SaaS) providers using valid credentials for the service providers," SentinelOne security researcher Alex Delamotte said in a report shared with The Hacker News.
 ]]></content:encoded>
 <pubDate>Mon, 19 Aug 2024 15:32:00 +0530</pubDate>
-<pubDate>Mon, 19 Aug 2024 15:32:00 +0530</pubDate>
 </item>
-
 </channel>
 </rss>
