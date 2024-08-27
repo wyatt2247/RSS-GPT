@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Cyble</title>
+<link>https://cyble.com</link>
+
+<item>
+<title>Cyble Research Reveals Near-Daily Surge in Supply Chain Attacks</title>
+<link>https://www.cysecurity.news/2024/08/cyble-research-reveals-near-daily-surge.html</link>
+<guid>https://www.cysecurity.news/2024/08/cyble-research-reveals-near-daily-surge.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj_ZBIQzOAPBvGALxcLtEBgh3aMfk-heWaV3T_mIMI29LLFFy8JHnS5pB2HLMaeL10rHz92dEjpXJF_7Il41mVxXZgKwEsf_vDAQwGOdGmyfEXTWcWg0SJaZylM7GS2LxWNXCGlPs_8YzHZ3-bk3CajI3uJmWMJ_MoIHgPX2owMuGt1nlQPWjO7_g7LjY/s4576/pexels-pixabay-60504.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj_ZBIQzOAPBvGALxcLtEBgh3aMfk-heWaV3T_mIMI29LLFFy8JHnS5pB2HLMaeL10rHz92dEjpXJF_7Il41mVxXZgKwEsf_vDAQwGOdGmyfEXTWcWg0SJaZylM7GS2LxWNXCGlPs_8YzHZ3-bk3CajI3uJmWMJ_MoIHgPX2owMuGt1nlQPWjO7_g7LjY/s600/pexels-pixabay-60504.jpg" width="600" /></a></div><div style="text-align: justify;">The prevalence of software supply chain attacks is on the rise, posing significant threats due to the extensive impact and severity of such incidents, according to threat intelligence researchers at Cyble.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Within a six-month span from February to mid-August, Cyble identified 90 claims of supply chain breaches made by cybercriminals on the dark web. This averages nearly one breach every other day. Supply chain attacks are notably more costly and damaging than other types of cyber breaches, making even a small number of these attacks particularly detrimental.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cyble’s blog highlights that while infiltrations of an IT supplier’s codebase—similar to the SolarWinds incident in 2020 and Kaseya in 2021—are relatively uncommon, the software supply chain’s various components, including code, dependencies, and applications, remain a continuous source of vulnerabilities. These persistent risks leave all organizations exposed to potential cyberattacks.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Even when supply chain breaches do not compromise codebases, they can still result in the exposure of sensitive data, which attackers can exploit to breach other environments through methods such as phishing, spoofing, and credential theft. The interconnected nature of the physical and digital supply chain means that any manufacturer or supplier involved in downstream distribution could be considered a potential cyber risk, according to the researchers.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In their 2024 analysis, Cyble researchers examined the frequency and characteristics of supply chain attacks and explored defenses that can mitigate these risks.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Increasing Frequency of Supply Chain Attacks</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cyble’s dark web monitoring revealed 90 instances of cybercriminals claiming successful supply chain breaches between February and mid-August 2024.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">IT service providers were the primary targets, accounting for one-third of these breaches. Technology product companies were also significantly impacted, experiencing 14 breaches. The aerospace and defense, manufacturing, and healthcare sectors followed, each reporting between eight and nine breaches.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Despite the concentration of attacks in certain industries, Cyble’s data shows that 22 out of 25 sectors tracked have experienced supply chain attacks in 2024. The U.S. led in the number of breaches claimed on the dark web, with 31 incidents, followed by the UK with 10, and Germany and Australia with five each. Japan and India each reported four breaches.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Significant Supply Chain Attacks in 2024</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cyble’s blog detailed eight notable attacks, ranging from codebase hijacks affecting over 100,000 sites to disruptions of essential services. Examples include:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><ul><li>jQuery Attack: In July, a supply chain attack targeted the JavaScript npm package manager, using trojanized versions of jQuery to exfiltrate sensitive form data from websites. This attack impacted multiple platforms and highlighted the urgent need for developers and website owners to verify package authenticity and monitor code for suspicious modifications.</li><li>Polyfill Attack: In late June, a fake domain impersonated the Polyfill.js library, injecting malware into over 100,000 websites. This malware redirected users to unauthorized sites, underscoring the security risks associated with external code libraries and the importance of vigilant website security.</li><li>Programming Language Breach: The threat actor IntelBroker claimed unauthorized access to a node package manager (npm) and GitHub account related to an undisclosed programming language, including private repositories with privileges to push and clone commits.</li><li>CDK Global Inc. Attack: On June 19, a ransomware attack targeted CDK Global Inc., a provider of software to automotive dealerships, disrupting sales and inventory operations for weeks across North American auto dealers, including major networks like Group1 Automotive Inc. and AutoNation Inc.</li><li>Access to 400+ Companies: IntelBroker also claimed in June to have access to over 400 companies through a compromised third-party contractor, with data access to platforms like Jira, GitHub, and AWS, potentially affecting large organizations such as Lockheed Martin and Samsung.</li></ul></div><div style="text-align: justify;"><b>Mitigating Supply Chain Risks through Zero Trust and Resilience</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">To counter supply chain attacks, Cyble researchers recommend adopting zero trust principles, enhancing cyber resilience, and improving code security. Key defenses include:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><ol><li>Network microsegmentation</li><li>Strong access controls</li><li>Robust user and device identity authentication</li><li>Encrypting data both at rest and in transit</li><li>Ransomware-resistant backups that are “immutable, air-gapped, and isolated”</li><li>Honeypots for early detection of breaches</li><li>Secure configuration of API and cloud service connections</li><li>Monitoring for unusual activity using tools like SIEM and DLP</li><li>Regular audits, vulnerability scanning, and penetration testing are also essential for maintaining these controls.</li></ol></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Enhancing Secure Development and Third-Party Risk Management</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cyble also emphasizes best practices for code security, including developer audits and partner assessments. The use of threat intelligence services like Cyble’s can further aid in evaluating partner and vendor risks.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cyble’s third-party risk intelligence module assesses partner security across various areas, such as cyber hygiene, dark web exposure, and network vulnerabilities, providing specific recommendations for improvement. Their AI-powered vulnerability scanning also helps organizations identify and prioritize their own web-facing vulnerabilities.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As security becomes a more critical factor in purchasing decisions, vendors will likely need to improve their security controls and documentation to meet these demands, the report concludes.</div>
+]]></content:encoded>
+<pubDate>2024-08-24T13:22:00.000-04:00</pubDate>
+<pubDate>2024-08-24T13:22:39.668-04:00</pubDate>
+</item>
+<item>
+<title>ATT&amp;CK v15 Brings the Action</title>
+<link>https://medium.com/mitre-attack/attack-v15-26685f300acc?source=rss----6da19bd08fba---4</link>
+<guid>https://medium.com/mitre-attack/attack-v15-26685f300acc?source=rss----6da19bd08fba---4</guid>
+<content:encoded><![CDATA[
+
+<h3>ATT&amp;CK v15 Brings the Action: Upgraded Detections, New Analytic Format, &amp; Cross-Domain Adversary Insights</h3><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*9nefc6VVPUZWdnO9pxLoTA.png" /></figure><p>v15 is all about actionability and bringing defenders’ reality into focus — we prioritized <em>what </em>you need to detect, and <em>how </em>you can do it more effectively with detection engineering upgrades, and deeper intelligence insights across platforms. This release also reflects the new expansion rhythm, balancing both well-known and emerging behaviors to reflect how trends and activity are experienced in the field.</p><p>For the details on our updates/additions across Techniques, Software, Groups and Campaigns take a look at our <a href="https://attack.mitre.org/resources/updates/updates-april-2024/index.html">release notes</a>, our <a href="https://attack.mitre.org/docs/changelogs/v14.1-v15.0/changelog-detailed.html">detailed changelog</a>, or our <a href="https://attack.mitre.org/docs/changelogs/v14.1-v15.0/changelog.json">changelog.json</a>.</p><h3><strong>Enterprise | Familiar + Novel = Reality</strong></h3><p>With v15 we were aiming for the perfect balance of familiar behaviors you’ve probably seen countless times (e.g., <a href="https://attack.mitre.org/techniques/T1027/013/">T1027.013: Obfuscated Files or Information: Encrypted/ Encoded File</a>, <a href="https://attack.mitre.org/techniques/T1665/">T1665: Hide Infrastructure</a>), as well as newer, emerging trends. The shadowy domain of Resource Development was expanded to illuminate how adversaries are using generative artificial intelligence tools, like large language models (LLMs), to support various malicious activities (<a href="https://attack.mitre.org/techniques/T1588/007/">T1588.007: Obtain Capabilities: Artificial Intelligence</a>). And it’s not just about gaining initial access anymore — we added <a href="https://attack.mitre.org/techniques/T1584/008/">T1584.008: Compromise Infrastructure: Network Devices</a> to capture how threat groups are hacking into third-party network devices, including small office/home office routers, to use these devices to facilitate further targeting.</p><h3><strong>Cloud | More Actionability</strong></h3><p>As outlined in the <a href="/mitre-attack/attack-2024-roadmap-8dfc46d1ad1b">ATT&amp;CK 2024 Roadmap</a>, we’re striving to make the <a href="https://attack.mitre.org/matrices/enterprise/cloud/">Cloud matrix</a> more approachable for defenders of all skill levels. With this release, we focused on providing a broader set of defensive measures, resources, and insights for CI/CD pipelines, Infrastructure as Code (IaC), and Identity. v15 features new mitigations and data sources on token protection, along with more specific references to Okta logs. <a href="https://attack.mitre.org/techniques/T1072/">T1072: Software Deployment Tools</a> was expanded to include broad execution of <a href="https://attack.mitre.org/techniques/T1651/">T1651: Cloud Administration Command</a>, reflecting how threat actors are turning cloud native tools like AWS Systems Manager into remote access trojans.</p><p>We ramped up resources for CI/CD pipelines and IaC, and made some refinements to Identity, with the expansion of <a href="https://attack.mitre.org/techniques/T1484/002/">T1484: Domain Policy Modification</a> to include not just Azure AD, but also other identity-as-a-service providers like Okta. <a href="https://attack.mitre.org/techniques/T1556/">T1556: Modify Authentication Process</a> gained a new sub (<a href="https://attack.mitre.org/techniques/T1556/009/">T1556.009: Conditional Access Policies</a>) exploring how threat actors have tampered with or disabled conditional access policies for ongoing access to compromised accounts. We also expanded <a href="https://attack.mitre.org/techniques/T1136/003/">T1136.003: Create Account: Cloud Account</a> with additional service account insights.</p><p><strong>What’s Next:</strong> v16 will feature robust identity and detection updates, as well as the platform rebalancing operations, where we’re focusing on covering a wider range of cloud environments and threats, while making it more intuitive to prioritize techniques relevant to a specific platform.</p><h3><strong>Defensive Coverage | Upgrading, Converting &amp; Restructuring Defensive Measures</strong></h3><p>You’ll find expanded detections in v15 to assist your detection engineering. Previously, we structured our analytics in a pseudo format that was consistent with the Cyber Analytic Repository (CAR). In some cases this was hard to understand.</p><p>In v15, we transformed that format into a real-world query language style (like Splunk) that is compatible with various security tools. These upgrades are featured in detections across the framework including some techniques within the <a href="https://attack.mitre.org/tactics/TA0002/">Execution</a> tactic.</p><p>Our aim with these upgrades, is to reflect the data source itself is the data you should be collecting, and to provide an understandable format that pairs well with every day defender tools (i.e. SIEMs and Sensors).</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*TPJCF1m40g_-UQwTjlIjaw.png" /></figure><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*sP0Dsh-4G3EqqmWg77cBFw.png" /></figure><p>We have also synced up some mitigations within the parent to sub-technique relationship. Our team has analyzed a list of sub-techniques that had mitigations that the parent technique did not have. In v15, you will find some parent techniques now reflect what mitigations are seen in the sub-technique.</p><p><strong>What’s Next: </strong>As we gear up for October, we’ll be completing the Execution detections, refining Credential Access detections, diving into Cloud analytics, and restructuring our data sources for better accessibility.</p><h3><strong>ICS | Cross-Domain Campaigns</strong></h3><p>We’ve been working to retrofit major incidents in the ICS space to improve understanding and showcase how ICS and enterprise techniques intersect in each event. V15 illuminates some of the ICS-Enterprise integration efforts, with the release of four cross-mapped campaigns:</p><p>· Starting with <a href="https://attack.mitre.org/campaigns/C0030/">Triton</a>, the Safety Instrumented System attack of 2017 that shook the petrochemical industry to its core.</p><p>· Then there’s <a href="https://attack.mitre.org/campaigns/C0032/">C0032</a>, a campaign spanning various utilities from 2014 to 2017, often grouped with the petrochemical incident but distinctly different in nature.</p><p>· Next up, <a href="https://attack.mitre.org/campaigns/C0031/">Unitronics</a>, a spree that zeroed-in on specific devices and impacted utilities and organizations worldwide. This campaign saw adversaries disrupting device interfaces to make them unusable for end users.</p><p>· Fast forward to <a href="https://attack.mitre.org/campaigns/C0034/">2022 Ukraine Electric Power</a>, where we witnessed a glimpse into the future of ICS attacks, with hypervisor features and shared domain access exploited to infiltrate ICS systems and unleash havoc. The campaign highlights key considerations regarding hypervisor usage across multiple domains, and the abuse of native features in vendor software.</p><p>2022 Ukraine also spawned two new ICS techniques that are featured in this release: <a href="https://attack.mitre.org/techniques/T0895/">T0895: Autorun Image</a> and <a href="https://attack.mitre.org/techniques/T0894/">T0894:System Binary Proxy Execution</a> via vendor application binaries.</p><p><strong>What’s Next: </strong>v16 will launch ICS sub-techniques, along with a structured cross-walk to enable mapping between deprecated and new techniques. We’ll also be releasing new asset coverage and updates on our exploration into incorporating more sectors into the ICS matrix.</p><h3><strong>Mobile | New Techniques, Software, Groups &amp; Mitigations</strong></h3><p>With help from our community, this release incorporates new techniques, including — <a href="https://attack.mitre.org/techniques/T1664/">exploiting software vulnerabilities for initial access </a>and <a href="https://attack.mitre.org/techniques/T1422/">adversaries performing active and automated discovery for the lowdown on your network setup</a> — and incorporated fresh software and groups. We also added a new mitigation to the Mobile matrix, <a href="https://attack.mitre.org/mitigations/M1059/">M1059 Do Not Mitigate</a> (for Mobile) as a sneak peek to the new mitigations that will be added in future releases. This release also features the first Mobile campaign, <a href="https://attack.mitre.org/campaigns/C0033/">C0033</a>, associated with <a href="https://attack.mitre.org/groups/G0056/">PROMETHIUM (G0056)</a>. The group primarily targets Windows devices, however, recent reporting and external contributions demonstrated a shift to mobile exploitation on Android and iOS devices.</p><p>We added in Mobile techniques to existing Groups and Software to illuminate the shift to include mobile exploitation. This includes building out the <a href="https://attack.mitre.org/groups/G0099/">APT-C-23 (G1028)</a> profile, mirroring this South American threat group’s targeting of Android and iOS devices, and recording how <a href="https://attack.mitre.org/groups/G1002/">BITTER (G1002)</a> has distributed malicious apps via SMS, WhatsApp, and various social media platforms.</p><p><strong>What’s Next: </strong>In the coming months, we’ll be rolling out more structured detections, and boosting proactivity across Mobile by evaluating incorporation of pre-intrusion techniques, like active and passive reconnaissance, and acquiring or developing resources for targeting.</p><h3><strong>Cyber Threat Intelligence | More Cybercriminal, Underrepresented Groups</strong></h3><p>We’re working towards better reflecting the threat landscape by infusing the framework with more cybercriminal and underreported adversary activity. This release showcases new cybercriminal operations and highlights <a href="https://attack.mitre.org/groups/G1026/">Malteiro</a>, a criminal group believed to be based in Brazil. They are <a href="https://blog.scilabs.mx/en/cyber-threat-profile-malteiro/">known</a> for operating and distributing the Mispadu/URSA banking trojan through a malware-as-a-service model. Banking trojans, a notorious threat in Latin America, are increasingly spreading their chaos across borders, courtesy of malware developers selling tools to overseas operators. Malteiro’s operations exemplify this targeting shift, evident in a <a href="https://blog.morphisec.com/mispadu-infiltration-beyond-latam">recent campaign</a> affecting European entities across various sectors.</p><p><strong>What’s Next: </strong>We’ll continue conducting thorough assessments of Groups, Software, and Campaigns to up the framework realism quotient and provide clearer insights into adversary activities. We’re also teaming up with ATT&amp;CK domain leads to expand coverage of cross-domain intrusions.</p><h3><strong>Software Dev | TAXII 2.1, FTW</strong></h3><p>We’ve been working towards our goals of enhancing Navigator’s usability and streamlining processes for ATT&amp;CK Workbench. Most importantly, we’re taking our TAXII server to new heights, and by December 18, we’ll be retiring the TAXII 2.0 server and transitioning to the upgraded TAXII 2.1 version. You can locate the documentation for the TAXII 2.1 server in our <a href="http://github.com/mitre-attack/attack-workbench-taxii-server">GitHub repository</a>.</p><p><strong>What’s Next: </strong>We’ll be continuing to<strong> </strong>enhance usability on ATT&amp;CK Workbench and Navigator, and building towards swifter Groups and Software releases. Mark your calendars to update the URLs for TAXII 2.1 clients to connect to <a href="https://attack-taxii.mitre.org/">https://attack-taxii.mitre.org</a> instead of <a href="https://cti-taxii.mitre.org/">https://cti-taxii.mitre.org</a>!</p><h3><strong>In Conclusion | Field Reports, Benefactors</strong></h3><p>We’re always on the lookout for field reports and insights from those of you on the ground. Your observations play a crucial role in improving ATT&amp;CK’s tactical utility — so remember, <em>if you see something, </em><a href="https://attack.mitre.org/resources/engage-with-attack/contribute/"><em>contrib something</em></a>. Curious about how a contribution becomes a technique? Check out <a href="https://youtu.be/v24a5IOwObc?si=C9CZzBThVfLS19zH">our video</a> that walks you through the process.</p><p>If you’re interested in contributing to ATT&amp;CK’s overall autonomy, flexibility, and free services, you can find more details on our <a href="https://attack.mitre.org/resources/engage-with-attack/benefactors/">Benefactor</a> page. We are deeply grateful to our initial cohort of benefactors, SOC Prime, Tidal Cyber, and Zimperium, for their generous support.</p><p>©2024 The MITRE Corporation. ALL RIGHTS RESERVED. Approved for public release. Distribution unlimited 24–00779–3.</p><img alt="" height="1" src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=26685f300acc" width="1" /><hr /><p><a href="https://medium.com/mitre-attack/attack-v15-26685f300acc">ATT&amp;CK v15 Brings the Action</a> was originally published in <a href="https://medium.com/mitre-attack">MITRE ATT&amp;CK®</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>
+]]></content:encoded>
+<pubDate>Tue, 23 Apr 2024 15:35:40 GMT</pubDate>
+<pubDate>2024-04-23T16:18:30.137Z</pubDate>
+</item>
+<item>
+<title>New 'ALBeast' Misconfiguration Exposes Weakness in AWS Application Load Balancer</title>
+<link>https://thehackernews.com/2024/08/new-albeast-vulnerability-exposes.html</link>
+<guid>https://thehackernews.com/2024/08/new-albeast-vulnerability-exposes.html</guid>
+<content:encoded><![CDATA[
+
+As many as 15,000 applications using Amazon Web Services' (AWS) Application Load Balancer (ALB) for authentication are potentially susceptible to a configuration-based issue that could expose them to sidestep access controls and compromise applications.
+That's according to findings from Israeli cybersecurity company Miggo, which dubbed the problem ALBeast.
+"This vulnerability allows attackers to
+]]></content:encoded>
+<pubDate>Thu, 22 Aug 2024 20:33:00 +0530</pubDate>
+<pubDate>Thu, 22 Aug 2024 20:33:00 +0530</pubDate>
+</item>
+<item>
+<title>Detecting AWS Account Compromise: Key Indicators in CloudTrail Logs for Stolen API Keys</title>
+<link>https://thehackernews.com/2024/08/detecting-aws-account-compromise-key.html</link>
+<guid>https://thehackernews.com/2024/08/detecting-aws-account-compromise-key.html</guid>
+<content:encoded><![CDATA[
+
+As cloud infrastructure becomes the backbone of modern enterprises, ensuring the security of these environments is paramount. With AWS (Amazon Web Services) still being the dominant cloud it is important for any security professional to know where to look for signs of compromise. AWS CloudTrail stands out as an essential tool for tracking and logging API activity, providing a comprehensive
+]]></content:encoded>
+<pubDate>Wed, 21 Aug 2024 01:43:00 +0530</pubDate>
+<pubDate>Wed, 21 Aug 2024 01:43:00 +0530</pubDate>
+</item>
+<item>
+<title>ZDI-24-1177: Amazon AWS CloudFormation Templates Uncontrolled Search Path Element Remote Code Execution Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1177/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1177/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Amazon AWS. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8.
+]]></content:encoded>
+<pubDate>Fri, 23 Aug 2024 00:00:00 -0500</pubDate>
+<pubDate>Fri, 23 Aug 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1176: Amazon AWS aws-glue-with-s2s-vpn Uncontrolled Search Path Element Remote Code Execution Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1176/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1176/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Amazon AWS. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8.
+]]></content:encoded>
+<pubDate>Fri, 23 Aug 2024 00:00:00 -0500</pubDate>
+<pubDate>Fri, 23 Aug 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>Cloud Storage Bucket Security: PII Leak Brings Renewed Focus to Storage Bucket Access Controls</title>
+<link>https://cyble.com/blog/cloud-storage-bucket-security-pii-leak-brings-renewed-focus-to-storage-bucket-access-controls/</link>
+<guid>https://cyble.com/blog/cloud-storage-bucket-security-pii-leak-brings-renewed-focus-to-storage-bucket-access-controls/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Cyble-blogs-Cloud-Storage" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/08/Cyble-blogs-Cloud-Storage.jpg" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>News of a Google Cloud Storage bucket data leak has once again drawn public attention to the risks of misconfigured cloud storage buckets, one of the most common cloud security issues and causes of data leaks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Alice’s Table, a former contestant on ABC’s Shark Tank, inadvertently leaked the personally identifiable information (PII) of more than 83,000 customers from a misconfigured Google Cloud Storage bucket.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The leak underscores the importance of cloud storage bucket access controls as well as regularly auditing permissions and monitoring for data leaks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Cloud storage bucket leaks are very common – Cyble Odin is presently detecting more than 500,000 such exposures between AWS and Google Cloud Storage.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>We look at best practices for cloud storage bucket access control – and ways to detect unintended exposures.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>A Google Cloud Storage bucket leak has brought renewed attention to the risk of misconfigured cloud storage buckets, one of the most common cloud security issues and causes of data leaks.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Alice’s Table, a former contestant on ABC’s Shark Tank, apparently inadvertently leaked more than <a href="https://cybernews.com/security/google-cloud-leak-alices-table/">37,000 files</a> from a misconfigured Google Cloud Storage bucket, including personally identifiable information (PII) of more than 83,000 customers, such as full names, email addresses, and home addresses.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Some of the accounts were associated with organizations, ranging from Pfizer, PwC, and Charles Schwab to government accounts. The information could be used for malicious purposes, such as phishing and identity theft.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The leak underscores the importance of cloud storage bucket access control, and regularly auditing permissions and monitoring for data leaks.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cloud storage bucket misconfigurations are surprisingly common – Cyble's <a href="https://search.odin.io/exposed-buckets?query=provider%253A%2522gcp%2522">Odin vulnerability search tool</a> is currently detecting more than 332,000 exposed AWS storage buckets and more than 168,000 Google Cloud Storage exposures.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":57732,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-57732" src="https://cyble.com/wp-content/uploads/2024/08/image.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>We look at best practices and options for cloud storage access management – and ways to detect unintended or malicious access.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Cloud Storage Bucket Access and Configuration Best Practices</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>We don’t know exactly what went wrong in the Alice’s Table data exposure, but managing access to cloud storage buckets is a tricky practice that even the largest organizations can get wrong. We’ll look at access control options for cloud storage buckets in Google Cloud, how to make a bucket or objects readable to the public as securely as possible, and options for monitoring and detecting exposed buckets and data.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Restrict Storage Bucket Access By Default</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The best way to secure a Google Cloud Storage bucket is to not make it public in the first place. Access to Cloud Storage buckets is restricted by default, but there may be legitimate reasons why users would want to make a bucket public.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Google Cloud Storage offers two means for controlling access to storage buckets: Identity and Access Management (IAM) and Access Control Lists (ACL). IAM is the preferred method for securing buckets, but ACLs can be used to configure access for specific objects in a bucket.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Google recommends <a href="https://cloud.google.com/storage/docs/uniform-bucket-level-access">uniform bucket-level access</a>, which disables ACLs and makes IAM the exclusive means for access control. The more fine-grained approach of using IAM and ACLs together poses a great risk of exposing data.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://cloud.google.com/storage/docs/public-access-prevention">Public access prevention</a> is perhaps the strongest level of control, as it overrides IAM and ACL.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Making a Cloud Storage Bucket Readable to the Public</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To make all objects in a bucket readable to everyone on the public internet, you can &nbsp;grant the principal <em>allUsers</em> the Storage Object Viewer (<em>roles/storage.objectViewer</em>) role, which includes the permission required to list the objects in the bucket, but a safer approach is to grant the <a href="https://cloud.google.com/storage/docs/access-control/iam-roles#legacy-roles">Storage Legacy Object Reader</a> role (<em>roles/storage.legacyObjectReader</em>) so users can access objects without listing them.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Another way to balance access and risk is to use <a href="https://cloud.google.com/storage/docs/managed-folders">managed folders</a>, which allow fine-grained access to specific groups of objects with a bucket.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Detecting Exposed Cloud Storage Buckets</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>There’s no easy way to detect exposed cloud storage buckets (<a href="https://cloud.google.com/storage/docs/access-logs">usage logs</a> are one possible option), so routine audits of bucket access permissions – and potentially removing permissions for <em>allUsers</em> and <em>allAuthenticatedUsers</em> – is a critically important practice.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Data loss prevention (DLP) tools can help you identify where you have sensitive data stored that needs to be protected, and cloud security posture management (CSPM) tools can help you identify configuration issues.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Other important cloud storage security and compliance practices include object versioning, object encryption, and retention and lifecycle management.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Odin can help organizations detect exposed cloud storage buckets, and dark web monitoring tools such as those from <a href="https://cyble.com/solutions/dark-web-monitoring/">Cyble</a> can give organizations an early warning when leaks do occur so they can respond faster and take action to secure accounts and data.</p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/cloud-storage-bucket-security-pii-leak-brings-renewed-focus-to-storage-bucket-access-controls/" rel="nofollow">Cloud Storage Bucket Security: PII Leak Brings Renewed Focus to Storage Bucket Access Controls</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 27 Aug 2024 14:46:57 +0000</pubDate>
+<pubDate>Tue, 27 Aug 2024 14:46:57 +0000</pubDate>
+</item>
+<item>
+<title>Surge in Software Supply Chain Attacks Demands Heightened Third-Party Vigilance</title>
+<link>https://cyble.com/blog/surge-in-software-supply-chain-attacks-heightens-third-party-vigilance/</link>
+<guid>https://cyble.com/blog/surge-in-software-supply-chain-attacks-heightens-third-party-vigilance/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Blog Image" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/08/Blog-Image2-1.webp" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Attacks on the software supply chain have occurred at a rate of at least one every two days in 2024.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>U.S. companies and IT providers have been by far the most frequent targets, accounting for one-third of all software supply chain attacks.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The UK, Australia, Germany, India and Japan have also been frequent targets, as have the aerospace &amp; defense, healthcare and manufacturing sectors.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>These <a href="https://cyble.com/knowledge-hub/what-is-a-cyber-attack/">cyber attacks</a> are particularly damaging and costly because of their multiplication factor on downstream victims and trusted access to customer environments.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Even when the codebase isn’t breached, customer databases contain critical information for threat actors to use in phishing, spoofing and credential attacks. </li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>A defense-in-depth approach is required to reduce risk, based on principles of <a href="https://cyble.com/knowledge-hub/what-is-zero-trust-framework/">zero trust</a>, cyber resilience, and secure code practices.&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Software supply chain attacks burst into public consciousness in 2020 with news of the SolarWinds Orion attack, and a Kaseya VSA ransomware attack in mid-2021 further underscored the risks that third-party software suppliers can pose to their unsuspecting customers.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Attacks resulting from infiltration of an IT supplier’s code base are relatively rare, but the software supply chain – the code, dependencies and applications that all modern organizations rely on – is a source of near-constant vulnerabilities and cyberattacks that place all organizations at risk.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Because of their trusted access to IT environments, a category of security tools called third-party risk management (TPRM) has evolved to monitor the security of trusted providers – and to alert downstream users when the risk from these services has increased.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Because of their trusted access to customer environments, third-party providers are one of the biggest targets for threat actors. While codebase breaches are relatively rare, a breach of any partner’s business environment can lead to sensitive data being leaked that could give attackers a critical advantage in breaching other environments, including <a href="https://cyble.com/knowledge-hub/what-is-phishing/">phishing</a>, spoofing and credential attacks. And because of the interconnectedness and increasing digital nature of the physical supply chain, any manufacturer or supplier with downstream distribution can be considered a cyber risk. </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>We’ll look at the frequency and nature of supply chain attacks in 2024 before we focus on important defenses that all organizations with trusted partners should have in place.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">How Common Are Software Supply Chain Attacks?&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Successful supply chain attacks have become a near-daily occurrence in 2024, according to Cyble <a href="https://cyble.com/knowledge-hub/what-is-cyber-threat-intelligence/">threat intelligence</a> data.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble’s <a href="https://cyble.com/solutions/dark-web-monitoring/">dark web monitoring</a> found 90 cybercriminal claims of successful supply chain attacks in a six-month period that encompassed February 2024 to mid-August 2024.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Not surprising given their reach, IT providers suffered the greatest number of those breaches, 30, or one-third of the total, followed by technology product companies, which experienced 14 of the 90 breaches.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Aerospace &amp; defense (9 breaches), manufacturing (9 breaches), and healthcare (8 breaches) were the next most frequent victims of supply chain attacks.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In all, 22 of the 25 sectors tracked by Cyble threat researchers have experienced a supply chain attack in 2024 (chart below).&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":56651,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Supply Chain Attacks by Sector 2024" class="wp-image-56651" src="https://cyble.com/wp-content/uploads/2024/08/supply-chain.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The U.S. experienced by far the greatest number of supply chain breaches claimed on the <a href="https://cyble.com/knowledge-hub/what-is-the-dark-web/">dark web</a> – 31 in all – followed by the UK (10). Germany and Australia each had five, and Japan and India had four each.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">A Look at the Nature of Supply Chain Attacks in 2024&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Supply chain attacks in 2024 have ranged from the theft of business and customer data to the theft and hijacking of source code, but regardless of the sensitive data access, all such attacks pose a serious threat because of the reach of these suppliers. A recent report from Cyentia found that 99% of Global 2000 companies are directly connected to a vendor that has been hit by a supply chain breach. Here is a look at the range and nature of supply chain attacks and breaches thus far in 2024.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">jQuery&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On July 5, a supply chain attack on the JavaScript npm package manager involving trojanized versions of jQuery was discovered by cybersecurity researchers. The attack targeted the popular JavaScript library jQuery by distributing trojanized versions through npm, GitHub, and jsDelivr. The attackers modified the legitimate jQuery code to exfiltrate sensitive form data from websites. The attack's scope was significant, impacting multiple platforms and package names. The attackers used tactics like obfuscation and misleading version warnings. The attack underscored the urgent need for developers and website owners to verify package authenticity and scrutinize code for suspicious modifications to mitigate supply chain attacks.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Polyfill&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>In late June, a widespread supply chain attack hit over 100,000 websites, including many well-known names, originating from a fake domain that impersonated the Polyfill.js library to inject malware that redirected users to sports betting or pornographic sites. The malware dynamically generated based on HTTP headers, making detection challenging. The attack highlighted the risks of using external code libraries and the importance of vigilance in website security. Mitigation steps included removing cdn.polyfill.io, replacing it with secure alternatives, and caution against relying on unknown entities for JavaScript. The incident underscored the security implications of third-party scripts and the potential for malicious takeovers of widely deployed projects.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Programming Language Breach&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On July 26, <a href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/">threat actor </a>(TA) IntelBroker, posting on the BreachForums cybercrime forum, claimed to offer unauthorized access to a node package manager (npm) and GitHub account pertaining to an undisclosed programming language, for US $20,000. The TA said the offer also includes access to the X (Twitter) account of the associated organization with about 100,000 followers, and private repositories with privileges to push and clone commits. Below is a screenshot of the TA’s claims: </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":56652,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-56652" src="https://cyble.com/wp-content/uploads/2024/08/suply-chain-1024x505.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">CDK Global Inc.&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On June 19, automotive dealership software provider CDK Global Inc. was hit by a <a href="https://cyble.com/knowledge-hub/what-is-ransomware/">ransomware</a> attack reportedly perpetrated by the Black Suit ransomware group that disrupted sales and inventory operations of many North American auto dealers, including large dealer networks belong to Group1 Automotive Inc., AutoNation Inc., Premier Truck Group, and Sonic Automotive, all of which informed U.S. authorities that they experienced a multi-week service outage and disruption to dealership operations, including those supporting sales, customer relationship management systems, inventory and accounting functions. However, none of the CDK Global customers reported any malicious activity within their networks, suggesting the attack may have been limited to a service disruption.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Insula Group Pty Ltd.&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On July 25, BianLian ransomware group claimed to compromise Australia-based Insula Group Pty Ltd. The company provides software solutions used in residential construction and finance broking industries. The ransomware group allegedly exfiltrated 400 GB of documents that included project data, construction data, client information, server data, and company source code.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Access Offered to More than 400 Companies&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On June 15, IntelBroker, again appearing on BreachForums, offered to sell unauthorized access to more than 400 companies compromised via an undisclosed third-party contractor. The data allegedly included access to integration services of Jira, Bamboo, Bitbucket, GitHub, GitLab, SSH, SFTP, DA, Zabbix, AWS S3, AWS EC2, SVN and Terraform. Additionally, the TA also provided revenue of four significant impacted organizations. Open-source research based on the companies’ revenue and location suggested the impacted organizations could be Lockheed Martin Corporation, Samsung Electronics Co Ltd, General Dynamics, and Apple Inc.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Smart-ID&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On June 21, the functionality of the Smart-ID electronic identification and authorization app was disrupted after a cyberattack, resulting in difficulties accessing internet banking and other e-services in Latvia, Estonia and elsewhere.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Cartier International SNC&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On Aug 5, IntelBroker leaked data on BreachForums allegedly pertaining to Cartier International SNC, a France-based luxury goods brand. The TA said the data was stolen from the U.S,-based BORN Group, a global digital marketing agency that specializes in digital transformation and commerce solutions. The TA claimed the data was exfiltrated from AWS S3 storage and also leveraged a local file inclusion (LFI) vulnerability, which led to the exposure of internal files, images, and source code.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Code Base Injection Not Required for Supply Chain Attack&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Threat actors don’t need to inject malicious code into a tech company’s code base to hack the software supply chain – they only need to exploit a zero-day or unpatched flaw that already exists, as happened in recent attacks hitting customers of MOVEit and Ivanti. And “software dependences,” like an open-source component used in proprietary software, can also introduce vulnerabilities, further expanding the attack surface.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The software supply chain falls under the broader category of third-party risk management (TPRM), the partners, vendors, service providers, suppliers and contractors who can unwittingly introduce risk into an organization’s environment. A number of studies have found that more than half of all organizations have experienced a third-party breach, and these breaches tend to be more costly than incidents that occur within an organization.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here are some of the best practices and technologies organizations can use to protect against these growing third-party risks.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Zero Trust and Cyber Resilience Help Control Supply Chain Risks&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>In <a href="https://cyble.com/knowledge-hub/cybersecurity/">cybersecurity,</a> organizations should always “assume breach” and trust no one, and this applies to third-party partners too. If security teams assume that no one can be trusted and that no one can be given safe access to assets, they architect accordingly, with critical systems and data isolated with security controls and duplicated with ransomware-resistant backups.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The concept of <em>cyber resilience</em> has been repeatedly stressed in recent years. Instead of focusing solely on the network perimeter and endpoints, resilience and recovery should be built around critical applications and data using practices such as:&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Network microsegmentation&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Strong access controls, allowing no more access than is required, with frequent verification&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>A strong source of user identity and authentication, including multi-factor authentication and biometrics, <em>and</em> machine authentication with device compliance and health checks&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Encryption of data at rest and in transit&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Ransomware-resistant backups that are immutable, air-gapped and isolated as much as possible&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Honeypots that lure attackers to fake assets for early breach detection&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Proper configuration of API and cloud service connections&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Monitor for unusual activity with SIEM, Active Directory monitoring, and data loss prevention (DLP) tools&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Routinely assessing and confirming controls through audits, vulnerability scanning and penetration tests&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Best Practices for Secure Development – and Third-Party Risk Management&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ideally, the most effective place to control software supply chain risks is in the continuous integration and development (CI/CD) process – and customers of these services also have a role to play here.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Carefully vetting your partners and suppliers and requiring good security controls in contracts are ways to improve third-party security. <a href="https://cyble.com/solutions/cyber-threat-intelligence/">Cyber threat intelligence</a> services like Cyble will help you assess partner and vendor risk – and alert you to places where you may want to shore up your own security defenses. Cyble’s third-party risk intelligence module evaluates partner security in areas such as cyber hygiene, dark web exposure, spoofing activities, and attack surface and network exposure, noting specific areas for improvement, while Cyble’s AI-powered vulnerability scanning capabilities can help you find and prioritize your own web-facing vulnerabilities.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The U.S. National Institute of Standards and Technology (NIST) offers a number of guides on supply chain risk management and best practices. These are important resources both for developers and companies evaluating third-party providers. Make security reviews and requirements part of your procurement process from the start.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here are some questions you should ask vendors and service providers as part of a digital supply chain risk assessment:&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Is the vendor’s software and hardware design process documented, repeatable and measurable?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Does the vendor maintain a software component inventory such as a software bill of materials (SBOM) that spells out the components and other attributes of software developed by the vendor and third parties?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Is the mitigation of known vulnerabilities factored into product design through product architecture, run-time protection techniques, and code review?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>How does the vendor stay current on emerging vulnerabilities? What are vendor capabilities to address new <a href="https://cyble.com/knowledge-hub/zero-day-exploit/">“zero day” vulnerabilities?</a>&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What controls are in place to manage and monitor production processes?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>How is configuration management performed? Quality assurance? How is testing done for code quality and vulnerabilities?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What levels of <a href="https://cyble.com/knowledge-hub/what-is-malware/">malware </a>protection and detection are performed?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What steps are taken to make sure products are tamper-proof? Are the back doors closed?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Are physical security measures documented and audited?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What access controls, both cyber and physical, are in place? Are they documented and audited?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>How is customer data protected, stored, retained, and destroyed?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What type of employee background checks are conducted and how frequently?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What security practice expectations are there for upstream suppliers, and how is adherence to these standards assessed?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>How secure is the distribution process? Have approved and authorized distribution channels been clearly documented?&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Services like Cyble’s third-party risk intelligence can help you get started on this process. As more organizations make security a buying criterion, vendors will be forced to respond with better security controls and documentation.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/surge-in-software-supply-chain-attacks-heightens-third-party-vigilance/" rel="nofollow">Surge in Software Supply Chain Attacks Demands Heightened Third-Party Vigilance</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 20 Aug 2024 16:57:13 +0000</pubDate>
+<pubDate>Tue, 20 Aug 2024 16:57:13 +0000</pubDate>
+</item>
+<item>
+<title>Widespread Cloud Exposure: Extortion Campaign Used Exposed ENV Files to Steal AWS Credentials And Ransom S3 Data</title>
+<link>https://cyble.com/blog/widespread-cloud-exposure/</link>
+<guid>https://cyble.com/blog/widespread-cloud-exposure/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Widespread Cloud Exposure:" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/08/Blog-Image_.webp" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>A sophisticated cloud extortion campaign used misconfigured .env files in 110,000 domains to steal AWS credentials and ransom S3 cloud storage data.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The threat actors obtained AWS Identity and Access Management (IAM) access keys by scanning for exposed&nbsp;.env&nbsp;files hosted on unsecured web applications. These environment variable files (.env&nbsp;files) define configuration variables within applications and platforms and often contain secrets.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Cyble’s<a href="https://cyble.com/knowledge-hub/what-is-cyber-threat-intelligence/"> threat intelligence</a> platform suggests that .env exposures&nbsp;may be more common than even this largescale attack suggests.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The IAM credentials uncovered by the attackers had permissions to create new IAM roles and attach IAM policies to existing roles, which they used to create new IAM resources with unlimited access.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>An <a href="https://unit42.paloaltonetworks.com/large-scale-cloud-extortion-operation/">extortion campaign</a> targeted misconfigured environment variable files (.env files) in more than 100,000 domains to steal AWS credentials and ransom data stored in S3 containers.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The sophisticated campaign employed automation techniques and extensive knowledge of cloud architecture to increase the speed and success of the campaign, underscoring the need for cloud security best practices such as robust authentication and access controls, data encryption, secure configuration management, and monitoring and logging.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The attackers were able to leverage .env&nbsp;files that contained sensitive information such as credentials from numerous applications because of multiple security failures on the part of cloud users. These insecure practices include:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Exposed environment variables</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use of long-lived credentials</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Absence of a least privilege architecture</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>After achieving initial access, the attack campaign set up its infrastructure within organizations’ AWS environments and from there scanned more than 230 million unique targets for sensitive information.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The campaign targeted 110,000 domains, resulting in more than 90,000 unique variables in the&nbsp;.env&nbsp;files. Of those variables, 7,000 belonged to organizations' cloud services and 1,500 variables were traced back to social media accounts.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Attackers used multiple networks and tools in their operation, such as virtual private server (VPS) endpoints, the onion router (Tor) network for reconnaissance and initial access operations, and VPNs for lateral movement and data exfiltration.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Attackers successfully ransomed data hosted within cloud storage containers. They did not encrypt the data before ransom, but instead exfiltrated it and placed a ransom note in the compromised container.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Technical Analysis</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Environment files let users define configuration variables used within applications and platforms, and often contain secrets such as hard-coded cloud access keys, SaaS API keys and database login information, which the <a href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/v">threat actors</a> used for initial access.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>By scanning for exposed&nbsp;.env&nbsp;files hosted on unsecured web applications, the threat actors were able to obtain exposed AWS Identity and Access Management (IAM)&nbsp;access keys.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>How common are .env file exposures? Perhaps much greater than even this campaign would suggest – <a href="https://cyble.com/products/cyble-vision/">Cyble’s threat intelligence platform</a> has detected 1,472,925 .env files since 1 Jan 2024 that have been exposed publicly.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The IAM credentials uncovered by the attackers in this case did not have administrator access to all cloud resources, but the attackers discovered that the IAM role used for initial access had permissions to create new IAM roles and attach IAM policies to existing roles. Using these capabilities, the attackers successfully escalated their privileges within victim cloud environments by creating new IAM resources with unlimited access.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In the discovery phase of this campaign, the attackers ran the GetCallerIdentity API call to verify the identity of the user or role assigned to the exposed IAM credential, including UserID, AWS account number and Amazon Resource Name (ARN).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The attackers also used the AWS API request ListUsers to obtain a list of IAM users in the AWS account, and the API request ListBuckets to identify all existing S3 buckets.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To elevate privileges, the attackers created an IAM role named lambda-ex with the API request CreateRole, then used the API call AttachRolePolicy to attach the AWS-managed policy AdministratorAccess to the newly created lambda-ex role.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In the execution phase, the attackers initially failed to create an EC2 infrastructure stack, but using the CreateFunction20150331 API call, they were able to create new AWS Lambda functions for their automated scanning operation. From there, they were able to launch a bash script to scan for targets.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The shared responsibility model of cloud security places responsibility for secure configuration squarely on the service’s users. This cloud extortion campaign reveals the dangers that arise when cloud service users fail to follow best practices such as robust authentication and access controls, data encryption, secure configuration management, and monitoring and logging.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Exposed .env files may contain API keys and secrets, database credentials, encryption keys, and sensitive environment configurations, so the following best practices are recommended:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><strong>Don’t commit .env files to version control</strong>: Adding .env files to .gitignore or similar mechanisms in version control systems will help prevent inadvertent exposure.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Use environment variables</strong>: Use environment variables directly in the deployment environment to avoid relying on .env files.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Access control</strong>: Access to .env files should be limited to those who require it.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Audits</strong>: Regularly audit repositories and environment configurations to make sure that .env files and their contents are not exposed.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Secrets management tools</strong>: Secrets management tools can help you store and manage sensitive information securely instead of relying on plain text files like .env.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Indicators of Compromise</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here are indicators of compromise identified in the campaign:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>URL</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>https[:]//github[.]com/brentp/gargs/releases/download/v0.3.9/gargs_linux&nbsp;(not malicious; used by the lambda function)</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>IPv4</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Tor Exit Nodes</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>109.70.100[.]71</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>144.172.118[.]62</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>176.123.8[.]245</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>185.100.85[.]25</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>185.100.87[.]41</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>185.220.101[.]190</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>185.220.101[.]19</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>185.220.101[.]21</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>185.220.101[.]29</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>185.220.101[.]30</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>185.220.101[.]86</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>185.220.103[.]113</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>192.42.116[.]181</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>192.42.116[.]187</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>192.42.116[.]18</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>192.42.116[.]192</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>192.42.116[.]199</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>192.42.116[.]201</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>192.42.116[.]208</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>192.42.116[.]218</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>198.251.88[.]142</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>199.249.230[.]161</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>45.83.104[.]137</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>62.171.137[.]169</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>80.67.167[.]81</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>89.234.157[.]254</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>94.142.241[.]194</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>95.214.234[.]103</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">VPS Endpoints</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>125.20.131[.]190</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>196.112.184[.]14</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>46.150.66[.]226</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>49.37.170[.]97</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">VPN Endpoints</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>139.99.68[.]203</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>141.95.89[.]92</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>146.70.184[.]10</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>178.132.108[.]124</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>193.42.98[.]65</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>193.42.99[.]169</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>193.42.99[.]50</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>193.42.99[.]58</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>195.158.248[.]220</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>195.158.248[.]60</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>45.137.126[.]12</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>45.137.126[.]16</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>45.137.126[.]18</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>45.137.126[.]41</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>45.94.208[.]42</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>45.94.208[.]63</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>45.94.208[.]76</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>45.94.208[.]85</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>72.55.136[.]154</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>95.214.216[.]158</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>95.214.217[.]173</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>95.214.217[.]224</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>95.214.217[.]242</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>95.214.217[.]33</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading"><strong>Hash</strong> </h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>SHA256 for&nbsp;Lambda.sh&nbsp;-&nbsp;64e6ce23db74aed7c923268e953688fa5cc909cc9d1e84dd46063b62bd649bf6</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a id="_msocom_1"></a></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/widespread-cloud-exposure/" rel="nofollow">Widespread Cloud Exposure: Extortion Campaign Used Exposed ENV Files to Steal AWS Credentials And Ransom S3 Data</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 20 Aug 2024 16:22:07 +0000</pubDate>
+<pubDate>Tue, 20 Aug 2024 16:22:07 +0000</pubDate>
+</item>
+
+</channel>
+</rss>

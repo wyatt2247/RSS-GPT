@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Cyble</title>
+<link>https://cyble.com</link>
+
+<item>
+<title>Cyble Research Reveals Near-Daily Surge in Supply Chain Attacks</title>
+<link>https://www.cysecurity.news/2024/08/cyble-research-reveals-near-daily-surge.html</link>
+<guid>https://www.cysecurity.news/2024/08/cyble-research-reveals-near-daily-surge.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj_ZBIQzOAPBvGALxcLtEBgh3aMfk-heWaV3T_mIMI29LLFFy8JHnS5pB2HLMaeL10rHz92dEjpXJF_7Il41mVxXZgKwEsf_vDAQwGOdGmyfEXTWcWg0SJaZylM7GS2LxWNXCGlPs_8YzHZ3-bk3CajI3uJmWMJ_MoIHgPX2owMuGt1nlQPWjO7_g7LjY/s4576/pexels-pixabay-60504.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj_ZBIQzOAPBvGALxcLtEBgh3aMfk-heWaV3T_mIMI29LLFFy8JHnS5pB2HLMaeL10rHz92dEjpXJF_7Il41mVxXZgKwEsf_vDAQwGOdGmyfEXTWcWg0SJaZylM7GS2LxWNXCGlPs_8YzHZ3-bk3CajI3uJmWMJ_MoIHgPX2owMuGt1nlQPWjO7_g7LjY/s600/pexels-pixabay-60504.jpg" width="600" /></a></div><div style="text-align: justify;">The prevalence of software supply chain attacks is on the rise, posing significant threats due to the extensive impact and severity of such incidents, according to threat intelligence researchers at Cyble.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Within a six-month span from February to mid-August, Cyble identified 90 claims of supply chain breaches made by cybercriminals on the dark web. This averages nearly one breach every other day. Supply chain attacks are notably more costly and damaging than other types of cyber breaches, making even a small number of these attacks particularly detrimental.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cyble’s blog highlights that while infiltrations of an IT supplier’s codebase—similar to the SolarWinds incident in 2020 and Kaseya in 2021—are relatively uncommon, the software supply chain’s various components, including code, dependencies, and applications, remain a continuous source of vulnerabilities. These persistent risks leave all organizations exposed to potential cyberattacks.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Even when supply chain breaches do not compromise codebases, they can still result in the exposure of sensitive data, which attackers can exploit to breach other environments through methods such as phishing, spoofing, and credential theft. The interconnected nature of the physical and digital supply chain means that any manufacturer or supplier involved in downstream distribution could be considered a potential cyber risk, according to the researchers.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In their 2024 analysis, Cyble researchers examined the frequency and characteristics of supply chain attacks and explored defenses that can mitigate these risks.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Increasing Frequency of Supply Chain Attacks</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cyble’s dark web monitoring revealed 90 instances of cybercriminals claiming successful supply chain breaches between February and mid-August 2024.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">IT service providers were the primary targets, accounting for one-third of these breaches. Technology product companies were also significantly impacted, experiencing 14 breaches. The aerospace and defense, manufacturing, and healthcare sectors followed, each reporting between eight and nine breaches.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Despite the concentration of attacks in certain industries, Cyble’s data shows that 22 out of 25 sectors tracked have experienced supply chain attacks in 2024. The U.S. led in the number of breaches claimed on the dark web, with 31 incidents, followed by the UK with 10, and Germany and Australia with five each. Japan and India each reported four breaches.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Significant Supply Chain Attacks in 2024</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cyble’s blog detailed eight notable attacks, ranging from codebase hijacks affecting over 100,000 sites to disruptions of essential services. Examples include:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><ul><li>jQuery Attack: In July, a supply chain attack targeted the JavaScript npm package manager, using trojanized versions of jQuery to exfiltrate sensitive form data from websites. This attack impacted multiple platforms and highlighted the urgent need for developers and website owners to verify package authenticity and monitor code for suspicious modifications.</li><li>Polyfill Attack: In late June, a fake domain impersonated the Polyfill.js library, injecting malware into over 100,000 websites. This malware redirected users to unauthorized sites, underscoring the security risks associated with external code libraries and the importance of vigilant website security.</li><li>Programming Language Breach: The threat actor IntelBroker claimed unauthorized access to a node package manager (npm) and GitHub account related to an undisclosed programming language, including private repositories with privileges to push and clone commits.</li><li>CDK Global Inc. Attack: On June 19, a ransomware attack targeted CDK Global Inc., a provider of software to automotive dealerships, disrupting sales and inventory operations for weeks across North American auto dealers, including major networks like Group1 Automotive Inc. and AutoNation Inc.</li><li>Access to 400+ Companies: IntelBroker also claimed in June to have access to over 400 companies through a compromised third-party contractor, with data access to platforms like Jira, GitHub, and AWS, potentially affecting large organizations such as Lockheed Martin and Samsung.</li></ul></div><div style="text-align: justify;"><b>Mitigating Supply Chain Risks through Zero Trust and Resilience</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">To counter supply chain attacks, Cyble researchers recommend adopting zero trust principles, enhancing cyber resilience, and improving code security. Key defenses include:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><ol><li>Network microsegmentation</li><li>Strong access controls</li><li>Robust user and device identity authentication</li><li>Encrypting data both at rest and in transit</li><li>Ransomware-resistant backups that are “immutable, air-gapped, and isolated”</li><li>Honeypots for early detection of breaches</li><li>Secure configuration of API and cloud service connections</li><li>Monitoring for unusual activity using tools like SIEM and DLP</li><li>Regular audits, vulnerability scanning, and penetration testing are also essential for maintaining these controls.</li></ol></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Enhancing Secure Development and Third-Party Risk Management</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cyble also emphasizes best practices for code security, including developer audits and partner assessments. The use of threat intelligence services like Cyble’s can further aid in evaluating partner and vendor risks.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cyble’s third-party risk intelligence module assesses partner security across various areas, such as cyber hygiene, dark web exposure, and network vulnerabilities, providing specific recommendations for improvement. Their AI-powered vulnerability scanning also helps organizations identify and prioritize their own web-facing vulnerabilities.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As security becomes a more critical factor in purchasing decisions, vendors will likely need to improve their security controls and documentation to meet these demands, the report concludes.</div>
+]]></content:encoded>
+<pubDate>2024-08-24T13:22:00.000-04:00</pubDate>
+<pubDate>2024-08-24T13:22:39.668-04:00</pubDate>
+</item>
+<item>
+<title>Comprehensive Analysis of Critical Vulnerabilities in Atlassian Products</title>
+<link>https://cyble.com/blog/key-vulnerabilities-in-atlassian-products/</link>
+<guid>https://cyble.com/blog/key-vulnerabilities-in-atlassian-products/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Comprehensive Analysis of Critical Vulnerabilities in Atlassian Products" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/08/4.webp" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>CERT-In's August 2024 bulletin emphasizes the urgent need for organizations to update their Atlassian products due to critical vulnerabilities. Prompt patch application is essential to address these high-severity issues and mitigate risks.&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>The <a href="https://cyble.com/solutions/vulnerability-management/" rel="noreferrer noopener" target="_blank">vulnerabilities</a> uncovered span a range of severe risks, including arbitrary code execution, cross-site scripting (XSS), and privilege escalation. These affect multiple Atlassian products, such as Bamboo, Confluence, and Jira, posing significant security threats.&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Critical vulnerabilities are linked to specific versions of Atlassian software: Bamboo versions prior to 9.6.5, Confluence versions before 8.9.5, Crowd versions below 5.3.2, Jira versions older than 9.17.1, and Jira Service Management versions before 5.17.1.&nbsp;&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Notable vulnerabilities include CVE-2024-21689 in Bamboo, which affects both Data Center and Server versions, and CVE-2024-37768 in Jira, which could enable unauthorized users to gain elevated permissions.&nbsp;&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Issues with resource management in integrated libraries, such as Bouncy Castle, could lead to performance degradation or service disruptions. Upgrading to the latest versions of these libraries is crucial for maintaining system stability.&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Vulnerabilities in components like Apache Tomcat affect many Atlassian products, with potential impacts including service disruptions and system integrity breaches. Regular updates to these components are necessary to prevent exploitation.&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Critical vulnerabilities in Confluence could expose sensitive data, including internal communications and documents. Organizations must update their systems to protect against potential data breaches. </li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>The exploitation of past vulnerabilities highlights the need for continuous security monitoring. Regular security assessments, prompt patching, and proactive measures are essential for protecting against both new and existing threats. </li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>CERT-In has added multiple critical Atlassian vulnerabilities to its catalog following the disclosure by the organization in its <a href="https://confluence.atlassian.com/security/security-bulletin-august-20-2024-1431535667.html" rel="noreferrer noopener" target="_blank">August 2024 Security Bulletin</a>. These vulnerabilities&nbsp;&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>target a range of Atlassian products, including Bamboo, Confluence, and more. This analysis aims to thoroughly examine these vulnerabilities, detailing their potential impacts, associated risks, and recommended mitigation strategies.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The August 2024 Security Bulletin from Atlassian addresses 9 high-severity vulnerabilities that have been fixed in recent product updates. These vulnerabilities were identified through the company's Bug Bounty program, penetration testing, and third-party library scans. </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The organization denoted that the vulnerabilities listed in this August 2024 bulletin are less critical compared to those found in Critical Security Advisories, which may require immediate patches outside of the regular monthly schedule.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Multiple Atlassian Vulnerabilities Targets Products and Services&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&amp;VLCODE=CIVN-2024-0258" rel="noreferrer noopener" target="_blank">CERT-In's Vulnerability Note CIVN-2024-0258</a>, issued on August 21, 2024, highlights multiple high-severity vulnerabilities across various Atlassian products, including Bamboo Data Center and Server, Confluence Data Center and Server, Crowd Data Center and Server, Jira Data Center and Server, and Jira Service Management Data Center and Server.&nbsp;&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These vulnerabilities, affecting versions prior to 9.6.5 for Bamboo, 8.9.5 for Confluence, 5.3.2 for Crowd, 9.17.1 for Jira, and 5.17.1 for Jira Service Management, could enable attackers to execute arbitrary code, perform cross-site scripting (XSS) and cross-site request forgery (CSRF) attacks, exploit server-side request forgery (SSRF), access sensitive information, or cause denial of service (DoS).&nbsp;&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-21689: High-Risk Vulnerability in Atlassian Bamboo&nbsp;</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Atlassian Bamboo, a popular continuous integration and deployment tool, has been identified with a severe vulnerability cataloged as CVE-2024-21689. This flaw affects both the Bamboo Data Center and Bamboo Server versions, posing a risk to organizations that rely on these platforms for their CI/CD pipelines.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The vulnerability in question relates to a critical functionality within Bamboo, although specific details about the nature of the flaw remain somewhat limited. The Common Vulnerability Scoring System (CVSS) score for this vulnerability is 7.6, categorizing it as high-risk. Given Bamboo's central role in automating software development and deployment processes, the potential impact of this vulnerability is substantial. Exploiting this flaw could lead to unauthorized access, data breaches, or disruptions in deployment workflows.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To mitigate the associated risks, organizations using affected versions of Bamboo are strongly advised to upgrade to the latest release. Atlassian has addressed this issue in recent updates, which include critical security patches to close the identified vulnerabilities.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-29857: Resource Exhaustion Vulnerability in Bouncy Castle&nbsp;</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Bouncy Castle, a widely-used cryptographic library that integrates with various Atlassian products, has been identified with a notable vulnerability cataloged as CVE-2024-29857. This flaw impacts Bouncy Castle versions up to 1.77 and is related to handling limited resources within the library. The nature of this vulnerability can lead to resource exhaustion, which may disrupt service operations or degrade performance.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Organizations using Bouncy Castle in their Atlassian environments should prioritize upgrading to version 1.78, including essential fixes to address resource exhaustion. Upgrading to the latest version will help ensure the cryptographic library functions efficiently and securely within integrated systems.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-34750: Vulnerability in Apache Tomcat Affecting Atlassian Products&nbsp;</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Apache Tomcat, a popular open-source implementation of Java Servlets, is another component affected by critical vulnerabilities relevant to Atlassian products. The vulnerability cataloged as CVE-2024-34750 impacts Apache Tomcat versions 9.0.89, 10.1.24, and 11.0.0-M20. Specifically, this flaw pertains to the HTTP2 Stream Handler component, which is responsible for managing HTTP/2 connections.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Common Vulnerability Scoring System (CVSS) for this vulnerability is 7.5, categorizing it as a moderate risk. The potential impact of this flaw includes service disruptions and potential compromise of system integrity. Given that Apache Tomcat serves as a critical component for <a href="https://cyble.com/knowledge-hub/what-is-web-application-firewall/" rel="noreferrer noopener" target="_blank">web applications</a> and services in many Atlassian products, this vulnerability represents a significant security concern.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Organizations should upgrade to Apache Tomcat versions 9.0.90, 10.1.25, or 11.0.0-M21 to address this issue. These versions contain security patches and updates that mitigate the identified vulnerability. By applying these updates, organizations can enhance the stability and security of their web application environments, reducing the risk of exploitation.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-37768: Privilege Escalation in Atlassian Jira&nbsp;</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Atlassian Jira, a leading issue and project tracking tool, has also been affected by a critical vulnerability cataloged as CVE-2024-37768. This flaw presents a privilege escalation issue, potentially allowing unauthorized users to gain elevated permissions within the Jira system. The vulnerability affects several versions of Jira, making it a widespread concern for organizations that utilize this tool for project management and tracking.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Common Vulnerability Scoring System (CVSS) for CVE-2024-37768 is 9.1, indicating a high level of risk. Exploitation of this privilege escalation flaw could lead to unauthorized access to sensitive information, unauthorized modifications to projects, or disruption of project management workflows. </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To address this vulnerability, organizations must upgrade to the latest versions of Jira. Atlassian has released security patches and updates to remediate this issue, ensuring that users with appropriate privileges are properly authenticated and authorized. Implementing these updates will help secure Jira environments against potential <a href="https://cyble.com/knowledge-hub/what-is-a-cyber-attack/">cyber attacks</a> and maintain the integrity of project management processes. </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-40859: Information Disclosure in Atlassian Confluence&nbsp;</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Confluence, another widely-used Atlassian product, has been identified with a vulnerability cataloged as CVE-2024-40859. This vulnerability is related to information disclosure, which could potentially expose sensitive data to unauthorized individuals. The affected versions of Confluence include several releases, making it a critical issue for organizations that rely on Confluence for collaborative work and knowledge management.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Common Vulnerability Scoring System (CVSS) for this vulnerability is 7.5, categorizing it as high-risk. The potential impact of this information disclosure flaw includes unauthorized access to confidential documents, internal communications, and other sensitive information.&nbsp;&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Previous Instances of Exploitation&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Apart from these Atlassian vulnerabilities, the organization faced exploitation from a previous RCE vulnerability (CVE-2023-22527). In January 2024, <a href="https://cyble.com/blog/exploitation-of-atlassian-confluence-rce-vulnerability-cve-2023-22527/" rel="noreferrer noopener" target="_blank">Cyble Research and Intelligence (CRIL) Labs</a> reported about this critical flaw. CRIL reported that active exploitation attempts of this&nbsp;vulnerability began on January 26, 2024.&nbsp;&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://cyble.com/products/cyble-vision/" rel="noreferrer noopener" target="_blank">Cyble’s</a> Global Sensor Intelligence (CGSI) network observed scanning activities targeting Confluence instances in various countries, including the United States, Germany, and China. Over 4,000 exposed Confluence instances were identified, with significant numbers in the U.S., Germany, China, and Russia.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To address the vulnerability, Atlassian recommended updating Confluence Data Center and Server to the latest versions: 8.5.5 (LTS) or 8.7.2 for Data Center only. Organizations were advised to conduct regular security audits, apply patches promptly, and implement network segmentation to mitigate risks.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The vulnerability stemmed from flaws in the text-inline.vm velocity template, which allowed attackers to bypass security constraints and execute OGNL expressions beyond the standard 200-character limit. Additional information was provided through Atlassian’s security advisory and resources from <a href="https://cyble.com/knowledge-hub/cybersecurity/" rel="noreferrer noopener" target="_blank">cybersecurity</a> experts like Picus Security and ProjectDiscovery.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Mitigation Strategies and Recommendations&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>To address the vulnerabilities identified in Atlassian products, organizations should begin by upgrading to the latest versions of the software. These updates include essential security patches and fixes for the vulnerabilities in question. It is crucial for organizations to regularly check for and apply these updates promptly to maintain protection against potential threats. </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In addition to software updates, implementing comprehensive security best practices is essential. Organizations should monitor for unusual activities, configure robust access controls, and enforce strong authentication mechanisms to enhance their overall security posture. These measures help prevent unauthorized access and mitigate the risk of exploitation.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Regular <a href="https://cyble.com/external-threat-profile-report/" rel="noreferrer noopener" target="_blank">security assessments</a> and vulnerability scans are also recommended to proactively identify and address potential security issues. Engaging with security professionals for periodic reviews can provide valuable insights and help organizations stay ahead of emerging threats.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Staff education and training play a vital role in maintaining security. Ensuring that employees are aware of the risks associated with vulnerabilities and are knowledgeable about best practices for using Atlassian products can significantly reduce the likelihood of security breaches.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Lastly, organizations should establish effective backup and recovery plans. These plans are critical for safeguarding against data loss and ensuring business continuity in the event of a security incident or exploitation of vulnerabilities. By preparing for potential issues, organizations can quickly recover and minimize disruptions.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The recent cataloging of critical Atlassian vulnerabilities by CERT-In highlights the urgent need for organizations to prioritize security updates. The August 2024 bulletin revealed significant flaws across various Atlassian products, each posing substantial risks such as unauthorized access, service disruptions, and data exposure. While these vulnerabilities are severe, they are manageable with timely updates and robust security practices.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Organizations are advised to promptly upgrade their affected systems, apply the necessary patches, and implement comprehensive security measures. Regular assessments and proactive patch management will help safeguard against these vulnerabilities and strengthen overall security posture, ensuring resilience against potential threats and maintaining operational integrity.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/key-vulnerabilities-in-atlassian-products/" rel="nofollow">Comprehensive Analysis of Critical Vulnerabilities in Atlassian Products</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 22 Aug 2024 15:25:51 +0000</pubDate>
+<pubDate>Thu, 22 Aug 2024 15:25:51 +0000</pubDate>
+</item>
+<item>
+<title>Surge in Software Supply Chain Attacks Demands Heightened Third-Party Vigilance</title>
+<link>https://cyble.com/blog/surge-in-software-supply-chain-attacks-heightens-third-party-vigilance/</link>
+<guid>https://cyble.com/blog/surge-in-software-supply-chain-attacks-heightens-third-party-vigilance/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Blog Image" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/08/Blog-Image2-1.webp" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Attacks on the software supply chain have occurred at a rate of at least one every two days in 2024.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>U.S. companies and IT providers have been by far the most frequent targets, accounting for one-third of all software supply chain attacks.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The UK, Australia, Germany, India and Japan have also been frequent targets, as have the aerospace &amp; defense, healthcare and manufacturing sectors.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>These <a href="https://cyble.com/knowledge-hub/what-is-a-cyber-attack/">cyber attacks</a> are particularly damaging and costly because of their multiplication factor on downstream victims and trusted access to customer environments.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Even when the codebase isn’t breached, customer databases contain critical information for threat actors to use in phishing, spoofing and credential attacks. </li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>A defense-in-depth approach is required to reduce risk, based on principles of <a href="https://cyble.com/knowledge-hub/what-is-zero-trust-framework/">zero trust</a>, cyber resilience, and secure code practices.&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Software supply chain attacks burst into public consciousness in 2020 with news of the SolarWinds Orion attack, and a Kaseya VSA ransomware attack in mid-2021 further underscored the risks that third-party software suppliers can pose to their unsuspecting customers.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Attacks resulting from infiltration of an IT supplier’s code base are relatively rare, but the software supply chain – the code, dependencies and applications that all modern organizations rely on – is a source of near-constant vulnerabilities and cyberattacks that place all organizations at risk.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Because of their trusted access to IT environments, a category of security tools called third-party risk management (TPRM) has evolved to monitor the security of trusted providers – and to alert downstream users when the risk from these services has increased.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Because of their trusted access to customer environments, third-party providers are one of the biggest targets for threat actors. While codebase breaches are relatively rare, a breach of any partner’s business environment can lead to sensitive data being leaked that could give attackers a critical advantage in breaching other environments, including <a href="https://cyble.com/knowledge-hub/what-is-phishing/">phishing</a>, spoofing and credential attacks. And because of the interconnectedness and increasing digital nature of the physical supply chain, any manufacturer or supplier with downstream distribution can be considered a cyber risk. </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>We’ll look at the frequency and nature of supply chain attacks in 2024 before we focus on important defenses that all organizations with trusted partners should have in place.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">How Common Are Software Supply Chain Attacks?&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Successful supply chain attacks have become a near-daily occurrence in 2024, according to Cyble <a href="https://cyble.com/knowledge-hub/what-is-cyber-threat-intelligence/">threat intelligence</a> data.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble’s <a href="https://cyble.com/solutions/dark-web-monitoring/">dark web monitoring</a> found 90 cybercriminal claims of successful supply chain attacks in a six-month period that encompassed February 2024 to mid-August 2024.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Not surprising given their reach, IT providers suffered the greatest number of those breaches, 30, or one-third of the total, followed by technology product companies, which experienced 14 of the 90 breaches.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Aerospace &amp; defense (9 breaches), manufacturing (9 breaches), and healthcare (8 breaches) were the next most frequent victims of supply chain attacks.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In all, 22 of the 25 sectors tracked by Cyble threat researchers have experienced a supply chain attack in 2024 (chart below).&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":56651,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Supply Chain Attacks by Sector 2024" class="wp-image-56651" src="https://cyble.com/wp-content/uploads/2024/08/supply-chain.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The U.S. experienced by far the greatest number of supply chain breaches claimed on the <a href="https://cyble.com/knowledge-hub/what-is-the-dark-web/">dark web</a> – 31 in all – followed by the UK (10). Germany and Australia each had five, and Japan and India had four each.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">A Look at the Nature of Supply Chain Attacks in 2024&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Supply chain attacks in 2024 have ranged from the theft of business and customer data to the theft and hijacking of source code, but regardless of the sensitive data access, all such attacks pose a serious threat because of the reach of these suppliers. A recent report from Cyentia found that 99% of Global 2000 companies are directly connected to a vendor that has been hit by a supply chain breach. Here is a look at the range and nature of supply chain attacks and breaches thus far in 2024.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">jQuery&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On July 5, a supply chain attack on the JavaScript npm package manager involving trojanized versions of jQuery was discovered by cybersecurity researchers. The attack targeted the popular JavaScript library jQuery by distributing trojanized versions through npm, GitHub, and jsDelivr. The attackers modified the legitimate jQuery code to exfiltrate sensitive form data from websites. The attack's scope was significant, impacting multiple platforms and package names. The attackers used tactics like obfuscation and misleading version warnings. The attack underscored the urgent need for developers and website owners to verify package authenticity and scrutinize code for suspicious modifications to mitigate supply chain attacks.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Polyfill&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>In late June, a widespread supply chain attack hit over 100,000 websites, including many well-known names, originating from a fake domain that impersonated the Polyfill.js library to inject malware that redirected users to sports betting or pornographic sites. The malware dynamically generated based on HTTP headers, making detection challenging. The attack highlighted the risks of using external code libraries and the importance of vigilance in website security. Mitigation steps included removing cdn.polyfill.io, replacing it with secure alternatives, and caution against relying on unknown entities for JavaScript. The incident underscored the security implications of third-party scripts and the potential for malicious takeovers of widely deployed projects.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Programming Language Breach&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On July 26, <a href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/">threat actor </a>(TA) IntelBroker, posting on the BreachForums cybercrime forum, claimed to offer unauthorized access to a node package manager (npm) and GitHub account pertaining to an undisclosed programming language, for US $20,000. The TA said the offer also includes access to the X (Twitter) account of the associated organization with about 100,000 followers, and private repositories with privileges to push and clone commits. Below is a screenshot of the TA’s claims: </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":56652,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-56652" src="https://cyble.com/wp-content/uploads/2024/08/suply-chain-1024x505.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">CDK Global Inc.&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On June 19, automotive dealership software provider CDK Global Inc. was hit by a <a href="https://cyble.com/knowledge-hub/what-is-ransomware/">ransomware</a> attack reportedly perpetrated by the Black Suit ransomware group that disrupted sales and inventory operations of many North American auto dealers, including large dealer networks belong to Group1 Automotive Inc., AutoNation Inc., Premier Truck Group, and Sonic Automotive, all of which informed U.S. authorities that they experienced a multi-week service outage and disruption to dealership operations, including those supporting sales, customer relationship management systems, inventory and accounting functions. However, none of the CDK Global customers reported any malicious activity within their networks, suggesting the attack may have been limited to a service disruption.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Insula Group Pty Ltd.&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On July 25, BianLian ransomware group claimed to compromise Australia-based Insula Group Pty Ltd. The company provides software solutions used in residential construction and finance broking industries. The ransomware group allegedly exfiltrated 400 GB of documents that included project data, construction data, client information, server data, and company source code.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Access Offered to More than 400 Companies&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On June 15, IntelBroker, again appearing on BreachForums, offered to sell unauthorized access to more than 400 companies compromised via an undisclosed third-party contractor. The data allegedly included access to integration services of Jira, Bamboo, Bitbucket, GitHub, GitLab, SSH, SFTP, DA, Zabbix, AWS S3, AWS EC2, SVN and Terraform. Additionally, the TA also provided revenue of four significant impacted organizations. Open-source research based on the companies’ revenue and location suggested the impacted organizations could be Lockheed Martin Corporation, Samsung Electronics Co Ltd, General Dynamics, and Apple Inc.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Smart-ID&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On June 21, the functionality of the Smart-ID electronic identification and authorization app was disrupted after a cyberattack, resulting in difficulties accessing internet banking and other e-services in Latvia, Estonia and elsewhere.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Cartier International SNC&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On Aug 5, IntelBroker leaked data on BreachForums allegedly pertaining to Cartier International SNC, a France-based luxury goods brand. The TA said the data was stolen from the U.S,-based BORN Group, a global digital marketing agency that specializes in digital transformation and commerce solutions. The TA claimed the data was exfiltrated from AWS S3 storage and also leveraged a local file inclusion (LFI) vulnerability, which led to the exposure of internal files, images, and source code.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Code Base Injection Not Required for Supply Chain Attack&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Threat actors don’t need to inject malicious code into a tech company’s code base to hack the software supply chain – they only need to exploit a zero-day or unpatched flaw that already exists, as happened in recent attacks hitting customers of MOVEit and Ivanti. And “software dependences,” like an open-source component used in proprietary software, can also introduce vulnerabilities, further expanding the attack surface.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The software supply chain falls under the broader category of third-party risk management (TPRM), the partners, vendors, service providers, suppliers and contractors who can unwittingly introduce risk into an organization’s environment. A number of studies have found that more than half of all organizations have experienced a third-party breach, and these breaches tend to be more costly than incidents that occur within an organization.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here are some of the best practices and technologies organizations can use to protect against these growing third-party risks.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Zero Trust and Cyber Resilience Help Control Supply Chain Risks&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>In <a href="https://cyble.com/knowledge-hub/cybersecurity/">cybersecurity,</a> organizations should always “assume breach” and trust no one, and this applies to third-party partners too. If security teams assume that no one can be trusted and that no one can be given safe access to assets, they architect accordingly, with critical systems and data isolated with security controls and duplicated with ransomware-resistant backups.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The concept of <em>cyber resilience</em> has been repeatedly stressed in recent years. Instead of focusing solely on the network perimeter and endpoints, resilience and recovery should be built around critical applications and data using practices such as:&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Network microsegmentation&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Strong access controls, allowing no more access than is required, with frequent verification&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>A strong source of user identity and authentication, including multi-factor authentication and biometrics, <em>and</em> machine authentication with device compliance and health checks&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Encryption of data at rest and in transit&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Ransomware-resistant backups that are immutable, air-gapped and isolated as much as possible&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Honeypots that lure attackers to fake assets for early breach detection&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Proper configuration of API and cloud service connections&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Monitor for unusual activity with SIEM, Active Directory monitoring, and data loss prevention (DLP) tools&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Routinely assessing and confirming controls through audits, vulnerability scanning and penetration tests&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Best Practices for Secure Development – and Third-Party Risk Management&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ideally, the most effective place to control software supply chain risks is in the continuous integration and development (CI/CD) process – and customers of these services also have a role to play here.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Carefully vetting your partners and suppliers and requiring good security controls in contracts are ways to improve third-party security. <a href="https://cyble.com/solutions/cyber-threat-intelligence/">Cyber threat intelligence</a> services like Cyble will help you assess partner and vendor risk – and alert you to places where you may want to shore up your own security defenses. Cyble’s third-party risk intelligence module evaluates partner security in areas such as cyber hygiene, dark web exposure, spoofing activities, and attack surface and network exposure, noting specific areas for improvement, while Cyble’s AI-powered vulnerability scanning capabilities can help you find and prioritize your own web-facing vulnerabilities.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The U.S. National Institute of Standards and Technology (NIST) offers a number of guides on supply chain risk management and best practices. These are important resources both for developers and companies evaluating third-party providers. Make security reviews and requirements part of your procurement process from the start.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here are some questions you should ask vendors and service providers as part of a digital supply chain risk assessment:&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Is the vendor’s software and hardware design process documented, repeatable and measurable?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Does the vendor maintain a software component inventory such as a software bill of materials (SBOM) that spells out the components and other attributes of software developed by the vendor and third parties?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Is the mitigation of known vulnerabilities factored into product design through product architecture, run-time protection techniques, and code review?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>How does the vendor stay current on emerging vulnerabilities? What are vendor capabilities to address new <a href="https://cyble.com/knowledge-hub/zero-day-exploit/">“zero day” vulnerabilities?</a>&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What controls are in place to manage and monitor production processes?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>How is configuration management performed? Quality assurance? How is testing done for code quality and vulnerabilities?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What levels of <a href="https://cyble.com/knowledge-hub/what-is-malware/">malware </a>protection and detection are performed?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What steps are taken to make sure products are tamper-proof? Are the back doors closed?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Are physical security measures documented and audited?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What access controls, both cyber and physical, are in place? Are they documented and audited?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>How is customer data protected, stored, retained, and destroyed?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What type of employee background checks are conducted and how frequently?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>What security practice expectations are there for upstream suppliers, and how is adherence to these standards assessed?&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>How secure is the distribution process? Have approved and authorized distribution channels been clearly documented?&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Services like Cyble’s third-party risk intelligence can help you get started on this process. As more organizations make security a buying criterion, vendors will be forced to respond with better security controls and documentation.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/surge-in-software-supply-chain-attacks-heightens-third-party-vigilance/" rel="nofollow">Surge in Software Supply Chain Attacks Demands Heightened Third-Party Vigilance</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 20 Aug 2024 16:57:13 +0000</pubDate>
+<pubDate>Tue, 20 Aug 2024 16:57:13 +0000</pubDate>
+</item>
+
+</channel>
+</rss>
