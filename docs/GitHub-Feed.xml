@@ -4,18 +4,16 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>PoC Exploit for Zero-Click Vulnerability Made Available to the Masses</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/poc-exploit-for-zero-click-vulnerability-made-available-to-the-masses</link>
 <guid>https://www.darkreading.com/vulnerabilities-threats/poc-exploit-for-zero-click-vulnerability-made-available-to-the-masses</guid>
 <content:encoded><![CDATA[
-
 The exploit can be accessed on GitHub and makes it easier for the flaw to be exploited by threat actors.
 ]]></content:encoded>
 <pubDate>Tue, 27 Aug 2024 20:56:41 GMT</pubDate>
-<pubDate>Tue, 27 Aug 2024 20:56:41 GMT</pubDate>
 </item>
-
 <item>
 <title>A Vulnerability in GitHub Enterprise Server (GHES) Could Allow for Authentication Bypass</title>
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-github-enterprise-server-ghes-could-allow-for-authentication-bypass_2024-060</link>
