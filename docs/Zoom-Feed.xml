@@ -5,5 +5,222 @@
 <link>https://cyble.com</link>
 
 
+<item>
+<title>Scammers Use ScreenConnect to Defraud SSA Beneficiaries</title>
+<link>https://cyble.com/blog/scammers-use-screenconnect-to-defraud-ssa-beneficiaries/</link>
+<guid>https://cyble.com/blog/scammers-use-screenconnect-to-defraud-ssa-beneficiaries/</guid>
+<content:encoded><![CDATA[
+<p><img alt="Social Service Administration, Scam," class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/08/Blog_SSA.jpg" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble Research and Intelligence Labs (CRIL) has uncovered a phishing site designed to mimic Zoom, which facilitates the download of <strong>ScreenConnect</strong> software.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Scammers are leveraging Zoom's trusted reputation to trick victims into downloading ScreenConnect. By impersonating a widely recognized platform, the phishing site increases the likelihood that victims will believe the download is legitimate, lowering their guard.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>This ScreenConnect software allows attackers to establish a remote connection to the victim’s computer, giving them full access to the system.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The IP address associated with the ScreenConnect software is also linked to other malicious activities. Notably, it hosts a domain involved in scamming <strong>Social Security Administration (SSA)</strong> account holders, indicating that the same scammers are running multiple scams from the same infrastructure.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Another aspect of this campaign involves spam emails falsely claiming to come from SSA support. These emails target SSA account holders, urging them to download an application supposedly to stay updated on their account status.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research &amp; Intelligence Labs (CRIL) has identified a phishing website designed to impersonate Zoom. This fraudulent site tricks users into downloading ScreenConnect software. Once installed, ScreenConnect connects to a suspicious domain, giving unauthorized access to the victim’s computer. This access allows attackers to take control of affected machines and proceed to carry out further malicious activities.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Notably, the suspicious domain linked to the ScreenConnect installation resolves to an IP address that also hosts another domain involved in scamming Social Security Administration (SSA) account holders. A Facebook user highlighted this connection in a post, revealing the same infrastructure used for multiple scams targeting different groups. This indicates a broader operation where the same network is used to perpetrate various types of fraud. In the figure below, readers can see the Zoom phishing site in question.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":57890,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-57890" src="https://cyble.com/wp-content/uploads/2024/08/Figure-1-Phishing-site-1.png" /><figcaption class="wp-element-caption">Figure 1 - Phishing site</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">How The Scam Works</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The scam often begins with a phishing email, text, or call, claiming to be from a trusted source (e.g., Amazon, PayPal, or even government agencies). The scammer informs the victim of an urgent issue like a compromised account, refund, or technical support problem. The scammer instructs the victim to call a fake tech support number or click on a link present in the spam email. They pose as a legitimate support representative and claim to help resolve the issue.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Once the victim engages, the scammer asks them to install remote desktop software such as <strong>ScreenConnect</strong>, allowing the scammer to take control of the victim's computer under the guise of "fixing" the problem. After gaining remote access, the scammer can view the victim's desktop, manipulate files, and gain access to sensitive information ranging from bank accounts and passwords to personal data. With control of the computer, scammers may initiate fraudulent transactions, ask for payment in the form of gift cards or cryptocurrency, or transfer funds directly from the victim's bank accounts.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In 2023, CISA released an <a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-025a">advisory</a> warning about a scam where scammers contacted users through spam emails, pretending to be from Geek Squad regarding subscription renewals. The email included a customer service phone number, instructing recipients to call if they did not authorize the charge or wanted to cancel and request a refund.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When victims called, the scammers convinced them to download ScreenConnect software, giving them remote access to the victims' computers. With this access, the scammers manipulated the bank account summary to falsely show that an excess refund had been issued. They then pressured the victims into "returning" the supposed overpayment, which was sent directly to the scammers.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The victim never actually received any extra money in their bank account—it just appeared that way because the scammer manipulated the screen. Once the victim sends the "refund," they’re effectively sending their own money to the scammer, who will then disappear.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Campaign Analysis</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>In this campaign, it is suspected that the scammers will convince victims to download <strong>ScreenConnect</strong> software via a Zoom-themed phishing site. The downloaded binary “Private-Meeting.ClientSetup.exe” is a 32-bit binary containing five PE files in the resource section, with some filenames suggesting the installation of ScreenConnect software.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":57891,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-57891" src="https://cyble.com/wp-content/uploads/2024/08/Figure-2-Embedded-resources.png" /><figcaption class="wp-element-caption">Figure 2 - Embedded resources</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When the victim runs the binary, it extracts an MSI installer from the resource section and saves it in the temporary directory. The binary then reads the digital signature from the main executable, signs this signature to the installer file, and uses <em>msiexec.exe</em> to install ScreenConnect on the system. This process is designed to make the installation appear legitimate.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":57892,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-57892" src="https://cyble.com/wp-content/uploads/2024/08/Figure-3-Code-snippet-handling-the-installation-of-ScreenConnect.png" /><figcaption class="wp-element-caption">Figure 3 - Code snippet handling the installation of ScreenConnect</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The ScreenConnect client is then launched, connecting to the specified domain “<em>poyttwq[.]zapto[.]org”</em> on port 8041, as shown in the figure below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":57894,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-57894" src="https://cyble.com/wp-content/uploads/2024/08/Figure-4-ScreenConnect-client-execution-command.png" /><figcaption class="wp-element-caption">Figure 4 - ScreenConnect client execution command</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The server at “poyttwq.zapto[.]org” is hosted on IP address “79.110.49[.]157,” which also hosts the website “railindiaticket[.]in.” This site displays a page with the ConnectWise icon, the title “Support,” and prompts users to enter a secure code to continue, suggesting that the website is involved in a scam related to ConnectWise.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":57895,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-57895" src="https://cyble.com/wp-content/uploads/2024/08/Figure-5-–-Scam-website-prompting-to-enter-secure-code-1024x477.png" /><figcaption class="wp-element-caption">Figure 5 – Scam website prompting to enter secure code</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>During our investigation of this scam website, we uncovered a social media post in which a user reported receiving an email from “support@railindiaticket[.]in,” falsely claiming to be from Social Security Administration (SSA) support. The email urged the recipient to download an application. Based on this post, we suspect that the scammer behind this campaign is targeting SSA account holders and attempting to trick them into installing software such as ConnectWise.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":57896,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-57896" src="https://cyble.com/wp-content/uploads/2024/08/Figure-6-Social-media-post-reporting-support-scam.png" /><figcaption class="wp-element-caption">Figure 6 - Social media post reporting support scam</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Social Security Administration (SSA) is a U.S. government agency responsible for administering Social Security, a government program that provides retirement, disability, and survivor benefits to eligible Americans. The SSA issues Social Security numbers (SSNs), which are used to track earnings and benefits for individuals throughout their lives.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>On August 7th, the Office of the Inspector General (SSA) issued a scam alert <a href="https://oig.ssa.gov/assets/uploads/scam-alert-hybrid-scams-on-the-rise_08-07-2024.pdf">advisory</a>, warning about scammers escalating their tactics by using fake Amazon or PayPal tech support emails and text messages. These messages aim to connect victims with individuals impersonating Social Security Administration (SSA) employees, who then attempt to convince the targets that their Social Security number (SSN) or record has been compromised.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Scammers use a "long-con" approach and then pass the victim to an imposter pretending to be an SSA agent, exploiting detailed personal information to build trust. This scheme often culminates in the victim handing over valuables or currency during a staged in-person meeting with someone involved in the scam. This method, known as "<a href="https://cyble.com/blog/the-spreading-wave-of-pig-butchering-scams-in-india/">pig butchering</a>," is designed to deplete the victim’s resources.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":57897,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-57897" src="https://cyble.com/wp-content/uploads/2024/08/Figure-7-–-Advisory-from-SSA.png" /><figcaption class="wp-element-caption">Figure 7 – Advisory from SSA</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>By leveraging a fake Zoom-themed website and digitally signed binaries, the scammers successfully masked the installation of ScreenConnect software as a legitimate process. The use of ScreenConnect, a widely recognized remote desktop application, further aided in the deception, allowing the scammers to gain unauthorized access to victims' systems under the guise of providing support. This same infrastructure is used for multiple fraudulent activities, including scams targeting Social Security Administration (SSA) account holders. This phishing campaign exemplifies the increasingly sophisticated methods cybercriminals are using to deceive victims into compromising their own systems.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Social Security Administration (SSA) typically contacts beneficiaries through official channels, not unsolicited emails or phone calls. If you receive a suspicious message, do not click on links or provide personal information.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>If you're unsure about the legitimacy of a communication, contact SSA directly through their official website or customer service number, not the contact information provided in the suspicious message.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>SSA will never ask you to download software or applications via email or text. If you receive a request like this, it is likely a scam.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Always verify website URLs to ensure they belong to the legitimate SSA domain (e.g., <a href="http://www.ssa.gov">www.ssa.gov</a>). Scammers may use slight variations in URLs to deceive victims.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">MITRE ATT&amp;CK® Techniques</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Tactics</strong></td>
+<td><strong>Techniques</strong></td>
+<td><strong>Procedure</strong></td>
+</tr>
+<tr>
+<td>Initial Access (<a href="https://attack.mitre.org/tactics/TA0001/">TA0001</a>)</td>
+<td>Phishing (<a href="https://attack.mitre.org/techniques/T1566/">T1566</a>)</td>
+<td>Uses phishing website</td>
+</tr>
+<tr>
+<td>Command and Control (<a href="https://attack.mitre.org/tactics/TA0011/">TA0011</a>)</td>
+<td>Remote Access Software (<a href="https://attack.mitre.org/techniques/T1219/">T1219</a>)</td>
+<td>Installs ScreenConnect</td>
+</tr>
+<tr>
+<td>Execution (<a href="https://attack.mitre.org/tactics/TA0002/">TA0002</a>)</td>
+<td>User Execution:&nbsp;Malicious File (<a href="https://attack.mitre.org/techniques/T1204/002/">T1204.002</a>)</td>
+<td>Scammers rely on users to execute the ScreenConnect Software</td>
+</tr>
+<tr>
+<td>Defense Evasion (<a href="https://attack.mitre.org/tactics/TA0005/">TA0005</a>)</td>
+<td>Obfuscated Files or Information (<a href="https://attack.mitre.org/techniques/T1027/">T1027</a>)</td>
+<td>.NET binaries are stored in the resource section of the main executable</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Indicators of Compromise</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicators</strong></td>
+<td><strong>Indicator Type</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>zoominvite[.]live</td>
+<td>Domain</td>
+<td>Phishing site</td>
+</tr>
+<tr>
+<td>4e81851729d58f321bb83bdb03200f62bc5ee56e0703b2d609a3923a033d5b53</td>
+<td>SHA256</td>
+<td>Zoom.exe</td>
+</tr>
+<tr>
+<td>poyttwq[.]zapto[.]org</td>
+<td>Domain</td>
+<td>Remote server</td>
+</tr>
+<tr>
+<td>79.110.49[.]157</td>
+<td>IPv4</td>
+<td>Resolved IP</td>
+</tr>
+<tr>
+<td>railindiaticket[.]in</td>
+<td>Domain</td>
+<td>Phishing site</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p>The post <a href="https://cyble.com/blog/scammers-use-screenconnect-to-defraud-ssa-beneficiaries/" rel="nofollow">Scammers Use ScreenConnect to Defraud SSA Beneficiaries</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 28 Aug 2024 08:26:35 +0000</pubDate>
+</item>
 </channel>
 </rss>
