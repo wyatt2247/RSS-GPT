@@ -4,6 +4,23 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
+<link>https://www.cisa.gov/news-events/alerts/2024/08/28/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+<guid>https://www.cisa.gov/news-events/alerts/2024/08/28/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
+<content:encoded><![CDATA[
+
+<p>CISA has added one new vulnerability to its&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" title="Known Exploited Vulnerabilities Catalog">Known Exploited Vulnerabilities Catalog</a>, based on evidence of active exploitation.</p>
+<ul>
+<li><a class="ext" href="https://www.cve.org/CVERecord?id=CVE-2024-7965" title="Google Chromium V8 Inappropriate Implementation Vulnerability">CVE-2024-7965</a>&nbsp;Google Chromium V8 Inappropriate Implementation Vulnerability</li>
+</ul>
+<p>These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.</p>
+<p><a href="https://www.cisa.gov/binding-operational-directive-22-01" title="Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities">Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</a>&nbsp;established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the<a>&nbsp;</a><a href="https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf" title="BOD 22-01 Fact Sheet">BOD 22-01 Fact Sheet</a>&nbsp;for more information.</p>
+<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" title="Catalog vulnerabilities">Catalog vulnerabilities</a>&nbsp;as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities" title="specified criteria">specified criteria</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 28 Aug 24 12:00:00 +0000</pubDate>
+<pubDate>Wed, 28 Aug 24 12:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Helpdeskz 2.0.2 Cross Site Scripting</title>
