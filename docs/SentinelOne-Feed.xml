@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations</title>
 <link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a</link>
 <guid>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a</guid>
 <content:encoded><![CDATA[
-
 <h2><strong>Summary</strong></h2>
 <p>The Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and the Department of Defense Cyber Crime Center (DC3) are releasing this joint Cybersecurity Advisory (CSA) to warn network defenders that, as of August 2024, a group of Iran-based cyber actors continues to exploit U.S. and foreign organizations. This includes organizations across several sectors in the U.S. (including in the education, finance, healthcare, and defense sectors as well as local government entities) and other countries (including in Israel, Azerbaijan, and the United Arab Emirates). The FBI assesses a significant percentage of these threat actors’ operations against US organizations are intended to obtain and develop network access to then collaborate with ransomware affiliate actors to deploy ransomware. The FBI further assesses these Iran-based cyber actors are associated with the Government of Iran (GOI) and—separate from the ransomware activity—conduct computer network exploitation activity in support of the GOI (such as intrusions enabling the theft of sensitive technical data against organizations in Israel and Azerbaijan).</p>
 <p>This CSA provides the threat actor’s tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs), as well as highlights similar activity from a previous advisory (<a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a" title="Iran-Based Threat Actor Exploits VPN Vulnerabilities">Iran-Based Threat Actor Exploits VPN Vulnerabilities</a>) that the FBI and CISA published on Sept. 15, 2020. The information and guidance in this advisory are derived from FBI investigative activity and technical analysis of this group’s intrusion activity against U.S. organizations and engagements with numerous entities impacted by this malicious activity.</p>
@@ -591,9 +591,7 @@
 </div>
 ]]></content:encoded>
 <pubDate>Wed, 28 Aug 24 12:00:00 +0000</pubDate>
-<pubDate>Wed, 28 Aug 24 12:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Building Casper’s Shadow</title>
 <link>http://nao-sec.org/2024/06/building-caspers-shadow.html</link>
