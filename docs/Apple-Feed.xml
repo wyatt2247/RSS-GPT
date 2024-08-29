@@ -4,19 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Russian Hackers Exploit Safari and Chrome Flaws in High-Profile Cyberattack</title>
 <link>https://thehackernews.com/2024/08/russian-hackers-exploit-safari-and.html</link>
 <guid>https://thehackernews.com/2024/08/russian-hackers-exploit-safari-and.html</guid>
 <content:encoded><![CDATA[
-
 Cybersecurity researchers have flagged multiple in-the-wild exploit campaigns that leveraged now-patched flaws in Apple Safari and Google Chrome browsers to infect mobile users with information-stealing malware.
 "These campaigns delivered n-day exploits for which patches were available, but would still be effective against unpatched devices," Google Threat Analysis Group (TAG) researcher Clement
 ]]></content:encoded>
 <pubDate>Thu, 29 Aug 2024 21:29:00 +0530</pubDate>
-<pubDate>Thu, 29 Aug 2024 21:29:00 +0530</pubDate>
 </item>
-
 <item>
 <title>macOS Version of HZ RAT Backdoor Targets Chinese Messaging App Users</title>
 <link>https://thehackernews.com/2024/08/macos-version-of-hz-rat-backdoor.html</link>
