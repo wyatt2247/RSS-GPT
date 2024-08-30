@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Bling Libra Shifts Focus to Extortion in Cloud-Based Attacks</title>
 <link>https://www.cysecurity.news/2024/08/bling-libra-shifts-focus-to-extortion.html</link>
 <guid>https://www.cysecurity.news/2024/08/bling-libra-shifts-focus-to-extortion.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYahwi7Z2_VX3-2ur8VuJsvO9Sw-YMzyHqe5bkxCXkFemYM1oxLsDkQ_CnQgu61Zk69hFTflTY3KvZ71jPjB8xZwN8f_y57y2PmNLtwn04B2tDrpEfcXCeL_QHuiJwupwZHzj-S-SS4-qn1xRHofw3VvTmjr59x-4AbGzEAdYWELfLg_uWsf6SRwepvVJ8/s4000/cloud-computing-2001090.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYahwi7Z2_VX3-2ur8VuJsvO9Sw-YMzyHqe5bkxCXkFemYM1oxLsDkQ_CnQgu61Zk69hFTflTY3KvZ71jPjB8xZwN8f_y57y2PmNLtwn04B2tDrpEfcXCeL_QHuiJwupwZHzj-S-SS4-qn1xRHofw3VvTmjr59x-4AbGzEAdYWELfLg_uWsf6SRwepvVJ8/w640-h360/cloud-computing-2001090.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">It was observed during an incident response engagement handled by Unit 42, that the threat actor group Bling Libra (which was responsible for distributing ShinyHunters ransomware) had shifted from extortion to extortion of victims rather than its traditional tactic of selling/publishing stolen data in an attempt to increase their profits.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">During this engagement, it was also demonstrated how the group was able to acquire legitimate credentials, which were accessed from public repositories, to gain initial access to an organization's Amazon Web Services (AWS) environment through its public username and password.
 
 The compromised credentials had limited impact due to the limited permissions associated with them, but Bling Libra managed to infiltrate the organization's AWS environment and conduct reconnaissance operations on it during this time.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The threat actor group used various tools for gaining information and accessing S3 bucket configurations, interacting with S3 objects, as well as deleting files from the service using tools such as the Amazon Simple Storage Service (S3) Browser and WinSCP.
@@ -32,10 +32,8 @@ To counteract such threats, Unit 42 strongly advises organizations to adhere to 
 
 As businesses increasingly depend on cloud technologies, maintaining a proactive and vigilant cybersecurity posture is critical. Organizations must be diligent in their efforts to protect their cloud environments from sophisticated threat actors like Bling Libra.</div>
 ]]></content:encoded>
-<pubDate>2024-08-30T14:30:00.001-04:00</pubDate>
 <pubDate>2024-08-30T14:30:00.224-04:00</pubDate>
 </item>
-
 <item>
 <title>Critical Advisory on RansomHub Ransomware: A Comprehensive Analysis and Mitigation Guide</title>
 <link>https://cyble.com/blog/critical-advisory-on-ransomhub-ransomware-a-comprehensive-analysis-and-mitigation-guide/</link>
