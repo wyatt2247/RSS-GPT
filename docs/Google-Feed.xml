@@ -4,6 +4,18 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Cyberattackers Exploit Google Sheets for Malware Control in Global Espionage Campaign</title>
+<link>https://thehackernews.com/2024/08/cyberattackers-exploit-google-sheets.html</link>
+<guid>https://thehackernews.com/2024/08/cyberattackers-exploit-google-sheets.html</guid>
+<content:encoded><![CDATA[
+
+Cybersecurity researchers have uncovered a novel malware campaign that leverages Google Sheets as a command-and-control (C2) mechanism.
+The activity, detected by Proofpoint starting August 5, 2024, impersonates tax authorities from governments in Europe, Asia, and the U.S., with the goal of targeting over 70 organizations worldwide by means of a bespoke tool called Voldemort that's equipped to
+]]></content:encoded>
+<pubDate>Fri, 30 Aug 2024 18:34:00 +0530</pubDate>
+<pubDate>Fri, 30 Aug 2024 18:34:00 +0530</pubDate>
+</item>
 
 <item>
 <title>Russian Hackers Exploit Safari and Chrome Flaws in High-Profile Cyberattack</title>
