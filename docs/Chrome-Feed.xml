@@ -4,6 +4,28 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>North Korean hackers exploit Chrome zero-day to deploy rootkit</title>
+<link>https://www.bleepingcomputer.com/news/security/north-korean-hackers-exploit-chrome-zero-day-to-deploy-rootkit/</link>
+<guid>https://www.bleepingcomputer.com/news/security/north-korean-hackers-exploit-chrome-zero-day-to-deploy-rootkit/</guid>
+<content:encoded><![CDATA[
+
+North Korean hackers have exploited a recently patched Google Chrome zero-day (CVE-2024-7971) to deploy the FudModule rootkit after gaining SYSTEM privileges using a Windows Kernel exploit. [...]
+]]></content:encoded>
+<pubDate>Fri, 30 Aug 2024 13:04:18 -0400</pubDate>
+<pubDate>Fri, 30 Aug 2024 13:04:18 -0400</pubDate>
+</item>
+<item>
+<title>Google Chrome V8 Type Confusion</title>
+<link>https://packetstormsecurity.com/files/180477/CVE-2024-5274-main.zip</link>
+<guid>https://packetstormsecurity.com/files/180477/CVE-2024-5274-main.zip</guid>
+<content:encoded><![CDATA[
+
+Google Chrome versions prior to 125.0.6422.112 V8 type confusion proof of concept exploit.
+]]></content:encoded>
+<pubDate>Fri, 30 Aug 2024 15:20:56 GMT</pubDate>
+<pubDate>Fri, 30 Aug 2024 15:20:56 GMT</pubDate>
+</item>
 
 <item>
 <title>Russian Hackers Exploit Safari and Chrome Flaws in High-Profile Cyberattack</title>

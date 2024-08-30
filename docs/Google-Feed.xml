@@ -5,18 +5,60 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>'Voldemort' Malware Curses Orgs Using Global Tax Authorities</title>
+<link>https://www.darkreading.com/threat-intelligence/voldemort-malware-curses-orgs-global-tax-authorities</link>
+<guid>https://www.darkreading.com/threat-intelligence/voldemort-malware-curses-orgs-global-tax-authorities</guid>
+<content:encoded><![CDATA[
+
+The global malware campaign (that must not be named?) is targeting organizations by impersonating tax authorities, and using custom tools like Google Sheets for command and control.
+]]></content:encoded>
+<pubDate>Fri, 30 Aug 2024 17:00:09 GMT</pubDate>
+<pubDate>Fri, 30 Aug 2024 17:00:09 GMT</pubDate>
+</item>
+<item>
+<title>North Korean hackers exploit Chrome zero-day to deploy rootkit</title>
+<link>https://www.bleepingcomputer.com/news/security/north-korean-hackers-exploit-chrome-zero-day-to-deploy-rootkit/</link>
+<guid>https://www.bleepingcomputer.com/news/security/north-korean-hackers-exploit-chrome-zero-day-to-deploy-rootkit/</guid>
+<content:encoded><![CDATA[
+
+North Korean hackers have exploited a recently patched Google Chrome zero-day (CVE-2024-7971) to deploy the FudModule rootkit after gaining SYSTEM privileges using a Windows Kernel exploit. [...]
+]]></content:encoded>
+<pubDate>Fri, 30 Aug 2024 13:04:18 -0400</pubDate>
+<pubDate>Fri, 30 Aug 2024 13:04:18 -0400</pubDate>
+</item>
+<item>
+<title>Google Chrome V8 Type Confusion</title>
+<link>https://packetstormsecurity.com/files/180477/CVE-2024-5274-main.zip</link>
+<guid>https://packetstormsecurity.com/files/180477/CVE-2024-5274-main.zip</guid>
+<content:encoded><![CDATA[
+
+Google Chrome versions prior to 125.0.6422.112 V8 type confusion proof of concept exploit.
+]]></content:encoded>
+<pubDate>Fri, 30 Aug 2024 15:20:56 GMT</pubDate>
+<pubDate>Fri, 30 Aug 2024 15:20:56 GMT</pubDate>
+</item>
+<item>
+<title>Is Tap-to-Pay Dangerous? How New Android Malware Exploits NFC Technology</title>
+<link>https://www.cysecurity.news/2024/08/is-tap-to-pay-dangerous-how-new-android.html</link>
+<guid>https://www.cysecurity.news/2024/08/is-tap-to-pay-dangerous-how-new-android.html</guid>
+<content:encoded><![CDATA[
+
+<p style="text-align: justify;"></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-G12VWqIMfNeWONUD-S9QZl5e5SRsWittbbaSyK0stMLl1-GjHptVwNgrGpg9ji3HS0V2uWPvhdkJx5x1q8kAus04UiYNTnUK1psMnCHk8ngPRIBXNcLkU_E5FdlTcCPOfZOtqoUaEbsSxvQSAiygR6CLKzfhMpbnTrhiFsagbpZhxfenA4BhMKNLG-_8/s960/alipay-5417256_960_720.jpg" style="margin-left: 1em; margin-right: 1em;"><img alt="Is Tap-to-Pay Dangerous? How New Android Malware Exploits NFC Technology" border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-G12VWqIMfNeWONUD-S9QZl5e5SRsWittbbaSyK0stMLl1-GjHptVwNgrGpg9ji3HS0V2uWPvhdkJx5x1q8kAus04UiYNTnUK1psMnCHk8ngPRIBXNcLkU_E5FdlTcCPOfZOtqoUaEbsSxvQSAiygR6CLKzfhMpbnTrhiFsagbpZhxfenA4BhMKNLG-_8/w640-h426/alipay-5417256_960_720.jpg" title="Is Tap-to-Pay Dangerous? How New Android Malware Exploits NFC Technology" width="640" /></a></div><p style="text-align: justify;">Tap-to-pay technology, which allows users to make quick transactions with a simple tap of their smartphone, has become increasingly popular. However, with convenience comes <a href="https://www.cysecurity.news/2024/08/heres-how-to-safeguard-yourself-against.html" target="_blank">risk</a>. A recent discovery of a new Android malware by <a href="https://www.welivesecurity.com/en/eset-research/ngate-android-malware-relays-nfc-traffic-to-steal-cash/" target="_blank">ESET</a>, known as NGate, has raised significant concerns about the security of tap-to-pay transactions. This blog will delve into how this malware operates, the potential risks it poses, and how users can protect themselves.</p><p></p><h3 style="text-align: justify;">Understanding NGate Malware</h3><p style="text-align: justify;"><a href="https://www.cysecurity.news/2024/08/protecting-your-wallet-understanding.html" target="_blank">NGate </a>is a sophisticated piece of malware designed to exploit the Near Field Communication (NFC) technology used in tap-to-pay transactions. NFC allows devices to communicate wirelessly when they are close to each other, making it ideal for contactless payments. However, this same technology can be manipulated by malicious actors to steal sensitive financial information.</p><h3 style="text-align: justify;">How NGate Works</h3><p style="text-align: justify;">The NGate malware is typically spread through social engineering and phishing tactics. Attackers often disguise the malware as legitimate banking apps or other trusted applications. Once a user unknowingly installs the malware, it begins to operate in the background, capturing sensitive information.</p><p style="text-align: justify;">One of the most alarming features of NGate is its ability to clone contactless credit and debit cards. By exploiting the NFC feature, the malware can intercept and replicate the data transmitted during a tap-to-pay transaction. This cloned data can then be used by attackers to make unauthorized transactions, effectively draining the victim’s bank account.</p><h3 style="text-align: justify;">The Impact of NGate</h3><p style="text-align: justify;">The implications of NGate are far-reaching. With the ability to clone contactless payment cards, attackers can carry out fraudulent transactions without the victim’s knowledge. This not only leads to financial loss but also undermines trust in tap-to-pay technology.</p><p style="text-align: justify;">Moreover, the spread of NGate highlights the evolving tactics of cybercriminals. As technology advances, so do the methods used by attackers. This underscores the importance of staying vigilant and adopting robust security measures.</p><h3 style="text-align: justify;">Protecting Yourself from NGate</h3><p></p><ul style="text-align: left;"><li style="text-align: justify;">Always download apps from official app stores like Google Play. Be cautious of apps that request unnecessary permissions or seem suspicious.</li><li style="text-align: justify;">Use built-in security features on your smartphone, such as biometric authentication and two-factor authentication (2FA). These add an extra layer of protection.</li><li style="text-align: justify;">Keep your device and apps updated. Security patches are often released to address vulnerabilities that could be exploited by malware.</li><li style="text-align: justify;">Be cautious of unsolicited messages or emails that prompt you to download apps or provide personal information. Verify the source before taking any action.</li><li style="text-align: justify;">Regularly check your bank statements and transaction history for any unauthorized activity. Report any suspicious transactions to your bank immediately.</li></ul><p></p>
+]]></content:encoded>
+<pubDate>2024-08-29T10:09:00.001-04:00</pubDate>
+<pubDate>2024-08-30T11:22:24.296-04:00</pubDate>
+</item>
+
+<item>
 <title>Cyberattackers Exploit Google Sheets for Malware Control in Global Espionage Campaign</title>
 <link>https://thehackernews.com/2024/08/cyberattackers-exploit-google-sheets.html</link>
 <guid>https://thehackernews.com/2024/08/cyberattackers-exploit-google-sheets.html</guid>
 <content:encoded><![CDATA[
-
 Cybersecurity researchers have uncovered a novel malware campaign that leverages Google Sheets as a command-and-control (C2) mechanism.
 The activity, detected by Proofpoint starting August 5, 2024, impersonates tax authorities from governments in Europe, Asia, and the U.S., with the goal of targeting over 70 organizations worldwide by means of a bespoke tool called Voldemort that's equipped to
 ]]></content:encoded>
 <pubDate>Fri, 30 Aug 2024 18:34:00 +0530</pubDate>
-<pubDate>Fri, 30 Aug 2024 18:34:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Russian Hackers Exploit Safari and Chrome Flaws in High-Profile Cyberattack</title>
 <link>https://thehackernews.com/2024/08/russian-hackers-exploit-safari-and.html</link>
