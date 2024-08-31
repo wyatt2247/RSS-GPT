@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Espionage Concerns Arise from Newly Discovered Voldemort Malware</title>
 <link>https://www.cysecurity.news/2024/08/espionage-concerns-arise-from-newly.html</link>
 <guid>https://www.cysecurity.news/2024/08/espionage-concerns-arise-from-newly.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQMiCu6rXPsNq6iSrzvka2q1QtaUDkqLdxGlDlck6pLlcKwXUM9Jejrtvxp09hI5TrtT2TqhFqoLB6VTArnk72tj0oed2u3FSheSP6_F5J4f2hgmlAspUP7R7bTvIUKu3_eV-XtOkI8_Jq2uDw8j8OrYK5kup6H98Ntu0E846xwzSx3C0cVEKEXe6ejvg0/s6000/pexels-mikhail-nilov-6963098%20(3).jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQMiCu6rXPsNq6iSrzvka2q1QtaUDkqLdxGlDlck6pLlcKwXUM9Jejrtvxp09hI5TrtT2TqhFqoLB6VTArnk72tj0oed2u3FSheSP6_F5J4f2hgmlAspUP7R7bTvIUKu3_eV-XtOkI8_Jq2uDw8j8OrYK5kup6H98Ntu0E846xwzSx3C0cVEKEXe6ejvg0/w640-h426/pexels-mikhail-nilov-6963098%20(3).jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">As a result of Proofpoint researchers' research, in August 2024, they discovered an unusual campaign in which custom malware was being delivered by a novel attack chain. Cybercriminals are believed to have named the malware "Voldemort" based on the internal file names and strings used in it.&nbsp;
 
 As part of the attack chain, multiple tactics have been employed, some of which are currently popular in the threat landscape, while others are less common, such as using Google Sheets as a program for command and control (C2).&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">It is noteworthy that in addition to tactical, technical, and procedural (TTPs) components, it takes advantage of a lure theme impersonating the government agencies of a variety of countries, and it uses odd file naming and passwords such as "test". Several researchers initially suspected that the activity may be a red team, but analysis of the malware and the number of messages indicated that it was a threat actor very quickly.&nbsp;&nbsp;&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">There has been an aggressive malware campaign known as "Voldemort" launched against organizations all over the world, impersonating tax authorities in Europe, Asia, and the U.S. Since the malicious activity was launched on Aug. 5, more than 20,000 phishing messages were reported worldwide by dozens of companies. According to Proofpoint, over 20,000 phishing messages were reported during the last three months.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">A custom backdoor has been written in C and was designed to enable data exfiltration and the deployment of additional malicious payloads, as well as the exfiltration of data itself. 
@@ -32,10 +32,8 @@ Likewise, the messages also contain Google AMP Cache URLs that redirect to the l
 
 To defend against such campaigns, security firm Proofpoint recommends several measures: restricting access to external file-sharing services to trusted servers only, blocking connections to TryCloudflare when not actively required, and closely monitoring for suspicious PowerShell executions. These steps are advised to mitigate the risks posed by the Voldemort malware and similar threats.</div>
 ]]></content:encoded>
-<pubDate>2024-08-31T14:30:00.001-04:00</pubDate>
 <pubDate>2024-08-31T14:30:00.110-04:00</pubDate>
 </item>
-
 <item>
 <title>North Korean Hackers Deploy FudModule Rootkit via Chrome Zero-Day Exploit</title>
 <link>https://thehackernews.com/2024/08/north-korean-hackers-deploy-fudmodule.html</link>
