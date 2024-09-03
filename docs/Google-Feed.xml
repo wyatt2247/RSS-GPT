@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Sextortion Scams Now Include Photos of Your Home</title>
 <link>https://krebsonsecurity.com/2024/09/sextortion-scams-now-include-photos-of-your-home/</link>
 <guid>https://krebsonsecurity.com/2024/09/sextortion-scams-now-include-photos-of-your-home/</guid>
 <content:encoded><![CDATA[
-
 <p>An old but persistent email scam known as &#8220;<strong>sextortion</strong>&#8221; has a new personalized touch: The missives, which claim that malware has captured webcam footage of recipients pleasuring themselves, now include a photo of the target&#8217;s home in a bid to make threats about publishing the videos more frightening and convincing.</p>
 <p><img alt="" class="aligncenter wp-image-44412" height="134" src="https://krebsonsecurity.com/wp-content/uploads/2018/07/sextortion.png" width="750" /></p>
 <p>This week, several readers reported receiving sextortion emails that addressed them by name and included images of their street or front yard that were apparently lifted from an online mapping application such as <strong>Google Maps</strong>.</p>
@@ -30,9 +30,7 @@
 </div>
 ]]></content:encoded>
 <pubDate>Tue, 03 Sep 2024 15:45:49 +0000</pubDate>
-<pubDate>Tue, 03 Sep 2024 15:45:49 +0000</pubDate>
 </item>
-
 <item>
 <title>Chrome 128 Updates Patch High-Severity Vulnerabilities</title>
 <link>https://www.securityweek.com/chrome-128-updates-patch-high-severity-vulnerabilities/</link>
