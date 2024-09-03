@@ -5,17 +5,27 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>New Flaws in Microsoft macOS Apps Could Allow Hackers to Gain Unrestricted Access</title>
+<link>https://thehackernews.com/2024/09/new-flaws-in-microsoft-macos-apps-could.html</link>
+<guid>https://thehackernews.com/2024/09/new-flaws-in-microsoft-macos-apps-could.html</guid>
+<content:encoded><![CDATA[
+
+Eight vulnerabilities have been uncovered in Microsoft applications for macOS that an adversary could exploit to gain elevated privileges or access sensitive data by circumventing the operating system's permissions-based model, which revolves around the Transparency, Consent, and Control (TCC) framework.
+"If successful, the adversary could gain any privileges already granted to the affected
+]]></content:encoded>
+<pubDate>Tue, 03 Sep 2024 09:31:00 +0530</pubDate>
+<pubDate>Tue, 03 Sep 2024 09:31:00 +0530</pubDate>
+</item>
+
+<item>
 <title>New Flaws in Microsoft <b>macOS</b> Apps Could Allow Hackers to Gain Unrestricted Access</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://thehackernews.com/2024/09/new-flaws-in-microsoft-macos-apps-could.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0yXqnBox3Iq65MSNEozaIr</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://thehackernews.com/2024/09/new-flaws-in-microsoft-macos-apps-could.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0yXqnBox3Iq65MSNEozaIr</guid>
 <content:encoded><![CDATA[
-
 Eight <b>vulnerabilities</b> have been uncovered in Microsoft applications for <b>macOS</b> that an adversary could <b>exploit</b> to gain elevated privileges or&nbsp;...
 ]]></content:encoded>
 <pubDate>2024-09-03T04:09:04Z</pubDate>
-<pubDate>2024-09-03T04:09:04Z</pubDate>
 </item>
-
 <item>
 <title>Introducing the "World's Most Private VPN" – Now Open for Testers</title>
 <link>https://www.cysecurity.news/2024/09/introducing-worlds-most-private-vpn-now.html</link>
