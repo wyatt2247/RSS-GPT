@@ -4,6 +4,34 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Sextortion Scams Now Include Photos of Your Home</title>
+<link>https://krebsonsecurity.com/2024/09/sextortion-scams-now-include-photos-of-your-home/</link>
+<guid>https://krebsonsecurity.com/2024/09/sextortion-scams-now-include-photos-of-your-home/</guid>
+<content:encoded><![CDATA[
+
+<p>An old but persistent email scam known as &#8220;<strong>sextortion</strong>&#8221; has a new personalized touch: The missives, which claim that malware has captured webcam footage of recipients pleasuring themselves, now include a photo of the target&#8217;s home in a bid to make threats about publishing the videos more frightening and convincing.</p>
+<p><img alt="" class="aligncenter wp-image-44412" height="134" src="https://krebsonsecurity.com/wp-content/uploads/2018/07/sextortion.png" width="750" /></p>
+<p>This week, several readers reported receiving sextortion emails that addressed them by name and included images of their street or front yard that were apparently lifted from an online mapping application such as <strong>Google Maps</strong>.</p>
+<p>The message purports to have been sent from a hacker who’s compromised your computer and used your webcam to record a video of you while you were watching porn. The missive threatens to release the video to all of your contacts unless you pay a Bitcoin ransom. In this case, the demand is just shy of $2,000, payable by scanning a QR code embedded in the email.</p>
+<p>Following a salutation that includes the recipient&#8217;s full name, the start of the message reads, &#8220;Is visiting [recipient&#8217;s street address] a more convenient way to contact if you don&#8217;t take action. Nice location btw.&#8221; Below that is the photo of the recipient&#8217;s street address.</p>
+<div class="wp-caption aligncenter" id="attachment_68587" style="width: 758px;"><img alt="" class=" wp-image-68587" height="677" src="https://krebsonsecurity.com/wp-content/uploads/2024/09/sextortion-maps.png" width="748" /><p class="wp-caption-text" id="caption-attachment-68587">A semi-redacted screenshot of a newish sextortion scam that includes a photo of the target&#8217;s front yard.</p></div>
+<p>The message tells people they have 24 hours to pay up, or else their embarrassing videos will be released to all of their contacts, friends and family members.</p>
+<p>&#8220;Don&#8217;t even think about replying to this, it&#8217;s pointless,&#8221; the message concludes. &#8220;I don&#8217;t make mistakes, [recipient&#8217;s name]. If I notice that you&#8217;ve shared or discussed this email with someone else, your shitty video will instantly start getting sent to your contacts.&#8221;</p>
+<p>The remaining sections of the two-page sextortion message (which arrives as a PDF attachment) are fairly formulaic and include thematic elements seen in most previous sextortion waves. Those include claims that the extortionist has installed malware on your computer (in this case the scammer claims the spyware is called &#8220;Pegasus,&#8221; and that they are watching everything you do on your machine).</p>
+<p>Previous innovations in sextortion customization involved sending emails that <a href="https://krebsonsecurity.com/2018/07/sextortion-scam-uses-recipients-hacked-passwords/" rel="noopener" target="_blank">included at least one password they had previously used</a> at an account online that was tied to their email address. <span id="more-68585"></span></p>
+<div class="entry-content">
+<p>Sextortion — even semi-automated scams like this one with no actual physical leverage to backstop the extortion demand — is a serious crime that can lead to devastating consequences for victims. Sextortion occurs when someone threatens to distribute your private and sensitive material if you don’t provide them with images of a sexual nature, sexual favors, or money.</p>
+<p>According to the FBI, here are some things you can do to avoid becoming a victim:</p>
+<p>-Never send compromising images of yourself to anyone, no matter who they are — or who they say they are.<br />
+-Don’t open attachments from people you don’t know, and be wary of opening attachments even from those you do know.<br />
+-Turn off [and/or cover] any web cameras when you are not using them.</p>
+<p>The FBI says in many sextortion cases, the perpetrator is an adult pretending to be a teenager, and you are just one of the many victims being targeted by the same person. If you believe you’re a victim of sextortion, or know someone else who is, the FBI wants to hear from you: Contact your local FBI office (or toll-free at 1-800-CALL-FBI).</p>
+</div>
+]]></content:encoded>
+<pubDate>Tue, 03 Sep 2024 15:45:49 +0000</pubDate>
+<pubDate>Tue, 03 Sep 2024 15:45:49 +0000</pubDate>
+</item>
 
 <item>
 <title>Chrome 128 Updates Patch High-Severity Vulnerabilities</title>
