@@ -4,6 +4,19 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Secrets Exposed: Why Your CISO Should Worry About Slack</title>
+<link>https://thehackernews.com/2024/09/secrets-exposed-why-your-ciso-should.html</link>
+<guid>https://thehackernews.com/2024/09/secrets-exposed-why-your-ciso-should.html</guid>
+<content:encoded><![CDATA[
+
+In the digital realm, secrets (API keys, private keys, username and password combos, etc.) are the keys to the kingdom. But what if those keys were accidentally left out in the open in the very tools we use to collaborate every day?
+A Single Secret Can Wreak Havoc
+Imagine this: It's a typical Tuesday in June 2024. Your dev team is knee-deep in sprints, Jira tickets are flying, and Slack is
+]]></content:encoded>
+<pubDate>Tue, 03 Sep 2024 13:00:00 +0530</pubDate>
+<pubDate>Tue, 03 Sep 2024 13:00:00 +0530</pubDate>
+</item>
 
 <item>
 <title>Slack Fixes AI Security Flaw After Expert Warning</title>
