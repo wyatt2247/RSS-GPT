@@ -5,16 +5,37 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Google backports fix for Pixel EoP flaw to other Android devices</title>
+<link>https://www.bleepingcomputer.com/news/security/google-backports-fix-for-pixel-eop-flaw-to-other-android-devices/</link>
+<guid>https://www.bleepingcomputer.com/news/security/google-backports-fix-for-pixel-eop-flaw-to-other-android-devices/</guid>
+<content:encoded><![CDATA[
+
+Google has released the September 2024 Android security updates to fix 34 vulnerabilities, including CVE-2024-32896, an actively exploited elevation of privilege flaw that was previously fixed on Pixel devices. [...]
+]]></content:encoded>
+<pubDate>Wed, 04 Sep 2024 11:16:22 -0400</pubDate>
+<pubDate>Wed, 04 Sep 2024 11:16:22 -0400</pubDate>
+</item>
+<item>
+<title>Mali GPU Kernel Local Privilege Escalation</title>
+<link>https://packetstormsecurity.com/files/181334/Pixel_GPU_Exploit-main.zip</link>
+<guid>https://packetstormsecurity.com/files/181334/Pixel_GPU_Exploit-main.zip</guid>
+<content:encoded><![CDATA[
+
+This article provides an in-depth analysis of two kernel vulnerabilities within the Mali GPU, reachable from the default application sandbox, which the researcher independently identified and reported to Google. It includes a kernel exploit that achieves arbitrary kernel r/w capabilities. Consequently, it disables SELinux and elevates privileges to root on Google Pixel 7 and 8 Pro models.
+]]></content:encoded>
+<pubDate>Wed, 04 Sep 2024 15:54:22 GMT</pubDate>
+<pubDate>Wed, 04 Sep 2024 15:54:22 GMT</pubDate>
+</item>
+
+<item>
 <title>Google Confirms CVE-2024-32896 Exploited in the Wild, Releases Android Security Patch</title>
 <link>https://thehackernews.com/2024/09/google-confirms-cve-2024-32896.html</link>
 <guid>https://thehackernews.com/2024/09/google-confirms-cve-2024-32896.html</guid>
 <content:encoded><![CDATA[
-
 Google has released its monthly security updates for the Android operating system to address a known security flaw that it said has come under active exploitation in the wild.
 The high-severity vulnerability, tracked as CVE-2024-32896 (CVSS score: 7.8), relates to a case of privilege escalation in the Android Framework component.
 According to the description of the bug in the NIST National
 ]]></content:encoded>
-<pubDate>Wed, 04 Sep 2024 19:06:00 +0530</pubDate>
 <pubDate>Wed, 04 Sep 2024 19:06:00 +0530</pubDate>
 </item>
 <item>
@@ -22,7 +43,6 @@ According to the description of the bug in the NIST National
 <link>https://cyble.com/blog/fudmodule-rootkit-targets-crypto-linked-to-north-korean-citrine-sleet-group/</link>
 <guid>https://cyble.com/blog/fudmodule-rootkit-targets-crypto-linked-to-north-korean-citrine-sleet-group/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="FudModule" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/09/FudModule-Rootkit-1-1.webp" tabindex="0" width="1200" /></p>
 <p><!-- wp:heading --></p>
 <h2 class="wp-block-heading">Key Takeaways&nbsp;</h2>
@@ -99,9 +119,7 @@ According to the description of the bug in the NIST National
 <p>The post <a href="https://cyble.com/blog/fudmodule-rootkit-targets-crypto-linked-to-north-korean-citrine-sleet-group/" rel="nofollow">FudModule Rootkit Targets Crypto, Linked to North Korean Citrine Sleet Group</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Wed, 04 Sep 2024 08:04:39 +0000</pubDate>
-<pubDate>Wed, 04 Sep 2024 08:04:39 +0000</pubDate>
 </item>
-
 <item>
 <title>Android’s September 2024 Update Patches Exploited Vulnerability</title>
 <link>https://www.securityweek.com/androids-september-2024-update-patches-exploited-vulnerability/</link>
