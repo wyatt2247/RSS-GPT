@@ -4,6 +4,103 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Google Confirms CVE-2024-32896 Exploited in the Wild, Releases Android Security Patch</title>
+<link>https://thehackernews.com/2024/09/google-confirms-cve-2024-32896.html</link>
+<guid>https://thehackernews.com/2024/09/google-confirms-cve-2024-32896.html</guid>
+<content:encoded><![CDATA[
+
+Google has released its monthly security updates for the Android operating system to address a known security flaw that it said has come under active exploitation in the wild.
+The high-severity vulnerability, tracked as CVE-2024-32896 (CVSS score: 7.8), relates to a case of privilege escalation in the Android Framework component.
+According to the description of the bug in the NIST National
+]]></content:encoded>
+<pubDate>Wed, 04 Sep 2024 19:06:00 +0530</pubDate>
+<pubDate>Wed, 04 Sep 2024 19:06:00 +0530</pubDate>
+</item>
+<item>
+<title>FudModule Rootkit Targets Crypto, Linked to North Korean Citrine Sleet Group</title>
+<link>https://cyble.com/blog/fudmodule-rootkit-targets-crypto-linked-to-north-korean-citrine-sleet-group/</link>
+<guid>https://cyble.com/blog/fudmodule-rootkit-targets-crypto-linked-to-north-korean-citrine-sleet-group/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="FudModule" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/09/FudModule-Rootkit-1-1.webp" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>A North Korean threat actor, Citrine Sleet, has been observed exploiting a <a href="https://cyble.com/knowledge-hub/zero-day-exploit/" rel="noreferrer noopener" target="_blank">zero-day vulnerability</a> in Chromium, designated as CVE-2024-7971, to achieve Remote Code Execution (RCE). </li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Citrine Sleet, also tracked by other security firms under the names AppleJeus, Labyrinth Chollima, UNC4736, and Hidden Cobra, is attributed to Bureau 121 of North Korea's Reconnaissance General Bureau. The group primarily focuses on financial institutions, especially those involved with cryptocurrency, aiming for financial gain. </li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>The group's tactics, techniques, and procedures (TTPs) have now been linked to the FudModule rootkit, which has also been associated with Diamond Sleet, another North Korean threat actor. </li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Citrine Sleet creates fraudulent websites that mimic legitimate cryptocurrency trading platforms to distribute fake job applications or entice targets into downloading a compromised cryptocurrency wallet or trading application. </li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>The TA typically infects targets with its custom trojan malware, AppleJeus, designed to gather information necessary to take control of victims' cryptocurrency assets. </li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>&nbsp;The Citrine Sleet threat actor group was observed by Microsoft researchers exploiting the CVE-2024-7971 zero-day vulnerability in the V8 JavaScript and WebAssembly engine, which affects versions of Chromium prior to 128.0.6613.84. By exploiting this vulnerability, the attackers achieved remote code execution (RCE) within the sandboxed Chromium renderer process. Google has since released a patch for the vulnerability, on August 21, 2024, and users are advised to update to the latest version of Chromium to mitigate the risk.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">&nbsp;Technical Analysis&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The observed attack chain involved a typical browser exploit sequence, starting with targets being directed to a Citrine Sleet-controlled exploit domain, voyagorclub[.]space, through common social engineering tactics.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Once the users were connected, the zero-day RCE exploit for CVE-2024-7971 was deployed, allowing the attackers to download and load shellcode containing a Windows sandbox escape exploit and the FudModule rootkit into memory.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>FudModule is an advanced rootkit <a href="https://cyble.com/knowledge-hub/what-is-malware/" rel="noreferrer noopener" target="_blank">malware</a> designed to target kernel access while avoiding detection. Threat actors have been seen using the FudModule data-only rootkit to gain admin-to-kernel access on Windows-based systems, enabling read/write primitive operations and conducting Direct Kernel Object Manipulation (DKOM).&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The attack chain seen in Citrine Sleet's zero-day exploit of CVE-2024-7971 closely mirrors the chain observed by Avast, which involves a variant of FudModule known as "FudModule 2.0." This variant includes malicious loaders and a late-stage remote access trojan (RAT). The research identified the previously unknown Kaolin RAT as the malware responsible for deploying the FudModule rootkit on targeted devices.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion and Recommendations&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>CVE-2024-7971 is the third vulnerability this year that North Korean threat actors have exploited to deploy the FudModule rootkit, following CVE-2024-21338 and CVE-2024-38193. To address zero-day exploits effectively, it is crucial not only to keep systems updated but also to use security solutions that offer comprehensive visibility across the <a href="https://cyble.com/knowledge-hub/what-is-a-cyber-attack/" rel="noreferrer noopener" target="_blank">cyberattack</a> chain to detect and block attacker tools and malicious activities after exploitation.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To mitigate the risks posed by Citrine Sleet and similar threats, the following best practices are recommended:&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Activate the automatic software update function on your computer, mobile device, and any other linked devices when feasible and practical. </li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Employ a trusted antivirus solution and internet security software suite on all connected devices, such as your PC, laptop, and mobile phone. </li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Conduct consistent vulnerability assessments to maintain proactive security. </li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Always use <a href="https://cyble.com/blog/multi-factor-authentication-mfa-is-a-part-of-your-cyber-hygiene/" rel="noreferrer noopener" target="_blank">multi-factor authentication</a> on accounts to lessen the risk of takeover. </li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p>The post <a href="https://cyble.com/blog/fudmodule-rootkit-targets-crypto-linked-to-north-korean-citrine-sleet-group/" rel="nofollow">FudModule Rootkit Targets Crypto, Linked to North Korean Citrine Sleet Group</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 04 Sep 2024 08:04:39 +0000</pubDate>
+<pubDate>Wed, 04 Sep 2024 08:04:39 +0000</pubDate>
+</item>
 
 <item>
 <title>Android’s September 2024 Update Patches Exploited Vulnerability</title>
