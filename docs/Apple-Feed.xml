@@ -5,11 +5,22 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Musician charged with $10M streaming royalties fraud using AI and bots</title>
+<link>https://www.bleepingcomputer.com/news/security/musician-charged-with-10m-streaming-royalties-fraud-using-ai-and-bots/</link>
+<guid>https://www.bleepingcomputer.com/news/security/musician-charged-with-10m-streaming-royalties-fraud-using-ai-and-bots/</guid>
+<content:encoded><![CDATA[
+
+North Carolina musician Michael Smith was indicted for collecting over $10 million in royalty payments from Spotify, Amazon Music, Apple Music, and YouTube Music using AI-generated songs streamed by thousands of bots in a massive streaming fraud scheme. [...]
+]]></content:encoded>
+<pubDate>Thu, 05 Sep 2024 12:49:25 -0400</pubDate>
+<pubDate>Thu, 05 Sep 2024 12:49:25 -0400</pubDate>
+</item>
+
+<item>
 <title>Citrine Sleet APT Exploits Chrome Zero-Day Vulnerability for Rootkit Infiltration</title>
 <link>https://www.cysecurity.news/2024/09/citrine-sleet-apt-exploits-chrome-zero.html</link>
 <guid>https://www.cysecurity.news/2024/09/citrine-sleet-apt-exploits-chrome-zero.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIbV3o-LmQA3pU2Bt66RVyIHYZ5qZNhDddmCzAJl8VsKf05VOnfQmRrKHrI6MzRm8OvEhiA2qXyrBRqOFh-i5h1p8liDd92psx7TtFzQEIZcQ6GjB9Dx8B2wqYTHShyphenhyphenpcj37uZHW0jxb5RvUO1BmQSybKcgnqhrfR6KDtUPRwYopDg8du0ZAEQiGghma40/s6016/pexels-anete-lusina-5240547.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="428" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIbV3o-LmQA3pU2Bt66RVyIHYZ5qZNhDddmCzAJl8VsKf05VOnfQmRrKHrI6MzRm8OvEhiA2qXyrBRqOFh-i5h1p8liDd92psx7TtFzQEIZcQ6GjB9Dx8B2wqYTHShyphenhyphenpcj37uZHW0jxb5RvUO1BmQSybKcgnqhrfR6KDtUPRwYopDg8du0ZAEQiGghma40/w640-h428/pexels-anete-lusina-5240547.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">It is believed that North Korean hackers have been able to use unpatched zero-day in Google Chrome (CVE-2024-7971) to install a rootkit called FudModule after gaining admin privileges by exploiting a kernel vulnerability in Microsoft Windows.
 
 
@@ -34,10 +45,8 @@ Microsoft has issued a series of recommendations to help organizations mitigate 
 
 This incident underscores the evolving nature of cyber threats and highlights the importance of proactive cybersecurity measures to detect, block, and mitigate advanced persistent threats (APTs).</div>
 ]]></content:encoded>
-<pubDate>2024-09-05T10:41:00.001-04:00</pubDate>
 <pubDate>2024-09-05T10:45:10.514-04:00</pubDate>
 </item>
-
 <item>
 <title>Security Analysts Observe Massive Surge in Telegram App Downloads Following Durov Arrest</title>
 <link>https://www.cysecurity.news/2024/09/security-analysts-observe-massive-surge.html</link>
