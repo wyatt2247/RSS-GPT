@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Russian Military Cyber Actors Target US and Global Critical Infrastructure</title>
 <link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a</link>
 <guid>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a</guid>
 <content:encoded><![CDATA[
-
 <h2><strong>Summary</strong></h2>
 <p>The Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and National Security Agency (NSA) assess that cyber actors affiliated with the Russian General Staff Main Intelligence Directorate (GRU) 161st Specialist Training Center (Unit 29155) are responsible for computer network operations against global targets for the purposes of espionage, sabotage, and reputational harm since at least 2020. GRU Unit 29155 cyber actors began deploying the destructive&nbsp;<a href="https://attack.mitre.org/software/S0689/" title="WhisperGate">WhisperGate</a> malware against multiple Ukrainian victim organizations as early as January 13, 2022. These cyber actors are separate from other known and more established GRU-affiliated cyber groups, such as Unit 26165 and Unit 74455.</p>
 <p>To mitigate this malicious cyber activity, organizations should take the following actions today:</p>
@@ -1916,9 +1916,7 @@
 </div>
 ]]></content:encoded>
 <pubDate>Thu, 05 Sep 24 12:00:00 +0000</pubDate>
-<pubDate>Thu, 05 Sep 24 12:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations</title>
 <link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a</link>
