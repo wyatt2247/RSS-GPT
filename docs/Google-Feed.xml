@@ -4,6 +4,25 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Sophos X-Ops Uncovers Major Qilin Ransomware Breach Targeting Chrome Browser Credentials</title>
+<link>https://www.cysecurity.news/2024/09/sophos-x-ops-uncovers-major-qilin.html</link>
+<guid>https://www.cysecurity.news/2024/09/sophos-x-ops-uncovers-major-qilin.html</guid>
+<content:encoded><![CDATA[
+
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_3RovNmYxQbKNyNnXn3LVIbjx05QcyzBxshAXxKcHNWSnnOwIOaCLzTsuKbzK69qbshWCL_wl92g1iNLwWDo2ZESGo1IgpRjwZPw9yBmn_J1VAecoRG5Z3x-Uk1QItOykWwSg3R_qfG3Kl9DayACzQPA81MOsYLrUe7QsCPy5qw0lS6N64PTpAJbPAGw/s6267/pexels-cottonbro-5483077.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_3RovNmYxQbKNyNnXn3LVIbjx05QcyzBxshAXxKcHNWSnnOwIOaCLzTsuKbzK69qbshWCL_wl92g1iNLwWDo2ZESGo1IgpRjwZPw9yBmn_J1VAecoRG5Z3x-Uk1QItOykWwSg3R_qfG3Kl9DayACzQPA81MOsYLrUe7QsCPy5qw0lS6N64PTpAJbPAGw/s600/pexels-cottonbro-5483077.jpg" width="600" /></a></div><p>&nbsp;</p><div style="text-align: justify;">Cybersecurity firm Sophos X-Ops has exposed a significant ransomware breach by the Qilin group, which has introduced a new and highly concerning technique of stealing credentials stored in Google Chrome browsers on compromised systems. Qilin, active since at least 2022, is already notorious for its "double extortion" strategy. This method involves encrypting the victim’s data while simultaneously threatening to leak or sell the data unless a ransom is paid.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The discovery of Qilin's latest tactic underscores the evolution of ransomware attacks into more sophisticated and damaging operations.
+
+The breach came to light following an attack on Synnovis, a UK governmental healthcare service provider.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The attack began with the exploitation of compromised credentials to access the organization’s VPN portal, which lacked multi-factor authentication (MFA), allowing the attackers initial access. Once inside, the attackers spent 18 days conducting surveillance before moving laterally to a domain controller.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Here, they modified the Group Policy Objects (GPO) to implement a malicious PowerShell script named `IPScanner.ps1`. This script was designed to harvest login credentials stored in Google Chrome browsers and was automatically executed every time users logged into their devices.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The stolen credentials were stored in the SYSVOL share, labeled by the infected device's hostname, and subsequently exfiltrated to the attackers' command-and-control server. To avoid detection, the attackers cleared event logs and deleted the local data copies before deploying the ransomware.
+
+Given that Google Chrome holds over 65 per cent of the browser market share, the attackers were able to access a large array of usernames and passwords stored by users, raising the scale of the breach.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">This method of credential harvesting introduces a new layer of threat, potentially allowing Qilin to access multiple high-value targets, complicating response efforts for organizations.
+
+Affected organizations have been urged to reset all Active Directory passwords and advise users to change the passwords of any sites saved in Chrome.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">This tactic may serve as a "bonus multiplier" for attackers, increasing the chaos inherent in ransomware situations by gaining insights into high-value accounts, making future attacks even more damaging.
+
+This breach highlights a growing concern over organizations' abilities to defend against such multifaceted and evolving ransomware threats</div>
+]]></content:encoded>
+<pubDate>2024-09-06T09:08:00.000-04:00</pubDate>
+<pubDate>2024-09-06T09:08:15.878-04:00</pubDate>
+</item>
 
 <item>
 <title>Citrine Sleet APT Exploits Chrome Zero-Day Vulnerability for Rootkit Infiltration</title>

@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>How cyber criminals are compromising AI software supply chains</title>
 <link>https://securityintelligence.com/articles/cyber-criminals-compromising-ai-software-supply-chains/</link>
 <guid>https://securityintelligence.com/articles/cyber-criminals-compromising-ai-software-supply-chains/</guid>
 <content:encoded><![CDATA[
-
 <p>With the adoption of artificial intelligence (AI) soaring across industries and use cases, preventing AI-driven software supply chain attacks has never been more important.</p>
 <p>Recent research by SentinelOne <a href="https://www.sentinelone.com/labs/nullbulge-threat-actor-masquerades-as-hacktivist-group-rebelling-against-ai/" rel="noopener nofollow" target="_blank">exposed a new ransomware actor</a>, dubbed NullBulge, which targets software supply chains by weaponizing code in open-source repositories like Hugging Face and GitHub. The group, claiming to be a hacktivist organization motivated by an anti-AI cause, specifically targets these resources to poison data sets used in AI model training.</p>
 <p>No matter whether you use mainstream AI solutions, integrate them into your existing tech stacks via <a href="https://www.ibm.com/topics/api" rel="noopener nofollow" target="_blank"><span class="resolved">application programming interfaces (APIs)</span></a> or even develop your own models from open-source foundation models, the entire AI software supply chain is now squarely in the spotlight of cyberattackers.</p>
@@ -30,9 +30,7 @@
 <p>The post <a href="https://securityintelligence.com/articles/cyber-criminals-compromising-ai-software-supply-chains/" rel="nofollow">How cyber criminals are compromising AI software supply chains</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p>
 ]]></content:encoded>
 <pubDate>Fri, 06 Sep 2024 13:00:00 +0000</pubDate>
-<pubDate>Fri, 06 Sep 2024 13:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Russian Military Cyber Actors Target US and Global Critical Infrastructure</title>
 <link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a</link>
