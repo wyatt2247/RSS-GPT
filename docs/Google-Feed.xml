@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>North Korean Threat Actors Deploy COVERTCATCH Malware via LinkedIn Job Scams</title>
 <link>https://thehackernews.com/2024/09/north-korean-threat-actors-deploy.html</link>
 <guid>https://thehackernews.com/2024/09/north-korean-threat-actors-deploy.html</guid>
 <content:encoded><![CDATA[
-
 Threat actors affiliated with North Korea have been observed leveraging LinkedIn as a way to target developers as part of a fake job recruiting operation.
 
 These attacks employ coding tests as a common initial infection vector, Google-owned Mandiant said in a new report about threats faced by the Web3 sector.
@@ -17,9 +17,7 @@ These attacks employ coding tests as a common initial infection vector, Google-o
 "After an initial chat conversation, the attacker sent a ZIP file that contained
 ]]></content:encoded>
 <pubDate>Sat, 07 Sep 2024 12:58:00 +0530</pubDate>
-<pubDate>Sat, 07 Sep 2024 12:58:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Sophos X-Ops Uncovers Major Qilin Ransomware Breach Targeting Chrome Browser Credentials</title>
 <link>https://www.cysecurity.news/2024/09/sophos-x-ops-uncovers-major-qilin.html</link>
