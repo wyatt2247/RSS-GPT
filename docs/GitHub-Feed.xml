@@ -4,6 +4,315 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Reputation Hijacking with JamPlus: A Maneuver to Bypass Smart App Control (SAC)</title>
+<link>https://cyble.com/blog/reputation-hijacking-with-jamplus-a-maneuver-to-bypass-smart-app-control-sac/</link>
+<guid>https://cyble.com/blog/reputation-hijacking-with-jamplus-a-maneuver-to-bypass-smart-app-control-sac/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="CybleBlogs Latest 1200 × 600 px 10" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/09/CybleBlogs-Latest-1200-×-600-px-10.png" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble Research and Intelligence Labs (CRIL) has detected a phishing site masquerading as a CapCut download page. The site aims to trick users into downloading malicious software.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Threat actors (TAs) have leveraged a reputation-hijacking technique by embedding a legitimate CapCut-signed application within the malicious downloaded package, exploiting the trustworthiness of well-known apps to bypass security systems.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>This campaign utilizes a recently demonstrated proof-of-concept (PoC) that repurposes the JamPlus build utility to execute malicious scripts while evading detection.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The attack unfolds in multiple stages, employing a mix of legitimate tools, fileless methods, and reputed code repositories such as GitHub to seem legitimate and effectively circumvent traditional security measures.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>This campaign's final payload is a variant of NodeStealer, designed to capture sensitive user information and exfiltrate it through a Telegram channel.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>CapCut, a video editing tool developed by Bytedance, has become increasingly popular. This popularity has extended to CapCut-themed attacks, which are on the rise among TAs. These themes have been frequently used in phishing campaigns. Cyble Research &amp; Intelligence Labs (CRIL) previously identified several phishing websites impersonating the CapCut video editor, and we have discussed these findings in our earlier <a href="https://cyble.com/blog/capcut-users-under-fire/">blog</a> posts. Our latest research discovers a new CapCut-themed campaign deploying stealers such as NodeStealer.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Additionally, TAs have adopted a recently identified <a href="https://github.com/joe-desimone/rep-research/blob/ea8c70d488a03b5f931efa37302128d9e7a33ac0/rep-hijacking/poc-rep-hijack-jam.zip">technique</a> of reputation hijacking with the <a href="https://github.com/jamplus/jamplus">JamPlus</a> build utility to deliver final payloads to victims' systems. This new tactic highlights an evolving trend in attack strategies aimed at bypassing security controls and increasing the success rate of malicious campaigns.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The initial infection occurs when a user downloads a malicious package from a CapCut phishing site. The package contains a legitimate CapCut application, JamPlus build utility, and a malicious”.lua” script. When the user runs the legitimate CapCut application, it triggers the JamPlus build utility, which then executes a malicious “<em>.lua</em>” script. This process utilizes reputation hijacking to mask the execution of the malicious script. This script then downloads a batch file that subsequently fetches and executes the final payload from a remote server. The TAs aim to maintain fileless payloads wherever possible.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This multi-stage process ultimately deploys a stealer payload that resembles NodeStealer. The image below provides an overview of the infection chain.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60253,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-60253" src="https://cyble.com/wp-content/uploads/2024/09/Figure-1-infection-chain-1.png" /><figcaption class="wp-element-caption">Figure 1 - Infection chain</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Technical Details</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>In this campaign, TAs trick users into downloading a malicious package disguised as a CapCut installer from a phishing site, as shown below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60254,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-60254" src="https://cyble.com/wp-content/uploads/2024/09/Figure-2-Phishing-site-1024x491.png" /><figcaption class="wp-element-caption">Figure 2 - Phishing site</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When the user clicks the "Download" button on the phishing site, it initiates the download of an archive named "CapCut_{random number}_Installer" from the URL: “<em>hxxps://www[.]dropbox[.]com/scl/fi/6se0kgmo7sbngtdf8r11x/CapCut_7376550521366298640_installer.zip?rlkey=7fxladl3fdhpne6p7buz48kcl&amp;st=pzxtrcqc&amp;dl=1</em>”.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Upon extracting the downloaded archive, the user encounters what appears to be a CapCut installer; however, it is a legitimate CapCut application rather than an installer, as shown in Figure 3. The package also includes hidden files intended for malicious activities.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60255,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-60255" src="https://cyble.com/wp-content/uploads/2024/09/Figure-3-Zip-file-contents-without-hidden-files.png" /><figcaption class="wp-element-caption">Figure 3 - Zip file contents without hidden files</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After revealing the hidden files, we discovered that the package contains the JamPlus build utility and a malicious “<em>.lua</em>” script, as shown below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60256,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-60256" src="https://cyble.com/wp-content/uploads/2024/09/Figure-4-Extracted-content-including-hidden-files.png" /><figcaption class="wp-element-caption">Figure 4 - Extracted content, including hidden files</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>By default, launching the CapCut shortcut from the desktop runs the CapCut application located at “<em>C:\Users\&lt;User_Name&gt;\AppData\Local\CapCut\Apps\capcut.exe</em>”. This “<em>capcut.exe</em>” file identifies the latest CapCut application version and then executes the appropriate application from the corresponding folder, as shown below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60257,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-60257" src="https://cyble.com/wp-content/uploads/2024/09/Figure-5-Execution-Flow-of-legitimate-CapCut-Application.png" /><figcaption class="wp-element-caption">Figure 5 - Execution Flow of &nbsp;legitimate CapCut Application</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In this campaign, TA leveraged this technique by trying to execute a renamed JamPlus build utility instead of the actual CapCut application, as shown below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60259,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-60259" src="https://cyble.com/wp-content/uploads/2024/09/Figure-6-CapCut-application-executing-JamPlus-Build-Utility.png" /><figcaption class="wp-element-caption">Figure 6 - CapCut application executing JamPlus Build Utility</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In our tests, the JamPlus utility was not executed because the file did not have the expected name, “capcut.exe,” indicating a possible error by the TA in naming the file. However, renaming the file to “capcut.exe” successfully triggers the execution of the JamPlus Build utility.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Upon successful execution, the builder reads instructions from a “<em>.</em><em> jam</em>” file, which is configured to identify the malicious “.<em>lua</em>” script, as shown below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60260,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-60260" src="https://cyble.com/wp-content/uploads/2024/09/Figure-7-Content-of-.jam-file.png" /><figcaption class="wp-element-caption">Figure 7 - Contents of the .jam file</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After identifying the malicious “<em>.lua</em>” script, the JamPlus build utility loads the “<em>.lua</em>” script file, which executes a shell command, as shown in the figure below. This command employs “<em>curl</em>” to silently download a batch file from a remote server and save it as “<em>C:\Users\Public\steal.bat.</em>” It then executes the downloaded batch file.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This approach demonstrates how TAs utilized a legitimate CapCut application with JamPlus build utility to evade Smart App Control and avoid triggering security alerts.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60261,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-60261" src="https://cyble.com/wp-content/uploads/2024/09/Figure-8-Content-of-the-.Lua-file-1024x222.png" /><figcaption class="wp-element-caption">Figure 8 - Content of the .Lua file</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The batch file contains multiple PowerShell commands that perform the following actions:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>1. Downloads a file named “<em>WindowSafety.bat</em>” from a remote URL “<em>hxxps://raw[.]githubusercontent.com/LoneNone1807/batman/main/startup</em>” and saves it in the startup folder, ensuring it runs automatically at the next system startup.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>2. Downloads a ZIP file named “<em>Document.zip</em>” from another remote URL “<em>hxxps://github[.]com/LoneNone1807/batman/raw/main/Document.zip</em>” and saves it in the public directory (<em>C:\Users\Public\Document.zip</em>).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>3. Extracts the contents of “<em>Document.zip</em>” into a folder named “Document” within the public directory (“<em>C:\Users\Public\Document</em>”).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>4. Finally, the batch script executes a Python script named “<em>sim.py</em>”, located in the extracted folder.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The image below shows the contents of the Python script.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60263,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-60263" src="https://cyble.com/wp-content/uploads/2024/09/Figure-9-sim.py-contents-1024x65.png" /><figcaption class="wp-element-caption">Figure 9 - sim.py contents</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The newly launched Python script retrieves base64-encoded data from a new remote server, as highlighted in the above image, decodes it, and executes the resulting payload directly in memory without saving it to disk. This payload is a Python-based information-stealing malware identified as NodeStealer.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading"><strong>NodeStealer</strong></h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>NodeStealer is a <a href="https://www.netskope.com/blog/new-python-nodestealer-goes-beyond-facebook-credentials-now-stealing-all-browser-cookies-and-login-credentials">sophisticated</a> malware that targets a wide range of sensitive data on a victim’s machine. It steals login credentials, cookies, credit card details, and autofill data from both Chromium-based and Gecko-based web browsers. Additionally, it extracts information from Facebook Ads Manager, Facebook Business accounts, and Facebook API graph pages. NodeStealer also targets browser extensions, including crypto wallets, password managers, VPNs, and gaming applications. All the collected information is then exfiltrated to the TAs via Telegram. This attack has been attributed to a threat actor operating from Vietnam.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading"><strong>Broader pattern of attacks</strong></h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>We have also identified another campaign where TAs used similar techniques to deliver RedLine Stealer. In this campaign, they employed a legitimately signed Postman application in conjunction with the JamPlus build utility. The image below shows that the malicious package includes the Postman application.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":60264,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-60264" src="https://cyble.com/wp-content/uploads/2024/09/Figure-10-Postman-application-used-in-a-similar-campaign.png" /><figcaption class="wp-element-caption">Figure 10 - Postman application used in a similar campaign</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The successful hijacking of reputable applications and the JamPlus build utility illustrates a sophisticated method for bypassing Smart App Control without triggering security alerts. This approach significantly elevates the complexity and effectiveness of cyberattacks, complicating detection and defense efforts. The deployment of NodeStealer, which targets sensitive information from the victim's system, highlights the growing concerns and difficulties within the cybersecurity landscape.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Before accessing or downloading from any site, it is essential to diligently verify the URLs.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Consider disabling or limiting the execution of scripting languages on user workstations and servers if they are not essential for legitimate purposes.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implement comprehensive monitoring and logging to detect unusual activities associated with reputable applications.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Employ application whitelisting to ensure that only approved applications can run on systems. This helps prevent unauthorized applications from executing.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Stay updated with the latest threat intelligence and cybersecurity trends to understand new tactics and techniques used by attackers. This knowledge helps in adapting defense strategies accordingly.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Set up network-level monitoring to detect unusual activities or data exfiltration by malware. Block suspicious activities to prevent potential breaches.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">MITRE ATT&amp;CK® Techniques</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Tactic&nbsp;</strong></td>
+<td><strong>Technique ID&nbsp;</strong></td>
+<td><strong>Technique Name&nbsp;</strong></td>
+</tr>
+<tr>
+<td>Initial Access (<a href="https://attack.mitre.org/tactics/TA0027/" rel="noreferrer noopener" target="_blank">TA0027</a>)</td>
+<td>Phishing (<a href="https://attack.mitre.org/techniques/T1660/" rel="noreferrer noopener" target="_blank">T1660</a>)</td>
+<td>Malware distribution via phishing site</td>
+</tr>
+<tr>
+<td>Execution&nbsp; (<a href="https://attack.mitre.org/tactics/TA0002/" rel="noreferrer noopener" target="_blank">TA0002</a>)&nbsp;</td>
+<td>User Execution (<a href="https://attack.mitre.org/techniques/T1204/" rel="noreferrer noopener" target="_blank">T1204</a>)</td>
+<td>The user needs to manually execute the file downloaded from the phishing site.&nbsp;</td>
+</tr>
+<tr>
+<td>Execution (TA0002)</td>
+<td>Python (<a href="https://attack.mitre.org/techniques/T1059/006/" rel="noreferrer noopener" target="_blank">T1059.006</a>)&nbsp;&nbsp;</td>
+<td>Python stealer is used for targeting Windows users&nbsp;</td>
+</tr>
+<tr>
+<td>Defense&nbsp; Evasion&nbsp; (<a href="https://attack.mitre.org/tactics/TA0005/" rel="noreferrer noopener" target="_blank">TA0005</a>)</td>
+<td>Masquerading (<a href="https://attack.mitre.org/techniques/T1036/008/" rel="noreferrer noopener" target="_blank">T1036.008</a>)</td>
+<td>Downloads file disguised as a legitimate application.</td>
+</tr>
+<tr>
+<td>Credential Access (TA0006)</td>
+<td>Steal Web Session Cookie&nbsp;(<a href="https://attack.mitre.org/techniques/T1539/" rel="noreferrer noopener" target="_blank">T1539</a>)&nbsp;</td>
+<td>Steals browser cookies&nbsp;</td>
+</tr>
+<tr>
+<td>Collection (TA0009)</td>
+<td>Archive Collected Data&nbsp;<br />(<a href="https://attack.mitre.org/techniques/T1560/" rel="noreferrer noopener" target="_blank">T1560</a>)&nbsp;</td>
+<td>Stealer compresses the stolen data with &nbsp;<br />ZIP extension.</td>
+</tr>
+<tr>
+<td>Exfiltration(<a href="https://attack.mitre.org/tactics/TA0010/" rel="noreferrer noopener" target="_blank">TA0010</a>)</td>
+<td>Exfiltration Over Web Service (<a href="https://attack.mitre.org/techniques/T1567/" rel="noreferrer noopener" target="_blank">T1567</a>)</td>
+<td>Uses Telegram channel to exfiltrate data</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Indicators of Compromise (IOCs)</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicators</strong><strong> </strong> &nbsp;</td>
+<td><strong>Indicator</strong> &nbsp;<br /><strong>Type</strong> &nbsp;</td>
+<td><strong>Description</strong> &nbsp;</td>
+</tr>
+<tr>
+<td>8e6bbe8ac1ecdd230a4dcafa981ff00663fae06f7b85b117a87917b6f04f894f</td>
+<td>SHA256</td>
+<td>CapCut_7376550521366298640_installer.zip</td>
+</tr>
+<tr>
+<td>4e213bd0a127f1bb24c4c0d971c2727097b04eed9c6e62a57110d168ccc3ba10</td>
+<td>SHA256</td>
+<td>JamPlus Builder – POC file</td>
+</tr>
+<tr>
+<td>56d3ba2b661e8d8dfe38bcef275547546b476c35d18aa4ec89eea73c2e2aeb7c</td>
+<td>SHA256</td>
+<td>Python Stealer</td>
+</tr>
+<tr>
+<td>hxxps://raw[.]githubusercontent[.]com/LoneNone1807/batman/main/steal[.]bat</td>
+<td>URL</td>
+<td>Remote server</td>
+</tr>
+<tr>
+<td>hxxps://cap-cutdownload[.]com/</td>
+<td>URL</td>
+<td>Phishing site</td>
+</tr>
+<tr>
+<td>169f7d182f7838b75737c23e1b08c4b6b303d2d6a1cb73cdb87bd9644878a027</td>
+<td>SHA256</td>
+<td>Copyright-infringement-images.zip</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">References</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://www.netskope.com/blog/new-python-nodestealer-goes-beyond-facebook-credentials-now-stealing-all-browser-cookies-and-login-credentials">https://www.netskope.com/blog/new-python-nodestealer-goes-beyond-facebook-credentials-now-stealing-all-browser-cookies-and-login-credentials</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://isc.sans.edu/diary/From+Highly+Obfuscated+Batch+File+to+XWorm+and+Redline/31204">https://isc.sans.edu/diary/From+Highly+Obfuscated+Batch+File+to+XWorm+and+Redline/31204</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://unit42.paloaltonetworks.com/nodestealer-2-targets-facebook-business">https://unit42.paloaltonetworks.com/nodestealer-2-targets-facebook-business</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://www.elastic.co/security-labs/dismantling-smart-app-control">https://www.elastic.co/security-labs/dismantling-smart-app-control</a></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/reputation-hijacking-with-jamplus-a-maneuver-to-bypass-smart-app-control-sac/" rel="nofollow">Reputation Hijacking with JamPlus: A Maneuver to Bypass Smart App Control (SAC)</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Mon, 09 Sep 2024 10:54:07 +0000</pubDate>
+<pubDate>Mon, 09 Sep 2024 10:54:07 +0000</pubDate>
+</item>
 
 <item>
 <title>How cyber criminals are compromising AI software supply chains</title>
