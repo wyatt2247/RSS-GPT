@@ -4,18 +4,16 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>GitHub sqlpad/sqlpad Template Injection / Remote Code Execution</title>
 <link>https://packetstormsecurity.com/files/181440/CVE-2022-0944_RCE_Automation-main.zip</link>
 <guid>https://packetstormsecurity.com/files/181440/CVE-2022-0944_RCE_Automation-main.zip</guid>
 <content:encoded><![CDATA[
-
 Proof of concept automation code to exploit a template injection vulnerability in GitHub repository sqlpad/sqlpad version prior to 6.10.1 that can result in remote code execution.
 ]]></content:encoded>
 <pubDate>Tue, 10 Sep 2024 17:09:46 GMT</pubDate>
-<pubDate>Tue, 10 Sep 2024 17:09:46 GMT</pubDate>
 </item>
-
 <item>
 <title>Reputation Hijacking with JamPlus: A Maneuver to Bypass Smart App Control (SAC)</title>
 <link>https://cyble.com/blog/reputation-hijacking-with-jamplus-a-maneuver-to-bypass-smart-app-control-sac/</link>
