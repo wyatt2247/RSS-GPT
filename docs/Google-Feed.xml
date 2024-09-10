@@ -4,6 +4,135 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Weekly IT Vulnerability Report for August 28, 2024 – September 03, 2024</title>
+<link>https://cyble.com/blog/weekly-it-vulnerability-report-for-august-28-2024-september-03-2024/</link>
+<guid>https://cyble.com/blog/weekly-it-vulnerability-report-for-august-28-2024-september-03-2024/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Weekly-IT-Vulnerability-Report" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="480" src="https://cyble.com/wp-content/uploads/2024/09/Weekly-IT-Vulnerability-Report.png" tabindex="0" width="960" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways:</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true} --></p>
+<ol class="wp-block-list"><!-- wp:list-item --></p>
+<li>CISA incorporated four vulnerabilities (CVE-2021-20123, CVE-2021-20124, CVE-2024-7262, and CVE-2024-7965) into its Known Exploited Vulnerability (KEV) catalog based on evidence of active exploitation.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The Cyble team analyzed critical and high-severity CVEs including those impacting networking products CVE-2024-7261 and CVE-2024-44341 and Dell's PowerProtect tool CVE-2024-37136, which could lead to remote code execution and information exposure.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>CRIL detected multiple instances of vulnerability discussions and proof-of-concept sharing in underground forums and channels, including for critical flaws (CVE-2024-38063, CVE-2024-5932, CVE-2024-43044, CVE-2024-6670 and CVE-2024-3116) in Windows, WordPress, Jenkins, and other products.</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This Weekly Vulnerability Intelligence Report explores vulnerability updates between August 28 to September 3. The CRIL team investigated 13 vulnerabilities this week, among other disclosed issues, to present critical, high, and medium insights.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This comprehensive analysis examines the latest <a href="https://cyble.com/knowledge-hub/cybersecurity/">cybersecurity</a> threats and provides recommendations to help organizations strengthen their defenses.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">The Week’s Top Vulnerabilities</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>&nbsp;Here is a deeper analysis of those five vulnerabilities identified by Cyble researchers.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true} --></p>
+<ol class="wp-block-list"><!-- wp:list-item --></p>
+<li>CVE-2024-7261: Improper Neutralization of Special Elements in Zyxel  Firmware<br />Critical vulnerability in Zyxel products, could allow an unauthenticated attacker to execute OS commands by sending a crafted cookie to a vulnerable device. The impact of this flaw is significant, as it could enable remote code execution and compromise the affected systems.</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>CVE-2024-37136: Exposure of Private Personal Information in Dell Path to PowerProtect<br />Impacts Dell Path to PowerProtect, a tool used for policy migration and agent onboarding. A remote, high-privileged attacker could potentially exploit this vulnerability, leading to information exposure.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>CVE-2024-44341: remote command execution (RCE) vulnerability in D-Link<br />Critical remote command execution (RCE) vulnerability, affects the D-Link DIR-846W A1 FW100A43 wireless router model. Attackers can exploit this flaw by sending a crafted POST request to the vulnerable device.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>CVE-2024-7971: Type confusion in V8 in Google Chrome prior to 128.0.6613.84<br />Type confusion vulnerability in Google Chrome's V8 engine, Microsoft has disclosed with a high degree of confidence that they observed exploitation of this vulnerability by a <a href="https://cyble.com/blog/ta-fudmodule-rootkit-targets-crypto-linked-to-north-korean-citrine-sleet-group/">North Korean threat actor</a> targeting the cryptocurrency sector.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Vulnerabilities and Exploits Discussed in the Underground</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CRIL observed multiple instances of vulnerability discussions and the promulgation of proof-of-concepts (POCs) in underground forums and channels.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>On a Telegram channel named 'Proxy Bar,' the administrator shared POCs for several critical and high-severity vulnerabilities, including CVE-2024-38063 (Windows TCP/IP RCE), CVE-2024-5932 (GiveWP RCE), and CVE-2024-43044 (Jenkins arbitrary file read).</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>On the Telegram channel CyberDilara, the administrator shared a POC for CVE-2024-6670, a critical SQL injection vulnerability in WhatsUp Gold. TA Neo_Matrix also shared a POC for CVE-2024-3116, a high-severity RCE vulnerability in pgAdmin.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>TA KeeperZed offered a<a href="https://cyble.com/knowledge-hub/zero-day-exploit/"> 0-day vulnerability</a> affecting devices running iOS <a>17.xx</a> and iOS 18.xx (Beta) on a forum, attempting to sell it for $2.5 million.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Cyble’s Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To mitigate the risks posed by these vulnerabilities, CRIL recommends the following actions:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true} --></p>
+<ol class="wp-block-list"><!-- wp:list-item --></p>
+<li>Implement the latest patches<br /> Regularly update all software and hardware systems with the latest patches from official vendors to address vulnerabilities and protect against exploits.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Establish a robust patch management process<br />Develop a comprehensive patch management strategy that includes inventory management, patch assessment, testing, deployment, and verification.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implement proper network segmentation<br />Divide the network into distinct segments to isolate critical assets from less secure areas, using <a href="https://cyble.com/knowledge-hub/what-is-firewall/">firewalls</a>, VLANs, and access controls.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Enhance incident response and recovery capabilities<br /> Create and maintain an incident response plan, and regularly test and update it to ensure effectiveness.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Strengthen monitoring and logging<br /> Implement comprehensive monitoring and logging solutions to detect and analyze suspicious activities across the network.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Enhance Incident Response and Recovery Capabilities<br />Create and maintain an <a href="https://cyble.com/knowledge-hub/what-is-incident-response/">incident response plan</a> that outlines procedures for detecting, responding to, and recovering from security incidents. Regularly test and update the plan to ensure its effectiveness and alignment with current threats.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Strengthen Monitoring and Logging<br /> Implement comprehensive monitoring and logging solutions to detect and analyze suspicious activities across the network.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Stay Informed of Security Alerts<br /> Subscribe to security advisories and alerts from official vendors, CERTs, and other authoritative sources. Regularly review and assess the impact of these alerts on your systems and take appropriate actions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Conduct Vulnerability Assessments and Penetration Testing<br />Conduct regular VAPT exercises to identify and remediate vulnerabilities in your systems. Complement these exercises with periodic security audits to ensure compliance with security policies and standards.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Maintain Visibility into Assets<br /> Maintain an up-to-date inventory of all internal and external assets, including hardware, software, and network components. Use asset management tools and continuous monitoring to ensure comprehensive visibility and control over the IT environment.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Enforce Strong Password Policies and Multi-Factor Authentication<br /> Change default passwords immediately and enforce a robust password policy across the organization. Implement <a href="https://cyble.com/blog/multi-factor-authentication-mfa-is-a-part-of-your-cyber-hygiene/">multi-factor authentication</a> (MFA) to provide an extra layer of security and significantly reduce the risk of unauthorized access.</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p>The post <a href="https://cyble.com/blog/weekly-it-vulnerability-report-for-august-28-2024-september-03-2024/" rel="nofollow">Weekly IT Vulnerability Report for August 28, 2024 – September 03, 2024</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 03 Sep 2024 07:30:32 +0000</pubDate>
+<pubDate>Tue, 03 Sep 2024 07:30:32 +0000</pubDate>
+</item>
 
 <item>
 <title>Google Pushes Rust in Legacy Firmware to Tackle Memory Safety Flaws</title>
