@@ -4,6 +4,29 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Chrome 128 Update Resolves High-Severity Vulnerabilities</title>
+<link>https://www.securityweek.com/chrome-128-update-resolves-high-severity-vulnerabilities/</link>
+<guid>https://www.securityweek.com/chrome-128-update-resolves-high-severity-vulnerabilities/</guid>
+<content:encoded><![CDATA[
+
+<p>Google has released a Chrome 128 security update to resolve high-severity memory safety vulnerabilities.</p>
+<p>The post <a href="https://www.securityweek.com/chrome-128-update-resolves-high-severity-vulnerabilities/">Chrome 128 Update Resolves High-Severity Vulnerabilities</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 11 Sep 2024 08:34:22 +0000</pubDate>
+<pubDate>Wed, 11 Sep 2024 08:34:22 +0000</pubDate>
+</item>
+<item>
+<title>AI In Wrong Hands: The Underground Demand for Malicious LLMs</title>
+<link>https://www.cysecurity.news/2024/09/ai-in-wrong-hands-underground-demand.html</link>
+<guid>https://www.cysecurity.news/2024/09/ai-in-wrong-hands-underground-demand.html</guid>
+<content:encoded><![CDATA[
+
+<p style="text-align: justify;"></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLXGtQS7pPvGwpxHGXQaBg0GZUPnhRAN3eaWmB2ZGG7-0sC-cjiUC0AlHMC27sNCYuvKXmTu5Q02Qq5TesuaUnhNSGOXWOX75BRF5VbBEqbD4VhQKsC4YNe2GDisUuRQW1x91Ctak2LALMQAKdgLib-gXITZhxTg198az6TJdrimWsuKyDfCWdosaLJPAu/s4608/pexels-onewayupdesigns-2085831.jpg" style="margin-left: 1em; margin-right: 1em;"><img alt="AI In Wrong Hands: The Underground Demand for Malicious LLMs" border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLXGtQS7pPvGwpxHGXQaBg0GZUPnhRAN3eaWmB2ZGG7-0sC-cjiUC0AlHMC27sNCYuvKXmTu5Q02Qq5TesuaUnhNSGOXWOX75BRF5VbBEqbD4VhQKsC4YNe2GDisUuRQW1x91Ctak2LALMQAKdgLib-gXITZhxTg198az6TJdrimWsuKyDfCWdosaLJPAu/w640-h426/pexels-onewayupdesigns-2085831.jpg" title="AI In Wrong Hands: The Underground Demand for Malicious LLMs" width="640" /></a></div><br />In recent times, <a href="https://www.cysecurity.news/2024/09/council-of-europe-lunches-first-ai.html" target="_blank">Artificial Intelligence</a> (AI) has offered various perks across industries. But, as with any powerful tool, threat actors are trying to use it for malicious reasons. <a href="https://arxiv.org/abs/2401.03315" target="_blank">Researchers</a> suggest that the underground market for illicit large language models is enticing, highlighting a need for strong safety measures against AI misuse.&nbsp;<p></p><p style="text-align: justify;">These underground markets that deal with malicious large language models (LLMs) are called Mallas. This blog dives into the details of this dark industry and discusses the impact of these illicit LLMs on cybersecurity.&nbsp;</p><h3 style="text-align: justify;">The Rise of Malicious LLMs</h3><p style="text-align: justify;">LLMs, like OpenAI' GPT-4 have shown fine results in natural language processing, bringing applications like chatbots for content generation. However, the same tech that supports these useful apps can be misused for suspicious activities.&nbsp;</p><p style="text-align: justify;">Recently, researchers from Indian University Bloomington found 212 malicious LLMs on underground marketplaces between April and September last year. One of the models "WormGPT" made around $28,000 in just two months, revealing a trend among threat actors misusing AI and a rising demand for these harmful tools.&nbsp;</p><h3 style="text-align: justify;">How Uncensored Models Operate&nbsp;</h3><p style="text-align: justify;">Various LLMs in the market were uncensored and built using open-source standards, few were jailbroken commercial models. Threat actors used Mallas to write phishing emails, build malware, and <a href="https://arxiv.org/html/2406.01637v1" target="_blank">exploit&nbsp;</a>zero days.&nbsp;</p><p style="text-align: justify;">Tech giants working in the AI models industry have built measures to protect against jailbreaking and detecting malicious attempts. But threat actors have also found ways to jump the guardrails and trick AI models like Google Meta, OpenAI, and Anthropic into providing malicious info.&nbsp;</p><h3 style="text-align: justify;">Underground Market for LLMs</h3><p style="text-align: justify;">Experts found two uncensored LLMs: DarkGPT, which costs 78 cents per 50 messages, and Escape GPT, a subscription model that charges $64.98 a month. Both models generate harmful code that antivirus tools fail to detect two-thirds of the time. Another model "WolfGPT" costs $150, and allows users to write phishing emails that can escape most spam detectors.&nbsp;</p><p style="text-align: justify;">The research findings suggest all harmful AI models could make malware, and 41.5% could create phishing emails. These models were built upon OpenAI's GPT-3.5 and GPT-4, Claude Instant, Claude-2-100k, and Pygmalion 13B.&nbsp;</p><p style="text-align: justify;">To fight these threats, experts have suggested a dataset of prompts used to make malware and escape safety features. AI companies should release models with default censorship settings and allow access to illicit models only for research purposes.</p>
+]]></content:encoded>
+<pubDate>2024-09-11T05:40:00.000-04:00</pubDate>
+<pubDate>2024-09-11T05:40:38.595-04:00</pubDate>
+</item>
 
 <item>
 <title>Cybercriminals Ramp Up Malvertising Schemes Through Google Searches</title>
