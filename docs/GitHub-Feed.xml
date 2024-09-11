@@ -4,20 +4,18 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Developers Beware: Lazarus Group Uses Fake Coding Tests to Spread Malware</title>
 <link>https://thehackernews.com/2024/09/developers-beware-lazarus-group-uses.html</link>
 <guid>https://thehackernews.com/2024/09/developers-beware-lazarus-group-uses.html</guid>
 <content:encoded><![CDATA[
-
 Cybersecurity researchers have uncovered a new set of malicious Python packages that target software developers under the guise of coding assessments.
 "The new samples were tracked to GitHub projects that have been linked to previous, targeted attacks in which developers are lured using fake job interviews," ReversingLabs researcher Karlo Zanki said.
 The activity has been assessed to be part of
 ]]></content:encoded>
 <pubDate>Wed, 11 Sep 2024 15:16:00 +0530</pubDate>
-<pubDate>Wed, 11 Sep 2024 15:16:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Bug Left Some Windows PCs Dangerously Unpatched</title>
 <link>https://krebsonsecurity.com/2024/09/bug-left-some-windows-pcs-dangerously-unpatched/</link>
