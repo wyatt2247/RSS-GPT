@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Bug Left Some Windows PCs Dangerously Unpatched</title>
 <link>https://krebsonsecurity.com/2024/09/bug-left-some-windows-pcs-dangerously-unpatched/</link>
 <guid>https://krebsonsecurity.com/2024/09/bug-left-some-windows-pcs-dangerously-unpatched/</guid>
 <content:encoded><![CDATA[
-
 <p><strong>Microsoft Corp.</strong> today released updates to fix at least 79 security vulnerabilities in its <strong>Windows</strong> operating systems and related software, including multiple flaws that are already showing up in active attacks. Microsoft also corrected a critical bug that has caused some <strong>Windows 10</strong> PCs to remain dangerously unpatched against actively exploited vulnerabilities for several months this year.</p>
 <p><img alt="" class="aligncenter wp-image-60331" height="496" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" width="749" /></p>
 <p>By far the most curious security weakness Microsoft disclosed today has the snappy name of <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43491" rel="noopener" target="_blank">CVE-2024-43491</a>, which Microsoft says is a vulnerability that led to the rolling back of fixes for some vulnerabilities affecting &#8220;optional components&#8221; on certain Windows 10 systems produced in 2015. Those include Windows 10 systems that installed the monthly security update for Windows released in March 2024, or other updates released until August 2024.</p>
@@ -32,9 +32,7 @@
 <p>&nbsp;</p>
 ]]></content:encoded>
 <pubDate>Tue, 10 Sep 2024 21:46:21 +0000</pubDate>
-<pubDate>Tue, 10 Sep 2024 21:46:21 +0000</pubDate>
 </item>
-
 <item>
 <title>GitHub sqlpad/sqlpad Template Injection / Remote Code Execution</title>
 <link>https://packetstormsecurity.com/files/181440/CVE-2022-0944_RCE_Automation-main.zip</link>
