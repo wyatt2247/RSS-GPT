@@ -4,6 +4,29 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-101</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-101</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Wed, 11 Sep 2024 15:52:43 -0400</pubDate>
+<pubDate>Wed, 11 Sep 2024 15:52:43 -0400</pubDate>
+</item>
+<item>
+<title>Google’s AI Model Faces European Union Scrutiny From Privacy Watchdog</title>
+<link>https://www.securityweek.com/googles-ai-model-faces-european-union-scrutiny-from-privacy-watchdog/</link>
+<guid>https://www.securityweek.com/googles-ai-model-faces-european-union-scrutiny-from-privacy-watchdog/</guid>
+<content:encoded><![CDATA[
+
+<p>Ireland’s Data Protection Commission said it has opened an inquiry into Google’s Pathways Language Model 2, also known as PaLM2.</p>
+<p>The post <a href="https://www.securityweek.com/googles-ai-model-faces-european-union-scrutiny-from-privacy-watchdog/">Google’s AI Model Faces European Union Scrutiny From Privacy Watchdog</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 12 Sep 2024 00:42:55 +0000</pubDate>
+<pubDate>Thu, 12 Sep 2024 00:42:55 +0000</pubDate>
+</item>
 
 <item>
 <title>Google Introduces ‘Air-Gapped’ Backup Vault to Thwart Ransomware</title>
