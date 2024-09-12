@@ -4,6 +4,46 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Ireland's Watchdog Launches Inquiry into Google's AI Data Practices in Europe</title>
+<link>https://thehackernews.com/2024/09/irelands-watchdog-launches-inquiry-into.html</link>
+<guid>https://thehackernews.com/2024/09/irelands-watchdog-launches-inquiry-into.html</guid>
+<content:encoded><![CDATA[
+
+The Irish Data Protection Commission (DPC) has announced that it has commenced a "Cross-Border statutory inquiry" into Google's foundational artificial intelligence (AI) model to determine whether the tech giant has adhered to data protection regulations in the region when processing the personal data of European users.
+"The statutory inquiry concerns the question of whether Google has complied
+]]></content:encoded>
+<pubDate>Thu, 12 Sep 2024 16:02:00 +0530</pubDate>
+<pubDate>Thu, 12 Sep 2024 16:02:00 +0530</pubDate>
+</item>
+<item>
+<title>How I got started: AI security executive</title>
+<link>https://securityintelligence.com/articles/how-i-got-started-ai-security-executive/</link>
+<guid>https://securityintelligence.com/articles/how-i-got-started-ai-security-executive/</guid>
+<content:encoded><![CDATA[
+
+<p>Artificial intelligence and machine learning are becoming increasingly crucial to cybersecurity systems. Organizations need professionals with a strong background that mixes AI/ML knowledge with cybersecurity skills, bringing on board people like Nicole Carignan, Vice President of Strategic Cyber AI at Darktrace, who has a unique blend of technical and soft skills. Carignan was originally a dance major but was also working for NASA as a hardware IT engineer, which forged her path into AI and cybersecurity.</p>
+<h2>Where did you go to college?</h2>
+<p>Carignan: I went to Texas A&amp;M University. I got a computer science degree, and the specialized track that I followed was in mathematics, <a href="https://www.ibm.com/topics/artificial-intelligence" rel="noopener nofollow" target="_blank">artificial intelligence</a>, computer/human interaction and assembly. My thesis was on setting up a maps application using graph theory in order to facilitate the best navigation &mdash; stuff that&rsquo;s common nowadays with applications like Google Maps. But that was the type of AI applications we had back then, and it is cool to see how it&rsquo;s evolved over time.</p>
+<h2>What was your first job in IT?</h2>
+<p>Carignan: I originally had a dance scholarship, but I was already working for NASA, supporting systems in mission control. They said, we will keep you employed throughout college and after if you get a computer science or engineering degree, so that&rsquo;s how I got into the field. I started off in the federal IT space.</p>
+<h2>What made you decide to pursue cybersecurity?</h2>
+<p>Carignan: I got recruited into the intelligence community. Even though that was an IT role, it had a heavy emphasis on security. This was in 2000, so <a href="https://www.ibm.com/topics/cybersecurity" rel="noopener nofollow" target="_blank">cybersecurity</a> wasn&rsquo;t really an industry yet. A few years later, I was on an overseas trip for work and I got hacked. That was actually what piqued my interest in cybersecurity, and I took a pretty big detour from my original plans.</p>
+<a class="btn orange1 large" href="https://skillsbuild.org/college-educators/learning-pathways/security" rel="noopener nofollow" target="_blank">Explore cybersecurity learning paths</a>
+<h2>What facilitated your move to AI?</h2>
+<p>Carignan: I always enjoyed the data analytics component of <a href="https://www.ibm.com/topics/machine-learning" rel="noopener nofollow" target="_blank">machine learning</a> and AI. A decade into my career in the intelligence community, I joined a big data company that had large volumes of network telemetry and access to 300 different cyber <a href="https://www.ibm.com/topics/threat-intelligence" rel="noopener nofollow" target="_blank">threat intelligence</a> feeds. Around that time, the typical journey of a security company was the transition into experimentation of supervised machine learning classifiers, and we started with classifying content of endpoints and communication language, moving into classification of patterns of reported attacks.</p>
+<h2>What is your job today?</h2>
+<p>Carignan: So I had the cross-section of data science, machine learning and security in my job experience, and the opportunity at Darktrace seemed like a perfect fit. They weren&rsquo;t tackling the security problem with big data machine learning like a lot of other organizations, but rather they were looking at a much more customized, targeted, specific area by building out unsupervised machine learning and algorithms to understand every asset&rsquo;s pattern of life within the environment. We do have the use of <a href="https://www.ibm.com/topics/generative-ai" rel="noopener nofollow" target="_blank">generative AI</a> and LLMs, but we use that for semantic analysis and understanding changes in communications between email partners. Overall, what I saw Darktrace doing with very different machine learning techniques, I was intrigued to come on board.</p>
+<h2>What are some of the soft skills that helped you in your security and AI career?</h2>
+<p>Carignan: So, I&rsquo;m a theater kid and a dance major. I think those skills really prepared me for the level of communication and collaboration that is needed to tackle some of the more complex problems that we face across the industry.</p>
+<h2>Any words of wisdom you&rsquo;d like to share with people who are considering a career in AI and cybersecurity?</h2>
+<p>Carignan: I think it is really important to have a diversity of thought within your team. I&rsquo;m a big advocate of neurodiversity. What drew me to Darktrace was how much they had achieved in equity for gender, and that they are trying to achieve with other minority groups. Cybersecurity isn&rsquo;t a silo industry anymore, not with cloud, SaaS applications, AI. <span class="resolved">We need to approach enveloping these technologies into security across industries, and we can&rsquo;t do that without diversity of thought.</span></p>
+
+<p>The post <a href="https://securityintelligence.com/articles/how-i-got-started-ai-security-executive/" rel="nofollow">How I got started: AI security executive</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 12 Sep 2024 13:00:00 +0000</pubDate>
+<pubDate>Thu, 12 Sep 2024 13:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
