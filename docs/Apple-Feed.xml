@@ -4,6 +4,23 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Why Windows 11 Requires a TPM and How It Enhances Security</title>
+<link>https://www.cysecurity.news/2024/09/why-windows-11-requires-tpm-and-how-it.html</link>
+<guid>https://www.cysecurity.news/2024/09/why-windows-11-requires-tpm-and-how-it.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p>
+
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzqLc1f5y1gPrKMMmPIK-wT0eHf5Ob2OIC-oq-qNjnK2CJymYwL94846V4jqCE3kc3myv1xP7CuQOD9wETjvzEuDUMZt-nlHAmLAFwNmF3SJEeFozdP2j0IupQZTs4Wj4O5s-FpKgTTJqbHoKpKCFq0iCuUwW5Uws_wTQ2UmfrKBYayH9KTL4XPiVL6Ao/s1280/ai-generated-8533603_1280.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzqLc1f5y1gPrKMMmPIK-wT0eHf5Ob2OIC-oq-qNjnK2CJymYwL94846V4jqCE3kc3myv1xP7CuQOD9wETjvzEuDUMZt-nlHAmLAFwNmF3SJEeFozdP2j0IupQZTs4Wj4O5s-FpKgTTJqbHoKpKCFq0iCuUwW5Uws_wTQ2UmfrKBYayH9KTL4XPiVL6Ao/s600/ai-generated-8533603_1280.jpg" width="600" /></a></div><div style="text-align: justify;">When Microsoft launched Windows 11 in 2021, the new operating system came with a stringent hardware requirement: the presence of a Trusted Platform Module (TPM), specifically one that meets the TPM 2.0 standard. A TPM is a secure cryptoprocessor designed to manage encryption keys and handle security-related tasks, making it a critical component for features such as Secure Boot, BitLocker, and Windows Hello.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The TPM architecture, defined by the ISO/IEC 11889 standard, was created over 20 years ago by the Trusted Computing Group. The standard outlines how cryptographic operations should be implemented, emphasizing integrity protection, isolation, and confidentiality. A TPM can be implemented as a discrete chip on a motherboard, embedded in the firmware of a PC chipset, or built directly into the CPU, as Intel, AMD, and Qualcomm have done over the past decade.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Most PCs manufactured since 2016 come with a TPM 2.0, as Microsoft mandated that year that all new computers shipped with Windows must have this technology enabled by default. Even some older devices may have a TPM, though it might be disabled in the BIOS or firmware settings. Intel began incorporating TPM 2.0 into its processors in 2014, but the feature was mainly available on business-oriented models. Devices built before 2014 may have discrete TPMs that conform to the earlier TPM 1.2 standard, which is not officially supported by Windows 11.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The TPM enhances security by providing a secure environment for processing cryptographic operations and storing sensitive data, like private keys used for encryption. For example, it works with the Secure Boot feature to ensure that only signed, trusted code runs during startup. It also enables biometric authentication via Windows Hello and holds the BitLocker keys that encrypt the contents of a system disk, making unauthorized access nearly impossible.
+
+Windows 10 and 11 initialize and take ownership of the TPM during installation, and it’s not just limited to Windows; Linux PCs and IoT devices can also use a TPM.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Apple devices employ a different design known as the Secure Enclave, which performs similar cryptographic tasks. The added level of security provided by a TPM is crucial in protecting against tampering and unauthorized data access.
+
+For those with older PCs, upgrading to Windows 11 may require enabling TPM in the BIOS or using a utility to bypass hardware checks. However, the extra security enforced by TPM in tamper-resistant hardware is an essential advancement in protecting your data and ensuring system integrity.</div>
+]]></content:encoded>
+<pubDate>2024-09-13T05:16:00.002-04:00</pubDate>
+<pubDate>2024-09-13T05:16:26.523-04:00</pubDate>
+</item>
 
 <item>
 <title>Novel Android Malware Employs OCR to Steal Crypto Wallet Keys From Images</title>
