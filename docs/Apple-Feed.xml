@@ -4,20 +4,18 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Apple Vision Pro Vulnerability Exposed Virtual Keyboard Inputs to Attackers</title>
 <link>https://thehackernews.com/2024/09/apple-vision-pro-vulnerability-exposed.html</link>
 <guid>https://thehackernews.com/2024/09/apple-vision-pro-vulnerability-exposed.html</guid>
 <content:encoded><![CDATA[
-
 Details have emerged about a now-patched security flaw impacting Apple's Vision Pro mixed reality headset that, if successfully exploited, could allow malicious attackers to infer data entered on the device's virtual keyboard.
 The attack, dubbed GAZEploit, has been assigned the CVE identifier CVE-2024-40865.
 "A novel attack that can infer eye-related biometrics from the avatar image to
 ]]></content:encoded>
 <pubDate>Fri, 13 Sep 2024 19:21:00 +0530</pubDate>
-<pubDate>Fri, 13 Sep 2024 19:21:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Apple Patches Vision Pro Vulnerability to Prevent GAZEploit Attacks</title>
 <link>https://www.securityweek.com/apple-patches-vision-pro-vulnerability-to-prevent-gazeploit-attacks/</link>
