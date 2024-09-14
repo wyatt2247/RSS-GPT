@@ -4,6 +4,70 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>A new path for Kyber on the web</title>
+<link>http://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html</link>
+<guid>http://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html</guid>
+<content:encoded><![CDATA[
+
+<span class="byline-author">Posted by David Adrian, David Benjamin, Bob Beck & Devon O'Brien, Chrome Team</span>
+
+<p>
+We previously posted about <a href="https://blog.chromium.org/2023/08/protecting-chrome-traffic-with-hybrid.html">experimenting</a> with a hybrid post-quantum key exchange, and <a href="https://blog.chromium.org/2024/05/advancing-our-amazing-bet-on-asymmetric.html">enabling it</a> for 100% of Chrome Desktop clients. The hybrid key exchange used both the pre-quantum X25519 algorithm, and the new post-quantum algorithm Kyber. At the time, the NIST standardization process for Kyber had not yet finished.
+</p>
+<p>
+Since then, the Kyber algorithm has been standardized with minor technical changes and renamed to the <a href="https://security.googleblog.com/2024/08/post-quantum-cryptography-standards.html">Module Lattice Key Encapsulation Mechanism</a> (ML-KEM). We have implemented ML-KEM in Google’s cryptography library, <a href="https://boringssl.googlesource.com/boringssl">BoringSSL</a>, which allows for it to be deployed and utilized by services that depend on this library.
+</p>
+<p>
+The changes to the final version of ML-KEM make it incompatible with the previously deployed version of Kyber.  As a result, the codepoint in TLS for hybrid post-quantum key exchange is changing from 0x6399 for Kyber768+X25519, to 0x11EC for <a href="https://datatracker.ietf.org/doc/draft-kwiatkowski-tls-ecdhe-mlkem/02/">ML-KEM768+X25519</a>. To handle this, we will be making the following changes in Chrome 131<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>:
+</p>
+<ul>
+
+<li>Chrome will switch from supporting Kyber to ML-KEM
+
+<li>Chrome will offer a key share prediction for hybrid ML-KEM (codepoint 0x11EC)
+
+<li>The PostQuantumKeyAgreementEnabled flag and <a href="https://chromeenterprise.google/policies/#PostQuantumKeyAgreementEnabled">enterprise policy</a> will apply to both Kyber and ML-KEM
+
+<li>Chrome will no longer support hybrid Kyber (codepoint 0x6399)
+</li>
+</ul>
+<p>
+Chrome will not support Kyber and ML-KEM at the same time. We made this decision for several reasons:
+</p>
+<ol>
+
+<li>Kyber was always experimental, so we think continuing to support it risks ossification on non-standard algorithms.
+
+<li>Post-quantum cryptography is <a href="https://dadrian.io/blog/posts/pqc-signatures-2024/">too big</a> to be able to offer two post-quantum key share predictions at the same time.
+
+<li>Server operators can temporarily support both algorithms at the same time to maintain post-quantum security with a broader set of clients, as they update over time.
+</li>
+</ol>
+<p>
+We do not want to regress any clients’ post-quantum security, so we are waiting until Chrome 131 to make this change so that server operators have a chance to update their implementations.
+</p>
+<p>
+Longer term, we hope to avoid the chicken-and-egg problem for post-quantum key share predictions through our <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-key-share-prediction/">emerging IETF draft for key share prediction</a>. This allows servers to broadcast what algorithms they support in DNS, so that clients can predict a key share that a server is known to support. This avoids the risk of an extra round trip, which can be particularly costly when using large post-quantum algorithms.
+</p>
+<p>
+We’re excited to continue to improve security for Chrome users, against both current and future computers.
+</p>
+
+<!-- Footnotes themselves at the bottom. -->
+
+<h2>Notes</h2>
+<div class="footnotes">
+<hr />
+<ol><li id="fn1">
+<p>
+     Chrome Canary, Dev, and Beta may see these changes prior to Chrome 131.&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a>
+
+</ol></div>
+]]></content:encoded>
+<pubDate>2024-09-13T12:04:00.000-04:00</pubDate>
+<pubDate>2024-09-13T12:04:12.571-04:00</pubDate>
+</item>
 
 <item>
 <title>New Chrome Features Protect Users Against Threats, Provide More Control Over Personal Data</title>
