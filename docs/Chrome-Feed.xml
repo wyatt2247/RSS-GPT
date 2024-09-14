@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>A new path for Kyber on the web</title>
 <link>http://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html</link>
 <guid>http://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by David Adrian, David Benjamin, Bob Beck & Devon O'Brien, Chrome Team</span>
 
 <p>
@@ -65,10 +65,8 @@ We’re excited to continue to improve security for Chrome users, against both c
 
 </ol></div>
 ]]></content:encoded>
-<pubDate>2024-09-13T12:04:00.000-04:00</pubDate>
 <pubDate>2024-09-13T12:04:12.571-04:00</pubDate>
 </item>
-
 <item>
 <title>New Chrome Features Protect Users Against Threats, Provide More Control Over Personal Data</title>
 <link>https://www.securityweek.com/new-chrome-features-protect-users-against-threats-provide-more-control-over-personal-data/</link>
