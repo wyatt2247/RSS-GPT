@@ -4,6 +4,30 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Apple Releases Security Updates for Multiple Products</title>
+<link>https://www.cisa.gov/news-events/alerts/2024/09/18/apple-releases-security-updates-multiple-products</link>
+<guid>https://www.cisa.gov/news-events/alerts/2024/09/18/apple-releases-security-updates-multiple-products</guid>
+<content:encoded><![CDATA[
+
+<p>Apple released security updates to address vulnerabilities in multiple Apple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.&nbsp;</p>
+<p>CISA encourages users and administrators to review the following advisories and apply necessary updates:</p>
+<ul>
+<li><a href="https://support.apple.com/en-us/121250" title="iOS 18 and iPadOS 18">iOS 18 and iPadOS 18</a></li>
+<li><a href="https://support.apple.com/en-us/121246" title="iOS 17.7 and iPadOS 17.7">iOS 17.7 and iPadOS 17.7</a></li>
+<li><a href="https://support.apple.com/en-us/121241" title="Safari 18">Safari 18</a></li>
+<li><a href="https://support.apple.com/en-us/121238" title="macOS Sequoia 15">macOS Sequoia 15</a></li>
+<li><a href="https://support.apple.com/en-us/121247" title="macOS Sonoma 14.7">macOS Sonoma 14.7</a></li>
+<li><a href="https://support.apple.com/en-us/121234" title="macOS Ventura 13.7">macOS Ventura 13.7</a></li>
+<li><a href="https://support.apple.com/en-us/121248" title="tvOS 18">tvOS 18</a></li>
+<li><a href="https://support.apple.com/en-us/121240" title="watchOS 11">watchOS 11</a></li>
+<li><a href="https://support.apple.com/en-us/121249" title="visionOS 2">visionOS 2</a></li>
+<li><a href="https://support.apple.com/en-us/121239" title="Xcode 16">Xcode 16</a></li>
+</ul>
+]]></content:encoded>
+<pubDate>Wed, 18 Sep 24 12:00:00 +0000</pubDate>
+<pubDate>Wed, 18 Sep 24 12:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Prompt injection <b>exploit</b> in ChatGPT <b>macOS</b> app leads to data theft - Candid.Technology</title>
