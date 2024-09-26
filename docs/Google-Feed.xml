@@ -4,6 +4,447 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-103</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-103</guid>
+<content:encoded><![CDATA[
+
+<p><span style="color: black;">Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</span></p>
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 20:20:24 -0400</pubDate>
+<pubDate>Wed, 25 Sep 2024 20:20:24 -0400</pubDate>
+</item>
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-104</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-104</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Tue, 24 Sep 2024 21:34:16 -0400</pubDate>
+<pubDate>Tue, 24 Sep 2024 21:34:16 -0400</pubDate>
+</item>
+<item>
+<title>Fake WalletConnect app on Google Play steals Android users’ crypto</title>
+<link>https://www.bleepingcomputer.com/news/security/fake-walletconnect-app-on-google-play-steals-android-users-crypto/</link>
+<guid>https://www.bleepingcomputer.com/news/security/fake-walletconnect-app-on-google-play-steals-android-users-crypto/</guid>
+<content:encoded><![CDATA[
+
+A crypto draining app mimicking the legitimate 'WalletConnect' project has been distributed over Google Play for five months getting more than 10,000 downloads. [...]
+]]></content:encoded>
+<pubDate>Thu, 26 Sep 2024 09:11:06 -0400</pubDate>
+<pubDate>Thu, 26 Sep 2024 09:11:06 -0400</pubDate>
+</item>
+<item>
+<title>Google Sees Drop in Memory Safety Bugs in Android as Code Matures</title>
+<link>https://www.securityweek.com/google-sees-drop-in-memory-safety-bugs-in-android-as-code-matures/</link>
+<guid>https://www.securityweek.com/google-sees-drop-in-memory-safety-bugs-in-android-as-code-matures/</guid>
+<content:encoded><![CDATA[
+
+<p>Memory safety bugs in Android have decreased significantly as old code matures and new code uses memory-safe languages.</p>
+<p>The post <a href="https://www.securityweek.com/google-sees-drop-in-memory-safety-bugs-in-android-as-code-matures/">Google Sees Drop in Memory Safety Bugs in Android as Code Matures</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 26 Sep 2024 12:11:22 +0000</pubDate>
+<pubDate>Thu, 26 Sep 2024 12:11:22 +0000</pubDate>
+</item>
+<item>
+<title>$65 Million Settlement for Health System After Nude Photos Leak</title>
+<link>https://www.cysecurity.news/2024/09/65-million-settlement-for-health-system.html</link>
+<guid>https://www.cysecurity.news/2024/09/65-million-settlement-for-health-system.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgFi9nZOJOMBexRe4ev2_Cs5fVQbXoll7xe8UNVXGBbTKKPwsWxIsbmCFORBh3hCrQA9dLQFOtZaNbUdQW6i5CXe4i145TQas1D0qPn7ifmWHF6W8oDBW9sNAz9frikJlwYnRyHccO5GhyzLEYE7TrM8wCXD92HYPYSGvPUMeyi86RKJt7tH9l1jREiwcj/s3000/pexels-pixabay-40568.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgFi9nZOJOMBexRe4ev2_Cs5fVQbXoll7xe8UNVXGBbTKKPwsWxIsbmCFORBh3hCrQA9dLQFOtZaNbUdQW6i5CXe4i145TQas1D0qPn7ifmWHF6W8oDBW9sNAz9frikJlwYnRyHccO5GhyzLEYE7TrM8wCXD92HYPYSGvPUMeyi86RKJt7tH9l1jREiwcj/w640-h426/pexels-pixabay-40568.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">In a recent court filing, attorneys on behalf of victims of a devastating ransomware attack in February 2023 have been awarded a settlement of $65 million after hackers uploaded nude photos of cancer patients on the internet.
+
+This settlement is the most significant of its kind in terms of per-patient compensation that has ever been achieved by a law firm on behalf of the plaintiffs, Saltz Mongeluzzi Bendesky.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Earlier this month, a major healthcare company in Pennsylvania, Lehigh Valley Health Network (LVHN), one of the nation's largest primary care groups, settled with the federal government for $65 million after the data of nearly 135,000 patients and employees were compromised.
+
+An unidentified woman in her 50s who goes by the name Jane Doe has become the first plaintiff in a class action lawsuit against Lehigh Valley Healthcare for allegedly failing to safeguard confidential patient information, including nude photos of hundreds of cancer patients, which led to an investigation by the FBI.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">It was announced by a law firm on Sept. 12, that Lehigh University had settled with the antitrust enforcement agency of $65 million.
+
+This episode sheds light on the growing threat of cyberthieves infiltrating American healthcare firms with alarming frequency, how these thieves exploit competitively valuable personal information as well as the consequences for individuals and institutions.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">A report recently reviewed a list of cases compiled by the Department of Health and Human Services going back to the year 2022 and found almost a dozen breaches that compromised the personally identifiable health information of hundreds of Americans almost every single month. As a result of an investigation by the FBI's Internet Crime Complaint Center, more reported ransomware attacks against targets in the health-care industry last year compared to any other sector it monitors, including six others.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In addition to explaining the legal predicaments for healthcare organizations that are increasingly targeted by cybercriminals, the Lehigh Valley case highlights the legal risks healthcare organizations may face in dealing with cybercriminals as well as complaints brought by patients whose lives have been ruined by a breach.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">More than 600 of these patients had their medical records hacked, resulting in the theft and publication of images from those records, including photos of themselves in nude.
+
+This Settlement settlement consists of a payment ranging from $50 to $70,000 for each Settlement Class member, with the maximum payment going to those who had their nude photos published online as part of the settlement. A distribution of the money is estimated to be made in the early part of next year by the attorneys.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">A data breach occurred according to the lawsuit on February 6, 2023, and the lawsuit claims that the breach exposed personally identifiable information and protected health information, including an individual's address, an email address, a social security number, a passport number, a driver's license number/state identification number, their health insurance provider, their medical diagnosis and treatment information, their medications, their lab results, and their nude photographs.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">There was an incident of data breaches that were later revealed as the work of the cyber-hacker group ALPHV, or BlackCat in the case of the computer virus. ALPHV gained notoriety after one of its cyberattacks was identified against an academic institution and a healthcare establishment.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Dark web authorities have reported that about 132 gigabytes of information have been uploaded to the site.
+
+If LHVN had not paid the ransom demanded by the hackers, the data breach would have resulted in the release of sensitive information to the public. The corporation LVHN did not pay the ransom despite knowing about it, but the images were released after the payment was made.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">According to the lawsuit, LVHN has put its own "financial interests" above the best interest of its patient's health to achieve financial success.
+
+Accordingly, the lawsuit can be argued that the class, including a plaintiff identified as only Jane Doe in the lawsuit, has suffered embarrassment and humiliation as a result of this action.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">It has also been revealed that Doe will receive a larger portion of the settlement money than the rest of the class, according to Saltz Mongeluzzi Bendesky, the law firm that represents the class. A health system executive called patients to inform them of the breach after they discovered it in February 2023. The executive said that hackers had posted their personal information on the dark web - including nude photos - and that it was not accessible through conventional search engines like Google - which is a collection of hidden websites.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">It is the description of the executive who apologized for the behaviour of the woman in her 50s, along with the offer of two years of credit monitoring, which the woman accepted with a chuckle. In the lawsuit, the cancer patient says that she was completely in disbelief that the health system had stored nude photos of her on its computer network. She was in complete disbelief at the time of the incident.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Approximately 135,000 patients, health-system employees, and others involved in the breach will receive a payout as part of the proposed settlement, which still requires a judge's approval. However, according to the agreement, there will be 80 per cent of the settlement money earmarked for the victims whose nude photos were published on the dark web to compensate them.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">It is estimated that roughly 600 men and women fall into this category, and each will receive at least $75,000, says Howard. There is a possibility that Jane Doe, as the lead plaintiff, can receive $125,000 as a settlement.</div>
+]]></content:encoded>
+<pubDate>2024-09-26T11:11:00.003-04:00</pubDate>
+<pubDate>2024-09-26T11:11:46.145-04:00</pubDate>
+</item>
+<item>
+<title>Understanding the Domain Name System (DNS): How It Works and Why It Matters</title>
+<link>https://www.cysecurity.news/2024/09/understanding-domain-name-system-dns.html</link>
+<guid>https://www.cysecurity.news/2024/09/understanding-domain-name-system-dns.html</guid>
+<content:encoded><![CDATA[
+
+<p></p><div><br /></div><p></p><div style="text-align: justify;"><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwPdO4j1vEQ-ZD8i62XZRIVSuGiGA8TOrbtypnfqFQah8YMB1ryBKuxdQRttj4AgrSLarFQ_an4_nIKCoCbo6YHtxv9HEzENYaHWY0RDMOiCG_asU5WDbRgTmwtB4htlI7Gp_K7Xg2fH38SfmqRkwyAb8GpsrSNOvO2pVGcRK3ttWDVtEiXQnGyTM1t44/s1280/cyber-3400789_1280.jpg" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwPdO4j1vEQ-ZD8i62XZRIVSuGiGA8TOrbtypnfqFQah8YMB1ryBKuxdQRttj4AgrSLarFQ_an4_nIKCoCbo6YHtxv9HEzENYaHWY0RDMOiCG_asU5WDbRgTmwtB4htlI7Gp_K7Xg2fH38SfmqRkwyAb8GpsrSNOvO2pVGcRK3ttWDVtEiXQnGyTM1t44/s600/cyber-3400789_1280.jpg" width="600" /></a></div>The Domain Name System (DNS) serves as a critical element of the internet’s infrastructure, acting like a phone book that translates human-friendly domain names into the numerical IP addresses that computers use to communicate. Without DNS, accessing websites would be far more complicated, requiring users to remember lengthy strings of numbers instead of simple names like “google.com.”
+
+When you enter a website URL into your browser, the DNS process begins. This request, known as a “DNS query,” first goes to a DNS resolver—typically provided by your Internet Service Provider (ISP) or a third-party DNS service like Google Public DNS or Cloudflare.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The resolver acts as an intermediary, starting the process to find the corresponding IP address of the domain name you’ve entered.
+
+The DNS resolver contacts one of the 13 root servers that make up the top level of the DNS hierarchy. These servers don’t hold the IP address themselves but provide information about which “Top-Level Domain” (TLD) server to query next. The TLD server is specific to the domain extension you’ve entered (e.g., “.com,” “.net,” “.org”) and points the resolver to the authoritative name server responsible for the particular website. The authoritative name server then provides the IP address back to the resolver, which, in turn, sends it to your browser.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The browser then connects to the web server using this IP address, loading the website you want to visit. This process, though complex, happens in milliseconds.
+
+Security is a vital aspect of DNS because it is a frequent target for cyberattacks. One common threat is DNS spoofing, where attackers redirect traffic to fraudulent websites to steal data or spread malware. DNS hijacking is another risk, where hackers manipulate DNS records to divert users to malicious sites. These threats emphasize the importance of DNS security protocols like DNS over HTTPS (DoH) and DNS over TLS (DoT), which encrypt DNS requests to prevent interception by malicious entities, thus protecting users’ data and privacy.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Switching to a third-party DNS service can enhance your internet experience in terms of speed, reliability, and security. Services like Google Public DNS, OpenDNS, or Cloudflare’s 1.1.1.1 offer faster query response times, better privacy protection, and can help circumvent geographical restrictions imposed by ISPs. These alternatives often provide built-in security features, such as blocking malicious sites, to offer an extra layer of protection.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">DNS is the backbone of internet browsing, seamlessly converting domain names into IP addresses. By understanding its role and the importance of security measures, users can better appreciate how DNS keeps the internet functional and secure. Whether ensuring that websites load correctly or protecting against cyber threats, DNS plays an indispensable role in our everyday online activities.</div>
+]]></content:encoded>
+<pubDate>2024-09-26T11:11:00.000-04:00</pubDate>
+<pubDate>2024-09-26T11:11:18.424-04:00</pubDate>
+</item>
+<item>
+<title>Necro Malware Attacks Google Play Store, Again. Infects 11 Million Devices</title>
+<link>https://www.cysecurity.news/2024/09/necro-malware-attacks-google-play-store.html</link>
+<guid>https://www.cysecurity.news/2024/09/necro-malware-attacks-google-play-store.html</guid>
+<content:encoded><![CDATA[
+
+<p style="text-align: justify;"></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQSU3LvtQqhDptr6INRP7bsFI2JiVZAUR_S-AuTmpOkOpn3bTMKU7TPzHWsnGpFd8xizhhXcVTN4qThZD3J5ur-lwnYfQmvA1JdHx-ROzJ2qcvLfl37YjI68Tl6NBwH5F8GVVfEv93TeVnaBNFwTz74Z5W0XPZEADTGE6ky9mwmS8tL84WJ2QxI6k2Be_g/s926/social-1206612_960_720.png" style="margin-left: 1em; margin-right: 1em;"><img alt="Necro Malware Attacks Google Play Store, Again. Infects 11 Million Devices" border="0" height="498" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQSU3LvtQqhDptr6INRP7bsFI2JiVZAUR_S-AuTmpOkOpn3bTMKU7TPzHWsnGpFd8xizhhXcVTN4qThZD3J5ur-lwnYfQmvA1JdHx-ROzJ2qcvLfl37YjI68Tl6NBwH5F8GVVfEv93TeVnaBNFwTz74Z5W0XPZEADTGE6ky9mwmS8tL84WJ2QxI6k2Be_g/w640-h498/social-1206612_960_720.png" title="Necro Malware Attacks Google Play Store, Again. Infects 11 Million Devices" width="640" /></a></div><br /><div style="text-align: justify;">A new variant of Necro malware loader was found on 11 million Android devices through Google Play in infected SDK supply chain <a href="https://www.cysecurity.news/2024/09/marko-polo-infostealer-campaigns-target.html" target="_blank">attacks</a>. The re-appearance of Necro malware is a sign of persistent flaws in popular app stores like Google.&nbsp;</div><p></p><p style="text-align: justify;">A recent report by Kaspersky suggests the latest version of Necro Trojan was deployed via infected advertising software development kits (SDK) used by Android game mods, authentic apps, and mod variants of famous software, such as Minecraft, Spotify, and WhatsApp. The blog covers key findings from the Kaspersky report, the techniques used by threat actors, and the impact on cybersecurity.&nbsp;</p><h3 style="text-align: justify;">What is Necro Trojan&nbsp;</h3><p style="text-align: justify;">Aka Necro Python, the Necro Trojan is an advanced <a href="https://www.cysecurity.news/2021/06/vmware-becomes-new-target-of-freakout.html" target="_blank">malware</a> strain active since it first appeared. Malware can perform various malicious activities such as cryptocurrency mining, data theft, and installation of additional payloads. The recent version is more advanced, making it difficult to track and eliminate.&nbsp;</p><h3 style="text-align: justify;">Distribution of Necro Trojan</h3><p style="text-align: justify;">Users sometimes want premium or customized options that official versions don't have. But these unofficial mods, such as GB WhatsApp, Spotify+, and Insta Pro can contain malware. Traditionally, threat actors used these mods because they are distributed on unofficial sites that lack moderation.&nbsp;</p><p style="text-align: justify;">However, in the recent trend, experts discovered actors targeting official app stores via <a href="https://www.cysecurity.news/2019/09/camscanner-returns-after-being-removed.html" target="_blank">infected apps</a>.&nbsp;</p><p style="text-align: justify;">In the latest case, Trojan authors abused both distribution vectors, a new variant of multi-stage Necro loader compromised modified versions of Spotify, Minecraft, and other famous apps in unofficial sources, and apps in Google Play. "The modular architecture gives the Trojan’s creators a wide range of options for both mass and targeted delivery of loader updates or new malicious modules depending on the infected application,” said the <a href="https://securelist.com/necro-trojan-is-back-on-google-play/113881/" target="_blank">report</a>.</p><h3 style="text-align: justify;">Key Findings</h3><p style="text-align: justify;"></p><ul><li style="text-align: justify;">The downloaded payloads can display ads in invisible windows, and interact with them. They can also execute arbitrary DEX files, install download apps, open arbitrary links in invisible WebView windows and run JavaScript, run a tunnel via the victim's device, and subscribe to paid services.&nbsp;</li><li style="text-align: justify;">The new variant of the Necro loader uses obfuscation to escape detection.&nbsp;</li><li style="text-align: justify;">The loader deployed in the app uses steganography tactics to hide payloads&nbsp;</li></ul><p></p>
+]]></content:encoded>
+<pubDate>2024-09-26T05:43:00.002-04:00</pubDate>
+<pubDate>2024-09-26T05:43:23.681-04:00</pubDate>
+</item>
+<item>
+<title>Brave Browser: The Secure and Private Way to Surf the Web</title>
+<link>https://www.cysecurity.news/2024/09/brave-browser-secure-and-private-way-to.html</link>
+<guid>https://www.cysecurity.news/2024/09/brave-browser-secure-and-private-way-to.html</guid>
+<content:encoded><![CDATA[
+
+<p style="text-align: justify;">&nbsp;</p><p style="text-align: justify;"><br /></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirhsn13WVdfFYS6AOzazfUJXc8nwAL9ywogkZ1qJ837zMLNE4GS3W9c8j6mPQEp1da7iaA6KyVSBuEw2AYBWyrXvYfrBrN1J6N5ifSrZv_h1gwVcFnLy2A3NDWdfeHFn2CS6x-IqCrRqR7P_lnQY8R3rPceDxxqKHWRJCH769dRnnLD42ummbS8g_yCNNm/s1280/eye-5814967_1280.webp" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirhsn13WVdfFYS6AOzazfUJXc8nwAL9ywogkZ1qJ837zMLNE4GS3W9c8j6mPQEp1da7iaA6KyVSBuEw2AYBWyrXvYfrBrN1J6N5ifSrZv_h1gwVcFnLy2A3NDWdfeHFn2CS6x-IqCrRqR7P_lnQY8R3rPceDxxqKHWRJCH769dRnnLD42ummbS8g_yCNNm/w640-h426/eye-5814967_1280.webp" width="640" /></a></div><p style="text-align: justify;"><br /></p><p style="text-align: justify;">Data is more precious in today's digital world than ever. Companies are trying to collect as much as possible to sell it to third-party data brokers. Cybercrime is growing steadily and targeting unsuspecting victims. Addressing both issues is one of the reasons the more mindful browser, Brave, is integrating an array of features to keep data secure and private.</p><p style="text-align: justify;">Another feature that differentiates Brave is that it has a built-in use of Brave Shields- the application engaged in blocking harmful elements that may track the behaviour of your browsing. In other types of browsers, users have to install third-party ad blockers. Brave Shields are installed directly in the browser and prevent intrusive ads and trackers from retrieving data regarding the activities you perform online.</p><p style="text-align: justify;">It also solves a very common problem with ad blockers, which is that some websites break when the ads are blocked. To solve this issue, Brave replaces tracking codes with privacy-friendly alternatives while ensuring that the integrity of the webpage is maintained and your data is kept secure. As companies continue to devise new ways to hide trackers, Brave is countering this through CNAME uncloaking techniques by uncovering such hidden threats before they manage to collect data from you.</p><p style="text-align: justify;"><b>Blocking Cross-Site Cookies</b></p><p style="text-align: justify;">Cookies are small files that download onto your computer, which track your surfing and, more often than not, targeted advertisements will follow you around the web. Cross-site cookies are blocked, by default, on Brave so websites cannot track movements from one site to the other. Brave provides temporary cookies for functionality, though without exposing any private data, for the occasional cookie-dependent website.</p><p style="text-align: justify;"><b>Phishing Protection with Google Safe Browsing</b></p><p style="text-align: justify;">Though it puts much emphasis on privacy, Brave remembers security. It uses Google Safe Browsing, which won't enable a user to reach a phishing site or download harmful files. Being built upon Chromium, the same platform that Google Chrome runs on, Brave ensures users protection from known threats to their developers, hence making browsing safer.</p><p style="text-align: justify;">While Google Safe Browsing is a service that compromises privacy within Google Chrome, it only serves Brave to block harmful websites without the collection of any personal data from browsing.</p><p style="text-align: justify;"><b>A Search Engine Respecting Your Privacy</b></p><p style="text-align: justify;">Most search engines log your search history, accumulating information about the queries you made and selling that information to customise ads or even sell. In contrast, Brave Search does not collect, store, or share search queries when accessed through the browser. This is a completely private browser that does not believe in logging and selling your browsing habits. Additionally, Brave Search serves less biased results because it crawls the web itself rather than prioritising by SEO schemes or the behaviour of prior users.</p><p style="text-align: justify;">Another advantage of Brave Search is that it can be utilised independently of the download of the Brave browser – so anyone can have private searches.</p><p style="text-align: justify;"><b>Inbuilt VPN and Firewall</b></p><p style="text-align: justify;">It also has a built-in VPN and firewall from Brave, that's available on free trial for seven days, after which you can subscribe to it at $9.99 a month. This will ensure your activity is completely hidden from all the potential threats looking at you, and you won't let any malicious content get inside or leave your network. A VPN encrypts internet traffic so nobody can track your activity online, while the firewall keeps unwanted data from appearing in your system.</p><p style="text-align: justify;">It's probably refreshing about Brave, considering it is committed to protecting personal data. Most companies have either policies or strategies that collect and sell a user's data. With Brave, what is striking is the no-sharing policy, full compliance with the General Data Protection Regulation (GDPR) in Europe and the California Consumer Privacy Act (CCPA), and as such, all users' benefit from strong data protection law, irrespective of their region.</p><p style="text-align: justify;">For people who place importance on privacy and safety, Brave is a full answer. This is because the provider separates itself from the rest of the browsers by its focus on protecting the user from risks connected with the misuse of data or cybercrime through features like Brave Shields, cross-site cookie blocking, private search options, and built-in VPN and firewall services. These have extended to ensure that your web experience remains secure and private; from stopping trackers, malicious websites, and unwanted ads.</p><p style="text-align: justify;"><br /></p>
+]]></content:encoded>
+<pubDate>2024-09-23T11:08:00.003-04:00</pubDate>
+<pubDate>2024-09-23T11:08:14.164-04:00</pubDate>
+</item>
+<item>
+<title>Google's Shift to Rust Programming Cuts Android Memory Vulnerabilities by 52%</title>
+<link>https://thehackernews.com/2024/09/googles-shift-to-rust-programming-cuts.html</link>
+<guid>https://thehackernews.com/2024/09/googles-shift-to-rust-programming-cuts.html</guid>
+<content:encoded><![CDATA[
+
+Google has revealed that its transition to memory-safe languages such as Rust as part of its secure-by-design approach has led to the percentage of memory-safe vulnerabilities discovered in Android dropping from 76% to 24% over a period of six years.
+The tech giant said focusing on Safe Coding for new features not only reduces the overall security risk of a codebase, but also makes the switch
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 22:30:00 +0530</pubDate>
+<pubDate>Wed, 25 Sep 2024 22:30:00 +0530</pubDate>
+</item>
+<item>
+<title>Necro Android Malware Found in Popular Camera and Browser Apps on Play Store</title>
+<link>https://thehackernews.com/2024/09/necro-android-malware-found-in-popular.html</link>
+<guid>https://thehackernews.com/2024/09/necro-android-malware-found-in-popular.html</guid>
+<content:encoded><![CDATA[
+
+Altered versions of legitimate Android apps associated with Spotify, WhatsApp, and Minecraft have been used to deliver a new version of a known malware loader called Necro.
+Kaspersky said some of the malicious apps have also been found on the Google Play Store. They have been cumulatively downloaded 11 million times. They include -
+
+Wuta Camera - Nice Shot Always (com.benqu.wuta) - 10+ million
+]]></content:encoded>
+<pubDate>Tue, 24 Sep 2024 21:43:00 +0530</pubDate>
+<pubDate>Tue, 24 Sep 2024 21:43:00 +0530</pubDate>
+</item>
+<item>
+<title>Iranian APT UNC1860 Linked to MOIS Facilitates Cyber Intrusions in Middle East</title>
+<link>https://thehackernews.com/2024/09/iranian-apt-unc1860-linked-to-mois.html</link>
+<guid>https://thehackernews.com/2024/09/iranian-apt-unc1860-linked-to-mois.html</guid>
+<content:encoded><![CDATA[
+
+An Iranian advanced persistent threat (APT) threat actor likely affiliated with the Ministry of Intelligence and Security (MOIS) is now acting as an initial access facilitator that provides remote access to target networks.
+Google-owned Mandiant is tracking the activity cluster under the moniker UNC1860, which it said shares similarities with intrusion sets tracked by Microsoft, Cisco Talos, and
+]]></content:encoded>
+<pubDate>Fri, 20 Sep 2024 15:41:00 +0530</pubDate>
+<pubDate>Fri, 20 Sep 2024 15:41:00 +0530</pubDate>
+</item>
+<item>
+<title>Chrome Users Can Now Sync Passkeys Across Devices with New Google PIN Feature</title>
+<link>https://thehackernews.com/2024/09/chrome-users-can-now-sync-passkeys.html</link>
+<guid>https://thehackernews.com/2024/09/chrome-users-can-now-sync-passkeys.html</guid>
+<content:encoded><![CDATA[
+
+Google on Thursday unveiled a Password Manager PIN to let Chrome web users sync their passkeys across Windows, macOS, Linux, ChromeOS, and Android devices.
+"This PIN adds an additional layer of security to ensure your passkeys are end-to-end encrypted and can't be accessed by anyone, not even Google," Chrome product manager Chirag Desai said.
+The PIN is a six-digit code by default, although it's
+]]></content:encoded>
+<pubDate>Fri, 20 Sep 2024 11:03:00 +0530</pubDate>
+<pubDate>Fri, 20 Sep 2024 11:03:00 +0530</pubDate>
+</item>
+<item>
+<title>North Korean Hackers Target Energy and Aerospace Industries with New MISTPEN Malware</title>
+<link>https://thehackernews.com/2024/09/north-korean-hackers-target-energy-and.html</link>
+<guid>https://thehackernews.com/2024/09/north-korean-hackers-target-energy-and.html</guid>
+<content:encoded><![CDATA[
+
+A North Korea-linked cyber-espionage group has been observed leveraging job-themed phishing lures to target prospective victims in energy and aerospace verticals and infect them with a previously undocumented backdoor dubbed MISTPEN.
+The activity cluster is being tracked by Google-owned Mandiant under the moniker UNC2970, which it said overlaps with a threat group known as TEMP.Hermit, which is
+]]></content:encoded>
+<pubDate>Wed, 18 Sep 2024 15:02:00 +0530</pubDate>
+<pubDate>Wed, 18 Sep 2024 15:02:00 +0530</pubDate>
+</item>
+<item>
+<title>Chrome Introduces One-Time Permissions and Enhanced Safety Check for Safer Browsing</title>
+<link>https://thehackernews.com/2024/09/chrome-introduces-one-time-permissions.html</link>
+<guid>https://thehackernews.com/2024/09/chrome-introduces-one-time-permissions.html</guid>
+<content:encoded><![CDATA[
+
+Google has announced that it's rolling out a new set of features to its Chrome browser that gives users more control over their data when surfing the internet and protects them against online threats.
+"With the newest version of Chrome, you can take advantage of our upgraded Safety Check, opt out of unwanted website notifications more easily and grant select permissions to a site for one time
+]]></content:encoded>
+<pubDate>Wed, 18 Sep 2024 14:34:00 +0530</pubDate>
+<pubDate>Wed, 18 Sep 2024 14:34:00 +0530</pubDate>
+</item>
+<item>
+<title>Undetected Android Spyware Targeting Individuals In South Korea</title>
+<link>https://cyble.com/blog/undetected-android-spyware-targeting-individuals-in-south-korea/</link>
+<guid>https://cyble.com/blog/undetected-android-spyware-targeting-individuals-in-south-korea/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Android, Spyware, South Korea" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/09/Undetected-Android-Spyware.webp" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Key Takeaways</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Since June 2024, a new Android Spyware campaign has been identified targeting individuals in South Korea, leveraging an Amazon AWS S3 bucket as its Command and Control (C&amp;C) server.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The Spyware is capable of exfiltrating sensitive information from an infected device, including SMSs, contact lists, images, and videos.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The stolen data, stored openly on the S3 bucket, suggests poor operational security, potentially leading to unintended leaks of sensitive information.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The spyware operates with a simple source code and few key permissions, demonstrating that even simple <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/what-is-malware/" title="malware">malware</a> can be highly effective in exfiltrating sensitive data.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The malware remained undetected by all major antivirus solutions. Four unique samples were identified, exhibiting zero detection rates across all engines.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Overview</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Labs (CRIL) has uncovered a previously undetected Android spyware campaign targeting individuals in South Korea, which has been active since June 2024. The spyware leverages an Amazon AWS S3 bucket as its Command and Control (C&amp;C) server and is designed to exfiltrate sensitive data from compromised devices, including contacts, SMS messages, images, and videos.</p>
+<p>The spyware samples observed disguise themselves as live video apps, adult apps, refund apps, and interior design applications. Below are the icons used by the malware.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63078,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-63078" src="https://cyble.com/wp-content/uploads/2024/09/Figure-1-–-Icons-used-by-malware.png" /><figcaption class="wp-element-caption"><em>Figure 1 – Icons used by the malware</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Two malicious URLs distributing the spyware have been identified:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>hxxps://refundkorea[.]cyou/REFUND%20KOREA.apk</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>hxxps://bobocam365[.]icu/downloads/pnx01.apk</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:image {"id":63079,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63079" src="https://cyble.com/wp-content/uploads/2024/09/Figure-2-–-Opendir-hosting-malware-1024x311.png" /><figcaption class="wp-element-caption"><em>Figure 2 – Opendir hosting malware</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Since its emergence, this malware has remained undetected by all security solutions, allowing it to operate stealthily. CRIL has identified four unique samples linked to this spyware, all exhibiting zero detection rates across major antivirus engines.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63081,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63081" src="https://cyble.com/wp-content/uploads/2024/09/Figure-3-–-Malware-sample-with-zero-detection-1024x391.png" /><figcaption class="wp-element-caption"><em>Figure 3 – Malware sample with zero detection</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>All identified spyware samples were observed communicating with the same Command and Control (C&amp;C) server hosted on an Amazon S3 bucket: <strong>hxxps://phone-books[.]s3.ap-northeast-2.amazonaws.com/</strong>. Our analysis revealed that the stolen data, including contacts, SMS messages, images, and videos, was openly stored in the S3 bucket (C&amp;C server), further confirming that the malware specifically targeted individuals in South Korea.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63082,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-63082" src="https://cyble.com/wp-content/uploads/2024/09/Figure-4-–-Exposed-data-on-S3-bucket.png" /><figcaption class="wp-element-caption"><em>Figure 4 – Exposed data on S3 bucket</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":63084,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63084" src="https://cyble.com/wp-content/uploads/2024/09/Figure-5-–-Stolen-SMSs-saved-on-S3-bucket-1024x493.png" /><figcaption class="wp-element-caption"><em>Figure 5 – Stolen SMSs saved on S3 bucket</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":63085,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-63085" src="https://cyble.com/wp-content/uploads/2024/09/Figure-6-–-Stolen-contacts-saved-S3-bucket.png" /><figcaption class="wp-element-caption"><em>Figure 6 – Stolen contacts saved S3 bucket</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The attackers' poor operational security resulted in the unintentional exposure of sensitive data. We reported the misuse of the AmazonAWS S3 bucket to Amazon Trust and Safety, which disabled access to the URL and made the data no longer accessible. Furthermore, our investigation found no other C&amp;C servers utilizing S3 buckets or exposing stolen data linked to this campaign.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63086,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63086" src="https://cyble.com/wp-content/uploads/2024/09/Figure-7-–-Access-disabled-after-reporting-abuse-1024x344.png" /><figcaption class="wp-element-caption"><em>Figure 7 – Access disabled after reporting abuse</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Technical Details</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>After installation, all spyware samples display a single screen with a message in Korean tailored to the app's theme.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63088,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63088" src="https://cyble.com/wp-content/uploads/2024/09/Figure-8-–-Screen-loaded-upon-installation-1024x397.png" /><figcaption class="wp-element-caption"><em>Figure 8 – Screen loaded upon installation</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The source code of this spyware is relatively simple. It utilizes a minimal set of permissions, including “READ_SMS,” “READ_CONTACTS,” and “READ_EXTERNAL_STORAGE,” to carry out its malicious operations. The manifest file specifies only the main activity, which triggers the malicious functionality upon execution.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63089,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63089" src="https://cyble.com/wp-content/uploads/2024/09/Figure-9-–-Manifest-file-1024x492.png" /><figcaption class="wp-element-caption"><em>Figure 9 – Manifest file</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Upon installation, the spyware requests the necessary permissions; once granted, it executes its malicious functions. These functions, responsible for collecting data from the infected device, are executed within the API method “onRequestPermissionsResult”, as illustrated in the image below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63090,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63090" src="https://cyble.com/wp-content/uploads/2024/09/Figure-10-–-Malware-executing-malicious-functions-in-onRequestPermissionResult-method-1024x516.png" /><figcaption class="wp-element-caption"><em>Figure 10 – Malware executing malicious functions in onRequestPermissionResult method</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To exfiltrate images and videos, the malware queries the device's content provider and uploads each file to the C&amp;C server via the endpoint “/media/+filename”. This behavior is evident in the exposed data, as shown in Figure 3.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63092,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-63092" src="https://cyble.com/wp-content/uploads/2024/09/Figure-11-–-Collecting-images-and-videos.png" /><figcaption class="wp-element-caption"><em>Figure 11 – Collecting images and videos</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The malware gathers contacts and SMS messages from the infected device and stores them in two separate files: phone.json for contacts and sms.json for SMS data. These files are then transmitted to the C&amp;C server, as demonstrated in the figure below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63093,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63093" src="https://cyble.com/wp-content/uploads/2024/09/Figure-12-Saving-contacts-into-a-JSON-file-1024x288.png" /><figcaption class="wp-element-caption"><em>Figure 12 - Saving contacts into a JSON file</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":63094,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-63094" src="https://cyble.com/wp-content/uploads/2024/09/Figure-13-–-Sending-JSON-file-to-the-CC-server.png" /><figcaption class="wp-element-caption"><em>Figure 13 – Sending JSON file to the C&amp;C server</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This campaign highlights the growing sophistication of Android spyware targeting individuals in South Korea. By utilizing an Amazon AWS S3 bucket for Command and Control infrastructure, the <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/" title="threat actors">threat actors</a> were able to maintain stealth and evade detection for an extended period. This spyware strain utilizes a minimalist approach—leveraging only a few key permissions to exfiltrate sensitive data such as contacts, SMS messages, images, and videos—and demonstrates how even simple malware can be extremely effective.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>It is concerning that attackers are increasingly turning to trusted cloud services like AWS as part of their malicious infrastructure. This tactic allows them to bypass traditional security measures and stay under the radar.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Our Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>We have listed some essential cybersecurity best practices that create the first line of control against attackers. We recommend that our readers follow the best practices given below:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Download and install software only from official app stores like Google Play Store or the iOS App Store.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use a reputed anti-virus and internet security software package on your connected devices, such as PCs, laptops, and mobile devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use strong passwords and enforce multi-factor authentication wherever possible.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Enable biometric security features such as fingerprint or facial recognition for unlocking the mobile device where possible.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Be wary of opening any links received via SMS or emails delivered to your phone.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Ensure that Google Play Protect is enabled on Android devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Be careful while enabling any permissions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Keep your devices, operating systems, and applications updated.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">MITRE ATT&amp;CK® Techniques</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Tactic</strong></td>
+<td><strong>Technique ID</strong></td>
+<td><strong>Procedure</strong></td>
+</tr>
+<tr>
+<td>Initial Access (<a href="https://attack.mitre.org/techniques/T1660/">TA0027</a>)</td>
+<td>Phishing (T1660)</td>
+<td>Malware distribution via phishing site</td>
+</tr>
+<tr>
+<td>Collection (<a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a>)</td>
+<td>Protected User Data:&nbsp;Contact List (<a href="https://attack.mitre.org/techniques/T1636/003/">T1636.003</a>)</td>
+<td>The malware collects contacts from the infected device</td>
+</tr>
+<tr>
+<td>Collection (<a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a>)</td>
+<td>Protected User Data: SMS Messages<br />(<a href="https://attack.mitre.org/techniques/T1636/004/">T1636.004</a>)</td>
+<td>Steals SMSs from the infected device</td>
+</tr>
+<tr>
+<td>Collection (<a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a>)</td>
+<td>Data from the Local System (<a href="https://attack.mitre.org/techniques/T1533/">T1533</a>)</td>
+<td>Malware steals images and videos from an infected device</td>
+</tr>
+<tr>
+<td>Command and Control (<a href="https://attack.mitre.org/tactics/TA0037">TA0037</a>)</td>
+<td>Application Layer Protocol:&nbsp;Web Protocols (<a href="https://attack.mitre.org/techniques/T1437/001/">T1437</a>)</td>
+<td>Malware uses HTTPS protocol for C&amp;C communication</td>
+</tr>
+<tr>
+<td>Exfiltration (<a href="https://attack.mitre.org/tactics/TA0036/">TA0036</a>)</td>
+<td>Exfiltration Over C2 Channel (<a href="https://attack.mitre.org/techniques/T1646/">T1646</a>)</td>
+<td>Sending exfiltrated data over C&amp;C server</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Indicators of Compromise (IOCs)</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicators</strong></td>
+<td><strong>Indicator Type</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>afc2baf71bc16bdcef943172eb172793759d483470cce99e542d750d2ffee851 63952a785e2c273a4dc939adc46930f9599b9438 1d7bbb5340a617cd008314b197844047</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Spyware hashes</td>
+</tr>
+<tr>
+<td>d9106d06d55b075757b2ca6a280141cbdaff698094a7bec787e210b00ad04cde 46eb3ba5206baf89752fe247eff9ce64858f4135 68e6401293e525bf583bade1c1a36855</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Spyware hashes</td>
+</tr>
+<tr>
+<td>a8e398fc4b483a1779706d227203647db3e04d305057fdc7f3f6a4318677b9c8 d07a165b1b7c177c2f57b292ae1b2429b6187e45 16139baf56200f3975e607f89e39419a</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Spyware hashes</td>
+</tr>
+<tr>
+<td>3608f739c66c9ca18628fecded6c3843630118baaab80e11a2bacee428ef01b3 1fc56a6d34f1a59a4987c3f8ff266f867e80d35c fa073ca9ae9173bb5f0384471486cce2</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Spyware hashes</td>
+</tr>
+<tr>
+<td>hxxps://phone-books.s3.ap-northeast-2.amazonaws.com/</td>
+<td>URL</td>
+<td>C&amp;C server</td>
+</tr>
+<tr>
+<td>hxxps://bobocam365[.]icu/downloads/pnx01.apk<br />hxxps://refundkorea[.]cyou/REFUND%20KOREA.apk</td>
+<td>URL</td>
+<td>Distribution URL</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p>The post <a href="https://cyble.com/blog/undetected-android-spyware-targeting-individuals-in-south-korea/" rel="nofollow">Undetected Android Spyware Targeting Individuals In South Korea</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Mon, 23 Sep 2024 07:50:11 +0000</pubDate>
+<pubDate>Mon, 23 Sep 2024 07:50:11 +0000</pubDate>
+</item>
 
 <item>
 <title>A new path for Kyber on the web</title>

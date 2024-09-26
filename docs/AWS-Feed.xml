@@ -4,6 +4,276 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>CrowdStrike Expands Cybersecurity Startup Accelerator With AWS and NVIDIA</title>
+<link>https://www.darkreading.com/cloud-security/crowdstrike-expands-cybersecurity-startup-accelerator-with-aws-and-nvidia</link>
+<guid>https://www.darkreading.com/cloud-security/crowdstrike-expands-cybersecurity-startup-accelerator-with-aws-and-nvidia</guid>
+<content:encoded><![CDATA[
+
+CrowdStrike Expands Cybersecurity Startup Accelerator With AWS and NVIDIA
+]]></content:encoded>
+<pubDate>Thu, 19 Sep 2024 21:26:21 GMT</pubDate>
+<pubDate>Thu, 19 Sep 2024 21:26:21 GMT</pubDate>
+</item>
+<item>
+<title>Undetected Android Spyware Targeting Individuals In South Korea</title>
+<link>https://cyble.com/blog/undetected-android-spyware-targeting-individuals-in-south-korea/</link>
+<guid>https://cyble.com/blog/undetected-android-spyware-targeting-individuals-in-south-korea/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Android, Spyware, South Korea" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/09/Undetected-Android-Spyware.webp" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Key Takeaways</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Since June 2024, a new Android Spyware campaign has been identified targeting individuals in South Korea, leveraging an Amazon AWS S3 bucket as its Command and Control (C&amp;C) server.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The Spyware is capable of exfiltrating sensitive information from an infected device, including SMSs, contact lists, images, and videos.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The stolen data, stored openly on the S3 bucket, suggests poor operational security, potentially leading to unintended leaks of sensitive information.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The spyware operates with a simple source code and few key permissions, demonstrating that even simple <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/what-is-malware/" title="malware">malware</a> can be highly effective in exfiltrating sensitive data.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The malware remained undetected by all major antivirus solutions. Four unique samples were identified, exhibiting zero detection rates across all engines.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Overview</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Labs (CRIL) has uncovered a previously undetected Android spyware campaign targeting individuals in South Korea, which has been active since June 2024. The spyware leverages an Amazon AWS S3 bucket as its Command and Control (C&amp;C) server and is designed to exfiltrate sensitive data from compromised devices, including contacts, SMS messages, images, and videos.</p>
+<p>The spyware samples observed disguise themselves as live video apps, adult apps, refund apps, and interior design applications. Below are the icons used by the malware.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63078,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-63078" src="https://cyble.com/wp-content/uploads/2024/09/Figure-1-–-Icons-used-by-malware.png" /><figcaption class="wp-element-caption"><em>Figure 1 – Icons used by the malware</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Two malicious URLs distributing the spyware have been identified:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>hxxps://refundkorea[.]cyou/REFUND%20KOREA.apk</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>hxxps://bobocam365[.]icu/downloads/pnx01.apk</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:image {"id":63079,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63079" src="https://cyble.com/wp-content/uploads/2024/09/Figure-2-–-Opendir-hosting-malware-1024x311.png" /><figcaption class="wp-element-caption"><em>Figure 2 – Opendir hosting malware</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Since its emergence, this malware has remained undetected by all security solutions, allowing it to operate stealthily. CRIL has identified four unique samples linked to this spyware, all exhibiting zero detection rates across major antivirus engines.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63081,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63081" src="https://cyble.com/wp-content/uploads/2024/09/Figure-3-–-Malware-sample-with-zero-detection-1024x391.png" /><figcaption class="wp-element-caption"><em>Figure 3 – Malware sample with zero detection</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>All identified spyware samples were observed communicating with the same Command and Control (C&amp;C) server hosted on an Amazon S3 bucket: <strong>hxxps://phone-books[.]s3.ap-northeast-2.amazonaws.com/</strong>. Our analysis revealed that the stolen data, including contacts, SMS messages, images, and videos, was openly stored in the S3 bucket (C&amp;C server), further confirming that the malware specifically targeted individuals in South Korea.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63082,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-63082" src="https://cyble.com/wp-content/uploads/2024/09/Figure-4-–-Exposed-data-on-S3-bucket.png" /><figcaption class="wp-element-caption"><em>Figure 4 – Exposed data on S3 bucket</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":63084,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63084" src="https://cyble.com/wp-content/uploads/2024/09/Figure-5-–-Stolen-SMSs-saved-on-S3-bucket-1024x493.png" /><figcaption class="wp-element-caption"><em>Figure 5 – Stolen SMSs saved on S3 bucket</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":63085,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-63085" src="https://cyble.com/wp-content/uploads/2024/09/Figure-6-–-Stolen-contacts-saved-S3-bucket.png" /><figcaption class="wp-element-caption"><em>Figure 6 – Stolen contacts saved S3 bucket</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The attackers' poor operational security resulted in the unintentional exposure of sensitive data. We reported the misuse of the AmazonAWS S3 bucket to Amazon Trust and Safety, which disabled access to the URL and made the data no longer accessible. Furthermore, our investigation found no other C&amp;C servers utilizing S3 buckets or exposing stolen data linked to this campaign.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63086,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63086" src="https://cyble.com/wp-content/uploads/2024/09/Figure-7-–-Access-disabled-after-reporting-abuse-1024x344.png" /><figcaption class="wp-element-caption"><em>Figure 7 – Access disabled after reporting abuse</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Technical Details</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>After installation, all spyware samples display a single screen with a message in Korean tailored to the app's theme.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63088,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63088" src="https://cyble.com/wp-content/uploads/2024/09/Figure-8-–-Screen-loaded-upon-installation-1024x397.png" /><figcaption class="wp-element-caption"><em>Figure 8 – Screen loaded upon installation</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The source code of this spyware is relatively simple. It utilizes a minimal set of permissions, including “READ_SMS,” “READ_CONTACTS,” and “READ_EXTERNAL_STORAGE,” to carry out its malicious operations. The manifest file specifies only the main activity, which triggers the malicious functionality upon execution.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63089,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63089" src="https://cyble.com/wp-content/uploads/2024/09/Figure-9-–-Manifest-file-1024x492.png" /><figcaption class="wp-element-caption"><em>Figure 9 – Manifest file</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Upon installation, the spyware requests the necessary permissions; once granted, it executes its malicious functions. These functions, responsible for collecting data from the infected device, are executed within the API method “onRequestPermissionsResult”, as illustrated in the image below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63090,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63090" src="https://cyble.com/wp-content/uploads/2024/09/Figure-10-–-Malware-executing-malicious-functions-in-onRequestPermissionResult-method-1024x516.png" /><figcaption class="wp-element-caption"><em>Figure 10 – Malware executing malicious functions in onRequestPermissionResult method</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To exfiltrate images and videos, the malware queries the device's content provider and uploads each file to the C&amp;C server via the endpoint “/media/+filename”. This behavior is evident in the exposed data, as shown in Figure 3.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63092,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-63092" src="https://cyble.com/wp-content/uploads/2024/09/Figure-11-–-Collecting-images-and-videos.png" /><figcaption class="wp-element-caption"><em>Figure 11 – Collecting images and videos</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The malware gathers contacts and SMS messages from the infected device and stores them in two separate files: phone.json for contacts and sms.json for SMS data. These files are then transmitted to the C&amp;C server, as demonstrated in the figure below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":63093,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-63093" src="https://cyble.com/wp-content/uploads/2024/09/Figure-12-Saving-contacts-into-a-JSON-file-1024x288.png" /><figcaption class="wp-element-caption"><em>Figure 12 - Saving contacts into a JSON file</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":63094,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-63094" src="https://cyble.com/wp-content/uploads/2024/09/Figure-13-–-Sending-JSON-file-to-the-CC-server.png" /><figcaption class="wp-element-caption"><em>Figure 13 – Sending JSON file to the C&amp;C server</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This campaign highlights the growing sophistication of Android spyware targeting individuals in South Korea. By utilizing an Amazon AWS S3 bucket for Command and Control infrastructure, the <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/" title="threat actors">threat actors</a> were able to maintain stealth and evade detection for an extended period. This spyware strain utilizes a minimalist approach—leveraging only a few key permissions to exfiltrate sensitive data such as contacts, SMS messages, images, and videos—and demonstrates how even simple malware can be extremely effective.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>It is concerning that attackers are increasingly turning to trusted cloud services like AWS as part of their malicious infrastructure. This tactic allows them to bypass traditional security measures and stay under the radar.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Our Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>We have listed some essential cybersecurity best practices that create the first line of control against attackers. We recommend that our readers follow the best practices given below:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Download and install software only from official app stores like Google Play Store or the iOS App Store.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use a reputed anti-virus and internet security software package on your connected devices, such as PCs, laptops, and mobile devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use strong passwords and enforce multi-factor authentication wherever possible.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Enable biometric security features such as fingerprint or facial recognition for unlocking the mobile device where possible.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Be wary of opening any links received via SMS or emails delivered to your phone.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Ensure that Google Play Protect is enabled on Android devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Be careful while enabling any permissions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Keep your devices, operating systems, and applications updated.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">MITRE ATT&amp;CK® Techniques</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Tactic</strong></td>
+<td><strong>Technique ID</strong></td>
+<td><strong>Procedure</strong></td>
+</tr>
+<tr>
+<td>Initial Access (<a href="https://attack.mitre.org/techniques/T1660/">TA0027</a>)</td>
+<td>Phishing (T1660)</td>
+<td>Malware distribution via phishing site</td>
+</tr>
+<tr>
+<td>Collection (<a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a>)</td>
+<td>Protected User Data:&nbsp;Contact List (<a href="https://attack.mitre.org/techniques/T1636/003/">T1636.003</a>)</td>
+<td>The malware collects contacts from the infected device</td>
+</tr>
+<tr>
+<td>Collection (<a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a>)</td>
+<td>Protected User Data: SMS Messages<br />(<a href="https://attack.mitre.org/techniques/T1636/004/">T1636.004</a>)</td>
+<td>Steals SMSs from the infected device</td>
+</tr>
+<tr>
+<td>Collection (<a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a>)</td>
+<td>Data from the Local System (<a href="https://attack.mitre.org/techniques/T1533/">T1533</a>)</td>
+<td>Malware steals images and videos from an infected device</td>
+</tr>
+<tr>
+<td>Command and Control (<a href="https://attack.mitre.org/tactics/TA0037">TA0037</a>)</td>
+<td>Application Layer Protocol:&nbsp;Web Protocols (<a href="https://attack.mitre.org/techniques/T1437/001/">T1437</a>)</td>
+<td>Malware uses HTTPS protocol for C&amp;C communication</td>
+</tr>
+<tr>
+<td>Exfiltration (<a href="https://attack.mitre.org/tactics/TA0036/">TA0036</a>)</td>
+<td>Exfiltration Over C2 Channel (<a href="https://attack.mitre.org/techniques/T1646/">T1646</a>)</td>
+<td>Sending exfiltrated data over C&amp;C server</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Indicators of Compromise (IOCs)</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicators</strong></td>
+<td><strong>Indicator Type</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>afc2baf71bc16bdcef943172eb172793759d483470cce99e542d750d2ffee851 63952a785e2c273a4dc939adc46930f9599b9438 1d7bbb5340a617cd008314b197844047</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Spyware hashes</td>
+</tr>
+<tr>
+<td>d9106d06d55b075757b2ca6a280141cbdaff698094a7bec787e210b00ad04cde 46eb3ba5206baf89752fe247eff9ce64858f4135 68e6401293e525bf583bade1c1a36855</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Spyware hashes</td>
+</tr>
+<tr>
+<td>a8e398fc4b483a1779706d227203647db3e04d305057fdc7f3f6a4318677b9c8 d07a165b1b7c177c2f57b292ae1b2429b6187e45 16139baf56200f3975e607f89e39419a</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Spyware hashes</td>
+</tr>
+<tr>
+<td>3608f739c66c9ca18628fecded6c3843630118baaab80e11a2bacee428ef01b3 1fc56a6d34f1a59a4987c3f8ff266f867e80d35c fa073ca9ae9173bb5f0384471486cce2</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Spyware hashes</td>
+</tr>
+<tr>
+<td>hxxps://phone-books.s3.ap-northeast-2.amazonaws.com/</td>
+<td>URL</td>
+<td>C&amp;C server</td>
+</tr>
+<tr>
+<td>hxxps://bobocam365[.]icu/downloads/pnx01.apk<br />hxxps://refundkorea[.]cyou/REFUND%20KOREA.apk</td>
+<td>URL</td>
+<td>Distribution URL</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p>The post <a href="https://cyble.com/blog/undetected-android-spyware-targeting-individuals-in-south-korea/" rel="nofollow">Undetected Android Spyware Targeting Individuals In South Korea</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Mon, 23 Sep 2024 07:50:11 +0000</pubDate>
+<pubDate>Mon, 23 Sep 2024 07:50:11 +0000</pubDate>
+</item>
 
 <item>
 <title>Veeam Software Issues Fixes for Exploitable Security Flaws</title>

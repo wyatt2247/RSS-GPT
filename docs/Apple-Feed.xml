@@ -5,17 +5,205 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-102</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-102</guid>
+<content:encoded><![CDATA[
+
+<p><span style="color: black;">Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</span></p>
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 20:14:56 -0400</pubDate>
+<pubDate>Wed, 25 Sep 2024 20:14:56 -0400</pubDate>
+</item>
+<item>
+<title>Marko Polo Infostealer Campaigns Target Thousands Across Platforms</title>
+<link>https://www.cysecurity.news/2024/09/marko-polo-infostealer-campaigns-target.html</link>
+<guid>https://www.cysecurity.news/2024/09/marko-polo-infostealer-campaigns-target.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p><div style="text-align: justify;"><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjcvx5lNy5cNZ86P7Du3ElfjbkZu50mzkYiqbXNDifX0ALHNLxbQB-RYoEq23Z2MpLiQ5LG10gt_WrFn2Gvk0Sr6_mvhyKxurfLwvddDX20O7QS7BwxAnWOp6Syv69k_z41OsmuHSNgmIgMHTMv9p1y1-HCgL38O9c-CS01ByBTeaXIB_EL34_qcHguCs/s4134/pexels-ferarcosn-211151.jpg" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjcvx5lNy5cNZ86P7Du3ElfjbkZu50mzkYiqbXNDifX0ALHNLxbQB-RYoEq23Z2MpLiQ5LG10gt_WrFn2Gvk0Sr6_mvhyKxurfLwvddDX20O7QS7BwxAnWOp6Syv69k_z41OsmuHSNgmIgMHTMv9p1y1-HCgL38O9c-CS01ByBTeaXIB_EL34_qcHguCs/s600/pexels-ferarcosn-211151.jpg" width="600" /></a></div>The cybercriminal group “Marko Polo” is behind a major malware operation, running 30 infostealer campaigns targeting a wide array of victims. Using techniques such as spear-phishing, malvertising, and brand impersonation, the group spreads over 50 malware payloads, including AMOS, Stealc, and Rhadamanthys, across different sectors like gaming, cryptocurrency, and software.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">According to Recorded Future’s Insikt Group, Marko Polo’s campaigns have compromised thousands of devices globally, posing a significant threat to consumer privacy and business security, with potential financial losses in the millions. The group primarily uses spear-phishing tactics via direct messages on social media, targeting high-value individuals like cryptocurrency influencers, gamers, and software developers.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">They impersonate popular brands such as Fortnite, Zoom, and RuneScape, creating fake job offers and project collaborations to deceive victims into downloading malware. In addition to these impersonations, Marko Polo even fabricates its own brand names like VDeck, Wasper, and SpectraRoom to lure unsuspecting users. The Marko Polo operation is highly versatile, capable of infecting both Windows and macOS platforms. On Windows, they use a tool called “HijackLoader” to deliver malware like Stealc, designed to extract data from browsers, and Rhadamanthys, which targets a wide array of applications and data types.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Rhadamanthys has also added advanced features, such as a cryptocurrency clipper to redirect payments to the attackers’ wallets, and the ability to evade Windows Defender.
+
+When it comes to macOS, the group deploys Atomic (AMOS), an infostealer launched in 2023, which they rent out to cybercriminals for $1,000 per month. AMOS is highly effective at extracting sensitive data stored on macOS systems, such as Apple Keychain passwords, MetaMask seeds, WiFi credentials, credit card details, and other encrypted information.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The Marko Polo campaign’s widespread nature highlights the dangers of information-stealing malware, and users need to be vigilant against unsolicited links and downloads from unknown sources. One of the most effective ways to protect against such malware is to download software exclusively from official websites and ensure your antivirus software is up-to-date. This ensures the detection of malicious payloads before they can compromise your system.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Information-stealing malware campaigns are becoming increasingly common, with Marko Polo’s operation serving as a stark reminder of the sophisticated tactics cybercriminals employ today. These stolen credentials often enable hackers to breach corporate networks, engage in data theft, and disrupt business operations. Therefore, cybersecurity awareness and strong preventive measures are crucial for protecting against such malicious activities.
+</div>
+]]></content:encoded>
+<pubDate>2024-09-25T10:06:00.000-04:00</pubDate>
+<pubDate>2024-09-25T10:06:55.469-04:00</pubDate>
+</item>
+<item>
+<title>Apple iOS 17.2.1 Screen Time Passcode Retrieval / Mitigation Bypass</title>
+<link>https://cxsecurity.com/issue/WLB-2024090037</link>
+<guid>https://cxsecurity.com/issue/WLB-2024090037</guid>
+<content:encoded><![CDATA[
+
+Topic: Apple iOS 17.2.1 Screen Time Passcode Retrieval / Mitigation Bypass Risk: Medium Text:Document Title:         Apple iOS 17.2.1 - Screen Time Passcode Retrieval (Mitigation Bypass)      Release Date:      =  2024-0...
+]]></content:encoded>
+<pubDate>Tue, 24 Sep 2024 20:51:29 +0000</pubDate>
+<pubDate>2024-09-24 20:51:29 CET</pubDate>
+</item>
+<item>
+<title>THN Cybersecurity Recap: Last Week's Top Threats and Trends (September 16-22)</title>
+<link>https://thehackernews.com/2024/09/thn-cybersecurity-recap-last-weeks-top.html</link>
+<guid>https://thehackernews.com/2024/09/thn-cybersecurity-recap-last-weeks-top.html</guid>
+<content:encoded><![CDATA[
+
+Hold on tight, folks, because last week's cybersecurity landscape was a rollercoaster! We witnessed everything from North Korean hackers dangling "dream jobs" to expose a new malware, to a surprising twist in the Apple vs. NSO Group saga. Even the seemingly mundane world of domain names and cloud configurations had its share of drama. Let's dive into the details and see what lessons we can glean
+]]></content:encoded>
+<pubDate>Mon, 23 Sep 2024 16:50:00 +0530</pubDate>
+<pubDate>Mon, 23 Sep 2024 16:50:00 +0530</pubDate>
+</item>
+<item>
+<title>ZDI-24-1288: Apple macOS AppleIntelKBLGraphicsMTLDriver Out-Of-Bounds Write Remote Code Execution Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1288/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1288/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2024-40846.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1287: Apple macOS AppleVADriver Out-Of-Bounds Write Remote Code Execution Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1287/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1287/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2024-44160.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1286: Apple macOS AppleGVA Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1286/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1286/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-44161.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1285: Apple macOS VideoToolbox Uninitialized Memory Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1285/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1285/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-44154.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1284: Apple macOS AppleIntelKBLGraphicsMTLDriver Out-Of-Bounds Read Remote Code Execution Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1284/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1284/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2024-40841.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1283: Apple macOS ImageIO JP2 File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1283/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1283/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the ImageIO framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2024-44176.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1282: Apple macOS AppleGVA Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1282/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1282/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-40845.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1281: Apple macOS AppleVADriver Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1281/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1281/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-27861.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1280: Apple macOS AppleVADriver Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1280/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1280/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-27861.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1279: Apple macOS AppleVADriver Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1279/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1279/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-27860.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1278: Apple macOS AppleVADriver Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1278/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1278/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-27861.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1277: Apple macOS AppleVADriver Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1277/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1277/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-27861.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1276: Apple macOS AppleVADriver Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1276/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1276/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2024-27861.
+]]></content:encoded>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 25 Sep 2024 00:00:00 -0500</pubDate>
+</item>
+
+<item>
 <title><b>macOS</b> Security Flaw: How Apple Saved Users from a Major Hack - Gizchina.com</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.gizchina.com/2024/09/14/macos-security-flaw-how-apple-saved-users-from-a-major-hack/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2qc2ulHUY6OHhcnIJ-Zp55</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.gizchina.com/2024/09/14/macos-security-flaw-how-apple-saved-users-from-a-major-hack/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2qc2ulHUY6OHhcnIJ-Zp55</guid>
 <content:encoded><![CDATA[
-
 This <b>vulnerability</b> allowed attackers to hack into users' iCloud accounts by simply sending them a calendar invite. Thankfully, Apple acted quickly to&nbsp;...
 ]]></content:encoded>
 <pubDate>2024-09-14T11:09:49Z</pubDate>
-<pubDate>2024-09-14T11:09:49Z</pubDate>
 </item>
-
 <item>
 <title>“CEDEC2025” will be held from July 22 to 24, 2025. It will be held about one month earlier ...</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://passionategeekz.com/cedec2025-will-be-held-from-july-22-to-24-2025-it-will-be-held-about-one-month-earlier-than-usual/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0XL8YmBqTL60iU7MNCiAC7</link>
