@@ -4,15 +4,14 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-103</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-103</guid>
 <content:encoded><![CDATA[
-
 <p><span style="color: black;">Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</span></p>
 ]]></content:encoded>
-<pubDate>Wed, 25 Sep 2024 20:20:24 -0400</pubDate>
 <pubDate>Wed, 25 Sep 2024 20:20:24 -0400</pubDate>
 </item>
 <item>
@@ -20,10 +19,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-104</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-104</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 24 Sep 2024 21:34:16 -0400</pubDate>
 <pubDate>Tue, 24 Sep 2024 21:34:16 -0400</pubDate>
 </item>
 <item>
@@ -31,10 +28,8 @@
 <link>https://www.cysecurity.news/2024/09/brave-browser-secure-and-private-way-to.html</link>
 <guid>https://www.cysecurity.news/2024/09/brave-browser-secure-and-private-way-to.html</guid>
 <content:encoded><![CDATA[
-
 <p style="text-align: justify;">&nbsp;</p><p style="text-align: justify;"><br /></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirhsn13WVdfFYS6AOzazfUJXc8nwAL9ywogkZ1qJ837zMLNE4GS3W9c8j6mPQEp1da7iaA6KyVSBuEw2AYBWyrXvYfrBrN1J6N5ifSrZv_h1gwVcFnLy2A3NDWdfeHFn2CS6x-IqCrRqR7P_lnQY8R3rPceDxxqKHWRJCH769dRnnLD42ummbS8g_yCNNm/s1280/eye-5814967_1280.webp" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirhsn13WVdfFYS6AOzazfUJXc8nwAL9ywogkZ1qJ837zMLNE4GS3W9c8j6mPQEp1da7iaA6KyVSBuEw2AYBWyrXvYfrBrN1J6N5ifSrZv_h1gwVcFnLy2A3NDWdfeHFn2CS6x-IqCrRqR7P_lnQY8R3rPceDxxqKHWRJCH769dRnnLD42ummbS8g_yCNNm/w640-h426/eye-5814967_1280.webp" width="640" /></a></div><p style="text-align: justify;"><br /></p><p style="text-align: justify;">Data is more precious in today's digital world than ever. Companies are trying to collect as much as possible to sell it to third-party data brokers. Cybercrime is growing steadily and targeting unsuspecting victims. Addressing both issues is one of the reasons the more mindful browser, Brave, is integrating an array of features to keep data secure and private.</p><p style="text-align: justify;">Another feature that differentiates Brave is that it has a built-in use of Brave Shields- the application engaged in blocking harmful elements that may track the behaviour of your browsing. In other types of browsers, users have to install third-party ad blockers. Brave Shields are installed directly in the browser and prevent intrusive ads and trackers from retrieving data regarding the activities you perform online.</p><p style="text-align: justify;">It also solves a very common problem with ad blockers, which is that some websites break when the ads are blocked. To solve this issue, Brave replaces tracking codes with privacy-friendly alternatives while ensuring that the integrity of the webpage is maintained and your data is kept secure. As companies continue to devise new ways to hide trackers, Brave is countering this through CNAME uncloaking techniques by uncovering such hidden threats before they manage to collect data from you.</p><p style="text-align: justify;"><b>Blocking Cross-Site Cookies</b></p><p style="text-align: justify;">Cookies are small files that download onto your computer, which track your surfing and, more often than not, targeted advertisements will follow you around the web. Cross-site cookies are blocked, by default, on Brave so websites cannot track movements from one site to the other. Brave provides temporary cookies for functionality, though without exposing any private data, for the occasional cookie-dependent website.</p><p style="text-align: justify;"><b>Phishing Protection with Google Safe Browsing</b></p><p style="text-align: justify;">Though it puts much emphasis on privacy, Brave remembers security. It uses Google Safe Browsing, which won't enable a user to reach a phishing site or download harmful files. Being built upon Chromium, the same platform that Google Chrome runs on, Brave ensures users protection from known threats to their developers, hence making browsing safer.</p><p style="text-align: justify;">While Google Safe Browsing is a service that compromises privacy within Google Chrome, it only serves Brave to block harmful websites without the collection of any personal data from browsing.</p><p style="text-align: justify;"><b>A Search Engine Respecting Your Privacy</b></p><p style="text-align: justify;">Most search engines log your search history, accumulating information about the queries you made and selling that information to customise ads or even sell. In contrast, Brave Search does not collect, store, or share search queries when accessed through the browser. This is a completely private browser that does not believe in logging and selling your browsing habits. Additionally, Brave Search serves less biased results because it crawls the web itself rather than prioritising by SEO schemes or the behaviour of prior users.</p><p style="text-align: justify;">Another advantage of Brave Search is that it can be utilised independently of the download of the Brave browser – so anyone can have private searches.</p><p style="text-align: justify;"><b>Inbuilt VPN and Firewall</b></p><p style="text-align: justify;">It also has a built-in VPN and firewall from Brave, that's available on free trial for seven days, after which you can subscribe to it at $9.99 a month. This will ensure your activity is completely hidden from all the potential threats looking at you, and you won't let any malicious content get inside or leave your network. A VPN encrypts internet traffic so nobody can track your activity online, while the firewall keeps unwanted data from appearing in your system.</p><p style="text-align: justify;">It's probably refreshing about Brave, considering it is committed to protecting personal data. Most companies have either policies or strategies that collect and sell a user's data. With Brave, what is striking is the no-sharing policy, full compliance with the General Data Protection Regulation (GDPR) in Europe and the California Consumer Privacy Act (CCPA), and as such, all users' benefit from strong data protection law, irrespective of their region.</p><p style="text-align: justify;">For people who place importance on privacy and safety, Brave is a full answer. This is because the provider separates itself from the rest of the browsers by its focus on protecting the user from risks connected with the misuse of data or cybercrime through features like Brave Shields, cross-site cookie blocking, private search options, and built-in VPN and firewall services. These have extended to ensure that your web experience remains secure and private; from stopping trackers, malicious websites, and unwanted ads.</p><p style="text-align: justify;"><br /></p>
 ]]></content:encoded>
-<pubDate>2024-09-23T11:08:00.003-04:00</pubDate>
 <pubDate>2024-09-23T11:08:14.164-04:00</pubDate>
 </item>
 <item>
@@ -42,12 +37,10 @@
 <link>https://thehackernews.com/2024/09/chrome-users-can-now-sync-passkeys.html</link>
 <guid>https://thehackernews.com/2024/09/chrome-users-can-now-sync-passkeys.html</guid>
 <content:encoded><![CDATA[
-
 Google on Thursday unveiled a Password Manager PIN to let Chrome web users sync their passkeys across Windows, macOS, Linux, ChromeOS, and Android devices.
 "This PIN adds an additional layer of security to ensure your passkeys are end-to-end encrypted and can't be accessed by anyone, not even Google," Chrome product manager Chirag Desai said.
 The PIN is a six-digit code by default, although it's
 ]]></content:encoded>
-<pubDate>Fri, 20 Sep 2024 11:03:00 +0530</pubDate>
 <pubDate>Fri, 20 Sep 2024 11:03:00 +0530</pubDate>
 </item>
 <item>
@@ -55,14 +48,11 @@ The PIN is a six-digit code by default, although it's
 <link>https://thehackernews.com/2024/09/chrome-introduces-one-time-permissions.html</link>
 <guid>https://thehackernews.com/2024/09/chrome-introduces-one-time-permissions.html</guid>
 <content:encoded><![CDATA[
-
 Google has announced that it's rolling out a new set of features to its Chrome browser that gives users more control over their data when surfing the internet and protects them against online threats.
 "With the newest version of Chrome, you can take advantage of our upgraded Safety Check, opt out of unwanted website notifications more easily and grant select permissions to a site for one time
 ]]></content:encoded>
 <pubDate>Wed, 18 Sep 2024 14:34:00 +0530</pubDate>
-<pubDate>Wed, 18 Sep 2024 14:34:00 +0530</pubDate>
 </item>
-
 <item>
 <title>A new path for Kyber on the web</title>
 <link>http://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html</link>

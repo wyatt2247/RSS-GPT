@@ -4,15 +4,14 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Winamp releases source code, asks for help modernizing the player</title>
 <link>https://www.bleepingcomputer.com/news/software/winamp-releases-source-code-asks-for-help-modernizing-the-player/</link>
 <guid>https://www.bleepingcomputer.com/news/software/winamp-releases-source-code-asks-for-help-modernizing-the-player/</guid>
 <content:encoded><![CDATA[
-
 The iconic Winamp media player has fulfilled a promise made in May to go open-source and has now published its complete source code on GitHub. [...]
 ]]></content:encoded>
-<pubDate>Wed, 25 Sep 2024 10:33:26 -0400</pubDate>
 <pubDate>Wed, 25 Sep 2024 10:33:26 -0400</pubDate>
 </item>
 <item>
@@ -20,14 +19,12 @@ The iconic Winamp media player has fulfilled a promise made in May to go open-so
 <link>https://www.cysecurity.news/2024/09/microsoft-issues-new-warnings-for.html</link>
 <guid>https://www.cysecurity.news/2024/09/microsoft-issues-new-warnings-for.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR5Q7KkRmVnx90tzpZVpPBU-G81txD0mSu3VOkFl16WVSY9rM6WIwPq6Z0ZGlV0WJcUwmeRsIkgCd8pZmIEnvC-BjAy2ErIrWKRxDVio7tP05lRxkKmHmjeLPr5k4v8kYqBw0P06VQnoLEx3ktrj10igwwlvA8igqMIccsrwSioR2relWAQxDf4qK9nqk/s3936/1486.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR5Q7KkRmVnx90tzpZVpPBU-G81txD0mSu3VOkFl16WVSY9rM6WIwPq6Z0ZGlV0WJcUwmeRsIkgCd8pZmIEnvC-BjAy2ErIrWKRxDVio7tP05lRxkKmHmjeLPr5k4v8kYqBw0P06VQnoLEx3ktrj10igwwlvA8igqMIccsrwSioR2relWAQxDf4qK9nqk/s600/1486.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><span style="font-family: inherit;">As we approach the weekend, a new warning has been issued that a "global attack" is now targeting Windows users in multiple nations worldwide. The campaign is surprisingly basic, but it highlights the risk for the hundreds of millions of Windows 10 customers who will be without security upgrades in a year.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Palo Alto Networks' Unit 42 warned about the risks of fake new CAPTCHAs last month. Although it didn't receive much attention at the time, researcher John Hammond's video on X helped spread the word. McAfee researchers have recently released a fresh alert regarding these fraudulent CAPTCHA popups that are currently circulating.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">These assaults should be easy to detect—but they’re designed to be casually effective. The fake challenges are designed to distribute Lumma Stealer.
 
 “These pages have a button that, when clicked, shows instructions for victims to paste PowerShell script into a Run window. This copy/paste PowerShell script retrieves and runs a Windows EXE for Lumma Stealer malware. The associated Lumma Stealer EXE files retrieve and use zip archives that don't appear to be inherently malicious on their own,” researchers explained.
 
 In its latest research, McAfee cautions that the ClickFix infection chain operates by tricking people into clicking on buttons like Verify you are a human' or 'I am not a robot.'"&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">When clicked, a malicious script is copied to the user's clipboard. Users are then tricked into pasting the script after pressing the Windows key + R, unknowingly launching the malware. This technique speeds up the infection process, allowing attackers to easily deploy malware.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The pattern is apparent to you. The crypto wallets and your account credentials are the main targets of the information-stealing malware that will be installed on your device. It doesn't appear to be a typical CAPTCHA, even if they are evolving and becoming more difficult to figure out. However, if, at that moment, copying and pasting isn't making you feel uneasy, turn off your computer and perhaps take a break.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Furthermore, McAfee identifies two deviously created lures, one aimed at consumers ready to download illegally copied games and the other at software developers concerned about a security flaw in code they wrote and distributed.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Users searching online for illegal copies of games are likely to have their guard up in any case; yet, the team warns that "they may encounter online forums, community posts, or public repositories that redirect them to malicious links.”&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The second target group is even more sneaky. Users get phishing emails that frequently target GitHub contributors, pushing them to fix a fake security flaw. These emails provide links to the same fraudulent CAPTCHA pages.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">This fake CAPTCHA campaign is starting to propagate; be cautious and take a moment to look for any signs of compromise when faced with one. It won't always be as clear as it is in this instance. These attacks will change and become more difficult to identify. It goes without saying that you should never, ever copy and paste and then execute from within a CAPTCHA.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">This serves as another timely reminder to Windows 10 users that discontinuing support should not be one of their actions between now and October of next year. You'll need to switch to Windows 11 if Microsoft doesn't offer reasonably priced extension alternatives and workarounds aren't sufficient to close the gap.</span></div></span>
 ]]></content:encoded>
-<pubDate>2024-09-25T11:01:00.000-04:00</pubDate>
 <pubDate>2024-09-25T11:01:33.298-04:00</pubDate>
 </item>
 <item>
@@ -35,7 +32,6 @@ In its latest research, McAfee cautions that the ClickFix infection chain operat
 <link>https://securityintelligence.com/articles/cve-backlog-update-nvd-struggles-attackers-change-tactics/</link>
 <guid>https://securityintelligence.com/articles/cve-backlog-update-nvd-struggles-attackers-change-tactics/</guid>
 <content:encoded><![CDATA[
-
 <p><em>Updated Sept. 24, 2024</em></p>
 <p>In February, the number of vulnerabilities processed and enriched by the National Institute of Standards and Technology (NIST) National Vulnerability Database (NVD) started to slow. By May, 93.4% of new vulnerabilities and 50.8% of known exploited vulnerabilities were still waiting on analysis, according to research from <a href="https://vulncheck.com/blog/nvd-backlog-exploitation" rel="noopener nofollow" target="_blank">VulnCheck</a>.</p>
 <p>Three months later, the problem persists. While NIST has a plan to get back on track, current analysis of the current state of&nbsp;<a href="https://www.ibm.com/think/topics/cve">common vulnerabilities and exposures (CVEs)</a>&nbsp;isn&rsquo;t keeping pace with new vulnerability detections. Here&rsquo;s a look at what&rsquo;s behind the backlog, why CVEs may no longer be the Holy Grail of IT defense and how security teams can stay ahead of attacker efforts.</p>
@@ -76,14 +72,12 @@ In its latest research, McAfee cautions that the ClickFix infection chain operat
 <p>The post <a href="https://securityintelligence.com/articles/cve-backlog-update-nvd-struggles-attackers-change-tactics/" rel="nofollow">NVD backlog update: Attackers change tactics as analysis slows</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p>
 ]]></content:encoded>
 <pubDate>Tue, 17 Sep 2024 13:00:00 +0000</pubDate>
-<pubDate>Tue, 17 Sep 2024 13:00:00 +0000</pubDate>
 </item>
 <item>
 <title>This Windows PowerShell Phish Has Scary Potential</title>
 <link>https://krebsonsecurity.com/2024/09/this-windows-powershell-phish-has-scary-potential/</link>
 <guid>https://krebsonsecurity.com/2024/09/this-windows-powershell-phish-has-scary-potential/</guid>
 <content:encoded><![CDATA[
-
 <p>Many<strong> GitHub</strong> users this week received a novel phishing email warning of critical security holes in their code. Those who clicked the link for details were asked to distinguish themselves from bots by pressing a combination of keyboard keys that causes <strong>Microsoft Windows</strong> to download password-stealing malware. While it&#8217;s unlikely that many programmers fell for this scam, it&#8217;s notable because less targeted versions of it are likely to be far more successful against the average Windows user.</p>
 <p>A reader named Chris shared an email he received this week that spoofed GitHub&#8217;s security team and warned: &#8220;Hey there! We have detected a security vulnerability in your repository. Please contact us at https://github-scanner[.]com to get more information on how to fix this issue.&#8221;</p>
 <p><img alt="" class="aligncenter size-full wp-image-68857" height="330" src="https://krebsonsecurity.com/wp-content/uploads/2024/09/powerphish.png" width="681" /></p>
@@ -102,9 +96,7 @@ In its latest research, McAfee cautions that the ClickFix infection chain operat
 <p>Still, it wouldn&#8217;t hurt to share this article with the Windows users in your life who fit the less-savvy profile. Because this particular scam has a great deal of room for growth and creativity.</p>
 ]]></content:encoded>
 <pubDate>Thu, 19 Sep 2024 19:39:09 +0000</pubDate>
-<pubDate>Thu, 19 Sep 2024 19:39:09 +0000</pubDate>
 </item>
-
 <item>
 <title>Developers Beware: Lazarus Group Uses Fake Coding Tests to Spread Malware</title>
 <link>https://thehackernews.com/2024/09/developers-beware-lazarus-group-uses.html</link>

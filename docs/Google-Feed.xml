@@ -4,15 +4,14 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-103</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-103</guid>
 <content:encoded><![CDATA[
-
 <p><span style="color: black;">Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</span></p>
 ]]></content:encoded>
-<pubDate>Wed, 25 Sep 2024 20:20:24 -0400</pubDate>
 <pubDate>Wed, 25 Sep 2024 20:20:24 -0400</pubDate>
 </item>
 <item>
@@ -20,10 +19,8 @@
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-104</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-104</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 24 Sep 2024 21:34:16 -0400</pubDate>
 <pubDate>Tue, 24 Sep 2024 21:34:16 -0400</pubDate>
 </item>
 <item>
@@ -31,10 +28,8 @@
 <link>https://www.bleepingcomputer.com/news/security/fake-walletconnect-app-on-google-play-steals-android-users-crypto/</link>
 <guid>https://www.bleepingcomputer.com/news/security/fake-walletconnect-app-on-google-play-steals-android-users-crypto/</guid>
 <content:encoded><![CDATA[
-
 A crypto draining app mimicking the legitimate 'WalletConnect' project has been distributed over Google Play for five months getting more than 10,000 downloads. [...]
 ]]></content:encoded>
-<pubDate>Thu, 26 Sep 2024 09:11:06 -0400</pubDate>
 <pubDate>Thu, 26 Sep 2024 09:11:06 -0400</pubDate>
 </item>
 <item>
@@ -42,11 +37,9 @@ A crypto draining app mimicking the legitimate 'WalletConnect' project has been 
 <link>https://www.securityweek.com/google-sees-drop-in-memory-safety-bugs-in-android-as-code-matures/</link>
 <guid>https://www.securityweek.com/google-sees-drop-in-memory-safety-bugs-in-android-as-code-matures/</guid>
 <content:encoded><![CDATA[
-
 <p>Memory safety bugs in Android have decreased significantly as old code matures and new code uses memory-safe languages.</p>
 <p>The post <a href="https://www.securityweek.com/google-sees-drop-in-memory-safety-bugs-in-android-as-code-matures/">Google Sees Drop in Memory Safety Bugs in Android as Code Matures</a> appeared first on <a href="https://www.securityweek.com">SecurityWeek</a>.</p>
 ]]></content:encoded>
-<pubDate>Thu, 26 Sep 2024 12:11:22 +0000</pubDate>
 <pubDate>Thu, 26 Sep 2024 12:11:22 +0000</pubDate>
 </item>
 <item>
@@ -54,7 +47,6 @@ A crypto draining app mimicking the legitimate 'WalletConnect' project has been 
 <link>https://www.cysecurity.news/2024/09/65-million-settlement-for-health-system.html</link>
 <guid>https://www.cysecurity.news/2024/09/65-million-settlement-for-health-system.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgFi9nZOJOMBexRe4ev2_Cs5fVQbXoll7xe8UNVXGBbTKKPwsWxIsbmCFORBh3hCrQA9dLQFOtZaNbUdQW6i5CXe4i145TQas1D0qPn7ifmWHF6W8oDBW9sNAz9frikJlwYnRyHccO5GhyzLEYE7TrM8wCXD92HYPYSGvPUMeyi86RKJt7tH9l1jREiwcj/s3000/pexels-pixabay-40568.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgFi9nZOJOMBexRe4ev2_Cs5fVQbXoll7xe8UNVXGBbTKKPwsWxIsbmCFORBh3hCrQA9dLQFOtZaNbUdQW6i5CXe4i145TQas1D0qPn7ifmWHF6W8oDBW9sNAz9frikJlwYnRyHccO5GhyzLEYE7TrM8wCXD92HYPYSGvPUMeyi86RKJt7tH9l1jREiwcj/w640-h426/pexels-pixabay-40568.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">In a recent court filing, attorneys on behalf of victims of a devastating ransomware attack in February 2023 have been awarded a settlement of $65 million after hackers uploaded nude photos of cancer patients on the internet.
 
 This settlement is the most significant of its kind in terms of per-patient compensation that has ever been achieved by a law firm on behalf of the plaintiffs, Saltz Mongeluzzi Bendesky.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Earlier this month, a major healthcare company in Pennsylvania, Lehigh Valley Health Network (LVHN), one of the nation's largest primary care groups, settled with the federal government for $65 million after the data of nearly 135,000 patients and employees were compromised.
@@ -69,7 +61,6 @@ If LHVN had not paid the ransom demanded by the hackers, the data breach would h
 
 Accordingly, the lawsuit can be argued that the class, including a plaintiff identified as only Jane Doe in the lawsuit, has suffered embarrassment and humiliation as a result of this action.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">It has also been revealed that Doe will receive a larger portion of the settlement money than the rest of the class, according to Saltz Mongeluzzi Bendesky, the law firm that represents the class. A health system executive called patients to inform them of the breach after they discovered it in February 2023. The executive said that hackers had posted their personal information on the dark web - including nude photos - and that it was not accessible through conventional search engines like Google - which is a collection of hidden websites.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">It is the description of the executive who apologized for the behaviour of the woman in her 50s, along with the offer of two years of credit monitoring, which the woman accepted with a chuckle. In the lawsuit, the cancer patient says that she was completely in disbelief that the health system had stored nude photos of her on its computer network. She was in complete disbelief at the time of the incident.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Approximately 135,000 patients, health-system employees, and others involved in the breach will receive a payout as part of the proposed settlement, which still requires a judge's approval. However, according to the agreement, there will be 80 per cent of the settlement money earmarked for the victims whose nude photos were published on the dark web to compensate them.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">It is estimated that roughly 600 men and women fall into this category, and each will receive at least $75,000, says Howard. There is a possibility that Jane Doe, as the lead plaintiff, can receive $125,000 as a settlement.</div>
 ]]></content:encoded>
-<pubDate>2024-09-26T11:11:00.003-04:00</pubDate>
 <pubDate>2024-09-26T11:11:46.145-04:00</pubDate>
 </item>
 <item>
@@ -77,7 +68,6 @@ Accordingly, the lawsuit can be argued that the class, including a plaintiff ide
 <link>https://www.cysecurity.news/2024/09/understanding-domain-name-system-dns.html</link>
 <guid>https://www.cysecurity.news/2024/09/understanding-domain-name-system-dns.html</guid>
 <content:encoded><![CDATA[
-
 <p></p><div><br /></div><p></p><div style="text-align: justify;"><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwPdO4j1vEQ-ZD8i62XZRIVSuGiGA8TOrbtypnfqFQah8YMB1ryBKuxdQRttj4AgrSLarFQ_an4_nIKCoCbo6YHtxv9HEzENYaHWY0RDMOiCG_asU5WDbRgTmwtB4htlI7Gp_K7Xg2fH38SfmqRkwyAb8GpsrSNOvO2pVGcRK3ttWDVtEiXQnGyTM1t44/s1280/cyber-3400789_1280.jpg" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwPdO4j1vEQ-ZD8i62XZRIVSuGiGA8TOrbtypnfqFQah8YMB1ryBKuxdQRttj4AgrSLarFQ_an4_nIKCoCbo6YHtxv9HEzENYaHWY0RDMOiCG_asU5WDbRgTmwtB4htlI7Gp_K7Xg2fH38SfmqRkwyAb8GpsrSNOvO2pVGcRK3ttWDVtEiXQnGyTM1t44/s600/cyber-3400789_1280.jpg" width="600" /></a></div>The Domain Name System (DNS) serves as a critical element of the internet’s infrastructure, acting like a phone book that translates human-friendly domain names into the numerical IP addresses that computers use to communicate. Without DNS, accessing websites would be far more complicated, requiring users to remember lengthy strings of numbers instead of simple names like “google.com.”
 
 When you enter a website URL into your browser, the DNS process begins. This request, known as a “DNS query,” first goes to a DNS resolver—typically provided by your Internet Service Provider (ISP) or a third-party DNS service like Google Public DNS or Cloudflare.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The resolver acts as an intermediary, starting the process to find the corresponding IP address of the domain name you’ve entered.
@@ -86,7 +76,6 @@ The DNS resolver contacts one of the 13 root servers that make up the top level 
 
 Security is a vital aspect of DNS because it is a frequent target for cyberattacks. One common threat is DNS spoofing, where attackers redirect traffic to fraudulent websites to steal data or spread malware. DNS hijacking is another risk, where hackers manipulate DNS records to divert users to malicious sites. These threats emphasize the importance of DNS security protocols like DNS over HTTPS (DoH) and DNS over TLS (DoT), which encrypt DNS requests to prevent interception by malicious entities, thus protecting users’ data and privacy.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Switching to a third-party DNS service can enhance your internet experience in terms of speed, reliability, and security. Services like Google Public DNS, OpenDNS, or Cloudflare’s 1.1.1.1 offer faster query response times, better privacy protection, and can help circumvent geographical restrictions imposed by ISPs. These alternatives often provide built-in security features, such as blocking malicious sites, to offer an extra layer of protection.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">DNS is the backbone of internet browsing, seamlessly converting domain names into IP addresses. By understanding its role and the importance of security measures, users can better appreciate how DNS keeps the internet functional and secure. Whether ensuring that websites load correctly or protecting against cyber threats, DNS plays an indispensable role in our everyday online activities.</div>
 ]]></content:encoded>
-<pubDate>2024-09-26T11:11:00.000-04:00</pubDate>
 <pubDate>2024-09-26T11:11:18.424-04:00</pubDate>
 </item>
 <item>
@@ -94,10 +83,8 @@ Security is a vital aspect of DNS because it is a frequent target for cyberattac
 <link>https://www.cysecurity.news/2024/09/necro-malware-attacks-google-play-store.html</link>
 <guid>https://www.cysecurity.news/2024/09/necro-malware-attacks-google-play-store.html</guid>
 <content:encoded><![CDATA[
-
 <p style="text-align: justify;"></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQSU3LvtQqhDptr6INRP7bsFI2JiVZAUR_S-AuTmpOkOpn3bTMKU7TPzHWsnGpFd8xizhhXcVTN4qThZD3J5ur-lwnYfQmvA1JdHx-ROzJ2qcvLfl37YjI68Tl6NBwH5F8GVVfEv93TeVnaBNFwTz74Z5W0XPZEADTGE6ky9mwmS8tL84WJ2QxI6k2Be_g/s926/social-1206612_960_720.png" style="margin-left: 1em; margin-right: 1em;"><img alt="Necro Malware Attacks Google Play Store, Again. Infects 11 Million Devices" border="0" height="498" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQSU3LvtQqhDptr6INRP7bsFI2JiVZAUR_S-AuTmpOkOpn3bTMKU7TPzHWsnGpFd8xizhhXcVTN4qThZD3J5ur-lwnYfQmvA1JdHx-ROzJ2qcvLfl37YjI68Tl6NBwH5F8GVVfEv93TeVnaBNFwTz74Z5W0XPZEADTGE6ky9mwmS8tL84WJ2QxI6k2Be_g/w640-h498/social-1206612_960_720.png" title="Necro Malware Attacks Google Play Store, Again. Infects 11 Million Devices" width="640" /></a></div><br /><div style="text-align: justify;">A new variant of Necro malware loader was found on 11 million Android devices through Google Play in infected SDK supply chain <a href="https://www.cysecurity.news/2024/09/marko-polo-infostealer-campaigns-target.html" target="_blank">attacks</a>. The re-appearance of Necro malware is a sign of persistent flaws in popular app stores like Google.&nbsp;</div><p></p><p style="text-align: justify;">A recent report by Kaspersky suggests the latest version of Necro Trojan was deployed via infected advertising software development kits (SDK) used by Android game mods, authentic apps, and mod variants of famous software, such as Minecraft, Spotify, and WhatsApp. The blog covers key findings from the Kaspersky report, the techniques used by threat actors, and the impact on cybersecurity.&nbsp;</p><h3 style="text-align: justify;">What is Necro Trojan&nbsp;</h3><p style="text-align: justify;">Aka Necro Python, the Necro Trojan is an advanced <a href="https://www.cysecurity.news/2021/06/vmware-becomes-new-target-of-freakout.html" target="_blank">malware</a> strain active since it first appeared. Malware can perform various malicious activities such as cryptocurrency mining, data theft, and installation of additional payloads. The recent version is more advanced, making it difficult to track and eliminate.&nbsp;</p><h3 style="text-align: justify;">Distribution of Necro Trojan</h3><p style="text-align: justify;">Users sometimes want premium or customized options that official versions don't have. But these unofficial mods, such as GB WhatsApp, Spotify+, and Insta Pro can contain malware. Traditionally, threat actors used these mods because they are distributed on unofficial sites that lack moderation.&nbsp;</p><p style="text-align: justify;">However, in the recent trend, experts discovered actors targeting official app stores via <a href="https://www.cysecurity.news/2019/09/camscanner-returns-after-being-removed.html" target="_blank">infected apps</a>.&nbsp;</p><p style="text-align: justify;">In the latest case, Trojan authors abused both distribution vectors, a new variant of multi-stage Necro loader compromised modified versions of Spotify, Minecraft, and other famous apps in unofficial sources, and apps in Google Play. "The modular architecture gives the Trojan’s creators a wide range of options for both mass and targeted delivery of loader updates or new malicious modules depending on the infected application,” said the <a href="https://securelist.com/necro-trojan-is-back-on-google-play/113881/" target="_blank">report</a>.</p><h3 style="text-align: justify;">Key Findings</h3><p style="text-align: justify;"></p><ul><li style="text-align: justify;">The downloaded payloads can display ads in invisible windows, and interact with them. They can also execute arbitrary DEX files, install download apps, open arbitrary links in invisible WebView windows and run JavaScript, run a tunnel via the victim's device, and subscribe to paid services.&nbsp;</li><li style="text-align: justify;">The new variant of the Necro loader uses obfuscation to escape detection.&nbsp;</li><li style="text-align: justify;">The loader deployed in the app uses steganography tactics to hide payloads&nbsp;</li></ul><p></p>
 ]]></content:encoded>
-<pubDate>2024-09-26T05:43:00.002-04:00</pubDate>
 <pubDate>2024-09-26T05:43:23.681-04:00</pubDate>
 </item>
 <item>
@@ -105,10 +92,8 @@ Security is a vital aspect of DNS because it is a frequent target for cyberattac
 <link>https://www.cysecurity.news/2024/09/brave-browser-secure-and-private-way-to.html</link>
 <guid>https://www.cysecurity.news/2024/09/brave-browser-secure-and-private-way-to.html</guid>
 <content:encoded><![CDATA[
-
 <p style="text-align: justify;">&nbsp;</p><p style="text-align: justify;"><br /></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirhsn13WVdfFYS6AOzazfUJXc8nwAL9ywogkZ1qJ837zMLNE4GS3W9c8j6mPQEp1da7iaA6KyVSBuEw2AYBWyrXvYfrBrN1J6N5ifSrZv_h1gwVcFnLy2A3NDWdfeHFn2CS6x-IqCrRqR7P_lnQY8R3rPceDxxqKHWRJCH769dRnnLD42ummbS8g_yCNNm/s1280/eye-5814967_1280.webp" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirhsn13WVdfFYS6AOzazfUJXc8nwAL9ywogkZ1qJ837zMLNE4GS3W9c8j6mPQEp1da7iaA6KyVSBuEw2AYBWyrXvYfrBrN1J6N5ifSrZv_h1gwVcFnLy2A3NDWdfeHFn2CS6x-IqCrRqR7P_lnQY8R3rPceDxxqKHWRJCH769dRnnLD42ummbS8g_yCNNm/w640-h426/eye-5814967_1280.webp" width="640" /></a></div><p style="text-align: justify;"><br /></p><p style="text-align: justify;">Data is more precious in today's digital world than ever. Companies are trying to collect as much as possible to sell it to third-party data brokers. Cybercrime is growing steadily and targeting unsuspecting victims. Addressing both issues is one of the reasons the more mindful browser, Brave, is integrating an array of features to keep data secure and private.</p><p style="text-align: justify;">Another feature that differentiates Brave is that it has a built-in use of Brave Shields- the application engaged in blocking harmful elements that may track the behaviour of your browsing. In other types of browsers, users have to install third-party ad blockers. Brave Shields are installed directly in the browser and prevent intrusive ads and trackers from retrieving data regarding the activities you perform online.</p><p style="text-align: justify;">It also solves a very common problem with ad blockers, which is that some websites break when the ads are blocked. To solve this issue, Brave replaces tracking codes with privacy-friendly alternatives while ensuring that the integrity of the webpage is maintained and your data is kept secure. As companies continue to devise new ways to hide trackers, Brave is countering this through CNAME uncloaking techniques by uncovering such hidden threats before they manage to collect data from you.</p><p style="text-align: justify;"><b>Blocking Cross-Site Cookies</b></p><p style="text-align: justify;">Cookies are small files that download onto your computer, which track your surfing and, more often than not, targeted advertisements will follow you around the web. Cross-site cookies are blocked, by default, on Brave so websites cannot track movements from one site to the other. Brave provides temporary cookies for functionality, though without exposing any private data, for the occasional cookie-dependent website.</p><p style="text-align: justify;"><b>Phishing Protection with Google Safe Browsing</b></p><p style="text-align: justify;">Though it puts much emphasis on privacy, Brave remembers security. It uses Google Safe Browsing, which won't enable a user to reach a phishing site or download harmful files. Being built upon Chromium, the same platform that Google Chrome runs on, Brave ensures users protection from known threats to their developers, hence making browsing safer.</p><p style="text-align: justify;">While Google Safe Browsing is a service that compromises privacy within Google Chrome, it only serves Brave to block harmful websites without the collection of any personal data from browsing.</p><p style="text-align: justify;"><b>A Search Engine Respecting Your Privacy</b></p><p style="text-align: justify;">Most search engines log your search history, accumulating information about the queries you made and selling that information to customise ads or even sell. In contrast, Brave Search does not collect, store, or share search queries when accessed through the browser. This is a completely private browser that does not believe in logging and selling your browsing habits. Additionally, Brave Search serves less biased results because it crawls the web itself rather than prioritising by SEO schemes or the behaviour of prior users.</p><p style="text-align: justify;">Another advantage of Brave Search is that it can be utilised independently of the download of the Brave browser – so anyone can have private searches.</p><p style="text-align: justify;"><b>Inbuilt VPN and Firewall</b></p><p style="text-align: justify;">It also has a built-in VPN and firewall from Brave, that's available on free trial for seven days, after which you can subscribe to it at $9.99 a month. This will ensure your activity is completely hidden from all the potential threats looking at you, and you won't let any malicious content get inside or leave your network. A VPN encrypts internet traffic so nobody can track your activity online, while the firewall keeps unwanted data from appearing in your system.</p><p style="text-align: justify;">It's probably refreshing about Brave, considering it is committed to protecting personal data. Most companies have either policies or strategies that collect and sell a user's data. With Brave, what is striking is the no-sharing policy, full compliance with the General Data Protection Regulation (GDPR) in Europe and the California Consumer Privacy Act (CCPA), and as such, all users' benefit from strong data protection law, irrespective of their region.</p><p style="text-align: justify;">For people who place importance on privacy and safety, Brave is a full answer. This is because the provider separates itself from the rest of the browsers by its focus on protecting the user from risks connected with the misuse of data or cybercrime through features like Brave Shields, cross-site cookie blocking, private search options, and built-in VPN and firewall services. These have extended to ensure that your web experience remains secure and private; from stopping trackers, malicious websites, and unwanted ads.</p><p style="text-align: justify;"><br /></p>
 ]]></content:encoded>
-<pubDate>2024-09-23T11:08:00.003-04:00</pubDate>
 <pubDate>2024-09-23T11:08:14.164-04:00</pubDate>
 </item>
 <item>
@@ -116,11 +101,9 @@ Security is a vital aspect of DNS because it is a frequent target for cyberattac
 <link>https://thehackernews.com/2024/09/googles-shift-to-rust-programming-cuts.html</link>
 <guid>https://thehackernews.com/2024/09/googles-shift-to-rust-programming-cuts.html</guid>
 <content:encoded><![CDATA[
-
 Google has revealed that its transition to memory-safe languages such as Rust as part of its secure-by-design approach has led to the percentage of memory-safe vulnerabilities discovered in Android dropping from 76% to 24% over a period of six years.
 The tech giant said focusing on Safe Coding for new features not only reduces the overall security risk of a codebase, but also makes the switch
 ]]></content:encoded>
-<pubDate>Wed, 25 Sep 2024 22:30:00 +0530</pubDate>
 <pubDate>Wed, 25 Sep 2024 22:30:00 +0530</pubDate>
 </item>
 <item>
@@ -128,13 +111,11 @@ The tech giant said focusing on Safe Coding for new features not only reduces th
 <link>https://thehackernews.com/2024/09/necro-android-malware-found-in-popular.html</link>
 <guid>https://thehackernews.com/2024/09/necro-android-malware-found-in-popular.html</guid>
 <content:encoded><![CDATA[
-
 Altered versions of legitimate Android apps associated with Spotify, WhatsApp, and Minecraft have been used to deliver a new version of a known malware loader called Necro.
 Kaspersky said some of the malicious apps have also been found on the Google Play Store. They have been cumulatively downloaded 11 million times. They include -
 
 Wuta Camera - Nice Shot Always (com.benqu.wuta) - 10+ million
 ]]></content:encoded>
-<pubDate>Tue, 24 Sep 2024 21:43:00 +0530</pubDate>
 <pubDate>Tue, 24 Sep 2024 21:43:00 +0530</pubDate>
 </item>
 <item>
@@ -142,11 +123,9 @@ Wuta Camera - Nice Shot Always (com.benqu.wuta) - 10+ million
 <link>https://thehackernews.com/2024/09/iranian-apt-unc1860-linked-to-mois.html</link>
 <guid>https://thehackernews.com/2024/09/iranian-apt-unc1860-linked-to-mois.html</guid>
 <content:encoded><![CDATA[
-
 An Iranian advanced persistent threat (APT) threat actor likely affiliated with the Ministry of Intelligence and Security (MOIS) is now acting as an initial access facilitator that provides remote access to target networks.
 Google-owned Mandiant is tracking the activity cluster under the moniker UNC1860, which it said shares similarities with intrusion sets tracked by Microsoft, Cisco Talos, and
 ]]></content:encoded>
-<pubDate>Fri, 20 Sep 2024 15:41:00 +0530</pubDate>
 <pubDate>Fri, 20 Sep 2024 15:41:00 +0530</pubDate>
 </item>
 <item>
@@ -154,12 +133,10 @@ Google-owned Mandiant is tracking the activity cluster under the moniker UNC1860
 <link>https://thehackernews.com/2024/09/chrome-users-can-now-sync-passkeys.html</link>
 <guid>https://thehackernews.com/2024/09/chrome-users-can-now-sync-passkeys.html</guid>
 <content:encoded><![CDATA[
-
 Google on Thursday unveiled a Password Manager PIN to let Chrome web users sync their passkeys across Windows, macOS, Linux, ChromeOS, and Android devices.
 "This PIN adds an additional layer of security to ensure your passkeys are end-to-end encrypted and can't be accessed by anyone, not even Google," Chrome product manager Chirag Desai said.
 The PIN is a six-digit code by default, although it's
 ]]></content:encoded>
-<pubDate>Fri, 20 Sep 2024 11:03:00 +0530</pubDate>
 <pubDate>Fri, 20 Sep 2024 11:03:00 +0530</pubDate>
 </item>
 <item>
@@ -167,11 +144,9 @@ The PIN is a six-digit code by default, although it's
 <link>https://thehackernews.com/2024/09/north-korean-hackers-target-energy-and.html</link>
 <guid>https://thehackernews.com/2024/09/north-korean-hackers-target-energy-and.html</guid>
 <content:encoded><![CDATA[
-
 A North Korea-linked cyber-espionage group has been observed leveraging job-themed phishing lures to target prospective victims in energy and aerospace verticals and infect them with a previously undocumented backdoor dubbed MISTPEN.
 The activity cluster is being tracked by Google-owned Mandiant under the moniker UNC2970, which it said overlaps with a threat group known as TEMP.Hermit, which is
 ]]></content:encoded>
-<pubDate>Wed, 18 Sep 2024 15:02:00 +0530</pubDate>
 <pubDate>Wed, 18 Sep 2024 15:02:00 +0530</pubDate>
 </item>
 <item>
@@ -179,11 +154,9 @@ The activity cluster is being tracked by Google-owned Mandiant under the moniker
 <link>https://thehackernews.com/2024/09/chrome-introduces-one-time-permissions.html</link>
 <guid>https://thehackernews.com/2024/09/chrome-introduces-one-time-permissions.html</guid>
 <content:encoded><![CDATA[
-
 Google has announced that it's rolling out a new set of features to its Chrome browser that gives users more control over their data when surfing the internet and protects them against online threats.
 "With the newest version of Chrome, you can take advantage of our upgraded Safety Check, opt out of unwanted website notifications more easily and grant select permissions to a site for one time
 ]]></content:encoded>
-<pubDate>Wed, 18 Sep 2024 14:34:00 +0530</pubDate>
 <pubDate>Wed, 18 Sep 2024 14:34:00 +0530</pubDate>
 </item>
 <item>
@@ -191,7 +164,6 @@ Google has announced that it's rolling out a new set of features to its Chrome b
 <link>https://cyble.com/blog/undetected-android-spyware-targeting-individuals-in-south-korea/</link>
 <guid>https://cyble.com/blog/undetected-android-spyware-targeting-individuals-in-south-korea/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Android, Spyware, South Korea" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/09/Undetected-Android-Spyware.webp" tabindex="0" width="1200" /></p>
 <p><!-- wp:heading --></p>
 <h2 class="wp-block-heading"><strong>Key Takeaways</strong></h2>
@@ -443,9 +415,7 @@ Google has announced that it's rolling out a new set of features to its Chrome b
 <p>The post <a href="https://cyble.com/blog/undetected-android-spyware-targeting-individuals-in-south-korea/" rel="nofollow">Undetected Android Spyware Targeting Individuals In South Korea</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Mon, 23 Sep 2024 07:50:11 +0000</pubDate>
-<pubDate>Mon, 23 Sep 2024 07:50:11 +0000</pubDate>
 </item>
-
 <item>
 <title>A new path for Kyber on the web</title>
 <link>http://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html</link>
