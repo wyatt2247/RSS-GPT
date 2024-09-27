@@ -4,18 +4,16 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Memory-Safe Code Adoption Has Made Android Safer</title>
 <link>https://www.darkreading.com/application-security/memory-safe-code-adoption-android-safer</link>
 <guid>https://www.darkreading.com/application-security/memory-safe-code-adoption-android-safer</guid>
 <content:encoded><![CDATA[
-
 The number of memory bugs in Android declined sharply after Google began transitioning to Rust for new features in its mobile OS.
 ]]></content:encoded>
 <pubDate>Thu, 26 Sep 2024 21:14:52 GMT</pubDate>
-<pubDate>Thu, 26 Sep 2024 21:14:52 GMT</pubDate>
 </item>
-
 <item>
 <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-103</link>

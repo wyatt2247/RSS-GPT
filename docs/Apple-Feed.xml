@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Apple Releases Security Updates for Multiple Products</title>
 <link>https://www.cisa.gov/news-events/alerts/2024/09/18/apple-releases-security-updates-multiple-products</link>
 <guid>https://www.cisa.gov/news-events/alerts/2024/09/18/apple-releases-security-updates-multiple-products</guid>
 <content:encoded><![CDATA[
-
 <p>Apple released security updates to address vulnerabilities in multiple Apple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.&nbsp;</p>
 <p>CISA encourages users and administrators to review the following advisories and apply necessary updates:</p>
 <ul>
@@ -26,9 +26,7 @@
 </ul>
 ]]></content:encoded>
 <pubDate>Wed, 18 Sep 24 12:00:00 +0000</pubDate>
-<pubDate>Wed, 18 Sep 24 12:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2024-102</link>
