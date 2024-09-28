@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Eliminating Memory Safety Vulnerabilities at the Source</title>
 <link>http://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html</link>
 <guid>http://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Jeff Vander Stoep - Android team, and Alex Rebert - Security Foundations<br /><br /></span>
 
 <p>
@@ -210,7 +210,6 @@ Thanks Alice Ryhl for coding up the simulation. Thanks to Emilia Kasper, Adrian 
 
 </ol></div>
 ]]></content:encoded>
-<pubDate>2024-09-25T12:59:00.000-04:00</pubDate>
 <pubDate>2024-09-25T12:59:41.200-04:00</pubDate>
 </item>
 <item>
@@ -218,7 +217,6 @@ Thanks Alice Ryhl for coding up the simulation. Thanks to Emilia Kasper, Adrian 
 <link>http://security.googleblog.com/2024/09/google-arm-raising-bar-on-gpu-security.html</link>
 <guid>http://security.googleblog.com/2024/09/google-arm-raising-bar-on-gpu-security.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Xuan Xing, Eugene Rodionov, Jon Bottarini, Adam Bacchus - Android Red Team;
 	    Amit Chaudhary, Lyndon Fawcett, Joseph Artgole - Arm Product Security Team
 </span>
@@ -338,10 +336,8 @@ The Arm Product Security Team is actively involved in security-focused industry 
 The Android Red Team and Arm continue to work together to proactively raise the bar on GPU security. With thorough testing, rapid fixing, and updates to the security test suite, we’re improving the ecosystem for Android users. The Android Red Team looks forward to replicating this working relationship with other ecosystem partners to make devices more secure.
 </p>
 ]]></content:encoded>
-<pubDate>2024-09-24T12:00:00.000-04:00</pubDate>
 <pubDate>2024-09-24T12:00:16.218-04:00</pubDate>
 </item>
-
 <item>
 <title>Crypto Scam App Disguised as WalletConnect Steals $70K in Five-Month Campaign</title>
 <link>https://thehackernews.com/2024/09/crypto-scam-app-disguised-as.html</link>
