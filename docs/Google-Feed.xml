@@ -5,19 +5,354 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Eliminating Memory Safety Vulnerabilities at the Source</title>
+<link>http://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html</link>
+<guid>http://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html</guid>
+<content:encoded><![CDATA[
+
+<span class="byline-author">Posted by Jeff Vander Stoep - Android team, and Alex Rebert - Security Foundations<br /><br /></span>
+
+<p>
+Memory safety vulnerabilities remain a pervasive threat to software security. At Google, we believe the path to eliminating this class of vulnerabilities at scale and building high-assurance software lies in <a href="https://blog.google/technology/safety-security/tackling-cybersecurity-vulnerabilities-through-secure-by-design/">Safe Coding</a>, a secure-by-design approach that prioritizes transitioning to memory-safe languages.
+</p>
+<p>
+This post demonstrates why focusing on Safe Coding for new code quickly and counterintuitively reduces the overall security risk of a codebase, finally breaking through the stubbornly high plateau of memory safety vulnerabilities and starting an exponential decline, all while being scalable and cost-effective.
+</p>
+<p>
+We’ll also share updated data on how the percentage of memory safety vulnerabilities in Android dropped from 76% to 24% over 6 years as development shifted to memory safe languages.
+</p>
+<h1>Counterintuitive results</h1>
+
+
+<p>
+Consider a growing codebase primarily written in memory-unsafe languages, experiencing a constant influx of memory safety vulnerabilities. What happens if we gradually transition to memory-safe languages for new features, while leaving existing code mostly untouched except for bug fixes?
+</p>
+<p>
+We can simulate the results. After some years, the code base has the following makeup<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> as new memory unsafe development slows down, and new memory safe development starts to take over:
+  
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW_r-wkHYN6aB63fR5lu4p-qEIF-pNFRKcs_nAywuoJzETX4rvHd-MeazQZPlncOi8u485JHpYM59O-3nPOaPDaMjH5LLCqxHHb4edQV44EUgB7zjNI7EXKNA-zeFJHSc2IfYXq0KfE4ANyQhyphenhyphenzDHUq-ZMX4canzYr-1g1rBAhj2shn4zYoBSGJ1X9Fgkt/s1600/image9.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW_r-wkHYN6aB63fR5lu4p-qEIF-pNFRKcs_nAywuoJzETX4rvHd-MeazQZPlncOi8u485JHpYM59O-3nPOaPDaMjH5LLCqxHHb4edQV44EUgB7zjNI7EXKNA-zeFJHSc2IfYXq0KfE4ANyQhyphenhyphenzDHUq-ZMX4canzYr-1g1rBAhj2shn4zYoBSGJ1X9Fgkt/s1600/image9.png" /></a></div>
+  
+</p>
+<p>
+In the final year of our simulation, despite the growth in memory-unsafe code, the number of memory safety vulnerabilities drops significantly, a seemingly counterintuitive result not seen with other strategies:
+  
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhriISdaRMIrklNyxjeUgzdXXpuLm65UZ3BPXdpViHyy_NaHQ7rwlelqkT1Z70GRAf9144yuh4ADtes82mNOONZcbEFYivTIUrXvvWCZNvT2rDyK4ZkOU00qk_oaCTpSfVZTty4z4UqM6-Xr1tYjZbTJIvNTX0DBsRotJ0iTEztvZEoR7SSuQE1dde2p1jf/s1600/image3.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhriISdaRMIrklNyxjeUgzdXXpuLm65UZ3BPXdpViHyy_NaHQ7rwlelqkT1Z70GRAf9144yuh4ADtes82mNOONZcbEFYivTIUrXvvWCZNvT2rDyK4ZkOU00qk_oaCTpSfVZTty4z4UqM6-Xr1tYjZbTJIvNTX0DBsRotJ0iTEztvZEoR7SSuQE1dde2p1jf/s1600/image3.png" /></a></div>
+  
+</p>
+<p>
+This reduction might seem paradoxical: how is this possible when the quantity of new memory unsafe code actually grew?
+</p>
+<h1>The math </h1>
+
+
+<p>
+The answer lies in an important observation: <strong>vulnerabilities decay exponentially</strong>. They have a half-life. The distribution of vulnerability lifetime follows an exponential distribution given an average vulnerability lifetime &lambda;: 
+  
+  <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUTrTPtyvulXnZlxMEWF6rkSxoHRrNHjqhJ09jSUD_yf_3z-THg4n8oCY6b7YtEUIstSWNSOq8g4fPKLqu35A0n7lewRc1slBx07vI6KC341ItdBGJjmN0Zeq-L4Gc9f_mj2Gt9jtppMce2oI0U09dsFCIP49NECCe6XZMJdMu_kAU1G4Bsc2Xe-8VBCSg/s1600/Screenshot%202024-09-24%2011.00.53%20PM.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUTrTPtyvulXnZlxMEWF6rkSxoHRrNHjqhJ09jSUD_yf_3z-THg4n8oCY6b7YtEUIstSWNSOq8g4fPKLqu35A0n7lewRc1slBx07vI6KC341ItdBGJjmN0Zeq-L4Gc9f_mj2Gt9jtppMce2oI0U09dsFCIP49NECCe6XZMJdMu_kAU1G4Bsc2Xe-8VBCSg/s1600/Screenshot%202024-09-24%2011.00.53%20PM.png" /></a></div>
+
+
+</p>
+<p>
+A large-scale study of vulnerability lifetimes<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup> published in 2022 in Usenix Security confirmed this phenomenon. Researchers found that the vast majority of vulnerabilities reside in new or recently modified code:
+  
+ <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiY1Fp0sUM3d7vOI11Kdae3wdsekNW_GqUdUL6LnhpjSS2cyKxvp_Dr4_N8AGVAf5VDmOAUbcMpXLLH2aYcfeszpY3hr1ttvRclMb3IWMvh9npCkY9Pc5v3jvcnJom80scnkfVBbikWLN-AcfFXSO03gEPiGDE6XSEftV6DBbUYD5HX1BQLnO0bB5-iGb0/s1600/image7.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiY1Fp0sUM3d7vOI11Kdae3wdsekNW_GqUdUL6LnhpjSS2cyKxvp_Dr4_N8AGVAf5VDmOAUbcMpXLLH2aYcfeszpY3hr1ttvRclMb3IWMvh9npCkY9Pc5v3jvcnJom80scnkfVBbikWLN-AcfFXSO03gEPiGDE6XSEftV6DBbUYD5HX1BQLnO0bB5-iGb0/s1600/image7.png" /></a></div>
+</p>
+<p>
+This confirms and generalizes our <a href="https://security.googleblog.com/2021/04/rust-in-android-platform.html">observation, published in 2021</a>, that the density of Android’s memory safety bugs decreased with the age of the code, primarily residing in recent changes.
+</p>
+<p>
+This leads to two important takeaways:
+</p>
+<ul>
+
+<li><strong>The problem is overwhelmingly with new code</strong>, necessitating a fundamental change in how we develop code.
+
+<li><strong>Code matures and gets safer with time, exponentially</strong>, making the returns on investments like rewrites diminish over time as code gets older.
+</li>
+</ul>
+<p>
+For example, based on the average vulnerability lifetimes, 5-year-old code has a 3.4x (using lifetimes from the study) to 7.4x (using lifetimes observed in Android and Chromium) lower vulnerability density than new code.
+</p>
+<p>
+In real life, as with our simulation, when we start to prioritize prevention, the situation starts to rapidly improve.
+</p>
+<h1>In practice on Android</h1>
+
+
+<p>
+The Android team began prioritizing transitioning new development to memory safe languages around 2019. This decision was driven by the increasing cost and complexity of managing memory safety vulnerabilities. There’s much left to do, but the results have already been positive. Here’s the big picture in 2024, looking at total code:
+  
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1OlXyuvF9q6o3VG9Rh4OSgrEvvlJZ0D_O5uW5lp-NhF8hSxDkY98ftEfwYvFQrAGp-ftnehqJ2RU17KDyfhgI3KjeFsmJyqGmL7n_Ip1SXAnza-NSqgrsJ47HOTluyzKAb_LCpwGHtVybKg9LNgRorEKWS2LIpqrnmcPIxLRPfW9ECK_XqSQ5fjrU2WhH/s1600/image5.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1OlXyuvF9q6o3VG9Rh4OSgrEvvlJZ0D_O5uW5lp-NhF8hSxDkY98ftEfwYvFQrAGp-ftnehqJ2RU17KDyfhgI3KjeFsmJyqGmL7n_Ip1SXAnza-NSqgrsJ47HOTluyzKAb_LCpwGHtVybKg9LNgRorEKWS2LIpqrnmcPIxLRPfW9ECK_XqSQ5fjrU2WhH/s1600/image5.png" /></a></div>
+<p>
+<br />
+</p>
+<p>
+Despite the majority of code still being unsafe (but, crucially, getting progressively older), we’re seeing a large and continued decline in memory safety vulnerabilities. The results align with what we simulated above, and are even better, potentially as a result of our parallel efforts to improve the safety of our memory unsafe code. We first <a href="https://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html">reported</a> this decline in 2022, and we continue to see the total number of memory safety vulnerabilities dropping<sup id="fnref3"><a href="#fn3" rel="footnote">3</a></sup>. Note that the data for 2024 is extrapolated to the full year (represented as 36, but currently at 27 after the <a href="https://source.android.com/docs/security/bulletin/2024-09-01">September security bulletin</a>).
+  
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilTxSxGJLA-FakEzfrwOMTFJ8S03bJDn6Y61pKhtEAYV0oGXi1T_kVL48uU0ojZD9IwSXIQKL-duOtU1m4uEMsxNpvC3U9N_aynQ1XkrIkyFNve9Zj3FlbxJgcdrZaCSeKKJhYpEQM_NiMQDZduorxc8hgNJccpTX_VX3XYYV3uaQCwny7duVVDMNAHWHp/s1600/image8.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilTxSxGJLA-FakEzfrwOMTFJ8S03bJDn6Y61pKhtEAYV0oGXi1T_kVL48uU0ojZD9IwSXIQKL-duOtU1m4uEMsxNpvC3U9N_aynQ1XkrIkyFNve9Zj3FlbxJgcdrZaCSeKKJhYpEQM_NiMQDZduorxc8hgNJccpTX_VX3XYYV3uaQCwny7duVVDMNAHWHp/s1600/image8.png" /></a></div>
+</p>
+<p>
+The percent of vulnerabilities caused by memory safety issues continues to correlate closely with the development language that’s used for new code. Memory safety issues, which accounted for 76% of Android vulnerabilities in 2019, and are currently 24% in 2024, well below the 70% industry norm, and continuing to drop.
+  
+  <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoFvbQ1AN4OQOiRSBNqRKGhHAsaJNSJNOQ9ixLn0ClESW2S_zQttsaTuPY06gvxrY2d9QUUCoWNFzypHX6RB4mhOyhM8fbjJjDL6uascUpVYl7hgisMWcc0lcKRrWCPKc7XXoIxzj_Hr-7nOF6N3glP05w0wsvfdGmAENLha8yZYL7mPOmPqg1Q187oiQi/s1600/image6.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoFvbQ1AN4OQOiRSBNqRKGhHAsaJNSJNOQ9ixLn0ClESW2S_zQttsaTuPY06gvxrY2d9QUUCoWNFzypHX6RB4mhOyhM8fbjJjDL6uascUpVYl7hgisMWcc0lcKRrWCPKc7XXoIxzj_Hr-7nOF6N3glP05w0wsvfdGmAENLha8yZYL7mPOmPqg1Q187oiQi/s1600/image6.png" /></a></div>
+</p>
+<p>
+As we noted in a <a href="https://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html">previous post, </a>memory safety vulnerabilities tend to be significantly more severe, more likely to be remotely reachable, more versatile, and more likely to be maliciously exploited than other vulnerability types. As the number of memory safety vulnerabilities have dropped, the overall security risk has dropped along with it. 
+</p>
+<h1>Evolution of memory safety strategies</h1>
+
+
+<p>
+Over the past decades, the industry has pioneered significant advancements to combat memory safety vulnerabilities, with each generation of advancements contributing valuable tools and techniques that have tangibly improved software security. However, with the benefit of hindsight, it’s evident that we have yet to achieve a truly scalable and sustainable solution that achieves an acceptable level of risk:
+</p>
+<p>
+<strong>1st generation: reactive patching.</strong> The initial focus was mainly on fixing vulnerabilities reactively. For problems as rampant as memory safety, this incurs ongoing costs on the business and its users. Software manufacturers have to invest significant resources in responding to frequent incidents. This leads to constant security updates, leaving users vulnerable to unknown issues, and frequently albeit temporarily vulnerable to known issues, which are getting exploited <a href="https://cloud.google.com/blog/topics/threat-intelligence/time-to-exploit-trends-2021-2022/">ever faster</a>.
+</p>
+<p>
+<strong>2nd generation: proactive mitigating. </strong>The next approach consisted of reducing risk in vulnerable software, including a series of exploit mitigation strategies that raised the costs of crafting exploits. However, these mitigations, such as stack canaries and control-flow integrity, typically impose a recurring cost on products and development teams, often putting security and other product requirements in conflict:
+</p>
+<ul>
+
+<li>They come with performance overhead, impacting execution speed, battery life, tail latencies, and memory usage, sometimes preventing their deployment.
+
+<li>Attackers are seemingly infinitely creative, resulting in a cat-and-mouse game with defenders. In addition, the bar to develop and weaponize an exploit is regularly being lowered through <a href="https://docs.pwntools.com/en/stable/">better tooling</a> and other <a href="https://googleprojectzero.blogspot.com/2024/06/project-naptime.html">advancements</a>.
+</li>
+</ul>
+<p>
+<strong>3rd generation: proactive vulnerability discovery.</strong> The following generation focused on detecting vulnerabilities. This includes <a href="https://github.com/google/sanitizers">sanitizers</a>, often paired with fuzzing like <a href="https://llvm.org/docs/LibFuzzer.html">libfuzzer</a>, many of which were built by Google. While helpful, these methods address the symptoms of memory unsafety, not the root cause. They typically require constant pressure to get teams to fuzz, triage, and fix their findings, resulting in low coverage. Even when applied thoroughly, fuzzing does not provide high assurance, as evidenced by vulnerabilities found in extensively fuzzed code.
+</p>
+<p>
+Products across the industry have been significantly strengthened by these approaches, and we remain committed to responding to, mitigating, and proactively hunting for vulnerabilities. Having said that, it has become increasingly clear that those approaches are not only insufficient for reaching an acceptable level of risk in the memory-safety domain, but incur ongoing and increasing costs to developers, users, businesses, and products. As highlighted by numerous government agencies, including CISA, in their <a href="https://www.cisa.gov/sites/default/files/2023-10/SecureByDesign_1025_508c.pdf">secure-by-design report</a>, "only by incorporating secure by design practices will we break the vicious cycle of constantly creating and applying fixes."
+</p>
+<h1>The fourth generation: high-assurance prevention</h1>
+
+
+<p>
+The shift towards memory safe languages represents more than just a change in technology, it is a fundamental shift in how to approach security. This shift is not an unprecedented one, but rather a significant expansion of a proven approach. An approach that has already demonstrated remarkable <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42934.pdf">success</a> in eliminating other vulnerability classes like XSS.
+</p>
+<p>
+The foundation of this shift is <a href="https://dl.acm.org/doi/10.1145/3651621">Safe Coding</a>, which enforces security invariants directly into the development platform through language features, static analysis, and API design. The result is a secure by design ecosystem providing continuous assurance at scale, safe from the risk of accidentally introducing vulnerabilities.
+</p>
+<p>
+The shift from previous generations to Safe Coding can be seen in the quantifiability of the assertions that are made when developing code. Instead of focusing on the interventions applied (mitigations, fuzzing), or attempting to use past performance to predict future security, Safe Coding allows us to make strong assertions about the code's properties and what can or cannot happen based on those properties.
+</p>
+<p>
+Safe Coding's scalability lies in its ability to reduce costs by:
+</p>
+<ul>
+
+<li><strong>Breaking the arms race:</strong> Instead of an endless arms race of defenders attempting to raise attackers’ costs by also raising their own, Safe Coding leverages our control of developer ecosystems to break this cycle by focusing on proactively building secure software from the start.
+
+<li><strong>Commoditizing high assurance memory safety:</strong> Rather than precisely tailoring interventions to each asset's assessed risk, all while managing the cost and overhead of reassessing evolving risks and applying disparate interventions, Safe Coding establishes a <a href="https://www.philvenables.com/post/raise-the-baseline-by-reducing-the-cost-of-control">high baseline of commoditized security</a>, like memory-safe languages, that affordably reduces vulnerability density across the board. Modern memory-safe languages (especially Rust) extend these principles beyond memory safety to other bug classes.
+
+<li><strong>Increasing productivity</strong>: Safe Coding improves code correctness and developer productivity by shifting bug finding further left, before the code is even checked in. We see this shift showing up in important metrics such as rollback rates (emergency code revert due to an unanticipated bug). The Android team has observed that the rollback rate of Rust changes is less than half that of C++.
+</li>
+</ul>
+<h1>From lessons to action</h1>
+
+
+<h2>Interoperability is the new rewrite</h2>
+
+
+<p>
+Based on what we’ve learned, it's become clear that we do not need to throw away or rewrite all our existing memory-unsafe code. Instead, Android is focusing on making interoperability safe and convenient as a primary capability in our memory safety journey. Interoperability offers a practical and incremental approach to adopting memory safe languages, allowing organizations to leverage existing investments in code and systems, while accelerating the development of new features.
+</p>
+<p>
+We recommend focusing investments on improving interoperability, as we are doing with
+</p>
+<p>
+Rust ↔︎ C++ and Rust ↔︎ <a href="https://github.com/rust-diplomat/diplomat/pull/629">Kotlin</a>. To that end, earlier this year, Google provided a <a href="https://security.googleblog.com/2024/02/improving-interoperability-between-rust-and-c.html">$1,000,000 grant</a> to the Rust Foundation, in addition to developing interoperability tooling like <a href="https://github.com/google/crubit">Crubit</a> and <a href="https://github.com/google/autocxx">autocxx</a>.
+</p>
+<h2>Role of previous generations</h2>
+
+
+<p>
+As Safe Coding continues to drive down risk, what will be the role of mitigations and proactive detection? We don’t have definitive answers in Android, but expect something like the following:
+</p>
+<ul>
+
+<li><strong>More selective use of proactive mitigations</strong>: We expect less reliance on exploit mitigations as we transition to memory-safe code, leading to not only safer software, but also more efficient software. For instance, after removing the now unnecessary sandbox, <a href="https://groups.google.com/a/chromium.org/g/chromium-dev/c/UhwVDk4HZFA">Chromium's Rust QR code generator</a> is 95% faster.
+
+<li><strong>Decreased use, but increased effectiveness of proactive detection</strong>: We anticipate a decreased reliance on proactive detection approaches like fuzzing, but increased effectiveness, as achieving comprehensive coverage over small well-encapsulated code snippets becomes more feasible.
+</li>
+</ul>
+<h1>Final thoughts</h1>
+
+
+<p>
+Fighting against the math of vulnerability lifetimes has been a losing battle. Adopting Safe Coding in new code offers a paradigm shift, allowing us to leverage the inherent decay of vulnerabilities to our advantage, <em>even in large existing systems</em>. The concept is simple: once we turn off the tap of new vulnerabilities, they decrease exponentially, making all of our code safer, increasing the <a href="https://docs.google.com/presentation/d/16LZ6T-tcjgp3T8_N3m0pa5kNA1DwIsuMcQYDhpMU7uU/edit#slide=id.g3e7cac054a_0_89">effectiveness of security design</a>, and alleviating the scalability challenges associated with existing memory safety strategies such that they can be applied more effectively in a targeted manner.
+</p>
+<p>
+This approach has proven successful in eliminating entire vulnerability classes and its effectiveness in tackling memory safety is increasingly evident based on more than half a decade of consistent results in Android.
+</p>
+<p>
+We'll be sharing more about our secure-by-design efforts in the coming months.
+</p>
+<h1>Acknowledgements</h1>
+
+
+<p>
+Thanks Alice Ryhl for coding up the simulation. Thanks to Emilia Kasper, Adrian Taylor, Manish Goregaokar, Christoph Kern, and Lars Bergstrom for your helpful feedback on this post.
+</p>
+
+<!-- Footnotes themselves at the bottom. -->
+
+<h2>Notes</h2>
+<div class="footnotes">
+<hr />
+<ol><li id="fn1">
+<p>
+     Simulation was based on numbers similar to Android and other Google projects. The code base doubles every 6 years. The average lifetime for vulnerabilities is 2.5 years. It takes 10 years to transition to memory safe languages for new code, and we use a sigmoid function to represent the transition. Note that the use of the sigmoid function is why the second chart doesn’t initially appear to be exponential.&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a><li id="fn2">
+<p>
+    Alexopoulos et al. <a href="https://www.usenix.org/conference/usenixsecurity22/presentation/alexopoulos">"How Long Do Vulnerabilities Live in the Code? A Large-Scale Empirical Measurement Study on FOSS Vulnerability Lifetimes"</a>. USENIX Security 22.&nbsp;<a href="#fnref2" rev="footnote">&#8617;</a><li id="fn3">
+<p>
+     Unlike our simulation, these are vulnerabilities from a real code base, which comes with higher variance, as you can see in the slight increase in 2023. Vulnerability reports were unusually high that year, but in line with expectations given code growth, so while the percentage of memory safety vulnerabilities continued to drop, the absolute number increased slightly.&nbsp;<a href="#fnref3" rev="footnote">&#8617;</a>
+
+</ol></div>
+]]></content:encoded>
+<pubDate>2024-09-25T12:59:00.000-04:00</pubDate>
+<pubDate>2024-09-25T12:59:41.200-04:00</pubDate>
+</item>
+<item>
+<title>Google &amp; Arm - Raising The Bar on GPU Security</title>
+<link>http://security.googleblog.com/2024/09/google-arm-raising-bar-on-gpu-security.html</link>
+<guid>http://security.googleblog.com/2024/09/google-arm-raising-bar-on-gpu-security.html</guid>
+<content:encoded><![CDATA[
+
+<span class="byline-author">Posted by Xuan Xing, Eugene Rodionov, Jon Bottarini, Adam Bacchus - Android Red Team;
+	    Amit Chaudhary, Lyndon Fawcett, Joseph Artgole - Arm Product Security Team
+</span>
+
+<h3>Who cares about GPUs?</h3>
+
+
+<p>
+You, me, and the entire ecosystem! GPUs (graphics processing units) are critical in delivering rich visual experiences on mobile devices. However, the GPU software and firmware stack has become a way for attackers to gain permissions and entitlements (privilege escalation) to Android-based devices. There are plenty of issues in this category that can affect all major GPU brands, for example, <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-4295">CVE-2023-4295</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-21106">CVE-2023-21106</a>, <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-0884">CVE-2021-0884</a>, and more. Most exploitable GPU vulnerabilities are in the implementation of the GPU kernel mode modules. These modules are pieces of code that load/unload during runtime, extending functionality without the need to reboot the device.
+</p>
+<p>
+Proactive testing is good hygiene as it can lead to the detection and resolution of new vulnerabilities before they’re exploited. It’s also one of the most complex investigations to do as you don’t necessarily know where the vulnerability will appear (that’s the point!). By combining the expertise of Google’s engineers with IP owners and OEMs, we can ensure the Android ecosystem retains a strong measure of integrity.  
+</p>
+<h3>Why investigate GPUs?</h3>
+
+
+<p>
+When researching vulnerabilities, GPUs are a popular target due to:
+</p>
+<ol>
+
+<li><strong>Functionality vs. Security Tradeoffs</strong>
+<p>
+
+    Nobody wants a slow, unresponsive device; any hits to GPU performance could result in a noticeably degraded user experience. As such, the GPU software stack in Android relies on an <strong>in-process HAL model</strong> where the API & user space drivers communicating with the GPU kernel mode module are running directly within the context of apps, thus avoiding IPC (interprocess communication). This opens the door for potentially untrusted code from a third party app being able to directly access the interface exposed by the GPU kernel module. If there are any vulnerabilities in the module, the third party app has an avenue to exploit them. As a result, a potentially untrusted code running in the context of the third party application is able to directly access the interface exposed by the GPU kernel module and exploit potential vulnerabilities in the kernel module. 
+</p>
+<p>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVb2Z92K3Iu0Eouk9WRIelR9flB1_0IJU1_HBpg-fJuuc3HUZen3aDt1P_C_JkSSqhEPSk6ivro3DVZwi1NXTBszbOSLKVzzU103x-c9EFryOUc71iWkl1JK2oHPC6R2M3-jFdWQfEiOQxYsl9bL2XWputk8mTpmHaG17BQIMhLM-Wj2xOnWy5un9qzP6G/s1600/arm%20blog.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVb2Z92K3Iu0Eouk9WRIelR9flB1_0IJU1_HBpg-fJuuc3HUZen3aDt1P_C_JkSSqhEPSk6ivro3DVZwi1NXTBszbOSLKVzzU103x-c9EFryOUc71iWkl1JK2oHPC6R2M3-jFdWQfEiOQxYsl9bL2XWputk8mTpmHaG17BQIMhLM-Wj2xOnWy5un9qzP6G/s1600/arm%20blog.png" /></a></div>
+
+
+
+<li><strong>Variety & Memory Safety</strong>
+<p>
+
+    Additionally, the implementation of GPU subsystems (and kernel modules specifically) from major OEMs are increasingly complex. Kernel modules for most GPUs are typically written in memory unsafe languages such as C, which are susceptible to memory corruption vulnerabilities like buffer overflow.
+</p>
+</li>
+</ol>
+
+<h3>Can someone do something about this?</h3>
+
+
+<p>
+Great news, we already have! Who’s we? The Android Red Team and Arm! We’ve worked together to run an engagement on the Mali GPU (more on that below), but first, a brief introduction:
+</p>
+<p>
+<strong>Android Red Team</strong>
+</p>
+<p>
+The Android Red Team performs time-bound security assessment engagements on all aspects of the Android open source codebase and conducts regular security reviews and assessments of internal Android components. Throughout these engagements, the Android Red Team regularly collaborates with 3rd party software and hardware providers to analyze and understand proprietary and “closed source” code repositories and relevant source code that are utilized by Android products with the sole objective to identify security risks and potential vulnerabilities before they can be exploited by adversaries outside of Android. This year, the Android Red Team collaborated directly with our industry partner, Arm, to conduct the Mali GPU engagement and further secure millions of Android devices.
+</p>
+<p>
+<strong>Arm Product Security and GPU Teams</strong>
+</p>
+<p>
+Arm has a central product security team that sets the policy and practice across the company. They also have dedicated product security experts embedded in engineering teams. Arm operates a systematic approach which is designed to prevent, discover, and eliminate security vulnerabilities. This includes a Security Development Lifecycle (SDL), a Monitoring capability, and Incident Response. For this collaboration the Android Red Teams were supported by the embedded security experts based in Arm’s GPU engineering team.
+</p>
+<h3>Working together to secure Android devices</h3>
+
+
+<p>
+Google’s Android Security teams and Arm have been working together for a long time. Security requirements are never static, and challenges exist with all GPU vendors. By frequently sharing expertise, the Android Red Team and Arm were able to accelerate detection and resolution. Investigations of identified vulnerabilities, potential remediation strategies, and hardening measures drove detailed analyses and the implementation of fixes where relevant.
+</p>
+<p>
+Recent research focused on the Mali GPU because it is the most popular GPU in today's Android devices. Collaborating on GPU security allowed us to:
+</p>
+<ol>
+
+<li><strong>Assess the impact on the broadest segment of the Android Ecosystem</strong>: The Arm Mali GPU is one of the most used GPUs by original equipment manufacturers (OEMs) and is found in many popular mobile devices. By focusing on the Arm Mali GPU, the Android Red Team could assess the security of a GPU implementation running on millions of Android devices worldwide.
+
+<li><strong>Evaluate the reference implementation and vendor-specific changes: </strong>Phone manufacturers often modify the upstream implementation of GPUs. This tailors the GPU to the manufacturer's specific device(s). These modifications and enhancements are always challenging to make, and can sometimes introduce security vulnerabilities that are not present in the original version of the GPU upstream. In this specific instance, the Google Pixel team actively worked with the Android Red Team to better understand and secure the modifications they made for Pixel devices.
+</li>
+</ol>
+<h3>Improvements</h3>
+
+
+<p>
+Investigations have led to significant improvements, leveling up the security of the GPU software/firmware stack across a wide segment of the Android ecosystem.
+</p>
+<h2>Testing the kernel driver</h2>
+
+
+<p>
+One key component of the GPU subsystem is its kernel mode driver. During this engagement, both the Android Red Team and Arm invested significant effort looking at the Mali kbase kernel driver. Due to its complexity, fuzzing was chosen as the primary testing approach for this area. Fuzzing automates and scales vulnerability discovery in a way not possible via manual methods. With help from Arm, the Android Red Team added more syzkaller fuzzing descriptions to match the latest Mali kbase driver implementation. 
+</p>
+<p>
+The team built a few customizations to enable fuzzing the Mali kbase driver in the cloud, without physical hardware. This provided a huge improvement to fuzzing performance and scalability. With the Pixel team’s support, we also were able to set up fuzzing on actual Pixel devices. Through the combination of cloud-based fuzzing, Pixel-based fuzzing, and manual review, we were able to uncover two memory issues in Pixel’s customization of driver code (CVE-2023-48409 and CVE-2023-48421). 
+</p>
+<p>
+Both issues occurred inside of the gpu_pixel_handle_buffer_liveness_update_ioctl function, which is implemented by the Pixel team as part of device specific customization. These are both memory issues caused by integer overflow problems. If exploited carefully alongside other vulnerabilities, these issues could lead to kernel privilege escalation from user space.  Both issues were fixed and the patch was released to affected devices in <a href="https://source.android.com/docs/security/bulletin/pixel/2023-12-01">Pixel security bulletin 2023-12-01</a>.
+</p>
+<h2>Testing the firmware</h2>
+
+
+<p>
+Firmware is another fundamental building block of the GPU subsystem. It’s the intermediary working with kernel drivers and GPU hardware. In many cases, firmware functionality is directly/indirectly accessible from the application. So “application ⇒ kernel ⇒ firmware ⇒ kernel” is a known attack flow in this area. Also, in general, firmware runs on embedded microcontrollers with limited resources. Commonly used security kernel mitigations (ASLR, stack protection, heap protection, certain sanitizers, etc.) might not be applicable to firmware due to resource constraints and performance impact. This can make compromising firmware easier, in some cases, than directly compromising kernel drivers from user space. To test the integrity of existing firmware, the Android Red Team and Arm worked together to perform both fuzzing and formal verification along with manual analysis. This multi-pronged approach led to the discovery of CVE-2024-0153, which had a patch released in <a href="https://source.android.com/docs/security/bulletin/2024-07-01">the July 2024 Android Security Bulletin</a>.
+</p>
+<p>
+CVE-2024-0153 happens when GPU firmware handles certain instructions. When handling such instructions, the firmware copies register content into a buffer. There are size checks before the copy operation. However, under very specific conditions, an out-of-bounds write happens to the destination buffer, leading to a buffer overflow. When carefully manipulated, this overflow will overwrite some other important structures following the buffer, causing code execution inside of the GPU firmware. 
+</p>
+<p>
+The conditions necessary to reach and potentially exploit this issue are very complex as it requires a deep understanding of how instructions are executed. With collective expertise, the Android Red Team and Arm were able to verify the exploitation path and leverage the issue to gain limited control of GPU firmware. This eventually circled back to the kernel to obtain privilege escalation. Arm did an excellent job to respond quickly and remediate the issue. Altogether, this highlights the strength of collaboration between both teams to dive deeper.
+</p>
+<h3>Time to Patch</h3>
+
+
+<p>
+It’s known that attackers exploit GPU vulnerabilities in the wild, and time to patch is crucial to reduce risk of exploitation and protect users. As a result of this engagement, nine new Security Test suite (<a href="https://source.android.com/docs/security/test/sts-sdk">STS</a>) tests were built to help partners automatically check their builds for missing Mali kbase patches. (Security Test Suite is software provided by Google to help partners automate the process of checking their builds for missing security patches.)
+</p>
+<h3>What’s Next?</h3>
+
+
+<p>
+The Arm Product Security Team is actively involved in security-focused industry communities and collaborates closely with its ecosystem partners. The engagement with the Android Red Team, for instance, provides valuable enablement that drives best practices and product excellence. Building on this collaborative approach, Arm is complementing its product security assurance capabilities with a bug bounty program. This investment will expand Arm’s efforts to identify potential vulnerabilities. For more information on Arm's product security initiatives, please visit this <a href="https://www.arm.com/products/product-security" target="_blank">product security page</a>.
+</p>
+<p>
+The Android Red Team and Arm continue to work together to proactively raise the bar on GPU security. With thorough testing, rapid fixing, and updates to the security test suite, we’re improving the ecosystem for Android users. The Android Red Team looks forward to replicating this working relationship with other ecosystem partners to make devices more secure.
+</p>
+]]></content:encoded>
+<pubDate>2024-09-24T12:00:00.000-04:00</pubDate>
+<pubDate>2024-09-24T12:00:16.218-04:00</pubDate>
+</item>
+
+<item>
 <title>Crypto Scam App Disguised as WalletConnect Steals $70K in Five-Month Campaign</title>
 <link>https://thehackernews.com/2024/09/crypto-scam-app-disguised-as.html</link>
 <guid>https://thehackernews.com/2024/09/crypto-scam-app-disguised-as.html</guid>
 <content:encoded><![CDATA[
-
 Cybersecurity researchers have discovered a malicious Android app on the Google Play Store that enabled the threat actors behind it to steal approximately $70,000 in cryptocurrency from victims over a period of nearly five months.
 The dodgy app, identified by Check Point, masqueraded as the legitimate WalletConnect open-source protocol to trick unsuspecting users into downloading it.
 "Fake
 ]]></content:encoded>
 <pubDate>Sat, 28 Sep 2024 15:24:00 +0530</pubDate>
-<pubDate>Sat, 28 Sep 2024 15:24:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Google Patches Another Zero-Day <b>Vulnerability</b> in Chrome - MSN</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.msn.com/en-us/news/technology/google-patches-another-zero-day-vulnerability-in-chrome/ar-AA1pycDv%3Focid%3DBingNewsVerp&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3_djzchu412jNJrO4yL2nQ</link>
