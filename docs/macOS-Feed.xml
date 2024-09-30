@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>ChatGPT Vulnerability Exploited: Hacker Demonstrates Data Theft via ‘SpAIware</title>
 <link>https://www.cysecurity.news/2024/09/chatgpt-vulnerability-exploited-hacker.html</link>
 <guid>https://www.cysecurity.news/2024/09/chatgpt-vulnerability-exploited-hacker.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div style="text-align: justify;"><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimY1Ah7399g7l0nWrjME1rf1ecMXmrI2CMcq7lVE6mOwlphYPaiSKSoov8AI7SHrkz-e-ewIq_4c_uQ3upmOYmptLM5JoNLwzFIf5cU6qW11mX8T_kbV_LkITc95limaMrd-xm-a3SFNQnEbkbjeugqyRBCh-QR7KkIJ9YEedYIASGokifI4KqxcPCN78/s5508/pexels-bertellifotografia-16094040.jpg" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimY1Ah7399g7l0nWrjME1rf1ecMXmrI2CMcq7lVE6mOwlphYPaiSKSoov8AI7SHrkz-e-ewIq_4c_uQ3upmOYmptLM5JoNLwzFIf5cU6qW11mX8T_kbV_LkITc95limaMrd-xm-a3SFNQnEbkbjeugqyRBCh-QR7KkIJ9YEedYIASGokifI4KqxcPCN78/s600/pexels-bertellifotografia-16094040.jpg" width="600" /></a></div>A recent cyber vulnerability in ChatGPT’s long-term memory feature was exposed, showing how hackers could use this AI tool to steal user data. Security researcher Johann Rehberger demonstrated this issue through a concept he named “SpAIware,” which exploited a weakness in ChatGPT’s macOS app, allowing it to act as spyware.
 
 ChatGPT initially only stored memory within an active conversation session, resetting once the chat ended. This limited the potential for hackers to exploit data, as the information wasn’t saved long-term.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">However, earlier this year, OpenAI introduced a new feature allowing ChatGPT to retain memory between different conversations. This update, meant to personalize the user experience, also created an unexpected opportunity for cybercriminals to manipulate the chatbot’s memory retention.
@@ -26,10 +26,8 @@ To protect against such vulnerabilities, users should regularly review ChatGPT�
 
 While OpenAI is expected to continue addressing these security issues, this incident serves as a reminder that even advanced AI tools like ChatGPT are not immune to cyber threats. As AI technology continues to evolve, so do the tactics used by hackers to exploit these systems. Staying informed, vigilant, and cautious while using AI tools is key to minimizing potential risks.</div>
 ]]></content:encoded>
-<pubDate>2024-09-30T11:08:00.000-04:00</pubDate>
 <pubDate>2024-09-30T11:08:00.832-04:00</pubDate>
 </item>
-
 <item>
 <title>Kia fixes high-risk <b>vulnerability</b>: affecting millions of vehicles, attackers can locate, open ...</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://passionategeekz.com/kia-fixes-high-risk-vulnerability-affecting-millions-of-vehicles-attackers-can-locate-open-doors-and-start-engines-within-seconds-passionategeekz/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0ArCuj0_Y_Q3qyY8qeAQbf</link>
