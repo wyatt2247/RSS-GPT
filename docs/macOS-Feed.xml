@@ -4,6 +4,31 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>ChatGPT Vulnerability Exploited: Hacker Demonstrates Data Theft via ‘SpAIware</title>
+<link>https://www.cysecurity.news/2024/09/chatgpt-vulnerability-exploited-hacker.html</link>
+<guid>https://www.cysecurity.news/2024/09/chatgpt-vulnerability-exploited-hacker.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p><div style="text-align: justify;"><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimY1Ah7399g7l0nWrjME1rf1ecMXmrI2CMcq7lVE6mOwlphYPaiSKSoov8AI7SHrkz-e-ewIq_4c_uQ3upmOYmptLM5JoNLwzFIf5cU6qW11mX8T_kbV_LkITc95limaMrd-xm-a3SFNQnEbkbjeugqyRBCh-QR7KkIJ9YEedYIASGokifI4KqxcPCN78/s5508/pexels-bertellifotografia-16094040.jpg" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimY1Ah7399g7l0nWrjME1rf1ecMXmrI2CMcq7lVE6mOwlphYPaiSKSoov8AI7SHrkz-e-ewIq_4c_uQ3upmOYmptLM5JoNLwzFIf5cU6qW11mX8T_kbV_LkITc95limaMrd-xm-a3SFNQnEbkbjeugqyRBCh-QR7KkIJ9YEedYIASGokifI4KqxcPCN78/s600/pexels-bertellifotografia-16094040.jpg" width="600" /></a></div>A recent cyber vulnerability in ChatGPT’s long-term memory feature was exposed, showing how hackers could use this AI tool to steal user data. Security researcher Johann Rehberger demonstrated this issue through a concept he named “SpAIware,” which exploited a weakness in ChatGPT’s macOS app, allowing it to act as spyware.
+
+ChatGPT initially only stored memory within an active conversation session, resetting once the chat ended. This limited the potential for hackers to exploit data, as the information wasn’t saved long-term.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">However, earlier this year, OpenAI introduced a new feature allowing ChatGPT to retain memory between different conversations. This update, meant to personalize the user experience, also created an unexpected opportunity for cybercriminals to manipulate the chatbot’s memory retention.
+
+Rehberger identified that through prompt injection, hackers could insert malicious commands into ChatGPT’s memory. This allowed the chatbot to continuously send a user’s conversation history to a remote server, even across different sessions.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Once a hacker successfully inserted this prompt into ChatGPT’s long-term memory, the user’s data would be collected each time they interacted with the AI tool. This makes the attack particularly dangerous, as most users wouldn’t notice anything suspicious while their information is being stolen in the background.
+
+What makes this attack even more alarming is that the hacker doesn’t require direct access to a user’s device to initiate the injection. The payload could be embedded within a website or image, and all it would take is for the user to interact with this media and prompt ChatGPT to engage with it.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">For instance, if a user asked ChatGPT to scan a malicious website, the hidden command would be stored in ChatGPT’s memory, enabling the hacker to exfiltrate data whenever the AI was used in the future.
+
+Interestingly, this exploit appears to be limited to the macOS app, and it doesn’t work on ChatGPT’s web version. When Rehberger first reported his discovery, OpenAI dismissed the issue as a “safety” concern rather than a security threat. However, once he built a proof-of-concept demonstrating the vulnerability, OpenAI took action, issuing a partial fix. This update prevents ChatGPT from sending data to remote servers, which mitigates some of the risks.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">However, the bot still accepts prompts from untrusted sources, meaning hackers can still manipulate the AI’s long-term memory.
+
+The implications of this exploit are significant, especially for users who rely on ChatGPT for handling sensitive data or important business tasks. It’s crucial that users remain vigilant and cautious, as these prompt injections could lead to severe privacy breaches. For example, any saved conversations containing confidential information could be accessed by cybercriminals, potentially resulting in financial loss, identity theft, or data leaks.
+
+To protect against such vulnerabilities, users should regularly review ChatGPT’s memory settings, checking for any unfamiliar entries or prompts.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As demonstrated in Rehberger’s video, users can manually delete suspicious entries, ensuring that the AI’s long-term memory doesn’t retain harmful data. Additionally, it’s essential to be cautious about the sources from which they ask ChatGPT to retrieve information, avoiding untrusted websites or files that could contain hidden commands.
+
+While OpenAI is expected to continue addressing these security issues, this incident serves as a reminder that even advanced AI tools like ChatGPT are not immune to cyber threats. As AI technology continues to evolve, so do the tactics used by hackers to exploit these systems. Staying informed, vigilant, and cautious while using AI tools is key to minimizing potential risks.</div>
+]]></content:encoded>
+<pubDate>2024-09-30T11:08:00.000-04:00</pubDate>
+<pubDate>2024-09-30T11:08:00.832-04:00</pubDate>
+</item>
 
 <item>
 <title>Kia fixes high-risk <b>vulnerability</b>: affecting millions of vehicles, attackers can locate, open ...</title>
