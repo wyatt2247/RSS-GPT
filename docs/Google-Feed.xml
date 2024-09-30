@@ -5,11 +5,39 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>THN Cybersecurity Recap: Last Week's Top Threats and Trends (September 23-29)</title>
+<link>https://thehackernews.com/2024/09/thn-cybersecurity-recap-last-weeks-top_30.html</link>
+<guid>https://thehackernews.com/2024/09/thn-cybersecurity-recap-last-weeks-top_30.html</guid>
+<content:encoded><![CDATA[
+
+Hold onto your hats, folks, because the cybersecurity world is anything but quiet! Last week, we dodged a bullet when we discovered vulnerabilities in CUPS that could've opened the door to remote attacks. Google's switch to Rust is paying off big time, slashing memory-related vulnerabilities in Android.
+But it wasn't all good news – Kaspersky's forced exit from the US market left users with more
+]]></content:encoded>
+<pubDate>Mon, 30 Sep 2024 18:39:00 +0530</pubDate>
+<pubDate>Mon, 30 Sep 2024 18:39:00 +0530</pubDate>
+</item>
+<item>
+<title>Session Hijacking 2.0 — The Latest Way That Attackers are Bypassing MFA</title>
+<link>https://thehackernews.com/2024/09/session-hijacking-20-latest-way-that.html</link>
+<guid>https://thehackernews.com/2024/09/session-hijacking-20-latest-way-that.html</guid>
+<content:encoded><![CDATA[
+
+Attackers are increasingly turning to session hijacking to get around widespread MFA adoption. The data supports this, as:
+
+147,000 token replay attacks were detected by Microsoft in 2023, a 111% increase year-over-year (Microsoft).&nbsp;
+Attacks on session cookies now happen in the same order of magnitude as password-based attacks (Google).
+
+But session hijacking isn’t a new technique – so
+]]></content:encoded>
+<pubDate>Mon, 30 Sep 2024 16:50:00 +0530</pubDate>
+<pubDate>Mon, 30 Sep 2024 16:50:00 +0530</pubDate>
+</item>
+
+<item>
 <title>Growing Focus on Data Privacy Among GenAI Professionals in 2024</title>
 <link>https://www.cysecurity.news/2024/09/growing-focus-on-data-privacy-among.html</link>
 <guid>https://www.cysecurity.news/2024/09/growing-focus-on-data-privacy-among.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbnbI58rL8YTduRXU4Krh_7SeDdphWf0b0X2BDA2UiSNFYRnePFVt61bgOEQzZkrDSYWOBflhKbQ7lTHxbfFERoKTtGicDfAS7gDVsm-5JQajUBd8IKq0Y5aBlbNGJnFQvrEcUKrxlodnv7gD0aZ8S3Kq6Ba7SMoxz119ItskAi9wLzi8FnDCCCRl7y_h1/s4576/pexels-pixabay-60504.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbnbI58rL8YTduRXU4Krh_7SeDdphWf0b0X2BDA2UiSNFYRnePFVt61bgOEQzZkrDSYWOBflhKbQ7lTHxbfFERoKTtGicDfAS7gDVsm-5JQajUBd8IKq0Y5aBlbNGJnFQvrEcUKrxlodnv7gD0aZ8S3Kq6Ba7SMoxz119ItskAi9wLzi8FnDCCCRl7y_h1/w640-h426/pexels-pixabay-60504.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">Recent reports published by Deloitte and Deloitte Consulting, highlighting the significance of data privacy as it pertains to Generative Artificial Intelligence (GenAI), have been widely cited. As the survey found, there has been a significant increase in professionals' concerns about data privacy; only 22% ranked it as their top concern at the beginning of 2023, and the number will rise to 72% by the end of 2024.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Technology is advancing at an exponential rate, and as a result, there is a growing awareness of its potential risks.
 
 
@@ -42,10 +70,8 @@ The accelerated adoption of GenAI technology is overtaking the capacity of organ
 
 Despite artificial intelligence being widely used, policymakers want to make sure that they won't get themselves into trouble with its use, especially when it comes to legislation because any use of it can lead to a lot of problems. 34% of respondents reported that regulatory compliance was their most important reason for implementing ethics policies and guidelines to comply with regulations, while regulatory penalties topped the list of concerns about not complying with such policies and guidelines.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">A new piece of legislation in the EU, known as the Artificial Intelligence Act, entered into force on August 1. The Act, which takes effect today, is intended to ensure that artificial intelligence systems that are used in high-risk environments are safe, transparent, and ethical. If a company does not comply with the regulations, it could face financial penalties ranging from €35 million ($38 million), which is equivalent to 7% of global turnover, to €7.5 million ($8.1 million), which is equivalent to 1.5% of global turnover.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Over a hundred companies have already signed the EU Artificial Intelligence Pact, with Amazon, Google, Microsoft, and OpenAI among them; they have also volunteered to begin implementing the requirements of the bill before any deadlines established by law. Both of these actions demonstrate that they are committed to the responsible implementation of artificial intelligence in society, and also help them to avoid future legal challenges in the future.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The United States released a similar executive order in October 2023 with broad guidelines regarding the protection and enhancement of military, civil, and personal privacy as well as protecting the security of government agencies while fostering AI innovation and competition across the entire country. Even though this is not a law, many companies operating in the U.S. have made policy changes to ensure compliance with regulatory changes and comply with public expectations regarding the privacy and security of AI.</div>
 ]]></content:encoded>
-<pubDate>2024-09-30T07:23:00.000-04:00</pubDate>
 <pubDate>2024-09-30T07:23:12.891-04:00</pubDate>
 </item>
-
 <item>
 <title>Google's Move to Rust Reduces Android Security Flaws by 68%</title>
 <link>https://www.cysecurity.news/2024/09/googles-move-to-rust-reduces-android.html</link>
