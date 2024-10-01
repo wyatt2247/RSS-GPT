@@ -4,6 +4,278 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Silent Intrusion: Unraveling the Sophisticated Attack Leveraging VS Code for Unauthorized Access</title>
+<link>https://cyble.com/blog/silent-intrusion-unraveling-the-sophisticated-attack-leveraging-vs-code-for-unauthorized-access/</link>
+<guid>https://cyble.com/blog/silent-intrusion-unraveling-the-sophisticated-attack-leveraging-vs-code-for-unauthorized-access/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Blog Image" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Blog-Image.jpg" tabindex="0" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble Research and Intelligence Labs (CRIL) uncovered a sophisticated attack that leverages legitimate tools such as Visual Studio (VS) Code and GitHub.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The Threat Actor (TA) used a.LNK file as the initial attack vector, potentially delivered through spam or phishing emails. The .LNK file is disguised as a legitimate setup file, using an MSI setup icon to deceive users into executing it.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Upon execution, the .LNK file silently downloads a Python distribution package and uses it to run a malicious Python script.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The TA leverages a VScode tool to initiate a Remote Tunnel and retrieve an activation code, which the TA can use to gain unauthorized remote access to the victim's machine. This enables the TA to interact with the system, access files, and perform additional malicious activities.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>To maintain persistence, the TA creates a scheduled task designed to automatically trigger the execution of a malicious Python script with SYSTEM privileges and high priority.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Similar tactics, techniques, and procedures (TTP) were employed by the Chinese APT group, Stately Taurus, in cyber espionage campaigns aimed at organizations throughout Europe and Asia.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Lab (CRIL) uncovered a campaign that leverages a suspicious .LNK file as the initial attack vector. This file, potentially delivered via spam emails, downloads a Python distribution package that is then used to execute an obfuscated Python script retrieved from a paste site. At the time of publishing this research, this script had no detections on VirusTotal (VT), making it difficult to identify through standard security measures.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Once executed, the Python script establishes persistence by creating a scheduled task with system privileges and high priority. It checks if Visual Studio Code (VSCode) is installed on the victim’s machine. If not, the script downloads the standalone VSCode CLI from a trusted source. Using VSCode, the script creates a remote tunnel, sharing an activation code with the TA, which facilitates unauthorized remote access to the victim's machine.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The VSCode Remote - Tunnels extension is typically used to connect to a remote machine, such as a desktop PC or virtual machine (VM), via a secure tunnel. This enables users to access the machine from any VSCode client without the need for SSH. However, in this campaign, the TA exploits this feature, using it to establish a remote connection to the victim’s system for malicious purposes.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This attack method mirrors tactics previously observed in campaigns by the Stately Taurus Chinese APT group, as <a href="https://unit42.paloaltonetworks.com/stately-taurus-abuses-vscode-southeast-asian-espionage/">documented</a> by Unit42 researchers. &nbsp;In this blog, we will examine how the TA cleverly uses legitimate tools like VSCode and GitHub to conceal their activity and establish unauthorized remote connections. The figure below illustrates the infection chain.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65038,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65038" src="https://cyble.com/wp-content/uploads/2024/10/Figure-1-Infection-chain.png" /><figcaption class="wp-element-caption">Figure 1 - &nbsp;Infection chain<br /></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Technical Analysis</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>CRIL has identified a campaign involving a suspicious .LNK file masquerading as an installer. When executed, it displays a fake "Successful installation" message in Chinese ("<em>安裝成功</em>"). However, in the background, it silently downloads additional components using the curl utility, including a Python distribution package named "<em>python-3.12.5-embed-amd64.zip</em>”.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The .LNK file then creates a directory at <em>“%LOCALAPPDATA%\Microsoft\Python</em>” and extracts the contents of the zip archive using tar.exe into this location. Afterward, it downloads a malicious script from a paste.ee site via the URL "<em>hxxps[:]//paste[.]ee/r/DQjrd/0</em>" and saves it as “<em>update.py</em>” in the same location. Once the download is complete, the “<em>update.py</em>” is executed using “<em>pythonw.exe</em>” without showing a console window. The contents of the LNK file are shown below:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65039,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65039" src="https://cyble.com/wp-content/uploads/2024/10/Figure-2-contents-of-.LNK-file.png" /><figcaption class="wp-element-caption">Figure 2 - Contents of the .LNK file</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Update.py</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The script begins by checking whether Visual Studio Code (VSCode) is already installed on the system. It does this by verifying the existence of the directory located at “<em>%LOCALAPPDATA%\microsoft\VScode</em>.” If this directory is not found, indicating that VSCode is not installed, the script then proceeds to download the VSCode Command Line Interface (CLI) from a Microsoft source: "<em>hxxps://az764295.vo.msecnd.net/stable/97dec172d3256f8ca4bfb2143f3f76b503ca0534/vscode_cli_win32_x64_cli[.]zip.</em>" Once downloaded, the zip file is extracted, and the executable file "<em>code.exe</em>" is placed into the “<em>%LOCALAPPDATA%\microsoft\VScode</em>” directory</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65040,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65040" src="https://cyble.com/wp-content/uploads/2024/10/Figure-3-downloading-vscode-cli-code.exe_.png" /><figcaption class="wp-element-caption">Figure 3 - Downloading vscode cli (code.exe)<br /></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Persistence</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The script then proceeds to create a scheduled task named "<em>MicrosoftHealthcareMonitorNode</em>" to ensure the persistence of its malicious activities. It is designed to execute the "<em>update.py</em>" script using "pythonw.exe," which runs without showing a console window, allowing the malicious activity to stay hidden. Before creating the task scheduler entry, the script checks if it already exists by running the command "<em>schtasks /query /tn MicrosoftHealthcareMonitorNode</em>" to avoid creating duplicates.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>&nbsp;The configuration of this task varies depending on the user's privilege level. For non-admin users, the task is set to run every four hours, beginning at 8:00 AM, ensuring that the malicious script is executed at regular intervals. On systems where the user has administrative privileges, the task is configured to trigger at logon, running with elevated SYSTEM privileges and high priority, which grants it more control and less likelihood of being interrupted. The figure below shows the Schedule task entry created by the <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/what-is-malware/" title="malware">malware</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65042,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65042" src="https://cyble.com/wp-content/uploads/2024/10/Figure-4-Scheduled-task.png" /><figcaption class="wp-element-caption">Figure 4 - Scheduled task<br /></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Creating Remote Tunnel</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The script next checks if "<em>code.exe</em>" is already running in the background by inspecting the output of the "<em>tasklist</em>" command. If it detects that "<em>code.exe</em>" is not active, then proceeds to execute "<em>code.exe</em>" to log out any active remote sessions. This is done by issuing the command "<em>code.exe tunnel user logout</em>," which ensures the termination of any existing remote tunnels connected to the victim's system. This step is crucial for the TA, as it allows them to establish a fresh remote tunnel for future interactions with the victim's system.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65043,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65043" src="https://cyble.com/wp-content/uploads/2024/10/Figure-5-–-Executing-VSCode.png" /><figcaption class="wp-element-caption">Figure 5 – Executing VSCode<br /></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>After ensuring the existing tunnel is closed, the script initiates a new process using the command:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>code.exe --locale en-US tunnel --accept-server-license-terms --name &lt;COMPUTERNAME&gt;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>This command initiates a remote tunnel, and the script automatically associates it with a GitHub account for authentication. Now, the output of the “<em>code.exe</em>” command is saved in a file named "<em>output.txt</em>" within the "<em>%</em><em>localappdata%\microsoft\VSCode</em>" directory. Additionally, the content of "<em>output.txt</em>" is copied to another file named "<em>output2.txt</em>" in the same directory to extract the 8-character alphanumeric activation code for the GitHub account.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><span style="margin: 0px; padding: 0px;">Following this, the script reads the “<em>output2.txt”&nbsp;</em>file and identifies the GitHub account activation code using a regular expression pattern "<em>and use code (\w{4}-\w{4})"</em>&nbsp;as shown in the figure below.</span> &nbsp;This extracted code is saved to a variable for later stages of the attack, enabling further malicious activities.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65044,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65044" src="https://cyble.com/wp-content/uploads/2024/10/Figure-6-Content-of-Output2.txt.png" /><figcaption class="wp-element-caption">Figure 6 - Contents of Output2.txt<br /></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Exfiltration<strong></strong></h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The TA then gathers the victim’s system information by collecting the names of folders from several directories, including “C:\\Program Files,” “C:\\Program Files (x86),” “C:\\ProgramData,” and “C:\\Users.” In addition, Additionally, the TA obtains a list of processes currently running on the victim's machine and sends this information directly to the TA's command-and-control (C&amp;C) server, "<em>hxxp://requestrepo.com/r/2yxp98b3</em>“ as shown below. <em>RequestRepo.com</em> is primarily a tool for analyzing incoming HTTP and DNS requests. However, the TA has exploited it to capture stolen data transmitted from victim machines.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65045,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65045" src="https://cyble.com/wp-content/uploads/2024/10/Figure-7-POST-request.png" /><figcaption class="wp-element-caption">Figure 7 - POST request<br /></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Furthermore, the TA gathers more sensitive data, such as the system's language settings, geographical location, computername, username, userdomain, the activation code for the remote tunnel, and details about user privileges. All of this data is base64 encoded to obfuscate it before being sent to the command-and-control (C&amp;C) server via a POST request. The figure below shows the code snippet used by the TA for data exfiltration.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65047,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65047" src="https://cyble.com/wp-content/uploads/2024/10/Figure-8-Data-Exfiltration.png" /><figcaption class="wp-element-caption">Figure 8 - Data Exfiltration</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Impact</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>After the TA receives the exfiltrated data, they can log in using their GitHub account at the URL “<em>hxxps://github.com/login/device”</em>. Here, the TA can enter the exfiltrated alphanumeric activation code to gain unauthorized access to the victim's machine.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65048,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65048" src="https://cyble.com/wp-content/uploads/2024/10/Figure-9-Device-Activation.png" /><figcaption class="wp-element-caption">Figure 9 - Device Activation<br /></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Unauthorized access to the victim’s machine allows the TA to view and manipulate files and directories stored on the victim's system. The figure below shows how the TA can access the victim’s files through the VSCode tunnel using the stolen activation code.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65051,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65051" src="https://cyble.com/wp-content/uploads/2024/10/Figure-10-Accessing-Files-using-VScode-Tunnel-1.png" /><figcaption class="wp-element-caption">Figure 10 - Accessing Files using VScode Tunnel<br /></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>This degree of access not only enables them to browse through the victims’ files but also enables them to execute commands through the terminal. With this control, the TA can perform a variety of actions, such as installing malware, extracting sensitive information, or altering system settings, potentially leading to further exploitation of the victim's system and data.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":65052,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-65052" src="https://cyble.com/wp-content/uploads/2024/10/Figure-11-Terminal-Access-from-vscode.dev_.png" /><figcaption class="wp-element-caption">Figure 11 - Terminal Access from vscode.dev<br /></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Unit42 researchers explained that the TA can execute several tools, including mimikatz, LaZagne, In-Swor, and Tscan, to perform various malicious activities on the victim’s system.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This campaign demonstrates the growing sophistication of TAs in leveraging legitimate tools like VSCode to establish unauthorized access to victim systems. By utilizing a seemingly harmless .LNK file and an obfuscated Python script, the Threat Actot can effectively bypass detection measures. This access allows them to manipulate files, execute commands, and potentially install additional malware, amplifying the scope for exploitation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Organizations maintain a proactive security posture, focusing on vigilance, enhancing existing security practices, and implementing new ones to defend against a constantly evolving threat spectrum. Understanding these tactics is crucial for building a more resilient <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/cybersecurity/" title="cybersecurity">cybersecurity</a> posture.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Utilize advanced endpoint protection solutions that include behavioral analysis and machine learning capabilities to detect and block suspicious activities, even those involving legitimate applications like VSCode.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Review scheduled tasks on all systems regularly to identify unauthorized or unusual entries. This can help detect persistence mechanisms established by <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/" title="threat actors">threat actors</a>.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Conduct training sessions to educate users about the risks of opening suspicious files or links, particularly those related to .LNK files and unknown sources.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Limit user permissions to install software, particularly for tools that can be exploited, like VSCode. Implement application whitelisting to control which applications can be installed and run on systems.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Deploy advanced monitoring tools that can detect unusual network traffic, unauthorized access attempts, and abnormal behavior within the system. Regularly audit and review system and application logs to catch early signs of intrusion.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">MITRE ATT&amp;CK® Techniques</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Tactic</strong><strong></strong></td>
+<td><strong>Technique</strong><strong></strong></td>
+<td><strong>Procedure</strong><strong></strong></td>
+</tr>
+<tr>
+<td>Execution (<a href="https://attack.mitre.org/tactics/TA0002/">TA0002</a>)</td>
+<td>Command and Scripting Interpreter: Python (<a href="https://attack.mitre.org/techniques/T1059/006/">T1059.006</a>)</td>
+<td><em>Update.py</em> is downloaded and executed by the shortcut file</td>
+</tr>
+<tr>
+<td>Persistence (<a href="https://attack.mitre.org/tactics/TA0003">TA0003</a>)</td>
+<td>Scheduled Task/Job: Scheduled Task (<a href="https://attack.mitre.org/techniques/T1053/005">T1053.005</a>)</td>
+<td>"<em>MicrosoftHealthcareMonitorNode</em>" scheduled task is created for non-admin users</td>
+</tr>
+<tr>
+<td>Privilege Escalation (<a href="https://attack.mitre.org/tactics/TA0004">TA0004</a>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>Scheduled Task/Job: Scheduled Task (<a href="https://attack.mitre.org/techniques/T1053/005">T1053.005</a>) &nbsp;</td>
+<td>"<em>MicrosoftHealthcareMonitorNode</em>" scheduled task is created for admin users with SYSTEM privilege</td>
+</tr>
+<tr>
+<td>Defense Evasion (<a href="https://attack.mitre.org/tactics/TA0005">TA0005</a>)</td>
+<td>Masquerading: Match Legitimate Name or Location (<a href="https://attack.mitre.org/techniques/T1036/005">T1036.005</a>) &nbsp;</td>
+<td>Creates a folder “%<em>localappdata%/Microsoft/Python</em>” directory</td>
+</tr>
+<tr>
+<td>Discovery (<a href="https://attack.mitre.org/tactics/TA0007">TA0007</a>)</td>
+<td>System Information Discovery (<a href="https://attack.mitre.org/techniques/T1082">T1082</a>)</td>
+<td>Collects system’s language settings, geographical location, computername, username, and userdomain</td>
+</tr>
+<tr>
+<td>Discovery (<a href="https://attack.mitre.org/tactics/TA0007">TA0007</a>)</td>
+<td>File and Directory Discovery (<a href="https://attack.mitre.org/techniques/T1420">T1420</a>)</td>
+<td>Collects folder names present in program files and program data directory</td>
+</tr>
+<tr>
+<td>Discovery (<a href="https://attack.mitre.org/tactics/TA0007">TA0007</a>)</td>
+<td>Process Discovery (<a href="https://attack.mitre.org/techniques/T1057">T1057</a>)</td>
+<td>"<em>tasklist</em>" command is used to gather a list of currently running processes.</td>
+</tr>
+<tr>
+<td>Command and Control (<a href="https://attack.mitre.org/tactics/TA0011/">TA0011</a>)</td>
+<td>Application Layer Protocol: Web Protocols (<a href="https://attack.mitre.org/techniques/T1071/001">T1071.001</a>)</td>
+<td>The VSCode tunnel feature is used to access the victim's system.</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Indicators Of Compromise</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicators</strong><strong> </strong><strong></strong></td>
+<td><strong>Indicator Type</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>281766109f2375a01bad80478fd18841eccaefc1ee9277179cc7ff075d1beae2</td>
+<td>SHA-256</td>
+<td>Shortcut file</td>
+</tr>
+<tr>
+<td>c7f07bdfb91653f53782885a3685436e2e965e1c5f4863c03f5a9825c0364489</td>
+<td>SHA-256</td>
+<td>update.py</td>
+</tr>
+<tr>
+<td>hxxp://requestrepo.com/r/2yxp98b3</td>
+<td>C&amp;C</td>
+<td>POST request sent to this URL</td>
+</tr>
+<tr>
+<td>hxxps://paste[.]ee/r/DQjrd/0</td>
+<td>URL</td>
+<td>Downloads update.py</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p>The post <a href="https://cyble.com/blog/silent-intrusion-unraveling-the-sophisticated-attack-leveraging-vs-code-for-unauthorized-access/" rel="nofollow">Silent Intrusion: Unraveling the Sophisticated Attack Leveraging VS Code for Unauthorized Access</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 01 Oct 2024 13:12:32 +0000</pubDate>
+<pubDate>Tue, 01 Oct 2024 13:12:32 +0000</pubDate>
+</item>
 
 <item>
 <title>Winamp releases source code, asks for help modernizing the player</title>
