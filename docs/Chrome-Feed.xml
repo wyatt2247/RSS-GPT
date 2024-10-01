@@ -4,6 +4,230 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Cyble Honeypot Sensors Detect WordPress Plugin Attack, New Banking Trojan</title>
+<link>https://cyble.com/blog/cyble-honeypot-sensors-detect-wordpress-plugin-attack-new-banking-trojan/</link>
+<guid>https://cyble.com/blog/cyble-honeypot-sensors-detect-wordpress-plugin-attack-new-banking-trojan/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Cyble-Blogs-Honeypots-Sensors" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="480" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-Honeypots-Sensors.png" tabindex="0" width="960" /></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble’s Threat Hunting Honeypot sensors detected five recent vulnerabilities under active exploitation, including newly identified attacks against WordPress plugins.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>A new <a href="https://cyble.com/?s=banking+trojan">banking trojan</a> is engaged in active attacks in Europe and is expected to spread to other regions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Of more than 400 identified scam email addresses discovered, six in particular stand out.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Commonly targeted ports have been identified and should be blocked by security teams.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://cyble.com/products/cyble-vision/">Cyble's</a>&nbsp;Threat Hunting service this week discovered multiple instances of exploit attempts, <a href="https://cyble.com/knowledge-hub/what-is-malware/">malware</a> intrusions, financial&nbsp;fraud,&nbsp;and brute-force attacks via its network of Honeypot sensors.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In the week of Sept. 18-24, Cyble researchers identified five recent active exploits, including new <a href="https://cyble.com/knowledge-hub/what-is-a-cyber-attack/">attacks</a> against WordPress plugins, a new malware variant targeting the banking industry, more than 400 new spam email addresses, and thousands of brute-force attacks.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Vulnerability Exploits</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble sensors detected five recent <a href="https://cyble.com/?s=vulnerabilities">vulnerabilities</a> under active exploitation, in addition to a number of older vulnerabilities being actively exploited:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Case 1: SQL Injection Attack</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-27956" rel="noreferrer noopener" target="_blank">CVE-2024-27956</a> is a 9.9-severity improper neutralization of Special Elements used in an SQL Command vulnerability in ValvePress Automatic WordPress plugins that allows for SQL Injection attacks. This issue affects Automatic: from n/a through 3.92.0.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Case 2: PHP CGI Argument Injection Vulnerability</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-4577" rel="noreferrer noopener" target="_blank">CVE-2024-4577</a> is a 9.8-severity PHP vulnerability that impacts CGI configurations and has been under attack since it was announced in June. It enables attackers to execute arbitrary commands through specially crafted URL parameters. It affects PHP versions&nbsp;8.1.* before 8.1.29; 8.2.* before 8.2.20; and 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Case 3: GeoServer Vulnerability Allows Remote Code Execution via Unsafe XPath Evaluation</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-36401" rel="noreferrer noopener" target="_blank">CVE-2024-36401</a> is a 9.8-severity RCE vulnerability in GeoServer versions prior to 2.23.6, 2.24.4, and 2.25.2. The flaw arises from the unsafe evaluation of OGC request parameters as XPath expressions, allowing unauthenticated users to execute arbitrary code on default installations. The issue affects all GeoServer instances due to improper handling of simple feature types. Patches are available, and a workaround involves removing the vulnerable gt-complex library, which may impact functionality.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Case 4: Network Command Injection Vulnerability Without Authentication</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-7029" rel="noreferrer noopener" target="_blank">CVE-2024-7029</a> is an 8.7-severity AVTECH IP camera vulnerability that allows remote attackers to inject and execute commands over the network without requiring authentication. This critical flaw poses a significant risk, enabling unauthorized control over affected systems.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Case 5: Network Command Injection Vulnerability Without Authentication</strong>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The porte_plume plugin used by SPIP before 4.30-alpha2, 4.2.13, and 4.1.16 is vulnerable to a 9.8-severity arbitrary code execution vulnerability (<a href="https://nvd.nist.gov/vuln/detail/CVE-2024-7954" rel="noreferrer noopener" target="_blank">CVE-2024-7954</a>). A remote and unauthenticated attacker can execute arbitrary PHP as the SPIP user by sending a crafted HTTP request.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Octo2: New Malware Variant Targets European Banks in Active Attacks</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Octo2, a new variant of the Octo mobile banking trojan, was <a href="https://www.threatfabric.com/blogs/octo2-european-banks-already-under-attack-by-new-malware-variant">recently discovered</a> in European bank attacks, and deployment in other global regions is expected to follow.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Octo (also known as ExobotCompact) has emerged as one of the most prominent malware families in the mobile <a href="https://cyble.com/resources/research-reports/apt-threat-landscape-report-h1-2024/">threat landscape</a>, leading in the number of unique samples detected this year. Recently, a new variant named "Octo2," created by the original <a href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/">threat actor</a>, has been discovered, signaling a potential shift in the actors' tactics and strategies. This upgraded version enhances the malware’s remote action capabilities, particularly for Device Takeover attacks, ensuring greater stability in execution. New Octo2 campaigns have already been observed targeting several European countries. Additionally, Octo2 employs advanced obfuscation techniques to evade detection, including the introduction of a Domain Generation Algorithm (DGA), further bolstering its ability to remain hidden from security systems.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here are known hashes and IoCs, via Threat Fabric:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Hash (SHA256)</strong></td>
+<td><strong>app name</strong></td>
+<td><strong>package name</strong></td>
+</tr>
+<tr>
+<td>83eea636c3f04ff1b46963680eb4bac7177e77bbc40b0d3426f5cf66a0c647ae</td>
+<td>NordVPN</td>
+<td>com.handedfastee5</td>
+</tr>
+<tr>
+<td>6cd0fbfb088a95b239e42d139e27354abeb08c6788b6083962943522a870cb98</td>
+<td>Europe Enterprise</td>
+<td>com.xsusb_restore3</td>
+</tr>
+<tr>
+<td>117aa133d19ea84a4de87128f16384ae0477f3ee9dd3e43037e102d7039c79d9</td>
+<td>Google Chrome</td>
+<td>com.havirtual06numberresources</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">More Than 400 Scam Email Addresses Detected</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble identified 410 new email addresses used in scam campaigns. Here are six notes:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>E-mail Subject</strong>&nbsp;</td>
+<td><strong>Scammers Email ID</strong>&nbsp;</td>
+<td><strong>Scam Type</strong>&nbsp;</td>
+<td><strong>Description</strong>&nbsp;</td>
+</tr>
+<tr>
+<td>Claim Directives&nbsp;</td>
+<td>info@szhualilian.com&nbsp; &nbsp;</td>
+<td>Claim Scam&nbsp;</td>
+<td>Fake refund against claims&nbsp;</td>
+</tr>
+<tr>
+<td>Dear winner!&nbsp;</td>
+<td>info@student.htw-berlin.de&nbsp; &nbsp;</td>
+<td>Lottery/Prize Scam&nbsp;</td>
+<td>Fake prize winnings to extort money or information&nbsp;</td>
+</tr>
+<tr>
+<td>DONATION NOTICE&nbsp;</td>
+<td>m.sharifi@qiau.ac.ir&nbsp; &nbsp;</td>
+<td>Donation Scam&nbsp;</td>
+<td>Scammers posing as donors to donate money&nbsp;</td>
+</tr>
+<tr>
+<td>INVESTMENT PROPOSAL&nbsp;</td>
+<td>Walsh.philip@natwest.co.uk&nbsp; &nbsp;</td>
+<td>Investment Scam&nbsp;</td>
+<td>Unrealistic investment offers to steal funds or data.&nbsp;</td>
+</tr>
+<tr>
+<td>Order: cleared customs&nbsp;</td>
+<td>support@ip.linodeusercontent.com&nbsp; &nbsp;</td>
+<td>Shipping Scam&nbsp;</td>
+<td>Unclaimed shipment trick to demand fees or details&nbsp;</td>
+</tr>
+<tr>
+<td>UN Compensation Fund&nbsp;</td>
+<td>info@usa.com&nbsp;</td>
+<td>Government Organization Scam&nbsp;</td>
+<td>Fake UN compensation to collect financial details&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Brute-Force Attack Ports Identified</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Of the thousands of brute-force attacks identified by Cyble, the following targeted ports stand out as meriting attention.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Based on a close inspection of the distribution of attacked ports based on the top five attacker countries, Cyble noticed attacks originating from the <a href="https://cyble.com/resources/research-reports/us-election-security-2024-threats/">United States</a> are targeting ports 22 (40%), 3389 (32%), 445 (21%), 23 (4%), and 80(3%). Attacks originating from Turkey are targeting ports 3389 (100%). Russia, China, and Bulgaria mainly targeted ports 5900 and 445.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Security Analysts are advised to add security system blocks for the attacked ports (such as 22, 3389, 443, 445, 5900, and 3306).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Cyble Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble researchers recommend the following security controls:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Blocking target hashes, URLs, and email info on security systems (Cyble clients received a separate IoC list).</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Immediately patch all open vulnerabilities listed here and routinely monitor the top Suricata alerts in internal networks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Constantly check for Attackers' ASNs and IPs.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Block Brute Force attack IPs and the targeted ports listed.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Immediately reset default usernames and passwords to mitigate brute-force attacks and enforce periodic changes.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>For servers, set up strong passwords that are difficult to guess.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p>The post <a href="https://cyble.com/blog/cyble-honeypot-sensors-detect-wordpress-plugin-attack-new-banking-trojan/" rel="nofollow">Cyble Honeypot Sensors Detect WordPress Plugin Attack, New Banking Trojan</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 01 Oct 2024 05:37:01 +0000</pubDate>
+<pubDate>Tue, 01 Oct 2024 05:37:01 +0000</pubDate>
+</item>
 
 <item>
 <title>Google Patches Another Zero-Day <b>Vulnerability</b> in Chrome - MSN</title>
