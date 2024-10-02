@@ -4,16 +4,15 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Fake Trading Apps Target Victims Globally via Apple App Store and Google Play</title>
 <link>https://thehackernews.com/2024/10/fake-trading-apps-target-victims.html</link>
 <guid>https://thehackernews.com/2024/10/fake-trading-apps-target-victims.html</guid>
 <content:encoded><![CDATA[
-
 A large-scale fraud campaign leveraged fake trading apps published on the Apple App Store and Google Play Store, as well as phishing sites, to defraud victims, per findings from Group-IB.
 The campaign is part of a consumer investment fraud scheme that's also widely known as pig butchering, in which prospective victims are lured into making investments in cryptocurrency or other financial
 ]]></content:encoded>
-<pubDate>Wed, 02 Oct 2024 22:24:00 +0530</pubDate>
 <pubDate>Wed, 02 Oct 2024 22:24:00 +0530</pubDate>
 </item>
 <item>
@@ -21,13 +20,10 @@ The campaign is part of a consumer investment fraud scheme that's also widely kn
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1321/</link>
 <guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1321/</guid>
 <content:encoded><![CDATA[
-
 This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2024-40841.
 ]]></content:encoded>
 <pubDate>Wed, 02 Oct 2024 00:00:00 -0500</pubDate>
-<pubDate>Wed, 02 Oct 2024 00:00:00 -0500</pubDate>
 </item>
-
 <item>
 <title>ZDI-24-1313: Apple macOS ImageIO PSD File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability</title>
 <link>http://www.zerodayinitiative.com/advisories/ZDI-24-1313/</link>
