@@ -4,6 +4,28 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>ZDI-24-1313: Apple macOS ImageIO PSD File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1313/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1313/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the ImageIO library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2024-40777.
+]]></content:encoded>
+<pubDate>Wed, 02 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 02 Oct 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1312: Apple macOS ImageIO KTX Image Parsing Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1312/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1312/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-40784.
+]]></content:encoded>
+<pubDate>Wed, 02 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Wed, 02 Oct 2024 00:00:00 -0500</pubDate>
+</item>
 
 <item>
 <title>Kia fixes high-risk <b>vulnerability</b>: affecting millions of vehicles, attackers can locate, open ...</title>
