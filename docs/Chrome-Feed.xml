@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Evaluating Mitigations &amp; Vulnerabilities in Chrome</title>
 <link>http://security.googleblog.com/2024/10/evaluating-mitigations-vulnerabilities.html</link>
 <guid>http://security.googleblog.com/2024/10/evaluating-mitigations-vulnerabilities.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Alex Gough, Chrome Security Team</span>
 
 <p>
@@ -162,10 +162,8 @@ A mitigation or bug-reduction mechanism that affects any of the axes of utility 
 
 </li><li><a href="https://www.cisa.gov/resources-tools/resources/exploring-memory-safety-critical-open-source-projects">Exploring Memory Safety in Critical Open Source Projects</a> (CISA.gov)</li></ul>
 ]]></content:encoded>
-<pubDate>2024-10-03T12:03:00.000-04:00</pubDate>
 <pubDate>2024-10-03T12:03:16.344-04:00</pubDate>
 </item>
-
 <item>
 <title>Trends: Hardware gets AI updates in 2024</title>
 <link>https://securityintelligence.com/articles/trends-hardware-gets-ai-updates-2024/</link>
