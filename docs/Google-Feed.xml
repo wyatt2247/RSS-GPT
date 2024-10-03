@@ -4,6 +4,32 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>The Rise of VPNs: A Tool for Privacy or a False Promise</title>
+<link>https://www.cysecurity.news/2024/10/the-rise-of-vpns-tool-for-privacy-or.html</link>
+<guid>https://www.cysecurity.news/2024/10/the-rise-of-vpns-tool-for-privacy-or.html</guid>
+<content:encoded><![CDATA[
+
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMm_R58qqJiM26ryONPHvY5nBn9WVVIJj7DQeqloSOCL_rM7PSrKQQfI9ZO-ZTGcn_0hnkjUoSmBE7ZpHsF_JBbca_AgYONbZRJW9L33YlYyjpAKl7QIXjRuE5xvc6XriTr3-ng9yFuFj93yE7QSAwXEQTB5QUY86x9PROHXibwnw3o_6vKDo3jt8aEQA/s5456/pexels-dvaughnbell-2068664.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMm_R58qqJiM26ryONPHvY5nBn9WVVIJj7DQeqloSOCL_rM7PSrKQQfI9ZO-ZTGcn_0hnkjUoSmBE7ZpHsF_JBbca_AgYONbZRJW9L33YlYyjpAKl7QIXjRuE5xvc6XriTr3-ng9yFuFj93yE7QSAwXEQTB5QUY86x9PROHXibwnw3o_6vKDo3jt8aEQA/s600/pexels-dvaughnbell-2068664.jpg" width="600" /></a></div><p>&nbsp;</p><div style="text-align: justify;">Today, Virtual Private Networks (VPNs) have become omnipresent. Millions around the world use VPNs, and they are often promoted by influencers as essential tools for privacy. Their rise in popularity stems from the idea that they offer online privacy by hiding your browsing activities and making you anonymous on the internet.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Despite the marketing, the reality is less reassuring. VPN providers frequently fail to deliver the level of privacy and protection that users expect.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">How VPNs Work&nbsp;</h4><div style="text-align: justify;">A VPN works by channelling your internet traffic through an encrypted tunnel to a VPN server. This prevents your internet service provider (ISP) from tracking your online activities, such as websites visited or apps used. However, this does not make you anonymous. Instead, it shifts the trust from your ISP to the VPN provider. This raises an important question: why trust a VPN provider more than your ISP?&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">Trust Issues with VPN Providers&nbsp;</h4><div style="text-align: justify;">The truth is, that VPN providers cannot always be trusted. Free VPN services, in particular, are notorious for collecting and selling user data to third-party advertisers, posing privacy risks. Even paid VPN services, which claim to protect privacy by not logging data, have often been found to break those promises. In some cases, VPNs with “no-log” policies were later discovered storing data, which was leaked or shared with law enforcement.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">Verifying Privacy Claims&nbsp;</h4><div style="text-align: justify;">A significant issue with VPN providers is the difficulty in verifying their privacy claims. Often, the only assurance users have is the provider’s word, and that’s rarely enough. Numerous VPN companies have been caught logging user data, breaking the trust they have established with their customers.&nbsp;</div><h4 style="text-align: justify;"><br />Setting Up Your Own&nbsp;</h4><div style="text-align: justify;">VPN
+
+For those needing a VPN to bypass censorship or other specific purposes, experts recommend setting up a personal VPN server. By using services like Amazon Web Services, Google Cloud, or DigitalOcean, users can create and manage their own encrypted VPN server, giving them control of the private key to their data. This ensures that even the cloud provider cannot access your information.</div>
+]]></content:encoded>
+<pubDate>2024-10-03T13:09:00.007-04:00</pubDate>
+<pubDate>2024-10-03T13:09:44.535-04:00</pubDate>
+</item>
+<item>
+<title>Android 14 Adds New Security Features to Block 2G Exploits and Baseband Attacks</title>
+<link>https://thehackernews.com/2024/10/android-14-adds-new-security-features.html</link>
+<guid>https://thehackernews.com/2024/10/android-14-adds-new-security-features.html</guid>
+<content:encoded><![CDATA[
+
+Google has revealed the various security guardrails that have been incorporated into its latest Pixel devices to counter the rising threat posed by baseband security attacks.
+The cellular baseband (i.e., modem) refers to a processor on the device that's responsible for handling all connectivity, such as LTE, 4G, and 5G, with a mobile phone cell tower or base station over a radio interface.
+"This
+]]></content:encoded>
+<pubDate>Thu, 03 Oct 2024 22:30:00 +0530</pubDate>
+<pubDate>Thu, 03 Oct 2024 22:30:00 +0530</pubDate>
+</item>
 
 <item>
 <title>Trends: Hardware gets AI updates in 2024</title>
