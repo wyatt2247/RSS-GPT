@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>A Single Cloud Compromise Can Feed an Army of AI Sex Bots</title>
 <link>https://krebsonsecurity.com/2024/10/a-single-cloud-compromise-can-feed-an-army-of-ai-sex-bots/</link>
 <guid>https://krebsonsecurity.com/2024/10/a-single-cloud-compromise-can-feed-an-army-of-ai-sex-bots/</guid>
 <content:encoded><![CDATA[
-
 <p>Organizations that get relieved of credentials to their cloud environments can quickly find themselves part of a disturbing new trend: Cybercriminals using stolen cloud credentials to operate and resell sexualized AI-powered chat services. Researchers say these illicit chat bots, which use custom jailbreaks to bypass content filtering, often veer into darker role-playing scenarios, including child sexual exploitation and rape.</p>
 <div class="wp-caption aligncenter" id="attachment_69091" style="width: 747px;"><img alt="" class=" wp-image-69091" height="488" src="https://krebsonsecurity.com/wp-content/uploads/2024/10/bedrock.png" width="737" /><p class="wp-caption-text" id="caption-attachment-69091">Image: Shutterstock.</p></div>
 <p>Researchers at security firm <strong>Permiso Security</strong> say attacks against generative artificial intelligence (AI) infrastructure like <strong>Bedrock</strong> from Amazon Web Services (AWS) have increased markedly over the last six months, particularly when someone in the organization accidentally exposes their cloud credentials or key online, such as in a code repository like <strong>GitHub</strong>.</p>
@@ -52,9 +52,7 @@
 <p>Anthropic said it uses feedback from child safety experts at <a href="https://www.thorn.org/" rel="noopener" target="_blank">Thorn</a> around signals often seen in child grooming to update its classifiers, enhance its usage policies, fine tune its models, and incorporate those signals into testing of future models.</p>
 ]]></content:encoded>
 <pubDate>Thu, 03 Oct 2024 13:05:52 +0000</pubDate>
-<pubDate>Thu, 03 Oct 2024 13:05:52 +0000</pubDate>
 </item>
-
 <item>
 <title>China-Backed APT Group Culling Thai Government Data</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/new-china-backed-apt-group-culling-thai-government-data</link>

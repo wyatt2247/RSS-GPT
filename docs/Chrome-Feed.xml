@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Trends: Hardware gets AI updates in 2024</title>
 <link>https://securityintelligence.com/articles/trends-hardware-gets-ai-updates-2024/</link>
 <guid>https://securityintelligence.com/articles/trends-hardware-gets-ai-updates-2024/</guid>
 <content:encoded><![CDATA[
-
 <p>The surge in artificial intelligence (AI) usage over the past two and a half years has dramatically changed not only software but hardware as well. As AI usage continues to evolve, PC makers have found in AI an opportunity to improve end-user devices by offering AI-specific hardware and marketing them as &ldquo;AI PCs.&rdquo;</p>
 <h2>Pre-AI hardware, adapted for AI</h2>
 <p>A few years ago, <a href="https://www.ibm.com/topics/artificial-intelligence" rel="noopener nofollow" target="_blank">AI</a> often depended on hardware that was not explicitly designed for AI. One example is graphics processors. Nvidia Graphics Processing Units (GPUs) are crucial in AI because they handle parallel processing efficiently, which is necessary for <a href="https://www.ibm.com/topics/machine-learning" rel="noopener nofollow" target="_blank">machine learning</a> and deep learning. Their design enables simultaneous calculations, making them more effective than CPUs for AI model training and inference.</p>
@@ -43,9 +43,7 @@
 <p>The post <a href="https://securityintelligence.com/articles/trends-hardware-gets-ai-updates-2024/" rel="nofollow">Trends: Hardware gets AI updates in 2024</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p>
 ]]></content:encoded>
 <pubDate>Thu, 03 Oct 2024 13:00:00 +0000</pubDate>
-<pubDate>Thu, 03 Oct 2024 13:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-109</link>
