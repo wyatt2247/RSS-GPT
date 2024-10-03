@@ -4,6 +4,47 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Trends: Hardware gets AI updates in 2024</title>
+<link>https://securityintelligence.com/articles/trends-hardware-gets-ai-updates-2024/</link>
+<guid>https://securityintelligence.com/articles/trends-hardware-gets-ai-updates-2024/</guid>
+<content:encoded><![CDATA[
+
+<p>The surge in artificial intelligence (AI) usage over the past two and a half years has dramatically changed not only software but hardware as well. As AI usage continues to evolve, PC makers have found in AI an opportunity to improve end-user devices by offering AI-specific hardware and marketing them as &ldquo;AI PCs.&rdquo;</p>
+<h2>Pre-AI hardware, adapted for AI</h2>
+<p>A few years ago, <a href="https://www.ibm.com/topics/artificial-intelligence" rel="noopener nofollow" target="_blank">AI</a> often depended on hardware that was not explicitly designed for AI. One example is graphics processors. Nvidia Graphics Processing Units (GPUs) are crucial in AI because they handle parallel processing efficiently, which is necessary for <a href="https://www.ibm.com/topics/machine-learning" rel="noopener nofollow" target="_blank">machine learning</a> and deep learning. Their design enables simultaneous calculations, making them more effective than CPUs for AI model training and inference.</p>
+<p>Another primary hardware type is the Field-Programmable Gate Array (FPGA) from Intel and other companies. An FPGA is an integrated circuit (IC) that can be reprogrammed multiple times. That flexibility makes it ideal for AI tasks. FPGAs accelerate deep learning and machine learning tasks. They provide hardware customization options that mimic the behavior of GPUs or ASICs.</p>
+<p>FPGAs can be integrated with popular AI frameworks like TensorFlow and PyTorch using tools like the Intel FPGA AI Suite and the OpenVINO toolkit.</p>
+<p>FPGAs are used across the automotive, healthcare and other industries. They are useful in edge computing scenarios where AI capabilities must be deployed close to the data source for faster decision-making and reduced latency.</p>
+<p>And yet another type is Application-Specific Integrated Circuits (ASICs). One example is Google&rsquo;s Tensor Processing Units (TPUs). TPUs are custom ASICs developed by Google to accelerate machine learning workloads. They are optimized for TensorFlow and used extensively in Google&rsquo;s data centers.</p>
+<h2>How the generative AI revolution changed hardware</h2>
+<p>OpenAI&rsquo;s release of ChatGPT on November 30, 2022, changed the public&rsquo;s and industry&rsquo;s relationship with AI. ChatGPT quickly gained immense popularity, attracting more than one million users within five days of release. By January 2023, it had reached <a href="https://securityintelligence.com/articles/chatgpt-and-the-race-to-secure-your-intellectual-property/" rel="noopener nofollow" target="_blank">100 million users</a>, making it the fastest-growing consumer application ever.</p>
+<p>Most importantly, the runaway success of ChatGPT in the general culture changed venture funding in favor of AI startups. Big tech giants like Microsoft, Google and Meta accelerated the development and public availability of their offerings, and Silicon Valley quickly saw the emergence of companies like Anthropic and Perplexity offering <a href="https://www.ibm.com/artificial-intelligence" rel="noopener nofollow" target="_blank">AI tools</a>.</p>
+<p>Now, PC manufacturers are investing in AI-capable PCs that emphasize hybrid AI and on-device intelligence. The integration of AI into personal computers is facilitated by the emergence of specialized AI chipsets, such as neural processing units (NPUs), which enhance PCs&rsquo; ability to perform AI tasks locally.</p>
+<p>This shift is expected to impact the PC market significantly. Some 60% of PCs shipped by 2027 will be AI-capable, <a href="https://canalys.com/reports/AI-PC-market-forecasts" rel="noopener nofollow" target="_blank">according to Canalys</a>.</p>
+<a class="btn orange1 large" href="https://www.ibm.com/ai-cybersecurity?mhsrc=ibmsearch_a&amp;mhq=AI%20cybersecurity">Explore AI cybersecurity solutions</a>
+<h2>How do AI PCs differ?</h2>
+<p>AI PCs are designed to efficiently execute AI workloads using a combination of CPUs, GPUs and NPUs, allowing them to handle tasks such as <a href="https://www.ibm.com/topics/generative-ai" rel="noopener nofollow" target="_blank">generative AI</a> models more effectively than previous PC generations. This optimization enables AI PCs to run AI applications with improved performance, power efficiency and privacy by processing data locally rather than relying on cloud-based solutions.</p>
+<p>Some criticize this category as a marketing gimmick and point out that many end users use generative AI through cloud-based chatbots.</p>
+<p>Today, the public thinks of AI as <a href="https://www.ibm.com/topics/large-language-models" rel="noopener nofollow" target="_blank">large language models (LLMs)</a> running in the cloud and used as chatbots. Over time, the power and usage of AI by end users will increasingly take place via integrated features and AI-enhanced applications.</p>
+<p><a href="https://www.youtube.com/watch?v=u2nJsKvFcps" rel="noopener nofollow" target="_blank">According to Gartner Global Chief of Research Chris Howard</a>, AI will also involve more small language models (SLMs) powering non-chatbot use cases running close to the edge rather than the cloud.</p>
+<p>AI processing will increasingly happen closer to the user and closer to the edge. And this means the trend of AI-specific hardware will only grow.</p>
+<h2>Microsoft AI</h2>
+<p>One standout is the introduction of Microsoft&rsquo;s Copilot+ PCs, a new category of Windows PCs specifically designed for AI. These PCs feature new silicon capable of performing over 40 trillion operations per second (TOPS), providing all-day battery life and access to advanced AI models. The architecture of these devices integrates a high-performance NPU alongside the CPU and GPU, enhancing their AI capabilities. This configuration allows for new experiences such as real-time AI image generation, language translation and advanced search functionalities like the &ldquo;Recall&rdquo; feature, which records and analyzes device activity to improve user interaction with AI models.</p>
+<p>Microsoft has also collaborated with major OEM partners, including Acer, ASUS, Dell, HP, Lenovo and Samsung, to bring these AI-enhanced devices to market.</p>
+<h2>Apple AI</h2>
+<p>Apple has made several hardware changes to accommodate and empower AI capabilities in its devices. A significant development is the integration of Apple silicon, specifically designed to handle advanced AI processing. This includes the use of specialized neural engines in devices like the iPhone 15 Pro, which are optimized for AI tasks such as machine learning and <a href="https://www.ibm.com/topics/natural-language-processing" rel="noopener nofollow" target="_blank">natural language processing</a>. These neural engines enhance the efficiency and speed of AI operations, enabling features like real-time language translation and image recognition.</p>
+<h2>Google AI</h2>
+<p>Google has made several changes to its hardware to accommodate AI. One of the significant steps includes developing and integrating its own hardware to support AI models like Gemini. This indicates a shift from relying on external chips to using proprietary technology to enhance AI capabilities.</p>
+<p>Google has even reorganized its internal teams to integrate AI across its products better. This reorganization has led to the creation of a new Platforms and Devices team, consolidating various Google products like Pixel, Android, Chrome and ChromeOS under a single leadership. This move aims to accelerate AI integration and improve the synergy between hardware and software.</p>
+<h2>The AI hardware revolution</h2>
+<p>The popular generative AI revolution began in November 2022 and resulted in big hardware changes to accommodate power-hungry AI use cases. The recent accommodation of AI in hardware is just the beginning, no doubt. We can look forward to AI-specific hardware trickling down beyond PCs and phones and into wearables, Internet of Things devices and more.</p>
+
+<p>The post <a href="https://securityintelligence.com/articles/trends-hardware-gets-ai-updates-2024/" rel="nofollow">Trends: Hardware gets AI updates in 2024</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 03 Oct 2024 13:00:00 +0000</pubDate>
+<pubDate>Thu, 03 Oct 2024 13:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
