@@ -4,6 +4,237 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Weekly IT Vulnerability Report: Cyble Urges Fixes for NVIDIA, Adobe, CUPS</title>
+<link>https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-nvidia-adobe-cups/</link>
+<guid>https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-nvidia-adobe-cups/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Cyble-Blogs-IT-Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-IT-Vulnerability-2.png" tabindex="0" width="1200" /></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble researchers investigated 19 vulnerabilities in the week ended Oct.1 and flagged eight of them as high priority.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Cyble also observed 10 exploits discussed on <a href="https://cyble.com/knowledge-hub/what-is-the-dark-web/">dark web</a> and cybercrime forums, including an OpenSSH vulnerability with 8 million exposures and claimed zero days in Apple and Android.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Threat actors are also discussing vulnerabilities in products from SolarWinds, Microsoft, Zimbra, WordPress, and Fortinet on underground forums.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Cyble urges security teams to fix these vulnerabilities and to implement nine additional best practices.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research &amp; Intelligence Labs (CRIL) investigated 19 vulnerabilities from Sept. 25 to Oct. 1 and flagged eight of them in four products for security teams to prioritize.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CRIL researchers also observed 10 exploits discussed on dark web and cybercrime forums, one of which – an OpenSSH vulnerability – is present in more than 8 million web-facing hosts detected by Cyble sensors. Vulnerabilities in products from SolarWinds, Microsoft, Apple, Zimbra, WordPress and Fortinet are also under active discussion on cybercrime forums – including claimed zero days in Apple and Android messaging.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here are the <a href="https://cyble.com/?s=vulnerabilities">vulnerabilities</a> and dark web exploits of greatest concern to security teams this week, followed by Cyble’s recommendations.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">The Week’s Top IT Vulnerabilities</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-41925 &amp; CVE-2024-45367: ONS-S8 Spectra Aggregation Switch</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Impact Analysis: </strong>Both of these critical vulnerabilities impact the ONS-S8 Spectra Aggregation Switch, a network management device developed by <a>Optigo Networks</a> for deploying passive optical networking (PON) in intelligent buildings.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CVE-2024-41925is classified as a PHP Remote File Inclusion (RFI) problem stemming from incorrect validation or sanitation of user-supplied file paths, while CVE-2024-45367 is a weak <a href="https://cyble.com/blog/multi-factor-authentication-mfa-is-a-part-of-your-cyber-hygiene/">authentication</a> problem arising from improper password verification enforcement on the authentication mechanism.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CISA released a <a href="https://www.cisa.gov/news-events/ics-advisories/icsa-24-275-01">warning</a> for both vulnerabilities, citing low attack complexity and the product’s use in critical infrastructure.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Internet Exposure? </strong>No<strong></strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Patch Available?</strong> Versions 1.3.7 and earlier are affected. <span style="margin: 0px; padding: 0px;">Optigo recommends additional controls such as a unique management VLAN and either a dedicated NIC, <a href="https://cyble.com/knowledge-hub/what-is-firewall/" rel="noopener" target="_blank">firewall</a> with allow list or a secure VPN connection.</span></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-0132: NVIDIA Container Toolkit</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Impact Analysis: </strong>This high-severity Time-of-check Time-of-Use (TOCTOU) vulnerability impacts the NVIDIA Container Toolkit, a suite of tools designed to facilitate the development and deployment of GPU-accelerated applications within containerized environments. The vulnerability allows an attacker to perform container escape attacks and gain full access to the host system, which may lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Internet Exposure? </strong>No<strong></strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Patch Available?</strong> <a href="https://nvidia.custhelp.com/app/answers/detail/a_id/5582">Yes</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-34102: Adobe Commerce</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Impact Analysis: </strong>This 9.8-severity Improper Restriction of XML External Entity Reference ('XXE') vulnerability impacts Adobe Commerce, formerly known as Magento, a comprehensive eCommerce platform that provides businesses with the tools to create and manage both B2B and B2C online stores. An attacker could exploit this vulnerability by sending a crafted XML document that references external entities, resulting in arbitrary code execution. Researchers recently observed multiple Adobe Commerce and Magento stores compromised by actors leveraging the vulnerability, and the vulnerability is also being discussed on cybercrime forums (see the Underground section below).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Internet Exposure? </strong>Yes<strong></strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Patch Available?</strong> <a href="https://helpx.adobe.com/security/products/magento/apsb24-40.html">Yes</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-47076, CVE-2024-47175, CVE-2024-47176, CVE-2024-47177: CUPS Vulnerabilities</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Impact Analysis: </strong>These recently disclosed vulnerabilities – CVE-2024-47076 (libcupsfilters), CVE-2024-47175 (libppd), CVE-2024-47176 (cups-browsed) and CVE-2024-47177 (cups-filters) – impact CUPS (Common UNIX Printing System), a modular printing system designed for Unix-like operating systems. It enables computers to function as print servers, allowing them to accept print jobs from client machines, process these jobs, and send them to the appropriate printers.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Under certain conditions, attackers can chain the set of vulnerabilities in multiple components of the CUPS open-source printing system to execute arbitrary code remotely on vulnerable machines.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Internet Exposure? </strong>No<strong></strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Patch Available?</strong> See the CVE listings for details:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-47076">CVE-2024-47076</a></li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-47175">CVE-2024-47175</a></li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-47176">CVE-2024-47176</a></li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-47177">CVE-2024-47177</a></li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"> Vulnerabilities and Exploits on Underground Forums</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble researchers observed a high number of vulnerabilities and exploits discussed in Telegram channels and cybercrime forums. Because these vulnerabilities are under active discussion by threat actors, they merit close attention by security teams.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-28987</strong>: A critical vulnerability in SolarWinds Web Help Desk (WHD) software caused by hardcoded developer login credentials.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-38200</strong>: A critical vulnerability affecting multiple versions of Microsoft Office that arises from improper handling of certain document properties within Microsoft Office applications. It could potentially expose sensitive information such as NTLM hashes.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2023-32413</strong>: A security vulnerability identified as a race condition that affects various Apple operating systems. It arises from improper synchronization when multiple processes access shared resources concurrently, which can lead to unexpected behavior in the system.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-43917</strong>: A critical SQL Injection vulnerability affecting the TI WooCommerce Wishlist plugin for WordPress, specifically in versions up to 2.8.2.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-45519</strong>: A critical Remote Code Execution (RCE) vulnerability was discovered in the postjournal service of the Zimbra Collaboration Suite, a widely used email and collaboration platform. Cyble researchers also issued a <a href="https://cyble.com/blog/zimbra-remote-code-execution-vulnerability-under-active-attack/">separate report</a> on the Zimbra vulnerability, and CISA added it to the agency’s <a href="https://www.cisa.gov/news-events/alerts/2024/10/03/cisa-adds-one-known-exploited-vulnerability-catalog">Known Exploited Vulnerabilities catalog</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-8275</strong>: A critical SQL injection vulnerability in the Events Calendar Plugin for WordPress, affecting all versions up to and including 6.6.4. The vulnerability arises from insufficient input validation in specific functions.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-6387:</strong> A threat actor (TA) offered a list of IP addresses that are potentially affected by this vulnerability, which is also known as RegreSSHion. It is a critical remote code execution (RCE) vulnerability in OpenSSH, a widely used suite of secure networking utilities. Cyble’s <a href="https://odin.io/">Odin</a> vulnerability search service shows more than <a href="https://search.odin.io/hosts?query=services.cve.id%3A%22CVE-2024-6387%22">8 million web-facing hosts</a> exposed to this vulnerability.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-34102:</strong> A TA offered to sell a critical security vulnerability affecting Adobe Commerce and Magento, specifically versions 2.4.6 and earlier. The vulnerability stems from improper handling of nested deserialization, which allows remote attackers to execute arbitrary code through crafted XML documents that exploit XML External Entities (XXE) during the deserialization process.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>FortiClient:</strong> A TA on BreachForums advertised exploits weaponizing vulnerabilities present in Fortinet’s FortiClient EMS 7.4/7.3, which results in SQL Injection and Remote Code Execution. The TA is selling the exploits for USD $30,000.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Apple and Android Zero Day:</strong> A TA on BreachForums is advertising a 0-day exploit present in Apple’s iMessage and Android’s text messaging. The vulnerability results in Remote Code Execution (RCE). The TA is selling the binary for the exploit for USD $800,000.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Cyble Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To protect against these vulnerabilities and exploits, organizations should implement the following best practices:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">1. Implement the Latest Patches</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>To mitigate vulnerabilities and protect against exploits, regularly update all software and hardware systems with the latest patches from official vendors.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">2. Implement a Robust Patch Management Process</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Develop a comprehensive patch management strategy that includes inventory management, patch assessment, testing, deployment, and verification. Automate the process where possible to ensure consistency and efficiency.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">3. Implement Proper Network Segmentation</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Divide your network into distinct segments to isolate critical assets from less secure areas. Use firewalls, VLANs, and access controls to limit access and reduce the <a href="https://cyble.com/solutions/attack-surface-management/">attack surface</a> exposed to potential <a href="https://cyble.com/knowledge-hub/what-are-cyber-threats/">threats</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">4. Incident Response and Recovery Plan</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Create and maintain an <a href="https://cyble.com/knowledge-hub/what-is-incident-response/">incident response</a> plan that outlines procedures for detecting, responding to, and recovering from security incidents. Regularly test and update the plan to ensure its effectiveness and alignment with current threats.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">5. Monitoring and Logging Malicious Activities</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Implement comprehensive monitoring and logging solutions to detect and analyze <a href="https://cyble.com/knowledge-hub/what-is-a-data-breach/">suspicious activities</a>. Use SIEM (Security Information and Event Management) systems to aggregate and correlate logs for real-time threat detection and response.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">6. Keep Track of Security Alerts</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Subscribe to security advisories and alerts from official vendors, CERTs, and other authoritative sources. Regularly review and assess the impact of these alerts on your systems and take appropriate actions.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">7. Penetration Testing and Auditing</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Conduct regular vulnerability assessment and penetration testing (VAPT) exercises to identify and remediate vulnerabilities in your systems. Complement these exercises with periodic security audits to ensure compliance with security policies and standards.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">8. Visibility into Assets</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Maintain an up-to-date inventory of all internal and external assets, including hardware, software, and network components. Use asset management tools and continuous monitoring to ensure comprehensive visibility and control over your IT environment.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">9. Strong Password Policy</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Change default passwords immediately and enforce a strong password policy across the organization. Implement <a href="https://cyble.com/blog/multi-factor-authentication-mfa-is-a-part-of-your-cyber-hygiene/">multi-factor authentication</a> (MFA) to provide an extra layer of security and significantly reduce the risk of unauthorized access.</p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-nvidia-adobe-cups/" rel="nofollow">Weekly IT Vulnerability Report: Cyble Urges Fixes for NVIDIA, Adobe, CUPS</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Fri, 04 Oct 2024 14:46:24 +0000</pubDate>
+<pubDate>Fri, 04 Oct 2024 14:46:24 +0000</pubDate>
+</item>
 
 <item>
 <title>‘Pig butchering’ trading apps found on Google Play, App Store</title>
