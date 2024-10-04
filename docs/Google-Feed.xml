@@ -4,15 +4,14 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Google removes Kaspersky's antivirus software from Play Store</title>
 <link>https://www.bleepingcomputer.com/news/security/google-removes-kasperskys-antivirus-software-from-play-store-disables-developer-accounts/</link>
 <guid>https://www.bleepingcomputer.com/news/security/google-removes-kasperskys-antivirus-software-from-play-store-disables-developer-accounts/</guid>
 <content:encoded><![CDATA[
-
 Over the weekend, Google removed Kaspersky's Android security apps from the Google Play store and disabled the Russian company's developer accounts. [...]
 ]]></content:encoded>
-<pubDate>Fri, 04 Oct 2024 12:03:35 -0400</pubDate>
 <pubDate>Fri, 04 Oct 2024 12:03:35 -0400</pubDate>
 </item>
 <item>
@@ -20,13 +19,10 @@ Over the weekend, Google removed Kaspersky's Android security apps from the Goog
 <link>https://www.cysecurity.news/2024/10/necro-trojan-uses-steganography-to.html</link>
 <guid>https://www.cysecurity.news/2024/10/necro-trojan-uses-steganography-to.html</guid>
 <content:encoded><![CDATA[
-
 <p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZJsuPgWDRgwe42teDrKzv1zTkFzSOlBVUlwJdIR-O65DLtIXax5uNq6hWMerXEp3QSkS2k4lSVq_4Ah7Pkfmyg_rLV-CPZhe8ibfZvy81G4MG6kvdousx8TR88Irpp-xbmmGnThhEdnSuyXQLo_HiEAPiZYwytQVStG1h89vOpZ_pvl_gu2JrBV_J2xjw/s960/Taiwan%20and%20US.jpg" style="margin-left: 1em; margin-right: 1em;"><img alt="Necro Trojan Uses Steganography to Attack 11 Million Devices" border="0" height="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZJsuPgWDRgwe42teDrKzv1zTkFzSOlBVUlwJdIR-O65DLtIXax5uNq6hWMerXEp3QSkS2k4lSVq_4Ah7Pkfmyg_rLV-CPZhe8ibfZvy81G4MG6kvdousx8TR88Irpp-xbmmGnThhEdnSuyXQLo_HiEAPiZYwytQVStG1h89vOpZ_pvl_gu2JrBV_J2xjw/w640-h360/Taiwan%20and%20US.jpg" title="Necro Trojan Uses Steganography to Attack 11 Million Devices" width="640" /></a></div><br /><div style="text-align: justify;"><a href="https://securelist.com/necro-trojan-is-back-on-google-play/113881/" target="_blank">Necro Trojan</a>, which has recently made headlines for its innovative use of steganography has compromised over 11 million Android devices. This blog delves into the intricacies of this malware, how it works, and its impact on cybersecurity.</div><p></p><h3 style="text-align: justify;">Understanding the Necro Trojan</h3><p style="text-align: justify;">The Necro Trojan, also known as Necro Python, is a versatile and highly adaptive piece of malware. Its primary strength lies in its modular architecture, allowing it to perform various<a href="https://www.cysecurity.news/2019/09/camscanner-returns-after-being-removed.html" target="_blank"> malicious activities.</a>&nbsp;</p><p style="text-align: justify;">These include displaying invisible ads, executing arbitrary code, and subscribing users to premium services without their consent. However, what sets the Necro Trojan apart is its use of steganography—a technique that involves hiding malicious code within seemingly innocuous files, such as images.</p><h3 style="text-align: justify;">The Role of Steganography</h3><p style="text-align: justify;">Steganography is an ancient practice where hidden messages were concealed within other forms of communication. This technique has been repurposed in the digital age for more scandalous ends.&nbsp;</p><p style="text-align: justify;">The Necro Trojan is a complex, multi-stage <a href="https://www.cysecurity.news/2024/09/necro-malware-attacks-google-play-store.html" target="_blank">Android malware</a> that has managed to infiltrate both Google Play and unofficial app sources, impacting over 11 million devices. It targets popular apps such as Wuta Camera, Max Browser, and modified versions of Spotify, WhatsApp, and Minecraft.</p><p style="text-align: justify;">Necro uses advanced evasion techniques, including obfuscation with OLLVM, steganography to conceal payloads in PNG images, and a modular architecture for versatility. The infection process begins with a loader that connects to C2 servers, often utilizing Firebase Remote Config.</p><p style="text-align: justify;">The Trojan’s plugins (NProxy, island, web, Happy SDK, Cube SDK, and Tap) perform various tasks, from creating tunnels through victim devices to manipulating ad interactions. Its self-updating capability and use of reflection to integrate privileged WebView instances within processes help it bypass security measures.</p><h3 style="text-align: justify;">How Necro Trojan Impacts Android Devices</h3><p style="text-align: justify;">The scale of the Necro Trojan’s impact is staggering. With over 11 million Android devices compromised, the malware has demonstrated its ability to spread rapidly and efficiently.&nbsp;</p><p style="text-align: justify;">The consequences for affected users can be severe, ranging from unauthorized financial transactions to significant data breaches. Moreover, the Trojan’s ability to execute arbitrary code means that it can be used to deploy additional malware, further compounding the threat.</p>
 ]]></content:encoded>
-<pubDate>2024-10-04T11:53:00.001-04:00</pubDate>
 <pubDate>2024-10-04T11:53:04.607-04:00</pubDate>
 </item>
-
 <item>
 <title>‘Pig butchering’ trading apps found on Google Play, App Store</title>
 <link>https://www.bleepingcomputer.com/news/security/pig-butchering-trading-apps-found-on-google-play-app-store/</link>
