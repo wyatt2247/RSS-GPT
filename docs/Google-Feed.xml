@@ -4,19 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Session Hijacking Surges: Attackers Exploit MFA Gaps with Modern Tactics</title>
 <link>https://www.cysecurity.news/2024/10/session-hijacking-surges-attackers.html</link>
 <guid>https://www.cysecurity.news/2024/10/session-hijacking-surges-attackers.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p>
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh6_L_tfF2bjwysB6dY5AkNuqcnRxAhyphenhyphenBP4WYpqQJnaNsNiitYiQRPNHhwgxhMTDOkGZrS3YLRDSLqqTdaFSHI9tUf6Xe5AwAizD2nBVhXs0-rBKYznuNwGfmIGH9KeMlIvqT_D2IBX3wBY5xAaCgVsr7t6aPD7pg-egtE2ByX5jEK6qL1G8zH-VxlVjs/s5760/pexels-markus-spiske-330771.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh6_L_tfF2bjwysB6dY5AkNuqcnRxAhyphenhyphenBP4WYpqQJnaNsNiitYiQRPNHhwgxhMTDOkGZrS3YLRDSLqqTdaFSHI9tUf6Xe5AwAizD2nBVhXs0-rBKYznuNwGfmIGH9KeMlIvqT_D2IBX3wBY5xAaCgVsr7t6aPD7pg-egtE2ByX5jEK6qL1G8zH-VxlVjs/s600/pexels-markus-spiske-330771.jpg" width="600" /></a></div><div style="text-align: justify;">As multi-factor authentication (MFA) becomes more common, attackers are increasingly resorting to session hijacking. Evidence from 2023 shows this trend: Microsoft detected 147,000 token replay attacks, marking a 111% increase year-over-year. Google reports that attacks on session cookies now rival traditional password-based threats.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Session hijacking has evolved from old Man-in-the-Middle (MitM) attacks, which relied on intercepting unsecured network traffic. Today, these attacks are internet-based, focusing on cloud apps and services. Modern session hijacking involves stealing session materials like cookies and tokens, enabling attackers to bypass standard security controls like VPNs, encrypted traffic, and even MFA.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The rise of identity-based attacks is a result of the growing complexity of user accounts, with each person managing multiple cloud-based services. Once attackers gain access to an active session, they can bypass MFA, leveraging the valid session tokens, which often stay active longer than expected.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Modern phishing toolkits, like AitM and BitM, make hijacking easier by allowing attackers to intercept MFA processes or trick users into controlling their browser. Infostealers, a newer tool, capture session cookies from the victim’s browser, putting multiple applications at risk, especially when EDR systems fail to detect them.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Infostealer infections are often traced back to unmanaged personal devices, which sync browser profiles with work devices, leading to the compromise of corporate credentials. EDRs aren’t always reliable in stopping these threats, and attackers can still resume stolen sessions without re-authentication, making it difficult for organizations to detect unauthorized access.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Passkeys offer some protection by preventing phishing, but infostealers bypass authentication entirely. While app-level controls exist to detect unauthorized sessions, many are inadequate. Companies are now considering browser-based solutions that monitor user agent strings for signs of session hijacking, offering a last line of defense against these sophisticated attacks.</div>
 ]]></content:encoded>
-<pubDate>2024-10-05T14:08:00.006-04:00</pubDate>
 <pubDate>2024-10-05T15:08:22.433-04:00</pubDate>
 </item>
-
 <item>
 <title>MD-Pro 1.0.76 Shell Upload / SQL Injection</title>
 <link>https://cxsecurity.com/issue/WLB-2024100008</link>
