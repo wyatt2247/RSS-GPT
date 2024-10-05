@@ -4,6 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>MD-Pro 1.0.76 Shell Upload / SQL Injection</title>
+<link>https://cxsecurity.com/issue/WLB-2024100008</link>
+<guid>https://cxsecurity.com/issue/WLB-2024100008</guid>
+<content:encoded><![CDATA[
+
+Topic: MD-Pro 1.0.76 Shell Upload / SQL Injection Risk: High Text:# Exploit Title: MD-Pro 1.0.76. ( SQL injection + shell upload )  # Google Dork: intext: Powered by MD-Pro  # Date: 2024-08-30 ...
+]]></content:encoded>
+<pubDate>Sat, 05 Oct 2024 14:35:33 +0000</pubDate>
+<pubDate>2024-10-05 14:35:33 CET</pubDate>
+</item>
 
 <item>
 <title>Crypto Wallet App on Google Play Steals $70,000 from Mobile Users</title>
