@@ -4,6 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Switch - 5,397 breached accounts</title>
+<link>https://haveibeenpwned.com/PwnedWebsites</link>
+<guid>https://haveibeenpwned.com/PwnedWebsites</guid>
+<content:encoded><![CDATA[
+
+In October 2024, the Hungarian IT headhunting service <a href="https://telex.hu/techtud/2024/10/01/kiberbiztonsag-adatvedelem-adatszivargas-szemelyes-adatok-switch-it-fejvadasz-ceg" rel="noopener" target="_blank">Switch inadvertently exposed thousands of customer records via a public GitHub repository</a>. The exposed data contained job applications with names, email addresses and in some cases, commentary on the applicant.
+]]></content:encoded>
+<pubDate>Sat, 05 Oct 2024 20:18:44 Z</pubDate>
+<pubDate>Sat, 05 Oct 2024 20:18:44 Z</pubDate>
+</item>
 
 <item>
 <title>How Reachability Analysis Is Streamlining Security for Developers</title>
