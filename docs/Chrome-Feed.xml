@@ -4,6 +4,23 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>New FakeUpdate Cyber Campaign Spreads Updated WarmCookie Backdoor in France</title>
+<link>https://www.cysecurity.news/2024/10/new-fakeupdate-cyber-campaign-spreads.html</link>
+<guid>https://www.cysecurity.news/2024/10/new-fakeupdate-cyber-campaign-spreads.html</guid>
+<content:encoded><![CDATA[
+
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUUyV3NYkNzcCIl5LLjG7_buH8CdbrTXaIWUoJ3HgHC7U8UNrU2lnn-P8YuiP4Xwwg0tkEDwCCc5dsNPRQX_fgxsXucGKCgVNvuHsSfp5cVp_s7Qo3u6fPXtBFYh_9HRjO6syw406dz9o7tG-rnWii0SjUXSNN6mbhJplOAjgw9VmH7qf_GsEpi1YXbJI/s4008/pexels-tima-miroshnichenko-5380589.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUUyV3NYkNzcCIl5LLjG7_buH8CdbrTXaIWUoJ3HgHC7U8UNrU2lnn-P8YuiP4Xwwg0tkEDwCCc5dsNPRQX_fgxsXucGKCgVNvuHsSfp5cVp_s7Qo3u6fPXtBFYh_9HRjO6syw406dz9o7tG-rnWii0SjUXSNN6mbhJplOAjgw9VmH7qf_GsEpi1YXbJI/s600/pexels-tima-miroshnichenko-5380589.jpg" width="600" /></a></div><div style="text-align: justify;">A new wave of cyberattacks is targeting users in France, exploiting fake browser and software update prompts to spread an updated version of the WarmCookie backdoor. The campaign, dubbed “FakeUpdate,” has been linked to the SocGolish threat group, known for using compromised or fake websites to display deceptive update messages for popular applications like Google Chrome, Mozilla Firefox, Microsoft Edge, and Java.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">When users fall for these fake update alerts and click on them, malicious software is installed on their systems instead of a legitimate update. This payload includes tools like info-stealers, remote access trojans (RATs), cryptocurrency drainers, and ransomware.
+
+According to researchers from Gen Threat Labs, the WarmCookie backdoor being distributed in this campaign is more advanced than its previous versions.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Initially discovered by cybersecurity firm eSentire in 2023, WarmCookie is designed to steal data, capture screenshots, run arbitrary commands, and drop additional malicious files. In this latest campaign, it has been updated with new features, such as the ability to run DLLs from a system’s temporary folder and execute PowerShell and EXE files.
+
+The infection chain begins when users click on fake update prompts that closely mimic legitimate update notifications.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Once clicked, a JavaScript file triggers the download of the WarmCookie installer, which bypasses security checks and installs the backdoor. The malware can evade detection through anti-virtual machine (anti-VM) checks, ensuring it’s not being monitored by security analysts before sending system data to its command and control (C2) server.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">While the attackers are primarily using compromised websites to distribute these fake updates, researchers also identified malicious domains designed to look like official update sites, such as “edgeupdate[.]com” and “mozilaupgrade[.]com.”
+
+Experts warn that legitimate browsers, including Chrome, Edge, and Firefox, update automatically and do not require users to manually download update files.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Any pop-up asking users to do so should be viewed with suspicion and avoided.</div>
+]]></content:encoded>
+<pubDate>2024-10-07T11:40:00.003-04:00</pubDate>
+<pubDate>2024-10-07T11:40:38.186-04:00</pubDate>
+</item>
 
 <item>
 <title>Evaluating Mitigations &amp; Vulnerabilities in Chrome</title>

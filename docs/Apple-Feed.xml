@@ -4,6 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>iTunes For Windows 12.13.2.3 Local Privilege Escalation</title>
+<link>https://packetstormsecurity.com/files/182031/CVE-2024-44193-main.zip</link>
+<guid>https://packetstormsecurity.com/files/182031/CVE-2024-44193-main.zip</guid>
+<content:encoded><![CDATA[
+
+This is a thorough write up of how to exploit a local privilege escalation vulnerability in iTunes for Windows version 12.13.2.3. Apple fixed this in version 12.13.3.
+]]></content:encoded>
+<pubDate>Mon, 07 Oct 2024 14:10:42 GMT</pubDate>
+<pubDate>Mon, 07 Oct 2024 14:10:42 GMT</pubDate>
+</item>
 
 <item>
 <title>Apple Releases Critical iOS and iPadOS Updates to Fix VoiceOver Password Vulnerability</title>
