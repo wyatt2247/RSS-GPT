@@ -4,6 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>PHP-Nuke Top Module SQL Injection</title>
+<link>https://cxsecurity.com/issue/WLB-2024100018</link>
+<guid>https://cxsecurity.com/issue/WLB-2024100018</guid>
+<content:encoded><![CDATA[
+
+Topic: PHP-Nuke Top Module SQL Injection Risk: Medium Text:# Exploit Title: PHP-Nuke ( SQL injection Top Module + protection Bypass )  # Google Dork: intext: Powered by PHP-Nuke  # Date:...
+]]></content:encoded>
+<pubDate>Tue, 08 Oct 2024 20:23:24 +0000</pubDate>
+<pubDate>2024-10-08 20:23:25 CET</pubDate>
+</item>
 
 <item>
 <title>Google’s Latest Theft Protection for Android Devices</title>
