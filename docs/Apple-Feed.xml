@@ -5,11 +5,22 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Apple Security Advisory 10-03-2024-1</title>
+<link>https://packetstormsecurity.com/files/182094/APPLE-SA-10-03-2024-1.txt</link>
+<guid>https://packetstormsecurity.com/files/182094/APPLE-SA-10-03-2024-1.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 10-03-2024-1 - iOS 18.0.1 and iPadOS 18.0.1 addresses an audio capturing issue and a logic issue related to passwords being read aloud.
+]]></content:encoded>
+<pubDate>Tue, 08 Oct 2024 14:31:21 GMT</pubDate>
+<pubDate>Tue, 08 Oct 2024 14:31:21 GMT</pubDate>
+</item>
+
+<item>
 <title>Apple Issues Urgent Security Advisory for iOS and iPadOS Vulnerabilities</title>
 <link>https://cyble.com/blog/apple-issues-urgent-security-advisory-for-ios-and-ipados-vulnerabilities/</link>
 <guid>https://cyble.com/blog/apple-issues-urgent-security-advisory-for-ios-and-ipados-vulnerabilities/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Cyble-Blogs-Apple" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-Apple.jpg" tabindex="0" width="1200" /></p>
 <p><!-- wp:heading --></p>
 <h2 class="wp-block-heading"><strong>Overview</strong></h2>
@@ -79,9 +90,7 @@
 <p>The post <a href="https://cyble.com/blog/apple-issues-urgent-security-advisory-for-ios-and-ipados-vulnerabilities/" rel="nofollow">Apple Issues Urgent Security Advisory for iOS and iPadOS Vulnerabilities</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Tue, 08 Oct 2024 13:42:54 +0000</pubDate>
-<pubDate>Tue, 08 Oct 2024 13:42:54 +0000</pubDate>
 </item>
-
 <item>
 <title>Massive Global Fraud Campaign Exploits Fake Trading Apps on Apple and Google Platforms</title>
 <link>https://www.cysecurity.news/2024/10/massive-global-fraud-campaign-exploits.html</link>
