@@ -4,6 +4,31 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Patch Tuesday, October 2024 Edition</title>
+<link>https://krebsonsecurity.com/2024/10/patch-tuesday-october-2024-edition/</link>
+<guid>https://krebsonsecurity.com/2024/10/patch-tuesday-october-2024-edition/</guid>
+<content:encoded><![CDATA[
+
+<p><strong>Microsoft</strong> today released security updates to fix at least 117 security holes in <strong>Windows</strong> computers and other software, including two vulnerabilities that are already seeing active attacks. Also, <strong>Adobe</strong> plugged 52 security holes across a range of products, and <strong>Apple</strong> has addressed a bug in its new <strong>macOS 15</strong> &#8220;<strong>Sequoia</strong>&#8221; update that broke many cybersecurity tools.</p>
+<p><img alt="" class="aligncenter wp-image-52647" height="515" src="https://krebsonsecurity.com/wp-content/uploads/2020/08/windowsec.png" width="702" /></p>
+<p>One of the zero-day flaws &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-43573" rel="noopener" target="_blank">CVE-2024-43573</a> &#8212; stems from a security weakness in <strong>MSHTML</strong>, the proprietary engine of Microsoft&#8217;s <strong>Internet Explorer</strong> web browser. If that sounds familiar it&#8217;s because this is the fourth MSHTML vulnerability found to be exploited in the wild so far in 2024.</p>
+<p><strong>Nikolas Cemerikic</strong>, a cybersecurity engineer at <strong>Immersive Labs</strong>, said the vulnerability allows an attacker to trick users into viewing malicious web content, which could appear legitimate thanks to the way Windows handles certain web elements.</p>
+<p>&#8220;Once a user is deceived into interacting with this content (typically through phishing attacks), the attacker can potentially gain unauthorized access to sensitive information or manipulate web-based services,&#8221; he said.</p>
+<p>Cemerikic noted that while Internet Explorer is being retired on many platforms, its underlying MSHTML technology remains active and vulnerable.</p>
+<p>&#8220;This creates a risk for employees using these older systems as part of their everyday work, especially if they are accessing sensitive data or performing financial transactions online,&#8221; he said.</p>
+<p>Probably the more serious zero-day this month is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-43572" rel="noopener" target="_blank">CVE-2024-43572</a>, a code execution bug in the <a href="https://en.wikipedia.org/wiki/Microsoft_Management_Console" rel="noopener" target="_blank">Microsoft Management Console</a>, a component of Windows that gives system administrators a way to configure and monitor the system.</p>
+<p><strong>Satnam Narang</strong>, senior staff research engineer at <strong>Tenable</strong>, observed that the patch for CVE-2024-43572 arrived a few months after researchers at <strong>Elastic Security Labs</strong> disclosed an attack technique called <a href="https://www.elastic.co/security-labs/grimresource" rel="noopener" target="_blank">GrimResource</a> that leveraged an old cross-site scripting (XSS) vulnerability combined with a specially crafted Microsoft Saved Console (MSC) file to gain code execution privileges.<span id="more-69126"></span></p>
+<p>&#8220;Although Microsoft patched a different MMC vulnerability in September (CVE-2024-38259) that was neither exploited in the wild nor publicly disclosed,&#8221; Narang said. &#8220;Since the discovery of CVE-2024-43572, Microsoft now prevents untrusted MSC files from being opened on a system.&#8221;</p>
+<p>Microsoft also patched <strong>Office,</strong> <strong>Azure</strong>, <strong>.NET</strong>, <strong>OpenSSH for Windows</strong>; <strong>Power BI</strong>; <strong>Windows Hyper-V</strong>; <strong>Windows Mobile Broadband</strong>, and <strong>Visual Studio</strong>. As usual, the <strong>SANS Internet Storm Center</strong> has <a href="https://isc.sans.edu/diary/Microsoft%20Patch%20Tuesday%20-%20October%202024/31336" rel="noopener" target="_blank">a list of all Microsoft patches released today</a>, indexed by severity and exploitability.</p>
+<p>Late last month, Apple rolled out macOS 15, an operating system update called Sequoia that broke the functionality of security tools made by a number of vendors, including CrowdStrike, SentinelOne and Microsoft. On Oct. 7, <a href="https://techcrunch.com/2024/10/07/apple-fixes-bugs-in-macos-sequoia-that-broke-some-cybersecurity-tools/" rel="noopener" target="_blank">Apple pushed an update to Sequoia users</a> that addresses these compatibility issues.</p>
+<p>Finally, Adobe has released security updates to plug a total of 52 vulnerabilities in a range of software, including <strong>Adobe Substance 3D Painter</strong>, <strong>Commerce</strong>, <strong>Dimension</strong>, <strong>Animate</strong>, <strong>Lightroom</strong>, <strong>InCopy</strong>, <strong>InDesign</strong>, <strong>Substance 3D Stager</strong>, and <strong>Adobe FrameMaker</strong>.</p>
+<p>Please consider backing up important data before applying any updates. Zero-days aside, there&#8217;s generally little harm in waiting a few days to apply any pending patches, because not infrequently a security update introduces stability or compatibility issues. <strong>AskWoody.com</strong> usually has the skinny on any problematic patches.</p>
+<p>And as always, if you run into any glitches after installing patches, leave a note in the comments; chances are someone else is stuck with the same issue and may have even found a solution.</p>
+]]></content:encoded>
+<pubDate>Tue, 08 Oct 2024 22:21:19 +0000</pubDate>
+<pubDate>Tue, 08 Oct 2024 22:21:19 +0000</pubDate>
+</item>
 
 <item>
 <title>Apple releases <b>macOS</b> patch to fix compatibility issues with security tools - SC Media</title>
