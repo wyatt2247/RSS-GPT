@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Patch Tuesday, October 2024 Edition</title>
 <link>https://krebsonsecurity.com/2024/10/patch-tuesday-october-2024-edition/</link>
 <guid>https://krebsonsecurity.com/2024/10/patch-tuesday-october-2024-edition/</guid>
 <content:encoded><![CDATA[
-
 <p><strong>Microsoft</strong> today released security updates to fix at least 117 security holes in <strong>Windows</strong> computers and other software, including two vulnerabilities that are already seeing active attacks. Also, <strong>Adobe</strong> plugged 52 security holes across a range of products, and <strong>Apple</strong> has addressed a bug in its new <strong>macOS 15</strong> &#8220;<strong>Sequoia</strong>&#8221; update that broke many cybersecurity tools.</p>
 <p><img alt="" class="aligncenter wp-image-52647" height="515" src="https://krebsonsecurity.com/wp-content/uploads/2020/08/windowsec.png" width="702" /></p>
 <p>One of the zero-day flaws &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-43573" rel="noopener" target="_blank">CVE-2024-43573</a> &#8212; stems from a security weakness in <strong>MSHTML</strong>, the proprietary engine of Microsoft&#8217;s <strong>Internet Explorer</strong> web browser. If that sounds familiar it&#8217;s because this is the fourth MSHTML vulnerability found to be exploited in the wild so far in 2024.</p>
@@ -27,9 +27,7 @@
 <p>And as always, if you run into any glitches after installing patches, leave a note in the comments; chances are someone else is stuck with the same issue and may have even found a solution.</p>
 ]]></content:encoded>
 <pubDate>Tue, 08 Oct 2024 22:21:19 +0000</pubDate>
-<pubDate>Tue, 08 Oct 2024 22:21:19 +0000</pubDate>
 </item>
-
 <item>
 <title>Apple releases <b>macOS</b> patch to fix compatibility issues with security tools - SC Media</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.scmagazine.com/news/apple-releases-macos-patch-to-fix-compatibility-issues-with-security-tools&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2bxcORkENeDJnAYAgMIuZu</link>
