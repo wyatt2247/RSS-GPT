@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Google Begins Testing Verified Checkmarks for Websites in Search Results</title>
 <link>https://www.cysecurity.news/2024/10/google-begins-testing-verified.html</link>
 <guid>https://www.cysecurity.news/2024/10/google-begins-testing-verified.html</guid>
 <content:encoded><![CDATA[
-
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdGb-wzFmhfgpqOY_1MtFhUaqToC_ue_JojhIcUg36hoSZZWxnvaRHPOp2zX1JG3vn3hvGlXuBTo9XymO_JrVqNKlkWIqCQPu-nLU_ilStSlYGV54luxW9BWPnGgKj5tei_p9Cu_jLbDqN2vlACoE_OmCtQCI3U3SzuQwtnJl5d418x9dQkHSLTovA9Ac/s6016/pexels-asphotograpy-218717.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdGb-wzFmhfgpqOY_1MtFhUaqToC_ue_JojhIcUg36hoSZZWxnvaRHPOp2zX1JG3vn3hvGlXuBTo9XymO_JrVqNKlkWIqCQPu-nLU_ilStSlYGV54luxW9BWPnGgKj5tei_p9Cu_jLbDqN2vlACoE_OmCtQCI3U3SzuQwtnJl5d418x9dQkHSLTovA9Ac/s600/pexels-asphotograpy-218717.jpg" width="600" /></a></div><p>&nbsp;</p><div style="text-align: justify;">Google has started testing a new feature in its search results that adds a blue checkmark next to certain websites, aiming to enhance user security while browsing. As of now, this experiment is limited to a small number of users and websites, with the checkmarks appearing next to well-known companies such as Microsoft, Meta, and Apple.
 
 The blue checkmark serves as an indicator that the website is verified by Google.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">When users hover over the checkmark, a message explains, “This icon is being shown because Google’s signals suggest that this business is the business that it says it is.” However, Google clarifies that this verification does not guarantee the full reliability of the website, meaning users should still exercise caution.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">This feature resembles Google’s previous initiative, the BIMI (Brand Indicators for Message Identification) system, introduced in Gmail in 2023. BIMI uses blue markers to verify the authenticity of email senders, ensuring that businesses sending emails are legitimate and own the domains and logos they use.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The goal of BIMI was to combat phishing and other malicious activities by allowing users to quickly identify verified businesses.
@@ -18,7 +18,6 @@ While the checkmark feature is currently only being tested with a select group o
 
 Although it is unclear when or if Google plans to roll out the feature to all users, a company spokesperson confirmed that the test is underway.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">This new experiment could be a step towards making the internet a safer space, particularly as users grow more concerned about online threats such as phishing and scams. For now, Google is monitoring the test to assess its effectiveness before deciding on a broader launch.</div>
 ]]></content:encoded>
-<pubDate>2024-10-09T12:15:00.002-04:00</pubDate>
 <pubDate>2024-10-09T12:15:54.396-04:00</pubDate>
 </item>
 <item>
@@ -26,11 +25,9 @@ Although it is unclear when or if Google plans to roll out the feature to all us
 <link>https://thehackernews.com/2024/10/google-joins-forces-with-gasa-and-dns.html</link>
 <guid>https://thehackernews.com/2024/10/google-joins-forces-with-gasa-and-dns.html</guid>
 <content:encoded><![CDATA[
-
 Google on Wednesday announced a new partnership with the Global Anti-Scam Alliance (GASA) and DNS Research Federation (DNS RF) to combat online scams.
 The initiative, which has been codenamed the Global Signal Exchange (GSE), is designed to create real-time insights into scams, fraud, and other forms of cybercrime pooling together threat signals from different data sources in order to create
 ]]></content:encoded>
-<pubDate>Wed, 09 Oct 2024 22:30:00 +0530</pubDate>
 <pubDate>Wed, 09 Oct 2024 22:30:00 +0530</pubDate>
 </item>
 <item>
@@ -38,7 +35,6 @@ The initiative, which has been codenamed the Global Signal Exchange (GSE), is de
 <link>https://krebsonsecurity.com/2024/10/lamborghini-carjackers-lured-by-243m-cyberheist/</link>
 <guid>https://krebsonsecurity.com/2024/10/lamborghini-carjackers-lured-by-243m-cyberheist/</guid>
 <content:encoded><![CDATA[
-
 <p>The parents of a 19-year-old Connecticut honors student accused of taking part in a $243 million cryptocurrency heist in August were carjacked a week later &#8212; while out house-hunting in a brand new Lamborghini. Prosecutors say the couple was beaten and briefly kidnapped by six young men who traveled from Florida as part of a botched plan to hold the parents for ransom.</p>
 <div class="wp-caption aligncenter" id="attachment_69159" style="width: 761px;"><img alt="" class=" wp-image-69159" height="389" src="https://krebsonsecurity.com/wp-content/uploads/2024/10/abc-7-danbury.png" width="751" /><p class="wp-caption-text" id="caption-attachment-69159">Image: ABC7NY.  youtube.com/watch?v=xoiaGzwrunY</p></div>
 <p>Late in the afternoon of Aug. 25, 2024 in Danbury, Ct., a married couple in their 50s pulled up to a gated community in a new Lamborghini Urus (investigators say the sports car still had temporary tags) when they were intentionally rear-ended by a Honda Civic.</p>
@@ -81,9 +77,7 @@ The initiative, which has been codenamed the Global Signal Exchange (GSE), is de
 <p>From there the target was social engineered over the phone into resetting multi-factor authentication and sending Gemini funds to a compromised wallet. ZachXBT says the attackers also convinced the victim to use <strong>AnyDesk</strong> to share their screen, and in doing so the victim leaked their private keys.</p>
 ]]></content:encoded>
 <pubDate>Wed, 09 Oct 2024 17:36:27 +0000</pubDate>
-<pubDate>Wed, 09 Oct 2024 17:36:27 +0000</pubDate>
 </item>
-
 <item>
 <title>OEMs Are Urged to Address Vulnerabilities in Device Communication</title>
 <link>https://cyble.com/blog/oems-are-urged-to-address-vulnerabilities-in-device-communication/</link>
