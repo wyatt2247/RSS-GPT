@@ -4,6 +4,324 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>New iPhone feature could expose employees’ personal information</title>
+<link>https://www.securitymagazine.com/articles/101134-new-iphone-feature-could-expose-employees-personal-information</link>
+<guid>https://www.securitymagazine.com/articles/101134-new-iphone-feature-could-expose-employees-personal-information</guid>
+<content:encoded><![CDATA[
+
+<p>Cybersecurity researchers have discovered that Apple’s new “Mirroring” feature could expose an employee’s personal applications.</p>
+]]></content:encoded>
+<pubDate>Wed, 16 Oct 2024 08:00:00 -0400</pubDate>
+<pubDate>Wed, 16 Oct 2024 08:00:00 -0400</pubDate>
+</item>
+<item>
+<title>Cisco Investigates Data Breach After Hacker Claims Sale of Data</title>
+<link>https://www.cysecurity.news/2024/10/cisco-investigates-data-breach-after.html</link>
+<guid>https://www.cysecurity.news/2024/10/cisco-investigates-data-breach-after.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC_OFXR51o2WikDsLJX_ZiotxV4mG4JluKpZ_TzjW1Y1oeaEBeZYVzUcbN5nPnZPPLVIZuo9QtKnS4bA8RUVYsfZVcgUpThW2qPcKAJWQwpZzAQs0CT9wS68si2wQ5u0EwHf2P7eLXOlHI2Mla_rRHQnlyUns0zXoxPkFf0eS7SbfzIeLYSIN46SHU66w/s6135/1269.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC_OFXR51o2WikDsLJX_ZiotxV4mG4JluKpZ_TzjW1Y1oeaEBeZYVzUcbN5nPnZPPLVIZuo9QtKnS4bA8RUVYsfZVcgUpThW2qPcKAJWQwpZzAQs0CT9wS68si2wQ5u0EwHf2P7eLXOlHI2Mla_rRHQnlyUns0zXoxPkFf0eS7SbfzIeLYSIN46SHU66w/s600/1269.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><span style="font-family: inherit;">Cisco has acknowledged that it is investigating reports of a data breach after a hacker began offering allegedly stolen firm data for sale on a hacking platform.
+
+As per a report in a local media outlet, the investigation was launched following claims made by a well-known hacker identified as “IntelBroker.”</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">“Cisco is aware of reports that an actor is alleging to have gained access to certain Cisco-related files,” a Cisco spokesperson stated. “We have launched an investigation to assess this claim, and our investigation is ongoing.”&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The allegations surfaced after IntelBroker claimed, along with two others designated as "EnergyWeaponUser" and "zjj," that they infiltrated Cisco's servers on June 10, 2024, and obtained a large amount of developer-related data.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">IntelBroker's post on a hacking forum showed that the data would include "GitHub projects, GitLab projects, SonarQube projects, source code, hard-coded credentials, certificates, customer SRCs, Cisco confidential documents, Jira tickets, API tokens, AWS private buckets, Cisco technology SRCs, Docker builds, Azure storage buckets, private and public keys, SSL certificates, Cisco premium products, and more." The hacker uploaded samples of a database, client information, multiple files, and screenshots of customer management interfaces.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">According to a recent update from IntelBroker, the breach also involves the theft of sensitive data from other major global companies such as Verizon, AT&amp;T, and Microsoft. The stolen data is now allegedly being offered for sale on the cybercrime platform Breach Forums, with IntelBroker specifying that the transaction would take place in exchange for Monero (XMR), a cryptocurrency known for its anonymity properties.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The hacker expressed a willingness to use an intermediary to facilitate the sale, assuring anonymity for both the buyer and seller. This technique is often used by hackers to evade detection by authorities.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">IntelBroker, which is known for high-profile data thefts, has already claimed responsibility for compromising other prominent firms. In June 2024, IntelBroker reported that they had infiltrated Apple, taking source code for internal tools, as well as Advanced Micro Devices (AMD), stealing employee and product information. In May 2024, IntelBroker claimed to have hacked Europol, which the organisation later confirmed.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">IntelBroker did not provide any specific details on the techniques employed to acquire the data. The stolen data originated from a third-party managed services provider that specialises in software development and DevOps, according to sources knowledgeable with the breaches who spoke with BleepingComputer. It's still unclear if the earlier June incidents and the recent Cisco hack are linked.</span></div></span>
+]]></content:encoded>
+<pubDate>2024-10-19T12:44:00.001-04:00</pubDate>
+<pubDate>2024-10-19T12:44:20.442-04:00</pubDate>
+</item>
+<item>
+<title>Indonesian Government Asks Apple, Google to Block China's Temu to Safeguard Small Merchants</title>
+<link>https://www.cysecurity.news/2024/10/indonesian-government-asks-apple-google.html</link>
+<guid>https://www.cysecurity.news/2024/10/indonesian-government-asks-apple-google.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ZWboTaQ4JGTuPo5qWgLzviaE6_h6mKbauuN0phfOqJSkvs8KxavD4I9QoxnZq-S_8z4e86OVuw2XRRcn9YiaYeWp4IVkYpgdQHkI2Xj907FsjPDIOW-du56eoDfR10AyFuRUFmBPzzQTqVrO9CEQyPFgzjZZX5L5elE_qJGfvl4Z1pbyP8uoXiJQfwU/s1920/1710.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ZWboTaQ4JGTuPo5qWgLzviaE6_h6mKbauuN0phfOqJSkvs8KxavD4I9QoxnZq-S_8z4e86OVuw2XRRcn9YiaYeWp4IVkYpgdQHkI2Xj907FsjPDIOW-du56eoDfR10AyFuRUFmBPzzQTqVrO9CEQyPFgzjZZX5L5elE_qJGfvl4Z1pbyP8uoXiJQfwU/s600/1710.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><span style="font-family: inherit;">Indonesia has urged Alphabet's Google and Apple to remove Temu, a Chinese fast fashion e-commerce startup, from their app stores in the nation, a minister said earlier this week.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The decision was intended to safeguard the nation's small and medium-sized businesses from low-cost products offered by PDD Holdings' Temu, communications minister Budi Arie Setiadi told Reuters, despite the fact that authorities are yet to find any transactions involving its residents on the platform.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Temu's quick expansion has drawn criticism from multiple countries for its low-cost business model of sending shipments to customers in China.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Budi described Temu's business approach as "unhealthy competition," as it connects consumers directly with factories in China to significantly lower prices. "We're not here to safeguard e-commerce, but we do protect small and medium-sized businesses. "There are millions who must be protected," the minister stated.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">If Temu makes such a move, Jakarta will likewise block its investment in local e-commerce, according to Budi, who added that he is unaware of any such plan. Additionally, Budi stated that the government intends to ask Shein, a Chinese online retailer, for a similar ban. 
+
+Last year, Indonesia compelled China's ByteDance social media network TikTok to shut down its online shopfront in order to safeguard the privacy of local users and merchants.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Months later, TikTok agreed to acquire a majority stake in Indonesian digital behemoth GoTo's e-commerce subsidiary in order to maintain its presence in Southeast Asia's largest e-commerce market. On Tuesday, Indonesian e-commerce company Bukalapak.com refuted news of an acquisition by Temu.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">According to an estimate by Google, Singapore state investor Temasek Holdings, and consultancy Bain &amp; Co., Indonesia's e-commerce industry could grow to almost $160 billion by 2030, up from $62 billion in 2023.</span></div></span>
+]]></content:encoded>
+<pubDate>2024-10-17T11:05:00.000-04:00</pubDate>
+<pubDate>2024-10-17T11:05:51.467-04:00</pubDate>
+</item>
+<item>
+<title>Sevco Report Exposes Privacy Risks in iOS and macOS Due to Mirroring Bug</title>
+<link>https://www.cysecurity.news/2024/10/sevco-report-exposes-privacy-risks-in.html</link>
+<guid>https://www.cysecurity.news/2024/10/sevco-report-exposes-privacy-risks-in.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p><div style="text-align: justify;"><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEMKiYQRtiYQemfURX7ZkJBzF9mQ3Gxs2B6Zy76UHEBYQhf7PqPj2RFljxAeg1ItlVStqkFyk2BKIElKK2R9vmqGj_BPHWEvxRar9ZYfqACX3eV5qjozCB_xVgNceME6sKxFcqol60iYvM0rqk1xQzPzt7qKDolrTGr_jFgshdU2kG_57-UzO_oX-rRsE/s1280/macbook-pro-2381729_1280.jpg" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEMKiYQRtiYQemfURX7ZkJBzF9mQ3Gxs2B6Zy76UHEBYQhf7PqPj2RFljxAeg1ItlVStqkFyk2BKIElKK2R9vmqGj_BPHWEvxRar9ZYfqACX3eV5qjozCB_xVgNceME6sKxFcqol60iYvM0rqk1xQzPzt7qKDolrTGr_jFgshdU2kG_57-UzO_oX-rRsE/s600/macbook-pro-2381729_1280.jpg" width="600" /></a></div>A new cybersecurity report from Sevco has uncovered a critical vulnerability in macOS 15.0 Sequoia and iOS 18, which exposes personal data through iPhone apps when devices are mirrored onto work computers. The issue arose when Sevco researchers detected personal iOS apps showing up on corporate Mac devices. This triggered a deeper investigation into the problem, revealing a systemic issue affecting multiple upstream software vendors and customers. The bug creates two main concerns: employees’ personal data could be unintentionally accessed by their employers, and companies could face legal risks for collecting that data. &nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Sevco highlighted that while employees may worry about their personal lives being exposed, companies also face potential data liability even if the access occurs unintentionally. This is especially true when personal iPhones are connected to company laptops or desktops, leading to private data becoming accessible.
+
+Sean Wright, a cybersecurity expert, commented that the severity of the issue depends on the level of trust employees have in their employers. According to Wright, individuals who are uncomfortable with their employers having access to their personal data should avoid using personal devices for work-related tasks or connecting them to corporate systems.
+
+Sevco’s report recommended several actions for companies and employees to mitigate this risk.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Firstly, employees should stop using the mirroring app to prevent the exposure of personal information. In addition, companies should advise their employees not to connect personal devices to work computers. Another key step involves ensuring that third-party vendors do not inadvertently gather sensitive data from work devices. The cybersecurity experts at Sevco urged companies to take these steps while awaiting an official patch from Apple to resolve the issue.
+
+When Apple releases the patch, Sevco recommends that companies promptly apply it to halt the collection of private employee data.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Moreover, companies should purge any previously collected employee information that might have been gathered through this vulnerability. This would help eliminate liability risks and ensure compliance with data protection regulations.
+
+This report highlights the importance of maintaining clear boundaries between personal and work devices. With an increasing reliance on seamless technology, including mirroring apps, the risks associated with these tools also escalate.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">While the convenience of moving between personal phones and work computers is appealing, privacy issues should not be overlooked. The Sevco report emphasizes the importance of being vigilant about security and privacy in the workplace, especially when using personal devices for professional tasks. Both employees and companies need to take proactive steps to safeguard personal information and reduce potential legal risks until a fix is made available.</div>
+]]></content:encoded>
+<pubDate>2024-10-16T11:07:00.001-04:00</pubDate>
+<pubDate>2024-10-16T11:07:38.124-04:00</pubDate>
+</item>
+<item>
+<title>Here's How to Stop Smart TV From Harvesting Your Personal Data</title>
+<link>https://www.cysecurity.news/2024/10/heres-how-to-stop-smart-tv-from.html</link>
+<guid>https://www.cysecurity.news/2024/10/heres-how-to-stop-smart-tv-from.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBqLRNxlc1NS28S-qSIQyVmVkF_G3vQzmbeaATmnCWKKahqz5u6Cyd5jYwFxbh_KQ5KDFA6dcQ79eTdbPf_9SLlsaJuCEdL3sA9ghrI4nE62kKi2WYeDI-9vsc5VyPShgDgRFTjaG_fzdDp4B5bPHo0QcXd6fe4EvGYsS5qe5_Up3XuFxSsqH6tuZyIr0/s4576/1248.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBqLRNxlc1NS28S-qSIQyVmVkF_G3vQzmbeaATmnCWKKahqz5u6Cyd5jYwFxbh_KQ5KDFA6dcQ79eTdbPf_9SLlsaJuCEdL3sA9ghrI4nE62kKi2WYeDI-9vsc5VyPShgDgRFTjaG_fzdDp4B5bPHo0QcXd6fe4EvGYsS5qe5_Up3XuFxSsqH6tuZyIr0/s600/1248.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><span style="font-family: inherit;">Watching television seems to be a benign pastime, but as all TVs become "smart" and link to the internet via your network, they will be able to track you as well. When you turn on a smart TV from LG, Samsung, or Sony, data is collected from the TV itself, as well as the operating system and apps. Then there are the gadgets you connect to your television, like Google's Chromecast, Apple TV, and Amazon's Fire Stick.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">A TV is now more than just a screen for entertainment; it's a two-way mirror that lets a network of data brokers and advertisers watch you in real time, stated Rowenna Fielding, director of data protection consultancy Miss IG Geek. “The purpose of this is to gather as much information as possible about your behaviour, interests, preferences and demographics so it can be monetised, mainly through targeted advertising.”</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Your smart TV's data collection relies on the manufacturer, brand, and version. In theory, most smart TVs can gather audio, video, and TV usage data, according to Toby Lewis, global head of threat analysis at cybersecurity firm Darktrace.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Voice activation is a function that has the ability to collect significant volumes of data. Microphones and software listen for instructions and can record conversations and other noises within range. These recordings can be sent to third parties for analysis.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><b>What does your TV do with the data?</b></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">There is no clear answer. According to Lewis, what is done with the data is complex and "highly opaque". When looking at what a smart TV does on the network, it is often unclear why certain data is being harvested and where it is being sent.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">There isn't much distinction between television brands. Manufacturers claim to utilise your information for "personalisation" and content quality, although it is usual to sell anonymous or semi-anonymized data to third parties, advertising companies, or streaming services.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">“After the data has been sold, it is out of the manufacturer’s control,” Lewis explains. "It is often unclear what data exactly is being sent back, depending on the T&amp;Cs and privacy settings, and it can be very difficult to change default settings once you have agreed to them.”</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><b>What is Automatic Content Recognition (ACR)?&nbsp;</b></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Automated content recognition (ACR) is one alarming feature to keep an eye out for. This feature, which is frequently enabled by default, uses analytical techniques to detect video and audio on the TV and compares it to a large database to determine what is playing. It's fairly disturbing stuff; ACR works on anything played on television, including DVDs, Blu-rays, CDs, and games.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Jake Moore, global cybersecurity adviser at security company ESET, explains that viewing data and habits are shared with manufacturers and eventually sold to advertisers in order to target you with adverts. When your TV is connected to your home router, data will include your IP address and position.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Lewis adds that ACR may theoretically be utilised for even more ominous profiling. "Data from facial recognition, sentiment analysis, speech-to-text, and content analysis could be gathered to build an in-depth picture of an individual user with the analytical technologies available."&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Lewis suggests that rather than comparing material to a catalogue of well-known films, ACR may theoretically be examined for factors like political stance, ethnicity, social status, and other characteristics that could be misused.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><b>Safety tips&nbsp;</b></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Smart TVs will gather data as long as they are connected to the internet, and it is impossible to prevent this from happening. In many cases, doing so is not in your best interests because it will interfere with your viewing experience; for example, Netflix's useful suggestions tool.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">However, there are several simple steps you may take to protect yourself from smart TV snooping. Turn off ACR in the settings, disable customisation, opt out of all advertising features, and hide or disable cameras and microphones.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">It's also vital to secure your router by changing the password and creating a guest network. You may increase security by opting out of online tracking when it's provided and installing software updates as soon as possible.</span></div></span>
+]]></content:encoded>
+<pubDate>2024-10-16T11:07:00.000-04:00</pubDate>
+<pubDate>2024-10-16T11:07:22.898-04:00</pubDate>
+</item>
+<item>
+<title>Apple's Latest iPhone Update: Bad News for Millions of Google Users</title>
+<link>https://www.cysecurity.news/2024/10/apples-latest-iphone-update-bad-news.html</link>
+<guid>https://www.cysecurity.news/2024/10/apples-latest-iphone-update-bad-news.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcsxBsWgc3VG2ojTQ6ZQopD3CSvgxLF4GkXn4dL7jCYluK7YWaZ6APEZ0t5ysMuveBrui-KoujCOYWnIdTvj3JHQ4trOVqFRGrfug_rCrICfj8RhH7jItGbtSzJ9NyYrYuA76zRV6vwz9kThuLFQrCCbBx2pv4E5bOld4NiTnl4ePVnmKLKhcgPoC_3kM/s1920/1710.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcsxBsWgc3VG2ojTQ6ZQopD3CSvgxLF4GkXn4dL7jCYluK7YWaZ6APEZ0t5ysMuveBrui-KoujCOYWnIdTvj3JHQ4trOVqFRGrfug_rCrICfj8RhH7jItGbtSzJ9NyYrYuA76zRV6vwz9kThuLFQrCCbBx2pv4E5bOld4NiTnl4ePVnmKLKhcgPoC_3kM/s600/1710.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><span style="font-family: inherit;">If the latest reports are correct, Apple consumers have just over a fortnight to wait until the launch of iOS 18.1 and the belated arrival of Apple Intelligence, the flagship feature in the latest iOS release. Until then the most significant update is still RCS, the even more belated upgrade of stock SMS on iPhones.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">As security experts commented before, Apple’s RCS upgrade has a lot of security flaws—no end-to-end encryption is the key one, with its lack being a major step back, but there’s also patchy carrier adoption, no full iMessage integration, and no end in sight for those dreaded green bubbles.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">But Google campaigned hard for years, cajoling Apple into making this move as its own Android Messages app lost ever more ground to WhatsApp and other over-the-tops, while Apple seemingly brushed away any concerns, with its critical US user base continuing to iMessage between themselves.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">And, while Google has teased Apple over their flawed RCS implementation, it has also made it clear how welcome this is. But there was always the chance that Google and its consumers would not see the equal playing field they desired, and that risk appears to be coming true.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Android Authority recently claimed that "iPhone users are not as into RCS as their Android buddies would have liked." There are some clear barriers to better adoption, particularly carrier support. But the underlying issue is much simpler: WhatsApp. This long-awaited partial integration of iMessage and Google Messages has been so delayed that WhatsApp has effectively locked down every significant market outside of the United States (and China).&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">With Apple's iMessage security being one of its main selling points, security and privacy have grown so central to the iPhone and its user base that an update that abandons all of that appears counter-intuitive in every sense. The fact that even Google is unable to view user content due to its extensive usage of end-to-end encryption throughout its own platform—which is akin to Apple's—makes this situation worse. However, all of that disappears when using cross-platform RCS texting.,</span></div></span>
+]]></content:encoded>
+<pubDate>2024-10-15T10:41:00.003-04:00</pubDate>
+<pubDate>2024-10-15T10:41:42.206-04:00</pubDate>
+</item>
+<item>
+<title>Microsoft Reveals macOS Vulnerability that Bypasses Privacy Controls in Safari Browser</title>
+<link>https://thehackernews.com/2024/10/microsoft-reveals-macos-vulnerability.html</link>
+<guid>https://thehackernews.com/2024/10/microsoft-reveals-macos-vulnerability.html</guid>
+<content:encoded><![CDATA[
+
+Microsoft has disclosed details about a now-patched security flaw in Apple's Transparency, Consent, and Control (TCC) framework in macOS that has likely come under exploitation to get around a user's privacy preferences and access data.
+The shortcoming, codenamed HM Surf by the tech giant, is tracked as CVE-2024-44133. It was addressed by Apple as part of macOS Sequoia 15 by removing the
+]]></content:encoded>
+<pubDate>Fri, 18 Oct 2024 11:12:00 +0530</pubDate>
+<pubDate>Fri, 18 Oct 2024 11:12:00 +0530</pubDate>
+</item>
+<item>
+<title>Risk, reward and reality: Has enterprise perception of the public cloud changed?</title>
+<link>https://securityintelligence.com/articles/risk-reward-reality-enterprise-perception-public-cloud/</link>
+<guid>https://securityintelligence.com/articles/risk-reward-reality-enterprise-perception-public-cloud/</guid>
+<content:encoded><![CDATA[
+
+<p>Public clouds now form the bulk of enterprise IT environments. According to <a href="https://www.statista.com/statistics/817296/worldwide-enterprise-cloud-strategy/" rel="noopener nofollow" target="_blank">2024 Statista data</a>, 73% of enterprises use a hybrid cloud model, 14% use multiple public clouds and 10% use a single public cloud solution. Multiple and single private clouds make up the remaining 3%.</p>
+<p>With enterprises historically reticent to adopt public clouds, adoption data seems to indicate a shift in perception. Perhaps enterprise efforts have finally moved away from reducing risk to prioritizing the potential rewards of public cloud resources.</p>
+<p>Reality, however, isn&rsquo;t so cut-and-dry. Here&rsquo;s a look at the current state of public perception, where enterprises still encounter cloud issues and how familiar concerns have a new focus: AI.</p>
+<h2>Public perception on cloud computing</h2>
+<p><a href="https://www.ibm.com/topics/cloud-computing" rel="noopener nofollow" target="_blank">Cloud computing</a> has always had a perception problem. From the perspective of enterprise C-suites and IT teams, public clouds meant bigger <a href="https://www.ibm.com/topics/attack-surface" rel="noopener nofollow" target="_blank">attack surfaces</a> combined with lower visibility, giving attackers the upper hand.</p>
+<p>Meanwhile, from the perspective of consumers &mdash; which all C-suite and IT team members become on their days off &mdash; the cloud came with massive potential. From file and photo storage to streaming video services and worldwide e-commerce, the public cloud quickly became commonplace in public life.</p>
+<p>So why the disconnect? In large part, enterprises were concerned about the man behind the curtain. While many providers were long on promises, they were short on details. The result was a &ldquo;shared responsibility&rdquo; model that saw both customer and provider playing a role in data defense, but neither one was entirely clear on what that role entailed. This was exemplified by a Capital One <a href="https://www.ibm.com/topics/data-breach" rel="noopener nofollow" target="_blank">data breach</a> in 2019, which saw both the bank and its cloud partner, AWS, <a href="https://www.cybersecuritydive.com/news/shared-responsibility-models-cloud-security-azure-aws-google/596579/" rel="noopener nofollow" target="_blank">under scrutiny for their security</a>.</p>
+<p>To help address these concerns, cloud providers doubled down on security. In 2021, Amazon, Google, IBM and Apple <a href="https://www.sdxcentral.com/articles/news/tech-giants-commit-30b-to-cybersecurity-after-white-house-meeting/2021/08/" rel="noopener nofollow" target="_blank">pledged $30 billion</a> to help address growing security concerns. It worked: In 2024, <a href="https://www.forbes.com/councils/forbestechcouncil/2024/02/12/latest-trends-and-predictions-for-the-future-of-cloud-hosting/" rel="noopener nofollow" target="_blank">94% of businesses</a> reported improvement in security after moving to the cloud. Or consider the results of Flexera&rsquo;s State of the Cloud Report: In <a href="https://www.flexera.com/about-us/press-center/flexera-releases-2020-state-of-the-cloud-report" rel="noopener nofollow" target="_blank">2020</a>, security was the top concern among executives. In 2024, security has fallen to second place.</p>
+<p>The data tells the tale: Enterprise public cloud perception is changing.</p>
+<p>Slowly.</p>
+<a class="btn orange1 large" href="https://www.ibm.com/account/reg/us-en/signup?formid=urx-53217">Strengthen your cloud defenses</a>
+<h2>Ongoing cloud challenges</h2>
+<p>While cloud providers have made significant strides in addressing security concerns, other issues remain.</p>
+<p>For example, the top challenge in Flexera&rsquo;s 2024 State of the Cloud Report is managing cloud spend, cited by 82% of enterprises, while lack of resources and expertise comes in third with 79%.</p>
+<p>When it comes to cloud spending, there&rsquo;s no easy answer. In fact, ease is sometimes the issue. As providers streamline the process of purchasing, deploying and integrating cloud-based applications and services, it&rsquo;s easy for enterprises to lose track of exactly what they have, exactly where it is and exactly how much it costs.</p>
+<p>It&rsquo;s no surprise that spending shows up twice on the Flexera report: Once in the top spot for cloud spend at large and again in fourth place as companies struggle to manage software licenses across multiple clouds and applications.</p>
+<p>Lack of resources and expertise, meanwhile, remains a persistent challenge for enterprises. According to research from <a href="https://www.softwareone.com/en/blog/articles/2023/11/13/cloud-skills-gap-in-2023" rel="noopener nofollow" target="_blank">Software One</a>, 95% of businesses now face a cloud and IT skills gap. While upskilling current staff can help reduce the impact of this gap, the expansion of public cloud environments creates the longer term problem of doing more work with fewer people. While it&rsquo;s possible to task IT teams with handling the public cloud in addition to other line-of-business objectives, the results can lead back to the original concern with cloud deployments: Reduced security.</p>
+<h2>What&rsquo;s old is new again</h2>
+<p>Even as enterprises come to terms with the necessity and ubiquity of the cloud, a new challenge has emerged: <a href="https://www.ibm.com/topics/artificial-intelligence" rel="noopener nofollow" target="_blank">AI</a>.</p>
+<p>Much like the public cloud, artificial intelligence has the potential to change the way enterprises do business. But it also opens new avenues for security compromise, leading many companies to remain cautious of AI adoption.</p>
+<p>In some cases, this means limiting the scope of AI in enterprise environments. For example, organizations might leverage AI in process automation but shy away from using generative tools for content creation or sales efforts. They might deploy <a href="https://www.ibm.com/artificial-intelligence" rel="noopener nofollow" target="_blank">AI solutions</a> to analyze disparate data but only trust humans to turn output into action.</p>
+<p>The result is a perceptive landscape that is both similar and distinct from its cloud predecessor. Consider recent data from <a href="https://www.gartner.com/en/newsroom/press-releases/2024-07-30-gartner-survey-shows-rising-concern-of-ai-enhanced-malicious-attacks-as" rel="noopener nofollow" target="_blank">Gartner</a>, which found that the top concern cities by companies in Q2 2024 were AI-enhanced malicious attacks. This aligns with historic worries about the public cloud as a path to compromise &mdash; if attackers could access shared resources, they could potentially cause inter-departmental chaos.</p>
+<p>AI, however, comes with a unique concern: Evolution. While cloud-based threats made use of expanded attack surfaces, they remained fundamentally the same as their previous-generation counterparts: If tools didn&rsquo;t work, it was back to the drawing board for malicious actors.</p>
+<p>In the case of AI, meanwhile, code isn&rsquo;t static. Instead, both failure and success inform the next iteration of <a href="https://www.ibm.com/topics/ransomware" rel="noopener nofollow" target="_blank">ransomware</a> tools or <a href="https://www.ibm.com/topics/malware" rel="noopener nofollow" target="_blank">Malware</a>-as-a-Service offerings. This ongoing improvement is similarly present on the protective side of AI adoption, but in both cases &mdash; attack and defense &mdash; the approach to AI is naturally different than that of the cloud.</p>
+<h2>The reality of cloud security</h2>
+<p><a href="https://www.ibm.com/cloud-security" rel="noopener nofollow" target="_blank"><span class="resolved">Cloud security</span></a> has evolved from nebulous assurance to core component of public offerings. The results speak for themselves: More enterprises are adopting the public cloud, more enterprises are reporting improved security and fewer companies are citing security as their to-cloud challenge.</p>
+<p>AI, meanwhile, has stepped up to take on the role of top security concern. In much the same way as cloud computing, some concerns around <a href="https://www.ibm.com/ai-cybersecurity" rel="noopener nofollow" target="_blank">AI security</a> are overblown &mdash; as the market diversifies and standardization becomes critical, companies can expect common security issues to be effectively resolved.</p>
+<p>Where AI and cloud go their separate ways, however, is in the evolution of future threats. While cloud frameworks have changed to meet new corporate needs, they remain fundamentally bound by basic infrastructure. AI has no such limits, making it harder to predict the course of its development over time.</p>
+<p>The reality? Cloud perception has shifted to reward. The rise of AI, however, now underpins a renewed focus on enterprise <a href="https://www.ibm.com/topics/cybersecurity" rel="noopener nofollow" target="_blank">cybersecurity</a> risk.</p>
+
+<p>The post <a href="https://securityintelligence.com/articles/risk-reward-reality-enterprise-perception-public-cloud/" rel="nofollow">Risk, reward and reality: Has enterprise perception of the public cloud changed?</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 10 Oct 2024 13:00:00 +0000</pubDate>
+<pubDate>Thu, 10 Oct 2024 13:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Weekly IT Vulnerability Report: Cyble Urges Fixes for Ivanti, Microsoft Dark Web Exploits</title>
+<link>https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-ivanti-microsoft-dark-web-exploits/</link>
+<guid>https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-ivanti-microsoft-dark-web-exploits/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Cyble-Blogs-Weekly-Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-Weekly-Vulnerability.png" tabindex="0" title="Weekly IT Vulnerability Report: Cyble Urges Fixes for Ivanti, Microsoft Dark Web Exploits 8" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble researchers have identified high-priority vulnerabilities in products from Ivanti, Microsoft, Qualcomm, Zimbra, and the Common Unix Printing System (CUPS).</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Microsoft’s Patch Tuesday included five new zero-day vulnerabilities, two of which are being actively exploited – and Cyble researchers have observed threat actors discussing the other three zero-days on cybercrime forums.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Cyble also detected 14 vulnerability exploits discussed on dark web forums, suggesting that they may soon be under attack, if not already.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Labs (CRIL) investigated 22 vulnerabilities during the week of Oct. 2-8 and identified six products that security teams should prioritize for patching and mitigation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Additionally, Cyble researchers detected 14 vulnerabilities and exploits shared on cybercrime forums that security analysts should also prioritize – including the three Microsoft <a href="https://cyble.com/knowledge-hub/zero-day-exploit/">zero-days</a> not yet under active exploitation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble’s weekly IT vulnerability report covering the period of Oct. 2-8 also offered best practices that all security teams should follow.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Top IT Vulnerabilities This Week</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CRIL researchers identified eight vulnerabilities in six products that security teams should prioritize; three affect Ivanti Cloud Services Appliances (CSA).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-9379, CVE-2024-9380, CVE-2024-9381: Ivanti CSA</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These three critical vulnerabilities impact Ivanti Cloud Services Appliance (CSA), an internet appliance designed to facilitate secure communication and management of devices over the internet. It serves as a bridge between the core server and managed devices, enabling them to communicate even when they are behind firewalls or using proxies.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CVE-2024-9379 is an SQL injection flaw that a remote authenticated attacker with admin privileges can trigger. CVE-2024-9380 is an OS command injection vulnerability that allows a remote authenticated attacker with admin privileges to achieve remote code execution. CVE-2024-9381 is a path traversal vulnerability that allows a remote authenticated attacker with admin privileges to bypass restrictions. In a recent advisory, Ivanti <a href="https://www.ivanti.com/blog/october-2024-security-update">disclosed</a> attackers' exploitation of CVE-2024- 9379, CVE-2024-9380, or CVE-2024-9381, chained with CVE-2024-8963. CISA also issued an <a href="https://cyble.com/blog/cisa-issues-urgent-advisory-on-critical-vulnerabilities-in-ivanti-products/">advisory</a> urging security teams to patch the flaws.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-47176: CUPS</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This vulnerability impacts the Common Unix Printing System, an open-source printing system designed for Linux and other Unix-like operating systems, providing a standardized framework for managing and controlling printers, enabling computers to act as print servers that accept print jobs from client machines, process them, and send them to the appropriate printer. Recently, researchers disclosed that threat actors can exploit vulnerabilities to launch distributed denial-of-service (DDoS) attacks with a 600x amplification factor. Under certain conditions, attackers can chain the set of vulnerabilities in multiple components of CUPS to execute arbitrary code remotely on vulnerable machines. Cyble researchers had <a href="https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-nvidia-adobe-cups/">warned</a> about the CUPS vulnerability the previous week and reiterated the warning as new exploits emerged.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-45519: Zimbra</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This <a href="https://cyble.com/blog/zimbra-remote-code-execution-vulnerability-under-active-attack/">9.8-severity vulnerability</a> impacts Zimbra Collaboration Suite (ZCS), an integrated communication and collaboration platform designed for businesses and organizations, integrating various tools for email, calendaring, contact management, and document sharing. Unauthenticated users can exploit the flaw to execute commands. Recently, researchers disclosed that attackers are actively exploiting the RCE vulnerability that can be triggered simply by sending specially crafted emails with commands to execute in the CC field, which are then executed when the postjournal service processes the email. Cyble researchers also observed multiple discussions of the vulnerability on the <a href="https://cyble.com/knowledge-hub/what-is-the-dark-web/">dark web</a> (see Dark Web section below).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-43047: Qualcomm</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This zero-day vulnerability in the Digital Signal Processor (DSP) service that impacts dozens of Qualcomm chipsets can also be leveraged in spyware campaigns targeting Android devices. Cyble published a <a href="https://cyble.com/blog/oems-are-urged-to-address-vulnerabilities-in-device-communication/">report</a> and has highlighted the exploitation of CVE-2024-43047 in targeted attacks. OEMs are encouraged to apply the provided patches immediately. Users concerned about their devices should reach out to manufacturers for specific patch details.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-43572 and CVE-2024-43573: Microsoft</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Microsoft’s October 2024 <a href="https://msrc.microsoft.com/update-guide/releaseNote/2024-Oct">Patch Tuesday</a> included security updates for 118 flaws, including five publicly disclosed zero-days, two of which are being actively exploited: <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43572">CVE-2024-43572</a>, a Remote Code Execution vulnerability in Windows Management Console, and <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43573">CVE-2024-43573</a>, a spoofing vulnerability in the Windows MSHTML Platform.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble researchers observed cybercrime exploit discussions on the other zero days reported by Microsoft (see Dark Web section below): CVE-2024-38200, a Microsoft Office Spoofing vulnerability; CVE-2024-29050, a Remote Code Execution (RCE) flaw in Windows 10 for x32- and x64-based Systems; and CVE-2024-6769, a Privilege Escalation vulnerability in Windows 10, Windows 11 - 10.0.0, Windows Server 2016, Windows Server 2019 - 10.0.0.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Dark Web and Cybercrime Forum Exploits</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CRIL observed multiple Telegram channels and cybercrime forums sharing or discussing exploits weaponizing different vulnerabilities. The vulnerabilities under discussion included:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><strong>CVE-2024-38200:</strong> A critical vulnerability affecting multiple versions of Microsoft Office that arises from improper handling of certain document properties within Microsoft Office applications. It could potentially expose sensitive information such as NTLM hashes.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-29050:</strong> A Windows Cryptographic Services Remote Code Execution (RCE) vulnerability that arises from truncation errors that occur when a primitive data type is cast to a smaller size, resulting in potential data loss during conversion.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-6769:</strong> A vulnerability affecting multiple versions of Microsoft Windows, including Windows 10, Windows 11, and various Windows Server editions. The vulnerability exploits a combination of DLL Hijacking and Activation Cache Poisoning, allowing an attacker to elevate privileges from a medium to a high-integrity process without triggering a User Account Control (UAC) prompt.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-7479:</strong> A critical security vulnerability affecting TeamViewer's Remote Client and Remote Host products for Windows. The vulnerability arises from improper verification of cryptographic signatures during the installation of VPN drivers, allowing attackers with local, unprivileged access to escalate their privileges and execute arbitrary code.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-7481:</strong> A critical security vulnerability affecting TeamViewer's Remote Client and Remote Host products for Windows. The vulnerability arises from improper verification of cryptographic signatures during the installation of printer drivers, allowing attackers with local, unprivileged access to escalate their privileges and execute arbitrary code.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-36435</strong>: A critical vulnerability in the Baseboard Management Controller (BMC) firmware of several Supermicro enterprise products. The vulnerability allows unauthenticated attackers to exploit a buffer overflow, leading to remote code execution (RCE).</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-38816</strong>: A high-severity path traversal vulnerability discovered in the Spring Framework and VMWare Tanzu Spring platform, affecting multiple versions. This vulnerability allows attackers to exploit improper handling of static resources, potentially gaining unauthorized access to sensitive files on the server.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-45519:</strong> Proofs of Concept (PoCs) of this widely reported Zimbra vulnerability are shared on multiple Telegram channels. It is a critical Remote Code Execution (RCE) vulnerability that was discovered in the postjournal service of the Zimbra Collaboration Suite, a widely used email and collaboration platform.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-45409:</strong> A critical vulnerability affecting the Ruby SAML and OmniAuth SAML libraries. This flaw allows unauthenticated attackers to bypass Security Assertion Markup Language (SAML) authentication mechanisms by exploiting weaknesses in the signature verification process of SAML responses. Cyble honeypot sensors detected active attacks on this vulnerability.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-26304:</strong> A critical vulnerability affecting HPE Aruba Devices, classified as an unauthenticated buffer overflow vulnerability in the L2/L3 Management Service accessed via the PAPI Protocol. The vulnerability allows attackers to send specially crafted packets to the PAPI UDP port (8211), potentially enabling them to execute arbitrary code as a privileged user on the affected system.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-5830:</strong> A critical security vulnerability was discovered in Google Chrome's V8 JavaScript engine, affecting versions prior to 126.0.6478.54. This vulnerability is a <a>type</a> confusion bug, which an attacker can exploit to execute arbitrary code within the Chrome renderer sandbox simply by enticing a victim to visit a malicious website.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-44193:</strong> This is a vulnerability affecting Apple iTunes for Windows, specifically versions prior to 12.13.3. The vulnerability allows local attackers to elevate their privileges on affected systems, posing significant security risks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-8275:</strong> A <a href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/">threat actor</a> (TA) shared a PoC on a forum for a critical SQL injection vulnerability discovered in the Events Calendar Plugin for WordPress. The vulnerability affects all versions up to and including 6.6.4 and arises from insufficient input validation in specific functions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-43363:</strong> A TA on a forum shared a PoC for a high-severity vulnerability affecting Cacti, a fault management framework. The vulnerability allows attackers to exploit the system remotely, potentially compromising <a href="https://cyble.com/knowledge-hub/what-is-a-computer-worm/">sensitive data</a> and system integrity.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Cyble Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To protect against these vulnerabilities and exploits, organizations should implement the following best practices:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>To mitigate vulnerabilities and protect against exploits, regularly update all software and hardware systems with the latest patches from official vendors.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Develop a comprehensive patch management strategy that includes inventory management, patch assessment, testing, deployment, and verification. Automate the process where possible to ensure consistency and efficiency.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Divide your network into distinct segments to isolate critical assets from less secure areas. Use firewalls, VLANs, and access controls to limit access and reduce the <a href="https://cyble.com/solutions/attack-surface-management/">attack surface</a> exposed to potential <a href="https://cyble.com/knowledge-hub/what-are-cyber-threats/">threats</a>.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Create and maintain an <a href="https://cyble.com/knowledge-hub/what-is-incident-response/">incident response</a> plan that outlines procedures for detecting, responding to, and recovering from security incidents. Regularly test and update the plan to ensure its effectiveness and alignment with current threats.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implement comprehensive monitoring and logging solutions to detect and analyze <a href="https://cyble.com/knowledge-hub/what-is-a-data-breach/">suspicious activities</a>. Use SIEM (Security Information and Event Management) systems to aggregate and correlate logs for real-time threat detection and response.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Subscribe to security advisories and alerts from official vendors, CERTs, and other authoritative sources. Regularly review and assess the impact of these alerts on your systems and take appropriate actions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Conduct regular vulnerability assessment and penetration testing (VAPT) exercises to identify and remediate vulnerabilities in your systems. Complement these exercises with periodic security audits to ensure compliance with security policies and standards.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These vulnerabilities highlight the urgent need for security teams to prioritize patching critical vulnerabilities in major products. With increasing discussions of these exploits on <a href="https://cyble.com/solutions/dark-web-monitoring/">dark web</a> forums, organizations must stay vigilant and proactive. Implementing strong security practices is essential to protect sensitive data and maintain system integrity.</p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-ivanti-microsoft-dark-web-exploits/" rel="nofollow">Weekly IT Vulnerability Report: Cyble Urges Fixes for Ivanti, Microsoft Dark Web Exploits</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 15 Oct 2024 09:52:06 +0000</pubDate>
+<pubDate>Tue, 15 Oct 2024 09:52:06 +0000</pubDate>
+</item>
 
 <item>
 <title>Can Apple Products Be Infected With Ransomware? - AppleMagazine</title>

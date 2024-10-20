@@ -4,6 +4,1153 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-118</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-118</guid>
+<content:encoded><![CDATA[
+
+<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for <span style="color: black;">arbitrary </span>code execution. <span style="color: black;">Successful exploitation of the most severe of these vulnerabilities</span> could allow for <span style="color: black;">arbitrary </span>code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
+]]></content:encoded>
+<pubDate>Tue, 15 Oct 2024 21:43:05 -0400</pubDate>
+<pubDate>Tue, 15 Oct 2024 21:43:05 -0400</pubDate>
+</item>
+<item>
+<title>Here's How to Stop Smart TV From Harvesting Your Personal Data</title>
+<link>https://www.cysecurity.news/2024/10/heres-how-to-stop-smart-tv-from.html</link>
+<guid>https://www.cysecurity.news/2024/10/heres-how-to-stop-smart-tv-from.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBqLRNxlc1NS28S-qSIQyVmVkF_G3vQzmbeaATmnCWKKahqz5u6Cyd5jYwFxbh_KQ5KDFA6dcQ79eTdbPf_9SLlsaJuCEdL3sA9ghrI4nE62kKi2WYeDI-9vsc5VyPShgDgRFTjaG_fzdDp4B5bPHo0QcXd6fe4EvGYsS5qe5_Up3XuFxSsqH6tuZyIr0/s4576/1248.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBqLRNxlc1NS28S-qSIQyVmVkF_G3vQzmbeaATmnCWKKahqz5u6Cyd5jYwFxbh_KQ5KDFA6dcQ79eTdbPf_9SLlsaJuCEdL3sA9ghrI4nE62kKi2WYeDI-9vsc5VyPShgDgRFTjaG_fzdDp4B5bPHo0QcXd6fe4EvGYsS5qe5_Up3XuFxSsqH6tuZyIr0/s600/1248.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><span style="font-family: inherit;">Watching television seems to be a benign pastime, but as all TVs become "smart" and link to the internet via your network, they will be able to track you as well. When you turn on a smart TV from LG, Samsung, or Sony, data is collected from the TV itself, as well as the operating system and apps. Then there are the gadgets you connect to your television, like Google's Chromecast, Apple TV, and Amazon's Fire Stick.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">A TV is now more than just a screen for entertainment; it's a two-way mirror that lets a network of data brokers and advertisers watch you in real time, stated Rowenna Fielding, director of data protection consultancy Miss IG Geek. “The purpose of this is to gather as much information as possible about your behaviour, interests, preferences and demographics so it can be monetised, mainly through targeted advertising.”</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Your smart TV's data collection relies on the manufacturer, brand, and version. In theory, most smart TVs can gather audio, video, and TV usage data, according to Toby Lewis, global head of threat analysis at cybersecurity firm Darktrace.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Voice activation is a function that has the ability to collect significant volumes of data. Microphones and software listen for instructions and can record conversations and other noises within range. These recordings can be sent to third parties for analysis.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><b>What does your TV do with the data?</b></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">There is no clear answer. According to Lewis, what is done with the data is complex and "highly opaque". When looking at what a smart TV does on the network, it is often unclear why certain data is being harvested and where it is being sent.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">There isn't much distinction between television brands. Manufacturers claim to utilise your information for "personalisation" and content quality, although it is usual to sell anonymous or semi-anonymized data to third parties, advertising companies, or streaming services.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">“After the data has been sold, it is out of the manufacturer’s control,” Lewis explains. "It is often unclear what data exactly is being sent back, depending on the T&amp;Cs and privacy settings, and it can be very difficult to change default settings once you have agreed to them.”</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><b>What is Automatic Content Recognition (ACR)?&nbsp;</b></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Automated content recognition (ACR) is one alarming feature to keep an eye out for. This feature, which is frequently enabled by default, uses analytical techniques to detect video and audio on the TV and compares it to a large database to determine what is playing. It's fairly disturbing stuff; ACR works on anything played on television, including DVDs, Blu-rays, CDs, and games.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Jake Moore, global cybersecurity adviser at security company ESET, explains that viewing data and habits are shared with manufacturers and eventually sold to advertisers in order to target you with adverts. When your TV is connected to your home router, data will include your IP address and position.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Lewis adds that ACR may theoretically be utilised for even more ominous profiling. "Data from facial recognition, sentiment analysis, speech-to-text, and content analysis could be gathered to build an in-depth picture of an individual user with the analytical technologies available."&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Lewis suggests that rather than comparing material to a catalogue of well-known films, ACR may theoretically be examined for factors like political stance, ethnicity, social status, and other characteristics that could be misused.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><b>Safety tips&nbsp;</b></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Smart TVs will gather data as long as they are connected to the internet, and it is impossible to prevent this from happening. In many cases, doing so is not in your best interests because it will interfere with your viewing experience; for example, Netflix's useful suggestions tool.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">However, there are several simple steps you may take to protect yourself from smart TV snooping. Turn off ACR in the settings, disable customisation, opt out of all advertising features, and hide or disable cameras and microphones.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">It's also vital to secure your router by changing the password and creating a guest network. You may increase security by opting out of online tracking when it's provided and installing software updates as soon as possible.</span></div></span>
+]]></content:encoded>
+<pubDate>2024-10-16T11:07:00.000-04:00</pubDate>
+<pubDate>2024-10-16T11:07:22.898-04:00</pubDate>
+</item>
+<item>
+<title>Safer with Google: Advancing Memory Safety</title>
+<link>http://security.googleblog.com/2024/10/safer-with-google-advancing-memory.html</link>
+<guid>http://security.googleblog.com/2024/10/safer-with-google-advancing-memory.html</guid>
+<content:encoded><![CDATA[
+
+<span class="byline-author">Posted by Alex Rebert, Security Foundations, and Chandler Carruth, Jen Engel, Andy Qin, Core Developers</span>
+
+<p>
+Error-prone interactions between software and memory<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> are <a href="http://phrack.org/archives/issues/49/14.txt">widely understood</a> to create safety issues in software. It is estimated that about 70% of severe vulnerabilities<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup> in memory-unsafe codebases are due to memory safety bugs. Malicious actors exploit these vulnerabilities and continue to create real-world harm. In 2023, Google’s threat intelligence teams conducted an industry-wide study and observed a <a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/documents/Year_in_Review_of_ZeroDays.pdf">close to all-time high number of vulnerabilities exploited in the wild</a>. Our internal analysis estimates that 75% of CVEs used in <a href="https://googleprojectzero.blogspot.com/p/0day.html">zero-day exploits</a> are memory safety vulnerabilities.
+</p>
+<p>
+At Google, we have been mindful of these issues for over two decades, and are on a journey to continue advancing the state of memory safety in the software we consume and produce. Our <a href="https://blog.google/technology/safety-security/tackling-cybersecurity-vulnerabilities-through-secure-by-design/">Secure by Design</a> commitment emphasizes integrating security considerations, including robust memory safety practices, throughout the entire software development lifecycle. This proactive approach fosters a safer and more trustworthy digital environment for everyone.
+</p>
+<p>
+This post builds upon our previously reported <a href="https://research.google/pubs/secure-by-design-googles-perspective-on-memory-safety/">Perspective on Memory Safety</a>, and introduces our strategic approach to memory safety. 
+</p>
+<p>
+<strong>Our journey so far</strong>
+</p>
+<p>
+Google's journey with memory safety is deeply intertwined with the evolution of the software industry itself. In our early days, we recognized the importance of balancing performance with safety. This led to the early adoption of memory-safe languages like Java and Python, and the creation of Go.  Today these languages comprise a large portion of our code, providing memory safety among other benefits. Meanwhile, the rest of our code is predominantly written in C++, previously the optimal choice for high-performance demands.
+</p>
+<p>
+We recognized the inherent risks associated with memory-unsafe languages and developed tools like <a href="https://en.wikipedia.org/wiki/Code_sanitizer">sanitizers</a>, which detect memory safety bugs dynamically, and fuzzers like <a href="https://github.com/google/AFL">AFL</a> and <a href="https://releases.llvm.org/8.0.0/docs/LibFuzzer.html">libfuzzer</a>, which proactively test the robustness and security of a software application by repeatedly feeding unexpected inputs. By open-sourcing these tools, we've empowered developers worldwide to reduce the likelihood of memory safety vulnerabilities in C and C++ codebases. Taking this commitment a step further, we provide continuous fuzzing to open-source projects through <a href="https://security.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html">OSS-Fuzz</a>, which helped get over <a href="https://security.googleblog.com/2023/02/taking-next-step-oss-fuzz-in-2023.html">8800 vulnerabilities identified and subsequently fixed across 850 projects</a>.
+</p>
+<p>
+Today, with the emergence of high-performance memory-safe languages like Rust, coupled with a deeper understanding of the limitations of purely detection-based approaches, we are focused primarily on preventing the introduction of security vulnerabilities at scale.
+</p>
+<p>
+<strong>Going forward: Google's two-pronged approach</strong>
+</p>
+<p>
+Google's long-term strategy for tackling memory safety challenges is multifaceted, recognizing the need to address both existing codebases and future development, while maintaining the pace of business.
+</p>
+<p>
+Our long-term objective is to progressively and consistently integrate memory-safe languages into Google's codebases while phasing out memory-unsafe code in new development. Given the amount of C++ code we use, we anticipate a residual amount of mature and stable memory-unsafe code will remain for the foreseeable future.
+</p> <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSRbsz3UFa32nAEek2cEOIN-IM5XN6df3vibnuP7nmzJoYLMAfkHgjlAcbCbjGmV0THU_CMtP9vgs3EHHe7zwRqeuXbQoxA_EGrqDMLDRJShnakXuMxesVqDJaq2xPWcpyqCcRpvW3-ZWJiZu2LXtyEs23CvI4jOBkw89T1iSVWHl-j4OYMsC0EN0E4dFh/s3355/memory%20safety%20graphic.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSRbsz3UFa32nAEek2cEOIN-IM5XN6df3vibnuP7nmzJoYLMAfkHgjlAcbCbjGmV0THU_CMtP9vgs3EHHe7zwRqeuXbQoxA_EGrqDMLDRJShnakXuMxesVqDJaq2xPWcpyqCcRpvW3-ZWJiZu2LXtyEs23CvI4jOBkw89T1iSVWHl-j4OYMsC0EN0E4dFh/s600/memory%20safety%20graphic.png" width="600" /></a></div>
+<p style="text-align: center;">
+<em>Graphic of memory-safe language growth as memory-unsafe code is hardened and gradually decreased over time.</em>
+</p>
+<p>
+<strong>Migration to Memory-Safe Languages (MSLs)</strong>
+</p>
+<p>
+The first pillar of our strategy is centered on further increasing the adoption of memory-safe languages. These languages drastically drive down the risk of memory-related errors through features like garbage collection and borrow checking, embodying the same Safe Coding<sup id="fnref3"><a href="#fn3" rel="footnote">3</a></sup> principles that successfully eliminated other vulnerability classes like cross-site scripting (XSS) at scale. Google has already embraced MSLs like Java, Kotlin, Go, and Python for a large portion of our code. 
+</p>
+<p>
+Our next target is to ramp up memory-safe languages with the necessary capabilities to address the needs of even more of our low-level environments where C++ has remained dominant. For example, we are investing to expand Rust usage at Google beyond Android and other mobile use cases and into our server, application, and embedded ecosystems. This will unlock the use of MSLs in low-level code environments where C and C++ have typically been the language of choice. In addition, we are exploring more seamless interoperability with C++ through <a href="https://github.com/carbon-language/carbon-lang">Carbon</a>, as a means to accelerate even more of our transition to MSLs.  
+</p>
+<p>
+In Android, which runs on billions of devices and is one of our most critical platforms, we've already made strides in adopting MSLs, including Rust, in sections of our network, firmware and graphics stacks. We specifically focused on adopting memory safety in <em>new code</em> instead of rewriting mature and stable memory-unsafe C or C++ codebases. As we've previously <a href="https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html">discussed</a>, this strategy is driven by vulnerability trends as memory safety vulnerabilities were typically introduced shortly before being discovered.
+</p>
+<p>
+As a result, the number of memory safety vulnerabilities reported in Android has decreased dramatically and quickly, dropping from more than 220 in 2019 to a projected 36 by the end of this year, demonstrating the effectiveness of this strategic shift. Given that memory-safety vulnerabilities are particularly severe, the reduction in memory safety vulnerabilities is leading to a <a href="https://security.googleblog.com/2022/12/memory-safe-languages-in-android-13.html#:~:text=With%20the%20drop%20in%20memory%20safety%20vulnerabilities%2C%20we%E2%80%99re%20seeing%20a%20corresponding%20drop%20in%20vulnerability%20severity.">corresponding drop in vulnerability severity</a>, representing a reduction in security risk. 
+</p>
+<p>
+<strong>Risk Reduction for Memory-Unsafe Code </strong>
+</p>
+<p>
+While transitioning to memory-safe languages is the long-term strategy, and one that requires investment now, we recognize the immediate responsibility we have to protect the safety of our billions of users during this process. This means we cannot ignore the reality of a large codebase written in memory-unsafe languages (MULs) like C and C++.
+</p>
+<p>
+Therefore the second pillar of our strategy focuses on risk reduction & containment of this portion of our codebase. This incorporates:
+</p>
+<ul>
+
+<li><strong>C++ Hardening:</strong> We are retrofitting safety at scale in our memory-unsafe code, based on our <a href="https://bughunters.google.com/blog/5896512897417216/a-recipe-for-scaling-security">experience eliminating web vulnerabilities</a>. While we won't make C and C++ memory safe, we are eliminating sub-classes of vulnerabilities in the code we own, as well as reducing the risks of the remaining vulnerabilities through exploit mitigations.
+<p>
+
+    We have allocated a portion of our computing resources specifically to <a href="https://libcxx.llvm.org/Hardening.html">bounds-checking the C++ standard library</a> across our workloads. While bounds-checking overhead is small for individual applications, deploying it at Google's scale requires significant computing resources. This underscores our deep commitment to enhancing the safety and security of our products and services. Early results are promising, and we'll share more details in a future post.
+</p>
+<p>
+
+    In Chrome, we have also been rolling out <a href="https://security.googleblog.com/2024/01/miracleptr-protecting-users-from-use.html">MiraclePtr</a> over the past few years, which effectively mitigated 57% of use-after-free vulnerabilities in privileged processes, and has been <a href="https://blog.google/technology/safety-security/a-review-of-zero-day-in-the-wild-exploits-in-2023/">linked</a> to a decrease of in-the-wild exploits.
+</p></li>
+
+<li><strong>Security Boundaries: </strong>We are continuing<sup id="fnref4"><a href="#fn4" rel="footnote">4</a></sup> to strengthen critical components of our software infrastructure through expanded use of<a href="https://www.chromium.org/Home/chromium-security/site-isolation/"> isolation techniques</a> like sandboxing and privilege reduction, limiting the potential impact of vulnerabilities. For example, earlier this year, we shipped the beta release of our <a href="https://v8.dev/blog/sandbox">V8 heap sandbox</a> and included it in <a href="https://bughunters.google.com/about/rules/chrome-friends/5745167867576320/chrome-vulnerability-reward-program-rules#v8-sandbox-bypass-rewards">Chrome's Vulnerability Reward Program</a>.<br /></li>
+
+<li><strong>Bug Detection</strong>: We are investing in bug detection tooling and innovative research such as <a href="https://googleprojectzero.blogspot.com/2024/06/project-naptime.html">Naptime</a> and making ML-guided fuzzing as effortless and wide-spread as testing. While we are increasingly shifting towards memory safety by design, these tools and techniques remain a critical component of proactively identifying and reducing risks, especially against vulnerability classes currently lacking strong preventative controls.
+<p>
+In addition, we are actively working with the semiconductor and research communities on emerging hardware-based approaches to improve memory safety. This includes our work to <a href="https://source.android.com/docs/security/test/memory-safety/arm-mte">support</a> and <a href="https://googleprojectzero.blogspot.com/2023/08/summary-mte-as-implemented.html">validate the efficacy</a> of <a href="https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/enhancing-memory-safety">Memory Tagging Extension</a> (MTE). Device implementations are starting to roll out, including within Google’s corporate environment. We are also conducting ongoing research into <a href="https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/">Capability Hardware Enhanced RISC Instructions (CHERI)</a> architecture which can provide finer grained memory protections and safety controls, particularly appealing in security-critical environments like embedded systems.
+</p>
+<p>
+<strong>Looking ahead</strong>
+</p>
+<p>
+We believe it’s important to embrace the opportunity to achieve memory safety at scale, and that it will have a positive impact on the safety of the broader digital ecosystem. This path forward requires continuous investment and innovation to drive safety and velocity, and we remain committed to the broader community to walk this path together.
+</p>
+<p>
+We will provide future publications on memory safety that will go deeper into specific aspects of our strategy. 
+</p>
+
+<!-- Footnotes themselves at the bottom. -->
+
+<h2>Notes</h2>
+<div class="footnotes">
+<hr />
+<ol><li id="fn1">
+<p>
+     Anderson, J. <em>Computer Security Technology Planning Study Vol II.</em> ESD-TR-73-51, Vol. II, Electronic Systems Division, Air Force Systems Command, Hanscom Field, Bedford, MA 01730 (Oct. 1972).  
+<p>
+    <a href="https://seclab.cs.ucdavis.edu/projects/history/papers/ande72.pdf">https://seclab.cs.ucdavis.edu/projects/history/papers/ande72.pdf</a> &nbsp;<a href="#fnref1" rev="footnote">&#8617;</a><li id="fn2">
+<p>
+     <a href="https://www.memorysafety.org/docs/memory-safety/#how-common-are-memory-safety-vulnerabilities">https://www.memorysafety.org/docs/memory-safety/#how-common-are-memory-safety-vulnerabilities</a> &nbsp;<a href="#fnref2" rev="footnote">&#8617;</a><li id="fn3">
+<p>
+     Kern, C. 2024. <em>Developer Ecosystems for Software Safety</em>. Commun. ACM 67, 6 (June 2024), 52–60. <a href="https://doi.org/10.1145/3651621">https://doi.org/10.1145/3651621</a>&nbsp;<a href="#fnref3" rev="footnote">&#8617;</a><li id="fn4">
+
+<p>
+     Barth, Adam, et al. “The security architecture of the chromium browser." Technical report. Stanford University, 2008.
+<p>
+    <a href="https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf">https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf</a>&nbsp;<a href="#fnref4" rev="footnote">&#8617;</a>
+
+</ol></div>
+]]></content:encoded>
+<pubDate>2024-10-15T13:44:00.001-04:00</pubDate>
+<pubDate>2024-10-15T13:44:17.528-04:00</pubDate>
+</item>
+<item>
+<title>Using Chrome's accessibility APIs to find security bugs</title>
+<link>http://security.googleblog.com/2024/10/using-chromes-accessibility-apis-to.html</link>
+<guid>http://security.googleblog.com/2024/10/using-chromes-accessibility-apis-to.html</guid>
+<content:encoded><![CDATA[
+
+<span class="byline-author">Posted by Adrian Taylor, Security Engineer, Chrome</span>
+
+
+
+
+    
+
+
+<p>
+</p>
+<p>
+</p>
+      
+<p>
+Chrome’s user interface (UI) code is complex, and sometimes has bugs. 
+</p>
+<p>
+Are those bugs security bugs? Specifically, if a user’s clicks and actions result in memory corruption, is that something that an attacker can exploit to harm that user?
+</p>
+<p>
+Our <a href="https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/severity-guidelines.md">security severity guidelines</a> say “yes, sometimes.” For example, an attacker could very likely convince a user to click an autofill prompt, but it will be much harder to convince the user to step through a whole flow of different dialogs.
+</p>
+<p>
+Even if these bugs aren’t the <em>most</em> easily exploitable, it takes a great deal of time for our security shepherds to make these determinations. User interface bugs are often flakey (that is, not reliably reproducible). Also, even if these bugs aren’t necessarily deemed to be exploitable, they may still be annoying crashes which bother the user.
+</p>
+<p>
+It would be great if we could find these bugs automatically.
+</p>
+<p>
+If only the whole tree of Chrome UI controls were exposed, somehow, such that we could enumerate and interact with each UI control automatically.
+</p>
+<p>
+Aha! Chrome exposes all the UI controls to assistive technology. Chrome goes to great lengths to ensure its entire UI is exposed to screen readers, braille devices and other such assistive tech. This tree of controls includes all the toolbars, menus, and the <a href="https://developer.chrome.com/blog/full-accessibility-tree">structure of the page itself</a>. This structural definition of the browser user interface is already sometimes used in other contexts, for example by some password managers, demonstrating that investing in accessibility has <a href="https://en.wikipedia.org/wiki/Curb_cut_effect">benefits for all users</a>. We’re now taking that investment and leveraging it to find security bugs, too. 
+</p>
+<p>
+Specifically, we’re now “fuzzing” that accessibility tree - that is, interacting with the different UI controls semi-randomly to see if we can make things crash. This technique has a <a href="https://folklore.org/Monkey_Lives.html?sort=date?sort=date">long pedigree</a>.
+</p>
+<p>
+Screen reader technology is a bit different on each platform, but on Linux the tree can be explored using <a href="https://help.gnome.org/users/accerciser/stable/introduction.html.en">Accerciser</a>.
+</p>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1khLwvGCcYXCQyAu_uoySj2l91vrsHL3c3ijAHLy0IxhQugeivScGtpFZfvF6NU6ZgLxPCpMZBJFZFv4dDLVoE5c6eiX0TeaRlA3o6Y4gCrvbcetw9LOuixctJWtPiRgZOnqXwjuZ29z9TjYmCUVEAse1nDozxeX8iAdnZzc0pW6R33yXr8aJ1JQCAajR/s1600/image1.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1khLwvGCcYXCQyAu_uoySj2l91vrsHL3c3ijAHLy0IxhQugeivScGtpFZfvF6NU6ZgLxPCpMZBJFZFv4dDLVoE5c6eiX0TeaRlA3o6Y4gCrvbcetw9LOuixctJWtPiRgZOnqXwjuZ29z9TjYmCUVEAse1nDozxeX8iAdnZzc0pW6R33yXr8aJ1JQCAajR/s1600/image1.png" /></a></div>
+<p>
+<center><em>Screenshot of Accerciser showing the tree of UI controls in Chrome</em></center>
+</p>
+<p>
+All we have to do is explore the same tree of controls with a fuzzer. How hard can it be?
+</p>
+<p>
+
+    <em>“We do this not because it is easy, but because we thought it would be easy” - Anon.</em>
+</p>
+<p>
+Actually we never thought this would be easy, and a few different bits of tech have had to fall into place to make this possible. Specifically,
+</p>
+<ul>
+
+<li>There are lots of combinations of ways to interact with Chrome. Truly randomly clicking on UI controls probably won’t find bugs - we would like to leverage <a href="https://google.github.io/clusterfuzz/reference/coverage-guided-vs-blackbox/#coverage-guided-fuzzing">coverage-guided fuzzing</a> to help the fuzzer select combinations of controls that seem to reach into new code within Chrome.
+
+<li>We need any such bugs to be genuine. We therefore need to fuzz the actual Chrome UI, or something very similar, rather than exercising parts of the code in an unrealistic unit-test-like context. That’s where our <a href="https://source.chromium.org/chromium/chromium/src/+/main:chrome/test/fuzzing/in_process_fuzzer.h">InProcessFuzzer</a> framework comes into play - it runs fuzz cases within a Chrome browser_test; essentially a real version of Chrome.
+
+<li>But such browser_tests have a high startup cost. We need to amortize that cost over thousands of test cases by running a batch of them within each browser invocation. <a href="https://github.com/google/fuzztest/tree/main/centipede">Centipede</a> is designed to do that.
+
+<li>But each test case won’t be idempotent. Within a given invocation of the browser, the UI state may be successively modified by each test case. We intend to add <a href="https://issues.chromium.org/issues/344606392">concatenation</a> to centipede to resolve this.
+
+<li>Chrome is a noisy environment with lots of timers, which may well confuse coverage-guided fuzzers. Gathering coverage for such a large binary is slow in itself. So, we don’t know if coverage-guided fuzzing will successfully explore the UI paths here.
+</li>
+</li></li></li></li></ul>
+<p>
+All of these concerns are common to the other fuzzers which run in the browser_test context, most notably our <a href="https://source.chromium.org/chromium/chromium/src/+/main:chrome/test/fuzzing/renderer_fuzzing/renderer_in_process_mojolpm_fuzzer.cc">new IPC fuzzer</a> (blog posts to follow). But the UI fuzzer presented some specific challenges.
+</p>
+<p>
+Finding UI bugs is only useful if they’re actionable. Ideally, that means:
+</p>
+<ul>
+
+<li>Our fuzzing infrastructure gives a thorough set of diagnostics.
+
+<li>It can bisect to find when the bug was introduced and when it was fixed.
+
+<li>It can minimize complex test cases into the smallest possible reproducer.
+
+<li>The test case is descriptive and says which UI controls were used, so a human may be able to reproduce it.
+</li>
+</li></li></li></ul>
+<p>
+These requirements together mean that the test cases should be stable across each Chrome version - if a given test case reproduces a bug with Chrome 125, hopefully it will do so in Chrome 124 and Chrome 126 (assuming the bug is present in both). Yet this is tricky, since Chrome UI controls are deeply nested and often anonymous.
+</p>
+<p>
+Initially, the fuzzer picked controls simply based on their ordinal at each level of the tree (for instance “control 3 nested in control 5 nested in control 0”) but such test cases are unlikely to be stable as the Chrome UI evolves. Instead, we settled on an approach where the controls are named, when possible, and otherwise identified by a combination of role and ordinal. This yields test cases like this:
+</p>
+<div class="code">
+action {
+  path_to_control {
+    named {
+      name: "Test - Chromium"
+    }
+  }
+  path_to_control {
+    anonymous {
+      role: "panel"
+    }
+  }
+  path_to_control {
+    anonymous {
+      role: "panel"
+    }
+  }
+  path_to_control {
+    anonymous {
+      role: "panel"
+    }
+  }
+  path_to_control {
+    named {
+      name: "Bookmarks"
+    }
+  }
+  take_action {
+    action_id: 12
+  }
+}
+</div>  
+<p>
+Fuzzers are unlikely to stumble across these control names by chance, even with the instrumentation applied to string comparisons. In fact, this by-name approach turned out to be only 20% as effective as picking controls by ordinal. To resolve this we added a custom mutator which is smart enough to put in place control names and roles which are known to exist. We randomly use this mutator or the standard libprotobuf-mutator in order to get the best of both worlds. This approach has proven to be about 80% as quick as the original ordinal-based mutator, while providing stable test cases.
+</p>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikryEL6TdqAfO4CPD026MmtuA1mv7Vo17czluiVu1sC0nNbhnUCIPRC1QAPPG06YLVnDOV799l_uPPGWF2ljZhen-qqsRDmF2eU7Ww15EXaUquI-qFIaDgp77jprgkJ-_CJrJC05bCJOIfiBa5KWvHTb4WRLmmBZHzNz8DxVPkR_EBdMZKUv1mfM7TgKfN/s1600/image2.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikryEL6TdqAfO4CPD026MmtuA1mv7Vo17czluiVu1sC0nNbhnUCIPRC1QAPPG06YLVnDOV799l_uPPGWF2ljZhen-qqsRDmF2eU7Ww15EXaUquI-qFIaDgp77jprgkJ-_CJrJC05bCJOIfiBa5KWvHTb4WRLmmBZHzNz8DxVPkR_EBdMZKUv1mfM7TgKfN/s1600/image2.png" /></a></div>
+<p>
+<center><em>Chart of code coverage achieved by minutes fuzzing with different strategies</em></center>
+<p>
+So, does any of this work?
+</p>
+<p>
+We don’t know yet! - and you can follow along as we find out. The fuzzer found a couple of <a href="https://issues.chromium.org/issues/348021995">potential</a> <a href="https://issues.chromium.org/issues/348328060">bugs</a> (currently access restricted) in the accessibility code itself but hasn’t yet explored far enough to discover bugs in Chrome’s fundamental UI. But, at the time of writing, this has only been running on our ClusterFuzz infrastructure for a few hours, and isn’t yet working on our <a href="https://analysis.chromium.org/coverage/p/chromium/file?host=chromium.googlesource.com&amp;project=chromium/src&amp;ref=refs/heads/main&amp;revision=d4e6019588463e5cf95111345e52771c4aaf4b4c&amp;path=//chrome/test/fuzzing/atspi_in_process_fuzzer.cc&amp;platform=fuzz&amp;test_suite_type=any&amp;modifier_id=0">coverage dashboard</a>. If you’d like to follow along, keep an eye on our coverage dashboard as it expands to cover UI code.
+</p>
+]]></content:encoded>
+<pubDate>2024-10-10T12:00:00.056-04:00</pubDate>
+<pubDate>2024-10-10T12:00:46.411-04:00</pubDate>
+</item>
+<item>
+<title>IT Vulnerability Weekly Report: Cyble Urges Fixes for Fortinet, Palo Alto &amp; More</title>
+<link>https://cyble.com/blog/cyble-urges-fixes-for-fortinet-palo-alto-more/</link>
+<guid>https://cyble.com/blog/cyble-urges-fixes-for-fortinet-palo-alto-more/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-IT-Vulnerability-3-1.png" tabindex="0" title="IT Vulnerability Weekly Report: Cyble Urges Fixes for Fortinet, Palo Alto &amp; More 2" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Overview</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Labs (CRIL) investigated 27 vulnerabilities during the week of October 9-15 and identified 11 as high-priority fixes for security teams.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble researchers also observed 14 vulnerability exploits discussed on <a href="https://cyble.com/knowledge-hub/what-is-the-dark-web/">dark web</a> and cybercrime forums, raising the likelihood that those vulnerabilities will be exploited more frequently.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Of the vulnerabilities highlighted by Cyble threat researchers, two are being actively exploited by state-sponsored <a href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/">threat actors</a>, and five could be chained together to hijack Palo Alto Networks firewalls.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Among the vulnerabilities investigated by Cyble researchers this week, Cyble’s <a href="https://odin.io/">Odin</a> vulnerability exposure search tool detected 427,000 vulnerable Fortinet devices exposed to the internet after CVE-2024-23113, a 9.8-severity Format String Vulnerability, was <a href="https://www.cisa.gov/news-events/alerts/2024/10/09/cisa-adds-three-known-exploited-vulnerabilities-catalog">added</a> to CISA’s Known Exploited Vulnerabilities catalog on Oct. 9.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Other vulnerable web-facing assets detected by Cyble Odin include<span style="margin: 0px; padding: 0px;"> 87,000 exposed GitLab and <a href="https://cyble.com/blog/active-exploitation-of-saml-vulnerability-cve-2024-45409-detected-by-cyble-sensors/" rel="noopener" target="_blank">SAML</a> instances, 35,000 vulnerable <a href="https://cyble.com/blog/zimbra-remote-code-execution-vulnerability-under-active-attack/" rel="noopener" target="_blank">Zimbra</a> servers, 7,800 vulnerable <a href="https://cyble.com/blog/cisa-issues-urgent-advisory-on-critical-vulnerabilities-in-ivanti-products/" rel="noopener" target="_blank">Ivanti Cloud Services Appliances</a>, and 2,400 exposed <a href="https://cyble.com/blog/critical-vulnerability-in-veeam-products-exploited-by-ransomware-gangs/" rel="noopener" target="_blank">Veeam Backup</a> instances (chart below). Cyble issued separate advisories regarding several of those vulnerabilities </span>(see links).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Product &amp; Vulnerability</strong></td>
+<td><strong>Internet Exposures</strong></td>
+</tr>
+<tr>
+<td>Fortinet (CVE-2024-23113)</td>
+<td>427,134</td>
+</tr>
+<tr>
+<td>Gitlab EE (CVE-2024-9164)</td>
+<td>87,402</td>
+</tr>
+<tr>
+<td>SAML Toolkits (CVE-2024-45409)</td>
+<td>87,042</td>
+</tr>
+<tr>
+<td>Zimbra Web Client (CVE-2024-45519)</td>
+<td>35,064</td>
+</tr>
+<tr>
+<td>Ivanti CSA (CVE2024-9380, CVE-2024-9379)</td>
+<td>7,831</td>
+</tr>
+<tr>
+<td>Veeam Backup &amp; Replication (CVE-2024- 40711)</td>
+<td>2,408</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:paragraph --></p>
+<p>Below are the 11 high-priority vulnerabilities and 14 dark web exploits in detail.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">The Top IT Vulnerabilities</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These 11 vulnerabilities should be prioritized by security teams, according to Cyble researchers.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30088"><strong>CVE-2024-30088</strong></a>: A high-severity privilege escalation vulnerability in Windows that enables attackers to escalate their privileges to the SYSTEM level, giving them significant control over compromised devices. Researchers disclosed that the Iranian state-sponsored hacking group APT34, aka OilRig, is exploiting the CVE-2024-30088 flaw to elevate their privileges on compromised devices in their new campaigns targeting government and critical infrastructure entities in the United Arab Emirates and the Gulf region.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-9486"><strong>CVE-2024-9486</strong></a>: This critical vulnerability affects Kubernetes Image Builder, a specialized tool designed for creating virtual machine images that are optimized for Kubernetes environments. The flaw impacts versions &lt;= v0.1.37, where default credentials are enabled during the image build process. The credentials can be used to gain root access. Kubernetes clusters are only affected if their nodes use VM images created via the Image Builder project with its Proxmox provider.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38178"><strong>CVE-2024-38178</strong></a>: A high-severity type confusion vulnerability that impacts Internet Explorer. Recently, government agencies disclosed that ScarCruft, a state-sponsored cyber-espionage threat actor known for targeting systems in South Korea and Europe, launched a new campaign dubbed "Code on Toast." This campaign leveraged toast pop-up ads to perform zero-click malware infections by exploiting the CVE-2024-38178 vulnerability.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-40711"><strong>CVE-2024-40711</strong></a><strong>:</strong> This critical deserialization of untrusted data vulnerability impacts Veeam Backup &amp; Replication (VBR) and can lead to unauthenticated remote code execution (RCE). Recently, researchers discovered that Akira and Fog ransomware groups are now exploiting the vulnerability to gain RCE on vulnerable servers.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-9164"><strong>CVE-2024-9164</strong></a>: This critical vulnerability impacts GitLab Enterprise Edition (EE). The flaw allows unauthorized users to trigger Continuous Integration/Continuous Delivery (CI/CD) pipelines on any branch of a repository. An attacker capable of bypassing branch protections could potentially perform code execution or gain access to sensitive information.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-9463"><strong>CVE-2024-9463</strong></a><strong>, </strong><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-9464"><strong>CVE-2024-9464</strong></a><strong>, </strong><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-9465"><strong>CVE-2024-9465</strong></a><strong>, </strong><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-9466"><strong>CVE-2024-9466</strong></a><strong>, </strong><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-9467"><strong>CVE-2024-9467</strong></a>: These vulnerabilities – the first of which carries a 9.9 severity rating – impact Palo Alto Networks Expedition, a migration tool designed to facilitate the transition of network configurations from various vendors to Palo Alto Networks PAN-OS. This tool is particularly useful for organizations looking to switch from competitors, as it helps streamline the migration process and reduce the time and effort required for configuration changes. The flaws can be chained to let attackers hijack PAN-OS firewalls and are being discussed by threat actors (see dark web section below). CVE-2024-9463 and CVE-2024-9464 are OS command injection vulnerabilities allowing an unauthenticated attacker to run arbitrary OS commands as root in Expedition. Upon successful exploitation, the vulnerabilities may result in the disclosure of usernames, cleartext passwords, device configurations, and device API keys of PAN-OS <a href="https://cyble.com/knowledge-hub/what-is-firewall/">firewalls</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CVE-2024-9465 is an SQL injection vulnerability that allows an unauthenticated attacker to reveal Expedition database contents, such as password hashes, usernames, device configurations, and device API keys. CVE-2024-9466 is a vulnerability in cleartext storage of sensitive information that allows an authenticated attacker to reveal firewall usernames, passwords, and API keys generated using those credentials. CVE-2024-9467 is a reflected XSS vulnerability allowing attackers to execute malicious JavaScript code in the context of an authenticated Expedition user’s browser.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Dark Web and Cybercrime Forum Exploits</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble researchers also observed numerous vulnerability exploits discussed in cybercrime forums and on Telegram channels. These vulnerabilities could become increasingly exploited because of these <a href="https://cyble.com/knowledge-hub/what-is-the-dark-web/">dark web</a> activities, meriting higher priority attention from security teams.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-30052:</strong> A remote code execution (RCE) vulnerability affecting Microsoft Visual Studio, particularly versions 2022 prior to 17.8.11 and certain configurations of Visual Studio 2019.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-20353:</strong> A critical vulnerability identified in Cisco's Adaptive Security Appliance (ASA) and Firepower Threat Defense (FTD) software, which allows for a Denial-of-Service (DoS) attack. The vulnerability enables an attacker to send crafted HTTP requests that can cause the device to reload unexpectedly, leading to service disruptions.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-7479:</strong> A critical security vulnerability affecting TeamViewer's Remote Client and Remote Host products for Windows. The vulnerability arises from improper verification of cryptographic signatures during the installation of VPN drivers, allowing attackers with local, unprivileged access to escalate their privileges and execute arbitrary code.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-7481:</strong> A critical security vulnerability affecting TeamViewer's Remote Client and Remote Host products for Windows. The vulnerability arises from improper verification of cryptographic signatures during the installation of printer drivers, allowing attackers with local, unprivileged access to escalate their privileges and execute arbitrary code.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-42640:</strong> A critical vulnerability affecting the angular-base64-upload library, specifically in versions prior to v0.1.21. This vulnerability allows remote code execution (RCE) through the demo/server.php endpoint, enabling attackers to upload arbitrary files to the server.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-9464:</strong> A critical OS command injection vulnerability found in Palo Alto Networks' Expedition tool, which allows an attacker to execute arbitrary OS commands as root, potentially leading to the disclosure of sensitive information.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-45409:</strong> A critical vulnerability affecting the Ruby-SAML and OmniAuth-SAML libraries. This flaw allows unauthenticated attackers to bypass Security Assertion Markup Language (SAML) authentication mechanisms by exploiting weaknesses in the signature verification process of SAML responses.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-45200:</strong> A recently identified vulnerability affecting Mario Kart 8 Deluxe, specifically versions prior to 3.0.3. This security flaw, dubbed "KartLANPwn," is classified as a stack-based buffer overflow that occurs during the local multiplayer (LAN/LDN) gameplay mode, which allows remote attackers on the same local network to execute arbitrary code or cause a denial-of-service (DoS) condition on the victim's console without requiring user interaction or elevated privileges.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-6769:</strong> This vulnerability affects multiple versions of Microsoft Windows, including Windows 10, Windows 11, and various Windows Server editions. It exploits a combination of DLL Hijacking and Activation Cache Poisoning, allowing an attacker to elevate privileges from a medium to a high-integrity process without triggering a User Account Control (UAC) prompt.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-38816:</strong> A high-severity path traversal vulnerability was discovered in the Spring Framework and VMWare Tanzu Spring platform, affecting multiple versions. This vulnerability allows attackers to exploit improper handling of static resources, potentially gaining unauthorized access to sensitive files on the server.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-5830:</strong> A critical security vulnerability was discovered in Google Chrome's V8 JavaScript engine, affecting versions prior to 126.0.6478.54. This vulnerability is a type of confusion bug that an attacker can exploit to execute arbitrary code within the Chrome renderer sandbox simply by enticing a victim to visit a malicious website.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-20404:</strong> A medium severity vulnerability affecting the webbased management interface of Cisco Finesse. The issue comes from insufficient validation of user-supplied input for specific HTTP requests, which allows remote attackers to conduct Server-Side Request Forgery (SSRF) attacks on an affected system.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-0044:</strong> A high-severity vulnerability affecting Android versions 12, 12L, 13, and 14 and is present in the createSessionInternal function of the PackageInstallerService.java, allowing attackers to execute a "run-as any app" attack. This exploit can lead to local escalation of privileges without requiring user interaction, primarily due to improper input validation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVE-2024-45519</strong>: A critical Remote Code Execution (RCE) vulnerability was discovered in the postjournal service of the Zimbra Collaboration Suite, a widely used email and collaboration platform.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Cyble Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To protect against these vulnerabilities and exploits, organizations should implement the following best practices:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>To mitigate vulnerabilities and protect against exploits, regularly update all software and hardware systems with the latest patches from official vendors.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Develop a comprehensive patch management strategy that includes inventory management, patch assessment, testing, deployment, and verification. Automate the process where possible to ensure consistency and efficiency.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Divide your network into distinct segments to isolate critical assets from less secure areas. Use firewalls, VLANs, and access controls to limit access and reduce the <a href="https://cyble.com/solutions/attack-surface-management/">attack surface</a> exposed to potential <a href="https://cyble.com/knowledge-hub/what-are-cyber-threats/">threats</a>.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Create and maintain an <a href="https://cyble.com/knowledge-hub/what-is-incident-response/">incident response</a> plan that outlines procedures for detecting, responding to, and recovering from security incidents. Regularly test and update the plan to ensure its effectiveness and alignment with current threats.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implement comprehensive monitoring and logging solutions to detect and analyze <a href="https://cyble.com/knowledge-hub/what-is-a-data-breach/">suspicious activities</a>. Use SIEM (Security Information and Event Management) systems to aggregate and correlate logs for real-time threat detection and response.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Subscribe to security advisories and alerts from official vendors, CERTs, and other authoritative sources. Regularly review and assess the impact of these alerts on your systems and take appropriate actions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Conduct regular vulnerability assessment and penetration testing (VAPT) exercises to identify and remediate vulnerabilities in your systems. Complement these exercises with periodic security audits to ensure compliance with security policies and standards.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These vulnerabilities highlight the urgent need for security teams to prioritize patching critical vulnerabilities in major products. With increasing discussions of these exploits on <a href="https://cyble.com/solutions/dark-web-monitoring/">dark web</a> forums, organizations must stay vigilant and proactive. Implementing strong security practices is essential to protect sensitive data and maintain system integrity.</p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/cyble-urges-fixes-for-fortinet-palo-alto-more/" rel="nofollow">IT Vulnerability Weekly Report: Cyble Urges Fixes for Fortinet, Palo Alto &#038; More</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Fri, 18 Oct 2024 08:37:55 +0000</pubDate>
+<pubDate>Fri, 18 Oct 2024 08:37:55 +0000</pubDate>
+</item>
+<item>
+<title>Weekly IT Vulnerability Report: Cyble Urges Fixes for Ivanti, Microsoft Dark Web Exploits</title>
+<link>https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-ivanti-microsoft-dark-web-exploits/</link>
+<guid>https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-ivanti-microsoft-dark-web-exploits/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Cyble-Blogs-Weekly-Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-Weekly-Vulnerability.png" tabindex="0" title="Weekly IT Vulnerability Report: Cyble Urges Fixes for Ivanti, Microsoft Dark Web Exploits 8" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble researchers have identified high-priority vulnerabilities in products from Ivanti, Microsoft, Qualcomm, Zimbra, and the Common Unix Printing System (CUPS).</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Microsoft’s Patch Tuesday included five new zero-day vulnerabilities, two of which are being actively exploited – and Cyble researchers have observed threat actors discussing the other three zero-days on cybercrime forums.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Cyble also detected 14 vulnerability exploits discussed on dark web forums, suggesting that they may soon be under attack, if not already.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Labs (CRIL) investigated 22 vulnerabilities during the week of Oct. 2-8 and identified six products that security teams should prioritize for patching and mitigation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Additionally, Cyble researchers detected 14 vulnerabilities and exploits shared on cybercrime forums that security analysts should also prioritize – including the three Microsoft <a href="https://cyble.com/knowledge-hub/zero-day-exploit/">zero-days</a> not yet under active exploitation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble’s weekly IT vulnerability report covering the period of Oct. 2-8 also offered best practices that all security teams should follow.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Top IT Vulnerabilities This Week</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CRIL researchers identified eight vulnerabilities in six products that security teams should prioritize; three affect Ivanti Cloud Services Appliances (CSA).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-9379, CVE-2024-9380, CVE-2024-9381: Ivanti CSA</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These three critical vulnerabilities impact Ivanti Cloud Services Appliance (CSA), an internet appliance designed to facilitate secure communication and management of devices over the internet. It serves as a bridge between the core server and managed devices, enabling them to communicate even when they are behind firewalls or using proxies.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CVE-2024-9379 is an SQL injection flaw that a remote authenticated attacker with admin privileges can trigger. CVE-2024-9380 is an OS command injection vulnerability that allows a remote authenticated attacker with admin privileges to achieve remote code execution. CVE-2024-9381 is a path traversal vulnerability that allows a remote authenticated attacker with admin privileges to bypass restrictions. In a recent advisory, Ivanti <a href="https://www.ivanti.com/blog/october-2024-security-update">disclosed</a> attackers' exploitation of CVE-2024- 9379, CVE-2024-9380, or CVE-2024-9381, chained with CVE-2024-8963. CISA also issued an <a href="https://cyble.com/blog/cisa-issues-urgent-advisory-on-critical-vulnerabilities-in-ivanti-products/">advisory</a> urging security teams to patch the flaws.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-47176: CUPS</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This vulnerability impacts the Common Unix Printing System, an open-source printing system designed for Linux and other Unix-like operating systems, providing a standardized framework for managing and controlling printers, enabling computers to act as print servers that accept print jobs from client machines, process them, and send them to the appropriate printer. Recently, researchers disclosed that threat actors can exploit vulnerabilities to launch distributed denial-of-service (DDoS) attacks with a 600x amplification factor. Under certain conditions, attackers can chain the set of vulnerabilities in multiple components of CUPS to execute arbitrary code remotely on vulnerable machines. Cyble researchers had <a href="https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-nvidia-adobe-cups/">warned</a> about the CUPS vulnerability the previous week and reiterated the warning as new exploits emerged.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-45519: Zimbra</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This <a href="https://cyble.com/blog/zimbra-remote-code-execution-vulnerability-under-active-attack/">9.8-severity vulnerability</a> impacts Zimbra Collaboration Suite (ZCS), an integrated communication and collaboration platform designed for businesses and organizations, integrating various tools for email, calendaring, contact management, and document sharing. Unauthenticated users can exploit the flaw to execute commands. Recently, researchers disclosed that attackers are actively exploiting the RCE vulnerability that can be triggered simply by sending specially crafted emails with commands to execute in the CC field, which are then executed when the postjournal service processes the email. Cyble researchers also observed multiple discussions of the vulnerability on the <a href="https://cyble.com/knowledge-hub/what-is-the-dark-web/">dark web</a> (see Dark Web section below).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-43047: Qualcomm</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This zero-day vulnerability in the Digital Signal Processor (DSP) service that impacts dozens of Qualcomm chipsets can also be leveraged in spyware campaigns targeting Android devices. Cyble published a <a href="https://cyble.com/blog/oems-are-urged-to-address-vulnerabilities-in-device-communication/">report</a> and has highlighted the exploitation of CVE-2024-43047 in targeted attacks. OEMs are encouraged to apply the provided patches immediately. Users concerned about their devices should reach out to manufacturers for specific patch details.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">CVE-2024-43572 and CVE-2024-43573: Microsoft</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Microsoft’s October 2024 <a href="https://msrc.microsoft.com/update-guide/releaseNote/2024-Oct">Patch Tuesday</a> included security updates for 118 flaws, including five publicly disclosed zero-days, two of which are being actively exploited: <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43572">CVE-2024-43572</a>, a Remote Code Execution vulnerability in Windows Management Console, and <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43573">CVE-2024-43573</a>, a spoofing vulnerability in the Windows MSHTML Platform.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble researchers observed cybercrime exploit discussions on the other zero days reported by Microsoft (see Dark Web section below): CVE-2024-38200, a Microsoft Office Spoofing vulnerability; CVE-2024-29050, a Remote Code Execution (RCE) flaw in Windows 10 for x32- and x64-based Systems; and CVE-2024-6769, a Privilege Escalation vulnerability in Windows 10, Windows 11 - 10.0.0, Windows Server 2016, Windows Server 2019 - 10.0.0.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Dark Web and Cybercrime Forum Exploits</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>CRIL observed multiple Telegram channels and cybercrime forums sharing or discussing exploits weaponizing different vulnerabilities. The vulnerabilities under discussion included:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><strong>CVE-2024-38200:</strong> A critical vulnerability affecting multiple versions of Microsoft Office that arises from improper handling of certain document properties within Microsoft Office applications. It could potentially expose sensitive information such as NTLM hashes.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-29050:</strong> A Windows Cryptographic Services Remote Code Execution (RCE) vulnerability that arises from truncation errors that occur when a primitive data type is cast to a smaller size, resulting in potential data loss during conversion.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-6769:</strong> A vulnerability affecting multiple versions of Microsoft Windows, including Windows 10, Windows 11, and various Windows Server editions. The vulnerability exploits a combination of DLL Hijacking and Activation Cache Poisoning, allowing an attacker to elevate privileges from a medium to a high-integrity process without triggering a User Account Control (UAC) prompt.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-7479:</strong> A critical security vulnerability affecting TeamViewer's Remote Client and Remote Host products for Windows. The vulnerability arises from improper verification of cryptographic signatures during the installation of VPN drivers, allowing attackers with local, unprivileged access to escalate their privileges and execute arbitrary code.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-7481:</strong> A critical security vulnerability affecting TeamViewer's Remote Client and Remote Host products for Windows. The vulnerability arises from improper verification of cryptographic signatures during the installation of printer drivers, allowing attackers with local, unprivileged access to escalate their privileges and execute arbitrary code.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-36435</strong>: A critical vulnerability in the Baseboard Management Controller (BMC) firmware of several Supermicro enterprise products. The vulnerability allows unauthenticated attackers to exploit a buffer overflow, leading to remote code execution (RCE).</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-38816</strong>: A high-severity path traversal vulnerability discovered in the Spring Framework and VMWare Tanzu Spring platform, affecting multiple versions. This vulnerability allows attackers to exploit improper handling of static resources, potentially gaining unauthorized access to sensitive files on the server.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-45519:</strong> Proofs of Concept (PoCs) of this widely reported Zimbra vulnerability are shared on multiple Telegram channels. It is a critical Remote Code Execution (RCE) vulnerability that was discovered in the postjournal service of the Zimbra Collaboration Suite, a widely used email and collaboration platform.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-45409:</strong> A critical vulnerability affecting the Ruby SAML and OmniAuth SAML libraries. This flaw allows unauthenticated attackers to bypass Security Assertion Markup Language (SAML) authentication mechanisms by exploiting weaknesses in the signature verification process of SAML responses. Cyble honeypot sensors detected active attacks on this vulnerability.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-26304:</strong> A critical vulnerability affecting HPE Aruba Devices, classified as an unauthenticated buffer overflow vulnerability in the L2/L3 Management Service accessed via the PAPI Protocol. The vulnerability allows attackers to send specially crafted packets to the PAPI UDP port (8211), potentially enabling them to execute arbitrary code as a privileged user on the affected system.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-5830:</strong> A critical security vulnerability was discovered in Google Chrome's V8 JavaScript engine, affecting versions prior to 126.0.6478.54. This vulnerability is a <a>type</a> confusion bug, which an attacker can exploit to execute arbitrary code within the Chrome renderer sandbox simply by enticing a victim to visit a malicious website.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-44193:</strong> This is a vulnerability affecting Apple iTunes for Windows, specifically versions prior to 12.13.3. The vulnerability allows local attackers to elevate their privileges on affected systems, posing significant security risks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-8275:</strong> A <a href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/">threat actor</a> (TA) shared a PoC on a forum for a critical SQL injection vulnerability discovered in the Events Calendar Plugin for WordPress. The vulnerability affects all versions up to and including 6.6.4 and arises from insufficient input validation in specific functions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-43363:</strong> A TA on a forum shared a PoC for a high-severity vulnerability affecting Cacti, a fault management framework. The vulnerability allows attackers to exploit the system remotely, potentially compromising <a href="https://cyble.com/knowledge-hub/what-is-a-computer-worm/">sensitive data</a> and system integrity.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Cyble Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To protect against these vulnerabilities and exploits, organizations should implement the following best practices:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>To mitigate vulnerabilities and protect against exploits, regularly update all software and hardware systems with the latest patches from official vendors.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Develop a comprehensive patch management strategy that includes inventory management, patch assessment, testing, deployment, and verification. Automate the process where possible to ensure consistency and efficiency.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Divide your network into distinct segments to isolate critical assets from less secure areas. Use firewalls, VLANs, and access controls to limit access and reduce the <a href="https://cyble.com/solutions/attack-surface-management/">attack surface</a> exposed to potential <a href="https://cyble.com/knowledge-hub/what-are-cyber-threats/">threats</a>.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Create and maintain an <a href="https://cyble.com/knowledge-hub/what-is-incident-response/">incident response</a> plan that outlines procedures for detecting, responding to, and recovering from security incidents. Regularly test and update the plan to ensure its effectiveness and alignment with current threats.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implement comprehensive monitoring and logging solutions to detect and analyze <a href="https://cyble.com/knowledge-hub/what-is-a-data-breach/">suspicious activities</a>. Use SIEM (Security Information and Event Management) systems to aggregate and correlate logs for real-time threat detection and response.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Subscribe to security advisories and alerts from official vendors, CERTs, and other authoritative sources. Regularly review and assess the impact of these alerts on your systems and take appropriate actions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Conduct regular vulnerability assessment and penetration testing (VAPT) exercises to identify and remediate vulnerabilities in your systems. Complement these exercises with periodic security audits to ensure compliance with security policies and standards.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These vulnerabilities highlight the urgent need for security teams to prioritize patching critical vulnerabilities in major products. With increasing discussions of these exploits on <a href="https://cyble.com/solutions/dark-web-monitoring/">dark web</a> forums, organizations must stay vigilant and proactive. Implementing strong security practices is essential to protect sensitive data and maintain system integrity.</p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-ivanti-microsoft-dark-web-exploits/" rel="nofollow">Weekly IT Vulnerability Report: Cyble Urges Fixes for Ivanti, Microsoft Dark Web Exploits</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 15 Oct 2024 09:52:06 +0000</pubDate>
+<pubDate>Tue, 15 Oct 2024 09:52:06 +0000</pubDate>
+</item>
+<item>
+<title>Hidden in Plain Sight: ErrorFather’s Deadly Deployment of Cerberus</title>
+<link>https://cyble.com/blog/hidden-in-plain-sight-errorfathers-deadly-deployment-of-cerberus/</link>
+<guid>https://cyble.com/blog/hidden-in-plain-sight-errorfathers-deadly-deployment-of-cerberus/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Cyble-Blogs-Error-Fathers" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-Error-Fathers.png" tabindex="0" title="Hidden in Plain Sight: ErrorFather&#039;s Deadly Deployment of Cerberus 9" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Key Takeaways</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble Research and Intelligence Labs (CRIL) identified a campaign called “ErrorFather” that utilized an&nbsp;undetected Cerberus Android Banking Trojan payload.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>ErrorFather employs a sophisticated infection chain involving multiple stages (session-based droppers, native libraries, and encrypted payloads), complicating detection and removal efforts.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The campaign ramped up in activity in September and October 2024, with more samples and ongoing campaigns suggesting active targeting and scaling by the <a href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/">Threat Actors</a> (TAs) behind the ErrorFather campaign.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The final payload employs keylogging, overlay attacks, VNC, and Domain Generation Algorithm (DGA) to perform malicious activities.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>ErrorFather's incorporation of a Domain Generation Algorithm (DGA) ensures resilience by enabling dynamic C&amp;C server updates, keeping the malware operational even if primary servers are taken down.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The campaign highlights how repurposed malware from leaks can continue to pose significant threats years after its original appearance.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Overview</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Cerberus Android Banking Trojan initially emerged in 2019 and was available for rent on underground forums. It gained notoriety for its ability to target financial and social media apps by exploiting the Accessibility service, using overlay attacks, and incorporating VNC and keylogging features. Its widespread reach made it one of the most well-known banking trojans at the time.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In 2020, following the leak of Cerberus' source code, a new variant called "Alien" appeared, leveraging Cerberus' codebase. Then, in 2021, another banking trojan called "<a href="https://cyble.com/blog/ermac-back-in-action/">ERMAC</a>" surfaced, also building on Cerberus' code and targeting over 450 financial and social media apps.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>At the beginning of 2024, a new threat known as the <a href="https://cryptax.medium.com/android-phoenix-authors-claims-sample-identification-and-trends-f199cbc9901d">Phoenix</a> Android Banking Trojan was discovered. Claiming to be a fresh botnet, Phoenix was found being sold on underground forums. However, it was identified as yet another fork of Cerberus, utilizing its exact source code, whereas Alien and ERMAC had introduced some modifications.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Labs (CRIL) recently uncovered several malicious samples posing as Chrome and Play Store apps. These samples use a multi-stage dropper to deploy a banking trojan payload, which was found to be leveraging the Cerberus Banking Trojan.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The identified sample “0c27ec44ad5333b4440fbe235428ee58f623a878baefe08f2dcdad62ad5ffce7” acts as a first-stage dropper application that drops and installs the final-signed.apk from assets, communicates with a Telegram Bot URL, and sends the&nbsp;device model, brand, and API version.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67126,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67126" src="https://cyble.com/wp-content/uploads/2024/10/image-1.png" /><figcaption class="wp-element-caption"><em>Figure 1 – First-stage malware connecting to Telegram Bot URL</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Telegram Bot ID corresponds to the ErrorFather Bot, as shown in the figure below. Given the bot's name and the recent updates to this variant (covered in the Technical Analysis section), we are referring to this campaign as ErrorFather.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67127,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67127" src="https://cyble.com/wp-content/uploads/2024/10/image-2.png" /><figcaption class="wp-element-caption"><em>Figure 2 – ErrorFather Telegram bot</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>We have identified approximately 15 samples related to the ErrorFather campaign, including session-based droppers and their associated payloads. The first sample was detected in mid-September 2024, followed by a noticeable increase in samples during the first week of October 2024, with an active Command and Control (C&amp;C) server suggesting ongoing campaigns.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67128,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67128" src="https://cyble.com/wp-content/uploads/2024/10/image-3.png" /><figcaption class="wp-element-caption"><em>Figure 3 – Samples related to the&nbsp;ErrorFather campaign</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The following section provides a technical analysis of the Cerberus <a href="https://cyble.com/knowledge-hub/what-is-malware/">malware</a> used by the ErrorFather Campaign.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Technical Details</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading"><strong>Multi-staged dropper</strong></h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The primary APK is a session-based dropper that contains a second-stage APK file named “final-signed.apk” within the Assets folder. It uses the Google Play Store icon and employs a session-based installation technique to install the APK from the assets, bypassing restricted settings.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67130,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67130" src="https://cyble.com/wp-content/uploads/2024/10/image-4.png" /><figcaption class="wp-element-caption"><em>Figure 4 – Session-based dropper</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The second-stage dropper, "final-signed.apk," has a manifest file that requests dangerous permissions and services, but the code implementation is missing, indicating that the malware is packed. It includes a native file, "libmcfae.so," which is immediately loaded after installation to decrypt and execute the final payload.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67131,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67131" src="https://cyble.com/wp-content/uploads/2024/10/image-5.png" /><figcaption class="wp-element-caption"><em>Figure 5 – Second-stage dropper loading native file</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The native file is responsible for handling the final payload. It uses the encrypted file “rbyypivsnw.png,” obtains the AES key and initialization vector (IV), performs decryption, and loads the “decrypted.dex” file at the location /data/data/suds.expend.affiliate.rising/code_cache/, as illustrated in the figure below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67132,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67132" src="https://cyble.com/wp-content/uploads/2024/10/image-6.png" /><figcaption class="wp-element-caption"><em>Figure 6 – Third-stage dropper loading final payload</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The decrypted.dex file is the final payload, containing malicious functionalities such as keylogging, overlay attacks, VNC, PII collection, and the use of a Domain Generation Algorithm (DGA) to create a Command and Control (C&amp;C) server. Notably, when submitted to VirusTotal, the decrypted.dex file was not flagged by any antivirus engine.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67151,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67151" src="https://cyble.com/wp-content/uploads/2024/10/image-20.png" /><figcaption class="wp-element-caption"><em>Figure 7 – Zero detection</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading"><strong>Leveraging Cerberus code</strong></h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Based on the detection count, initially, we suspected it to be a fresh banking trojan, but upon deeper analysis of the final payload, we discovered significant code similarities with Cerberus. The TA behind the&nbsp;ErrorFather campaign had modified variable names, used more obfuscation, and reorganized the code, effectively evading detection despite Cerberus being identified in 2019.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67136,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67136" src="https://cyble.com/wp-content/uploads/2024/10/image-9.png" /><figcaption class="wp-element-caption"><em>Figure 8 – ErrorFather’s shared preference settings containing common keys and following a&nbsp;similar structure as Cerberus</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Comparing the Cerberus sample and the more recent <a href="https://cryptax.medium.com/android-phoenix-authors-claims-sample-identification-and-trends-f199cbc9901d">Phoenix</a> botnet, we noticed changes in this recent variant of Cerberus used in the&nbsp;ErrorFather campaign, particularly in its C&amp;C structure. These differences suggest that the identified sample is a distinct malware variant.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading"><strong>Use of DGA</strong></h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>We observed the malware retrieving list of C&amp;C servers using two methods. First, after installation and establishing a connection with the main C&amp;C server, referred to by the TA as "PoisonConnect," the malware receives a list of four additional C&amp;C servers. It then stores these in the "ConnectGates" shared preferences setting, as shown in the figure below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67137,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67137" src="https://cyble.com/wp-content/uploads/2024/10/image-10.png" /><figcaption class="wp-element-caption"><em>Figure 9 – Malware receiving C&amp;C server list</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":67138,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67138" src="https://cyble.com/wp-content/uploads/2024/10/image-11.png" /><figcaption class="wp-element-caption"><em>Figure 10 – Received list of C&amp;C server saved to Shared Preference</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>We observed a slight variation in the C&amp;C communication. Samples from the ErrorFather campaign solely use RC4 encryption to send a full JSON payload, including the action type. In contrast, earlier Cerberus samples utilized Base64 encoding combined with RC4, with the action type sent unencrypted via separate parameters. The figure below illustrates the C&amp;C communication for both the ErrorFather campaign and the earlier Cerberus samples.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67139,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67139" src="https://cyble.com/wp-content/uploads/2024/10/image-12.png" /><figcaption class="wp-element-caption"><em>Figure 11 – C&amp;C communication of ErrorFather (left) and earlier Cerberus samples (Right)</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Second, the malware incorporates a DGA (Domain Generation Algorithm) that utilizes the Istanbul timezone to obtain the current date and time. It then generates MD5 and passes the digest to SHA-1 hash, appending one of four extensions: ".click", ".com", ".homes", and ".net". These generated domains are stored in the same "ConnectGates" setting. The figure below demonstrates the DGA used in the&nbsp;ErrorFather campaign.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67141,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67141" src="https://cyble.com/wp-content/uploads/2024/10/image-13.png" /><figcaption class="wp-element-caption"><em>Figure 12 – DGA used in the&nbsp;ErrorFather campaign</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":67142,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67142" src="https://cyble.com/wp-content/uploads/2024/10/image-14.png" /><figcaption class="wp-element-caption"><em>Figure 13 – DGA code</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The figure below illustrates the malware connecting to domains generated by a DGA when the primary C&amp;C server is unavailable.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67144,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67144" src="https://cyble.com/wp-content/uploads/2024/10/image-15.png" /><figcaption class="wp-element-caption"><em>Figure 14 – Malware connecting to the domains generated by DGA</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>In 2022, <a href="https://x.com/_CPResearch_/status/1603375823448317953">Alien</a> was observed similarly implementing a DGA process. However, unlike the&nbsp;ErrorFather campaign, it did not maintain a list of domains, used only the ".xyz" extension, and did not rely on a specific timezone.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading"><strong>Actions used by malware</strong></h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The TA has renamed the "Actions" to "Types," as shown in Figure 11. These renamed types indicate the actions performed by the malware and the expected commands from the C&amp;C server. Upon analysis, we observed that the actions carried out by this malware closely resemble those seen in earlier Cerberus variants, with the primary difference being the renaming of action identifiers. Below is a comprehensive list of actions performed by the malware.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Type of action</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>checkAppList</td>
+<td>Send the list of installed application package names</td>
+</tr>
+<tr>
+<td>getFile</td>
+<td>Sends the target application package name to receive the&nbsp;HTML injection file</td>
+</tr>
+<tr>
+<td>getResponse</td>
+<td>Retrieve the server's response, and if it is “ok”, store the application log in the shared preferences file.</td>
+</tr>
+<tr>
+<td>PrimeService</td>
+<td>This action is used to send key logs of targeted application.</td>
+</tr>
+<tr>
+<td>getBox</td>
+<td>This action is used to send SMSs from the&nbsp;infected device.</td>
+</tr>
+<tr>
+<td>fa2prime</td>
+<td>Not Implemented</td>
+</tr>
+<tr>
+<td>prContact</td>
+<td>Used to send contacts to the server</td>
+</tr>
+<tr>
+<td>listAppX</td>
+<td>This action is similar to the "checkAppList" function, where the malware stores the list of installed application package names based on a command from the server; otherwise, the list remains empty. It will then send the list of installed application package names using this action name.</td>
+</tr>
+<tr>
+<td>slService</td>
+<td>Sends Accessibility logs</td>
+</tr>
+<tr>
+<td>ErrorWatch</td>
+<td>Sends error logs using this action type</td>
+</tr>
+<tr>
+<td>device_status</td>
+<td>Sends device status related to WebSocket connection</td>
+</tr>
+<tr>
+<td>image</td>
+<td>Sends captured images as a part of the&nbsp;VNC function</td>
+</tr>
+<tr>
+<td>traverse</td>
+<td>Sends accessibility node information</td>
+</tr>
+<tr>
+<td>CheckDomain</td>
+<td>This action is sent by DGA generated domain to validate domain</td>
+</tr>
+<tr>
+<td>RegisterUser</td>
+<td>Registers device and receives registration ID, it is similar to bot ID</td>
+</tr>
+<tr>
+<td>CheckUser</td>
+<td>Sends setting information and checks whether the&nbsp;user is registered or not</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>VNC implementation using MediaProjection</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>During our malware analysis, we identified two keywords related to VNC: "StatusVNC" and "StatusHVNC." While HVNC implementation is absent in this campaign, it was previously present in the Phoenix botnet, a fork of Cerberus. VNC functionality is implemented using MediaProjection, along with a WebSocket connection to continuously transmit screen images and receive VNC actions from the Websocket response to interact with the device.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67145,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67145" src="https://cyble.com/wp-content/uploads/2024/10/image-16.png" /><figcaption class="wp-element-caption"><em>Figure 15 – The VNC WebSocket connection is used to receive commands that trigger actions on the infected device</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Overlay Attack</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The overlay technique remains unchanged from the earlier Cerberus variant. The malware first sends the installed application package names list to identify potential targets. Once a target is identified, the server responds with the package names of the target applications. The malware then uses the "getFile" action to retrieve the HTML web injection page, as shown in the figure below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67146,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67146" src="https://cyble.com/wp-content/uploads/2024/10/image-17.png" /><figcaption class="wp-element-caption"><em>Figure 16 – Malware sends installed application package names and receives target application</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":67147,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67147" src="https://cyble.com/wp-content/uploads/2024/10/image-18.png" /><figcaption class="wp-element-caption"><em>Figure 17 – Receives HTML injection file</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>When the victim interacts with the target application, the malware loads a fake phishing page over the legitimate app. This tricks the victim into entering their login credentials and credit card details on the fraudulent banking overlay page.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":67148,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-67148" src="https://cyble.com/wp-content/uploads/2024/10/image-19.png" /><figcaption class="wp-element-caption"><em>Figure 18 – HTML injection page for BBVA bank</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Cerberus malware used in the ErrorFather campaign can carry out financial fraud through VNC, keylogging, and overlay attacks.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Conclusion</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Cerberus Android Banking Trojan, first identified in 2019, became a prominent tool for financial fraud using VNC, keylogging, and overlay attacks. Following the leak of its source code, various threat actors repurposed the Cerberus code to develop new banking trojans, including Alien, ERMAC, and Phoenix. The ErrorFather campaign is another example of this pattern. While the TA behind ErrorFather has slightly modified the malware, it remains primarily based on the original Cerberus code, making it inappropriate to classify it as entirely new malware.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In the ErrorFather campaign, the malware uses a multi-stage dropper to deploy its payload and leverages techniques such as VNC, keylogging, and HTML injection for fraudulent purposes. Notably, the campaign utilizes a Telegram bot named "ErrorFather" to communicate with the malware. Despite being an older malware strain, the modified Cerberus used in this campaign has successfully evaded detection by antivirus engines, further highlighting the ongoing risks posed by retooled malware from previous leaks.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The ErrorFather campaign exemplifies how cybercriminals continue to repurpose and exploit leaked malware source code, underscoring the persistent threat of Cerberus-based attacks even years after the original malware's discovery.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Our Recommendations</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>We have listed some essential <a href="https://cyble.com/knowledge-hub/cybersecurity/">cybersecurity </a>best practices that create the first line of control against attackers. We recommend that our readers follow the best practices given below:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Download and install software only from official app stores like Google Play Store or the iOS App Store.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use a reputed anti-virus and internet security software package on your connected devices, such as PCs, laptops, and mobile devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use strong passwords and enforce <a href="https://cyble.com/blog/multi-factor-authentication-mfa-is-a-part-of-your-cyber-hygiene/">multi-factor authentication</a> wherever possible.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Enable biometric security features such as fingerprint or facial recognition for unlocking the mobile device where possible.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Be wary of opening any links received via SMS or emails delivered to your phone.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Ensure that Google Play Protect is enabled on Android devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Be careful while enabling any permissions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Keep your devices, operating systems, and applications updated.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">MITRE ATT&amp;CK® Techniques</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><a><strong>Tactic</strong></a></td>
+<td><strong>Technique ID</strong></td>
+<td><strong>Procedure</strong></td>
+</tr>
+<tr>
+<td><strong>Initial Access (</strong><a href="https://attack.mitre.org/tactics/TA0027">TA0027</a><strong>)</strong></td>
+<td>Phishing (<a href="https://attack.mitre.org/techniques/T1660/">T1660</a>)</td>
+<td>Malware distributing via phishing site</td>
+</tr>
+<tr>
+<td><strong>Execution (</strong><a href="https://attack.mitre.org/tactics/TA0041">TA0041</a><strong>)</strong></td>
+<td>Native API (<a href="https://attack.mitre.org/techniques/T1575/">T1575</a>)</td>
+<td>Malware using native code to drop final payload</td>
+</tr>
+<tr>
+<td><strong>Defense Evasion (</strong><a href="https://attack.mitre.org/tactics/TA0030/"><strong>TA0030</strong></a><strong>)</strong><strong></strong></td>
+<td>Masquerading: Match Legitimate Name or Location (<a href="https://attack.mitre.org/techniques/T1655/001/">T1655.001</a>)</td>
+<td>Malware pretending to be the Google Play Update and Chrome application</td>
+</tr>
+<tr>
+<td><strong>Defense Evasion (</strong><a href="https://attack.mitre.org/tactics/TA0030/"><strong>TA0030</strong></a><strong>)</strong><strong></strong></td>
+<td>Application Discovery (<a href="https://attack.mitre.org/versions/v10/techniques/T1418/">T1418</a>)</td>
+<td>Collects installed application package name list to identify target</td>
+</tr>
+<tr>
+<td><strong>Defense Evasion (</strong><a href="https://attack.mitre.org/tactics/TA0030/"><strong>TA0030</strong></a><strong>)</strong><strong></strong></td>
+<td>Indicator Removal on Host:&nbsp;Uninstall Malicious Application (<a href="https://attack.mitre.org/techniques/T1630/001/">T1630.001</a>) &nbsp;</td>
+<td>Malware can uninstall itself</td>
+</tr>
+<tr>
+<td><strong>Defense Evasion (</strong><a href="https://attack.mitre.org/tactics/TA0030/"><strong>TA0030</strong></a><strong>)</strong><strong></strong></td>
+<td>Input Injection (<a href="https://attack.mitre.org/techniques/T1516/">T1516</a>)</td>
+<td>Malware can mimic user interaction, perform clicks and various gestures, and input data</td>
+</tr>
+<tr>
+<td><strong>Collection (</strong><a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a><strong>)</strong></td>
+<td>Input Capture: Keylogging (<a href="https://attack.mitre.org/techniques/T1417/001/">T1417.001</a>)</td>
+<td>Malware can capture keystrokes</td>
+</tr>
+<tr>
+<td><strong>Discovery (</strong><a href="https://attack.mitre.org/tactics/TA0032">TA0032</a><strong>)</strong></td>
+<td>Software Discovery (<a href="https://attack.mitre.org/techniques/T1418/">T1418</a>)</td>
+<td>Malware collects installed application package list</td>
+</tr>
+<tr>
+<td><strong>Discovery (</strong><a href="https://attack.mitre.org/tactics/TA0032">TA0032</a><strong>)</strong></td>
+<td>System Information Discovery (<a href="https://attack.mitre.org/techniques/T1426/">T1426</a>)</td>
+<td>The malware collects basic device information.</td>
+</tr>
+<tr>
+<td><strong>Collection (</strong><a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a><strong>)</strong></td>
+<td>Screen Capture (<a href="https://attack.mitre.org/techniques/T1513/">T1513</a>)</td>
+<td>Malware can record screen content</td>
+</tr>
+<tr>
+<td><strong>Collection (</strong><a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a><strong>)</strong><strong></strong></td>
+<td>Audio Capture (<a href="https://attack.mitre.org/techniques/T1429/">T1429</a>)</td>
+<td>Malware captures Audio recordings</td>
+</tr>
+<tr>
+<td><strong>Collection (</strong><a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a><strong>)</strong><strong></strong></td>
+<td>Call Control (<a href="https://attack.mitre.org/techniques/T1616/">T1616</a>)</td>
+<td>Malware can make calls</td>
+</tr>
+<tr>
+<td><strong>Collection (</strong><a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a><strong>)</strong><strong></strong></td>
+<td>Protected User Data: Contact List (<a href="https://attack.mitre.org/techniques/T1636/003/">T1636.003</a>)</td>
+<td>Malware steals contacts</td>
+</tr>
+<tr>
+<td><strong>Collection (</strong><a href="https://attack.mitre.org/tactics/TA0035/"><strong>TA0035</strong></a><strong>)</strong></td>
+<td>Protected User Data: SMS Messages<br />(<a href="https://attack.mitre.org/techniques/T1636/004/">T1636.004</a>)</td>
+<td>Steals SMSs from the infected device</td>
+</tr>
+<tr>
+<td><strong>Command and Control (</strong><a href="https://attack.mitre.org/tactics/TA0037">TA0037</a><strong>)</strong></td>
+<td>Dynamic Resolution:&nbsp;Domain Generation Algorithms (<a href="https://attack.mitre.org/techniques/T1637/001/">T1637.001</a>)</td>
+<td>Malware has implemented DGA</td>
+</tr>
+<tr>
+<td><strong>Command and Control (</strong><a href="https://attack.mitre.org/tactics/TA0037">TA0037</a><strong>)</strong></td>
+<td>Encrypted Channel:&nbsp;Symmetric Cryptography (<a href="https://attack.mitre.org/techniques/T1521/001/">T1521.001</a>)</td>
+<td>Malware uses RC4 for encrypting C&amp;C communication</td>
+</tr>
+<tr>
+<td><strong>Exfiltration (</strong><a href="https://attack.mitre.org/tactics/TA0036/"><strong>TA0036</strong></a><strong>)</strong></td>
+<td>Exfiltration Over C2 Channel (<a href="https://attack.mitre.org/techniques/T1646/">T1646</a>)</td>
+<td>Sending exfiltrated data over C&amp;C server</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Indicators of Compromise (IOCs)</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicators</strong></td>
+<td><strong>Indicator Type</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>0c27ec44ad5333b4440fbe235428ee58f623a878baefe08f2dcdad62ad5ffce7 9373860987c13cff160251366d2c6eb5cbb3867e 0544cc3bcd124e6e3f5200416d073b77</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Session-based dropper</td>
+</tr>
+<tr>
+<td>880c9f65c5e2007bfed3a2179e64e36854266023a00e1a7066cbcf8ee6c93cbc cb6f9bcd4b491858583ee9f10b72c0582bf94ab1 d9763c68ebbfaeef4334cfefc54b322f<strong></strong></td>
+<td>SHA256 SHA1 MD5</td>
+<td>Second-stage dropper</td>
+</tr>
+<tr>
+<td>6c045a521d4d19bd52165ea992e91d338473a70962bcfded9213e592cea27359 c7ebf2adfd6482e1eb2c3b05f79cdff5c733c47b f9d5b402acee67675f87d33d7d52b364</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Final undetected Cerberus payload</td>
+</tr>
+<tr>
+<td><strong>hxxp://cmsspain[.homes</strong> <strong>hxxp://consulting-service-andro[.ru</strong> <strong>hxxp://cmscrocospain[.shop</strong> <strong>hxxp://cmsspain[.lol</strong> <strong>hxxp://cmsspain[.shop</strong></td>
+<td>URL</td>
+<td>C&amp;C server</td>
+</tr>
+<tr>
+<td><strong>hxxp://elstersecure-plus[.online</strong> <strong>hxxps://secure-plus[.online/ElsterSecure[.apk</strong></td>
+<td>URL</td>
+<td>Distribution and phishing URL</td>
+</tr>
+<tr>
+<td><strong>hxxps://api[.telegram[.org/bot7779906180:AAE3uTyuoDX0YpV1DBJyz5zgwvvVg-up4xo/sendMessage?chat_id=5915822121&amp;text=</strong></td>
+<td>URL</td>
+<td>Telegram bot URL</td>
+</tr>
+<tr>
+<td>4c7f90d103b54ba78b85f92d967ef4cdcc0102d3756e1400383e774d2f27bb2e 8f3e3a2a63110674ea63fb6abe4a1889fc516dd6851e8c47298c7987e67ff9b6 c570e075f9676e79a1c43e9879945f4fe0f54ef5c78a5289fe72ce3ef6232a14 a2c701fcea4ed167fdb3131d292124eb55389bc746fcef8ca2c8642ba925895c 8faa93be87bb327e760420b2faa33f0f972899a47c80dc2bc07b260c18dfcb14 ee87b4c50e5573cba366efaa01b8719902b8bed8277f1903e764f9b4334778d0 136d00629e8cd59a6be639b0eaef925fd8cd68cbcbdb71a3a407836c560b8579 6c045a521d4d19bd52165ea992e91d338473a70962bcfded9213e592cea27359 516282073b7d81c630d4c5955d396e1e47a2f476f03dea7308461fa62f465c11 5bd21d0007d34f67faeb71081309e25903f15f237c1f7b094634584ca9dd873e 880c9f65c5e2007bfed3a2179e64e36854266023a00e1a7066cbcf8ee6c93cbc 0c27ec44ad5333b4440fbe235428ee58f623a878baefe08f2dcdad62ad5ffce7 6b8911dfdf1961de9dd2c3f9b141a6c5b1029311c66e9ded9bca4d21635c0c49 befe69191247abf80c5a725e1f1024f7195fa85a7af759db2546941711f6e6ae 9d966baefa96213861756fde502569d7bba9c755d13e586e7aaca3d0949cbdc3</td>
+<td>SHA256</td>
+<td>Malicious First and second-stage files from the&nbsp;ErrorFather campaign</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p>The post <a href="https://cyble.com/blog/hidden-in-plain-sight-errorfathers-deadly-deployment-of-cerberus/" rel="nofollow">Hidden in Plain Sight: ErrorFather&#8217;s Deadly Deployment of Cerberus</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Mon, 14 Oct 2024 13:32:17 +0000</pubDate>
+<pubDate>Mon, 14 Oct 2024 13:32:17 +0000</pubDate>
+</item>
 
 <item>
 <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
