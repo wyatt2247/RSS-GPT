@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>IcePeony with the ‘996’ work culture</title>
 <link>http://nao-sec.org/2024/10/IcePeony-with-the-996-work-culture.html</link>
 <guid>http://nao-sec.org/2024/10/IcePeony-with-the-996-work-culture.html</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="" src="https://nao-sec.org/assets/2024-10-17/top.png" /></p>
 
 <p>This blog post is based on “IcePeony with the ‘996’ work culture” that we presented at VB2024. We are grateful to Virus Bulletin for giving us the opportunity to present.</p>
@@ -659,19 +659,16 @@ It was a not well-known tool. However, the publicly available reGeorgGo is a too
 </ul>
 ]]></content:encoded>
 <pubDate>2024-10-16T15:00:00+00:00</pubDate>
-<pubDate>2024-10-16T15:00:00+00:00</pubDate>
 </item>
 <item>
 <title>Cisco Investigates Data Breach After Hacker Claims Sale of Data</title>
 <link>https://www.cysecurity.news/2024/10/cisco-investigates-data-breach-after.html</link>
 <guid>https://www.cysecurity.news/2024/10/cisco-investigates-data-breach-after.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC_OFXR51o2WikDsLJX_ZiotxV4mG4JluKpZ_TzjW1Y1oeaEBeZYVzUcbN5nPnZPPLVIZuo9QtKnS4bA8RUVYsfZVcgUpThW2qPcKAJWQwpZzAQs0CT9wS68si2wQ5u0EwHf2P7eLXOlHI2Mla_rRHQnlyUns0zXoxPkFf0eS7SbfzIeLYSIN46SHU66w/s6135/1269.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC_OFXR51o2WikDsLJX_ZiotxV4mG4JluKpZ_TzjW1Y1oeaEBeZYVzUcbN5nPnZPPLVIZuo9QtKnS4bA8RUVYsfZVcgUpThW2qPcKAJWQwpZzAQs0CT9wS68si2wQ5u0EwHf2P7eLXOlHI2Mla_rRHQnlyUns0zXoxPkFf0eS7SbfzIeLYSIN46SHU66w/s600/1269.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><span style="font-family: inherit;">Cisco has acknowledged that it is investigating reports of a data breach after a hacker began offering allegedly stolen firm data for sale on a hacking platform.
 
 As per a report in a local media outlet, the investigation was launched following claims made by a well-known hacker identified as “IntelBroker.”</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">“Cisco is aware of reports that an actor is alleging to have gained access to certain Cisco-related files,” a Cisco spokesperson stated. “We have launched an investigation to assess this claim, and our investigation is ongoing.”&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The allegations surfaced after IntelBroker claimed, along with two others designated as "EnergyWeaponUser" and "zjj," that they infiltrated Cisco's servers on June 10, 2024, and obtained a large amount of developer-related data.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">IntelBroker's post on a hacking forum showed that the data would include "GitHub projects, GitLab projects, SonarQube projects, source code, hard-coded credentials, certificates, customer SRCs, Cisco confidential documents, Jira tickets, API tokens, AWS private buckets, Cisco technology SRCs, Docker builds, Azure storage buckets, private and public keys, SSL certificates, Cisco premium products, and more." The hacker uploaded samples of a database, client information, multiple files, and screenshots of customer management interfaces.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">According to a recent update from IntelBroker, the breach also involves the theft of sensitive data from other major global companies such as Verizon, AT&amp;T, and Microsoft. The stolen data is now allegedly being offered for sale on the cybercrime platform Breach Forums, with IntelBroker specifying that the transaction would take place in exchange for Monero (XMR), a cryptocurrency known for its anonymity properties.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The hacker expressed a willingness to use an intermediary to facilitate the sale, assuring anonymity for both the buyer and seller. This technique is often used by hackers to evade detection by authorities.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">IntelBroker, which is known for high-profile data thefts, has already claimed responsibility for compromising other prominent firms. In June 2024, IntelBroker reported that they had infiltrated Apple, taking source code for internal tools, as well as Advanced Micro Devices (AMD), stealing employee and product information. In May 2024, IntelBroker claimed to have hacked Europol, which the organisation later confirmed.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">IntelBroker did not provide any specific details on the techniques employed to acquire the data. The stolen data originated from a third-party managed services provider that specialises in software development and DevOps, according to sources knowledgeable with the breaches who spoke with BleepingComputer. It's still unclear if the earlier June incidents and the recent Cisco hack are linked.</span></div></span>
 ]]></content:encoded>
-<pubDate>2024-10-19T12:44:00.001-04:00</pubDate>
 <pubDate>2024-10-19T12:44:20.442-04:00</pubDate>
 </item>
 <item>
@@ -679,10 +676,8 @@ As per a report in a local media outlet, the investigation was launched followin
 <link>https://www.cysecurity.news/2024/10/new-trickmo-variants-exploit-fake-lock.html</link>
 <guid>https://www.cysecurity.news/2024/10/new-trickmo-variants-exploit-fake-lock.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJKhFApqRQyFkDgRRRlfa4wcnaIVtKGqqXWU9ja6uF5Rfim8RYZXX8pwyFkKv6lEqrt0xzhGP2CcxMrd-iMlQ-AK2wve-aB_mFpskb3ElfLLLefbZlMsaZZ0Ui-1WgqrXlomWLTK409SGK1XbVj1SqfrSH_Y2WC1kyuQLKsZYDD6vRBAZtAoeHrtDOAbpt/s1280/computer-4282378_1280.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="442" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJKhFApqRQyFkDgRRRlfa4wcnaIVtKGqqXWU9ja6uF5Rfim8RYZXX8pwyFkKv6lEqrt0xzhGP2CcxMrd-iMlQ-AK2wve-aB_mFpskb3ElfLLLefbZlMsaZZ0Ui-1WgqrXlomWLTK409SGK1XbVj1SqfrSH_Y2WC1kyuQLKsZYDD6vRBAZtAoeHrtDOAbpt/w640-h442/computer-4282378_1280.jpg" width="640" /></a></div><br /><p></p><p><br /></p><p>A perilous new variant of the Android banking malware TrickMo has been discovered, capable of mimicking the Android lock screen and stealing users' PINs. This comes according to the data compiled by the security firm Zimperium, who made a deep analysis of the malware. The firm said that some 40 new variants of TrickMo have been found in the wild. These are associated with 16 dropper applications and 22 different command and control (C2) servers.</p><p>The new report follows earlier research by Cleafy, which had already managed to detect some of these, but not all, variants. TrickMo had been observed used in cyberattacks since September 2019, although it wasn't documented until last year by the IBM X-Force group.</p><p><br /></p><p><b>How TrickMo Works to Deceive</b></p><p>One such feature in this new version of TrickMo is the fake Android lock screen designed to further dupe the users into handing over their PIN or unlock pattern. The screen seems like a real one. It actually renders in full-screen mode to mimic the prompt from an original Android. Once the user inputs his credentials, malware will capture that and transmit over to a remote server along with its unique identifier. This will provide thieves with access to the device later, often when it is not actively monitored, allowing them to go on and carry out whatever fraudulent activities they want.</p><p>In addition, TrickMo has other malicious abilities-the intercepting of one-time passwords, screen recording, exfiltration of data, and even the remote control of the infected device. Thus, TrickMo is another banking trojan, which mainly operates relying on the stealing of login credentials with the presentation of phishing pages of various banks.</p><p><br /></p><p><b>The New Generation of Adaptation Malware</b></p><p>New variants of TrickMo malware attempt to exploit the Accessibility Service permission in Android. As a result, the malware would be able to grab greater control over the device and the possibility of automating different actions without even letting the actual user know about such actions. This is an abuse of accessibility features that grants the malware easier ways for interacting with system prompts, such as giving itself further permissions or making phishing pages appear.</p><p>Cyber security experts consider the mature and dynamic capabilities to make TrickMo a most dangerous threat. The phishing screens will be more likely to capture the users, and once the credentials are captured, then hackers can carry out unauthorised transactions using their banking apps or log in to other sensitive accounts.</p><p><br /></p><p><b>Large-scale Impact on Victims</b></p><p>Zimperium's research showed that at least 13,000 victims from several countries, such as Canada, United Arab Emirates, Turkey, and Germany, have been affected by the TrickMo malware. The real number of attached devices, however, may be much higher as the malware operates through multiple C2 servers.</p><p>It targeted most of the banking applications but has since grown to target many more applications such as VPN services, streaming services, online e-commerce websites, and even social media and enterprise-based platforms. More alarming, it threatens because it can compromise user accounts associated with different kinds of services, not just financial services.</p><p><br /></p><p><b>Staying Safe from TrickMo</b></p><p>This spreads through misleading the users into downloading the malicious APK files from unknown sources. To avoid infection, users are not encouraged to click on any links whatsoever-those coming through SMS or direct messages from unknown contacts in particular. Enablement of Google Play Protect is likely to prevent known variants of TrickMo from being installed on Android devices.</p><p>The sophistication level of malware like TrickMo tends to keep reminding everyone of the importance of maintaining their software up to date and not to interact with any unfamiliar apps or websites. As it continues to morph into even dangerous forms, cybersecurity experts have kept alerting Android users to be on high alert and ensure that such security features like Google Play Protect are turned on in order to provide a first line of defence against such threats.</p><p>Zimperium has taken the noble step in releasing TrickMo's C2 infrastructure details on GitHub, thus being in a better position to help cybersecurity experts and organisations ward off the trojan. It is important to note that while saying so, users are advised to be vigilant and take proper measures to ensure their sensitive information will not be compromised by malicious software such as TrickMo.</p><p><br /></p>
 ]]></content:encoded>
-<pubDate>2024-10-18T12:58:00.000-04:00</pubDate>
 <pubDate>2024-10-18T12:58:47.041-04:00</pubDate>
 </item>
 <item>
@@ -690,12 +685,10 @@ As per a report in a local media outlet, the investigation was launched followin
 <link>https://thehackernews.com/2024/10/github-patches-critical-flaw-in.html</link>
 <guid>https://thehackernews.com/2024/10/github-patches-critical-flaw-in.html</guid>
 <content:encoded><![CDATA[
-
 GitHub has released security updates for Enterprise Server (GHES) to address multiple issues, including a critical bug that could allow unauthorized access to an instance.
 The vulnerability, tracked as CVE-2024-9487, carries a CVS score of 9.5 out of a maximum of 10.0
 "An attacker could bypass SAML single sign-on (SSO) authentication with the optional encrypted assertions feature, allowing
 ]]></content:encoded>
-<pubDate>Wed, 16 Oct 2024 10:36:00 +0530</pubDate>
 <pubDate>Wed, 16 Oct 2024 10:36:00 +0530</pubDate>
 </item>
 <item>
@@ -703,11 +696,9 @@ The vulnerability, tracked as CVE-2024-9487, carries a CVS score of 9.5 out of a
 <link>https://thehackernews.com/2024/10/github-telegram-bots-and-qr-codes.html</link>
 <guid>https://thehackernews.com/2024/10/github-telegram-bots-and-qr-codes.html</guid>
 <content:encoded><![CDATA[
-
 A new tax-themed malware campaign targeting insurance and finance sectors has been observed leveraging GitHub links in phishing email messages as a way to bypass security measures and deliver Remcos RAT, indicating that the method is gaining traction among threat actors.
 "In this campaign, legitimate repositories such as the open-source tax filing software, UsTaxes, HMRC, and InlandRevenue were
 ]]></content:encoded>
-<pubDate>Fri, 11 Oct 2024 22:43:00 +0530</pubDate>
 <pubDate>Fri, 11 Oct 2024 22:43:00 +0530</pubDate>
 </item>
 <item>
@@ -715,7 +706,6 @@ A new tax-themed malware campaign targeting insurance and finance sectors has be
 <link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-290a</link>
 <guid>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-290a</guid>
 <content:encoded><![CDATA[
-
 <h2><strong>Summary</strong></h2>
 <p>The Federal Bureau of Investigation (FBI), the Cybersecurity and Infrastructure Security Agency (CISA), the National Security Agency (NSA), the Communications Security Establishment Canada (CSE), the Australian Federal Police (AFP), and Australian Signals Directorate's Australian Cyber Security Centre (ASD's ACSC) are releasing this joint Cybersecurity Advisory to warn network defenders of Iranian cyber actors’ use of brute force and other techniques to compromise organizations across multiple critical infrastructure sectors, including the healthcare and public health (HPH), government, information technology, engineering, and energy sectors. The actors likely aim to obtain credentials and information describing the victim’s network that can then be sold to enable access to cybercriminals.</p>
 <p>Since October 2023, Iranian actors have used brute force, such as password spraying, and multifactor authentication (MFA) ‘push bombing’ to compromise user accounts and obtain access to organizations. The actors frequently modified MFA registrations, enabling persistent access. The actors performed discovery on the compromised networks to obtain additional credentials and identify other information that could be used to gain additional points of access. The authoring agencies assess the Iranian actors sell this information on cybercriminal forums to actors who may use the information to conduct additional malicious activity.</p>
@@ -1493,14 +1483,12 @@ A new tax-themed malware campaign targeting insurance and finance sectors has be
 </div>
 ]]></content:encoded>
 <pubDate>Wed, 16 Oct 24 12:00:00 +0000</pubDate>
-<pubDate>Wed, 16 Oct 24 12:00:00 +0000</pubDate>
 </item>
 <item>
 <title>GitHub Releases Security Advisory on Critical Vulnerability in Self-Hosted Environments</title>
 <link>https://cyble.com/blog/github-releases-security-advisory-on-critical-vulnerability-in-self-hosted-environments/</link>
 <guid>https://cyble.com/blog/github-releases-security-advisory-on-critical-vulnerability-in-self-hosted-environments/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Cyble-Blogs-Github-Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-Github-Vulnerability.png" tabindex="0" title="GitHub Releases Security Advisory on Critical Vulnerability in Self-Hosted Environments 4" width="1200" /></p>
 <p><!-- wp:paragraph --></p>
 <p><!-- /wp:paragraph --></p>
@@ -1577,9 +1565,7 @@ A new tax-themed malware campaign targeting insurance and finance sectors has be
 <p>The post <a href="https://cyble.com/blog/github-releases-security-advisory-on-critical-vulnerability-in-self-hosted-environments/" rel="nofollow">GitHub Releases Security Advisory on Critical Vulnerability in Self-Hosted Environments</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Thu, 17 Oct 2024 11:21:40 +0000</pubDate>
-<pubDate>Thu, 17 Oct 2024 11:21:40 +0000</pubDate>
 </item>
-
 <item>
 <title>MisterioLNK: The Open-Source Builder Behind Malicious Loaders</title>
 <link>https://cyble.com/blog/misteriolnk-the-open-source-builder-behind-malicious-loaders/</link>

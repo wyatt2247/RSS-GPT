@@ -4,15 +4,14 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-118</link>
 <guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-118</guid>
 <content:encoded><![CDATA[
-
 <p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for <span style="color: black;">arbitrary </span>code execution. <span style="color: black;">Successful exploitation of the most severe of these vulnerabilities</span> could allow for <span style="color: black;">arbitrary </span>code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>
 ]]></content:encoded>
-<pubDate>Tue, 15 Oct 2024 21:43:05 -0400</pubDate>
 <pubDate>Tue, 15 Oct 2024 21:43:05 -0400</pubDate>
 </item>
 <item>
@@ -20,10 +19,8 @@
 <link>https://www.cysecurity.news/2024/10/heres-how-to-stop-smart-tv-from.html</link>
 <guid>https://www.cysecurity.news/2024/10/heres-how-to-stop-smart-tv-from.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBqLRNxlc1NS28S-qSIQyVmVkF_G3vQzmbeaATmnCWKKahqz5u6Cyd5jYwFxbh_KQ5KDFA6dcQ79eTdbPf_9SLlsaJuCEdL3sA9ghrI4nE62kKi2WYeDI-9vsc5VyPShgDgRFTjaG_fzdDp4B5bPHo0QcXd6fe4EvGYsS5qe5_Up3XuFxSsqH6tuZyIr0/s4576/1248.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBqLRNxlc1NS28S-qSIQyVmVkF_G3vQzmbeaATmnCWKKahqz5u6Cyd5jYwFxbh_KQ5KDFA6dcQ79eTdbPf_9SLlsaJuCEdL3sA9ghrI4nE62kKi2WYeDI-9vsc5VyPShgDgRFTjaG_fzdDp4B5bPHo0QcXd6fe4EvGYsS5qe5_Up3XuFxSsqH6tuZyIr0/s600/1248.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><span style="font-family: inherit;">Watching television seems to be a benign pastime, but as all TVs become "smart" and link to the internet via your network, they will be able to track you as well. When you turn on a smart TV from LG, Samsung, or Sony, data is collected from the TV itself, as well as the operating system and apps. Then there are the gadgets you connect to your television, like Google's Chromecast, Apple TV, and Amazon's Fire Stick.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">A TV is now more than just a screen for entertainment; it's a two-way mirror that lets a network of data brokers and advertisers watch you in real time, stated Rowenna Fielding, director of data protection consultancy Miss IG Geek. “The purpose of this is to gather as much information as possible about your behaviour, interests, preferences and demographics so it can be monetised, mainly through targeted advertising.”</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Your smart TV's data collection relies on the manufacturer, brand, and version. In theory, most smart TVs can gather audio, video, and TV usage data, according to Toby Lewis, global head of threat analysis at cybersecurity firm Darktrace.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Voice activation is a function that has the ability to collect significant volumes of data. Microphones and software listen for instructions and can record conversations and other noises within range. These recordings can be sent to third parties for analysis.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><b>What does your TV do with the data?</b></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">There is no clear answer. According to Lewis, what is done with the data is complex and "highly opaque". When looking at what a smart TV does on the network, it is often unclear why certain data is being harvested and where it is being sent.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">There isn't much distinction between television brands. Manufacturers claim to utilise your information for "personalisation" and content quality, although it is usual to sell anonymous or semi-anonymized data to third parties, advertising companies, or streaming services.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">“After the data has been sold, it is out of the manufacturer’s control,” Lewis explains. "It is often unclear what data exactly is being sent back, depending on the T&amp;Cs and privacy settings, and it can be very difficult to change default settings once you have agreed to them.”</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><b>What is Automatic Content Recognition (ACR)?&nbsp;</b></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Automated content recognition (ACR) is one alarming feature to keep an eye out for. This feature, which is frequently enabled by default, uses analytical techniques to detect video and audio on the TV and compares it to a large database to determine what is playing. It's fairly disturbing stuff; ACR works on anything played on television, including DVDs, Blu-rays, CDs, and games.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Jake Moore, global cybersecurity adviser at security company ESET, explains that viewing data and habits are shared with manufacturers and eventually sold to advertisers in order to target you with adverts. When your TV is connected to your home router, data will include your IP address and position.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Lewis adds that ACR may theoretically be utilised for even more ominous profiling. "Data from facial recognition, sentiment analysis, speech-to-text, and content analysis could be gathered to build an in-depth picture of an individual user with the analytical technologies available."&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Lewis suggests that rather than comparing material to a catalogue of well-known films, ACR may theoretically be examined for factors like political stance, ethnicity, social status, and other characteristics that could be misused.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><b>Safety tips&nbsp;</b></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Smart TVs will gather data as long as they are connected to the internet, and it is impossible to prevent this from happening. In many cases, doing so is not in your best interests because it will interfere with your viewing experience; for example, Netflix's useful suggestions tool.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">However, there are several simple steps you may take to protect yourself from smart TV snooping. Turn off ACR in the settings, disable customisation, opt out of all advertising features, and hide or disable cameras and microphones.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">It's also vital to secure your router by changing the password and creating a guest network. You may increase security by opting out of online tracking when it's provided and installing software updates as soon as possible.</span></div></span>
 ]]></content:encoded>
-<pubDate>2024-10-16T11:07:00.000-04:00</pubDate>
 <pubDate>2024-10-16T11:07:22.898-04:00</pubDate>
 </item>
 <item>
@@ -31,7 +28,6 @@
 <link>http://security.googleblog.com/2024/10/safer-with-google-advancing-memory.html</link>
 <guid>http://security.googleblog.com/2024/10/safer-with-google-advancing-memory.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Alex Rebert, Security Foundations, and Chandler Carruth, Jen Engel, Andy Qin, Core Developers</span>
 
 <p>
@@ -141,7 +137,6 @@ We will provide future publications on memory safety that will go deeper into sp
 
 </ol></div>
 ]]></content:encoded>
-<pubDate>2024-10-15T13:44:00.001-04:00</pubDate>
 <pubDate>2024-10-15T13:44:17.528-04:00</pubDate>
 </item>
 <item>
@@ -149,7 +144,6 @@ We will provide future publications on memory safety that will go deeper into sp
 <link>http://security.googleblog.com/2024/10/using-chromes-accessibility-apis-to.html</link>
 <guid>http://security.googleblog.com/2024/10/using-chromes-accessibility-apis-to.html</guid>
 <content:encoded><![CDATA[
-
 <span class="byline-author">Posted by Adrian Taylor, Security Engineer, Chrome</span>
 
 
@@ -285,7 +279,6 @@ So, does any of this work?
 We don’t know yet! - and you can follow along as we find out. The fuzzer found a couple of <a href="https://issues.chromium.org/issues/348021995">potential</a> <a href="https://issues.chromium.org/issues/348328060">bugs</a> (currently access restricted) in the accessibility code itself but hasn’t yet explored far enough to discover bugs in Chrome’s fundamental UI. But, at the time of writing, this has only been running on our ClusterFuzz infrastructure for a few hours, and isn’t yet working on our <a href="https://analysis.chromium.org/coverage/p/chromium/file?host=chromium.googlesource.com&amp;project=chromium/src&amp;ref=refs/heads/main&amp;revision=d4e6019588463e5cf95111345e52771c4aaf4b4c&amp;path=//chrome/test/fuzzing/atspi_in_process_fuzzer.cc&amp;platform=fuzz&amp;test_suite_type=any&amp;modifier_id=0">coverage dashboard</a>. If you’d like to follow along, keep an eye on our coverage dashboard as it expands to cover UI code.
 </p>
 ]]></content:encoded>
-<pubDate>2024-10-10T12:00:00.056-04:00</pubDate>
 <pubDate>2024-10-10T12:00:46.411-04:00</pubDate>
 </item>
 <item>
@@ -293,7 +286,6 @@ We don’t know yet! - and you can follow along as we find out. The fuzzer found
 <link>https://cyble.com/blog/cyble-urges-fixes-for-fortinet-palo-alto-more/</link>
 <guid>https://cyble.com/blog/cyble-urges-fixes-for-fortinet-palo-alto-more/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-IT-Vulnerability-3-1.png" tabindex="0" title="IT Vulnerability Weekly Report: Cyble Urges Fixes for Fortinet, Palo Alto &amp; More 2" width="1200" /></p>
 <p><!-- wp:heading --></p>
 <h2 class="wp-block-heading"><strong>Overview</strong></h2>
@@ -475,14 +467,12 @@ We don’t know yet! - and you can follow along as we find out. The fuzzer found
 <p>The post <a href="https://cyble.com/blog/cyble-urges-fixes-for-fortinet-palo-alto-more/" rel="nofollow">IT Vulnerability Weekly Report: Cyble Urges Fixes for Fortinet, Palo Alto &#038; More</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Fri, 18 Oct 2024 08:37:55 +0000</pubDate>
-<pubDate>Fri, 18 Oct 2024 08:37:55 +0000</pubDate>
 </item>
 <item>
 <title>Weekly IT Vulnerability Report: Cyble Urges Fixes for Ivanti, Microsoft Dark Web Exploits</title>
 <link>https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-ivanti-microsoft-dark-web-exploits/</link>
 <guid>https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-ivanti-microsoft-dark-web-exploits/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Cyble-Blogs-Weekly-Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-Weekly-Vulnerability.png" tabindex="0" title="Weekly IT Vulnerability Report: Cyble Urges Fixes for Ivanti, Microsoft Dark Web Exploits 8" width="1200" /></p>
 <p><!-- wp:heading --></p>
 <h2 class="wp-block-heading">Key Takeaways</h2>
@@ -662,14 +652,12 @@ We don’t know yet! - and you can follow along as we find out. The fuzzer found
 <p>The post <a href="https://cyble.com/blog/weekly-it-vulnerability-report-cyble-urges-fixes-for-ivanti-microsoft-dark-web-exploits/" rel="nofollow">Weekly IT Vulnerability Report: Cyble Urges Fixes for Ivanti, Microsoft Dark Web Exploits</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Tue, 15 Oct 2024 09:52:06 +0000</pubDate>
-<pubDate>Tue, 15 Oct 2024 09:52:06 +0000</pubDate>
 </item>
 <item>
 <title>Hidden in Plain Sight: ErrorFather’s Deadly Deployment of Cerberus</title>
 <link>https://cyble.com/blog/hidden-in-plain-sight-errorfathers-deadly-deployment-of-cerberus/</link>
 <guid>https://cyble.com/blog/hidden-in-plain-sight-errorfathers-deadly-deployment-of-cerberus/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Cyble-Blogs-Error-Fathers" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/Cyble-Blogs-Error-Fathers.png" tabindex="0" title="Hidden in Plain Sight: ErrorFather&#039;s Deadly Deployment of Cerberus 9" width="1200" /></p>
 <p><!-- wp:heading --></p>
 <h2 class="wp-block-heading"><strong>Key Takeaways</strong></h2>
@@ -1149,9 +1137,7 @@ We don’t know yet! - and you can follow along as we find out. The fuzzer found
 <p>The post <a href="https://cyble.com/blog/hidden-in-plain-sight-errorfathers-deadly-deployment-of-cerberus/" rel="nofollow">Hidden in Plain Sight: ErrorFather&#8217;s Deadly Deployment of Cerberus</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Mon, 14 Oct 2024 13:32:17 +0000</pubDate>
-<pubDate>Mon, 14 Oct 2024 13:32:17 +0000</pubDate>
 </item>
-
 <item>
 <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
 <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-113</link>
