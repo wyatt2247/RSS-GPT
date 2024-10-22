@@ -4,15 +4,14 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>ShadyShader: Crashing Apple M-Series Devices with a Single Click - Security Boulevard</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://securityboulevard.com/2024/10/shadyshader-crashing-apple-m-series-devices-with-a-single-click/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0Iu_xa3hfggp3Srxv388FK</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://securityboulevard.com/2024/10/shadyshader-crashing-apple-m-series-devices-with-a-single-click/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0Iu_xa3hfggp3Srxv388FK</guid>
 <content:encoded><![CDATA[
-
 This <b>vulnerability</b>, which we've dubbed ... Users should update to the latest versions of iOS and <b>macOS</b> which address the ShadyShader <b>exploit</b>.
 ]]></content:encoded>
-<pubDate>2024-10-22T15:23:38Z</pubDate>
 <pubDate>2024-10-22T15:23:38Z</pubDate>
 </item>
 <item>
@@ -20,10 +19,8 @@ This <b>vulnerability</b>, which we've dubbed ... Users should update to the lat
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://b2b-cyber-security.de/en/weak-point-in-the-pressure-system-cups/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3Y4MaZtGclKia4b8xQvWuN</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://b2b-cyber-security.de/en/weak-point-in-the-pressure-system-cups/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3Y4MaZtGclKia4b8xQvWuN</guid>
 <content:encoded><![CDATA[
-
 ... <b>macOS</b>. The CVE-2024-47176 <b>vulnerability</b> in cups-browsed versions is widespread in various UNIX systems, including GNU/Linux distributions, select&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-10-22T12:53:11Z</pubDate>
 <pubDate>2024-10-22T12:53:11Z</pubDate>
 </item>
 <item>
@@ -31,13 +28,10 @@ This <b>vulnerability</b>, which we've dubbed ... Users should update to the lat
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.bundle.app/en/lifestyle/microsoft-discovered-a-major-security-flaw-with-safari-on-mac-5f183b18-9829-47fe-a5c4-772f0721e220&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3EDytTSNP-dUzpVqbL3ssM</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.bundle.app/en/lifestyle/microsoft-discovered-a-major-security-flaw-with-safari-on-mac-5f183b18-9829-47fe-a5c4-772f0721e220&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3EDytTSNP-dUzpVqbL3ssM</guid>
 <content:encoded><![CDATA[
-
 When Apple dropped <b>macOS</b> ... While Microsoft did find suspicious activity in its investigation that might indicate this <b>vulnerability</b> has been exploited&nbsp;...
 ]]></content:encoded>
 <pubDate>2024-10-22T06:34:57Z</pubDate>
-<pubDate>2024-10-22T06:34:57Z</pubDate>
 </item>
-
 <item>
 <title>Google Warns of Samsung Zero-Day Exploited in the Wild - SecurityWeek</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.securityweek.com/google-warns-of-samsung-zero-day-exploited-in-the-wild/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0rFC3KIxM5Q25ff5feJNfx</link>
