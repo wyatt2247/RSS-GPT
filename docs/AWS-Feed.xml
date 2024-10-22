@@ -4,6 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>AWS, Azure auth keys found in Android and iOS apps used by millions</title>
+<link>https://www.bleepingcomputer.com/news/security/aws-azure-auth-keys-found-in-android-and-ios-apps-used-by-millions/</link>
+<guid>https://www.bleepingcomputer.com/news/security/aws-azure-auth-keys-found-in-android-and-ios-apps-used-by-millions/</guid>
+<content:encoded><![CDATA[
+
+Multiple popular mobile applications for iOS and Android come with hardcoded, unencrypted credentials for cloud services like Amazon Web Services (AWS) and Microsoft Azure Blob Storage, exposing user data and source code to security breaches. [...]
+]]></content:encoded>
+<pubDate>Tue, 22 Oct 2024 16:19:12 -0400</pubDate>
+<pubDate>Tue, 22 Oct 2024 16:19:12 -0400</pubDate>
+</item>
 
 <item>
 <title>Cisco Investigates Data Breach After Hacker Claims Sale of Data</title>
