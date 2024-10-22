@@ -5,14 +5,24 @@
 <link>https://cyble.com</link>
 
 <item>
+<title><b>Vulnerability</b> Recap 10/21/24: Apple, Google Meet, Kubernetes - eSecurity Planet</title>
+<link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.esecurityplanet.com/threats/vulnerability-recap-october-21-2024/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0wGNy4XSR2utCn1TYGY5iM</link>
+<guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.esecurityplanet.com/threats/vulnerability-recap-october-21-2024/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0wGNy4XSR2utCn1TYGY5iM</guid>
+<content:encoded><![CDATA[
+
+... <b>exploit</b> this <b>vulnerability</b>. Your system won't be <b>vulnerable</b> ... <b>macOS</b> threat family, is exploiting the <b>vulnerability</b>. The fix: Upgrade&nbsp;...
+]]></content:encoded>
+<pubDate>2024-10-21T22:14:41Z</pubDate>
+<pubDate>2024-10-21T22:14:41Z</pubDate>
+</item>
+
+<item>
 <title>The Internet Archive hit with a new level of cyberattack - Inkl</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.inkl.com/news/the-internet-archive-hit-with-a-new-level-of-cyberattack&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2JjvT1Ug9nR2ZKH1rCa5Ay</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.inkl.com/news/the-internet-archive-hit-with-a-new-level-of-cyberattack&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2JjvT1Ug9nR2ZKH1rCa5Ay</guid>
 <content:encoded><![CDATA[
-
 Microsoft discovers <b>macOS vulnerability</b> that could expose&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-10-21T15:41:44Z</pubDate>
 <pubDate>2024-10-21T15:41:44Z</pubDate>
 </item>
 <item>
@@ -20,10 +30,8 @@ Microsoft discovers <b>macOS vulnerability</b> that could expose&nbsp;...
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.heise.de/en/news/Access-to-camera-microphone-and-browser-data-Microsoft-discovers-Safari-gap-9988270.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0hmG2BCA2RgXsYNAvwus1R</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.heise.de/en/news/Access-to-camera-microphone-and-browser-data-Microsoft-discovers-Safari-gap-9988270.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0hmG2BCA2RgXsYNAvwus1R</guid>
 <content:encoded><![CDATA[
-
 Microsoft has published details of a <b>macOS vulnerability</b> that may have ... &quot; All current Macs are affected: iMac from 2019, iMac Pro from&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-10-21T13:40:57Z</pubDate>
 <pubDate>2024-10-21T13:40:57Z</pubDate>
 </item>
 <item>
@@ -31,7 +39,6 @@ Microsoft has published details of a <b>macOS vulnerability</b> that may have ..
 <link>https://www.cysecurity.news/2024/10/hm-surf-bug-in-macos-raises-data.html</link>
 <guid>https://www.cysecurity.news/2024/10/hm-surf-bug-in-macos-raises-data.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZbywA8qayZtyi7djUM2WX-it_cO9j_1E_iavz-5FlvKPwx5_5MlV-jIBrRSHsTgamM9rFsXjVrr0EC4ZiDS81gOY3CFXc__SltZQlqH413AYOFnguAyFQLFWaEWwzrAK_kHNjR3_A2jCWXKqB2W1VdJvWOl5rjQ4B3UGR2DgNnQt3-_EKrm10s2IxjFiI/s4857/pexels-abdullah-bin-mubarak-2067629-3693732.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZbywA8qayZtyi7djUM2WX-it_cO9j_1E_iavz-5FlvKPwx5_5MlV-jIBrRSHsTgamM9rFsXjVrr0EC4ZiDS81gOY3CFXc__SltZQlqH413AYOFnguAyFQLFWaEWwzrAK_kHNjR3_A2jCWXKqB2W1VdJvWOl5rjQ4B3UGR2DgNnQt3-_EKrm10s2IxjFiI/w640-h426/pexels-abdullah-bin-mubarak-2067629-3693732.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">Several vulnerabilities in the Safari web browser for macOS may have left users open to being spied on, having their data stolen, and acquiring other types of malware thanks to this security weakness.
 
 Specifically, the vulnerability arises from the special permissions Apple gives to its proprietary apps, and here, it is the browser, as well as the ease with which an attacker can obtain the important configuration files of an app.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Ultimately, what it allows a user to do is to circumvent the Transparency, Consent, and Control (TCC) security layer on MacBooks that is designed to safeguard sensitive data from an attacker. CVE-2024-44133 has been rated as a "medium" severity vulnerability by the Common Vulnerability Scoring System (CVSS), meaning that it has a 5.5 severity score as per the CVSS.
@@ -64,10 +71,8 @@ The HM-Surf vulnerability illustrates the risks associated with macOS, highlight
 
 In summary, the emergence of the HM-Surf vulnerability is a stark reminder of the dynamic landscape of cybersecurity threats. For macOS users and businesses, this discovery emphasizes the need to act swiftly in strengthening defenses and protecting digital assets against evolving risks.</div>
 ]]></content:encoded>
-<pubDate>2024-10-21T14:30:00.001-04:00</pubDate>
 <pubDate>2024-10-21T14:30:00.219-04:00</pubDate>
 </item>
-
 <item>
 <title>Microsoft Details <b>MacOS</b> Security Flaw That Let Hackers Steal Data - Techopedia</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.techopedia.com/news/microsoft-details-macos-security-flaw-that-let-hackers-steal-data&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2VCOBFNZ_p-BI_2k_WFycT</link>
