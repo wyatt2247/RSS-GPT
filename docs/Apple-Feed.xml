@@ -4,18 +4,16 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Mobile Apps With Millions of Downloads Expose Cloud Credentials</title>
 <link>https://www.darkreading.com/cloud-security/mobile-apps-millions-downloads-expose-cloud-credentials</link>
 <guid>https://www.darkreading.com/cloud-security/mobile-apps-millions-downloads-expose-cloud-credentials</guid>
 <content:encoded><![CDATA[
-
 Popular titles on both Google Play and Apple's App Store include hardcoded and unencrypted AWS and Azure credentials in their codebases or binaries, making them vulnerable to misuse by threat actors.
 ]]></content:encoded>
 <pubDate>Wed, 23 Oct 2024 15:44:38 GMT</pubDate>
-<pubDate>Wed, 23 Oct 2024 15:44:38 GMT</pubDate>
 </item>
-
 <item>
 <title>The Global Surveillance Free-for-All in Mobile Ad Data</title>
 <link>https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/</link>

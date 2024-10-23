@@ -5,14 +5,24 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Lazarus hackers used fake DeFi game to exploit Google Chrome zero-day</title>
+<link>https://www.bleepingcomputer.com/news/security/lazarus-hackers-used-fake-defi-game-to-exploit-google-chrome-zero-day/</link>
+<guid>https://www.bleepingcomputer.com/news/security/lazarus-hackers-used-fake-defi-game-to-exploit-google-chrome-zero-day/</guid>
+<content:encoded><![CDATA[
+
+The North Korean Lazarus hacking group exploited a Google Chrome zero-day tracked as CVE-2024-4947 through a fake decentralized finance (DeFi) game targeting individuals in the cryptocurrency space. [...]
+]]></content:encoded>
+<pubDate>Wed, 23 Oct 2024 14:03:49 -0400</pubDate>
+<pubDate>Wed, 23 Oct 2024 14:03:49 -0400</pubDate>
+</item>
+
+<item>
 <title>Mobile Apps With Millions of Downloads Expose Cloud Credentials</title>
 <link>https://www.darkreading.com/cloud-security/mobile-apps-millions-downloads-expose-cloud-credentials</link>
 <guid>https://www.darkreading.com/cloud-security/mobile-apps-millions-downloads-expose-cloud-credentials</guid>
 <content:encoded><![CDATA[
-
 Popular titles on both Google Play and Apple's App Store include hardcoded and unencrypted AWS and Azure credentials in their codebases or binaries, making them vulnerable to misuse by threat actors.
 ]]></content:encoded>
-<pubDate>Wed, 23 Oct 2024 15:44:38 GMT</pubDate>
 <pubDate>Wed, 23 Oct 2024 15:44:38 GMT</pubDate>
 </item>
 <item>
@@ -20,10 +30,8 @@ Popular titles on both Google Play and Apple's App Store include hardcoded and u
 <link>https://www.bleepingcomputer.com/news/google/google-to-let-businesses-create-curated-chrome-web-stores-for-extensions/</link>
 <guid>https://www.bleepingcomputer.com/news/google/google-to-let-businesses-create-curated-chrome-web-stores-for-extensions/</guid>
 <content:encoded><![CDATA[
-
 Google has announced it will soon allow organizations to create their own curated "Enterprise Web Store" of company-sanctioned browser extensions for Chrome and ChromeOS, aimed at improving productivity, security, and management for businesses. [...]
 ]]></content:encoded>
-<pubDate>Wed, 23 Oct 2024 12:01:47 -0400</pubDate>
 <pubDate>Wed, 23 Oct 2024 12:01:47 -0400</pubDate>
 </item>
 <item>
@@ -31,7 +39,6 @@ Google has announced it will soon allow organizations to create their own curate
 <link>https://www.cysecurity.news/2024/10/the-impact-of-googles-manifest-v3-on.html</link>
 <guid>https://www.cysecurity.news/2024/10/the-impact-of-googles-manifest-v3-on.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div style="text-align: justify;"><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-zs5ymF-x8GWz3UIhKh_QX74Waug5hiOf7FlbOpzdMWIWAUAvQHWzX5AO4M325MTJw0_Y5gZ_bPwxN90AiZnESo1yczQKaWArB-O0gwjlzPIfW7cZ_RvjBIzdjtRF3RksbmRF3iBM9er7AdbPSD78l9SF61CcWltMLKtWc3p43YZGcxcS4eraxOF-Lqs/s1280/search-engine-76519_1280.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-zs5ymF-x8GWz3UIhKh_QX74Waug5hiOf7FlbOpzdMWIWAUAvQHWzX5AO4M325MTJw0_Y5gZ_bPwxN90AiZnESo1yczQKaWArB-O0gwjlzPIfW7cZ_RvjBIzdjtRF3RksbmRF3iBM9er7AdbPSD78l9SF61CcWltMLKtWc3p43YZGcxcS4eraxOF-Lqs/s600/search-engine-76519_1280.png" width="600" /></a></div>Google’s Manifest V3 rules have generated a lot of discussion, primarily because users fear it will make ad blockers, such as Ublock Origin, obsolete. This concern stems from the fact that Ublock Origin is heavily used and has been affected by these changes. However, it’s crucial to understand that these new rules don’t outright disable ad blockers, though they may impact some functionality.
 
 The purpose of Manifest V3 is to enhance the security and privacy of Chrome extensions. A significant part of this is limiting remote code execution within extensions, a measure meant to prevent malicious activities that could lead to data breaches.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">This stems from incidents like DataSpii, where extensions harvested sensitive user data including tax returns and financial information. Google’s Manifest V3 aims to prevent such vulnerabilities by introducing stricter regulations on the code that can be used within extensions.
@@ -44,10 +51,8 @@ To further protect themselves, users are advised to explore additional options s
 
 Ultimately, while Manifest V3 may introduce limitations, it’s far from the end of ad-blocking extensions.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Developers are adapting, and users still have a variety of tools to block intrusive ads and enhance their browsing experience. Keeping ad blockers up to date and understanding how to manage extensions is key to ensuring a smooth transition into Google’s new extension framework.</div>
 ]]></content:encoded>
-<pubDate>2024-10-23T11:09:00.000-04:00</pubDate>
 <pubDate>2024-10-23T11:09:43.823-04:00</pubDate>
 </item>
-
 <item>
 <title>AI hallucinations can pose a risk to your cybersecurity</title>
 <link>https://securityintelligence.com/articles/ai-hallucinations-pose-risk-cybersecurity/</link>
