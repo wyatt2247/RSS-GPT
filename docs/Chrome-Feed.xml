@@ -4,6 +4,38 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Google to let businesses create curated Chrome Web Stores for extensions</title>
+<link>https://www.bleepingcomputer.com/news/google/google-to-let-businesses-create-curated-chrome-web-stores-for-extensions/</link>
+<guid>https://www.bleepingcomputer.com/news/google/google-to-let-businesses-create-curated-chrome-web-stores-for-extensions/</guid>
+<content:encoded><![CDATA[
+
+Google has announced it will soon allow organizations to create their own curated "Enterprise Web Store" of company-sanctioned browser extensions for Chrome and ChromeOS, aimed at improving productivity, security, and management for businesses. [...]
+]]></content:encoded>
+<pubDate>Wed, 23 Oct 2024 12:01:47 -0400</pubDate>
+<pubDate>Wed, 23 Oct 2024 12:01:47 -0400</pubDate>
+</item>
+<item>
+<title>The Impact of Google’s Manifest V3 on Chrome Extensions</title>
+<link>https://www.cysecurity.news/2024/10/the-impact-of-googles-manifest-v3-on.html</link>
+<guid>https://www.cysecurity.news/2024/10/the-impact-of-googles-manifest-v3-on.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p><div style="text-align: justify;"><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-zs5ymF-x8GWz3UIhKh_QX74Waug5hiOf7FlbOpzdMWIWAUAvQHWzX5AO4M325MTJw0_Y5gZ_bPwxN90AiZnESo1yczQKaWArB-O0gwjlzPIfW7cZ_RvjBIzdjtRF3RksbmRF3iBM9er7AdbPSD78l9SF61CcWltMLKtWc3p43YZGcxcS4eraxOF-Lqs/s1280/search-engine-76519_1280.png" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-zs5ymF-x8GWz3UIhKh_QX74Waug5hiOf7FlbOpzdMWIWAUAvQHWzX5AO4M325MTJw0_Y5gZ_bPwxN90AiZnESo1yczQKaWArB-O0gwjlzPIfW7cZ_RvjBIzdjtRF3RksbmRF3iBM9er7AdbPSD78l9SF61CcWltMLKtWc3p43YZGcxcS4eraxOF-Lqs/s600/search-engine-76519_1280.png" width="600" /></a></div>Google’s Manifest V3 rules have generated a lot of discussion, primarily because users fear it will make ad blockers, such as Ublock Origin, obsolete. This concern stems from the fact that Ublock Origin is heavily used and has been affected by these changes. However, it’s crucial to understand that these new rules don’t outright disable ad blockers, though they may impact some functionality.
+
+The purpose of Manifest V3 is to enhance the security and privacy of Chrome extensions. A significant part of this is limiting remote code execution within extensions, a measure meant to prevent malicious activities that could lead to data breaches.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">This stems from incidents like DataSpii, where extensions harvested sensitive user data including tax returns and financial information. Google’s Manifest V3 aims to prevent such vulnerabilities by introducing stricter regulations on the code that can be used within extensions.
+
+For developers, this means adapting to new APIs, notably the WebRequest API, which has been altered to restrict certain network activities that extensions used to perform. While these changes are designed to increase user security, they require extension developers to modify how their tools work. Ad blockers like Ublock Origin can still function, but some users may need to manually enable or adjust settings to get them working effectively under Manifest V3.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Although many users believe that the update is intended to undermine ad blockers—especially since Google’s main revenue comes from ads—the truth is more nuanced. Google maintains that the changes are intended to bolster security, though skepticism remains high. Users are still able to use ad blockers such as Ublock Origin or switch to alternatives like Ublock Lite, which complies with the new regulations. Additionally, users can choose other browsers like Firefox that do not have the same restrictions and can still run extensions under their older, more flexible frameworks.
+
+While Manifest V3 introduces hurdles, it doesn’t spell the end for ad blockers. The changes force developers to ensure that their tools follow stricter security protocols, but this could ultimately lead to safer browsing experiences.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">If some extensions stop working, alternatives or updates are available to address the gaps. For now, users can continue to enjoy ad-free browsing with the right tools and settings, though they should remain vigilant in managing and updating their extensions.
+
+To further protect themselves, users are advised to explore additional options such as using privacy-focused extensions like Privacy Badger or Ghostery. For more tech-savvy individuals, setting up hardware-based ad-blocking solutions like Pi-Hole can offer more comprehensive protection. A virtual private network (VPN) with built-in ad-blocking capabilities is another effective solution.
+
+Ultimately, while Manifest V3 may introduce limitations, it’s far from the end of ad-blocking extensions.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Developers are adapting, and users still have a variety of tools to block intrusive ads and enhance their browsing experience. Keeping ad blockers up to date and understanding how to manage extensions is key to ensuring a smooth transition into Google’s new extension framework.</div>
+]]></content:encoded>
+<pubDate>2024-10-23T11:09:00.000-04:00</pubDate>
+<pubDate>2024-10-23T11:09:43.823-04:00</pubDate>
+</item>
 
 <item>
 <title>HM Surf Bug in macOS Raises Data Privacy Concerns</title>
