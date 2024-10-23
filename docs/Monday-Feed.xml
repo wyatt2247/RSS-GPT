@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>The Global Surveillance Free-for-All in Mobile Ad Data</title>
 <link>https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/</link>
 <guid>https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/</guid>
 <content:encoded><![CDATA[
-
 <p>Not long ago, the ability to digitally track someone’s daily movements just by knowing their home address, employer, or place of worship was considered a dangerous power that should remain only within the purview of nation states. But a new lawsuit in a likely constitutional battle over a New Jersey privacy law shows that anyone can now access this capability, thanks to a proliferation of commercial services that hoover up the digital exhaust emitted by widely-used mobile apps and websites.</p>
 <div class="wp-caption aligncenter" id="attachment_69282" style="width: 758px;"><img alt="" class=" wp-image-69282" height="756" src="https://krebsonsecurity.com/wp-content/uploads/2024/10/peoplephone.png" width="748" /><p class="wp-caption-text" id="caption-attachment-69282">Image: Shutterstock, Arthimides.</p></div>
 <p>Delaware-based<strong> Atlas Data Privacy Corp.</strong> helps its users remove their personal information from the clutches of consumer data brokers, and from <a href="https://krebsonsecurity.com/?s=people+search" rel="noopener" target="_blank">people-search services online</a>. Backed by millions of dollars in litigation financing, Atlas so far this year has sued 151 consumer data brokers on behalf of a class that includes more than 20,000 New Jersey law enforcement officers who are signed up for Atlas services.</p>
@@ -121,9 +121,7 @@
 <p>There is a dual benefit to this altruism, which is clearly in the device owner&#8217;s best interests. Because while <em>your</em> device may not be directly trackable via advertising data, making sure they&#8217;re opted out of said tracking also can reduce the likelihood that you are trackable simply by being physically close to those who <em>are</em>.</p>
 ]]></content:encoded>
 <pubDate>Wed, 23 Oct 2024 11:30:18 +0000</pubDate>
-<pubDate>Wed, 23 Oct 2024 11:30:18 +0000</pubDate>
 </item>
-
 <item>
 <title>CISA Adds ScienceLogic SL1 Vulnerability to Exploited Catalog After Active Zero-Day Attack</title>
 <link>https://thehackernews.com/2024/10/cisa-adds-sciencelogic-sl1.html</link>

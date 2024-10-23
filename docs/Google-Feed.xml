@@ -5,11 +5,48 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>AI hallucinations can pose a risk to your cybersecurity</title>
+<link>https://securityintelligence.com/articles/ai-hallucinations-pose-risk-cybersecurity/</link>
+<guid>https://securityintelligence.com/articles/ai-hallucinations-pose-risk-cybersecurity/</guid>
+<content:encoded><![CDATA[
+
+<p>In early 2023, Google&rsquo;s Bard made headlines for a pretty big mistake, which we now call an AI hallucination. During a demo, the chatbot was asked, &ldquo;What new discoveries from the James Webb Space Telescope can I tell my 9-year-old about?&rdquo; Bard answered that JWST, which launched in December 2021, took the &ldquo;very first pictures&rdquo; of an exoplanet outside our solar system. However, the European Southern Observatory&rsquo;s Very Large Telescope took the first picture of an exoplanet in 2004.</p>
+<h2>What is an AI hallucination?</h2>
+<p>Simply put, an AI hallucination is when a <a href="https://www.ibm.com/topics/large-language-models" rel="noopener nofollow" target="_blank">large language model (LLM)</a>, such as a <a href="https://www.ibm.com/topics/generative-ai" rel="noopener nofollow" target="_blank">generative AI</a> tool, provides an answer that is incorrect. Sometimes, this means that the answer is totally fabricated, such as making up a research paper that doesn&rsquo;t exist. Other times, it&rsquo;s the wrong answer, such as with the Bard debacle.</p>
+<p>Reasons for hallucination are varied, but the biggest one is that the data the model uses for training is incorrect &mdash; <a href="https://www.ibm.com/topics/artificial-intelligence" rel="noopener nofollow" target="_blank">AI</a> is only as accurate as the information it ingests. Input bias is also a top cause. If the data used for training contains biases, then the LLM will find patterns that are actually not there, which leads to incorrect results.</p>
+<p>With businesses and consumers increasingly turning to AI for automation and decision-making, especially in key areas like healthcare and finance, the potential for errors poses a big risk. According to <a href="https://www.gartner.com/en/cybersecurity/topics/cybersecurity-and-ai" rel="noopener nofollow" target="_blank">Gartner</a>, AI hallucination compromises both decision-making and brand reputation. Additionally, AI hallucinations lead to the spreading of misinformation. Even more so, each AI hallucination leads to people not trusting AI results, which has widespread consequences, and businesses are increasingly turning to this technology.</p>
+<p>While it&rsquo;s tempting to have blind trust in AI, it&rsquo;s important to use a balanced approach when using AI. By taking precautions to reduce AI hallucinations, organizations can weigh the benefits of AI with the potential complications, which include AI hallucinations.</p>
+<a class="btn orange1 large" href="https://www.ibm.com/ai-cybersecurity">Explore AI cybersecurity solutions</a>
+<h2>Organizations increasingly using generative AI for cybersecurity</h2>
+<p>While the discussion about generative AI often focuses on software development, the issue increasingly affects <a href="https://www.ibm.com/topics/cybersecurity" rel="noopener nofollow" target="_blank">cybersecurity</a>. The reason is that organizations are starting to use generative AI for cybersecurity purposes.</p>
+<p>Many cybersecurity professionals turn to generative AI for <a href="https://securityintelligence.com/posts/3-recommendations-generative-ai-cyber-defense/">threat hunting.</a> While AI-powered&nbsp;<a href="https://www.ibm.com/topics/siem" rel="noopener nofollow" target="_blank">security information and event management</a> (SIEM) improves response management, generative AI can use natural language searches for faster threat hunting. Analysts can use natural language chatbots to spot threats. Once a threat is detected, cybersecurity professionals can turn to generative AI to create a playbook based on the specific threat. Because generative AI uses training data to create the output, analysts have access to the latest information to respond to a specific threat with the best action.</p>
+<p>Training is another common use for generative AI in cybersecurity. By using generative AI, cybersecurity professionals can use real-time data and current threats to create realistic scenarios. Through the simulation, cybersecurity teams get real-world experience and practice that was previously challenging to find. Because they can practice on similar threats to those they may encounter that day or week, professionals can train on current threats, not ones in the past.</p>
+<h2>How AI hallucinations affect cybersecurity</h2>
+<p>One of the biggest issues with AI hallucinations in cybersecurity is that the error can cause an organization to overlook a potential threat. For example, the AI tool may miss a potential threat that ends up causing a <a href="https://www.ibm.com/topics/cyber-attack" rel="noopener nofollow" target="_blank">cyberattack</a>. Often, this is due to bias in the model that happens through biased training data, which causes the tool to overlook a pattern that ends up affecting the results.</p>
+<p>On the flip side, an AI hallucination may create a false alarm. If the generative AI tool fabricates a threat or falsely identifies a vulnerability, then employees will begin to trust the tool less in the future. Additionally, the organization focuses its resources on addressing the false threat, which means that a real attack may be overlooked. Each time that the AI tool produces inaccurate results, employee&rsquo;s confidence in the tool becomes lower, making it less likely that they will turn to AI or trust the results in the future.</p>
+<p>Similarly, a hallucination can provide inaccurate recommendations that prolong detection or recovery. For example, a generative AI tool may accurately spot suspicious activity but provide inaccurate information on the next step or system recommendations. Because the IT team takes the wrong steps, the cyberattack is not stopped and the <a href="https://www.ibm.com/topics/threat-actor" rel="noopener nofollow" target="_blank">threat actors</a> gain access.</p>
+<h2>Reducing the impact of AI hallucinations on cybersecurity</h2>
+<p>By understanding and anticipating AI hallucinations, organizations can take proactive steps to both reduce the occurrence and the impact.</p>
+<p>Here are three tips:</p>
+<ol>
+<li><strong>Train employees on prompt engineering. </strong>With generative AI, the quality of the results depends greatly on the specific prompts used for the requests. However, many employees create the prompts without formal training or knowledge on how to provide the right information to the model. Organizations that train their IT team on using specific and clear prompts can improve the results and possibly reduce AI hallucinations.</li>
+<li><strong>Focus on data cleanliness. </strong>AI hallucinations often happen when using poisoned data, meaning there are errors or inaccuracies in the training data. For example, a model that is trained on data that includes cybersecurity threats that were later found to be false reports may identify a threat that is not accurate. By ensuring, as much as possible, that the model uses clean data then your organization can eliminate some AI hallucinations.</li>
+<li><strong>Incorporate fact-checking into your process. </strong>With today&rsquo;s current maturity level of generative AI tools, AI hallucinations are likely part of the process. Organizations should assume that errors or inaccurate information may be returned at this stage. By designing a fact-checking process to make sure that all information returned is accurate before employees take action, organizations can reduce the impact of the hallucinations on the business.</li>
+</ol>
+<h2>Leveling the cyber playing field</h2>
+<p>Many ransomware gangs and cyber criminals are using generative AI to find vulnerabilities and create attacks. Organizations that use these same tools to fight cyber crime can put themselves on a more level playing field. By also taking proactive measures to prevent and reduce the impact of AI hallucinations, businesses can more successfully use generative AI to help their cybersecurity team better protect data and infrastructure.</p>
+
+<p>The post <a href="https://securityintelligence.com/articles/ai-hallucinations-pose-risk-cybersecurity/" rel="nofollow">AI hallucinations can pose a risk to your cybersecurity</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 23 Oct 2024 13:00:00 +0000</pubDate>
+<pubDate>Wed, 23 Oct 2024 13:00:00 +0000</pubDate>
+</item>
+
+<item>
 <title>The Global Surveillance Free-for-All in Mobile Ad Data</title>
 <link>https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/</link>
 <guid>https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/</guid>
 <content:encoded><![CDATA[
-
 <p>Not long ago, the ability to digitally track someone’s daily movements just by knowing their home address, employer, or place of worship was considered a dangerous power that should remain only within the purview of nation states. But a new lawsuit in a likely constitutional battle over a New Jersey privacy law shows that anyone can now access this capability, thanks to a proliferation of commercial services that hoover up the digital exhaust emitted by widely-used mobile apps and websites.</p>
 <div class="wp-caption aligncenter" id="attachment_69282" style="width: 758px;"><img alt="" class=" wp-image-69282" height="756" src="https://krebsonsecurity.com/wp-content/uploads/2024/10/peoplephone.png" width="748" /><p class="wp-caption-text" id="caption-attachment-69282">Image: Shutterstock, Arthimides.</p></div>
 <p>Delaware-based<strong> Atlas Data Privacy Corp.</strong> helps its users remove their personal information from the clutches of consumer data brokers, and from <a href="https://krebsonsecurity.com/?s=people+search" rel="noopener" target="_blank">people-search services online</a>. Backed by millions of dollars in litigation financing, Atlas so far this year has sued 151 consumer data brokers on behalf of a class that includes more than 20,000 New Jersey law enforcement officers who are signed up for Atlas services.</p>
@@ -121,9 +158,7 @@
 <p>There is a dual benefit to this altruism, which is clearly in the device owner&#8217;s best interests. Because while <em>your</em> device may not be directly trackable via advertising data, making sure they&#8217;re opted out of said tracking also can reduce the likelihood that you are trackable simply by being physically close to those who <em>are</em>.</p>
 ]]></content:encoded>
 <pubDate>Wed, 23 Oct 2024 11:30:18 +0000</pubDate>
-<pubDate>Wed, 23 Oct 2024 11:30:18 +0000</pubDate>
 </item>
-
 <item>
 <title>Honeywell and Google Cloud to Accelerate Auto Operations With AI Agents for the Industrial Sector</title>
 <link>https://www.darkreading.com/ics-ot-security/honeywell-and-google-cloud-to-accelerate-auto-operations-with-ai-agents-for-the-industrial-sector</link>
