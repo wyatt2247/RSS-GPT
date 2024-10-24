@@ -4,6 +4,18 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>AWS Cloud Development Kit Vulnerability Exposes Users to Potential Account Takeover Risks</title>
+<link>https://thehackernews.com/2024/10/aws-cloud-development-kit-vulnerability.html</link>
+<guid>https://thehackernews.com/2024/10/aws-cloud-development-kit-vulnerability.html</guid>
+<content:encoded><![CDATA[
+
+Cybersecurity researchers have disclosed a security flaw impacting Amazon Web Services (AWS) Cloud Development Kit (CDK) that could have resulted in an account takeover under specific circumstances.
+"The impact of this issue could, in certain scenarios, allow an attacker to gain administrative access to a target AWS account, resulting in a full account takeover," Aqua said in a report shared
+]]></content:encoded>
+<pubDate>Thu, 24 Oct 2024 18:30:00 +0530</pubDate>
+<pubDate>Thu, 24 Oct 2024 18:30:00 +0530</pubDate>
+</item>
 
 <item>
 <title>Mobile Apps With Millions of Downloads Expose Cloud Credentials</title>

@@ -4,20 +4,18 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Lazarus Group Exploits Google Chrome Vulnerability to Control Infected Devices</title>
 <link>https://thehackernews.com/2024/10/lazarus-group-exploits-google-chrome.html</link>
 <guid>https://thehackernews.com/2024/10/lazarus-group-exploits-google-chrome.html</guid>
 <content:encoded><![CDATA[
-
 The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a now-patched security flaw in Google Chrome to seize control of infected devices.
 Cybersecurity vendor Kaspersky said it discovered a novel attack chain in May 2024 that targeted the personal computer of an unnamed Russian national with the Manuscrypt backdoor.
 This entails triggering the
 ]]></content:encoded>
 <pubDate>Thu, 24 Oct 2024 15:23:00 +0530</pubDate>
-<pubDate>Thu, 24 Oct 2024 15:23:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Lazarus hackers used fake DeFi game to exploit Google Chrome zero-day</title>
 <link>https://www.bleepingcomputer.com/news/security/lazarus-hackers-used-fake-defi-game-to-exploit-google-chrome-zero-day/</link>
