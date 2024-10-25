@@ -4,6 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Apple creates Private Cloud Compute VM to let researchers find bugs</title>
+<link>https://www.bleepingcomputer.com/news/apple/apple-creates-private-cloud-compute-vm-to-let-researchers-find-bugs/</link>
+<guid>https://www.bleepingcomputer.com/news/apple/apple-creates-private-cloud-compute-vm-to-let-researchers-find-bugs/</guid>
+<content:encoded><![CDATA[
+
+Apple created a Virtual Research Environment to allow public access to testing the security of its Private Cloud Compute system, and released the source code for some "key components" to help researchers analyze the privacy and safety features on the architecture. [...]
+]]></content:encoded>
+<pubDate>Thu, 24 Oct 2024 18:48:33 -0400</pubDate>
+<pubDate>Thu, 24 Oct 2024 18:48:33 -0400</pubDate>
+</item>
 
 <item>
 <title>Mobile Apps With Millions of Downloads Expose Cloud Credentials</title>
