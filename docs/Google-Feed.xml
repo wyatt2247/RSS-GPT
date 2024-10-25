@@ -4,6 +4,562 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>HeptaX: Unauthorized RDP Connections for Cyberespionage Operations</title>
+<link>https://cyble.com/blog/heptax-unauthorized-rdp-connections-for-cyberespionage-operations/</link>
+<guid>https://cyble.com/blog/heptax-unauthorized-rdp-connections-for-cyberespionage-operations/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="HeptaX" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/10/CybleBlogs-.png" tabindex="0" title="HeptaX: Unauthorized RDP Connections for Cyberespionage Operations 1" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble Research and Intelligence Labs (CRIL) came across an ongoing cyberattack campaign originating from malicious LNK files.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The sophisticated multi-stage attack chain relies heavily on PowerShell and BAT scripts to streamline the download and execution of additional payloads, demonstrating the Threat Actor’s (TA) preference for script-based methods to evade detection by traditional security solutions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The attack involves the creation of an administrative account on the victim’s system and altering Remote Desktop settings to lower authentication requirements, simplifying unauthorized RDP access for the attacker.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The campaign deploys an additional well-known password recovery tool, ChromePass, which collects saved passwords from Chromium-based browsers, increasing the risk of broader account compromises.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Based on its TTPs, we have not been able to attribute this campaign, so for tracking purposes, we are naming it "HeptaX".</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>CRIL has come across a multi-stage cyberattack <a href="https://www.virustotal.com/gui/file/18e75bababa1176ca1b25f727c0362e4bb31ffc19c17e2cabb6519e6ef9d2fe5/community">campaign</a> that begins with a ZIP file containing a malicious shortcut file (.lnk). While the source of this ZIP file remains unknown, it is suspected to be disseminated through phishing emails. Based on the LNK <a href="https://www.virustotal.com/gui/file/5ff89db10969cba73d1f539b12dad42c60314e580ce43d7b57b46a1f915a6a2b/details">file name</a>, it is suspected that this campaign targets the healthcare industry.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Upon execution, the LNK file triggers a PowerShell command that downloads and executes a series of additional payloads, including PowerShell scripts and BAT files, from a remote server. These scripts work in tandem to create a new user account on the compromised system with administrative privileges and modify Terminal Services (RDP) settings, lowering authentication requirements. This setup enables the TAs to easily establish remote desktop access (RDP) to the victim's system, facilitating further malicious activities such as data exfiltration, the installation of additional <a href="https://cyble.com/knowledge-hub/what-is-malware/">malware</a>, or even system monitoring.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Furthermore, CRIL identified the presence of an unwanted application called “ChromePass” within the threat actors' network infrastructure. This hacking tool is designed to steal saved passwords from Chromium-based browsers, adding another layer of risk for victims by exposing their credentials. The image below illustrates the infection chain.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69352,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Infection Chain, Malware, HeptaX" class="wp-image-69352" src="https://cyble.com/wp-content/uploads/2024/10/Figure-1-Infection-chain-1.png" /><figcaption class="wp-element-caption">Figure 1 - Infection chain</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Based on the information obtained through pivoting, this group has been operational since 2023&nbsp;and has executed a range of <a href="https://cyble.com/knowledge-hub/what-is-a-cyber-attack/">attacks</a> across different sectors, as reflected in the names of the lure files. While the overall attack flow has remained consistent, it is surprising that they are still active using the same techniques. Several researchers have previously identified this campaign <a href="https://x.com/malwrhunterteam/status/1701669714244542758">[1]</a>,<a href="https://x.com/AzakaSekai_/status/1846482785009348692">[2]</a>,<a href="https://x.com/fmc_nan/status/1701427951714345296">[3]</a>,<a href="https://x.com/malwrhunterteam/status/1708219656488571188">[4]</a>,<a href="https://x.com/malwrhunterteam/status/1701672325580550176">[5]</a>, with the majority of findings shared by the Malware Hunter Team.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Campaign analysis</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Over the past 12 months, this unidentified group has consistently reemerged with various lure themes while maintaining unchanged attack patterns. Tracked as HeptaX,' the campaign relies heavily on PowerShell and Batch scripts to gain control over compromised systems. By pivoting the IP address, we uncovered several additional artifacts associated with the same TAs used across different campaigns.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69358,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Phishing, Lure document
+" class="wp-image-69358" src="https://cyble.com/wp-content/uploads/2024/10/Figure-2-–-Project-Description-PoC-smart-assistant-Vhyro-Project-from-jvope-signature.pdf-lure-doc-Observed-in-Oct-2023.png" /><figcaption class="wp-element-caption">Figure 2 – Project Description - PoC smart assistant Vhyro Project from jvope signature.pdf (lure doc observed in Oct 2023)</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69361,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Blockchain, Phishing, Lure document" class="wp-image-69361" src="https://cyble.com/wp-content/uploads/2024/10/Figure-3-Blockchain_Trading_Website_Manager.docx-lure-file-observed-in-Sept-2023.png" /><figcaption class="wp-element-caption">Figure 3 - Blockchain_Trading_Website_Manager.docx (lure file observed in Sept 2023)</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69362,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Phishing, Lure" class="wp-image-69362" src="https://cyble.com/wp-content/uploads/2024/10/Figure-4-WebContentWriting_Handout.pdf-lure-observed-in-Oct-2023.png" /><figcaption class="wp-element-caption">Figure 4 - WebContentWriting_Handout.pdf (lure observed in Oct 2023)</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69363,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Social Engineering, Phishing" class="wp-image-69363" src="https://cyble.com/wp-content/uploads/2024/10/Figure-5-Resume-professional-sax-keys-and-guitar-player-with-over-40-years-experience-working-with-own-bands-accompanied-world-stars.pdf-lure-observed-in-Nov-2023.png" /><figcaption class="wp-element-caption">Figure 5 - Resume - professional sax, keys, and guitar player with over 40 years experience working with own bands, accompanied world stars.pdf (lure observed in Nov 2023)</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69365,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Social Engineering, SOW" class="wp-image-69365" src="https://cyble.com/wp-content/uploads/2024/10/Figure-6-SOW_for_Nevrlate.pdf-lure-file-Observed-in-Nov-2023.png" /><figcaption class="wp-element-caption">Figure 6 - SOW_for_Nevrlate.pdf (lure file Observed in Nov 2023)</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>One of the notable files from this campaign is:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><em>202409_Resident_Care_Quality_Improvement_Strategies_for_Nursing_Homes_Enhancing_Patient_Satisfaction_and_Health_Outcomes.pdf.lnk</em></li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>In addition, older campaigns attributed to this threat group over the past year include malicious files with names such as:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><em>SOW_for_Nevrlate.pdf</em></li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><em>WebContentWriting_Handout.pdf</em></li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><em>Blockchain_Trading_Website_Manager.docx</em></li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><em>Project Description - PoC smart assistant Vhyro Project from jvope signature.pdf</em></li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><em>Resume - professional sax, keys and guitar player with over 40 years experience working with own bands, accompanied world stars.pdf</em></li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><em>dropshipping Elien project prposal-soft online service ventilization from xihu.pdf.lnk</em></li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>The diversity in file names and themes suggests that this group tailors its campaigns to appeal to a variety of victims, indicating a broad targeting strategy across multiple industries.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Technical Analysis</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>&nbsp;Upon execution, the LNK file runs a PowerShell command that downloads and executes subsequent payloads from a remote server. The image below shows a partially de-obfuscated PowerShell command.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69366,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="PowerShell, COde" class="wp-image-69366" src="https://cyble.com/wp-content/uploads/2024/10/Figure-7-De-Obfuscated-PowerShell-Code.png" /><figcaption class="wp-element-caption">Figure 7 - De-Obfuscated PowerShell Code</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>First stage – bb.ps1</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>As an initial step, the downloaded PowerShell script constructs a base URL to which it sends information and from which it downloads other stage payloads. The PowerShell script contains multiple functions, the first of which retrieves a unique identifier (UID) for the compromised system. This UID is obtained either from a specific registry path (HKEY_LOCAL_MACHINE\SOFTWARE\Wireless) or from a log file (<em>id.log</em>) in the <em>“C:\Users\Public\Documents</em>” directory. If neither exists, a new GUID is generated and saved to a newly created id.log file.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69368,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="UID Generation" class="wp-image-69368" src="https://cyble.com/wp-content/uploads/2024/10/Figure-8-UID-Generation.png" /><figcaption class="wp-element-caption">Figure 8 - UID Generation</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Next, the PowerShell script creates a shortcut file in the Windows Startup folder for persistence. The contents of the newly generated LNK file match those of the original malicious LNK file. The image below shows the function responsible for creating the new LNK file in the startup folder.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69369,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Persistence" class="wp-image-69369" src="https://cyble.com/wp-content/uploads/2024/10/Figure-9-Shortcut-Creation-for-Persistence.png" /><figcaption class="wp-element-caption">Figure 9 - Shortcut Creation for Persistence</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Then, the PowerShell script constructs a URL by appending the previously generated UID to the remote server, forming the request <em>hxxp://157.173.104.153/up/get-command.php?uid=&lt;UID</em>&gt;, and uses <em>WebClient</em> to send a request to fetch commands from the server. Upon receiving a successful response, it checks whether the response contains the string “autoreconnect”. If this string is present, the Powershell script runs the code in the current session using `iex`; otherwise, it executes the code as a background task in a separate PowerShell process.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69370,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Command-and-control, Commands" class="wp-image-69370" src="https://cyble.com/wp-content/uploads/2024/10/Figure-10-Fetching-commands-from-the-command-and-control-server.png" /><figcaption class="wp-element-caption">Figure 10 - Fetching commands from the command-and-control server</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Afterward, the PowerShell script downloads a password-protected lure document from the above-mentioned remote server, saves it in the system's temporary directory “<em>C:\Users\&lt;Username&gt;\AppData\Local\Temp</em>”, and then launches the document. The image below displays the function code and the open directory containing the lure PDF.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69372,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Code, Lure Document" class="wp-image-69372" src="https://cyble.com/wp-content/uploads/2024/10/Figure-11-Code-to-download-and-launch-lure-document.png" /><figcaption class="wp-element-caption">Figure 11 - Code to download and launch lure document</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69373,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Open Directory, Phishing" class="wp-image-69373" src="https://cyble.com/wp-content/uploads/2024/10/Figure-12-Open-directory-containing-lure-PDF.png" /><figcaption class="wp-element-caption">Figure 12 - Open directory containing lure PDF</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Finally, the PowerShell script retrieves two registry values related to User Account Control (UAC):</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\ConsentPromptBehaviorAdmin, which controls the consent prompt behavior for administrators.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\EnableLUA, which indicates whether UAC is enabled.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>If either of these values is 0, suggesting that UAC is either disabled or configured to a less secure setting, the script proceeds to download and execute another PowerShell script (<em>b.ps1</em>) from the remote server.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69375,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Payload, Code" class="wp-image-69375" src="https://cyble.com/wp-content/uploads/2024/10/Figure-13-Code-to-download-next-stage-payload.png" /><figcaption class="wp-element-caption">Figure 13 - Code to download next stage payload</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Second Stage – b.ps1</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The newly downloaded second-stage PowerShell script includes several functions, some mirroring those from the first stage. The primary function of this script is focused on evaluating the system's User Account Control (UAC) settings, utilizing the same registry checks employed earlier to determine whether UAC is enabled and if the consent prompt for administrators remains active.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>If UAC is disabled or the consent prompt behavior is configured to a less secure state, the function sends a message to the remote server indicating that UAC is off by default: ("hxxp://157.173.104[.]153/up/index.php?uid=$uid&amp;msg=UAC off in default!").</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>If both settings are enabled, the function enters a loop, repeatedly attempting to disable UAC by setting the “ConsentPromptBehaviorAdmin” value to 0. Once successful, it sends a message to the remote server stating that UAC has been forcefully disabled: ("hxxp://157.173.104[.]153/up/index.php?uid=$uid&amp;msg=UAC force disabled!"). The below image shows the function code responsible for sending a POST request to the remote server, transmitting information about the victim's User Account Control (UAC) status.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69376,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="C2, UAC" class="wp-image-69376" src="https://cyble.com/wp-content/uploads/2024/10/Figure-14-Code-for-sending-a-POST-request-to-the-CC-server-with-the-victims-UAC-status.png" /><figcaption class="wp-element-caption">Figure 14 - Code for sending a POST request to the C&amp;C server with the victim's UAC status</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After a brief 300-millisecond sleep, the PowerShell script calls the <em>schReg()</em> function, which downloads three batch files from the remote server into the system’s temporary directory ($env:TEMP). The files are named “<em>k1.bat</em><span style="margin: 0px; padding: 0px;">,” “<em>scheduler-once.bat</em>,” and “<em>k2.bat</em>.” After downloading, the script runs the “<em>scheduler-once.bat”</em> file using the “Start-Process” cmdlet with elevated privileges. The image below shows the code responsible for downloading and executing the batch files</span>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69377,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-69377" src="https://cyble.com/wp-content/uploads/2024/10/Figure-15-Code-for-downloading-and-running-batch-file.png" /><figcaption class="wp-element-caption">Figure 15 - Code to download and run batch file</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Third Stage - scheduler-once.bat</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The executed batch file copies “<em>k1.bat</em>” and “<em>k2.bat”</em> from the %temp% directory to “<em>C:\Windows\System32”</em>, renaming them to “<em>sysmon.bat”</em> and “<em>sysmon2.bat”</em>. It then deletes the original “<em>k1.bat”</em> and “<em>k2.bat”</em> files from the temp location. Next, the batch file checks for and removes any scheduled tasks named:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Intel(R) Ethernet Connection 1219-LM</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Intel(R) Ethernet2 Connection 1219-LM</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Afterward, it creates a new scheduled task called "Intel(R) Ethernet2 Connection 1219-LM" to run “<em>sysmon2.bat”</em>. Finally, the script “<em>scheduler-once.bat</em>” deletes itself to cover its traces from the system. The image below displays the contents of the batch file “<em>scheduler-once.bat”</em>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69379,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Batch file" class="wp-image-69379" src="https://cyble.com/wp-content/uploads/2024/10/Figure-16-Content-of-scheduler-once.bat_.png" /><figcaption class="wp-element-caption">Figure 16 - Contents of the scheduler-once.bat file</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Fourth Stage – sysmon2.bat</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Once the scheduled task is triggered to execute the “<em>sysmon2.bat”</em> file, it first checks for and removes any existing scheduled tasks named:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Intel(R) Ethernet Connection 1219-LM2</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Intel(R) Ethernet2 Connection 1219-LM2</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Afterward, it creates a new scheduled task called “Intel(R) Ethernet2 Connection1219-LM2” to run the “<em>sysmon.bat”</em> file located in the “C:<em>Windows\System32”</em> folder. Notably, the previous third-stage batch file performs similar checks, but the task names differ slightly. The image below shows the content of the&nbsp;“<em>sysmon2.bat”</em> file.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69380,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Sysmon2, analysis" class="wp-image-69380" src="https://cyble.com/wp-content/uploads/2024/10/Figure-17-Content-of-sysmon2-file.png" /><figcaption class="wp-element-caption">Figure 17 - Contents of the sysmon2 file</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Fifth Stage – Sysmon.bat</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The sysmon.bat script executes a series of actions:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Creates a new user account named “_<em>BootUEFI_</em>”.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Sets the password for this newly added account to “123456!!!” and activates it.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Adds the “_<em>BootUEFI_”</em> account to the Administrators group, granting it administrative privileges.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Adds the “_<em>BootUEFI_”</em> account to the Remote Desktop Users group, allowing it to utilize Remote Desktop.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Removes the “_<em>BootUEFI_”</em> account from the Users group, ensuring it retains only administrative and remote desktop privileges.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Additionally, the batch file makes several registry modifications to enable Remote Desktop and lower its security features. This includes hiding the “<strong>_</strong><em>BootUEFI<strong>_”</strong></em> user from the login screen and adjusting Terminal Services (Remote Desktop) settings to facilitate easier remote connections without stringent authentication requirements.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The batch file runs a PowerShell command that circumvents execution policy restrictions and adds the System32 directory, which contains the three malicious batch files, to the Windows Defender exclusion list.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Finally, it initiates a background PowerShell process that downloads and executes another PowerShell script from the remote server (hxxp://157.173.104[.]153/up/a.ps1).</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:image {"id":69382,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Batch File, Analysis" class="wp-image-69382" src="https://cyble.com/wp-content/uploads/2024/10/Figure-18-Contents-of-sysmon.bat-file.png" /><figcaption class="wp-element-caption">Figure 18 - Contents of the sysmon.bat file</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Sixth Stage – a.ps1</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The newly downloaded PowerShell script “<em>a.ps1”</em> functions similar to the first stage script (<em>bb.ps1</em>). It constructs a URL by appending the previously generated UID to the remote server address, forming a request to “<em>hxxp://157.173.104.153/up/get-command.php?uid=&lt;UID&gt;”</em>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The script then utilizes a WebClient to send a request and retrieve commands from the server. Upon receiving a response, it checks for the presence of the string "autoreconnect id." If this string is found, the PowerShell script executes the code in the current session using iex; otherwise, it runs the code as a background task in a separate PowerShell process. Notably, in both stages, we did not receive any specific commands such as "autoreconnect" or "autoreconnect id". The main difference in this sixth-stage script is that it looks for the string "autoreconnect id" instead of just "autoreconnect". The below image shows the code for reconnecting to the server.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69383,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="C2, malware" class="wp-image-69383" src="https://cyble.com/wp-content/uploads/2024/10/Figure-19-Reconnecting-to-the-CC-server.png" /><figcaption class="wp-element-caption">Figure 19 - Reconnecting to the C&amp;C server</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Seventh Stage – Server response PowerShell Script</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Upon establishing a connection with the server, a new PowerShell script is executed. This script contains several functions aimed at system reconnaissance, data exfiltration, and interaction with the remote server.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The script collects detailed system information, including:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Computer name and username.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Retrieves recent files from the directory: <em>C:\Users\&lt;user profile>\AppData\Roaming\Microsoft\Windows\Recent</em>.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Acquires network configuration details using “ipconfig /all”.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>List of users on the machine (net user).</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Obtains current logged-in user details.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Identifies local user groups associated with the current user.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Retrieves excluded directories in Windows Defender.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Lists installed antivirus products.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Captures running processes using “tasklist”.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Gathers overall system information using “systeminfo”.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>All this data is saved in a log file located at “<em>C:\Windows\Temp\OneDriveLog\OneDrive.log”</em>.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>The script then reads the contents of the log file, converts the data into a byte array, and encodes it in Base64 format. This encoded data, along with the unique user ID (uid), is appended to the base URL” <em>hxxp://157.173.104[.]153/up/index.php</em>” and sent via a POST request. After successfully transmitting the data, the log file and its directory are deleted to eliminate any traces of the data collection.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":69385,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="POST, Script" class="wp-image-69385" src="https://cyble.com/wp-content/uploads/2024/10/Figure-20-–-Script-partial-content-for-making-POST-request.png" /><figcaption class="wp-element-caption">Figure 20 – Script partial content for making a POST request</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Taking Remote desktop</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>With all the collected information, User Account Control (UAC) disabled, and a new user account named “<em>BootUEFI</em>” created with administrative privileges, along with lowered authentication requirements for Terminal Services, the TAs can easily gain access to the compromised remote desktop. This access enables them to perform various actions on the victim's machine, such as:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Installing additional malware</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Exfiltrating sensitive data</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Monitoring user activity</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Modifying system settings</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Utilizing the machine for malicious activities</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Additionally, we observed an unwanted application—a hacking tool named ChromePass—associated with the same network infrastructure at “<em>hxxp://157.173.104[.]153/up/Tool/ChromePass.exe</em>” This tool is designed to steal saved passwords from Chromium-based browsers.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Over the past year, this group has executed multiple attacks utilizing various lures and targeting different victims, all while remaining largely unnoticed. Their reliance on basic scripts has enabled TAs to gain remote access to compromised systems seamlessly, allowing for extensive exploitation without triggering alarms.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Additionally, the deployment of the ChromePass tool further underscores the group’s intent to harvest sensitive information, such as saved passwords from Chromium-based browsers, thereby posing a significant threat to the security of individuals and organizations alike. This combination of tactics highlights the need for enhanced detection and prevention measures to combat these stealthy <a href="https://cyble.com/knowledge-hub/what-are-cyber-threats/">cyber threats</a> effectively.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Recommendations</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>The initial breach may occur via spam emails. Therefore, it’s advisable to deploy strong email filtering systems to identify and prevent the dissemination of harmful attachments.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Exercise caution when handling email attachments or links, particularly those from unknown senders. Verify the sender’s identity, particularly if an email seems suspicious.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Consider disabling the execution of shortcut files (.lnk) from email attachments or implementing policies that require explicit user consent before executing such files.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Consider disabling or limiting the execution of scripting languages, such as PowerShell and cmd.exe, on user workstations and servers if they are not essential for legitimate purposes.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implement policies that prevent the unauthorized creation of privileged accounts.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Regularly track changes to User Account Control (UAC)- related registry keys, such as “EnableLUA” and “ConsentPromptBehaviorAdmin.” Monitoring these keys helps identify potential attempts to bypass UAC, enhancing system protection against unauthorized changes.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Strengthen the security of Remote Desktop Protocol (RDP) by enforcing strong authentication mechanisms, such as <a href="https://cyble.com/blog/multi-factor-authentication-mfa-is-a-part-of-your-cyber-hygiene/">multi-factor authentication</a> (MFA), and by using network-level authentication (NLA). Limiting RDP access to trusted IP addresses and utilizing VPNs can also help mitigate risks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Set up network-level monitoring to detect unusual activities or data exfiltration by malware. Block suspicious activities to prevent potential breaches.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">MITRE ATT&amp;CK® Techniques</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Tactic</strong></td>
+<td><strong>Technique</strong></td>
+<td><strong>Procedure</strong></td>
+</tr>
+<tr>
+<td>Initial Access (<a href="https://attack.mitre.org/tactics/TA0001/">TA0001</a>)</td>
+<td>Phishing (<a href="https://attack.mitre.org/techniques/T1566/" rel="noreferrer noopener" target="_blank">T1566</a>)</td>
+<td>The LNK file may be delivered through phishing or spam emails</td>
+</tr>
+<tr>
+<td>Execution (<a href="https://attack.mitre.org/tactics/TA0002/" rel="noreferrer noopener" target="_blank">TA0002</a>)</td>
+<td>User Execution:&nbsp; Malicious Link (<a href="https://attack.mitre.org/versions/v14/techniques/T1204/001/" rel="noreferrer noopener" target="_blank">T1204.001</a>)&nbsp; &nbsp; Command and Scripting Interpreter: PowerShell (<a href="https://attack.mitre.org/techniques/T1059/001/" rel="noreferrer noopener" target="_blank">T1059.001</a>)</td>
+<td>&nbsp; Execution begins when a user executes the LNK file &nbsp; &nbsp; The LNK file executes PowerShell commands</td>
+</tr>
+<tr>
+<td>Defense Evasion&nbsp;<a href="https://attack.mitre.org/tactics/TA0005/" rel="noreferrer noopener" target="_blank">(TA0005)</a>&nbsp;</td>
+<td>Obfuscated Files or &nbsp;<br />Information (<a href="https://attack.mitre.org/techniques/T1027/" rel="noreferrer noopener" target="_blank">T1027</a>)&nbsp; &nbsp;</td>
+<td>Scripts include packed or encrypted data.</td>
+</tr>
+<tr>
+<td>Persistence (<a href="https://attack.mitre.org/tactics/TA0003/" rel="noreferrer noopener" target="_blank">TA0003</a>)</td>
+<td>Boot or Logon Autostart Execution:&nbsp;Registry Run Keys / Startup Folder (<a href="https://attack.mitre.org/techniques/T1547/001/" rel="noreferrer noopener" target="_blank">T1547.001</a>)</td>
+<td>Adds LNK file in the startup folder</td>
+</tr>
+<tr>
+<td>Privilege &nbsp;<br />Escalation&nbsp;<br /><a href="https://attack.mitre.org/tactics/TA0004/" rel="noreferrer noopener" target="_blank">(TA0004)</a>&nbsp;</td>
+<td>Abuse Elevation Control&nbsp;&nbsp;Mechanism (<a href="https://attack.mitre.org/techniques/T1548/" rel="noreferrer noopener" target="_blank">T1548</a>)&nbsp; &nbsp; Account Manipulation (<a href="https://attack.mitre.org/techniques/T1098/">T1098</a>)</td>
+<td>Bypass User Account Control&nbsp; &nbsp; &nbsp; Manipulate accounts to maintain and/or elevate access to victim systems.</td>
+</tr>
+<tr>
+<td>Discovery (<a href="https://attack.mitre.org/tactics/TA0007/" rel="noreferrer noopener" target="_blank">TA0007</a>)</td>
+<td>System Information Discovery (<a href="https://attack.mitre.org/techniques/T1082" rel="noreferrer noopener" target="_blank">T1082</a>)</td>
+<td>Script gathers system information.</td>
+</tr>
+<tr>
+<td>Credential Access (<a href="https://attack.mitre.org/tactics/TA0006/" rel="noreferrer noopener" target="_blank">TA0006</a>)</td>
+<td>Credentials from Password Stores: Credentials from Web Browsers (<a href="https://attack.mitre.org/techniques/T1555/003/" rel="noreferrer noopener" target="_blank">T1555.003</a>)&nbsp;</td>
+<td>Retrieves credentials from web browsers&nbsp;</td>
+</tr>
+<tr>
+<td>C&amp;C&nbsp;<br /><a href="https://attack.mitre.org/tactics/TA0011/" rel="noreferrer noopener" target="_blank">(TA0011)</a>&nbsp;</td>
+<td>Ingress Tool Transfer&nbsp;<br />(<a href="https://attack.mitre.org/techniques/T1105/" rel="noreferrer noopener" target="_blank">T1105</a>)&nbsp;</td>
+<td>Downloads files from webservers via &nbsp;<br />HTTP&nbsp;</td>
+</tr>
+<tr>
+<td>C&amp;C&nbsp;<br /><a href="https://attack.mitre.org/tactics/TA0011/" rel="noreferrer noopener" target="_blank">(TA0011)</a>&nbsp;</td>
+<td>Application Layer Protocol&nbsp;<br />(<a href="https://attack.mitre.org/techniques/T1071/" rel="noreferrer noopener" target="_blank">T1071</a>)&nbsp;</td>
+<td>Malware exe communicate to C&amp;C server.&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Indicators Of Compromise</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicators</strong><strong> </strong></td>
+<td><strong>Indicator Type</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>6605178dbc4d84e789e435915e86a01c5735f34b7d18d626b2d8810456c4bc72</td>
+<td>SHA256</td>
+<td>Zip File</td>
+</tr>
+<tr>
+<td>18e75bababa1176ca1b25f727c0362e4bb31ffc19c17e2cabb6519e6ef9d2fe5 5ff89db10969cba73d1f539b12dad42c60314e580ce43d7b57b46a1f915a6a2b</td>
+<td>SHA256</td>
+<td>Malicious LNK file</td>
+</tr>
+<tr>
+<td>1d82927ab19db7e9f418fe6b83cf61187d19830b9a7f58072eedfd9bdf628dab</td>
+<td>SHA256</td>
+<td>bb.ps1</td>
+</tr>
+<tr>
+<td>a8d577bf773f753dfb6b95a3ef307f8b4d9ae17bf86b95dcbb6b2fb638a629b9</td>
+<td>SHA256</td>
+<td>b.ps1</td>
+</tr>
+<tr>
+<td>999f521ac605427945035a6d0cd0a0847f4a79413a4a7b738309795fd21d3432</td>
+<td>SHA256</td>
+<td>K1.bat</td>
+</tr>
+<tr>
+<td>4b127e7b83148bfbe56bd83e4b95b2a4fdb69e1c9fa4e0c021a3bfb7b02d8a16</td>
+<td>SHA256</td>
+<td>GooglePass</td>
+</tr>
+<tr>
+<td>hxxp://157.173.104[.]153/up/index.php hxxp://157[.]173.104.153/up/b.ps1 hxxp://157.173.104[.]153/up/bb.ps1 hxxp://157.173.104[.]153/up/scheduler-oncex<br />hxxp://157.173.104[.]153/up/trigger<br />hxxp://157.173.104[.]153/up/Tool/ChromePass.exe<br />hxxp://157.173.104[.]153/up/get-command.php<br />hxxp://157.173.104[.]153/up/bait/202409_Resident_Care_Quality_Improvement_Strategies_for_Nursing_Homes_Enhancing_Patient_Satisfaction_and_Health_Outcomes.pdf</td>
+<td>URL</td>
+<td>Remote server</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">References</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>https://twitter.com/malwrhunterteam/status/1701669714244542758</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>https://twitter.com/AzakaSekai_/status/1846482785009348692</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>https://twitter.com/fmc_nan/status/1701427951714345296</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>https://twitter.com/malwrhunterteam/status/1708219656488571188</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>https://twitter.com/malwrhunterteam/status/1701672325580550176</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/heptax-unauthorized-rdp-connections-for-cyberespionage-operations/" rel="nofollow">HeptaX: Unauthorized RDP Connections for Cyberespionage Operations</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Fri, 25 Oct 2024 14:57:26 +0000</pubDate>
+<pubDate>Fri, 25 Oct 2024 14:57:26 +0000</pubDate>
+</item>
 
 <item>
 <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>

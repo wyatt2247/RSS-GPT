@@ -4,19 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Apple Opens PCC Source Code for Researchers to Identify Bugs in Cloud AI Security</title>
 <link>https://thehackernews.com/2024/10/apple-opens-pcc-source-code-for.html</link>
 <guid>https://thehackernews.com/2024/10/apple-opens-pcc-source-code-for.html</guid>
 <content:encoded><![CDATA[
-
 Apple has publicly made available its Private Cloud Compute (PCC) Virtual Research Environment (VRE), allowing the research community to inspect and verify the privacy and security guarantees of its offering.
 PCC, which Apple unveiled earlier this June, has been marketed as the "most advanced security architecture ever deployed for cloud AI compute at scale." With the new technology, the idea is
 ]]></content:encoded>
 <pubDate>Fri, 25 Oct 2024 17:55:00 +0530</pubDate>
-<pubDate>Fri, 25 Oct 2024 17:55:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Apple creates Private Cloud Compute VM to let researchers find bugs</title>
 <link>https://www.bleepingcomputer.com/news/apple/apple-creates-private-cloud-compute-vm-to-let-researchers-find-bugs/</link>
