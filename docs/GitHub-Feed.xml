@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Security Defenses Crippled by Embargo Ransomware</title>
 <link>https://www.cysecurity.news/2024/10/security-defenses-crippled-by-embargo.html</link>
 <guid>https://www.cysecurity.news/2024/10/security-defenses-crippled-by-embargo.html</guid>
 <content:encoded><![CDATA[
-
 <p style="text-align: justify;">&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLIK-xKE5sZWBJ0_BFFuEbfBwGxE2i43izsniGFARLbMDoqNck6NzAUwuC1Z7BMB-yqEpUCyAyta4P2tnQs2Ztr1LNH8BgJELUkUoOeK5Yq6Pl4XmDnPGzb3yIHXy8GN7gC0JYk3dKfmrDvotRdZXHxTyaR5ya0J-_bRMoDtK4l_B1nUELgwa0Ejew_9kM/s4000/pexels-shkrabaanthony-5475752.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLIK-xKE5sZWBJ0_BFFuEbfBwGxE2i43izsniGFARLbMDoqNck6NzAUwuC1Z7BMB-yqEpUCyAyta4P2tnQs2Ztr1LNH8BgJELUkUoOeK5Yq6Pl4XmDnPGzb3yIHXy8GN7gC0JYk3dKfmrDvotRdZXHxTyaR5ya0J-_bRMoDtK4l_B1nUELgwa0Ejew_9kM/w640-h426/pexels-shkrabaanthony-5475752.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">There is a new gang known as Embargo ransomware that specializes in ransomware-as-a-service (RaaS). According to a study by ESET researchers published Wednesday, the Embargo ransomware group is a relatively young and undeveloped ransomware gang. It uses a custom Rust-based toolkit, with one variant utilizing the Windows Safe Mode feature to disable security processes.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">ESET researchers say that the Embargo ransomware group is developing custom Rust-based tools to defeat the cybersecurity defenses put in place by companies and governments.
 
 There is a new toolkit that was discovered in July 2024 during an attack on US companies by ransomware and is made up of a loader and an EDR killer, MDeployer, and MS4Killer, respectively, which can also be accessed and downloaded online.
@@ -40,10 +40,8 @@ It has been reported that MS4Killer allegedly builds upon the S4Killer proof-of-
 
 Embargo, developed in Rust, appends each encrypted file with a unique, randomly generated six-character extension combining letters and numbers, such as “.b58eeb.” It also drops a ransom note titled “HOW_TO_RECOVER_FILES.txt” in each affected directory. The group has established its secure infrastructure for covert communication with victims but provides the option to negotiate through Tox chat as well.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Although still developing, Embargo shows signs of ambition, borrowing techniques from established ransomware-as-a-service (RaaS) groups. These include implementing the "bring your vulnerable driver" (BYOVD) strategy, exploiting Safe Mode, and leveraging the adaptable Rust programming language. ESET's analysis highlights Embargo’s indicators of compromise (IoCs) and its tactics, techniques, and procedures (TTPs), offering guidance to help organizations defend against this emerging threat.</div>
 ]]></content:encoded>
-<pubDate>2024-10-26T14:30:00.001-04:00</pubDate>
 <pubDate>2024-10-26T14:30:00.113-04:00</pubDate>
 </item>
-
 <item>
 <title>Bumblebee Malware Resurfaces in New Attacks Following Europol Crackdown</title>
 <link>https://www.cysecurity.news/2024/10/bumblebee-malware-resurfaces-in-new.html</link>
