@@ -4,6 +4,18 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Bumblebee Malware Resurfaces in New Attacks Following Europol Crackdown</title>
+<link>https://www.cysecurity.news/2024/10/bumblebee-malware-resurfaces-in-new.html</link>
+<guid>https://www.cysecurity.news/2024/10/bumblebee-malware-resurfaces-in-new.html</guid>
+<content:encoded><![CDATA[
+
+<p>&nbsp;</p>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMCkz5ut69-dxwFP2exq7ZBXVEUguKYfH1fiwaNcrnc2U6Q6ACaF-ZeIFdjsMPrP5mdTmFd04nyK2-IEX5k-w00KzsyTH5814DYCB2M3Nq3zo9E4_TiMhqSwlzaNzDLDzvWjUs-OIHgIngI33fMtneZQt1YSdURNEjFUBFc0-rzDWcTGOJNFQ4x7PVKcs/s6000/pexels-mikhail-nilov-6963098.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMCkz5ut69-dxwFP2exq7ZBXVEUguKYfH1fiwaNcrnc2U6Q6ACaF-ZeIFdjsMPrP5mdTmFd04nyK2-IEX5k-w00KzsyTH5814DYCB2M3Nq3zo9E4_TiMhqSwlzaNzDLDzvWjUs-OIHgIngI33fMtneZQt1YSdURNEjFUBFc0-rzDWcTGOJNFQ4x7PVKcs/s600/pexels-mikhail-nilov-6963098.jpg" width="600" /></a></div><div style="text-align: justify;">iThe Bumblebee malware loader, inactive since Europol's 'Operation Endgame' in May, has recently resurfaced in new cyberattacks. This malware, believed to have been developed by TrickBot creators, first appeared in 2022 as a successor to the BazarLoader backdoor, giving ransomware groups access to victim networks.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Bumblebee spreads through phishing campaigns, malvertising, and SEO poisoning, often disguised as legitimate software such as Zooom, Cisco AnyConnect, ChatGPT, and Citrix Workspace. Among the dangerous payloads it delivers are Cobalt Strike beacons, data-stealing malware, and ransomware.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Operation Endgame was a large-scale law enforcement effort that targeted and dismantled over a hundred servers supporting various malware loaders, including IcedID, Pikabot, TrickBot, Bumblebee, and more. Following this, Bumblebee activity appeared to cease. However, cybersecurity experts at Netskope have recently detected new instances of the malware, hinting at a possible resurgence.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The latest Bumblebee attack involves a phishing email that tricks recipients into downloading a malicious ZIP file. Inside is a .LNK shortcut that activates PowerShell to download a harmful MSI file disguised as an NVIDIA driver update or Midjourney installer.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">This MSI file is executed silently, and Bumblebee uses it to deploy itself in the system's memory. The malware uses a DLL unpacking process to establish itself, showing configuration extraction methods similar to previous versions. The encryption key "NEW_BLACK" was identified in recent attacks, along with two campaign IDs: "msi" and "lnk001."</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Although Netskope hasn't shared details about the payloads Bumblebee is currently deploying, the new activity signals the malware’s possible return. A full list of indicators of compromise can be found on a related GitHub repository.</div>
+]]></content:encoded>
+<pubDate>2024-10-25T11:21:00.001-04:00</pubDate>
+<pubDate>2024-10-26T13:52:02.170-04:00</pubDate>
+</item>
 
 <item>
 <title>IcePeony with the ‘996’ work culture</title>
