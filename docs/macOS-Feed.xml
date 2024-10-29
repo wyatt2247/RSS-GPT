@@ -4,15 +4,14 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Apple updates runtime protection and Gatekeeper in <b>macOS</b> Sequoia - PassionateGeekz</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://passionategeekz.com/apple-updates-runtime-protection-and-gatekeeper-in-macos-sequoia/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0apviVIWUH-6BDh7nrM4_P</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://passionategeekz.com/apple-updates-runtime-protection-and-gatekeeper-in-macos-sequoia/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0apviVIWUH-6BDh7nrM4_P</guid>
 <content:encoded><![CDATA[
-
 <b>macOS</b> Gatekeeper is used to validate <b>macOS</b> apps. ... To fix a serious arbitrary code execution <b>vulnerability</b>, Synology launches updates for two of its&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-10-29T10:05:54Z</pubDate>
 <pubDate>2024-10-29T10:05:54Z</pubDate>
 </item>
 <item>
@@ -20,10 +19,8 @@
 <link>https://packetstormsecurity.com/files/182364/APPLE-SA-10-28-2024-5.txt</link>
 <guid>https://packetstormsecurity.com/files/182364/APPLE-SA-10-28-2024-5.txt</guid>
 <content:encoded><![CDATA[
-
 Apple Security Advisory 10-28-2024-5 - macOS Ventura 13.7.1 addresses bypass, information leakage, out of bounds access, out of bounds read, and out of bounds write vulnerabilities.
 ]]></content:encoded>
-<pubDate>Tue, 29 Oct 2024 15:17:46 GMT</pubDate>
 <pubDate>Tue, 29 Oct 2024 15:17:46 GMT</pubDate>
 </item>
 <item>
@@ -31,10 +28,8 @@ Apple Security Advisory 10-28-2024-5 - macOS Ventura 13.7.1 addresses bypass, in
 <link>https://packetstormsecurity.com/files/182363/APPLE-SA-10-28-2024-4.txt</link>
 <guid>https://packetstormsecurity.com/files/182363/APPLE-SA-10-28-2024-4.txt</guid>
 <content:encoded><![CDATA[
-
 Apple Security Advisory 10-28-2024-4 - macOS Sonoma 14.7.1 addresses buffer overflow, bypass, information leakage, out of bounds access, out of bounds read, and out of bounds write vulnerabilities.
 ]]></content:encoded>
-<pubDate>Tue, 29 Oct 2024 15:17:29 GMT</pubDate>
 <pubDate>Tue, 29 Oct 2024 15:17:29 GMT</pubDate>
 </item>
 <item>
@@ -42,10 +37,8 @@ Apple Security Advisory 10-28-2024-4 - macOS Sonoma 14.7.1 addresses buffer over
 <link>https://packetstormsecurity.com/files/182362/APPLE-SA-10-28-2024-3.txt</link>
 <guid>https://packetstormsecurity.com/files/182362/APPLE-SA-10-28-2024-3.txt</guid>
 <content:encoded><![CDATA[
-
 Apple Security Advisory 10-28-2024-3 - macOS Sequoia 15.1 addresses bypass, information leakage, out of bounds access, out of bounds read, out of bounds write, and use-after-free vulnerabilities.
 ]]></content:encoded>
-<pubDate>Tue, 29 Oct 2024 15:17:14 GMT</pubDate>
 <pubDate>Tue, 29 Oct 2024 15:17:14 GMT</pubDate>
 </item>
 <item>
@@ -53,7 +46,6 @@ Apple Security Advisory 10-28-2024-3 - macOS Sequoia 15.1 addresses bypass, info
 <link>https://www.cisa.gov/news-events/alerts/2024/10/29/apple-releases-security-updates-multiple-products</link>
 <guid>https://www.cisa.gov/news-events/alerts/2024/10/29/apple-releases-security-updates-multiple-products</guid>
 <content:encoded><![CDATA[
-
 <div class="OutlineElement Ltr SCXW35433340 BCX8">
 <p>Apple released security updates to address vulnerabilities in multiple Apple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system. &nbsp;</p>
 </div>
@@ -102,9 +94,7 @@ Apple Security Advisory 10-28-2024-3 - macOS Sequoia 15.1 addresses bypass, info
 </div>
 ]]></content:encoded>
 <pubDate>Tue, 29 Oct 24 12:00:00 +0000</pubDate>
-<pubDate>Tue, 29 Oct 24 12:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Apple Patches Over 70 <b>Vulnerabilities</b> Across iOS, <b>macOS</b>, Other Products - SecurityWeek</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.securityweek.com/apple-patches-over-70-vulnerabilities-across-ios-macos-other-products/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3xvnyTtWC9irhBEDbxYG6I</link>
