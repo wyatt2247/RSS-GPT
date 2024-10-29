@@ -5,17 +5,159 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Apple Security Advisory 10-28-2024-8</title>
+<link>https://packetstormsecurity.com/files/182367/APPLE-SA-10-28-2024-8.txt</link>
+<guid>https://packetstormsecurity.com/files/182367/APPLE-SA-10-28-2024-8.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 10-28-2024-8 - visionOS 2.1 addresses information leakage, out of bounds read, and use-after-free vulnerabilities.
+]]></content:encoded>
+<pubDate>Tue, 29 Oct 2024 15:18:42 GMT</pubDate>
+<pubDate>Tue, 29 Oct 2024 15:18:42 GMT</pubDate>
+</item>
+<item>
+<title>Apple Security Advisory 10-28-2024-7</title>
+<link>https://packetstormsecurity.com/files/182366/APPLE-SA-10-28-2024-7.txt</link>
+<guid>https://packetstormsecurity.com/files/182366/APPLE-SA-10-28-2024-7.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 10-28-2024-7 - tvOS 18.1 addresses information leakage, out of bounds read, and use-after-free vulnerabilities.
+]]></content:encoded>
+<pubDate>Tue, 29 Oct 2024 15:18:26 GMT</pubDate>
+<pubDate>Tue, 29 Oct 2024 15:18:26 GMT</pubDate>
+</item>
+<item>
+<title>Apple Security Advisory 10-28-2024-6</title>
+<link>https://packetstormsecurity.com/files/182365/APPLE-SA-10-28-2024-6.txt</link>
+<guid>https://packetstormsecurity.com/files/182365/APPLE-SA-10-28-2024-6.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 10-28-2024-6 - watchOS 11.1 addresses information leakage, out of bounds read, and use-after-free vulnerabilities.
+]]></content:encoded>
+<pubDate>Tue, 29 Oct 2024 15:18:11 GMT</pubDate>
+<pubDate>Tue, 29 Oct 2024 15:18:11 GMT</pubDate>
+</item>
+<item>
+<title>Apple Security Advisory 10-28-2024-5</title>
+<link>https://packetstormsecurity.com/files/182364/APPLE-SA-10-28-2024-5.txt</link>
+<guid>https://packetstormsecurity.com/files/182364/APPLE-SA-10-28-2024-5.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 10-28-2024-5 - macOS Ventura 13.7.1 addresses bypass, information leakage, out of bounds access, out of bounds read, and out of bounds write vulnerabilities.
+]]></content:encoded>
+<pubDate>Tue, 29 Oct 2024 15:17:46 GMT</pubDate>
+<pubDate>Tue, 29 Oct 2024 15:17:46 GMT</pubDate>
+</item>
+<item>
+<title>Apple Security Advisory 10-28-2024-4</title>
+<link>https://packetstormsecurity.com/files/182363/APPLE-SA-10-28-2024-4.txt</link>
+<guid>https://packetstormsecurity.com/files/182363/APPLE-SA-10-28-2024-4.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 10-28-2024-4 - macOS Sonoma 14.7.1 addresses buffer overflow, bypass, information leakage, out of bounds access, out of bounds read, and out of bounds write vulnerabilities.
+]]></content:encoded>
+<pubDate>Tue, 29 Oct 2024 15:17:29 GMT</pubDate>
+<pubDate>Tue, 29 Oct 2024 15:17:29 GMT</pubDate>
+</item>
+<item>
+<title>Apple Security Advisory 10-28-2024-3</title>
+<link>https://packetstormsecurity.com/files/182362/APPLE-SA-10-28-2024-3.txt</link>
+<guid>https://packetstormsecurity.com/files/182362/APPLE-SA-10-28-2024-3.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 10-28-2024-3 - macOS Sequoia 15.1 addresses bypass, information leakage, out of bounds access, out of bounds read, out of bounds write, and use-after-free vulnerabilities.
+]]></content:encoded>
+<pubDate>Tue, 29 Oct 2024 15:17:14 GMT</pubDate>
+<pubDate>Tue, 29 Oct 2024 15:17:14 GMT</pubDate>
+</item>
+<item>
+<title>Apple Security Advisory 10-28-2024-2</title>
+<link>https://packetstormsecurity.com/files/182361/APPLE-SA-10-28-2024-2.txt</link>
+<guid>https://packetstormsecurity.com/files/182361/APPLE-SA-10-28-2024-2.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 10-28-2024-2 - iOS 17.7.1 and iPadOS 17.7.1 addresses buffer overflow, information leakage, and out of bounds read vulnerabilities.
+]]></content:encoded>
+<pubDate>Tue, 29 Oct 2024 15:17:00 GMT</pubDate>
+<pubDate>Tue, 29 Oct 2024 15:17:00 GMT</pubDate>
+</item>
+<item>
+<title>Apple Security Advisory 10-28-2024-1</title>
+<link>https://packetstormsecurity.com/files/182360/APPLE-SA-10-28-2024-1.txt</link>
+<guid>https://packetstormsecurity.com/files/182360/APPLE-SA-10-28-2024-1.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 10-28-2024-1 - iOS 18.1 and iPadOS 18.1 addresses information leakage, out of bounds read, and use-after-free vulnerabilities.
+]]></content:encoded>
+<pubDate>Tue, 29 Oct 2024 15:16:45 GMT</pubDate>
+<pubDate>Tue, 29 Oct 2024 15:16:45 GMT</pubDate>
+</item>
+<item>
+<title>Apple Releases Security Updates for Multiple Products</title>
+<link>https://www.cisa.gov/news-events/alerts/2024/10/29/apple-releases-security-updates-multiple-products</link>
+<guid>https://www.cisa.gov/news-events/alerts/2024/10/29/apple-releases-security-updates-multiple-products</guid>
+<content:encoded><![CDATA[
+
+<div class="OutlineElement Ltr SCXW35433340 BCX8">
+<p>Apple released security updates to address vulnerabilities in multiple Apple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system. &nbsp;</p>
+</div>
+<div class="OutlineElement Ltr SCXW35433340 BCX8">
+<p>CISA encourages users and administrators to review the following advisories and apply necessary updates:&nbsp;</p>
+</div>
+<div class="ListContainerWrapper SCXW35433340 BCX8">
+<ul>
+<li><a href="https://support.apple.com/en-us/121563" title="iOS 18.1 and iPadOS 18.1">iOS 18.1 and iPadOS 18.1</a></li>
+</ul>
+</div>
+<div class="ListContainerWrapper SCXW35433340 BCX8">
+<ul>
+<li><a href="https://support.apple.com/en-us/121567" title="iOS 17.7.1 and iPadOS 17.7.1">iOS 17.7.1 and iPadOS 17.7.1</a></li>
+</ul>
+</div>
+<div class="ListContainerWrapper SCXW35433340 BCX8">
+<ul>
+<li><a href="https://support.apple.com/en-us/121564" title="macOS Sequoia 15.1">macOS Sequoia 15.1</a></li>
+</ul>
+</div>
+<div class="ListContainerWrapper SCXW35433340 BCX8">
+<ul>
+<li><a href="https://support.apple.com/en-us/121570" title="macOS Sonoma 14.7.1">macOS Sonoma 14.7.1</a></li>
+</ul>
+</div>
+<div class="ListContainerWrapper SCXW35433340 BCX8">
+<ul>
+<li><a href="https://support.apple.com/en-us/121568" title="macOS Ventura 13.7.1">macOS Ventura 13.7.1</a></li>
+</ul>
+</div>
+<div class="ListContainerWrapper SCXW35433340 BCX8">
+<ul>
+<li><a href="https://support.apple.com/en-us/121565" title="watchOS 11.1">watchOS 11.1</a></li>
+</ul>
+</div>
+<div class="ListContainerWrapper SCXW35433340 BCX8">
+<ul>
+<li><a href="https://support.apple.com/en-us/121569" title="tvOS 18.1">tvOS 18.1</a></li>
+</ul>
+</div>
+<div class="ListContainerWrapper SCXW35433340 BCX8">
+<ul>
+<li><a href="https://support.apple.com/en-us/121566" title="visionOS 2.1">visionOS 2.1</a></li>
+</ul>
+</div>
+]]></content:encoded>
+<pubDate>Tue, 29 Oct 24 12:00:00 +0000</pubDate>
+<pubDate>Tue, 29 Oct 24 12:00:00 +0000</pubDate>
+</item>
+
+<item>
 <title>Apple Patches Over 70 <b>Vulnerabilities</b> Across iOS, <b>macOS</b>, Other Products - SecurityWeek</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.securityweek.com/apple-patches-over-70-vulnerabilities-across-ios-macos-other-products/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3xvnyTtWC9irhBEDbxYG6I</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.securityweek.com/apple-patches-over-70-vulnerabilities-across-ios-macos-other-products/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3xvnyTtWC9irhBEDbxYG6I</guid>
 <content:encoded><![CDATA[
-
 Apple on Monday released security updates for iOS 18 and <b>macOS</b> Sequoia 15 to address dozens of <b>vulnerabilities</b>.
 ]]></content:encoded>
 <pubDate>2024-10-29T11:23:53Z</pubDate>
-<pubDate>2024-10-29T11:23:53Z</pubDate>
 </item>
-
 <item>
 <title>Apple Opens PCC Source Code for Researchers to Identify Bugs in Cloud AI Security</title>
 <link>https://thehackernews.com/2024/10/apple-opens-pcc-source-code-for.html</link>
