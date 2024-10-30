@@ -4,6 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>'CrossBarking' Attack Targets Secret APIs, Exposes Opera Browser Users</title>
+<link>https://www.darkreading.com/vulnerabilities-threats/crossbarking-attack-secret-apis-expose-opera-browser-users</link>
+<guid>https://www.darkreading.com/vulnerabilities-threats/crossbarking-attack-secret-apis-expose-opera-browser-users</guid>
+<content:encoded><![CDATA[
+
+Using a malicious Chrome extension, researchers showed how an attacker could inject custom code into a victim's Opera browser to exploit special and powerful APIs, used by developers and typically saved for only the most trusted sites.
+]]></content:encoded>
+<pubDate>Wed, 30 Oct 2024 13:13:27 GMT</pubDate>
+<pubDate>Wed, 30 Oct 2024 13:13:27 GMT</pubDate>
+</item>
 
 <item>
 <title>New tool bypasses Google Chrome’s new cookie encryption system</title>
