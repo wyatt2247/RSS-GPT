@@ -4,6 +4,18 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Researchers Uncover Python Package Targeting Crypto Wallets with Malicious Code</title>
+<link>https://thehackernews.com/2024/10/researchers-uncover-python-package.html</link>
+<guid>https://thehackernews.com/2024/10/researchers-uncover-python-package.html</guid>
+<content:encoded><![CDATA[
+
+Cybersecurity researchers have discovered a new malicious Python package that masquerades as a cryptocurrency trading tool but harbors functionality designed to steal sensitive data and drain assets from victims' crypto wallets.
+The package, named "CryptoAITools," is said to have been distributed via both Python Package Index (PyPI) and bogus GitHub repositories. It was downloaded over 1,300
+]]></content:encoded>
+<pubDate>Wed, 30 Oct 2024 16:30:00 +0530</pubDate>
+<pubDate>Wed, 30 Oct 2024 16:30:00 +0530</pubDate>
+</item>
 
 <item>
 <title>Ransomware Vulnerability Matrix: A Comprehensive Resource for Cybersecurity Analysts</title>
