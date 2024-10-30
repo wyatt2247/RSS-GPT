@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Fortinet Updates Guidance and Indicators of Compromise following FortiManager Vulnerability Exploitation</title>
 <link>https://www.cisa.gov/news-events/alerts/2024/10/30/fortinet-updates-guidance-and-indicators-compromise-following-fortimanager-vulnerability</link>
 <guid>https://www.cisa.gov/news-events/alerts/2024/10/30/fortinet-updates-guidance-and-indicators-compromise-following-fortimanager-vulnerability</guid>
 <content:encoded><![CDATA[
-
 <p>Fortinet has updated their security advisory addressing a critical FortiManager vulnerability (CVE-2024-47575) to include additional workarounds and indicators of compromise (IOCs). A remote, unauthenticated cyber threat actor could exploit this vulnerability to gain access to sensitive files or take control of an affected system.&nbsp;At this time, all patches have been released.</p>
 <p>CISA previously added this vulnerability to its&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities Catalog</a>, based on evidence of active exploitation, as confirmed by Fortinet.</p>
 <p>CISA strongly encourages users and administrators to apply the necessary updates, hunt for any malicious activity, assess potential risk from service providers, report positive findings to CISA, and review the following articles for additional information:&nbsp;</p>
@@ -20,9 +20,7 @@
 </ul>
 ]]></content:encoded>
 <pubDate>Wed, 30 Oct 24 12:00:00 +0000</pubDate>
-<pubDate>Wed, 30 Oct 24 12:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Avoiding Social Media Scams When Recovering a Locked Gmail Account</title>
 <link>https://www.cysecurity.news/2024/10/avoiding-social-media-scams-when.html</link>
