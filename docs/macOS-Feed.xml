@@ -4,6 +4,116 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>ZDI-24-1451: Apple macOS ICC Profile Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1451/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1451/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2024-44284.
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1450: Apple macOS ICC Profile Parsing Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1450/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1450/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-44283.
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1449: Apple macOS CoreFoundation Font Glyphs Parsing Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1449/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1449/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-44282.
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1448: Apple macOS ICC Profile Parsing Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1448/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1448/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-44281.
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1447: Apple macOS ICC Profile Parsing Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1447/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1447/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-44279.
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1446: Apple macOS ICC Profile Parsing Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1446/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1446/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-44237.
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1445: Apple macOS ICC Profile Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1445/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1445/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2024-44236.
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1444: Apple SceneKit Improper Validation of Array Index Remote Code Execution Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1444/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1444/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the Scenekit framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2024-44218.
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1443: Apple macOS ImageIO JP2 Image Parsing Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1443/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1443/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the ImageIO framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-44215.
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+</item>
+<item>
+<title>ZDI-24-1442: Apple macOS CoreText Font Ligature Caret List Parsing Out-Of-Bounds Read Information Disclosure Vulnerability</title>
+<link>http://www.zerodayinitiative.com/advisories/ZDI-24-1442/</link>
+<guid>http://www.zerodayinitiative.com/advisories/ZDI-24-1442/</guid>
+<content:encoded><![CDATA[
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2024-44240,  CVE-2024-44302.
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+<pubDate>Thu, 31 Oct 2024 00:00:00 -0500</pubDate>
+</item>
 
 <item>
 <title>Enhanced LightSpy Spyware Targets iPhones with Advanced Surveillance and Destructive Features</title>

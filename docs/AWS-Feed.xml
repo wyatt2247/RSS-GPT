@@ -4,6 +4,81 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Foreign Threat Actor Conducting Large-Scale Spear-Phishing Campaign with RDP Attachments</title>
+<link>https://www.cisa.gov/news-events/alerts/2024/10/31/foreign-threat-actor-conducting-large-scale-spear-phishing-campaign-rdp-attachments</link>
+<guid>https://www.cisa.gov/news-events/alerts/2024/10/31/foreign-threat-actor-conducting-large-scale-spear-phishing-campaign-rdp-attachments</guid>
+<content:encoded><![CDATA[
+
+<p>CISA has received multiple reports of a large-scale spear-phishing campaign targeting organizations in several sectors, including government and information technology (IT). The foreign threat actor, often posing as a trusted entity, is sending spear-phishing emails containing malicious remote desktop protocol (RDP) files to targeted organizations to connect to and access files stored on the target’s network. Once access has been gained, the threat actor may pursue additional activity, such as deploying malicious code to achieve persistent access to the target’s network.&nbsp;</p>
+<p>CISA, government, and industry partners are coordinating, responding, and assessing the impact of this campaign. CISA urges organizations to take proactive measures:</p>
+<ul>
+<li><strong>&nbsp;Restrict Outbound RDP Connections:</strong>
+<ul>
+<li>It is strongly advised that organizations forbid or significantly restrict outbound RDP connections to external or public networks. This measure is crucial for minimizing exposure to potential cyber threats.</li>
+<li>Implement a Firewall along with secure policies and access control lists.</li>
+</ul>
+</li>
+<li><strong>Block RDP Files in Communication Platforms:</strong>
+<ul>
+<li>Organizations should prohibit RDP files from being transmitted through email clients and webmail services. This step helps prevent the accidental execution of malicious RDP configurations.</li>
+</ul>
+</li>
+<li><strong>Prevent Execution of RDP Files:&nbsp;</strong>
+<ul>
+<li>Implement controls to block the execution of RDP files by users. This precaution is vital in reducing the risk of exploitation.</li>
+</ul>
+</li>
+<li><strong>Enable Multi-Factor Authentication (MFA):</strong>
+<ul>
+<li>Multi-factor authentication must be enabled wherever feasible to provide an essential layer of security for remote access.</li>
+<li>Avoid SMS MFA whenever possible.</li>
+</ul>
+</li>
+<li><strong>Adopt Phishing-Resistant Authentication Methods:</strong>
+<ul>
+<li>Organizations are encouraged to deploy phishing-resistant authentication solutions, such as FIDO tokens. It is important to avoid SMS-based MFA, as it can be vulnerable to SIM-jacking attacks.</li>
+</ul>
+</li>
+<li><strong>Implement Conditional Access Policies:</strong>
+<ul>
+<li>Establish Conditional Access Authentication Strength to mandate the use of phishing-resistant authentication methods. This ensures that only authorized users can access sensitive systems.</li>
+</ul>
+</li>
+<li><strong>Deploy Endpoint Detection and Response (EDR):</strong>
+<ul>
+<li>Organizations should implement Endpoint Detection and Response (EDR) solutions to continuously monitor for and respond to suspicious activities within the network.</li>
+</ul>
+</li>
+<li><strong>Consider Additional Security Solutions:</strong>
+<ul>
+<li>In conjunction with EDR, organizations should<strong> </strong>evaluate the deployment of antiphishing and antivirus solutions to bolster their defenses against emerging threats.</li>
+</ul>
+</li>
+<li><strong>Conduct User Education:</strong>
+<ul>
+<li>Robust user education can help mitigate the threat of social engineering and phishing emails. Companies should have a user education program that highlights how to identify and report suspicious emails.</li>
+<li>Recognize and Report Phishing: <a href="https://www.cisa.gov/secure-our-world/recognize-and-report-phishing">Avoid phishing with these simple tips</a>.</li>
+</ul>
+</li>
+<li><strong>Hunt For Activity Using Referenced Indicators and TTPs:</strong>
+<ul>
+<li>Utilize all indicators that are released in relevant articles and reporting to<strong> </strong>search for possible malicious activity within your organization’s network.</li>
+<li>Search for unexpected and/or unauthorized outbound RDP connections within the last year.</li>
+</ul>
+</li>
+</ul>
+<p>CISA urges users and administrators to remain vigilant against spear-phishing attempts, hunt for any malicious activity, report positive findings to CISA, and review the following articles for more information:</p>
+<ul>
+<li>Microsoft:&nbsp;<a href="https://www.microsoft.com/en-us/security/blog/2024/10/29/midnight-blizzard-conducts-large-scale-spear-phishing-campaign-using-rdp-files/">Midnight Blizzard conducts large-scale spear-phishing campaign using RDP files</a></li>
+<li>AWS Security:&nbsp;<a href="https://aws.amazon.com/blogs/security/amazon-identified-internet-domains-abused-by-apt29/">Amazon identified internet domains abused by APT29</a></li>
+<li>The Centre for Cybersecurity Belgium:&nbsp;<a href="https://atwork.safeonweb.be/recent-news-tips-and-warning/warning-government-themed-phishing-rdp-attachments">Warning: Government-themed Phishing with RDP Attachments</a></li>
+<li>Computer Emergency Response Team of Ukraine:&nbsp;<a href="https://cert.gov.ua/article/6281076">RDP configuration files as a means of obtaining remote access to a computer or "Rogue RDP"</a></li>
+</ul>
+]]></content:encoded>
+<pubDate>Thu, 31 Oct 24 12:00:00 +0000</pubDate>
+<pubDate>Thu, 31 Oct 24 12:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>v16 Cloud Rebalancing, Analytics,</title>
