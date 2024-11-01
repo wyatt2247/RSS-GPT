@@ -4,6 +4,17 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Apple Security Advisory 10-29-2024-1</title>
+<link>https://packetstormsecurity.com/files/182447/APPLE-SA-10-29-2024-1.txt</link>
+<guid>https://packetstormsecurity.com/files/182447/APPLE-SA-10-29-2024-1.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 10-29-2024-1 - Safari 18.1 addresses an information leakage vulnerability.
+]]></content:encoded>
+<pubDate>Fri, 01 Nov 2024 14:38:45 GMT</pubDate>
+<pubDate>Fri, 01 Nov 2024 14:38:45 GMT</pubDate>
+</item>
 
 <item>
 <title>ZDI-24-1451: Apple macOS ICC Profile Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability</title>
