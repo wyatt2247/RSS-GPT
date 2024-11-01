@@ -4,12 +4,12 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Foreign Threat Actor Conducting Large-Scale Spear-Phishing Campaign with RDP Attachments</title>
 <link>https://www.cisa.gov/news-events/alerts/2024/10/31/foreign-threat-actor-conducting-large-scale-spear-phishing-campaign-rdp-attachments</link>
 <guid>https://www.cisa.gov/news-events/alerts/2024/10/31/foreign-threat-actor-conducting-large-scale-spear-phishing-campaign-rdp-attachments</guid>
 <content:encoded><![CDATA[
-
 <p>CISA has received multiple reports of a large-scale spear-phishing campaign targeting organizations in several sectors, including government and information technology (IT). The foreign threat actor, often posing as a trusted entity, is sending spear-phishing emails containing malicious remote desktop protocol (RDP) files to targeted organizations to connect to and access files stored on the target’s network. Once access has been gained, the threat actor may pursue additional activity, such as deploying malicious code to achieve persistent access to the target’s network.&nbsp;</p>
 <p>CISA, government, and industry partners are coordinating, responding, and assessing the impact of this campaign. CISA urges organizations to take proactive measures:</p>
 <ul>
@@ -77,9 +77,7 @@
 </ul>
 ]]></content:encoded>
 <pubDate>Thu, 31 Oct 24 12:00:00 +0000</pubDate>
-<pubDate>Thu, 31 Oct 24 12:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>v16 Cloud Rebalancing, Analytics,</title>
 <link>https://medium.com/mitre-attack/attack-v16-561c76af94cf?source=rss----6da19bd08fba---4</link>
