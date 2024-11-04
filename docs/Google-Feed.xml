@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Cybersecurity and AI Challenges: How Companies Must Evolve to Stay Secure and Competitive</title>
 <link>https://www.cysecurity.news/2024/11/cybersecurity-and-ai-challenges-how.html</link>
@@ -20,7 +21,6 @@ On top of cybersecurity issues, many companies face challenges in managing their
 
 As cybersecurity threats grow and AI regulations evolve, tech companies like Microsoft, Google, and Meta are also facing challenges. While all three reported strong earnings driven by cloud and AI services, investors are cautious about their future spending plans.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In today’s fast-changing environment, businesses need to prioritize strong cybersecurity and proper data management to remain competitive and secure.</div>
 ]]></content:encoded>
-<pubDate>2024-11-04T06:38:00.000-05:00</pubDate>
 <pubDate>2024-11-04T06:38:54.577-05:00</pubDate>
 </item>
 <item>
@@ -28,7 +28,6 @@ As cybersecurity threats grow and AI regulations evolve, tech companies like Mic
 <link>https://www.cysecurity.news/2024/11/fakecall-malware-for-android-escalates.html</link>
 <guid>https://www.cysecurity.news/2024/11/fakecall-malware-for-android-escalates.html</guid>
 <content:encoded><![CDATA[
-
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHOmH7IlY9Uhzoip8txbLoj9SNauDh0UaHxhaxvaIlQxBleIF_GE6JegIXYCd-MNV0OqjTd8OxUIPzmfZ2RTL8_1_ceT5yGQblXnQKKskOlYu1gdtX9Ydfg97o75WRgygf-TVK_-bpz_dif_bWOHlKvtW1dOUI1FT_CCfBO20xZpqaquV4qd5tmJxWTNE/s4467/pexels-pixabay-267350.jpg" style="display: block; padding: 1em 0px; text-align: justify;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHOmH7IlY9Uhzoip8txbLoj9SNauDh0UaHxhaxvaIlQxBleIF_GE6JegIXYCd-MNV0OqjTd8OxUIPzmfZ2RTL8_1_ceT5yGQblXnQKKskOlYu1gdtX9Ydfg97o75WRgygf-TVK_-bpz_dif_bWOHlKvtW1dOUI1FT_CCfBO20xZpqaquV4qd5tmJxWTNE/s600/pexels-pixabay-267350.jpg" width="600" /></a></div><p style="text-align: justify;">&nbsp;</p><div style="text-align: justify;">A newly evolved version of the FakeCall malware, a dangerous Android banking trojan, has been discovered hijacking users’ outgoing calls to their financial institutions, redirecting them to phone numbers controlled by attackers. The malware, first identified by Kaspersky in April 2022, focuses on voice phishing (vishing) scams, tricking victims into revealing sensitive banking information.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The trojan presents a fake call interface that closely mimics Android’s default dialer, convincing victims they are communicating with legitimate bank representatives.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">This makes it challenging for users to discern the deception. When attempting to call their bank, the malware secretly redirects the call to attackers, who impersonate bank officials to steal personal information and money from accounts.
 
 A new report from Zimperium reveals that the latest FakeCall variant further enhances its capabilities.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">By tricking users into setting it as the default call handler during installation, the malware gains the ability to intercept both incoming and outgoing calls. In addition, the malware manipulates the Android user interface to show the bank’s actual phone number while connecting the victim to a scammer, deepening the illusion of legitimacy.
@@ -39,7 +38,6 @@ Additional commands integrated into the latest version include capturing live sc
 
 Security experts recommend avoiding the manual installation of Android apps through APKs, encouraging users to rely on the Google Play Store for app downloads. Though malware can still infiltrate Google Play, the platform’s security measures, such as Google Play Protect, can help identify and remove malicious apps when detected.</div>
 ]]></content:encoded>
-<pubDate>2024-11-02T14:30:00.001-04:00</pubDate>
 <pubDate>2024-11-04T06:38:36.750-05:00</pubDate>
 </item>
 <item>
@@ -47,15 +45,12 @@ Security experts recommend avoiding the manual installation of Android apps thro
 <link>https://thehackernews.com/2024/11/googles-ai-tool-big-sleep-finds-zero.html</link>
 <guid>https://thehackernews.com/2024/11/googles-ai-tool-big-sleep-finds-zero.html</guid>
 <content:encoded><![CDATA[
-
 Google said it discovered a zero-day vulnerability in the SQLite open-source database engine using its large language model (LLM) assisted framework called Big Sleep (formerly Project Naptime).
 The tech giant described the development as the "first real-world vulnerability" uncovered using the artificial intelligence (AI) agent.
 "We believe this is the first public example of an AI agent finding
 ]]></content:encoded>
 <pubDate>Mon, 04 Nov 2024 15:34:00 +0530</pubDate>
-<pubDate>Mon, 04 Nov 2024 15:34:00 +0530</pubDate>
 </item>
-
 <item>
 <title>New Tool Circumvents Google Chrome's New Cookie Encryption System</title>
 <link>https://www.cysecurity.news/2024/11/new-tool-circumvents-google-chromes-new.html</link>
