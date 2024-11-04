@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Windows Recall Release Pushed Back, Microsoft Sets December Date</title>
 <link>https://www.cysecurity.news/2024/11/windows-recall-release-pushed-back.html</link>
@@ -40,7 +41,6 @@ The classic elements of fear, uncertainty, and doubt have permeated discussions 
 
 As Microsoft continues refining and enhancing the Recall feature, prioritizing security and user control, the company aims to reassure users that privacy concerns will be carefully addressed. This extended development period reflects Microsoft’s commitment to establishing Recall as a secure, user-friendly, and reliable addition to the Windows ecosystem, particularly on Copilot Plus PCs.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">By ensuring that Recall remains an entirely opt-in experience with robust encryption and privacy safeguards, Microsoft seeks to mitigate the challenges and uncertainties raised within the community. With the December release now set as the anticipated launch, users and industry experts alike will be closely watching for further improvements and successful integration of this innovative tool into the broader Windows experience.</div>
 ]]></content:encoded>
-<pubDate>2024-11-03T10:13:00.001-05:00</pubDate>
 <pubDate>2024-11-03T10:13:38.066-05:00</pubDate>
 </item>
 <item>
@@ -48,7 +48,6 @@ As Microsoft continues refining and enhancing the Recall feature, prioritizing s
 <link>https://www.cysecurity.news/2024/11/crossbarking-exploit-in-opera-browser.html</link>
 <guid>https://www.cysecurity.news/2024/11/crossbarking-exploit-in-opera-browser.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div style="text-align: justify;"><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNkMSPQYfH3KbK61OXu4aMsYqprwUjWCijFJhMK8EkO8oxqpURjhsFtpi7JDsiMCiEM9OBiAwFulXloHbu9rlqG3vVfLyquDpR5Pn3ov5keFSaiXN-8PYW5uVUmHE0ZBk1JFDyvCO91G4iX-RuLEKlpo92bs83nfb6g39D0CqAuaWaH9FEFB_17VJ85M/s1280/security-265130_1280.jpg" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNkMSPQYfH3KbK61OXu4aMsYqprwUjWCijFJhMK8EkO8oxqpURjhsFtpi7JDsiMCiEM9OBiAwFulXloHbu9rlqG3vVfLyquDpR5Pn3ov5keFSaiXN-8PYW5uVUmHE0ZBk1JFDyvCO91G4iX-RuLEKlpo92bs83nfb6g39D0CqAuaWaH9FEFB_17VJ85M/s600/security-265130_1280.jpg" width="600" /></a></div>A new browser vulnerability called CrossBarking has been identified, affecting Opera users through “private” APIs that were meant only for select trusted sites. Browser APIs bridge websites with functionalities like storage, performance, and geolocation to enhance user experience. Most APIs are widely accessible and reviewed, but private ones are reserved for preferred applications. Researchers at Guardio found that these Opera-specific APIs were vulnerable to exploitation, especially if a malicious Chrome extension gained access.
 
 Guardio’s demonstration showed that once a hacker gained access to these private APIs through a Chrome extension — easily installable by Opera users — they could run powerful scripts in a user’s browser context.&nbsp;</div><div style="text-align: justify;">The malicious extension was initially disguised as a harmless tool, adding pictures of puppies to web pages.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">However, it also contained scripts capable of extensive interference with Opera settings. Guardio used this approach to hijack the settingsPrivate API, which allowed them to reroute a victim’s DNS settings through a malicious server, providing the attacker with extensive visibility into the user’s browsing activities. With control over the DNS settings, they could manipulate browser content and even redirect users to phishing pages, making the potential for misuse significant.
@@ -59,10 +58,8 @@ CrossBarking’s implications go beyond Opera, underscoring the complex relation
 <p><span></span><br /></p>
 <p><span>This vulnerability also underscores a broader industry challenge: balancing user functionality with security. While private APIs are integral to offering customized features, they open potential entry points for attackers when not adequately protected. Opera’s reliance on responsible disclosure practices with cybersecurity firms is a step forward. However, ongoing vigilance and a proactive stance toward enhancing browser security are essential as threats continue to evolve, particularly in a landscape where third-party extensions can easily be overlooked as potential risks.</span></p></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In response, Opera has collaborated closely with researchers and relies on responsible vulnerability disclosures from third-party security firms like Guardio to address any potential risks preemptively. Security professionals highlight that browser developers should consider the full ecosystem, assessing how interactions across apps and extensions might introduce vulnerabilities.</div>
 ]]></content:encoded>
-<pubDate>2024-11-02T05:01:00.000-04:00</pubDate>
 <pubDate>2024-11-02T05:01:28.547-04:00</pubDate>
 </item>
-
 <item>
 <title>OpenAI's new ChatGPT Search Chrome extension feels like a search hijacker</title>
 <link>https://www.bleepingcomputer.com/news/security/openais-new-chatgpt-search-chrome-extension-feels-like-a-search-hijacker/</link>
