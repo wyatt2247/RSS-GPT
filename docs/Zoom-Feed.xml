@@ -4,6 +4,247 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Critical Vulnerabilities in PTZ Cameras: CISA Adds New Exploits to Its Catalog</title>
+<link>https://cyble.com/blog/critical-vulnerabilities-in-ptz-cameras-cisa-adds-new-exploits-to-its-catalog/</link>
+<guid>https://cyble.com/blog/critical-vulnerabilities-in-ptz-cameras-cisa-adds-new-exploits-to-its-catalog/</guid>
+<content:encoded><![CDATA[
+<div> <p><img alt="PTZ Cameras" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/Cyble-Blogs-PTZ-Cameras.png" title="Critical Vulnerabilities in PTZ Cameras: CISA Adds New Exploits to Its Catalog 2" width="1200" /></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Cybersecurity and Infrastructure Security Agency (CISA) has recently added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, spotlighting security flaws in <a href="https://www.cisa.gov/news-events/alerts/2024/11/04/cisa-adds-two-known-exploited-vulnerabilities-catalog">Pan-Tilt-Zoom (PTZ) cameras</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The vulnerabilities, which affect specific PTZOptics camera models, pose a considerable risk to organizations that rely on these devices for surveillance, live streaming, and conference automation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These flaws could be leveraged by malicious actors to execute OS command injections or bypass authentication controls, exposing sensitive systems to potential breaches.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Vulnerabilities in PTZOptics Cameras: CVE-2024-8956 and CVE-2024-8957</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The two vulnerabilities—CVE-2024-8956 and CVE-2024-8957—affect the PT30X-SDI/NDI series of PTZ cameras from PTZOptics. These devices, which are also embedded in various white-label AV equipment, are vulnerable to critical security flaws that could allow attackers to gain unauthorized access and execute arbitrary commands. Here's an overview of each vulnerability:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true} --></p>
+<ol class="wp-block-list"><!-- wp:list-item --></p>
+<li><strong>CVE-2024-8956: Authentication Bypass Vulnerability</strong></li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVSS Score</strong>: 9.1 (Critical)</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Description</strong>: This authentication bypass vulnerability affects the PTZOptics PT30X-SDI and PT30X-NDI-xx-G2 cameras running versions prior to 6.3.40. Due to improper authorization, attackers can remotely access the cameras without <a href="https://cyble.com/blog/multi-factor-authentication-mfa-is-a-part-of-your-cyber-hygiene/">authentication</a>. This allows them to leak sensitive data, including usernames, password hashes, and device configuration details. Additionally, attackers can modify or overwrite the configuration files, compromising the system's integrity.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Impact</strong>: The vulnerability provides attackers with the ability to access critical configuration files and potentially disrupt operations by altering camera settings.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>2. CVE-2024-8957: OS Command Injection Vulnerability</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVSS Score</strong>: 9.8 (Critical)</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Description</strong>: This OS command injection vulnerability arises from insufficient validation of the ntp_addr configuration value in the PTZOptics cameras. When the ntp_client service is started, the flaw allows remote attackers to execute arbitrary commands on the affected devices. When combined with the previous authentication bypass vulnerability (CVE-2024-8956), an attacker could leverage both vulnerabilities to perform even more damaging actions, such as executing malicious commands remotely.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Impact</strong>: Attackers can exploit this flaw to compromise the camera’s operating system, potentially allowing them to gain full control over the device and even spread their attack within a network.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>CISA’s Action: Immediate Attention Required</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>PTZ cameras are widely used across various industries for surveillance, broadcasting, and remote monitoring, making them a prime target for cybercriminals. The authentication bypass vulnerability and OS command injection vulnerability in these cameras represent frequent attack vectors for malicious <a href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/">cyber actors</a>, who often exploit such flaws to gain unauthorized access, exfiltrate sensitive data, or even take control of critical systems.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Organizations that utilize PTZ cameras in their infrastructure are strongly advised to patch these vulnerabilities immediately to mitigate potential security risks. The vulnerabilities disclosed in PTZOptics cameras are part of a broader trend of vulnerabilities in Pan-Tilt-Zoom (PTZ) cameras, which have increasingly become targets for attackers due to their prevalence in critical systems. OS command injection vulnerabilities and authentication bypass vulnerabilities in cameras expose organizations to severe security risks, especially when these devices are connected to the internet without proper safeguards.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>PTZ cameras, like many IoT devices, often operate with limited built-in security measures. These devices typically have embedded software and firmware that can be vulnerable to attack, especially when manufacturers fail to release timely security updates. Additionally, the growing use of white-label AV equipment based on third-party camera firmware further complicates the security landscape, as these devices may not receive adequate vendor support.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Both CVE-2024-8956 and CVE-2024-8957 are acknowledged by ValueHD Corporation, the vendor behind the PTZOptics camera models. The company has released a <a href="https://ptzoptics.com/firmware-changelog/">patch</a> for the affected camera models to address these vulnerabilities. Customers using PTZOptics PT30X-SDI and PTZOptics PT30X-NDI-xx-G2 cameras should immediately upgrade to version 6.3.40 or later to prevent exploitation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Recommendations and Mitigating for PTZ Camera Vulnerabilities</strong><strong></strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To address the risks by vulnerabilities in PTZ cameras, organizations should implement several best practices to protect their systems from potential exploitation:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true} --></p>
+<ol class="wp-block-list"><!-- wp:list-item --></p>
+<li>As soon as a vendor releases a patch addressing critical vulnerabilities like authentication bypass or OS command injection, organizations should prioritize its installation. Delays in patching can expose devices to active attacks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Critical devices, including PTZ cameras, should not be exposed directly to the internet. Organizations should segment their networks to isolate critical assets and use <a href="https://cyble.com/knowledge-hub/what-is-firewall/">firewalls</a> and access controls to limit exposure.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implementing a patch management process that includes inventory management, patch assessment, testing, and deployment can help ensure that vulnerabilities are addressed in a timely manner across the entire infrastructure.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Organizations should have a clear and tested <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/what-is-incident-response/" rel="noopener" target="_blank" title="incident response plan">incident response plan</a> in place to quickly detect, respond to, and recover from security incidents. This plan should be aligned with current threat landscapes and should include procedures for addressing vulnerabilities like those found in PTZ cameras.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Continuous monitoring and logging are essential for identifying suspicious activity and detecting potential threats. Security Information and Event Management (SIEM) systems can help aggregate and correlate logs for real-time threat detection.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Organizations should assess the criticality of any End-of-Life (EOL) products, including PTZ cameras, and plan for timely upgrades or replacements. Using outdated devices increases the risk of exploitation, as they may no longer receive security patches.</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Conclusion</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The critical vulnerabilities in PTZ cameras, including the OS command injection and authentication bypass vulnerabilities, highlight the importance of securing embedded devices used in modern enterprise environments.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>As PTZ camera vulnerabilities become a vector for <a href="https://cyble.com/knowledge-hub/what-is-a-cyber-attack/">cyberattacks</a>, organizations must act quickly to patch affected devices and adopt stronger security practices. Timely patching, network segmentation, and comprehensive monitoring are key to protecing systems against the growing threat posed by such vulnerabilities in Pan-Tilt-Zoom cameras.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>With active exploitation of these vulnerabilities in the wild, organizations that rely on PTZ cameras should prioritize security assessments and patch management to protect sensitive data and maintain system integrity.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Sources:</strong> <a href="https://ptzoptics.com/firmware-changelog/">https://ptzoptics.com/firmware-changelog/</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:embed {"url":"https://www.cisa.gov/news-events/alerts/2024/11/04/cisa-adds-two-known-exploited-vulnerabilities-catalog"} --></p>
+<figure class="wp-block-embed">
+<div class="wp-block-embed__wrapper">
+https://www.cisa.gov/news-events/alerts/2024/11/04/cisa-adds-two-known-exploited-vulnerabilities-catalog
+</div>
+</figure>
+<p><!-- /wp:embed --></p>
+<p>The post <a href="https://cyble.com/blog/critical-vulnerabilities-in-ptz-cameras-cisa-adds-new-exploits-to-its-catalog/" rel="nofollow">Critical Vulnerabilities in PTZ Cameras: CISA Adds New Exploits to Its Catalog</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p> <div>
+<p><img alt="PTZ Cameras" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/Cyble-Blogs-PTZ-Cameras.png" title="Critical Vulnerabilities in PTZ Cameras: CISA Adds New Exploits to Its Catalog 2" width="1200" /></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Cybersecurity and Infrastructure Security Agency (CISA) has recently added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, spotlighting security flaws in <a href="https://www.cisa.gov/news-events/alerts/2024/11/04/cisa-adds-two-known-exploited-vulnerabilities-catalog">Pan-Tilt-Zoom (PTZ) cameras</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The vulnerabilities, which affect specific PTZOptics camera models, pose a considerable risk to organizations that rely on these devices for surveillance, live streaming, and conference automation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These flaws could be leveraged by malicious actors to execute OS command injections or bypass authentication controls, exposing sensitive systems to potential breaches.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Vulnerabilities in PTZOptics Cameras: CVE-2024-8956 and CVE-2024-8957</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The two vulnerabilities—CVE-2024-8956 and CVE-2024-8957—affect the PT30X-SDI/NDI series of PTZ cameras from PTZOptics. These devices, which are also embedded in various white-label AV equipment, are vulnerable to critical security flaws that could allow attackers to gain unauthorized access and execute arbitrary commands. Here's an overview of each vulnerability:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true} --></p>
+<ol class="wp-block-list"><!-- wp:list-item --></p>
+<li><strong>CVE-2024-8956: Authentication Bypass Vulnerability</strong></li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVSS Score</strong>: 9.1 (Critical)</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Description</strong>: This authentication bypass vulnerability affects the PTZOptics PT30X-SDI and PT30X-NDI-xx-G2 cameras running versions prior to 6.3.40. Due to improper authorization, attackers can remotely access the cameras without <a href="https://cyble.com/blog/multi-factor-authentication-mfa-is-a-part-of-your-cyber-hygiene/">authentication</a>. This allows them to leak sensitive data, including usernames, password hashes, and device configuration details. Additionally, attackers can modify or overwrite the configuration files, compromising the system's integrity.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Impact</strong>: The vulnerability provides attackers with the ability to access critical configuration files and potentially disrupt operations by altering camera settings.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>2. CVE-2024-8957: OS Command Injection Vulnerability</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>CVSS Score</strong>: 9.8 (Critical)</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Description</strong>: This OS command injection vulnerability arises from insufficient validation of the ntp_addr configuration value in the PTZOptics cameras. When the ntp_client service is started, the flaw allows remote attackers to execute arbitrary commands on the affected devices. When combined with the previous authentication bypass vulnerability (CVE-2024-8956), an attacker could leverage both vulnerabilities to perform even more damaging actions, such as executing malicious commands remotely.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Impact</strong>: Attackers can exploit this flaw to compromise the camera’s operating system, potentially allowing them to gain full control over the device and even spread their attack within a network.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>CISA’s Action: Immediate Attention Required</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>PTZ cameras are widely used across various industries for surveillance, broadcasting, and remote monitoring, making them a prime target for cybercriminals. The authentication bypass vulnerability and OS command injection vulnerability in these cameras represent frequent attack vectors for malicious <a href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/">cyber actors</a>, who often exploit such flaws to gain unauthorized access, exfiltrate sensitive data, or even take control of critical systems.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Organizations that utilize PTZ cameras in their infrastructure are strongly advised to patch these vulnerabilities immediately to mitigate potential security risks. The vulnerabilities disclosed in PTZOptics cameras are part of a broader trend of vulnerabilities in Pan-Tilt-Zoom (PTZ) cameras, which have increasingly become targets for attackers due to their prevalence in critical systems. OS command injection vulnerabilities and authentication bypass vulnerabilities in cameras expose organizations to severe security risks, especially when these devices are connected to the internet without proper safeguards.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>PTZ cameras, like many IoT devices, often operate with limited built-in security measures. These devices typically have embedded software and firmware that can be vulnerable to attack, especially when manufacturers fail to release timely security updates. Additionally, the growing use of white-label AV equipment based on third-party camera firmware further complicates the security landscape, as these devices may not receive adequate vendor support.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Both CVE-2024-8956 and CVE-2024-8957 are acknowledged by ValueHD Corporation, the vendor behind the PTZOptics camera models. The company has released a <a href="https://ptzoptics.com/firmware-changelog/">patch</a> for the affected camera models to address these vulnerabilities. Customers using PTZOptics PT30X-SDI and PTZOptics PT30X-NDI-xx-G2 cameras should immediately upgrade to version 6.3.40 or later to prevent exploitation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Recommendations and Mitigating for PTZ Camera Vulnerabilities</strong><strong></strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To address the risks by vulnerabilities in PTZ cameras, organizations should implement several best practices to protect their systems from potential exploitation:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true} --></p>
+<ol class="wp-block-list"><!-- wp:list-item --></p>
+<li>As soon as a vendor releases a patch addressing critical vulnerabilities like authentication bypass or OS command injection, organizations should prioritize its installation. Delays in patching can expose devices to active attacks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Critical devices, including PTZ cameras, should not be exposed directly to the internet. Organizations should segment their networks to isolate critical assets and use <a href="https://cyble.com/knowledge-hub/what-is-firewall/">firewalls</a> and access controls to limit exposure.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implementing a patch management process that includes inventory management, patch assessment, testing, and deployment can help ensure that vulnerabilities are addressed in a timely manner across the entire infrastructure.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Organizations should have a clear and tested <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/what-is-incident-response/" rel="noopener" target="_blank" title="incident response plan">incident response plan</a> in place to quickly detect, respond to, and recover from security incidents. This plan should be aligned with current threat landscapes and should include procedures for addressing vulnerabilities like those found in PTZ cameras.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Continuous monitoring and logging are essential for identifying suspicious activity and detecting potential threats. Security Information and Event Management (SIEM) systems can help aggregate and correlate logs for real-time threat detection.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Organizations should assess the criticality of any End-of-Life (EOL) products, including PTZ cameras, and plan for timely upgrades or replacements. Using outdated devices increases the risk of exploitation, as they may no longer receive security patches.</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Conclusion</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The critical vulnerabilities in PTZ cameras, including the OS command injection and authentication bypass vulnerabilities, highlight the importance of securing embedded devices used in modern enterprise environments.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>As PTZ camera vulnerabilities become a vector for <a href="https://cyble.com/knowledge-hub/what-is-a-cyber-attack/">cyberattacks</a>, organizations must act quickly to patch affected devices and adopt stronger security practices. Timely patching, network segmentation, and comprehensive monitoring are key to protecing systems against the growing threat posed by such vulnerabilities in Pan-Tilt-Zoom cameras.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>With active exploitation of these vulnerabilities in the wild, organizations that rely on PTZ cameras should prioritize security assessments and patch management to protect sensitive data and maintain system integrity.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Sources:</strong> <a href="https://ptzoptics.com/firmware-changelog/">https://ptzoptics.com/firmware-changelog/</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:embed {"url":"https://www.cisa.gov/news-events/alerts/2024/11/04/cisa-adds-two-known-exploited-vulnerabilities-catalog"} --></p>
+<figure class="wp-block-embed">
+<div class="wp-block-embed__wrapper">
+https://www.cisa.gov/news-events/alerts/2024/11/04/cisa-adds-two-known-exploited-vulnerabilities-catalog
+</div>
+</figure>
+<p><!-- /wp:embed --></p>
+<p>The post <a href="https://cyble.com/blog/critical-vulnerabilities-in-ptz-cameras-cisa-adds-new-exploits-to-its-catalog/" rel="nofollow">Critical Vulnerabilities in PTZ Cameras: CISA Adds New Exploits to Its Catalog</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 05 Nov 2024 12:58:15 +0000</pubDate>
+<pubDate>Tue, 05 Nov 2024 12:58:15 +0000</pubDate>
+</item>
 
 <item>
 <title>Microsoft Introduces AI Solution for Erasing Ex from Memories</title>
