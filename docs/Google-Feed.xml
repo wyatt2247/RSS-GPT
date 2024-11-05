@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Google Warns of Actively Exploited CVE-2024-43093 Vulnerability in Android System</title>
 <link>https://thehackernews.com/2024/11/google-warns-of-actively-exploited-cve.html</link>
@@ -15,9 +16,7 @@ Google has warned that a security flaw impacting its Android operating system ha
 The vulnerability, tracked as CVE-2024-43093, has been described as a privilege escalation flaw in the Android Framework component that could result in unauthorized access to "Android/data," "Android/obb," and "Android/sandbox" directories and its sub-directories,
 ]]></content:encoded>
 <pubDate>Tue, 05 Nov 2024 09:00:00 +0530</pubDate>
-<pubDate>Tue, 05 Nov 2024 09:00:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Behind the Search Bar: How Google Algorithm Shapes Our Perspectives</title>
 <link>https://www.cysecurity.news/2024/11/behind-search-bar-how-google-algorithm.html</link>
