@@ -5,6 +5,18 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Google fixes two Android zero-days used in targeted attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/google-fixes-two-android-zero-days-used-in-targeted-attacks/</link>
+<guid>https://www.bleepingcomputer.com/news/security/google-fixes-two-android-zero-days-used-in-targeted-attacks/</guid>
+<content:encoded><![CDATA[
+<div> Google fixed two actively exploited Android zero-day flaws as part of its November security updates, addressing a total of 51 vulnerabilities. [...] <div>
+Google fixed two actively exploited Android zero-day flaws as part of its November security updates, addressing a total of 51 vulnerabilities. [...]
+]]></content:encoded>
+<pubDate>Tue, 05 Nov 2024 09:30:58 -0500</pubDate>
+<pubDate>Tue, 05 Nov 2024 09:30:58 -0500</pubDate>
+</item>
+
+<item>
 <title>Securing Generative AI: Tackling Unique Risks and Challenges</title>
 <link>https://www.cysecurity.news/2024/11/securing-generative-ai-tackling-unique.html</link>
 <guid>https://www.cysecurity.news/2024/11/securing-generative-ai-tackling-unique.html</guid>
@@ -28,10 +40,8 @@ Infrastructure security also plays a vital role in safeguarding generative AI sy
 
 Ultimately, securing generative AI requires a holistic approach that combines innovative security measures with traditional cybersecurity practices.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">By focusing on data integrity, robust monitoring, and comprehensive infrastructure controls, organizations can mitigate the unique risks posed by generative AI. This proactive approach ensures that AI systems are not only effective but also safe and trustworthy, enabling enterprises to fully leverage the potential of this groundbreaking technology while minimizing associated risks.</div>
 ]]></content:encoded>
-<pubDate>2024-11-05T08:30:00.000-05:00</pubDate>
 <pubDate>2024-11-05T08:30:08.626-05:00</pubDate>
 </item>
-
 <item>
 <title>Google Warns of Actively Exploited CVE-2024-43093 Vulnerability in Android System</title>
 <link>https://thehackernews.com/2024/11/google-warns-of-actively-exploited-cve.html</link>
