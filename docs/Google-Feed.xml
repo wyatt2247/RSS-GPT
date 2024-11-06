@@ -4,6 +4,885 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>GodFather Malware Expands Its Reach, Targeting 500 Banking And Crypto Applications Worldwide</title>
+<link>https://cyble.com/blog/godfather-malware-targets-500-banking-and-crypto-apps-worldwide/</link>
+<guid>https://cyble.com/blog/godfather-malware-targets-500-banking-and-crypto-apps-worldwide/</guid>
+<content:encoded><![CDATA[
+<div> <p><img alt="GodFather Malware" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/GodFather-Malware-1.webp" title="GodFather Malware Expands Its Reach, Targeting 500 Banking And Crypto Applications Worldwide 1" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Key Takeaways</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble Research and Intelligence Labs (CRIL) has identified a new variant of the GodFather malware, now targeting 500 banking and cryptocurrency apps.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Initially focused on regions like the UK, US, Turkey, Spain, and Italy, GodFather has expanded its reach to include Japan, Singapore, Greece, and Azerbaijan.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The GodFather malware has transitioned the Java code implementation to the Native code for its malicious activities.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>In its latest version, the GodFather malware uses limited&nbsp;permissions, relying heavily on Accessibility services to capture credentials from targeted applications.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>This updated variant also includes new commands that enable the malware to automate gestures on infected devices, mimicking user actions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The Threat Actor(TA) behind GodFather malware uses a phishing site to deliver the suspicious app&nbsp;and tracks visitor counts to plan further activity.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Overview</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Labs (CRIL) recently identified a phishing site, “mygov-au[.]app,” masquerading as the official MyGov website of the Australian Government. Upon further analysis, this site was found to be distributing a suspicious APK file linked to the GodFather Malware, known for its ability to steal banking application credentials.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71035,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71035" src="https://cyble.com/wp-content/uploads/2024/11/image.png" /><figcaption class="wp-element-caption"><em>Figure 1 – Phishing site impersonating myGov website distributing APK file</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The downloaded application, “MyGov.apk”, communicates with the URL “hxxps://az-inatv[.]com/.” This app is programmed to track the number of devices it is installed on, retrieve the device’s IP address, and store this information on the server in a text file. Figures 3 and 4 show the code of index.php and count.php responsible for getting the&nbsp;count and IP address.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71039,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71039" src="https://cyble.com/wp-content/uploads/2024/11/image-1.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 2 – Malware loading URL, which maintains the counter</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71043,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71043" src="https://cyble.com/wp-content/uploads/2024/11/image-2.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 3 – Getting counts and IP addresses</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71058,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71058" src="https://cyble.com/wp-content/uploads/2024/11/image-14.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 4 – Getting the&nbsp;IP address of an&nbsp;infected device</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The URL “hxxps://az-inatv[.]com/” hosted an open directory containing a file named <strong>counters.zip</strong>, which included the total count of infected devices and a list of IP addresses. Additionally, the directory featured a page labeled “down” that hosted another APK file called “lnat Tv Pro 2024.apk.” Upon analyzing this APK, it was identified as the GodFather Malware.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71047,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71047" src="https://cyble.com/wp-content/uploads/2024/11/image-5.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 5 – Open directory hosting counters.zip and GodFather malware</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Upon examining the <strong>counters.zip</strong> file, we found 151 counts in <strong>hit.txt</strong> and 59 unique IP addresses, reflecting the targeted device count. While the MyGov application collected this data, we suspect the TA may leverage this visitor information to identify potential victim counts and later use the same website to distribute the GodFather malware.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71057,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71057" src="https://cyble.com/wp-content/uploads/2024/11/image-13.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 6 – Counters.zip content</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Notably, we observed that the latest variant of the GodFather malware has moved from Java code to native code implementation. It is now targeting 500 banking and cryptocurrency applications and expanding its reach to Japan, Singapore, Azerbaijan, and Greece. Further details on this new variant of GodFather are provided in the following section.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Technical Details</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In the latest version, the GodFather malware operates with minimal&nbsp;permissions, relying heavily on the Accessibility service to carry out its malicious activities.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71055,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71055" src="https://cyble.com/wp-content/uploads/2024/11/image-12.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 7 – Manifest with limited permissions</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Native Code Implementation</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Starting our analysis with the classes specified in the manifest file, we observed that the <a href="https://cyble.com/knowledge-hub/what-is-malware/">malware</a> calls numerous native methods, which were previously implemented in Java code.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71054,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71054" src="https://cyble.com/wp-content/uploads/2024/11/image-11.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 8 – Calls to native methods</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These native functions implement various malicious capabilities, including loading an injection URL into the WebView, executing automated gestures, establishing connections with the Command and Control (C&amp;C) server, and keylogging.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71053,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71053" src="https://cyble.com/wp-content/uploads/2024/11/image-10.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 9 – Native code implementation</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>C&amp;C Server</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Similar to the&nbsp;previous variant, the latest samples also connect to the Telegram URL “hxxps://t.me/gafaramotamer,” where the TA has embedded a Base64-encoded C&amp;C URL. The malware retrieves and decodes this URL to “hxxps://akozamora[.]top/z.php.”</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71051,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71051" src="https://cyble.com/wp-content/uploads/2024/11/image-9.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 10 – Malware fetches C&amp;C server URL from Telegram Profile</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Targeting 500 Crypto and Banking Applications</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After decoding the URL, the malware begins communication by sending data such as the list of installed application package names, the device’s default language, model name, and SIM name. In return, it receives a list of 500 targeted application package names associated with banking and cryptocurrency apps. In addition to previous targets in the UK, US, Turkey, Spain, and Italy, GodFather has expanded its reach, now including Japan, Singapore, Greece, and Azerbaijan.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71050,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71050" src="https://cyble.com/wp-content/uploads/2024/11/image-8.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 11 – Receives the list of target application package names</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When the user tries to interact with the target application, the malware closes the genuine application. Instead, it loads a fake banking or crypto login URL into the WebView or displays a blank screen. It constructs the injection URL using the C&amp;C server “hxxps://akozamora[.]top/” and appends the endpoint “rx/f.php?f=” along with the device name, package name, and default language, then loads the assembled URL in the WebView.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71049,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71049" src="https://cyble.com/wp-content/uploads/2024/11/image-7.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 12 – Loading fake login pages</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The GodFather malware has successfully replaced the traditional overlay attack with this technique. Rather than launching the legitimate application, the malware activates itself and loads a phishing page to steal banking credentials.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Commands Added In New Version</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The previous version included commands for USSD and SMS operations, which have been removed in the latest version. Additionally, this malware version lacks permission to collect or send SMS messages from the infected device. Instead, the newly added commands focus primarily on automating actions on the infected device. Below is a list of commands observed in the latest version of the GodFather malware.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td>Command</td>
+<td>Description</td>
+</tr>
+<tr>
+<td>clickposition</td>
+<td>Malware clicks on the position X and Y received from the server</td>
+</tr>
+<tr>
+<td>backed</td>
+<td>Take the&nbsp;user to the previous screen</td>
+</tr>
+<tr>
+<td>home</td>
+<td>Take the user to the home screen</td>
+</tr>
+<tr>
+<td>recents</td>
+<td>Take the user to the recent screen</td>
+</tr>
+<tr>
+<td>scrollforward</td>
+<td>Malware scrolls the page forward using the&nbsp;given parameter</td>
+</tr>
+<tr>
+<td>scrollback</td>
+<td>It scrolls the page backward till using the&nbsp;provided parameter</td>
+</tr>
+<tr>
+<td>opencontrol</td>
+<td>Perform gestures on the&nbsp;target app</td>
+</tr>
+<tr>
+<td>setpattern</td>
+<td>Receives some value from the server and saves it to a shared preference variable “pc”</td>
+</tr>
+<tr>
+<td>screenlight</td>
+<td>Manages the&nbsp;brightness of the screen</td>
+</tr>
+<tr>
+<td>sl2</td>
+<td>Setting up a&nbsp;wake lock to keep the&nbsp;device awake</td>
+</tr>
+<tr>
+<td>sl3</td>
+<td>Similar to sl2</td>
+</tr>
+<tr>
+<td>autopattern</td>
+<td>The value received using “setpattern” command is used to insert on the device screen using the&nbsp;accessibility service.</td>
+</tr>
+<tr>
+<td>csn</td>
+<td>Set the timer to initiate the&nbsp;WebSocket connection</td>
+</tr>
+<tr>
+<td>swpfull</td>
+<td>Perform swipe operation</td>
+</tr>
+<tr>
+<td>upswp</td>
+<td>Perform swipe up</td>
+</tr>
+<tr>
+<td>downswp</td>
+<td>Perform swipe down</td>
+</tr>
+<tr>
+<td>leftswp</td>
+<td>Perform left swipe</td>
+</tr>
+<tr>
+<td>rightswp</td>
+<td>Perform right swipe</td>
+</tr>
+<tr>
+<td>vncreset</td>
+<td>Not Implemented</td>
+</tr>
+<tr>
+<td>opnap</td>
+<td>Open the application whose package name is received from the server</td>
+</tr>
+<tr>
+<td>gif</td>
+<td>Loads Gif from link “hxxps://s6.gifyu.com/images/S8uz3.gif”</td>
+</tr>
+<tr>
+<td>opnsttings</td>
+<td>Opens setting app</td>
+</tr>
+<tr>
+<td>opnsound</td>
+<td>Opens sound setting</td>
+</tr>
+<tr>
+<td>opnmsc</td>
+<td>Opens notification setting</td>
+</tr>
+<tr>
+<td>opnpckg</td>
+<td>Not Implemented</td>
+</tr>
+<tr>
+<td>notifyopen</td>
+<td>Opens notification using Accessibility service</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Conclusion</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The latest version of the GodFather malware shows how dangerous and adaptable mobile threats have become. By moving to native code and using fewer permissions, the attackers have made GodFather harder to analyze and better at stealing sensitive information from banking and cryptocurrency apps. With its new automated actions and broader targeting of apps in more countries, this malware poses a growing risk to users worldwide. Staying alert and using strong security practices on mobile devices is essential to avoid falling victim to threats like GodFather.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Our Recommendations</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>We have listed some essential cybersecurity best practices that create the first line of control against attackers. We recommend that our readers follow the best practices given below:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Download and install software only from official app stores like Google Play Store or the iOS App Store.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use a reputed anti-virus and internet security software package on your connected devices, such as PCs, laptops, and mobile devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use strong passwords and enforce multi-factor authentication wherever possible.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Enable biometric security features such as fingerprint or facial recognition for unlocking the mobile device where possible.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Be wary of opening any links received via SMS or emails delivered to your phone.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Ensure that Google Play Protect is enabled on Android devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Be careful while enabling any permissions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Keep your devices, operating systems, and applications updated.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>MITRE ATT&amp;CK® Techniques</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><a><strong>Tactic</strong></a></td>
+<td><strong>Technique ID</strong></td>
+<td><strong>Procedure</strong></td>
+</tr>
+<tr>
+<td><strong>Initial Access (</strong><a href="https://attack.mitre.org/tactics/TA0027">TA0027</a><strong>)</strong></td>
+<td>Phishing (<a href="https://attack.mitre.org/techniques/T1660/">T1660</a>)</td>
+<td>Malware distributing via phishing site</td>
+</tr>
+<tr>
+<td><strong>Execution (</strong><a href="https://attack.mitre.org/tactics/TA0041">TA0041</a><strong>)</strong></td>
+<td>Native API (<a href="https://attack.mitre.org/techniques/T1575/">T1575</a>)</td>
+<td>Malware using native code to drop final payload</td>
+</tr>
+<tr>
+<td><strong>Persistence (</strong><a href="https://attack.mitre.org/tactics/TA0028">TA0028</a><strong>)</strong></td>
+<td>Scheduled Task/Job (<a href="https://attack.mitre.org/techniques/T1603/">T1603</a>) &nbsp;</td>
+<td>Uses timer to initiate WebSocket connection</td>
+</tr>
+<tr>
+<td><strong>Defense Evasion (</strong><a href="https://attack.mitre.org/tactics/TA0030/"><strong>TA0030</strong></a><strong>)</strong><strong></strong></td>
+<td>Masquerading: Match Legitimate Name or Location (<a href="https://attack.mitre.org/techniques/T1655/001/">T1655.001</a>)</td>
+<td>Malware pretending to be a genuine Music application</td>
+</tr>
+<tr>
+<td><strong>Defense Evasion (</strong><a href="https://attack.mitre.org/tactics/TA0030/"><strong>TA0030</strong></a><strong>)</strong><strong></strong></td>
+<td>Application Discovery (<a href="https://attack.mitre.org/versions/v10/techniques/T1418/">T1418</a>)</td>
+<td>Collects installed application package name list to identify target</td>
+</tr>
+<tr>
+<td><strong>Defense Evasion (</strong><a href="https://attack.mitre.org/tactics/TA0030/"><strong>TA0030</strong></a><strong>)</strong><strong></strong></td>
+<td>Input Injection (<a href="https://attack.mitre.org/techniques/T1516/">T1516</a>)</td>
+<td>Malware can mimic user interaction, perform clicks and various gestures, and input data</td>
+</tr>
+<tr>
+<td><strong>Collection (</strong><a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a><strong>)</strong></td>
+<td>Input Capture: Keylogging (<a href="https://attack.mitre.org/techniques/T1417/001/">T1417.001</a>)</td>
+<td>Malware can capture keystrokes</td>
+</tr>
+<tr>
+<td><strong>Discovery (</strong><a href="https://attack.mitre.org/tactics/TA0032">TA0032</a><strong>)</strong></td>
+<td>System Information Discovery (<a href="https://attack.mitre.org/techniques/T1426/">T1426</a>)</td>
+<td>The malware collects basic device information.</td>
+</tr>
+<tr>
+<td><strong>Command and Control (</strong><a href="https://attack.mitre.org/tactics/TA0037">TA0037</a><strong>)</strong></td>
+<td>Web Service:&nbsp;Dead Drop Resolver (<a href="https://attack.mitre.org/techniques/T1481/001/">T1481.001</a>)</td>
+<td>Malware communicates with Telegram to fetch C&amp;C server</td>
+</tr>
+<tr>
+<td><strong>Exfiltration (</strong><a href="https://attack.mitre.org/tactics/TA0036/"><strong>TA0036</strong></a><strong>)</strong></td>
+<td>Exfiltration Over C2 Channel (<a href="https://attack.mitre.org/techniques/T1646/">T1646</a>)</td>
+<td>Sending exfiltrated data over C&amp;C server</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Indicators of Compromise (IOCs)</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicators</strong></td>
+<td><strong>Indicator Type</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>d8165712329fa120b5cc696514b5dd0d7043fbf7d6b6ef5f767348e0ba31aa6e e789b03b60ad99727ea65b52ce931482fb70814e 87ccf62e07cf69c25a204bffdbc89630</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Analyzed GodFather malware</td>
+</tr>
+<tr>
+<td>hxxps://akozamora[.]top/ <strong>&nbsp;</strong></td>
+<td>URL</td>
+<td>C&amp;C server</td>
+</tr>
+<tr>
+<td><strong>hxxps://t.me/gafaramotamer</strong></td>
+<td>URL</td>
+<td>Malware fetching C&amp;C from Telegram URL</td>
+</tr>
+<tr>
+<td><strong>hxxps://az-inatv[.]com</strong><strong></strong></td>
+<td>URL</td>
+<td>URL hosting new GodFather variant</td>
+</tr>
+<tr>
+<td><strong>mygov-au[.]app</strong><strong></strong></td>
+<td>Domain</td>
+<td>Phishing domain distributing counter app</td>
+</tr>
+<tr>
+<td>8ae2fcc8bef4d9a0ae3d1ac5356dbd85a4f332ad497375cd217bd1e945e64692 d57ef894b53f804c97d40c3e365faf729ce2ea7386b280f9909ebc8432008eee d508078368d8775fcfff5a7886392da57fcf757c89687f22c0504c3df9075b00 b3d3019ed0a4602fb7e502e54ac12a59da1a0ed7b6736feb98ce7c417091b2e6 3aa7e2353c2de16734f612eba7b43a2538d96f73702a6c25283d6ef0c9300a4c 1ce2a392dd2c1df22dfeb080c7ad290d63e3afe983729927b2f15c6705861070 d8165712329fa120b5cc696514b5dd0d7043fbf7d6b6ef5f767348e0ba31aa6e d8165712329fa120b5cc696514b5dd0d7043fbf7d6b6ef5f767348e0ba31aa6e 0c9e2ae9c699374f06a6d38cf2ea41232fc8a712e110be8069b08659fdf50514 19ed4f67710d455da42017de28688f5e55ed36809cc70252d825ac81713e95d1 7b4543cc4df1fc57af2cd9a892b2fab3647bdceb027d576217724a8c012a2065 2b1b527b87929a13f0c33391c641b3013da099fd7de10695d762da097bc13ffc 2b1b527b87929a13f0c33391c641b3013da099fd7de10695d762da097bc13ffc 72d40ff8ad114724b8d4e0350f81f797866c0f271844aeddc3b92f33faa6fbc0</td>
+<td>SHA256</td>
+<td>New GodFather variant hashes</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/godfather-malware-targets-500-banking-and-crypto-apps-worldwide/" rel="nofollow">GodFather Malware Expands Its Reach, Targeting 500 Banking And Crypto Applications Worldwide</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p> <div>
+<p><img alt="GodFather Malware" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/GodFather-Malware-1.webp" title="GodFather Malware Expands Its Reach, Targeting 500 Banking And Crypto Applications Worldwide 1" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Key Takeaways</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble Research and Intelligence Labs (CRIL) has identified a new variant of the GodFather malware, now targeting 500 banking and cryptocurrency apps.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Initially focused on regions like the UK, US, Turkey, Spain, and Italy, GodFather has expanded its reach to include Japan, Singapore, Greece, and Azerbaijan.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The GodFather malware has transitioned the Java code implementation to the Native code for its malicious activities.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>In its latest version, the GodFather malware uses limited&nbsp;permissions, relying heavily on Accessibility services to capture credentials from targeted applications.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>This updated variant also includes new commands that enable the malware to automate gestures on infected devices, mimicking user actions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The Threat Actor(TA) behind GodFather malware uses a phishing site to deliver the suspicious app&nbsp;and tracks visitor counts to plan further activity.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Overview</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Labs (CRIL) recently identified a phishing site, “mygov-au[.]app,” masquerading as the official MyGov website of the Australian Government. Upon further analysis, this site was found to be distributing a suspicious APK file linked to the GodFather Malware, known for its ability to steal banking application credentials.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71035,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71035" src="https://cyble.com/wp-content/uploads/2024/11/image.png" /><figcaption class="wp-element-caption"><em>Figure 1 – Phishing site impersonating myGov website distributing APK file</em></figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The downloaded application, “MyGov.apk”, communicates with the URL “hxxps://az-inatv[.]com/.” This app is programmed to track the number of devices it is installed on, retrieve the device’s IP address, and store this information on the server in a text file. Figures 3 and 4 show the code of index.php and count.php responsible for getting the&nbsp;count and IP address.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71039,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71039" src="https://cyble.com/wp-content/uploads/2024/11/image-1.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 2 – Malware loading URL, which maintains the counter</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71043,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71043" src="https://cyble.com/wp-content/uploads/2024/11/image-2.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 3 – Getting counts and IP addresses</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71058,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71058" src="https://cyble.com/wp-content/uploads/2024/11/image-14.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 4 – Getting the&nbsp;IP address of an&nbsp;infected device</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The URL “hxxps://az-inatv[.]com/” hosted an open directory containing a file named <strong>counters.zip</strong>, which included the total count of infected devices and a list of IP addresses. Additionally, the directory featured a page labeled “down” that hosted another APK file called “lnat Tv Pro 2024.apk.” Upon analyzing this APK, it was identified as the GodFather Malware.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71047,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71047" src="https://cyble.com/wp-content/uploads/2024/11/image-5.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 5 – Open directory hosting counters.zip and GodFather malware</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Upon examining the <strong>counters.zip</strong> file, we found 151 counts in <strong>hit.txt</strong> and 59 unique IP addresses, reflecting the targeted device count. While the MyGov application collected this data, we suspect the TA may leverage this visitor information to identify potential victim counts and later use the same website to distribute the GodFather malware.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71057,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71057" src="https://cyble.com/wp-content/uploads/2024/11/image-13.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 6 – Counters.zip content</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Notably, we observed that the latest variant of the GodFather malware has moved from Java code to native code implementation. It is now targeting 500 banking and cryptocurrency applications and expanding its reach to Japan, Singapore, Azerbaijan, and Greece. Further details on this new variant of GodFather are provided in the following section.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Technical Details</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In the latest version, the GodFather malware operates with minimal&nbsp;permissions, relying heavily on the Accessibility service to carry out its malicious activities.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71055,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71055" src="https://cyble.com/wp-content/uploads/2024/11/image-12.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 7 – Manifest with limited permissions</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Native Code Implementation</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Starting our analysis with the classes specified in the manifest file, we observed that the <a href="https://cyble.com/knowledge-hub/what-is-malware/">malware</a> calls numerous native methods, which were previously implemented in Java code.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71054,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71054" src="https://cyble.com/wp-content/uploads/2024/11/image-11.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 8 – Calls to native methods</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These native functions implement various malicious capabilities, including loading an injection URL into the WebView, executing automated gestures, establishing connections with the Command and Control (C&amp;C) server, and keylogging.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71053,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71053" src="https://cyble.com/wp-content/uploads/2024/11/image-10.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 9 – Native code implementation</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>C&amp;C Server</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Similar to the&nbsp;previous variant, the latest samples also connect to the Telegram URL “hxxps://t.me/gafaramotamer,” where the TA has embedded a Base64-encoded C&amp;C URL. The malware retrieves and decodes this URL to “hxxps://akozamora[.]top/z.php.”</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71051,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71051" src="https://cyble.com/wp-content/uploads/2024/11/image-9.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 10 – Malware fetches C&amp;C server URL from Telegram Profile</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Targeting 500 Crypto and Banking Applications</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After decoding the URL, the malware begins communication by sending data such as the list of installed application package names, the device’s default language, model name, and SIM name. In return, it receives a list of 500 targeted application package names associated with banking and cryptocurrency apps. In addition to previous targets in the UK, US, Turkey, Spain, and Italy, GodFather has expanded its reach, now including Japan, Singapore, Greece, and Azerbaijan.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71050,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71050" src="https://cyble.com/wp-content/uploads/2024/11/image-8.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 11 – Receives the list of target application package names</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When the user tries to interact with the target application, the malware closes the genuine application. Instead, it loads a fake banking or crypto login URL into the WebView or displays a blank screen. It constructs the injection URL using the C&amp;C server “hxxps://akozamora[.]top/” and appends the endpoint “rx/f.php?f=” along with the device name, package name, and default language, then loads the assembled URL in the WebView.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71049,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-71049" src="https://cyble.com/wp-content/uploads/2024/11/image-7.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><em>Figure 12 – Loading fake login pages</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The GodFather malware has successfully replaced the traditional overlay attack with this technique. Rather than launching the legitimate application, the malware activates itself and loads a phishing page to steal banking credentials.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Commands Added In New Version</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The previous version included commands for USSD and SMS operations, which have been removed in the latest version. Additionally, this malware version lacks permission to collect or send SMS messages from the infected device. Instead, the newly added commands focus primarily on automating actions on the infected device. Below is a list of commands observed in the latest version of the GodFather malware.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td>Command</td>
+<td>Description</td>
+</tr>
+<tr>
+<td>clickposition</td>
+<td>Malware clicks on the position X and Y received from the server</td>
+</tr>
+<tr>
+<td>backed</td>
+<td>Take the&nbsp;user to the previous screen</td>
+</tr>
+<tr>
+<td>home</td>
+<td>Take the user to the home screen</td>
+</tr>
+<tr>
+<td>recents</td>
+<td>Take the user to the recent screen</td>
+</tr>
+<tr>
+<td>scrollforward</td>
+<td>Malware scrolls the page forward using the&nbsp;given parameter</td>
+</tr>
+<tr>
+<td>scrollback</td>
+<td>It scrolls the page backward till using the&nbsp;provided parameter</td>
+</tr>
+<tr>
+<td>opencontrol</td>
+<td>Perform gestures on the&nbsp;target app</td>
+</tr>
+<tr>
+<td>setpattern</td>
+<td>Receives some value from the server and saves it to a shared preference variable “pc”</td>
+</tr>
+<tr>
+<td>screenlight</td>
+<td>Manages the&nbsp;brightness of the screen</td>
+</tr>
+<tr>
+<td>sl2</td>
+<td>Setting up a&nbsp;wake lock to keep the&nbsp;device awake</td>
+</tr>
+<tr>
+<td>sl3</td>
+<td>Similar to sl2</td>
+</tr>
+<tr>
+<td>autopattern</td>
+<td>The value received using “setpattern” command is used to insert on the device screen using the&nbsp;accessibility service.</td>
+</tr>
+<tr>
+<td>csn</td>
+<td>Set the timer to initiate the&nbsp;WebSocket connection</td>
+</tr>
+<tr>
+<td>swpfull</td>
+<td>Perform swipe operation</td>
+</tr>
+<tr>
+<td>upswp</td>
+<td>Perform swipe up</td>
+</tr>
+<tr>
+<td>downswp</td>
+<td>Perform swipe down</td>
+</tr>
+<tr>
+<td>leftswp</td>
+<td>Perform left swipe</td>
+</tr>
+<tr>
+<td>rightswp</td>
+<td>Perform right swipe</td>
+</tr>
+<tr>
+<td>vncreset</td>
+<td>Not Implemented</td>
+</tr>
+<tr>
+<td>opnap</td>
+<td>Open the application whose package name is received from the server</td>
+</tr>
+<tr>
+<td>gif</td>
+<td>Loads Gif from link “hxxps://s6.gifyu.com/images/S8uz3.gif”</td>
+</tr>
+<tr>
+<td>opnsttings</td>
+<td>Opens setting app</td>
+</tr>
+<tr>
+<td>opnsound</td>
+<td>Opens sound setting</td>
+</tr>
+<tr>
+<td>opnmsc</td>
+<td>Opens notification setting</td>
+</tr>
+<tr>
+<td>opnpckg</td>
+<td>Not Implemented</td>
+</tr>
+<tr>
+<td>notifyopen</td>
+<td>Opens notification using Accessibility service</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Conclusion</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The latest version of the GodFather malware shows how dangerous and adaptable mobile threats have become. By moving to native code and using fewer permissions, the attackers have made GodFather harder to analyze and better at stealing sensitive information from banking and cryptocurrency apps. With its new automated actions and broader targeting of apps in more countries, this malware poses a growing risk to users worldwide. Staying alert and using strong security practices on mobile devices is essential to avoid falling victim to threats like GodFather.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Our Recommendations</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>We have listed some essential cybersecurity best practices that create the first line of control against attackers. We recommend that our readers follow the best practices given below:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Download and install software only from official app stores like Google Play Store or the iOS App Store.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use a reputed anti-virus and internet security software package on your connected devices, such as PCs, laptops, and mobile devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Use strong passwords and enforce multi-factor authentication wherever possible.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Enable biometric security features such as fingerprint or facial recognition for unlocking the mobile device where possible.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Be wary of opening any links received via SMS or emails delivered to your phone.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Ensure that Google Play Protect is enabled on Android devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Be careful while enabling any permissions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Keep your devices, operating systems, and applications updated.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>MITRE ATT&amp;CK® Techniques</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><a><strong>Tactic</strong></a></td>
+<td><strong>Technique ID</strong></td>
+<td><strong>Procedure</strong></td>
+</tr>
+<tr>
+<td><strong>Initial Access (</strong><a href="https://attack.mitre.org/tactics/TA0027">TA0027</a><strong>)</strong></td>
+<td>Phishing (<a href="https://attack.mitre.org/techniques/T1660/">T1660</a>)</td>
+<td>Malware distributing via phishing site</td>
+</tr>
+<tr>
+<td><strong>Execution (</strong><a href="https://attack.mitre.org/tactics/TA0041">TA0041</a><strong>)</strong></td>
+<td>Native API (<a href="https://attack.mitre.org/techniques/T1575/">T1575</a>)</td>
+<td>Malware using native code to drop final payload</td>
+</tr>
+<tr>
+<td><strong>Persistence (</strong><a href="https://attack.mitre.org/tactics/TA0028">TA0028</a><strong>)</strong></td>
+<td>Scheduled Task/Job (<a href="https://attack.mitre.org/techniques/T1603/">T1603</a>) &nbsp;</td>
+<td>Uses timer to initiate WebSocket connection</td>
+</tr>
+<tr>
+<td><strong>Defense Evasion (</strong><a href="https://attack.mitre.org/tactics/TA0030/"><strong>TA0030</strong></a><strong>)</strong><strong></strong></td>
+<td>Masquerading: Match Legitimate Name or Location (<a href="https://attack.mitre.org/techniques/T1655/001/">T1655.001</a>)</td>
+<td>Malware pretending to be a genuine Music application</td>
+</tr>
+<tr>
+<td><strong>Defense Evasion (</strong><a href="https://attack.mitre.org/tactics/TA0030/"><strong>TA0030</strong></a><strong>)</strong><strong></strong></td>
+<td>Application Discovery (<a href="https://attack.mitre.org/versions/v10/techniques/T1418/">T1418</a>)</td>
+<td>Collects installed application package name list to identify target</td>
+</tr>
+<tr>
+<td><strong>Defense Evasion (</strong><a href="https://attack.mitre.org/tactics/TA0030/"><strong>TA0030</strong></a><strong>)</strong><strong></strong></td>
+<td>Input Injection (<a href="https://attack.mitre.org/techniques/T1516/">T1516</a>)</td>
+<td>Malware can mimic user interaction, perform clicks and various gestures, and input data</td>
+</tr>
+<tr>
+<td><strong>Collection (</strong><a href="https://attack.mitre.org/tactics/TA0035/">TA0035</a><strong>)</strong></td>
+<td>Input Capture: Keylogging (<a href="https://attack.mitre.org/techniques/T1417/001/">T1417.001</a>)</td>
+<td>Malware can capture keystrokes</td>
+</tr>
+<tr>
+<td><strong>Discovery (</strong><a href="https://attack.mitre.org/tactics/TA0032">TA0032</a><strong>)</strong></td>
+<td>System Information Discovery (<a href="https://attack.mitre.org/techniques/T1426/">T1426</a>)</td>
+<td>The malware collects basic device information.</td>
+</tr>
+<tr>
+<td><strong>Command and Control (</strong><a href="https://attack.mitre.org/tactics/TA0037">TA0037</a><strong>)</strong></td>
+<td>Web Service:&nbsp;Dead Drop Resolver (<a href="https://attack.mitre.org/techniques/T1481/001/">T1481.001</a>)</td>
+<td>Malware communicates with Telegram to fetch C&amp;C server</td>
+</tr>
+<tr>
+<td><strong>Exfiltration (</strong><a href="https://attack.mitre.org/tactics/TA0036/"><strong>TA0036</strong></a><strong>)</strong></td>
+<td>Exfiltration Over C2 Channel (<a href="https://attack.mitre.org/techniques/T1646/">T1646</a>)</td>
+<td>Sending exfiltrated data over C&amp;C server</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Indicators of Compromise (IOCs)</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicators</strong></td>
+<td><strong>Indicator Type</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>d8165712329fa120b5cc696514b5dd0d7043fbf7d6b6ef5f767348e0ba31aa6e e789b03b60ad99727ea65b52ce931482fb70814e 87ccf62e07cf69c25a204bffdbc89630</td>
+<td>SHA256 SHA1 MD5</td>
+<td>Analyzed GodFather malware</td>
+</tr>
+<tr>
+<td>hxxps://akozamora[.]top/ <strong>&nbsp;</strong></td>
+<td>URL</td>
+<td>C&amp;C server</td>
+</tr>
+<tr>
+<td><strong>hxxps://t.me/gafaramotamer</strong></td>
+<td>URL</td>
+<td>Malware fetching C&amp;C from Telegram URL</td>
+</tr>
+<tr>
+<td><strong>hxxps://az-inatv[.]com</strong><strong></strong></td>
+<td>URL</td>
+<td>URL hosting new GodFather variant</td>
+</tr>
+<tr>
+<td><strong>mygov-au[.]app</strong><strong></strong></td>
+<td>Domain</td>
+<td>Phishing domain distributing counter app</td>
+</tr>
+<tr>
+<td>8ae2fcc8bef4d9a0ae3d1ac5356dbd85a4f332ad497375cd217bd1e945e64692 d57ef894b53f804c97d40c3e365faf729ce2ea7386b280f9909ebc8432008eee d508078368d8775fcfff5a7886392da57fcf757c89687f22c0504c3df9075b00 b3d3019ed0a4602fb7e502e54ac12a59da1a0ed7b6736feb98ce7c417091b2e6 3aa7e2353c2de16734f612eba7b43a2538d96f73702a6c25283d6ef0c9300a4c 1ce2a392dd2c1df22dfeb080c7ad290d63e3afe983729927b2f15c6705861070 d8165712329fa120b5cc696514b5dd0d7043fbf7d6b6ef5f767348e0ba31aa6e d8165712329fa120b5cc696514b5dd0d7043fbf7d6b6ef5f767348e0ba31aa6e 0c9e2ae9c699374f06a6d38cf2ea41232fc8a712e110be8069b08659fdf50514 19ed4f67710d455da42017de28688f5e55ed36809cc70252d825ac81713e95d1 7b4543cc4df1fc57af2cd9a892b2fab3647bdceb027d576217724a8c012a2065 2b1b527b87929a13f0c33391c641b3013da099fd7de10695d762da097bc13ffc 2b1b527b87929a13f0c33391c641b3013da099fd7de10695d762da097bc13ffc 72d40ff8ad114724b8d4e0350f81f797866c0f271844aeddc3b92f33faa6fbc0</td>
+<td>SHA256</td>
+<td>New GodFather variant hashes</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/godfather-malware-targets-500-banking-and-crypto-apps-worldwide/" rel="nofollow">GodFather Malware Expands Its Reach, Targeting 500 Banking And Crypto Applications Worldwide</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 06 Nov 2024 12:54:40 +0000</pubDate>
+<pubDate>Wed, 06 Nov 2024 12:54:40 +0000</pubDate>
+</item>
 
 <item>
 <title>LightSpy Update Expands Surveillance on iOS Devices</title>
