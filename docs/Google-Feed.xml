@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>LightSpy Update Expands Surveillance on iOS Devices</title>
 <link>https://www.cysecurity.news/2024/11/lightspy-update-expands-surveillance-on.html</link>
@@ -56,7 +57,6 @@ Using ThreatFabric's recommendation as a guide to iOS users, they are advised to
 
 Most likely, the infection takes place through the use of lures, which lead to infected websites used by the intended victim groups, i.e. so-called watering holes on the Internet.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">For users concerned about potential vulnerability to such attacks, ThreatFabric advises a regular reboot if their iOS is not up-to-date. Although rebooting will not prevent the spyware from re-infecting the device, it can reduce the amount of data attackers can extract. Keeping the device restarted regularly provides an additional layer of defence by temporarily disrupting spyware's ability to persistently gather sensitive information.</div>
 ]]></content:encoded>
-<pubDate>2024-11-06T01:16:00.000-05:00</pubDate>
 <pubDate>2024-11-06T01:16:02.632-05:00</pubDate>
 </item>
 <item>
@@ -64,14 +64,11 @@ Most likely, the infection takes place through the use of lures, which lead to i
 <link>https://thehackernews.com/2024/11/google-cloud-to-enforce-multi-factor.html</link>
 <guid>https://thehackernews.com/2024/11/google-cloud-to-enforce-multi-factor.html</guid>
 <content:encoded><![CDATA[
-
 Google's cloud division has announced that it will enforce mandatory multi-factor authentication (MFA) for all users by the end of 2025 as part of its efforts to improve account security.
 "We will be implementing mandatory MFA for Google Cloud in a phased approach that will roll out to all users worldwide during 2025," Mayank Upadhyay, vice president of engineering and distinguished engineer at
 ]]></content:encoded>
 <pubDate>Wed, 06 Nov 2024 11:07:00 +0530</pubDate>
-<pubDate>Wed, 06 Nov 2024 11:07:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Google Cloud to make MFA mandatory by the end of 2025</title>
 <link>https://www.bleepingcomputer.com/news/security/google-cloud-to-make-mfa-mandatory-by-the-end-of-2025/</link>
