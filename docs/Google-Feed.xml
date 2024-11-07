@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Gmail Under Attack: Secure a Backup Account</title>
 <link>https://www.cysecurity.news/2024/11/gmail-under-attack-secure-backup-account.html</link>
@@ -68,10 +69,8 @@ Once the secondary email account has been established, the next step involves se
 
 Although having email forwarding in place adds an extra layer of security, it’s important to note that, even if a malicious actor gains access to the original account, the secondary account remains secure as a standalone entity. Since the two accounts are independent of each other, each would need to be compromised separately for a complete breach to occur. This setup minimizes risks and provides an effective, manageable backup.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In an era of increasingly sophisticated digital threats, proactively securing Gmail accounts has become a crucial task for individuals and organizations alike. Setting up a secondary account with distinct, robust security measures enhances protection and acts as a safeguard for sensitive data. Users who adopt additional defences—such as two-factor authentication (2FA) and other advanced security practices—are in a far better position to counteract potential cyberattacks. Today’s threat landscape demands a strategic approach to email security, where even the most secure accounts can face risks. Through these proactive steps, individuals create a resilient backup framework, ensuring their data remains accessible and protected regardless of evolving threats.</div>
 ]]></content:encoded>
-<pubDate>2024-11-07T05:29:00.000-05:00</pubDate>
 <pubDate>2024-11-07T05:29:14.721-05:00</pubDate>
 </item>
-
 <item>
 <title>Google Cloud to Enforce MFA on Accounts in 2025</title>
 <link>https://www.darkreading.com/identity-access-management-security/google-cloud-enforce-mfa-2025</link>

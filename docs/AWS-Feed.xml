@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Malicious PyPI Package ‘Fabrice’ Found Stealing AWS Keys from Thousands of Developers</title>
 <link>https://thehackernews.com/2024/11/malicious-pypi-package-fabrice-found.html</link>
@@ -15,9 +16,7 @@ Cybersecurity researchers have discovered a malicious package on the Python Pack
 The package in question is "fabrice," which typosquats a popular Python library known as "fabric," which is designed to execute shell commands remotely over
 ]]></content:encoded>
 <pubDate>Thu, 07 Nov 2024 14:37:00 +0530</pubDate>
-<pubDate>Thu, 07 Nov 2024 14:37:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Microsoft Warns of Russian Spear-Phishing Campaign Targeting Multiple Organizations</title>
 <link>https://www.cysecurity.news/2024/11/microsoft-warns-of-russian-spear.html</link>
