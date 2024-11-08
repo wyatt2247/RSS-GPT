@@ -4,6 +4,52 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Google's mysterious 'search.app' links leave Android users concerned</title>
+<link>https://www.bleepingcomputer.com/news/security/googles-mysterious-searchapp-links-leave-android-users-concerned/</link>
+<guid>https://www.bleepingcomputer.com/news/security/googles-mysterious-searchapp-links-leave-android-users-concerned/</guid>
+<content:encoded><![CDATA[
+<div> The most recent update to the Google Android app has startled users as they notice the mysterious "search.app" links being generated when sharing content and links from the Google app externally. [...] <div>
+The most recent update to the Google Android app has startled users as they notice the mysterious "search.app" links being generated when sharing content and links from the Google app externally. [...]
+]]></content:encoded>
+<pubDate>Fri, 08 Nov 2024 07:56:50 -0500</pubDate>
+<pubDate>Fri, 08 Nov 2024 07:56:50 -0500</pubDate>
+</item>
+<item>
+<title>SpyAgent malware targets crypto wallets by stealing screenshots</title>
+<link>https://securityintelligence.com/articles/spyagent-malware-targets-crypto-wallets-stealing-screenshots/</link>
+<guid>https://securityintelligence.com/articles/spyagent-malware-targets-crypto-wallets-stealing-screenshots/</guid>
+<content:encoded><![CDATA[
+
+<p>A new Android malware strain known as <a href="https://www.bleepingcomputer.com/news/security/spyagent-android-malware-steals-your-crypto-recovery-phrases-from-images/" rel="noopener nofollow" target="_blank">SpyAgent</a> is making the rounds &mdash; and stealing screenshots as it goes. Using optical character recognition (OCR) technology, the malware is after cryptocurrency recovery phrases often stored in screenshots on user devices.</p>
+<p>Here&rsquo;s how to dodge the bullet.</p>
+<h2>Attackers shooting their (screen) shot</h2>
+<p>Attacks start &mdash; as always &mdash; with <a href="https://www.ibm.com/topics/phishing" rel="noopener nofollow" target="_blank">phishing</a> efforts. Users receive text messages prompting them to download seemingly legitimate apps. If they take the bait and install the app, the SpyAgent <a href="https://www.ibm.com/topics/malware" rel="noopener nofollow" target="_blank">malware</a> gets to work.</p>
+<p>Its target? Screenshots of the 12-24-word recovery phrases used for cryptocurrency wallets. Since these phrases are too long to easily remember, users often take screenshots for future reference. If attackers compromise these screen captures, they can recover crypto wallets to the device of their choosing, allowing them to steal all the digital currency they contain. And once funds are gone, they&rsquo;re gone &mdash; the nature of cryptocurrency protocols means that when transactions are completed, they can&rsquo;t be reversed. If money is sent to the wrong address, senders must ask recipients to create and complete a return transaction.</p>
+<p>If users screenshot their recovery phrase and have it stolen by SpyAgent, attackers need only recover the wallet and transfer funds to the destination of their choice.</p>
+<p>The malware has been making the rounds in South Korea, with more than 280 APKs affected, according to <a href="https://cointelegraph.com/news/new-android-malware-steals-private-keys-from-images" rel="noopener nofollow" target="_blank">Coin Telegraph.</a> These applications are distributed outside the official Google Play store, often using SMS messages or social media posts to capture user interest. Some of the infected apps mimic South Korean or UK government services, while others appear to be dating or adult content applications.</p>
+<p>There are also indications that attackers may be preparing to expand into the United Kingdom, which could, in turn, lead to more widespread compromise. And while the malware is currently Android-only, there are signs that an iOS version may be in development.</p>
+<a class="btn orange1 large" href="https://www.ibm.com/x-force">Learn more about IBM X-Force</a>
+<h2>Beyond cryptocurrency: Potential risks of sneaky screenshot steals</h2>
+<p>While cryptocurrency recovery phrases are the top priority for SpyAgent, using OCR tech means that any picture is up for grabs. For example, if business devices have screenshots of usernames and passwords for databases or analytics tools, company assets could be at risk. Consider a manager with access to multiple secure services, each requiring a unique password to help reduce compromise risk. In an effort to keep passwords safe but still have them available on-demand, our well-meaning manager makes a list and takes a screenshot of their different credential combinations. Because they believe their device is secure, the company is using solutions such as <a href="https://www.ibm.com/topics/multi-factor-authentication" rel="noopener nofollow" target="_blank">multi-factor authentication (MFA)</a> and secure <a href="https://www.ibm.com/topics/single-sign-on" rel="noopener nofollow" target="_blank">single sign-on (SSO)</a>, and they don&rsquo;t see their screenshot as a risk.</p>
+<p>If hackers convince them to click through and download infected applications, however, attackers can view and steal saved image data and then use this data to &ldquo;legitimately&rdquo; gain account access.</p>
+<p>Another potential risk comes from personal data. Users may have screenshots of personal health or financial data, which puts them at risk of data exfiltration and identity fraud. They might also have confidential contact details for business partners or executives, opening the door to another round of phishing attacks.</p>
+<p>This picture-based approach to compromise creates two problems for security teams. First is the time required for detection. It takes businesses 258 days on average to detect and contain an incident, as noted by the <a href="https://newsroom.ibm.com/2024-07-30-ibm-report-escalating-data-breach-disruption-pushes-costs-to-new-highs" rel="noopener nofollow" target="_blank">IBM 2024 Cost of a Data Breach Report.</a> But this number only applies if security is firing on all cylinders. If mobile devices are compromised by user actions, and the malware&rsquo;s sole purpose is to find and steal screenshots, the issue could go unnoticed for far longer, especially if attackers bide their time.</p>
+<p>Once criminals make the move to strike, meanwhile, the damage may be significant. Using stolen credentials, attackers can gain access to critical services and lockout account owners. From there, they can capture and exfiltrate data across a host of IT systems and services. While this direct action will alert IT teams, security response is naturally reactionary, meaning companies can&rsquo;t avoid the attack; they mitigate the damage.</p>
+<h2>Dodging the bullet</h2>
+<p>The message here is simple: If it&rsquo;s on your phone, it&rsquo;s never entirely safe. Screenshots of crypto recovery passwords, corporate logins and passwords or personal data such as Social Security numbers or bank account details are valuable targets for attackers.</p>
+<p>Dodging the bullet also means not taking the bait &mdash; don&rsquo;t respond to unsolicited texts and only download apps through approved app stores. It also means taking precautions. The always-connected nature of devices means that complete safety is an illusion. The less stored on a device, the better.</p>
+<p>Users can keep devices safe by sticking to the official Google Play Store. Applications downloaded outside of the Play Store come with no guarantees about their safety or security. Some are benign apps that haven&rsquo;t passed Google&rsquo;s screening process. Others are near-duplicates of official applications that contain hidden files or commands. And some are simply vehicles to install malware and connect with command and control (C2) servers.</p>
+<p>In addition, companies can benefit from the deployment of <a href="https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/ai-cybersecurity" rel="noopener nofollow" target="_blank">security automation and AI security tools</a>. These solutions are capable of capturing and correlating patterns of behavior that may appear benign but are collective indicators of compromise (IoCs). As noted by IBM data, businesses that extensively used AI and automation were able to detect and contain breaches 98 days faster than the global average.</p>
+<h2>I, Spy</h2>
+<p>The SpyAgent malware is now skulking around South Korea, stealing screenshots to capture crypto recovery passwords, and putting companies at risk of larger-scale data compromise.</p>
+<p>The best defense? A trifecta of sparing screenshot saves, suspicion about off-brand apps and the deployment of superior intelligence solutions.</p>
+
+<p>The post <a href="https://securityintelligence.com/articles/spyagent-malware-targets-crypto-wallets-stealing-screenshots/" rel="nofollow">SpyAgent malware targets crypto wallets by stealing screenshots</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p>
+]]></content:encoded>
+<pubDate>Fri, 08 Nov 2024 14:00:00 +0000</pubDate>
+<pubDate>Fri, 08 Nov 2024 14:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>A Vulnerability in Android OS Could Allow for Remote Code Execution</title>
