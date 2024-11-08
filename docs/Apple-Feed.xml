@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Multiple Vulnerabilities in the Mazda In-Vehicle Infotainment (IVI) System</title>
 <link>https://www.thezdi.com/blog/2024/11/7/multiple-vulnerabilities-in-the-mazda-in-vehicle-infotainment-ivi-system</link>
@@ -1677,9 +1678,7 @@
   <h1>Conclusions</h1><p class="">This research effort and its output highlighted the fact that high-impact vulnerabilities can be found even in a very mature automotive product that has been on the market for a number of years and with a long history of security fixes. To date, these vulnerabilities remain unpatched by the vendor.</p><p class="">There has been a lot of focus and discussion recently in the security community about the importance of language security and “memory safe” languages. This set of real-world vulnerabilities is a good reminder that focusing on only one bug class or employing one set of security tools (static code analysis, for instance) does not result in deployed systems being secure. In this case, C was used to develop the firmware, but it is an irrelevant fact considering the nature of the discovered vulnerabilities. Any ‘memory-safe’ firmware would have also been compromised in this instance. </p><p class="">While the SQL and OS command injection issues represent programming errors, the remaining vulnerabilities are security design flaws. It is paramount that system integrity is ensured at all runtime stages and for all components. Only then is it possible to guarantee the downstream security properties of languages and their compilers. </p><p class="">In summary, it is important to consider the whole system security and security-test complete production systems in all their operational modes.</p><p class="">You can find me on Mastodon at <a href="https://infosec.exchange/@infosecdj">@infosecdj</a>, and follow the team on <a href="https://www.twitter.com/thezdi">Twitter</a>, <a href="https://infosec.exchange/@thezdi">Mastodon</a>, <a href="https://www.linkedin.com/company/zerodayinitiative">LinkedIn</a>, or <a href="https://bsky.app/profile/thezdi.bsky.social" target="_blank">Bluesky</a> for the latest in exploit techniques and security patches.</p>
 ]]></content:encoded>
 <pubDate>Thu, 07 Nov 2024 22:09:04 +0000</pubDate>
-<pubDate>Thu, 07 Nov 2024 22:09:04 +0000</pubDate>
 </item>
-
 <item>
 <title>North Korean Hackers Target Crypto Firms with Hidden Risk Malware on macOS</title>
 <link>https://thehackernews.com/2024/11/north-korean-hackers-target-crypto.html</link>

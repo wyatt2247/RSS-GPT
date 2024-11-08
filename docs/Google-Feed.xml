@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>A Vulnerability in Android OS Could Allow for Remote Code Execution</title>
 <link>https://www.cisecurity.org/advisory/a-vulnerability-in-android-os-could-allow-for-remote-code-execution_2024-124</link>
@@ -13,23 +14,19 @@
 <p>A vulnerability has<span style="color: black;"> been discovered</span> in <span style="color: black;">Android OS that could allow for </span>remote<span style="color: black;"> code execution.</span> <span style="color: black;">Android is an operating system developed by Google for mobile devices, including, but not limited to, smartphones, tablets, and watches. Successful exploitation of </span>this vulnerability<span style="color: black;"> could allow for remote code execution in the context of the logged-on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</span></p>
 ]]></content:encoded>
 <pubDate>Thu, 07 Nov 2024 16:55:06 -0500</pubDate>
-<pubDate>Thu, 07 Nov 2024 16:55:06 -0500</pubDate>
 </item>
 <item>
 <title>UK Watchdog Urges Data Privacy Overhaul as Smart Devices Collect “Excessive” User Data</title>
 <link>https://www.cysecurity.news/2024/11/uk-watchdog-urges-data-privacy-overhaul.html</link>
 <guid>https://www.cysecurity.news/2024/11/uk-watchdog-urges-data-privacy-overhaul.html</guid>
 <content:encoded><![CDATA[
-
 <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg51DfWSn-8Epka_jKQTk3tUJjCmEpKeO7Uq2cmWT44zOoOvV3nrfau32hGjKw56YPdo8JCi_5dmEDvTcXExbH4Wba9EXCV5OFydj_T4IgrmYk9L8FtYbFMdFjI2sbOcv1Y3BSipCyJBTI3xeXfBnKmmREwp3zCDPEXTFYw4WsYiJRhzBvdH85i59uv0A0/s2250/IMG_4308.jpeg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg51DfWSn-8Epka_jKQTk3tUJjCmEpKeO7Uq2cmWT44zOoOvV3nrfau32hGjKw56YPdo8JCi_5dmEDvTcXExbH4Wba9EXCV5OFydj_T4IgrmYk9L8FtYbFMdFjI2sbOcv1Y3BSipCyJBTI3xeXfBnKmmREwp3zCDPEXTFYw4WsYiJRhzBvdH85i59uv0A0/s600/IMG_4308.jpeg" width="600" /></a></div><p>&nbsp;</p><div style="text-align: justify;">A new study by consumer group Which? has revealed that popular smart devices are gathering excessive amounts of personal data from users, often beyond what’s required for functionality. The study examined smart TVs, air fryers, speakers, and wearables, rating each based on data access requests.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Findings suggested many of these devices may be gathering and sharing data with third parties, often for marketing purposes.
 
 “Smart tech manufacturers and their partners seem to collect data recklessly, with minimal transparency,” said Harry Rose from Which?, calling for stricter guidelines on data collection. The UK’s Information Commissioner’s Office (ICO) is expected to release updated guidance on data privacy for smart devices in 2025, which Rose urged be backed by effective enforcement.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The study found all three tested air fryers, including one from Xiaomi, requested precise user locations and audio recording permissions without clarification. Xiaomi’s fryer app was also linked to trackers from Facebook and TikTok, raising concerns about data being sent to servers in China, though Xiaomi disputes the findings, calling them “inaccurate and misleading.”&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Similar privacy concerns were highlighted for wearables, with the Huawei Ultimate smartwatch reportedly asking for risky permissions, such as access to location, audio recording, and stored files. Huawei defended these requests, stating that permissions are necessary for health and fitness tracking and that no data is used for marketing.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Smart TVs from brands like Samsung and LG also collected extensive data, with both brands connecting to Facebook and Google trackers, while Samsung’s app made additional phone permission requests. Smart speakers weren’t exempt from scrutiny; the Bose Home Portable speaker reportedly had several trackers, including from digital marketing firms.
 &nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Slavka Bielikova, ICO’s principal policy adviser, noted, “Smart products know a lot about us and that’s why it’s vital for consumers to trust that their information is used responsibly.” She emphasized the ICO’s upcoming guidance, aiming to clarify expectations for manufacturers to protect consumers.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As the debate over data privacy intensifies, Which? recommends that consumers opt out of unnecessary data collection requests and regularly review app permissions for added security.</div>
 ]]></content:encoded>
-<pubDate>2024-11-07T12:59:00.001-05:00</pubDate>
 <pubDate>2024-11-07T12:59:29.104-05:00</pubDate>
 </item>
-
 <item>
 <title>Gmail Under Attack: Secure a Backup Account</title>
 <link>https://www.cysecurity.news/2024/11/gmail-under-attack-secure-backup-account.html</link>
