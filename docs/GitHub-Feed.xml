@@ -4,6 +4,265 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Path Traversal Vulnerability in WPLMS WordPress Theme Exposes Websites to RCE</title>
+<link>https://cyble.com/blog/path-traversal-vulnerability-in-wplms-wordpress-theme-exposes-websites-to-rce/</link>
+<guid>https://cyble.com/blog/path-traversal-vulnerability-in-wplms-wordpress-theme-exposes-websites-to-rce/</guid>
+<content:encoded><![CDATA[
+<div> <p><img alt="Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/2-1-1.png" title="Path Traversal Vulnerability in WPLMS WordPress Theme Exposes Websites to RCE  2" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>A critical path traversal vulnerability, <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10470" rel="noreferrer noopener" target="_blank">CVE-2024-10470</a>, has been identified in the WPLMS Learning Management System (LMS) theme for WordPress. This vulnerability enables unauthenticated attackers to read and delete arbitrary files on the server due to insufficient file path validation in the theme’s <strong><em>readfile</em></strong> and <strong><em>unlink</em></strong> functions.&nbsp;&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The flaw affects all versions of WordPress up to and including 4.962 and carries a CVSS score of 9.8.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>According to the bug description published on GitHub under the account moniker <a href="https://github.com/RandomRobbieBF/CVE-2024-10470" rel="noreferrer noopener" target="_blank">RandomRobbieBF,</a> the flaw impacts WordPress sites running WPLMS even if the theme is not actively enabled. This likely puts thousands of LMS-driven websites at risk of unauthorized data access, site disruption, and potential full system compromise.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The CVE-2024-10740’s original finding is attributed to an independent researcher Friderika Baranyai, aka <a href="https://www.wordfence.com/threat-intel/vulnerabilities/researchers/friderika-baranyai" rel="noreferrer noopener" target="_blank">Foxyyy.</a>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Vulnerability Details&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><strong>CVE</strong>: CVE-2024-10470&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Type</strong>: Path Traversal (CWE-22)&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Affected Theme</strong>: WPLMS Learning Management System for WordPress&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Affected Versions</strong>: &lt;= 4.962&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Severity</strong>: Critical (CVSS 9.8)&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Impact</strong>: Confidentiality, Integrity, Availability&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Found By: </strong>Friderika Baranyai, aka Foxyyy&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Exploitation Details&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This vulnerability allows attackers to delete critical files, such as <strong><em>wp-config.php</em></strong>, without needing <a href="https://cyble.com/blog/multi-factor-authentication-mfa-is-a-part-of-your-cyber-hygiene/" rel="noreferrer noopener" target="_blank">authentication</a>. Deleting this file, which contains essential WordPress configuration settings, could enable attackers to gain remote control over the affected server, leading to potential code execution and full site compromise.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>While there is no publicly available proof-of-concept (PoC) or evidence of active exploitation, the nature of this vulnerability means that attackers could send crafted requests to delete or read files arbitrarily.&nbsp;&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>For example, the <strong><em>download_export_zip</em></strong> parameter within certain WPLMS theme scripts can be exploited to read or delete sensitive server files, leading to significant security risks for affected WordPress installations.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>A sample crafted request, as described on GitHub, which could exploit this vulnerability is as follows:&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>POST /wp-content/themes/wplms/setup/installer/envato-setup-export.php HTTP/1.1</em>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>Host: [Target-IP]</em>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>Content-Type: application/x-www-form-urlencoded</em>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>Content-Length: 29</em>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>download_export_zip=1&amp;zip_file=.htaccess</em>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This request manipulates the <strong><em>zip_file</em></strong> parameter to target and potentially delete files like <strong><em>.htaccess</em></strong>, which could lead to server misconfiguration or unauthorized file access.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Mitigation and Recommendations&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Website administrators are advised to take the following actions to address this bug:&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true,"start":1} --></p>
+<ol class="wp-block-list" start="1"><!-- wp:list-item --></p>
+<li><strong>Deactivate and Remove the WPLMS Theme</strong>: If possible, temporarily deactivate the WPLMS theme until a patch is available. Remove it if it’s not essential to your website’s functionality.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Apply Strong Access Controls</strong>: Restrict access to critical files, such as wp-config.php, and ensure that file permissions are strictly enforced to prevent unauthorized deletion or modification.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Implement File Integrity Monitoring</strong>: Regularly monitor the integrity of critical WordPress files. Immediate alerts on file deletion or modifications can provide timely warnings of potential exploitation.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Back Up WordPress Installations Regularly</strong>: Maintain regular backups of your website’s files and database to ensure rapid recovery in the event of an attack.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><a href="https://cyble.com/knowledge-hub/what-is-web-application-firewall/" rel="noreferrer noopener" target="_blank"><strong>Web Application Firewall</strong></a><strong> (WAF)</strong>: Use a WAF to filter potentially malicious requests. This can help prevent attackers from exploiting path traversal vulnerabilities.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Monitor for Updates</strong>: Regularly check for updates from the WPLMS theme developer and apply any available patches as soon as they are released. The <a href="https://cyble.com/vulnerability/" rel="noreferrer noopener" target="_blank">vulnerability</a> is resolved in version 4.963, so updating to this version will eliminate the risk.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Isolate WordPress Installations</strong>: For sites heavily dependent on the WPLMS theme, consider isolating the installation in a separate, highly controlled environment to reduce the risk of lateral movement if exploited.&nbsp;</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The CVE-2024-10470 vulnerability in the WPLMS theme for WordPress represents a severe <a href="https://cyble.com/knowledge-hub/what-are-cyber-threats/" rel="noreferrer noopener" target="_blank">security threat</a> to affected websites. By allowing unauthenticated file deletion, this flaw poses risks of unauthorized access, remote code execution, and potential full compromise of WordPress installations.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Administrators are urged to take immediate steps to secure their systems, including deactivating the theme if feasible, implementing access controls, and applying security patches as soon as they are available.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Following these recommendations, organizations can mitigate potential exploitation and protect their WordPress environments from unauthorized access and service disruption.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Source:</strong>&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10470">https://nvd.nist.gov/vuln/detail/CVE-2024-10470</a><br /><a href="https://github.com/RandomRobbieBF/CVE-2024-10470">https://github.com/RandomRobbieBF/CVE-2024-10470</a><br /><a href="https://themeforest.net/item/wplms-learning-management-system/6780226">https://themeforest.net/item/wplms-learning-management-system/6780226</a><br /><a href="https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-themes/wplms/wplms-learning-management-system-for-wordpress-4962-unauthenticated-arbitrary-file-read-and-deletion">https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-themes/wplms/wplms-learning-management-system-for-wordpress-4962-unauthenticated-arbitrary-file-read-and-deletion</a><br /><a href="https://www.wordfence.com/threat-intel/vulnerabilities/researchers/friderika-baranyai">https://www.wordfence.com/threat-intel/vulnerabilities/researchers/friderika-baranyai</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/path-traversal-vulnerability-in-wplms-wordpress-theme-exposes-websites-to-rce/" rel="nofollow">Path Traversal Vulnerability in WPLMS WordPress Theme Exposes Websites to RCE </a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p> <div>
+<p><img alt="Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/2-1-1.png" title="Path Traversal Vulnerability in WPLMS WordPress Theme Exposes Websites to RCE  2" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>A critical path traversal vulnerability, <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10470" rel="noreferrer noopener" target="_blank">CVE-2024-10470</a>, has been identified in the WPLMS Learning Management System (LMS) theme for WordPress. This vulnerability enables unauthenticated attackers to read and delete arbitrary files on the server due to insufficient file path validation in the theme’s <strong><em>readfile</em></strong> and <strong><em>unlink</em></strong> functions.&nbsp;&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The flaw affects all versions of WordPress up to and including 4.962 and carries a CVSS score of 9.8.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>According to the bug description published on GitHub under the account moniker <a href="https://github.com/RandomRobbieBF/CVE-2024-10470" rel="noreferrer noopener" target="_blank">RandomRobbieBF,</a> the flaw impacts WordPress sites running WPLMS even if the theme is not actively enabled. This likely puts thousands of LMS-driven websites at risk of unauthorized data access, site disruption, and potential full system compromise.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The CVE-2024-10740’s original finding is attributed to an independent researcher Friderika Baranyai, aka <a href="https://www.wordfence.com/threat-intel/vulnerabilities/researchers/friderika-baranyai" rel="noreferrer noopener" target="_blank">Foxyyy.</a>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Vulnerability Details&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><strong>CVE</strong>: CVE-2024-10470&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Type</strong>: Path Traversal (CWE-22)&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Affected Theme</strong>: WPLMS Learning Management System for WordPress&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Affected Versions</strong>: &lt;= 4.962&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Severity</strong>: Critical (CVSS 9.8)&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Impact</strong>: Confidentiality, Integrity, Availability&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Found By: </strong>Friderika Baranyai, aka Foxyyy&nbsp;</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Exploitation Details&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This vulnerability allows attackers to delete critical files, such as <strong><em>wp-config.php</em></strong>, without needing <a href="https://cyble.com/blog/multi-factor-authentication-mfa-is-a-part-of-your-cyber-hygiene/" rel="noreferrer noopener" target="_blank">authentication</a>. Deleting this file, which contains essential WordPress configuration settings, could enable attackers to gain remote control over the affected server, leading to potential code execution and full site compromise.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>While there is no publicly available proof-of-concept (PoC) or evidence of active exploitation, the nature of this vulnerability means that attackers could send crafted requests to delete or read files arbitrarily.&nbsp;&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>For example, the <strong><em>download_export_zip</em></strong> parameter within certain WPLMS theme scripts can be exploited to read or delete sensitive server files, leading to significant security risks for affected WordPress installations.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>A sample crafted request, as described on GitHub, which could exploit this vulnerability is as follows:&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>POST /wp-content/themes/wplms/setup/installer/envato-setup-export.php HTTP/1.1</em>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>Host: [Target-IP]</em>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>Content-Type: application/x-www-form-urlencoded</em>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>Content-Length: 29</em>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>download_export_zip=1&amp;zip_file=.htaccess</em>&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This request manipulates the <strong><em>zip_file</em></strong> parameter to target and potentially delete files like <strong><em>.htaccess</em></strong>, which could lead to server misconfiguration or unauthorized file access.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Mitigation and Recommendations&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Website administrators are advised to take the following actions to address this bug:&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true,"start":1} --></p>
+<ol class="wp-block-list" start="1"><!-- wp:list-item --></p>
+<li><strong>Deactivate and Remove the WPLMS Theme</strong>: If possible, temporarily deactivate the WPLMS theme until a patch is available. Remove it if it’s not essential to your website’s functionality.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Apply Strong Access Controls</strong>: Restrict access to critical files, such as wp-config.php, and ensure that file permissions are strictly enforced to prevent unauthorized deletion or modification.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Implement File Integrity Monitoring</strong>: Regularly monitor the integrity of critical WordPress files. Immediate alerts on file deletion or modifications can provide timely warnings of potential exploitation.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Back Up WordPress Installations Regularly</strong>: Maintain regular backups of your website’s files and database to ensure rapid recovery in the event of an attack.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><a href="https://cyble.com/knowledge-hub/what-is-web-application-firewall/" rel="noreferrer noopener" target="_blank"><strong>Web Application Firewall</strong></a><strong> (WAF)</strong>: Use a WAF to filter potentially malicious requests. This can help prevent attackers from exploiting path traversal vulnerabilities.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Monitor for Updates</strong>: Regularly check for updates from the WPLMS theme developer and apply any available patches as soon as they are released. The <a href="https://cyble.com/vulnerability/" rel="noreferrer noopener" target="_blank">vulnerability</a> is resolved in version 4.963, so updating to this version will eliminate the risk.&nbsp;</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Isolate WordPress Installations</strong>: For sites heavily dependent on the WPLMS theme, consider isolating the installation in a separate, highly controlled environment to reduce the risk of lateral movement if exploited.&nbsp;</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The CVE-2024-10470 vulnerability in the WPLMS theme for WordPress represents a severe <a href="https://cyble.com/knowledge-hub/what-are-cyber-threats/" rel="noreferrer noopener" target="_blank">security threat</a> to affected websites. By allowing unauthenticated file deletion, this flaw poses risks of unauthorized access, remote code execution, and potential full compromise of WordPress installations.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Administrators are urged to take immediate steps to secure their systems, including deactivating the theme if feasible, implementing access controls, and applying security patches as soon as they are available.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Following these recommendations, organizations can mitigate potential exploitation and protect their WordPress environments from unauthorized access and service disruption.&nbsp;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Source:</strong>&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://nvd.nist.gov/vuln/detail/CVE-2024-10470">https://nvd.nist.gov/vuln/detail/CVE-2024-10470</a><br /><a href="https://github.com/RandomRobbieBF/CVE-2024-10470">https://github.com/RandomRobbieBF/CVE-2024-10470</a><br /><a href="https://themeforest.net/item/wplms-learning-management-system/6780226">https://themeforest.net/item/wplms-learning-management-system/6780226</a><br /><a href="https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-themes/wplms/wplms-learning-management-system-for-wordpress-4962-unauthenticated-arbitrary-file-read-and-deletion">https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-themes/wplms/wplms-learning-management-system-for-wordpress-4962-unauthenticated-arbitrary-file-read-and-deletion</a><br /><a href="https://www.wordfence.com/threat-intel/vulnerabilities/researchers/friderika-baranyai">https://www.wordfence.com/threat-intel/vulnerabilities/researchers/friderika-baranyai</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/path-traversal-vulnerability-in-wplms-wordpress-theme-exposes-websites-to-rce/" rel="nofollow">Path Traversal Vulnerability in WPLMS WordPress Theme Exposes Websites to RCE </a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Mon, 11 Nov 2024 14:45:02 +0000</pubDate>
+<pubDate>Mon, 11 Nov 2024 14:45:02 +0000</pubDate>
+</item>
 
 <item>
 <title>Crypto Bull Market Targeted: The Lottie-Player Security Breach</title>
