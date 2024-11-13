@@ -4,6 +4,28 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+<link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-127</link>
+<guid>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2024-127</guid>
+<content:encoded><![CDATA[
+<div> <p><span style="color: black;">Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</span></p> <div>
+<p><span style="color: black;">Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</span></p>
+]]></content:encoded>
+<pubDate>Tue, 12 Nov 2024 20:31:49 -0500</pubDate>
+<pubDate>Tue, 12 Nov 2024 20:31:49 -0500</pubDate>
+</item>
+<item>
+<title>Google Chrome Users at Risk: CERT-In Advises Urgent Update to Fix Security Flaws</title>
+<link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://thecyberexpress.com/vulnerabilities-in-google-chrome/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3HMT4i_gocLy7NqTKNCU84</link>
+<guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://thecyberexpress.com/vulnerabilities-in-google-chrome/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3HMT4i_gocLy7NqTKNCU84</guid>
+<content:encoded><![CDATA[
+
+CERT-In reports critical <b>vulnerabilities</b> in Google Chrome that could lead to code execution, data theft, and system crashes.
+]]></content:encoded>
+<pubDate>2024-11-12T14:11:56Z</pubDate>
+<pubDate>2024-11-12T14:11:56Z</pubDate>
+</item>
 
 <item>
 <title>Growing Use of Winos4.0 Toolkit Poses New Threat to Windows Users</title>
