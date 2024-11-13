@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>CISA Adds Five Known Exploited Vulnerabilities to Catalog</title>
 <link>https://www.cisa.gov/news-events/alerts/2024/11/12/cisa-adds-five-known-exploited-vulnerabilities-catalog</link>
@@ -33,14 +34,12 @@
 <p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" title="Catalog vulnerabilities">Catalog vulnerabilities</a>&nbsp;as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the&nbsp;<a href="https://www.cisa.gov/known-exploited-vulnerabilities" title="specified criteria">specified criteria</a>.</p>
 ]]></content:encoded>
 <pubDate>Tue, 12 Nov 24 12:00:00 +0000</pubDate>
-<pubDate>Tue, 12 Nov 24 12:00:00 +0000</pubDate>
 </item>
 <item>
 <title>2023 Top Routinely Exploited Vulnerabilities</title>
 <link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-317a</link>
 <guid>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-317a</guid>
 <content:encoded><![CDATA[
-
 <h2><strong>Summary</strong></h2>
 <p>The following cybersecurity agencies coauthored this joint Cybersecurity Advisory (hereafter collectively referred to as the authoring agencies):</p>
 <ul>
@@ -1221,9 +1220,7 @@
 </div>
 ]]></content:encoded>
 <pubDate>Tue, 12 Nov 24 12:00:00 +0000</pubDate>
-<pubDate>Tue, 12 Nov 24 12:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Cisco Investigates Data Breach After Hacker Claims Sale of Data</title>
 <link>https://www.cysecurity.news/2024/10/cisco-investigates-data-breach-after.html</link>

@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>North Korean malware evades Apple notarization, targets <b>macOS</b> users - Cointelegraph</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://cointelegraph.com/news/north-korean-malware-bypasses-apple-security&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0gIDudjXs_C2y_mWRs6dGO</link>
@@ -13,17 +14,14 @@
 North Korean hackers created malware capable of bypassing Apple's notarization process, a first seen for <b>macOS</b>.
 ]]></content:encoded>
 <pubDate>2024-11-12T18:01:55Z</pubDate>
-<pubDate>2024-11-12T18:01:55Z</pubDate>
 </item>
 <item>
 <title>North Korean hackers create Flutter apps to bypass macOS security</title>
 <link>https://www.bleepingcomputer.com/news/security/north-korean-hackers-create-flutter-apps-to-bypass-macos-security/</link>
 <guid>https://www.bleepingcomputer.com/news/security/north-korean-hackers-create-flutter-apps-to-bypass-macos-security/</guid>
 <content:encoded><![CDATA[
-
 North Korean threat actors target Apple macOS systems using trojanized Notepad apps and minesweeper games created with Flutter, which are signed and notarized by legitimate Apple developer IDs. [...]
 ]]></content:encoded>
-<pubDate>Tue, 12 Nov 2024 08:00:00 -0500</pubDate>
 <pubDate>Tue, 12 Nov 2024 08:00:00 -0500</pubDate>
 </item>
 <item>
@@ -31,10 +29,8 @@ North Korean threat actors target Apple macOS systems using trojanized Notepad a
 <link>https://www.cysecurity.news/2024/11/north-korean-hackers-employ-macos.html</link>
 <guid>https://www.cysecurity.news/2024/11/north-korean-hackers-employ-macos.html</guid>
 <content:encoded><![CDATA[
-
 <p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8J0PGHv7vQ0_tDmdRBXOSEvVteOwFd2lYjmZlyiPr3HnAly7RZPU0h7n8SZZUflR2OWS0mkVfSE9Bu2k9Al7eNkl3gcua2Cp7_QhXJf80Yg9e5fa9_glbJGASCQhDiHXEpVvcU6FI2qsLlecbCqPsKLuVtNhW2kPgOChfW3t3mZguvT8_Ww3eXXXlCEk/s1920/cyber-security-g35f92f7dc_1920.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8J0PGHv7vQ0_tDmdRBXOSEvVteOwFd2lYjmZlyiPr3HnAly7RZPU0h7n8SZZUflR2OWS0mkVfSE9Bu2k9Al7eNkl3gcua2Cp7_QhXJf80Yg9e5fa9_glbJGASCQhDiHXEpVvcU6FI2qsLlecbCqPsKLuVtNhW2kPgOChfW3t3mZguvT8_Ww3eXXXlCEk/s600/cyber-security-g35f92f7dc_1920.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><span style="font-family: inherit;">BlueNoroff, a North Korean threat actor, has been attacking crypto firms with a new multistage malware for macOS systems.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">According to the researchers, the campaign is known as Hidden Risk, and it lures victims with emails that include fake data on the current activities in the cryptocurrency market.</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The malware employed in these attacks depends on a novel persistence method on macOS that does not generate any alerts on the most recent versions of the operating system, allowing it to bypass detection.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">BlueNoroff is known for cryptocurrency theft and has previously targeted macOS with a payload malware called 'ObjCShellz' that opens remote shells on affected Macs.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><b>Infection chain&nbsp;</b></span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The attacks begin with a phishing email containing crypto-related news and subjects, disguised as if forwarded by a bitcoin influencer to boost credibility. The mail includes a link to a PDF containing the information, but it actually points to the attackers' "delphidigital[.]org" domain.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">According to SentinelLabs experts, the "URL currently serves a benign form of the Bitcoin ETF document with titles that change over time," but it also serves the first step of a malicious application bundle known as 'Hidden Risk Behind New Surge of Bitcoin Price.app'.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The researchers state that for the Hidden Risk campaign, the threat actor employed an original academic paper from the University of Texas. The first stage is a dropper software signed and notarised with a valid Apple Developer ID, "Avantis Regtech Private Limited (2S8XHJ7948)," which Apple has since revoked.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">When activated, the dropper gets a decoy PDF from a Google Drive link and opens it in the default PDF browser to distract the victim. In the background, however, the following stage payload is downloaded from "matuaner[.]com.”</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">Interestingly, the hackers have effectively circumvented Apple's App Transport Security standards by altering the app's 'Info. plist' file to permit unsafe HTTP connections to the attacker-controlled site.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">The "Hidden Risk" campaign, according to SentinelLabs, has been in operation for the past 12 months or more. It employs a more straightforward phishing strategy that excludes the customary "grooming" on social media that other DPRK hackers partake in.&nbsp;</span></div><div style="text-align: justify;"><span style="font-family: inherit;"><br /></span></div><div style="text-align: justify;"><span style="font-family: inherit;">In order to get beyond macOS Gatekeeper, the researchers also point out that BlueNoroff has demonstrated a consistent capacity to find new Apple developer accounts and have their payloads notarised.</span></div></span>
 ]]></content:encoded>
-<pubDate>2024-11-12T10:40:00.001-05:00</pubDate>
 <pubDate>2024-11-12T10:40:06.113-05:00</pubDate>
 </item>
 <item>
@@ -42,7 +38,6 @@ North Korean threat actors target Apple macOS systems using trojanized Notepad a
 <link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-317a</link>
 <guid>https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-317a</guid>
 <content:encoded><![CDATA[
-
 <h2><strong>Summary</strong></h2>
 <p>The following cybersecurity agencies coauthored this joint Cybersecurity Advisory (hereafter collectively referred to as the authoring agencies):</p>
 <ul>
@@ -1223,14 +1218,12 @@ North Korean threat actors target Apple macOS systems using trojanized Notepad a
 </div>
 ]]></content:encoded>
 <pubDate>Tue, 12 Nov 24 12:00:00 +0000</pubDate>
-<pubDate>Tue, 12 Nov 24 12:00:00 +0000</pubDate>
 </item>
 <item>
 <title>IT Vulnerability Report: Exposed Fortinet Vulnerabilities Approach 1 Million</title>
 <link>https://cyble.com/blog/it-vulnerability-report-exposed-fortinet-vulnerabilities-approach-1-million/</link>
 <guid>https://cyble.com/blog/it-vulnerability-report-exposed-fortinet-vulnerabilities-approach-1-million/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="CybleBlogs" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/CybleBlogs-4-1-1.webp" title="IT Vulnerability Report: Exposed Fortinet Vulnerabilities Approach 1 Million 2" width="1200" /></p>
 <p><!-- wp:paragraph --></p>
 <p>Cyble Research and Intelligence Labs (CRIL) researchers investigated 18 vulnerabilities and 10 dark web exploits in the last week – including an actively exploited Fortinet vulnerability with nearly 1 million exposed assets on the internet.</p>
@@ -1369,9 +1362,7 @@ North Korean threat actors target Apple macOS systems using trojanized Notepad a
 <p>The post <a href="https://cyble.com/blog/it-vulnerability-report-exposed-fortinet-vulnerabilities-approach-1-million/" rel="nofollow">IT Vulnerability Report: Exposed Fortinet Vulnerabilities Approach 1 Million</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Wed, 13 Nov 2024 05:40:09 +0000</pubDate>
-<pubDate>Wed, 13 Nov 2024 05:40:09 +0000</pubDate>
 </item>
-
 <item>
 <title>North Korean Hackers Target macOS Using Flutter-Embedded Malware</title>
 <link>https://thehackernews.com/2024/11/north-korean-hackers-target-macos-using.html</link>
