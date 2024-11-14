@@ -4,6 +4,50 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Autonomous security for cloud in AWS: Harnessing the power of AI for a secure future</title>
+<link>https://securityintelligence.com/posts/autonomous-security-for-cloud-in-aws/</link>
+<guid>https://securityintelligence.com/posts/autonomous-security-for-cloud-in-aws/</guid>
+<content:encoded><![CDATA[
+<div> <p>As the digital world evolves, businesses increasingly rely on cloud solutions to store data, run operations and manage applications. However, with this growth comes the challenge of ensuring that cloud environments remain secure and compliant with ever-changing regulations. This is where the idea of autonomous security for cloud (ASC) comes into play. Security and compliance [&#8230;]</p>
+<p>The post <a href="https://securityintelligence.com/posts/autonomous-security-for-cloud-in-aws/" rel="nofollow">Autonomous security for cloud in AWS: Harnessing the power of AI for a secure future</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p> <div>
+<p>As the digital world evolves, businesses increasingly rely on cloud solutions to store data, run operations and manage applications. However, with this growth comes the challenge of ensuring that cloud environments remain secure and compliant with ever-changing regulations. This is where the idea of autonomous security for cloud (ASC) comes into play.</p>
+<p>Security and compliance aren&rsquo;t just technical buzzwords; they are crucial for businesses of all sizes. With <a href="https://www.ibm.com/topics/data-breach" rel="noopener nofollow" target="_blank">data breaches</a> and cyber threats on the rise, having systems that ensure your data is secure and meets regulatory standards is no longer optional. However traditional methods of managing security and compliance often require significant manual effort, which can lead to delays, errors or overlooked vulnerabilities.</p>
+<h2>What is ASC?</h2>
+<p>ASC is a groundbreaking solution that automates the complex tasks involved in securing your cloud environment and making it compliant with regulatory and organizational standards. Powered by <a href="https://www.ibm.com/topics/generative-ai" rel="noopener nofollow" target="_blank">generative artificial intelligence (gen AI)</a>, ASC is designed to meet the security needs of today and adapt to the challenges of tomorrow. ASC is currently designed for workloads running on Amazon Web Services (AWS).</p>
+<p>At its heart, ASC is an intelligent system that continuously monitors your AWS environment for any changes or risks. This means that as your business evolves &mdash; whether you&rsquo;re adding new cloud services, changing configurations, or scaling up &mdash; your security and compliance framework automatically adjusts in real-time.</p>
+<h2>Why security and compliance matter</h2>
+<p>For many organizations, keeping up with the latest regulations, such as data privacy laws, industry standards or cybersecurity frameworks, is a constant headache. Failing to meet these regulations can result in hefty fines, loss of trust and even business disruption.</p>
+<p>ASC acts as a 24/7 guardian, ensuring that your cloud setup remains in line with industry standards like the National Institute of Standards and Technology (NIST), Payment Card Industry Data Security Standard (PCI-DSS), the Digital Operational Resilience Act (DORA) and other regulations and standards. ASC detects issues and proactively addresses them, helping you stay ahead of threats and compliance requirements before they become problems.</p>
+<a class="btn orange1 large" href="https://www.ibm.com/services/autonomous-security-cloud">Learn more about autonomous security for cloud</a>
+<h2>How ASC works: A simple yet powerful process</h2>
+<p>The functionalities of ASC can be defined as follows:</p>
+<ol>
+<li>
+<p><strong>Continuous monitoring:</strong> ASC keeps an eye on your cloud environment at all times, scanning for potential risks, security gaps or compliance violations.</p>
+</li>
+<li>
+<p><strong>Automatic adjustments:</strong> If ASC detects any issues &mdash; such as misconfigurations or new security threats &mdash; it automatically makes the necessary changes to fix them.</p>
+</li>
+<li>
+<p><strong>Proactive protection:</strong> Using AI-powered predictions, ASC can review your business requirements and recommend secured and compliant configurations of AWS resources required for your business. It can also generate infrastructure as code (IaC) templates to deploy resources in your AWS cloud with secured configurations necessary for your organization&rsquo;s compliance with regulatory standards and internal policies. Whether it&rsquo;s a change in regulatory standards or a new cyber threat, ASC is ready to adjust your security settings accordingly.</p>
+</li>
+<li>
+<p><strong>Human expertise when needed:</strong> While ASC is largely autonomous, it doesn&rsquo;t eliminate the need for human oversight. Experts can step in when critical decisions are required, ensuring that human judgment complements AI efficiency.</p>
+</li>
+</ol>
+<h2>The role of AI in building a resilient future</h2>
+<p>Gen AI is at the core of ASC, which powers the system&rsquo;s ability to think, learn and predict. By integrating gen AI capabilities, ASC continuously evolves and improves. This means the system gets smarter over time, adapting to new challenges in the security landscape.</p>
+<p>For example, if a new type of <a href="https://www.ibm.com/topics/cyber-attack" rel="noopener nofollow" target="_blank">cyberattack</a> emerges, ASC can learn from external data sources and apply the right protection to your AWS environment automatically. This ability to self-heal and adjust in real-time is what sets ASC apart from traditional security solutions.</p>
+<h2>The future of compliance: Less stress, more security</h2>
+<p>The world of compliance is becoming more complicated, but ASC offers a future where managing compliance doesn&rsquo;t have to be a source of stress. By automating routine tasks like monitoring and reporting, ASC frees up your team to focus on what they do best: Growing your business.</p>
+<p>The shift to <a href="https://www.ibm.com/topics/cloud-computing" rel="noopener nofollow" target="_blank">cloud computing</a> is here to stay, and with it comes the need for smarter, more efficient ways to manage security and compliance in the cloud environment. <a href="https://www.ibm.com/events/reg/flow/ibm/602qj2mb/landing/page/landing" rel="noopener nofollow" target="_blank">ASC in AWS</a>, powered by cutting-edge gen AI, is leading the way. By automating complex processes and proactively protecting your cloud environment, ASC ensures that businesses stay secure, compliant and ready for the future.</p>
+
+<p>The post <a href="https://securityintelligence.com/posts/autonomous-security-for-cloud-in-aws/" rel="nofollow">Autonomous security for cloud in AWS: Harnessing the power of AI for a secure future</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p>
+]]></content:encoded>
+<pubDate>Thu, 14 Nov 2024 14:00:00 +0000</pubDate>
+<pubDate>Thu, 14 Nov 2024 14:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Malicious PyPI Package ‘Fabrice’ Found Stealing AWS Keys from Thousands of Developers</title>
