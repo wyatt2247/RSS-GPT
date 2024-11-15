@@ -4,6 +4,981 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Sailing Into Danger: DONOT APT’s Attack on Maritime &amp; Defense Manufacturing</title>
+<link>https://cyble.com/blog/donots-attack-on-maritime-defense-manufacturing/</link>
+<guid>https://cyble.com/blog/donots-attack-on-maritime-defense-manufacturing/</guid>
+<content:encoded><![CDATA[
+<div> <p><img alt="DONOT, APT" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/DONot-Blog.jpg" title="Sailing Into Danger: DONOT APT’s Attack on Maritime &amp; Defense Manufacturing 1" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble Research and Intelligence Labs (CRIL) came across a campaign Linked to the known APT group DONOT, targeting the manufacturing industry that supports the country’s maritime and defense sectors.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The campaign uses a malicious LNK file disguised as an RTF containing encrypted data. The file is decrypted via PowerShell to deliver a lure RTF and payload.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>A scheduled task is then created to ensure the malware runs every five minutes for persistence.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Random domains are generated with hardcoded words and TLDs for backup C&amp;C servers.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The encryption method for C&amp;C communication has changed compared to previous campaigns.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The stager malware communicates with the C&amp;C server using AES encryption and Base64 encoding to evade detection.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The decryption key for the second-stage payload is now in the downloaded binary rather than hardcoded in the config file.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The victim’s system information is collected before delivering the final payload to assess the target's value.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The stager malware uses environment variables to store critical configuration details, like C&amp;C addresses and task information.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>CRIL recently came across a <a href="https://www.virustotal.com/gui/file/cffe7eb01000de809b79a711702eaf3773f2e6167ce440f33f30bcd6fabcace3/community">campaign</a> seemingly aimed at Pakistan's manufacturing industry, which supports the country’s maritime and defense sectors. After analyzing the files involved in the campaign, it was determined that the attack was linked to the known APT group DONOT.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>DoNot, also known as APT-C-35, is an Advanced Persistent Threat (APT) group operating since 2016. This group has a history of targeting government and military entities, as well as foreign affairs ministries and embassies across South Asia.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71818,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-71818" src="https://cyble.com/wp-content/uploads/2024/11/image-19-1024x241.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":71819,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Cyble Vision, Threat Library" class="wp-image-71819" src="https://cyble.com/wp-content/uploads/2024/11/image-20.png" /><figcaption class="wp-element-caption">Figure 1 - Cyble Vision Threat Library</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In this recent campaign, the Threat Actor (TA) uses the .LNK file as the initial infection vector, which could arrive within a RAR archive via spam email. The .LNK file is disguised as an RTF file, leading users to believe they are opening a legitimate file.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When the user clicks to execute, it triggers cmd.exe and powershell.exe to run additional malicious commands, loading the stager malware (a DLL file) and establishing persistence by creating a scheduled task to execute the DLL file through rundll32.exe. Also, it communicates with the primary C&amp;C server by sending a unique device ID via a POST request and, in response, receives control commands from the TA to direct its next actions.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These actions include self-destruction, deployment of additional malicious payloads by downloading an encrypted payload from a specified URL, and subsequent execution. To evade detection and complicate analysis, the malware employs a different encryption method instead of the single-byte XOR key used in previous campaigns. The figure below shows the infection chain.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71821,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Infection Chain" class="wp-image-71821" src="https://cyble.com/wp-content/uploads/2024/11/Figure-3-Infection-Chain.png" /><figcaption class="wp-element-caption">Figure 2 - Infection Chain</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This “.LNK” file campaign was first <a href="https://x.com/StrikeReadyLabs/status/1852532673283268899">identified</a> by StrikeReady Labs, who reported it on the X platform. A <a href="https://x.com/suyog41/status/1814230027560501248">similar campaign</a> was also seen in July 2024, targeting Pakistan's Government agencies and manufacturing industries using sector-specific lures. In the previous campaign, the TA employed malicious Office files with embedded macros and Rich Text Format (RTF) files that exploit vulnerabilities to load the stager DLL onto victim machines.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When comparing the previous campaigns, the initial infection vector has shifted from Microsoft Office files to .LNK files. Additionally, the stager DLL now employs an enhanced payload delivery method and improved C&amp;C communication, incorporating encryption mechanisms at various stages.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Technical Analysis</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The malicious <em>“.</em><em>LNK”</em> file contains PowerShell commands, an encrypted lure RTF file, and the encrypted stager payload. Upon execution, the <em>“.LNK”</em> file initiates <em>“cmd.exe,” which creates a directory in the “%temp%” path and copies “powershell.exe” to this location as "2SqSxDA2.exe." The newly copied PowerShell process subsequently executes the PowerShell code embedded in the LNK file. The figure below</em> shows the partial content of the LNK file.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71822,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="LNK File, Lure, Phishing" class="wp-image-71822" src="https://cyble.com/wp-content/uploads/2024/11/Figure-4-–-Partial-content-of-the-LNK-file.png" /><figcaption class="wp-element-caption">Figure 3 – Partial contents of the LNK file</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">PowerShell Code</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The PowerShell command embedded within the “.LNK” file retrieves both a lure file and a DLL from the “.LNK” itself. It identifies the “.LNK” file based on its file size and directory path, then decrypts the lure RTF file and the DLL file using a single-byte XOR operation with “0xB2.” Decryption begins at offset “0x1774” for the lure file and “0x79AF” for the DLL.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These extracted files are stored in the “%temp%\7GGVXwRn” directory. Once extraction is complete, the PowerShell command deletes the PowerShell copy “2SqSxDA2.exe,” opens the lure document, and calls “rundll32.exe” to execute the DLL, invoking the export function “HgCallClient.”</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71824,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="PowerShell Command" class="wp-image-71824" src="https://cyble.com/wp-content/uploads/2024/11/Figure-5-Content-of-PowerShell-commands.png" /><figcaption class="wp-element-caption">Figure 4 - Content of PowerShell commands</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Lure Document</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The lure document is related to Karachi Shipyard &amp; Engineering Works (KS&amp;EW), a prominent defense contractor and shipbuilding company in Pakistan. This suggests that the TA is targeting industries supporting the defense sector. The figure below shows the lure document.<strong></strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71849,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71849" src="https://cyble.com/wp-content/uploads/2024/11/Figure-6-Lure-Document.png" /><figcaption class="wp-element-caption">Figure 5 - Lure Document</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">DLL file analysis</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Upon execution, the DLL begins extracting configuration details from an embedded JSON file. This configuration includes information such as the configuration filename, environment variable name, server domain, transit keys for secure communication, mutex, and user-agent string. The table below shows the configuration details.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Filed Name</strong></td>
+<td><strong>Value</strong></td>
+</tr>
+<tr>
+<td>ConfigFileName</td>
+<td>Config.json</td>
+</tr>
+<tr>
+<td>EnvVarTaskName</td>
+<td>PFTN</td>
+</tr>
+<tr>
+<td>HMAC_Security</td>
+<td>j4fhrJpSqvgE</td>
+</tr>
+<tr>
+<td>MachineMutex</td>
+<td>5734b817-1bb8-402b-a761-da8f2e188baf</td>
+</tr>
+<tr>
+<td>ServerDomain</td>
+<td>hxxps://internalfileserver[.]online:443/</td>
+</tr>
+<tr>
+<td>TransitKey</td>
+<td>tTRxrb0kmbQGpdci</td>
+</tr>
+<tr>
+<td>TransitSalt</td>
+<td>aWrtRHXuEBy6CwXj</td>
+</tr>
+<tr>
+<td>userAgent</td>
+<td>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36</td>
+</tr>
+<tr>
+<td>BackupServerURL</td>
+<td>hxxps://safehydratedcloudcosmoswebglobe[.]cc/</td>
+</tr>
+<tr>
+<td>PrimaryServerUrl</td>
+<td>hxxps://internalfileserver[.]online:443/</td>
+</tr>
+<tr>
+<td>FirstTaskName</td>
+<td>Schedule</td>
+</tr>
+<tr>
+<td>TaskDefinition</td>
+<td>This service enables a user to configure and schedule automated tasks on this computer. It also hosts multiple Windows system-critical tasks. If this service is stopped or disabled, these tasks will not be run at their scheduled times, and any services that explicitly depend on it will fail to start.</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Random domain generation</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The BackupServerURL mentioned in the config file is generated by selecting six values from a hardcoded array of words and concatenating them to create a domain. A TLD is then selected from a separate array of TLD values. This randomly generated domain serves as a backup for Command and Control (C&amp;C) communication. The figure below shows the list of available words used for generating random domains.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71827,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Random Domain Generation" class="wp-image-71827" src="https://cyble.com/wp-content/uploads/2024/11/Figure-7-Random-Domain-Generation.png" /><figcaption class="wp-element-caption">Figure 6 - Random Domain Generation</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Persistence</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>After extracting the configuration details, the DLL checks for the presence of a specific scheduled task named “Schedule.” If the task is not found, it creates a new task to execute the DLL via “<em>rundll32.exe”</em> every 5 minutes for one day, as shown in the figure below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71853,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71853" src="https://cyble.com/wp-content/uploads/2024/11/Figure-8-Scheduled-Task-1.png" /><figcaption class="wp-element-caption">Figure 7 - Scheduled Task</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After establishing persistence, the DLL sends a POST request to the primary server URL. This request includes headers such as an HMAC (Hash-based Message Authentication Code) generated from the HTTP method, contact URL, current DateTime, and an HMAC secret key, along with an "X-Timestamp." The request body contains the unique DeviceID and configuration filename, encrypted using a hardcoded AES transit key and salt, then base64 encoded before being sent to the C&amp;C primary URL. This encryption method marks a relatively new approach in this campaign compared to previous ones observed.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71854,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71854" src="https://cyble.com/wp-content/uploads/2024/11/Figure-9-CC-communication.png" /><figcaption class="wp-element-caption">Figure 8 - C&amp;C communication</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>If the C&amp;C server responds with a status code of 200, the response content contains JSON configuration data, which is decrypted using the same AES transit key and IV. The decrypted data includes the following details:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>DownloadURL</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>FileDropEnvironment</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>FileDropName</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>ExportFunctionName</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>TaskName</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Self_Destruction (boolean)</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Execution (boolean)</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:image {"id":71855,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71855" src="https://cyble.com/wp-content/uploads/2024/11/Figure-10-–-JSON-configuration-1.png" /><figcaption class="wp-element-caption">Figure 9 – JSON configuration</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The decrypted JSON configuration data allows the TA to control key aspects of the malware's behavior, such as downloading additional payloads, specifying file locations, and configuring execution options. This enables flexibility to adjust the attack as needed.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Next Stage payload Execution</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>If the TA intends to execute an additional payload, the encrypted payload is downloaded according to the C&amp;C configuration. It is then decrypted using an XOR key found within the encrypted file, just after a sequence of magic bytes, and processed using the XOR round-robin method, as shown in Figure 10. This process differs from a previous campaign where the encrypted data was fetched from a URL, and the decryption key was provided directly in the C&amp;C configuration, as shown in Figure 11.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Once decryption is successful, the data is verified as a valid binary by checking for the presence of the string "<em>This program cannot be run in DOS mode"</em>. The decrypted payload is then placed in the directory specified by the <em>“FileDropEnvironment”</em> variable.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71856,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71856" src="https://cyble.com/wp-content/uploads/2024/11/Figure-11-Decrypting-the-Payload-Latest-Campaign-1.png" /><figcaption class="wp-element-caption">Figure 10 - Decrypting the Payload (Latest Campaign)</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71835,"width":"384px","height":"auto","sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full is-resized"><img alt="Payload, Malware Campaign" class="wp-image-71835" src="https://cyble.com/wp-content/uploads/2024/11/Figure-11-Decrypting-the-payload-previous-campaign.png" style="width: 384px; height: auto;" /><figcaption class="wp-element-caption">Figure 11 - Decrypting the payload (Previous campaign)</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After verifying the binary, the stager malware creates a scheduled task to execute the decrypted binary using <em>“rundll32.exe”</em>. The task name and execution interval are specified in the configuration details provided by the TA via the C&amp;C.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71836,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Scheduled Task" class="wp-image-71836" src="https://cyble.com/wp-content/uploads/2024/11/Figure-12-Scheduled-task.png" /><figcaption class="wp-element-caption">Figure 12 - Scheduled task</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In case of a decryption failure, the stager malware updates the configuration with the backup server URL and logs the error message "<em>File corruption while decrypting</em>" It also collects detailed system information, such as disk space and installed security products, to help identify the cause of the decryption failure. This information is then sent to the TA via POST request.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71837,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="System Information" class="wp-image-71837" src="https://cyble.com/wp-content/uploads/2024/11/Figure-13-–-Gathering-System-information.png" /><figcaption class="wp-element-caption">Figure 13 – Gathering System information</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In case of successful payload deployment through the scheduled task, the stager malware logs the event in the same manner as it does for a failure, with the only difference being that the result is recorded as <em>"Payload Deployment Successful."</em> This log also contains detailed system information, helping the TA identify potential targets in case of success and detect security solutions in case of failure. The TA collects and logs all relevant details, regardless of the outcome, and sends the information to the TA's C&amp;C via POST request.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71839,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="JSON logs, POST Requests" class="wp-image-71839" src="https://cyble.com/wp-content/uploads/2024/11/Figure-14-Sending-JSON-log-as-POST-request.png" /><figcaption class="wp-element-caption">Figure 14 - Sending JSON log as a POST request</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The stager malware typically stores data, including the number of attempts to communicate with the C&amp;C, the primary C&amp;C domain name, the last connection date, the backup domain name, and details of the second-stage payload. These values are stored as encrypted entries in the environment variables, as shown in the table below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Variable Name</strong></td>
+<td><strong>Value</strong></td>
+<td><strong>Decrypted value</strong></td>
+</tr>
+<tr>
+<td>NFC (Not Found Count)</td>
+<td>iOJDUU+oq2I1wQwfdYl98w==</td>
+<td>2</td>
+</tr>
+<tr>
+<td>PDN (Primary Domain Name)</td>
+<td>ehdXQoPR9RjVlJYUWq+tIkQkazp1KhA1+59IGAXaXL94XRvH8aNbs9pv3e6PLCKK</td>
+<td>hxxps://internalfileserver[.]online:443/</td>
+</tr>
+<tr>
+<td>LCD (Last Check Date)</td>
+<td>vKXaygaagiZygkd7/K+uvQ==</td>
+<td>11-11-2024</td>
+</tr>
+<tr>
+<td>BDN (Backup Domain Name)</td>
+<td>"tc6rjFyW2AVO6pu2y/c/Vg626iQ+S/FHqYIGBpIejquLjQJwMxVv/r6q44XNnInvBJPP86CLYx9qKJ0lMfryxQ=="</td>
+<td>hxxps://floridacloudcyberhydratedfloridatech[.]online/</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:paragraph --></p>
+<p>During our testing, the C&amp;C server was unavailable, preventing us from receiving a response. As a result, we were unable to observe or analyze the behavior of the next-stage DLL payload, which would have been triggered by communication with the C&amp;C server. Without this crucial interaction, we could not fully understand how the payload executes or what further actions it might take.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Self-Deletion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>If the TA activates the self-destruction command via C&amp;C, the stager malware removes the scheduled task and initiates self-deletion by executing the <em>“DEL”</em> command through <em>“cmd.exe”</em>. The image below illustrates the self-deletion process.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71840,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Self Delete" class="wp-image-71840" src="https://cyble.com/wp-content/uploads/2024/11/Figure-15-self-delete.png" /><figcaption class="wp-element-caption">Figure 15 - Self delete</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Threat Actor Attribution</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The malicious DLL connects to the C&amp;C server "internalfileserver[.]online," which resolves to the IP address "94[.]141.120[.]137." This same IP address previously hosted the domain "office-updatecentral[.]com," which was used by the DoNot APT group in a prior campaign. Also, the tactics, techniques, and procedures (TTPs) observed in this campaign exhibit similar behavior to those <a href="https://mp.weixin.qq.com/s/qCcuU0E6d84tdQ1r2dCsjA">reported</a> by the 360 Threat Intelligence Centre.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This DoNot APT campaign shows an evolution in tactics. It uses malicious LNK files, PowerShell for payload delivery, and scheduled tasks for persistence. The group also employs dynamic domain generation for backup C&amp;C servers and has updated its encryption methods to avoid detection.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The shift in how decryption keys are handled and the collection of system information before payload delivery indicate a more sophisticated approach. These changes highlight the growing complexity of APT campaigns and the need for improved detection and defense strategies.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Threat hunting Packages</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The threat hunting package, including <a href="https://github.com/CRIL-Threat-Intelligence/Yara_rules/blob/main/Donot_APT.txt">YARA</a> and <a href="https://github.com/CRIL-Threat-Intelligence/Sigma_rules/blob/main/Detection%20of%20Suspicious%20PowerShell.exe%20Copy%20and%20Command%20Execution.txt">Sigma</a> rules capable of detecting this campaign, can be downloaded from the linked GitHub pages.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Recommendations&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Deploy robust EDR solutions to monitor unusual PowerShell activity, scheduled task creation, and suspicious network connections to C&amp;C servers. Ensure these tools are configured to flag and alert on anomalies.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Limit the execution of PowerShell and other scripting tools to necessary users only and enforce least privilege policies to prevent malware from escalating privileges and performing malicious actions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Conduct frequent audits of scheduled tasks to identify any unusual or unauthorized tasks, particularly those involving rundll32.exe. Ensure only trusted applications are allowed to create or execute scheduled tasks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implement behavior-based detection systems that can identify malicious actions, such as frequent attempts to contact C&amp;C servers or unexpected encrypted data being transmitted.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implement a well-defined incident response plan with clear steps to handle potential APT intrusions. This plan should include rapid identification, containment, and recovery from any detected malicious activity.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Conduct regular cybersecurity awareness training for employees, focusing on identifying phishing emails and handling suspicious attachments to reduce the risk of initial infection.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">MITRE ATT&amp;CK® Techniques&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Tactic</strong></td>
+<td><strong>Technique</strong></td>
+<td><strong>Procedure</strong></td>
+</tr>
+<tr>
+<td>Initial Access (<a href="https://attack.mitre.org/tactics/TA0001">TA0001</a>)</td>
+<td>Phishing (<a href="https://attack.mitre.org/techniques/T1566">T1566</a>)</td>
+<td>This campaign is likely to reach users through spam emails.</td>
+</tr>
+<tr>
+<td>Execution (<a href="https://attack.mitre.org/tactics/TA0002">TA0002</a>)</td>
+<td>Command and Scripting Interpreter: PowerShell (<a href="https://attack.mitre.org/techniques/T1059/001">T1059.001</a>)</td>
+<td>PowerShell commands are used to decrypt and execute the lure RTF file and stager DLL payload.</td>
+</tr>
+<tr>
+<td>Execution (<a href="https://attack.mitre.org/tactics/TA0002">TA0002</a>)</td>
+<td>Command and Scripting Interpreter: Windows Command Shell (<a href="https://attack.mitre.org/techniques/T1059/003">T1059.003</a>)</td>
+<td>Cmd.exe is used to copy PowerShell.exe to the %temp% directory as "2SqSxDA2.exe".</td>
+</tr>
+<tr>
+<td>Defense Evasion (<a href="https://attack.mitre.org/tactics/TA0005">TA0005</a>)</td>
+<td>System Binary Proxy Execution: Rundll32 (<a href="https://attack.mitre.org/techniques/T1218/011">T1218.011</a>)</td>
+<td>Rundll32.exe is used to execute the stager payload.</td>
+</tr>
+<tr>
+<td>Persistence (<a href="https://attack.mitre.org/tactics/TA0003">TA0003</a>)</td>
+<td>Scheduled Task/Job: Scheduled Task (<a href="https://attack.mitre.org/techniques/T1053/005">T1053.005</a>)</td>
+<td>A scheduled task is created for persistence, running the DLL payload regularly via rundll32.exe.</td>
+</tr>
+<tr>
+<td>Defense Evasion (<a href="https://attack.mitre.org/tactics/TA0005">TA0005</a>)</td>
+<td>Indicator Removal on Host: File Deletion (<a href="https://attack.mitre.org/techniques/T1070/004">T1070.004</a>)</td>
+<td>Temporary PowerShell.exe file ("2SqSxDA2.exe") is deleted after executing the malicious commands.</td>
+</tr>
+<tr>
+<td>Defense Evasion (<a href="https://attack.mitre.org/tactics/TA0005">TA0005</a>)</td>
+<td>Obfuscated Files or Information (<a href="https://attack.mitre.org/techniques/T1027">T1027</a>)</td>
+<td>XOR and AES encryption mechanisms are used in various stages of the attack</td>
+</tr>
+<tr>
+<td>Command and Control (<a href="https://attack.mitre.org/tactics/TA0011">TA0011</a>)</td>
+<td>Application Layer Protocol: Web Protocols (<a href="https://attack.mitre.org/techniques/T1071/001">T1071.001</a>)</td>
+<td>GET and POST requests are sent to the Threat Actor's C&amp;C server.</td>
+</tr>
+<tr>
+<td>Command and Control (<a href="https://attack.mitre.org/tactics/TA0011">TA0011</a>)</td>
+<td>Remote File Copy (<a href="https://attack.mitre.org/techniques/T1105">T1105</a>)</td>
+<td>The additional payload is downloaded from the C&amp;C server using a URL provided in the configuration.</td>
+</tr>
+<tr>
+<td>Exfiltration (<a href="https://attack.mitre.org/tactics/TA0010">TA0010</a>)</td>
+<td>Exfiltration Over C2 Channel (<a href="https://attack.mitre.org/techniques/T1041/">T1041</a>)</td>
+<td>Extensive system information is collected and exfiltrated to the C&amp;C server via encrypted communication.</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Indicators of Compromise</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicator</strong></td>
+<td><strong>Indicator Type</strong></td>
+<td><strong>Comments</strong></td>
+</tr>
+<tr>
+<td>cffe7eb01000de809b79a711702eaf3773f2e6167ce440f33f30bcd6fabcace3</td>
+<td>SHA-256</td>
+<td>Proc list 2024.lnk</td>
+</tr>
+<tr>
+<td>a7893c54edaecaa0e56010576a8249ad9149456f5d379868a0ecaa4c5c33fa70</td>
+<td>SHA-256</td>
+<td>CertPropOrigin.dll</td>
+</tr>
+<tr>
+<td>Internalfileserver[.]online</td>
+<td>domain</td>
+<td>C&amp;C server</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">References:</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://mp.weixin.qq.com/s/qCcuU0E6d84tdQ1r2dCsjA">https://mp.weixin.qq.com/s/qCcuU0E6d84tdQ1r2dCsjA</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://twitter.com/StrikeReadyLabs/status/1852532673283268899">https://twitter.com/StrikeReadyLabs/status/1852532673283268899</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://twitter.com/suyog41/status/1814230027560501248">https://twitter.com/suyog41/status/1814230027560501248</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/donots-attack-on-maritime-defense-manufacturing/" rel="nofollow">Sailing Into Danger: DONOT APT’s Attack on Maritime &#038; Defense Manufacturing</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p> <div>
+<p><img alt="DONOT, APT" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/DONot-Blog.jpg" title="Sailing Into Danger: DONOT APT’s Attack on Maritime &amp; Defense Manufacturing 1" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Key Takeaways</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Cyble Research and Intelligence Labs (CRIL) came across a campaign Linked to the known APT group DONOT, targeting the manufacturing industry that supports the country’s maritime and defense sectors.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The campaign uses a malicious LNK file disguised as an RTF containing encrypted data. The file is decrypted via PowerShell to deliver a lure RTF and payload.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>A scheduled task is then created to ensure the malware runs every five minutes for persistence.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Random domains are generated with hardcoded words and TLDs for backup C&amp;C servers.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The encryption method for C&amp;C communication has changed compared to previous campaigns.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The stager malware communicates with the C&amp;C server using AES encryption and Base64 encoding to evade detection.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The decryption key for the second-stage payload is now in the downloaded binary rather than hardcoded in the config file.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The victim’s system information is collected before delivering the final payload to assess the target's value.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>The stager malware uses environment variables to store critical configuration details, like C&amp;C addresses and task information.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Overview</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>CRIL recently came across a <a href="https://www.virustotal.com/gui/file/cffe7eb01000de809b79a711702eaf3773f2e6167ce440f33f30bcd6fabcace3/community">campaign</a> seemingly aimed at Pakistan's manufacturing industry, which supports the country’s maritime and defense sectors. After analyzing the files involved in the campaign, it was determined that the attack was linked to the known APT group DONOT.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>DoNot, also known as APT-C-35, is an Advanced Persistent Threat (APT) group operating since 2016. This group has a history of targeting government and military entities, as well as foreign affairs ministries and embassies across South Asia.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71818,"sizeSlug":"large","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img alt="" class="wp-image-71818" src="https://cyble.com/wp-content/uploads/2024/11/image-19-1024x241.png" /></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":71819,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Cyble Vision, Threat Library" class="wp-image-71819" src="https://cyble.com/wp-content/uploads/2024/11/image-20.png" /><figcaption class="wp-element-caption">Figure 1 - Cyble Vision Threat Library</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In this recent campaign, the Threat Actor (TA) uses the .LNK file as the initial infection vector, which could arrive within a RAR archive via spam email. The .LNK file is disguised as an RTF file, leading users to believe they are opening a legitimate file.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When the user clicks to execute, it triggers cmd.exe and powershell.exe to run additional malicious commands, loading the stager malware (a DLL file) and establishing persistence by creating a scheduled task to execute the DLL file through rundll32.exe. Also, it communicates with the primary C&amp;C server by sending a unique device ID via a POST request and, in response, receives control commands from the TA to direct its next actions.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These actions include self-destruction, deployment of additional malicious payloads by downloading an encrypted payload from a specified URL, and subsequent execution. To evade detection and complicate analysis, the malware employs a different encryption method instead of the single-byte XOR key used in previous campaigns. The figure below shows the infection chain.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71821,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Infection Chain" class="wp-image-71821" src="https://cyble.com/wp-content/uploads/2024/11/Figure-3-Infection-Chain.png" /><figcaption class="wp-element-caption">Figure 2 - Infection Chain</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This “.LNK” file campaign was first <a href="https://x.com/StrikeReadyLabs/status/1852532673283268899">identified</a> by StrikeReady Labs, who reported it on the X platform. A <a href="https://x.com/suyog41/status/1814230027560501248">similar campaign</a> was also seen in July 2024, targeting Pakistan's Government agencies and manufacturing industries using sector-specific lures. In the previous campaign, the TA employed malicious Office files with embedded macros and Rich Text Format (RTF) files that exploit vulnerabilities to load the stager DLL onto victim machines.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>When comparing the previous campaigns, the initial infection vector has shifted from Microsoft Office files to .LNK files. Additionally, the stager DLL now employs an enhanced payload delivery method and improved C&amp;C communication, incorporating encryption mechanisms at various stages.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Technical Analysis</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The malicious <em>“.</em><em>LNK”</em> file contains PowerShell commands, an encrypted lure RTF file, and the encrypted stager payload. Upon execution, the <em>“.LNK”</em> file initiates <em>“cmd.exe,” which creates a directory in the “%temp%” path and copies “powershell.exe” to this location as "2SqSxDA2.exe." The newly copied PowerShell process subsequently executes the PowerShell code embedded in the LNK file. The figure below</em> shows the partial content of the LNK file.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71822,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="LNK File, Lure, Phishing" class="wp-image-71822" src="https://cyble.com/wp-content/uploads/2024/11/Figure-4-–-Partial-content-of-the-LNK-file.png" /><figcaption class="wp-element-caption">Figure 3 – Partial contents of the LNK file</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">PowerShell Code</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The PowerShell command embedded within the “.LNK” file retrieves both a lure file and a DLL from the “.LNK” itself. It identifies the “.LNK” file based on its file size and directory path, then decrypts the lure RTF file and the DLL file using a single-byte XOR operation with “0xB2.” Decryption begins at offset “0x1774” for the lure file and “0x79AF” for the DLL.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These extracted files are stored in the “%temp%\7GGVXwRn” directory. Once extraction is complete, the PowerShell command deletes the PowerShell copy “2SqSxDA2.exe,” opens the lure document, and calls “rundll32.exe” to execute the DLL, invoking the export function “HgCallClient.”</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71824,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="PowerShell Command" class="wp-image-71824" src="https://cyble.com/wp-content/uploads/2024/11/Figure-5-Content-of-PowerShell-commands.png" /><figcaption class="wp-element-caption">Figure 4 - Content of PowerShell commands</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Lure Document</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The lure document is related to Karachi Shipyard &amp; Engineering Works (KS&amp;EW), a prominent defense contractor and shipbuilding company in Pakistan. This suggests that the TA is targeting industries supporting the defense sector. The figure below shows the lure document.<strong></strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71849,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71849" src="https://cyble.com/wp-content/uploads/2024/11/Figure-6-Lure-Document.png" /><figcaption class="wp-element-caption">Figure 5 - Lure Document</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">DLL file analysis</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Upon execution, the DLL begins extracting configuration details from an embedded JSON file. This configuration includes information such as the configuration filename, environment variable name, server domain, transit keys for secure communication, mutex, and user-agent string. The table below shows the configuration details.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Filed Name</strong></td>
+<td><strong>Value</strong></td>
+</tr>
+<tr>
+<td>ConfigFileName</td>
+<td>Config.json</td>
+</tr>
+<tr>
+<td>EnvVarTaskName</td>
+<td>PFTN</td>
+</tr>
+<tr>
+<td>HMAC_Security</td>
+<td>j4fhrJpSqvgE</td>
+</tr>
+<tr>
+<td>MachineMutex</td>
+<td>5734b817-1bb8-402b-a761-da8f2e188baf</td>
+</tr>
+<tr>
+<td>ServerDomain</td>
+<td>hxxps://internalfileserver[.]online:443/</td>
+</tr>
+<tr>
+<td>TransitKey</td>
+<td>tTRxrb0kmbQGpdci</td>
+</tr>
+<tr>
+<td>TransitSalt</td>
+<td>aWrtRHXuEBy6CwXj</td>
+</tr>
+<tr>
+<td>userAgent</td>
+<td>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36</td>
+</tr>
+<tr>
+<td>BackupServerURL</td>
+<td>hxxps://safehydratedcloudcosmoswebglobe[.]cc/</td>
+</tr>
+<tr>
+<td>PrimaryServerUrl</td>
+<td>hxxps://internalfileserver[.]online:443/</td>
+</tr>
+<tr>
+<td>FirstTaskName</td>
+<td>Schedule</td>
+</tr>
+<tr>
+<td>TaskDefinition</td>
+<td>This service enables a user to configure and schedule automated tasks on this computer. It also hosts multiple Windows system-critical tasks. If this service is stopped or disabled, these tasks will not be run at their scheduled times, and any services that explicitly depend on it will fail to start.</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Random domain generation</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The BackupServerURL mentioned in the config file is generated by selecting six values from a hardcoded array of words and concatenating them to create a domain. A TLD is then selected from a separate array of TLD values. This randomly generated domain serves as a backup for Command and Control (C&amp;C) communication. The figure below shows the list of available words used for generating random domains.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71827,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Random Domain Generation" class="wp-image-71827" src="https://cyble.com/wp-content/uploads/2024/11/Figure-7-Random-Domain-Generation.png" /><figcaption class="wp-element-caption">Figure 6 - Random Domain Generation</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Persistence</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>After extracting the configuration details, the DLL checks for the presence of a specific scheduled task named “Schedule.” If the task is not found, it creates a new task to execute the DLL via “<em>rundll32.exe”</em> every 5 minutes for one day, as shown in the figure below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71853,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71853" src="https://cyble.com/wp-content/uploads/2024/11/Figure-8-Scheduled-Task-1.png" /><figcaption class="wp-element-caption">Figure 7 - Scheduled Task</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After establishing persistence, the DLL sends a POST request to the primary server URL. This request includes headers such as an HMAC (Hash-based Message Authentication Code) generated from the HTTP method, contact URL, current DateTime, and an HMAC secret key, along with an "X-Timestamp." The request body contains the unique DeviceID and configuration filename, encrypted using a hardcoded AES transit key and salt, then base64 encoded before being sent to the C&amp;C primary URL. This encryption method marks a relatively new approach in this campaign compared to previous ones observed.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71854,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71854" src="https://cyble.com/wp-content/uploads/2024/11/Figure-9-CC-communication.png" /><figcaption class="wp-element-caption">Figure 8 - C&amp;C communication</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>If the C&amp;C server responds with a status code of 200, the response content contains JSON configuration data, which is decrypted using the same AES transit key and IV. The decrypted data includes the following details:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>DownloadURL</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>FileDropEnvironment</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>FileDropName</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>ExportFunctionName</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>TaskName</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Self_Destruction (boolean)</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Execution (boolean)</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:image {"id":71855,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71855" src="https://cyble.com/wp-content/uploads/2024/11/Figure-10-–-JSON-configuration-1.png" /><figcaption class="wp-element-caption">Figure 9 – JSON configuration</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The decrypted JSON configuration data allows the TA to control key aspects of the malware's behavior, such as downloading additional payloads, specifying file locations, and configuring execution options. This enables flexibility to adjust the attack as needed.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Next Stage payload Execution</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>If the TA intends to execute an additional payload, the encrypted payload is downloaded according to the C&amp;C configuration. It is then decrypted using an XOR key found within the encrypted file, just after a sequence of magic bytes, and processed using the XOR round-robin method, as shown in Figure 10. This process differs from a previous campaign where the encrypted data was fetched from a URL, and the decryption key was provided directly in the C&amp;C configuration, as shown in Figure 11.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Once decryption is successful, the data is verified as a valid binary by checking for the presence of the string "<em>This program cannot be run in DOS mode"</em>. The decrypted payload is then placed in the directory specified by the <em>“FileDropEnvironment”</em> variable.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71856,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="" class="wp-image-71856" src="https://cyble.com/wp-content/uploads/2024/11/Figure-11-Decrypting-the-Payload-Latest-Campaign-1.png" /><figcaption class="wp-element-caption">Figure 10 - Decrypting the Payload (Latest Campaign)</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71835,"width":"384px","height":"auto","sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full is-resized"><img alt="Payload, Malware Campaign" class="wp-image-71835" src="https://cyble.com/wp-content/uploads/2024/11/Figure-11-Decrypting-the-payload-previous-campaign.png" style="width: 384px; height: auto;" /><figcaption class="wp-element-caption">Figure 11 - Decrypting the payload (Previous campaign)</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After verifying the binary, the stager malware creates a scheduled task to execute the decrypted binary using <em>“rundll32.exe”</em>. The task name and execution interval are specified in the configuration details provided by the TA via the C&amp;C.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71836,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Scheduled Task" class="wp-image-71836" src="https://cyble.com/wp-content/uploads/2024/11/Figure-12-Scheduled-task.png" /><figcaption class="wp-element-caption">Figure 12 - Scheduled task</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In case of a decryption failure, the stager malware updates the configuration with the backup server URL and logs the error message "<em>File corruption while decrypting</em>" It also collects detailed system information, such as disk space and installed security products, to help identify the cause of the decryption failure. This information is then sent to the TA via POST request.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71837,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="System Information" class="wp-image-71837" src="https://cyble.com/wp-content/uploads/2024/11/Figure-13-–-Gathering-System-information.png" /><figcaption class="wp-element-caption">Figure 13 – Gathering System information</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In case of successful payload deployment through the scheduled task, the stager malware logs the event in the same manner as it does for a failure, with the only difference being that the result is recorded as <em>"Payload Deployment Successful."</em> This log also contains detailed system information, helping the TA identify potential targets in case of success and detect security solutions in case of failure. The TA collects and logs all relevant details, regardless of the outcome, and sends the information to the TA's C&amp;C via POST request.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71839,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="JSON logs, POST Requests" class="wp-image-71839" src="https://cyble.com/wp-content/uploads/2024/11/Figure-14-Sending-JSON-log-as-POST-request.png" /><figcaption class="wp-element-caption">Figure 14 - Sending JSON log as a POST request</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The stager malware typically stores data, including the number of attempts to communicate with the C&amp;C, the primary C&amp;C domain name, the last connection date, the backup domain name, and details of the second-stage payload. These values are stored as encrypted entries in the environment variables, as shown in the table below.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Variable Name</strong></td>
+<td><strong>Value</strong></td>
+<td><strong>Decrypted value</strong></td>
+</tr>
+<tr>
+<td>NFC (Not Found Count)</td>
+<td>iOJDUU+oq2I1wQwfdYl98w==</td>
+<td>2</td>
+</tr>
+<tr>
+<td>PDN (Primary Domain Name)</td>
+<td>ehdXQoPR9RjVlJYUWq+tIkQkazp1KhA1+59IGAXaXL94XRvH8aNbs9pv3e6PLCKK</td>
+<td>hxxps://internalfileserver[.]online:443/</td>
+</tr>
+<tr>
+<td>LCD (Last Check Date)</td>
+<td>vKXaygaagiZygkd7/K+uvQ==</td>
+<td>11-11-2024</td>
+</tr>
+<tr>
+<td>BDN (Backup Domain Name)</td>
+<td>"tc6rjFyW2AVO6pu2y/c/Vg626iQ+S/FHqYIGBpIejquLjQJwMxVv/r6q44XNnInvBJPP86CLYx9qKJ0lMfryxQ=="</td>
+<td>hxxps://floridacloudcyberhydratedfloridatech[.]online/</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:paragraph --></p>
+<p>During our testing, the C&amp;C server was unavailable, preventing us from receiving a response. As a result, we were unable to observe or analyze the behavior of the next-stage DLL payload, which would have been triggered by communication with the C&amp;C server. Without this crucial interaction, we could not fully understand how the payload executes or what further actions it might take.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Self-Deletion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>If the TA activates the self-destruction command via C&amp;C, the stager malware removes the scheduled task and initiates self-deletion by executing the <em>“DEL”</em> command through <em>“cmd.exe”</em>. The image below illustrates the self-deletion process.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":71840,"sizeSlug":"full","linkDestination":"none","align":"center"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img alt="Self Delete" class="wp-image-71840" src="https://cyble.com/wp-content/uploads/2024/11/Figure-15-self-delete.png" /><figcaption class="wp-element-caption">Figure 15 - Self delete</figcaption></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3 class="wp-block-heading">Threat Actor Attribution</h3>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The malicious DLL connects to the C&amp;C server "internalfileserver[.]online," which resolves to the IP address "94[.]141.120[.]137." This same IP address previously hosted the domain "office-updatecentral[.]com," which was used by the DoNot APT group in a prior campaign. Also, the tactics, techniques, and procedures (TTPs) observed in this campaign exhibit similar behavior to those <a href="https://mp.weixin.qq.com/s/qCcuU0E6d84tdQ1r2dCsjA">reported</a> by the 360 Threat Intelligence Centre.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Conclusion</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This DoNot APT campaign shows an evolution in tactics. It uses malicious LNK files, PowerShell for payload delivery, and scheduled tasks for persistence. The group also employs dynamic domain generation for backup C&amp;C servers and has updated its encryption methods to avoid detection.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The shift in how decryption keys are handled and the collection of system information before payload delivery indicate a more sophisticated approach. These changes highlight the growing complexity of APT campaigns and the need for improved detection and defense strategies.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Threat hunting Packages</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The threat hunting package, including <a href="https://github.com/CRIL-Threat-Intelligence/Yara_rules/blob/main/Donot_APT.txt">YARA</a> and <a href="https://github.com/CRIL-Threat-Intelligence/Sigma_rules/blob/main/Detection%20of%20Suspicious%20PowerShell.exe%20Copy%20and%20Command%20Execution.txt">Sigma</a> rules capable of detecting this campaign, can be downloaded from the linked GitHub pages.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Recommendations&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>Deploy robust EDR solutions to monitor unusual PowerShell activity, scheduled task creation, and suspicious network connections to C&amp;C servers. Ensure these tools are configured to flag and alert on anomalies.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Limit the execution of PowerShell and other scripting tools to necessary users only and enforce least privilege policies to prevent malware from escalating privileges and performing malicious actions.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Conduct frequent audits of scheduled tasks to identify any unusual or unauthorized tasks, particularly those involving rundll32.exe. Ensure only trusted applications are allowed to create or execute scheduled tasks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implement behavior-based detection systems that can identify malicious actions, such as frequent attempts to contact C&amp;C servers or unexpected encrypted data being transmitted.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Implement a well-defined incident response plan with clear steps to handle potential APT intrusions. This plan should include rapid identification, containment, and recovery from any detected malicious activity.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>Conduct regular cybersecurity awareness training for employees, focusing on identifying phishing emails and handling suspicious attachments to reduce the risk of initial infection.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">MITRE ATT&amp;CK® Techniques&nbsp;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Tactic</strong></td>
+<td><strong>Technique</strong></td>
+<td><strong>Procedure</strong></td>
+</tr>
+<tr>
+<td>Initial Access (<a href="https://attack.mitre.org/tactics/TA0001">TA0001</a>)</td>
+<td>Phishing (<a href="https://attack.mitre.org/techniques/T1566">T1566</a>)</td>
+<td>This campaign is likely to reach users through spam emails.</td>
+</tr>
+<tr>
+<td>Execution (<a href="https://attack.mitre.org/tactics/TA0002">TA0002</a>)</td>
+<td>Command and Scripting Interpreter: PowerShell (<a href="https://attack.mitre.org/techniques/T1059/001">T1059.001</a>)</td>
+<td>PowerShell commands are used to decrypt and execute the lure RTF file and stager DLL payload.</td>
+</tr>
+<tr>
+<td>Execution (<a href="https://attack.mitre.org/tactics/TA0002">TA0002</a>)</td>
+<td>Command and Scripting Interpreter: Windows Command Shell (<a href="https://attack.mitre.org/techniques/T1059/003">T1059.003</a>)</td>
+<td>Cmd.exe is used to copy PowerShell.exe to the %temp% directory as "2SqSxDA2.exe".</td>
+</tr>
+<tr>
+<td>Defense Evasion (<a href="https://attack.mitre.org/tactics/TA0005">TA0005</a>)</td>
+<td>System Binary Proxy Execution: Rundll32 (<a href="https://attack.mitre.org/techniques/T1218/011">T1218.011</a>)</td>
+<td>Rundll32.exe is used to execute the stager payload.</td>
+</tr>
+<tr>
+<td>Persistence (<a href="https://attack.mitre.org/tactics/TA0003">TA0003</a>)</td>
+<td>Scheduled Task/Job: Scheduled Task (<a href="https://attack.mitre.org/techniques/T1053/005">T1053.005</a>)</td>
+<td>A scheduled task is created for persistence, running the DLL payload regularly via rundll32.exe.</td>
+</tr>
+<tr>
+<td>Defense Evasion (<a href="https://attack.mitre.org/tactics/TA0005">TA0005</a>)</td>
+<td>Indicator Removal on Host: File Deletion (<a href="https://attack.mitre.org/techniques/T1070/004">T1070.004</a>)</td>
+<td>Temporary PowerShell.exe file ("2SqSxDA2.exe") is deleted after executing the malicious commands.</td>
+</tr>
+<tr>
+<td>Defense Evasion (<a href="https://attack.mitre.org/tactics/TA0005">TA0005</a>)</td>
+<td>Obfuscated Files or Information (<a href="https://attack.mitre.org/techniques/T1027">T1027</a>)</td>
+<td>XOR and AES encryption mechanisms are used in various stages of the attack</td>
+</tr>
+<tr>
+<td>Command and Control (<a href="https://attack.mitre.org/tactics/TA0011">TA0011</a>)</td>
+<td>Application Layer Protocol: Web Protocols (<a href="https://attack.mitre.org/techniques/T1071/001">T1071.001</a>)</td>
+<td>GET and POST requests are sent to the Threat Actor's C&amp;C server.</td>
+</tr>
+<tr>
+<td>Command and Control (<a href="https://attack.mitre.org/tactics/TA0011">TA0011</a>)</td>
+<td>Remote File Copy (<a href="https://attack.mitre.org/techniques/T1105">T1105</a>)</td>
+<td>The additional payload is downloaded from the C&amp;C server using a URL provided in the configuration.</td>
+</tr>
+<tr>
+<td>Exfiltration (<a href="https://attack.mitre.org/tactics/TA0010">TA0010</a>)</td>
+<td>Exfiltration Over C2 Channel (<a href="https://attack.mitre.org/techniques/T1041/">T1041</a>)</td>
+<td>Extensive system information is collected and exfiltrated to the C&amp;C server via encrypted communication.</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Indicators of Compromise</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table class="has-fixed-layout">
+<tbody>
+<tr>
+<td><strong>Indicator</strong></td>
+<td><strong>Indicator Type</strong></td>
+<td><strong>Comments</strong></td>
+</tr>
+<tr>
+<td>cffe7eb01000de809b79a711702eaf3773f2e6167ce440f33f30bcd6fabcace3</td>
+<td>SHA-256</td>
+<td>Proc list 2024.lnk</td>
+</tr>
+<tr>
+<td>a7893c54edaecaa0e56010576a8249ad9149456f5d379868a0ecaa4c5c33fa70</td>
+<td>SHA-256</td>
+<td>CertPropOrigin.dll</td>
+</tr>
+<tr>
+<td>Internalfileserver[.]online</td>
+<td>domain</td>
+<td>C&amp;C server</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">References:</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://mp.weixin.qq.com/s/qCcuU0E6d84tdQ1r2dCsjA">https://mp.weixin.qq.com/s/qCcuU0E6d84tdQ1r2dCsjA</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://twitter.com/StrikeReadyLabs/status/1852532673283268899">https://twitter.com/StrikeReadyLabs/status/1852532673283268899</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://twitter.com/suyog41/status/1814230027560501248">https://twitter.com/suyog41/status/1814230027560501248</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/donots-attack-on-maritime-defense-manufacturing/" rel="nofollow">Sailing Into Danger: DONOT APT’s Attack on Maritime &#038; Defense Manufacturing</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Fri, 15 Nov 2024 10:40:24 +0000</pubDate>
+<pubDate>Fri, 15 Nov 2024 10:40:24 +0000</pubDate>
+</item>
 
 <item>
 <title>The latest LightSpy spyware variant could infect iPhones - iZOOlogic</title>
