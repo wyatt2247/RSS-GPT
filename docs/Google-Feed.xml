@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Researchers Warn of Privilege Escalation Risks in Google's Vertex AI ML Platform</title>
 <link>https://thehackernews.com/2024/11/researchers-warn-of-privilege.html</link>
@@ -15,9 +16,7 @@ Cybersecurity researchers have disclosed two security flaws in Google's Vertex m
 "By exploiting custom job permissions, we were able to escalate our privileges and gain unauthorized access to all data services in the project," Palo Alto Networks
 ]]></content:encoded>
 <pubDate>Fri, 15 Nov 2024 18:05:00 +0530</pubDate>
-<pubDate>Fri, 15 Nov 2024 18:05:00 +0530</pubDate>
 </item>
-
 <item>
 <title>New Glove infostealer malware bypasses Chrome’s cookie encryption</title>
 <link>https://www.bleepingcomputer.com/news/security/new-glove-infostealer-malware-bypasses-google-chromes-cookie-encryption/</link>
