@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>EXPLOIT FINDER  WordPress User Enumeration</title>
 <link>https://cxsecurity.com/issue/WLB-2024110026</link>
@@ -12,10 +13,8 @@
 <div> Topic: EXPLOIT FINDER  WordPress User Enumeration Risk: Low Text:With this code, you can search Google and isolate the sites that have this security issue and test which ones have the WP JSON/... <div>
 Topic: EXPLOIT FINDER  WordPress User Enumeration Risk: Low Text:With this code, you can search Google and isolate the sites that have this security issue and test which ones have the WP JSON/...
 ]]></content:encoded>
-<pubDate>Sun, 17 Nov 2024 21:29:53 +0000</pubDate>
 <pubDate>2024-11-17 21:29:53 CET</pubDate>
 </item>
-
 <item>
 <title>Fake Antivirus App Hides SpyNote Malware on Android</title>
 <link>https://www.cysecurity.news/2024/11/fake-antivirus-app-hides-spynote.html</link>
