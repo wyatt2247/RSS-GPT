@@ -5,6 +5,18 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Make Sure to Update: iOS 18.1.1 and <b>macOS</b> Sequoia 15.1.1 Fix Actively Exploited <b>Vulnerabilities</b></title>
+<link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.macrumors.com/2024/11/19/ios-18-1-1-active-exploit-fix/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2Hv-NINNvPiUYRbU0qnHXg</link>
+<guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.macrumors.com/2024/11/19/ios-18-1-1-active-exploit-fix/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2Hv-NINNvPiUYRbU0qnHXg</guid>
+<content:encoded><![CDATA[
+<div> The iOS 18.1.1, iPadOS 18.1.1, and <b>macOS</b> Sequoia 15.1.1 updates that Apple released today address JavaScriptCore and WebKit <b>vulnerabilities</b> that. <div>
+The iOS 18.1.1, iPadOS 18.1.1, and <b>macOS</b> Sequoia 15.1.1 updates that Apple released today address JavaScriptCore and WebKit <b>vulnerabilities</b> that.
+]]></content:encoded>
+<pubDate>2024-11-19T19:02:23Z</pubDate>
+<pubDate>2024-11-19T19:02:23Z</pubDate>
+</item>
+
+<item>
 <title>Looking at the Internals of the Kenwood DMX958XR IVI</title>
 <link>https://www.thezdi.com/blog/2024/11/18/looking-at-the-internals-of-the-kenwood-dmx958xr-ivi</link>
 <guid>https://www.thezdi.com/blog/2024/11/18/looking-at-the-internals-of-the-kenwood-dmx958xr-ivi</guid>
@@ -1853,9 +1865,7 @@
   <p class=""><strong>Summary</strong></p><p class="">Hopefully, this blog post provides enough information to kickstart vulnerability research against the DMX958XR. Keep an eye out for future posts that cover the threat landscape of the DMX958XR.</p><p class="">We are looking forward to <a href="https://www.zerodayinitiative.com/blog/2024/9/23/announcing-pwn2own-automotive-for-2025" target="_blank">Automotive Pwn2Own</a>, again to be held in January 2025 at the Automotive World conference in Tokyo. We will see if IVI vendors have improved their product security. Do not wait until the last minute to ask questions or register! We hope to see you there.</p><p class="">You can find me on Twitter at <a href="https://www.x.com/ByteInsight">@ByteInsight</a>, and follow the team on <a href="https://www.twitter.com/thezdi">Twitter</a>, <a href="https://infosec.exchange/@thezdi">Mastodon</a>, <a href="https://www.linkedin.com/company/zerodayinitiative">LinkedIn</a>, or <a href="https://bsky.app/profile/thezdi.bsky.social" target="_blank">Bluesky</a> for the latest in exploit techniques and security patches. </p>
 ]]></content:encoded>
 <pubDate>Tue, 19 Nov 2024 16:52:27 +0000</pubDate>
-<pubDate>Tue, 19 Nov 2024 16:52:27 +0000</pubDate>
 </item>
-
 <item>
 <title>Remove Your Home Address From the Internet - Here's How</title>
 <link>https://www.cysecurity.news/2024/11/remove-your-home-address-from-internet.html</link>
