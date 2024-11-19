@@ -4,6 +4,19 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Warning: VMware vCenter and Kemp LoadMaster Flaws Under Active Exploitation</title>
+<link>https://thehackernews.com/2024/11/cisa-alert-active-exploitation-of.html</link>
+<guid>https://thehackernews.com/2024/11/cisa-alert-active-exploitation-of.html</guid>
+<content:encoded><![CDATA[
+<div> Now-patched security flaws impacting Progress Kemp LoadMaster and VMware vCenter Server have come under active exploitation in the wild, it has emerged.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added CVE-2024-1212 (CVSS score: 10.0), a maximum-severity security vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog. It was <div>
+Now-patched security flaws impacting Progress Kemp LoadMaster and VMware vCenter Server have come under active exploitation in the wild, it has emerged.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added CVE-2024-1212 (CVSS score: 10.0), a maximum-severity security vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog. It was
+]]></content:encoded>
+<pubDate>Tue, 19 Nov 2024 12:01:00 +0530</pubDate>
+<pubDate>Tue, 19 Nov 2024 12:01:00 +0530</pubDate>
+</item>
 
 <item>
 <title>Canadian Man Arrested in Snowflake Data Extortions</title>
