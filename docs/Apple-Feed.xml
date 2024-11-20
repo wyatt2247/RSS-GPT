@@ -5,6 +5,133 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Apple confirms zero-day attack targeting <b>macOS</b> and iOS - Candid.Technology</title>
+<link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://candid.technology/macos-ios-zero-day-cve-2024-44308-cve-2024-44309/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2Uz_d-Y8Jydx73xNossDL_</link>
+<guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://candid.technology/macos-ios-zero-day-cve-2024-44308-cve-2024-44309/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2Uz_d-Y8Jydx73xNossDL_</guid>
+<content:encoded><![CDATA[
+<div> Apple has rushed patches to cover two actively exploited <b>vulnerabilities</b> affecting Intel-based <b>macOS</b> and iOS devices. <div>
+Apple has rushed patches to cover two actively exploited <b>vulnerabilities</b> affecting Intel-based <b>macOS</b> and iOS devices.
+]]></content:encoded>
+<pubDate>2024-11-20T15:03:32Z</pubDate>
+<pubDate>2024-11-20T15:03:32Z</pubDate>
+</item>
+<item>
+<title>Apple Releases Urgent Updates To Patch Actively Exploited Zero-Day <b>macOS Vulnerabilities</b></title>
+<link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.techworm.net/2024/11/apple-release-patch-zero-day-macos-vulnerabilities.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw09B-kEeNLmpPiw809_XTzm</link>
+<guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.techworm.net/2024/11/apple-release-patch-zero-day-macos-vulnerabilities.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw09B-kEeNLmpPiw809_XTzm</guid>
+<content:encoded><![CDATA[
+
+Apple has rolled out urgent security updates to fix two zero-day critical <b>vulnerabilities</b> affecting Mac users that have been actively exploited in&nbsp;...
+]]></content:encoded>
+<pubDate>2024-11-20T14:05:47Z</pubDate>
+<pubDate>2024-11-20T14:05:47Z</pubDate>
+</item>
+<item>
+<title>Tag: 18.1.1 - O'Grady's PowerPage</title>
+<link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.powerpage.org/tag/18-1-1/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3HXXXX81FAgm5kJhi8mJbE</link>
+<guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.powerpage.org/tag/18-1-1/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3HXXXX81FAgm5kJhi8mJbE</guid>
+<content:encoded><![CDATA[
+
+1, and <b>macOS</b> Sequoia 15.1.1 updates. The patches address JavaScriptCore and WebKit <b>vulnerabilities</b> that Apple says have been actively exploited on&nbsp;...
+]]></content:encoded>
+<pubDate>2024-11-20T10:06:56Z</pubDate>
+<pubDate>2024-11-20T10:06:56Z</pubDate>
+</item>
+<item>
+<title>Apple Rolls Out Urgent Security Updates to Address Actively Exploited Zero-Day Vulnerabilities</title>
+<link>https://cyble.com/blog/apple-security-update-november-2024/</link>
+<guid>https://cyble.com/blog/apple-security-update-november-2024/</guid>
+<content:encoded><![CDATA[
+
+<p><img alt="Apple" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/Cyble-Blogs-Apple-2.png" title="Apple Rolls Out Urgent Security Updates to Address Actively Exploited Zero-Day Vulnerabilities 1" width="1200" /></p>
+<p><!-- wp:paragraph --></p>
+<p>Apple has released a new security update to address two <a href="https://cyble.com/knowledge-hub/zero-day-exploit/">zero-day vulnerabilities</a> that have been actively exploited in the wild. The update, released on November 19, 2024, affects iOS, iPadOS, macOS, visionOS, and the Safari browser and is part of Apple’s ongoing efforts to protect its users from increasingly sophisticated <a href="https://cyble.com/knowledge-hub/what-are-cyber-threats/">cyber threats</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Apple vulnerabilities, identified in JavaScriptCore and WebKit, are serious, as they could allow maliciously crafted web content to execute arbitrary code or carry out cross-site scripting (XSS) attacks.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Apple was alerted to the potential for active exploitation of these flaws, particularly on Intel-based Mac systems, which prompted the urgent release of Apple Security Updates and Rapid Security Responses to address the issues immediately.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Details of the Apple Security Update</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The updates address two primary <a href="https://cyble.com/blog/the-cybersecurity-and-infrastructure-security-agency-cisa-reports-urgent-security-updates-for-apple-product/">Apple vulnerabilities</a> in the WebKit and JavaScriptCore components, both of which are essential for web content processing in <a href="https://cyble.com/blog/apple-issues-urgent-security-advisory-for-ios-and-ipados-vulnerabilities/">Apple devices</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>These flaws could allow attackers to run arbitrary code or inject harmful scripts into web pages viewed through Apple's browser technologies. If exploited, these vulnerabilities could compromise the security and privacy of users, putting them at risk.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li>CVE-2024-44308, identified by security researchers Clément Lecigne and Benoît Sevens of Google’s Threat Analysis Group, is the most critical of the two issues. It relates to a problem in WebKit, Apple’s open-source web browser engine, which could allow malicious web content to lead to arbitrary code execution on affected devices.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>A second vulnerability in WebKit concerns cookie management, which could enable cross-site scripting attacks. The flaw could allow an attacker to manipulate cookies, potentially stealing sensitive user data or performing malicious actions under the guise of trusted websites.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>These issues have been addressed with patches designed to improve the state management and verification processes in both JavaScriptCore and WebKit, blocking any attempts to exploit these vulnerabilities.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Apple’s Security Response</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In keeping with its policy of prioritizing user safety, Apple did not confirm the details of these vulnerabilities until it had thoroughly investigated the issues and deployed updates. The company typically follows a strict protocol when it comes to security matters, releasing fixes only after extensive testing to ensure that the vulnerabilities are adequately addressed.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>As part of the release process, Apple has rolled out Apple Security Updates for a range of devices, including the iPhone, <a href="https://cyble.com/blog/apple-issues-urgent-security-advisory-for-ios-and-ipados-vulnerabilities/">iPad</a>, Mac, and Apple Vision Pro. The following updates were released on November 19, 2024:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><strong>Safari 18.1.1</strong> for macOS Ventura and macOS Sonoma: This update fixes the issue in JavaScriptCore and WebKit, ensuring that maliciously crafted web content can no longer execute arbitrary code on affected systems.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>visionOS 2.1.1</strong> for Apple Vision Pro: This update addresses the same vulnerabilities affecting macOS devices, ensuring the security of Apple's newest AR headset.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>iOS 18.1.1 and iPadOS 18.1.1</strong>: These updates apply to a wide range of devices, including the iPhone XS and later, iPad Pro 13-inch, iPad Air 3rd generation, and newer models.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>iOS 17.7.2 and iPadOS 17.7.2</strong>: This update also addresses the critical vulnerabilities for earlier versions of iPhones and iPads, extending the security patch to models as old as the iPhone XS and iPad 6th generation.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>macOS Sequoia 15.1.1</strong>: This security patch was issued for the latest macOS Sequoia and addresses the vulnerabilities in JavaScriptCore and WebKit.</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Impacts and Risks</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The vulnerabilities targeted by these updates are serious, as they could allow attackers to exploit unpatched devices in order to take control of systems, steal data, or disrupt operations. Apple’s proactive release of security updates and Rapid Security Responses is aimed at mitigating these risks by providing users with timely protection against active exploitation. The company has stressed that these vulnerabilities were actively being used in the wild, making it crucial for users to install the updates as soon as possible.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Apple’s commitment to Apple vulnerability updates and security releases underscores the company’s ongoing effort to secure its products against evolving threats. The rapid rollout of patches is part of Apple’s broader strategy to ensure that its devices remain secure, even as cybercriminals develop increasingly sophisticated attack techniques.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>How Users Can Stay Protected</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To stay protected, users are encouraged to install the latest updates as soon as they are available. These updates are critical not only for closing the immediate vulnerabilities but also for ensuring long-term device security. Apple has made it easy to check for updates by navigating to the Settings app on iOS or iPadOS devices or through the System Preferences or Software Update sections on macOS.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Apple’s detailed security documentation, available on its website, provides insights into each security update and the specific vulnerabilities addressed. The company also advises users to be cautious about visiting suspicious websites or downloading content from untrusted sources, as these are common vectors for exploitation.</p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/apple-security-update-november-2024/" rel="nofollow">Apple Rolls Out Urgent Security Updates to Address Actively Exploited Zero-Day Vulnerabilities</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Wed, 20 Nov 2024 14:33:14 +0000</pubDate>
+<pubDate>Wed, 20 Nov 2024 14:33:14 +0000</pubDate>
+</item>
+
+<item>
 <title>Update now! Apple releases software to patch critical security flaws - NewsBytes</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.newsbytesapp.com/news/science/apple-releases-security-updates-to-address-zero-day-vulnerabilities/story&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw218Ni9e-xjtHyTvFfUR31n</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.newsbytesapp.com/news/science/apple-releases-security-updates-to-address-zero-day-vulnerabilities/story&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw218Ni9e-xjtHyTvFfUR31n</guid>
@@ -13,17 +140,14 @@
 ... <b>macOS</b> systems. The news was confirmed by Apple in an advisory released on Tuesday. <b>Vulnerability</b> specifics. Details of the patched <b>vulnerabilities</b>.
 ]]></content:encoded>
 <pubDate>2024-11-20T12:01:45Z</pubDate>
-<pubDate>2024-11-20T12:01:45Z</pubDate>
 </item>
 <item>
 <title>Apple Tackles Actively Exploited Zero-Day <b>Vulnerabilities</b> with Urgent Updates</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.pc-tablet.co.in/apple-tackles-actively-exploited-zero-day-vulnerabilities-with-urgent-updates/49637/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3JA4CDd7ClWW8rFC-wNdtb</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.pc-tablet.co.in/apple-tackles-actively-exploited-zero-day-vulnerabilities-with-urgent-updates/49637/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3JA4CDd7ClWW8rFC-wNdtb</guid>
 <content:encoded><![CDATA[
-
 Apple addresses critical zero-day <b>vulnerabilities</b> in iOS, iPadOS, <b>macOS</b>, visionOS, and Safari with urgent security updates.
 ]]></content:encoded>
-<pubDate>2024-11-20T11:48:55Z</pubDate>
 <pubDate>2024-11-20T11:48:55Z</pubDate>
 </item>
 <item>
@@ -31,10 +155,8 @@ Apple addresses critical zero-day <b>vulnerabilities</b> in iOS, iPadOS, <b>macO
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://securityaffairs.com/171202/uncategorized/apple-fixed-2-actively-exploited-zero-day-bugs.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw1isWjQpIe59NCVcEA_dDVL</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://securityaffairs.com/171202/uncategorized/apple-fixed-2-actively-exploited-zero-day-bugs.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw1isWjQpIe59NCVcEA_dDVL</guid>
 <content:encoded><![CDATA[
-
 Apple released security updates for iOS, iPadOS, <b>macOS</b>, visionOS, and Safari browser to address two actively exploited zero-day flaws.
 ]]></content:encoded>
-<pubDate>2024-11-20T11:24:44Z</pubDate>
 <pubDate>2024-11-20T11:24:44Z</pubDate>
 </item>
 <item>
@@ -42,10 +164,8 @@ Apple released security updates for iOS, iPadOS, <b>macOS</b>, visionOS, and Saf
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.forbes.com/sites/kateoflahertyuk/2024/11/20/ios-1811-update-now-warning-issued-to-all-iphone-users/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw1KFhOGBX8mK2YLGe2nXwYD</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.forbes.com/sites/kateoflahertyuk/2024/11/20/ios-1811-update-now-warning-issued-to-all-iphone-users/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw1KFhOGBX8mK2YLGe2nXwYD</guid>
 <content:encoded><![CDATA[
-
 Apple has also released <b>macOS</b> Sequoia 15.1.1 and visionOS 2.1.1 to ... The other <b>vulnerability</b> in WebKit could have a similar impact to the&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-11-20T11:16:05Z</pubDate>
 <pubDate>2024-11-20T11:16:05Z</pubDate>
 </item>
 <item>
@@ -53,10 +173,8 @@ Apple has also released <b>macOS</b> Sequoia 15.1.1 and visionOS 2.1.1 to ... Th
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://mediahousepress.co.in/apple-releases-critical-security-patches-for-ios-ipados-and-macos-to-address-exploited-vulnerabilities/460/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0Q8D1uH3h_Np3LFl1X9kC0</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://mediahousepress.co.in/apple-releases-critical-security-patches-for-ios-ipados-and-macos-to-address-exploited-vulnerabilities/460/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0Q8D1uH3h_Np3LFl1X9kC0</guid>
 <content:encoded><![CDATA[
-
 Apple has rolled out important updates for iOS 18.1.1, iPadOS 18.1.1 and <b>macOS</b> Sequoia 15.1.1 on Tuesday, patching security <b>vulnerabilities</b> in&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-11-20T10:19:11Z</pubDate>
 <pubDate>2024-11-20T10:19:11Z</pubDate>
 </item>
 <item>
@@ -64,10 +182,8 @@ Apple has rolled out important updates for iOS 18.1.1, iPadOS 18.1.1 and <b>macO
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://cybernews.com/security/apple-security-updates-address-dangerous-zero-day-attacks/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2KV4BpmojrkUSA1qNb5xkL</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://cybernews.com/security/apple-security-updates-address-dangerous-zero-day-attacks/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2KV4BpmojrkUSA1qNb5xkL</guid>
 <content:encoded><![CDATA[
-
 ... <b>macOS</b> systems. The first <b>vulnerability</b>, labeled CVE-2024-44308, affects JavaScriptCore, a high-performance JavaScript engine developed by Apple.
 ]]></content:encoded>
-<pubDate>2024-11-20T09:32:05Z</pubDate>
 <pubDate>2024-11-20T09:32:05Z</pubDate>
 </item>
 <item>
@@ -75,15 +191,12 @@ Apple has rolled out important updates for iOS 18.1.1, iPadOS 18.1.1 and <b>macO
 <link>https://thehackernews.com/2024/11/ghost-tap-hackers-exploiting-nfcgate-to.html</link>
 <guid>https://thehackernews.com/2024/11/ghost-tap-hackers-exploiting-nfcgate-to.html</guid>
 <content:encoded><![CDATA[
-
 Threat actors are increasingly banking on a new technique that leverages near-field communication (NFC) to cash out victim's funds at scale.
 The technique, codenamed Ghost Tap by ThreatFabric, enables cybercriminals to cash-out money from stolen credit cards linked to mobile payment services such as Google Pay or Apple Pay and relaying NFC traffic.
 "Criminals can now misuse Google Pay and Apple
 ]]></content:encoded>
 <pubDate>Wed, 20 Nov 2024 18:39:00 +0530</pubDate>
-<pubDate>Wed, 20 Nov 2024 18:39:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Apple Releases Urgent Updates to Patch Actively Exploited Zero-Day <b>Vulnerabilities</b></title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://thehackernews.com/2024/11/apple-releases-urgent-updates-to-patch.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2JDZW6FeDznLXg9lgmPMPl</link>
