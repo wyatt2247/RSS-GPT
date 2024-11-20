@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Time to Patch: Apple Releases Fix for Zero-Day Attack Targeting Macs, iPhones | PCMag</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.pcmag.com/news/time-to-patch-apple-releases-fix-for-zero-day-attack-targeting-macs-iphones&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2dBhzlqoQdz4Fy9sdFXtV4</link>
@@ -13,17 +14,14 @@
 One of the flaws, CVE-2024-44309, can cause a cross-site scripting attack through Apple's WebKit browser engine, which is used in Safari and web&nbsp;...
 ]]></content:encoded>
 <pubDate>2024-11-20T03:40:01Z</pubDate>
-<pubDate>2024-11-20T03:40:01Z</pubDate>
 </item>
 <item>
 <title>Apple Confirms Zero-Day Attacks Hitting <b>macOS</b> Systems - SecurityWeek</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.securityweek.com/apple-confirms-zero-day-attacks-hitting-intel-based-macs/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2iRP81v-5mvVQ4C68syzYW</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.securityweek.com/apple-confirms-zero-day-attacks-hitting-intel-based-macs/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2iRP81v-5mvVQ4C68syzYW</guid>
 <content:encoded><![CDATA[
-
 Apple rushes out out major <b>macOS</b> and iOS security updates to cover a pair of <b>vulnerabilities</b> already being exploited in the wild.
 ]]></content:encoded>
-<pubDate>2024-11-20T03:30:16Z</pubDate>
 <pubDate>2024-11-20T03:30:16Z</pubDate>
 </item>
 <item>
@@ -31,7 +29,6 @@ Apple rushes out out major <b>macOS</b> and iOS security updates to cover a pair
 <link>https://thehackernews.com/2024/11/apple-releases-urgent-updates-to-patch.html</link>
 <guid>https://thehackernews.com/2024/11/apple-releases-urgent-updates-to-patch.html</guid>
 <content:encoded><![CDATA[
-
 Apple has released security updates for iOS, iPadOS, macOS, visionOS, and its Safari web browser to address two zero-day flaws that have come under active exploitation in the wild.
 The flaws are listed below -
 
@@ -39,9 +36,7 @@ CVE-2024-44308 - A vulnerability in JavaScriptCore that could lead to arbitrary 
 CVE-2024-44309 - A cookie management vulnerability in
 ]]></content:encoded>
 <pubDate>Wed, 20 Nov 2024 10:07:00 +0530</pubDate>
-<pubDate>Wed, 20 Nov 2024 10:07:00 +0530</pubDate>
 </item>
-
 <item>
 <title>Apple Patches Two Zero-Day <b>Vulnerabilities</b> in Intel-Based Macs - VULNERA</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://vulnera.com/newswire/apple-patches-two-zero-day-vulnerabilities-in-intel-based-macs/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2UeS79rqRoSSwUM2ISO9MS</link>
