@@ -5,6 +5,52 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>Another Apple update? Here's why this one actually matters</title>
+<link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.pocket-lint.com/apple-patches-out-major-new-vulnerability/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3ien2HBK8BrgmD-kOgYcDr</link>
+<guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.pocket-lint.com/apple-patches-out-major-new-vulnerability/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3ien2HBK8BrgmD-kOgYcDr</guid>
+<content:encoded><![CDATA[
+<div> After catching wind of major new <b>vulnerabilities</b>, Apple has issued security patches across <b>macOS</b>, iOS, iPadOS, visionOS, and Safari. <div>
+After catching wind of major new <b>vulnerabilities</b>, Apple has issued security patches across <b>macOS</b>, iOS, iPadOS, visionOS, and Safari.
+]]></content:encoded>
+<pubDate>2024-11-20T17:24:35Z</pubDate>
+<pubDate>2024-11-20T17:24:35Z</pubDate>
+</item>
+<item>
+<title>New Ghost Tap attack abuses NFC mobile payments to steal money</title>
+<link>https://www.bleepingcomputer.com/news/security/new-ghost-tap-attack-abuses-nfc-mobile-payments-to-steal-money/</link>
+<guid>https://www.bleepingcomputer.com/news/security/new-ghost-tap-attack-abuses-nfc-mobile-payments-to-steal-money/</guid>
+<content:encoded><![CDATA[
+
+Cybercriminals have devised a novel method to cash out from stolen credit card details linked to mobile payment systems such as Apple Pay and Google Pay, dubbed 'Ghost Tap,' which relays NFC card data to money mules worldwide. [...]
+]]></content:encoded>
+<pubDate>Wed, 20 Nov 2024 11:44:42 -0500</pubDate>
+<pubDate>Wed, 20 Nov 2024 11:44:42 -0500</pubDate>
+</item>
+<item>
+<title>Apple Releases Security Updates for Multiple Products</title>
+<link>https://www.cisa.gov/news-events/alerts/2024/11/20/apple-releases-security-updates-multiple-products</link>
+<guid>https://www.cisa.gov/news-events/alerts/2024/11/20/apple-releases-security-updates-multiple-products</guid>
+<content:encoded><![CDATA[
+
+<div class="OutlineElement Ltr SCXW35097681 BCX8">
+<p>Apple released security updates to address vulnerabilities in multiple Apple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.</p>
+<p>CISA encourages users and administrators to review the following advisories and apply necessary updates:</p>
+<div class="ListContainerWrapper SCXW234625283 BCX8">
+<ul>
+<li><a href="https://support.apple.com/en-us/121752" title="iOS 18.1.1 and iPadOS 18.1.1">iOS 18.1.1 and iPadOS 18.1.1</a></li>
+<li><a href="https://support.apple.com/en-us/121753" title="macOS Sequoia 15.1.1">macOS Sequoia 15.1.1</a></li>
+<li><a href="https://support.apple.com/en-us/121754" title="iOS 17.7.2 and iPadOS 17.7.2">iOS 17.7.2 and iPadOS 17.7.2</a></li>
+<li><a href="https://support.apple.com/en-us/121755" title="visionOS 2.1.1">visionOS&nbsp;2.1.1</a></li>
+<li><a href="https://support.apple.com/en-us/121756" title="Safari 18.1.1">Safari&nbsp;18.1.1</a></li>
+</ul>
+</div>
+</div>
+]]></content:encoded>
+<pubDate>Wed, 20 Nov 24 12:00:00 +0000</pubDate>
+<pubDate>Wed, 20 Nov 24 12:00:00 +0000</pubDate>
+</item>
+
+<item>
 <title>Apple confirms zero-day attack targeting <b>macOS</b> and iOS - Candid.Technology</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://candid.technology/macos-ios-zero-day-cve-2024-44308-cve-2024-44309/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2Uz_d-Y8Jydx73xNossDL_</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://candid.technology/macos-ios-zero-day-cve-2024-44308-cve-2024-44309/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw2Uz_d-Y8Jydx73xNossDL_</guid>
@@ -13,17 +59,14 @@
 Apple has rushed patches to cover two actively exploited <b>vulnerabilities</b> affecting Intel-based <b>macOS</b> and iOS devices.
 ]]></content:encoded>
 <pubDate>2024-11-20T15:03:32Z</pubDate>
-<pubDate>2024-11-20T15:03:32Z</pubDate>
 </item>
 <item>
 <title>Apple Releases Urgent Updates To Patch Actively Exploited Zero-Day <b>macOS Vulnerabilities</b></title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.techworm.net/2024/11/apple-release-patch-zero-day-macos-vulnerabilities.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw09B-kEeNLmpPiw809_XTzm</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.techworm.net/2024/11/apple-release-patch-zero-day-macos-vulnerabilities.html&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw09B-kEeNLmpPiw809_XTzm</guid>
 <content:encoded><![CDATA[
-
 Apple has rolled out urgent security updates to fix two zero-day critical <b>vulnerabilities</b> affecting Mac users that have been actively exploited in&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-11-20T14:05:47Z</pubDate>
 <pubDate>2024-11-20T14:05:47Z</pubDate>
 </item>
 <item>
@@ -31,10 +74,8 @@ Apple has rolled out urgent security updates to fix two zero-day critical <b>vul
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.powerpage.org/tag/18-1-1/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3HXXXX81FAgm5kJhi8mJbE</link>
 <guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.powerpage.org/tag/18-1-1/&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw3HXXXX81FAgm5kJhi8mJbE</guid>
 <content:encoded><![CDATA[
-
 1, and <b>macOS</b> Sequoia 15.1.1 updates. The patches address JavaScriptCore and WebKit <b>vulnerabilities</b> that Apple says have been actively exploited on&nbsp;...
 ]]></content:encoded>
-<pubDate>2024-11-20T10:06:56Z</pubDate>
 <pubDate>2024-11-20T10:06:56Z</pubDate>
 </item>
 <item>
@@ -42,7 +83,6 @@ Apple has rolled out urgent security updates to fix two zero-day critical <b>vul
 <link>https://cyble.com/blog/apple-security-update-november-2024/</link>
 <guid>https://cyble.com/blog/apple-security-update-november-2024/</guid>
 <content:encoded><![CDATA[
-
 <p><img alt="Apple" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/Cyble-Blogs-Apple-2.png" title="Apple Rolls Out Urgent Security Updates to Address Actively Exploited Zero-Day Vulnerabilities 1" width="1200" /></p>
 <p><!-- wp:paragraph --></p>
 <p>Apple has released a new security update to address two <a href="https://cyble.com/knowledge-hub/zero-day-exploit/">zero-day vulnerabilities</a> that have been actively exploited in the wild. The update, released on November 19, 2024, affects iOS, iPadOS, macOS, visionOS, and the Safari browser and is part of Apple’s ongoing efforts to protect its users from increasingly sophisticated <a href="https://cyble.com/knowledge-hub/what-are-cyber-threats/">cyber threats</a>.</p>
@@ -128,9 +168,7 @@ Apple has rolled out urgent security updates to fix two zero-day critical <b>vul
 <p>The post <a href="https://cyble.com/blog/apple-security-update-november-2024/" rel="nofollow">Apple Rolls Out Urgent Security Updates to Address Actively Exploited Zero-Day Vulnerabilities</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Wed, 20 Nov 2024 14:33:14 +0000</pubDate>
-<pubDate>Wed, 20 Nov 2024 14:33:14 +0000</pubDate>
 </item>
-
 <item>
 <title>Update now! Apple releases software to patch critical security flaws - NewsBytes</title>
 <link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.newsbytesapp.com/news/science/apple-releases-security-updates-to-address-zero-day-vulnerabilities/story&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw218Ni9e-xjtHyTvFfUR31n</link>
