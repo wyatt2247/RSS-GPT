@@ -4,6 +4,19 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Google's AI-Powered OSS-Fuzz Tool Finds 26 Vulnerabilities in Open-Source Projects</title>
+<link>https://thehackernews.com/2024/11/googles-ai-powered-oss-fuzz-tool-finds.html</link>
+<guid>https://thehackernews.com/2024/11/googles-ai-powered-oss-fuzz-tool-finds.html</guid>
+<content:encoded><![CDATA[
+<div> Google has revealed that its AI-powered fuzzing tool, OSS-Fuzz, has been used to help identify 26 vulnerabilities in various open-source code repositories, including a medium-severity flaw in the OpenSSL cryptographic library.
+"These particular vulnerabilities represent a milestone for automated vulnerability finding: each was found with AI, using AI-generated and enhanced fuzz targets," <div>
+Google has revealed that its AI-powered fuzzing tool, OSS-Fuzz, has been used to help identify 26 vulnerabilities in various open-source code repositories, including a medium-severity flaw in the OpenSSL cryptographic library.
+"These particular vulnerabilities represent a milestone for automated vulnerability finding: each was found with AI, using AI-generated and enhanced fuzz targets,"
+]]></content:encoded>
+<pubDate>Thu, 21 Nov 2024 12:43:00 +0530</pubDate>
+<pubDate>Thu, 21 Nov 2024 12:43:00 +0530</pubDate>
+</item>
 
 <item>
 <title>Apple Releases Critical Security Updates Across iOS, <b>macOS</b>, and Vision Pro to Fix Active Exploits</title>
