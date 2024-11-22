@@ -4,6 +4,61 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Apple rushes out patch fixing zero-day attacks on <b>macOS</b> systems - MSN</title>
+<link>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.msn.com/en-us/news/technology/apple-rushes-out-patch-fixing-zero-day-attacks-on-macos-systems/ar-AA1ut7i0&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0D_sSwsFKokfdF4Kohxi55</link>
+<guid>https://www.google.com/url?rct=j&amp;sa=t&amp;url=https://www.msn.com/en-us/news/technology/apple-rushes-out-patch-fixing-zero-day-attacks-on-macos-systems/ar-AA1ut7i0&amp;ct=ga&amp;cd=CAIyGmQ5YWViMjk1NjcwMTA1NTQ6Y29tOmVuOlVT&amp;usg=AOvVaw0D_sSwsFKokfdF4Kohxi55</guid>
+<content:encoded><![CDATA[
+<div> Tech giant Apple has released a patch for two zero-day <b>vulnerabilities</b> that hackers have used to <b>exploit</b> Intel-based Mac computers. <div>
+Tech giant Apple has released a patch for two zero-day <b>vulnerabilities</b> that hackers have used to <b>exploit</b> Intel-based Mac computers.
+]]></content:encoded>
+<pubDate>2024-11-21T23:01:07Z</pubDate>
+<pubDate>2024-11-21T23:01:07Z</pubDate>
+</item>
+<item>
+<title>Apple Web Content Filter Bypass</title>
+<link>https://packetstormsecurity.com/files/182753/NBL-001.txt</link>
+<guid>https://packetstormsecurity.com/files/182753/NBL-001.txt</guid>
+<content:encoded><![CDATA[
+
+Nosebeard Labs has identified a critical vulnerability in the Apple system wide web content filter that allows a full bypass of content restrictions. This vulnerability, which occurs specifically when Screen Time content filtering settings are enabled, permits users or attackers to access restricted websites in Safari without detection. The timeline in this advisory is probably the most interesting thing to note. It shows a Fortune 10 ignoring a concern for years until a news article gets written, and that is truly disappointing. Do better Tim.
+]]></content:encoded>
+<pubDate>Fri, 22 Nov 2024 14:29:45 GMT</pubDate>
+<pubDate>Fri, 22 Nov 2024 14:29:45 GMT</pubDate>
+</item>
+<item>
+<title>Apple Security Advisory 11-19-2024-5</title>
+<link>https://packetstormsecurity.com/files/182751/APPLE-SA-11-19-2024-5.txt</link>
+<guid>https://packetstormsecurity.com/files/182751/APPLE-SA-11-19-2024-5.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 11-19-2024-5 - macOS Sequoia 15.1.1 addresses code execution vulnerabilities.
+]]></content:encoded>
+<pubDate>Fri, 22 Nov 2024 14:29:02 GMT</pubDate>
+<pubDate>Fri, 22 Nov 2024 14:29:02 GMT</pubDate>
+</item>
+<item>
+<title>Apple Security Advisory 11-19-2024-4</title>
+<link>https://packetstormsecurity.com/files/182747/APPLE-SA-11-19-2024-4.txt</link>
+<guid>https://packetstormsecurity.com/files/182747/APPLE-SA-11-19-2024-4.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 11-19-2024-4 - iOS 17.7.2 and iPadOS 17.7.2 addresses code execution vulnerabilities.
+]]></content:encoded>
+<pubDate>Fri, 22 Nov 2024 14:28:15 GMT</pubDate>
+<pubDate>Fri, 22 Nov 2024 14:28:15 GMT</pubDate>
+</item>
+<item>
+<title>Apple Security Advisory 11-19-2024-3</title>
+<link>https://packetstormsecurity.com/files/182743/APPLE-SA-11-19-2024-3.txt</link>
+<guid>https://packetstormsecurity.com/files/182743/APPLE-SA-11-19-2024-3.txt</guid>
+<content:encoded><![CDATA[
+
+Apple Security Advisory 11-19-2024-3 - iOS 18.1.1 and iPadOS 18.1.1 addresses code execution vulnerabilities.
+]]></content:encoded>
+<pubDate>Fri, 22 Nov 2024 14:27:20 GMT</pubDate>
+<pubDate>Fri, 22 Nov 2024 14:27:20 GMT</pubDate>
+</item>
 
 <item>
 <title>Apple Issues Emergency Security Update 18.1.1 for Actively Exploited <b>Vulnerabilities</b> in ...</title>
