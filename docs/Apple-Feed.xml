@@ -4,6 +4,241 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Weekly IT Vulnerability Report: Critical Exploits Highlighted in This Week’s Analysis</title>
+<link>https://cyble.com/blog/weekly-it-vulnerability-report-critical-exploits-highlighted-in-this-weeks-analysis/</link>
+<guid>https://cyble.com/blog/weekly-it-vulnerability-report-critical-exploits-highlighted-in-this-weeks-analysis/</guid>
+<content:encoded><![CDATA[
+<div> <p><img alt="Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/Cyble-Blogs-Vulnerability-3.jpg" title="Weekly IT Vulnerability Report: Critical Exploits Highlighted in This Week’s Analysis 1" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Overview</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Labs (CRIL) analyzed 25 vulnerabilities between November 13 and November 19, 2024, identifying several high-priority threats that security teams must address. This blog also highlights 10 exploit discussions on underground forums, increasing the urgency to patch.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Key vulnerabilities include issues in Apple’s macOS, VMware vCenter, and Zyxel devices, with observed exploitation activity. Apple’s <a href="https://cyble.com/knowledge-hub/zero-day-exploit/">zero-day</a> vulnerabilities (CVE-2024-44308 and CVE-2024-44309) and VMware’s critical vulnerabilities (CVE-2024-38812 and CVE-2024-38813) have particularly raised concerns among <a href="https://cyble.com/knowledge-hub/what-is-cybersecurity/">cybersecurity</a> experts.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Additionally, researchers observed active discussions of proof-of-concept (PoC) exploits for D-Link, Fortinet, and <a href="https://cyble.com/blog/cisa-adds-two-critical-palo-alto-networks-vulnerabilities-to-known-exploited-catalog/">Palo Alto Networks</a> products on dark web forums, raising the likelihood of broader exploitation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Below are the critical vulnerabilities and exploit highlights.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Top IT Vulnerabilities</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble researchers emphasized these vulnerabilities as high-priority fixes:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true,"start":1} --></p>
+<ol class="wp-block-list" start="1"><!-- wp:list-item --></p>
+<li><strong>CVE-2024-44308, CVE-2024-44309</strong>: Two zero-day vulnerabilities in <a href="https://cyble.com/blog/threat-actor-selling-new-atomic-macos-amos-stealer-on-telegram/">Apple’s macOS</a> systems affecting WebKit and JavaScriptCore components. These flaws allow remote code execution and cross-site scripting (XSS). Apple has released emergency patches for macOS, Safari, and iOS to address these vulnerabilities.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-38812, CVE-2024-38813</strong>: Critical vulnerabilities in VMware’s vCenter Server. CVE-2024-38812 enables <a href="https://cyble.com/blog/springshell-remote-code-execution-vulnerability/">remote code</a> execution, while CVE-2024-38813 allows privilege escalation. Attackers have actively exploited these vulnerabilities in the wild, targeting corporate environments.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-42057</strong>: A command injection vulnerability in Zyxel’s IPSec <a href="https://cyble.com/blog/new-cheana-stealer-targets-vpn-user/">VPN</a> feature. Unauthenticated attackers can execute OS commands on vulnerable devices. Researchers linked this flaw to the Helldown <a href="https://cyble.com/knowledge-hub/what-is-ransomware/">ransomware</a> group, which uses it to infiltrate networks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-10914</strong>: A critical command injection vulnerability in legacy D-Link NAS devices. Exploiting the <em>cgi_user_add</em> function in the <em>account_mgr.cgi</em> script allows attackers to execute OS commands remotely. Over 61,000 vulnerable devices were identified online.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-48990, CVE-2024-48991, CVE-2024-48992</strong>: Privilege escalation vulnerabilities in the <em>“needrestart”</em> package for Ubuntu systems. Local attackers can gain root privileges on vulnerable installations. While these vulnerabilities are less likely to be exploited remotely, they pose significant risks in shared environments.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-11120</strong>: A command injection vulnerability affecting EOL GeoVision devices. Exploited by botnets, attackers use this flaw to conduct <a href="https://cyble.com/knowledge-hub/what-is-ddos-attack/">DDoS attacks</a> and cryptomining.</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Dark Web and Underground Exploit Activity</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble’s research uncovered multiple exploit discussions and PoCs shared on underground forums and Telegram channels:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true,"start":1} --></p>
+<ol class="wp-block-list" start="1"><!-- wp:list-item --></p>
+<li><strong>Fortinet FortiManager (CVE-2024-47575)</strong>: Known as “FortiJump,” this vulnerability allows unauthenticated remote attackers to execute arbitrary commands. <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/" rel="noopener" target="_blank" title="Threat actors">Threat actors</a> have weaponized this exploit for lateral movement in corporate environments.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>D-Link NAS Devices (CVE-2024-10914)</strong>: Threat actors shared exploit details enabling command injection via the <em>account_mgr.cgi</em> script. Researchers detected over 61,000 exposed devices, emphasizing the urgency of mitigation.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Palo Alto Networks Expedition (CVE-2024-5910, CVE-2024-9464)</strong>: Exploits for these vulnerabilities allow attackers to gain administrator privileges or execute OS commands with root access. Discussions on underground forums highlight chaining techniques for broader attacks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Microsoft Exchange Server (CVE-2021-34470)</strong>: Despite being disclosed in 2023, this privilege escalation vulnerability remains a target in <a href="https://cyble.com/cybercrime/">cybercrime</a> forums, with fresh PoCs surfacing.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Zero-Day Windows Exploit</strong>: A threat actor named “IOWA” offered a Local Privilege Escalation (LPE) vulnerability for <a href="https://cyble.com/blog/microsoft-zero-day-vulnerabilities-under-attack/">Microsoft</a> Windows and Windows Server. The asking price ranged from $200,000 to $400,000, reflecting its critical nature.</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Cyble’s Recommendations</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To address these vulnerabilities and mitigate potential risks, CRIL recommends the following steps:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><strong>Apply Patches</strong>: Regularly update all software and hardware systems with vendor-provided patches. Prioritize critical vulnerabilities like Apple’s zero-days, VMware vCenter flaws, and Zyxel command injection vulnerabilities.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Implement Patch Management</strong>: Develop a comprehensive strategy that includes testing and deploying patches promptly. Automate where possible to ensure consistency.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Network Segmentation</strong>: Isolate critical assets using VLANs, <a href="https://cyble.com/knowledge-hub/what-is-firewall/">firewalls</a>, and access controls to minimize exposure.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Monitor for Suspicious Activity</strong>: Use SIEM solutions to detect abnormal behavior. Analyze logs for signs of exploitation, particularly for internet-facing services.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Conduct Regular Assessments</strong>: Perform vulnerability assessments and penetration testing to identify weaknesses. Complement these efforts with security audits to ensure compliance.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Enhance Visibility</strong>: Maintain an inventory of internal and external assets. Use asset management tools to ensure comprehensive monitoring.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Adopt Strong Password Policies</strong>: Change default passwords, enforce complexity, and implement multi-factor authentication (MFA).</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Conclusion</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The vulnerabilities discussed in this report call for improved and robust <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/cybersecurity/" rel="noopener" target="_blank" title="cybersecurity">cybersecurity</a> practices. With active exploitation of critical flaws like Apple’s zero-days and VMware’s vCenter vulnerabilities, organizations must act swiftly to patch, monitor, and secure their environments. Proactive measures are essential to mitigate risks and protect sensitive systems from escalating <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/what-are-cyber-threats/" rel="noopener" target="_blank" title="cyber threats">cyber threats</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/weekly-it-vulnerability-report-critical-exploits-highlighted-in-this-weeks-analysis/" rel="nofollow">Weekly IT Vulnerability Report: Critical Exploits Highlighted in This Week’s Analysis</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p> <div>
+<p><img alt="Vulnerability" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="600" src="https://cyble.com/wp-content/uploads/2024/11/Cyble-Blogs-Vulnerability-3.jpg" title="Weekly IT Vulnerability Report: Critical Exploits Highlighted in This Week’s Analysis 1" width="1200" /></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Overview</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble Research and Intelligence Labs (CRIL) analyzed 25 vulnerabilities between November 13 and November 19, 2024, identifying several high-priority threats that security teams must address. This blog also highlights 10 exploit discussions on underground forums, increasing the urgency to patch.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Key vulnerabilities include issues in Apple’s macOS, VMware vCenter, and Zyxel devices, with observed exploitation activity. Apple’s <a href="https://cyble.com/knowledge-hub/zero-day-exploit/">zero-day</a> vulnerabilities (CVE-2024-44308 and CVE-2024-44309) and VMware’s critical vulnerabilities (CVE-2024-38812 and CVE-2024-38813) have particularly raised concerns among <a href="https://cyble.com/knowledge-hub/what-is-cybersecurity/">cybersecurity</a> experts.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Additionally, researchers observed active discussions of proof-of-concept (PoC) exploits for D-Link, Fortinet, and <a href="https://cyble.com/blog/cisa-adds-two-critical-palo-alto-networks-vulnerabilities-to-known-exploited-catalog/">Palo Alto Networks</a> products on dark web forums, raising the likelihood of broader exploitation.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Below are the critical vulnerabilities and exploit highlights.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading">Top IT Vulnerabilities</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble researchers emphasized these vulnerabilities as high-priority fixes:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true,"start":1} --></p>
+<ol class="wp-block-list" start="1"><!-- wp:list-item --></p>
+<li><strong>CVE-2024-44308, CVE-2024-44309</strong>: Two zero-day vulnerabilities in <a href="https://cyble.com/blog/threat-actor-selling-new-atomic-macos-amos-stealer-on-telegram/">Apple’s macOS</a> systems affecting WebKit and JavaScriptCore components. These flaws allow remote code execution and cross-site scripting (XSS). Apple has released emergency patches for macOS, Safari, and iOS to address these vulnerabilities.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-38812, CVE-2024-38813</strong>: Critical vulnerabilities in VMware’s vCenter Server. CVE-2024-38812 enables <a href="https://cyble.com/blog/springshell-remote-code-execution-vulnerability/">remote code</a> execution, while CVE-2024-38813 allows privilege escalation. Attackers have actively exploited these vulnerabilities in the wild, targeting corporate environments.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-42057</strong>: A command injection vulnerability in Zyxel’s IPSec <a href="https://cyble.com/blog/new-cheana-stealer-targets-vpn-user/">VPN</a> feature. Unauthenticated attackers can execute OS commands on vulnerable devices. Researchers linked this flaw to the Helldown <a href="https://cyble.com/knowledge-hub/what-is-ransomware/">ransomware</a> group, which uses it to infiltrate networks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-10914</strong>: A critical command injection vulnerability in legacy D-Link NAS devices. Exploiting the <em>cgi_user_add</em> function in the <em>account_mgr.cgi</em> script allows attackers to execute OS commands remotely. Over 61,000 vulnerable devices were identified online.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-48990, CVE-2024-48991, CVE-2024-48992</strong>: Privilege escalation vulnerabilities in the <em>“needrestart”</em> package for Ubuntu systems. Local attackers can gain root privileges on vulnerable installations. While these vulnerabilities are less likely to be exploited remotely, they pose significant risks in shared environments.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>CVE-2024-11120</strong>: A command injection vulnerability affecting EOL GeoVision devices. Exploited by botnets, attackers use this flaw to conduct <a href="https://cyble.com/knowledge-hub/what-is-ddos-attack/">DDoS attacks</a> and cryptomining.</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Dark Web and Underground Exploit Activity</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Cyble’s research uncovered multiple exploit discussions and PoCs shared on underground forums and Telegram channels:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true,"start":1} --></p>
+<ol class="wp-block-list" start="1"><!-- wp:list-item --></p>
+<li><strong>Fortinet FortiManager (CVE-2024-47575)</strong>: Known as “FortiJump,” this vulnerability allows unauthenticated remote attackers to execute arbitrary commands. <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/cyber-threat-actor-and-types/" rel="noopener" target="_blank" title="Threat actors">Threat actors</a> have weaponized this exploit for lateral movement in corporate environments.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>D-Link NAS Devices (CVE-2024-10914)</strong>: Threat actors shared exploit details enabling command injection via the <em>account_mgr.cgi</em> script. Researchers detected over 61,000 exposed devices, emphasizing the urgency of mitigation.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Palo Alto Networks Expedition (CVE-2024-5910, CVE-2024-9464)</strong>: Exploits for these vulnerabilities allow attackers to gain administrator privileges or execute OS commands with root access. Discussions on underground forums highlight chaining techniques for broader attacks.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Microsoft Exchange Server (CVE-2021-34470)</strong>: Despite being disclosed in 2023, this privilege escalation vulnerability remains a target in <a href="https://cyble.com/cybercrime/">cybercrime</a> forums, with fresh PoCs surfacing.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Zero-Day Windows Exploit</strong>: A threat actor named “IOWA” offered a Local Privilege Escalation (LPE) vulnerability for <a href="https://cyble.com/blog/microsoft-zero-day-vulnerabilities-under-attack/">Microsoft</a> Windows and Windows Server. The asking price ranged from $200,000 to $400,000, reflecting its critical nature.</li>
+<p><!-- /wp:list-item --></ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Cyble’s Recommendations</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To address these vulnerabilities and mitigate potential risks, CRIL recommends the following steps:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul class="wp-block-list"><!-- wp:list-item --></p>
+<li><strong>Apply Patches</strong>: Regularly update all software and hardware systems with vendor-provided patches. Prioritize critical vulnerabilities like Apple’s zero-days, VMware vCenter flaws, and Zyxel command injection vulnerabilities.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Implement Patch Management</strong>: Develop a comprehensive strategy that includes testing and deploying patches promptly. Automate where possible to ensure consistency.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Network Segmentation</strong>: Isolate critical assets using VLANs, <a href="https://cyble.com/knowledge-hub/what-is-firewall/">firewalls</a>, and access controls to minimize exposure.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Monitor for Suspicious Activity</strong>: Use SIEM solutions to detect abnormal behavior. Analyze logs for signs of exploitation, particularly for internet-facing services.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Conduct Regular Assessments</strong>: Perform vulnerability assessments and penetration testing to identify weaknesses. Complement these efforts with security audits to ensure compliance.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Enhance Visibility</strong>: Maintain an inventory of internal and external assets. Use asset management tools to ensure comprehensive monitoring.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li><strong>Adopt Strong Password Policies</strong>: Change default passwords, enforce complexity, and implement multi-factor authentication (MFA).</li>
+<p><!-- /wp:list-item --></ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2 class="wp-block-heading"><strong>Conclusion</strong></h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The vulnerabilities discussed in this report call for improved and robust <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/cybersecurity/" rel="noopener" target="_blank" title="cybersecurity">cybersecurity</a> practices. With active exploitation of critical flaws like Apple’s zero-days and VMware’s vCenter vulnerabilities, organizations must act swiftly to patch, monitor, and secure their environments. Proactive measures are essential to mitigate risks and protect sensitive systems from escalating <a class="wpil_keyword_link" href="https://cyble.com/knowledge-hub/what-are-cyber-threats/" rel="noopener" target="_blank" title="cyber threats">cyber threats</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p>The post <a href="https://cyble.com/blog/weekly-it-vulnerability-report-critical-exploits-highlighted-in-this-weeks-analysis/" rel="nofollow">Weekly IT Vulnerability Report: Critical Exploits Highlighted in This Week’s Analysis</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
+]]></content:encoded>
+<pubDate>Mon, 25 Nov 2024 12:59:18 +0000</pubDate>
+<pubDate>Mon, 25 Nov 2024 12:59:18 +0000</pubDate>
+</item>
 
 <item>
 <title>Government warns Apple users of critical <b>vulnerabilities</b>: Here's what to do - Times of India</title>
