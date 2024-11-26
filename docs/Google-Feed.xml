@@ -5,6 +5,94 @@
 <link>https://cyble.com</link>
 
 <item>
+<title>What’s up India? PixPirate is back and spreading via WhatsApp</title>
+<link>https://securityintelligence.com/posts/pixpirate-back-spreading-via-whatsapp/</link>
+<guid>https://securityintelligence.com/posts/pixpirate-back-spreading-via-whatsapp/</guid>
+<content:encoded><![CDATA[
+<div> <p>Quick recap This blog post is the continuation of a previous blog regarding PixPirate malware. If you haven&#8217;t read the initial post, please take a couple of minutes to get caught up before diving into this additional content. As a reminder, PixPirate malware consists of two components: a downloader application and a droppee application, and [&#8230;]</p>
+<p>The post <a href="https://securityintelligence.com/posts/pixpirate-back-spreading-via-whatsapp/" rel="nofollow">What’s up India? PixPirate is back and spreading via WhatsApp</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p> <div>
+<h2>Quick recap</h2>
+<p>This blog post is the continuation of a <a href="https://securityintelligence.com/posts/pixpirate-brazilian-financial-malware/">previous blog</a> regarding PixPirate malware. If you haven&rsquo;t read the initial post, please take a couple of minutes to get caught up before diving into this additional content. As a reminder, PixPirate malware consists of two components: a downloader application and a <span class="resolved">droppee</span> application, and both are custom-made and operated by the same fraudster group. Although the traditional role of a downloader is to install the droppee on the victim device, with PixPirate, the downloader also <i>runs</i> the droppee. Without this operation by the PixPirate downloader, the droppee, i.e. the malware itself, would never run. In addition, the PixPirate downloader can send commands to the droppee for execution and has an active role in the droppee activities and operations.</p>
+<p>In the most basic terms, the PixPirate downloader pretends to be a legitimate authentication application that helps users secure their bank accounts.</p>
+<p><strong></strong></p>
+<p><em>Figure 1:&nbsp;PixPirate downloader icons.</em></p>
+<p>The PixPirate downloader doesn&rsquo;t exist in the Google Play Store, but it spreads through <a href="https://www.ibm.com/topics/smishing" rel="noopener nofollow" target="_blank">Smishing</a> campaigns or a WhatsApp spam message from an infected user. In these cases, the victim is tricked into downloading and installing the downloader application. As it runs, the downloader prompts the target victim that there is an updated version of the application and asks for permission to install other untrusted apps, as a way to install the related PixPirate droppee.</p>
+<h2>The new PixPirate campaign</h2>
+<p>In recent months, the Trusteer research lab monitored and detected a new campaign of PixPirate running in Brazil, and directly attacking Brazilian banks. At the time of this blog, PixPirate still primarily targets the Pix payment services that are integrated with most Brazilian banking apps.</p>
+<p>In the current PixPirate campaign, Trusteer noticed the largest number of infections in Brazil (almost 70% of all infections), but with an additional reach that expanded to other markets in the world, including India and most recently Italy and Mexico. Outside of Brazil, India is the next-most infected country by PixPirate, with nearly 20% of the total infections in the world. Although no Indian banks appear in the PixPirate target list, the Trusteer research lab assumes the <a href="https://www.ibm.com/topics/malware" rel="noopener nofollow" target="_blank">malware</a> developers are laying the foundation for future campaigns in India. One assumption for the infection spread in India is the widespread use of India&rsquo;s United Payments Interface (UPI) instant payment service. The UPI is utilized by hundreds of millions of consumers in India, where it has become the country&rsquo;s standard payment platform, and is regulated by <a href="https://www.rbi.org.in/" rel="noopener nofollow" target="_blank">the Reserve Bank of India</a>&nbsp;(RBI).</p>
+<p><strong></strong><em>Figure 2: A pie graph showing PixPirate distribution across several countries.</em></p>
+<h2>PixPirate <span class="resolved">droppee</span> installation made easy</h2>
+<p>The newly identified PixPirate campaign also includes a new version of the downloader, which includes a link to a <a href="https://www.youtube.com/watch?app=desktop&amp;v=TqjE5Y5CYfI" rel="noopener nofollow" target="_blank">YouTube</a> video that explains and demonstrates to the target victim how to unknowingly install the droppee Android package kit (<a>APK) </a>and grant all the necessary permissions and capabilities in order to fully execute on the victim&rsquo;s device. The YouTube video simulates a legit tutorial video explaining to the user how to install a legitimate financial service app, and to date has more than 78,000 views providing some scope of the infection&rsquo;s reach, assuming every YouTube viewer has followed through and unknowingly installed the PixPirate malware.</p>
+<p>In the video, a user launches the downloader app for the first time, which simulates being a legitimate financial services application. The PixPirate downloader then asks the user to install an updated version of itself. Once the installation is complete, the victim has actually installed a new malicious application, rather than simply upgrading the downloader. This new app &ndash; the droppee app &ndash; is in fact the PixPirate malware. The PixPirate malware then remains incognito to the user by having no icon on the home screen of the infected device.</p>
+<p>As discussed in the <a href="https://securityintelligence.com/posts/pixpirate-brazilian-financial-malware/">previous PixPirate blog, </a>remaining incognito to the user has many advantages, including giving the PixPirate malware a better chance to sustain a long infection period with the ability to conduct financial fraud. However, this also introduces a problem &ndash; without an icon, the victim cannot &ldquo;start&rdquo; or activate the malware manually, so who will do it? That&rsquo;s where the PixPirate downloader comes back into play, as the resource that is responsible for running the malware. The previous Trusteer blog post described the innovative way the PixPirate downloader ran the droppee, but in this current campaign, Trusteer has detected a new way the downloader executes the malware, as described in the next section.</p>
+<h2>New PixPirate droppee new execution method</h2>
+<p>The previous Trusteer blog post assessed the method used by the PixPirate droppee to hide its icon and, as a result, the special technique used by the downloader in order to run the droppee. In the new PixPirate campaign, the downloader uses a new method for launching the droppee.</p>
+<p>In the new method, the downloader maintains the execution role of the invisible droppee. The droppee holds in the manifest activity with an intent filter with one of the following unique action names:</p>
+<ul>
+<li>&ldquo;com.ticket.stage.Service&rdquo;</li>
+<li>&ldquo;com.ticket.action.Service&rdquo;</li>
+<li>&ldquo;com.sell.allday.Service&rdquo;</li>
+</ul>
+<p>When the PixPirate downloader wants to run the correlated droppee, the first thing it needs to do is to get the droppee activity holding this specific unique action and the droppee&rsquo;s package name. To do that, the downloader uses the API &ldquo;<i>queryIntentActivities(android.content.Intent, int)&rdquo;</i> with an argument of the intent with the desired action name. This function retrieves a list of all activities that hold an intent filter for the given intent. It returns a list of &ldquo;ResolveInfo&rdquo; objects containing one entry for each matching activity.</p>
+<p>We can see in the image below the function that is responsible for returning a list of all intents for all the activities of packages that contain one of the action names mentioned above. The PixPirate downloader starts with a for loop over a list of activity action names belonging to the PixPirate droppee using a call to the &ldquo;<i>queryIntentActivities&rdquo;</i> API. &nbsp;This API returns a list of &ldquo;ResolveInfo&rdquo; objects containing all activities with one of the droppee action names. For each &ldquo;ResolveInfo&rdquo; object returned it creates an intent with the corresponding activity name and package name and stores it in an array. This array is returned by the function.</p>
+<p><strong></strong></p>
+<p><em><span style="color: #000000;">Figure 3:&nbsp;</span>PixPirate downloader function responsible for getting droppee launching activity.</em></p>
+<p>In the following function, we can see in the for loop a call to the function &ldquo;get_potential_droppee_packagenames&rdquo; that is responsible for returning a list of all intents for all activities of packages that contain one of the droppee action names. Then, it validates that the package name related to the returned intent is really the droppee package. If so, it adds other relevant and necessary data to the intent and uses the <i>&ldquo;startActivity(android.content.Intent)&rdquo;</i> API to start the relevant droppee activity and perform the action of running the droppee.</p>
+<p><strong></strong></p>
+<p><em>Figure 4: PixPirate downloader function that runs and executes PixPirate droppee.</em></p>
+<h2>WhatsApp: Key player in PixPirate malware spreading technique</h2>
+<p>As part of the installation flow of PixPirate downloader on a device, the downloader checks to see if the WhatsApp instant messaging app is installed. The downloader contains in its &ldquo;assets&rdquo; folder the &ldquo;WhatsApp&rdquo; APK, so if the WhatsApp application is not installed on the victim&rsquo;s device, the malware pushes the victim to install it.</p>
+<p><strong></strong></p>
+<p><em>Figure 5: Downloader assets.</em></p>
+<p>We can see in the image above the &ldquo;assets&rdquo; folder of the downloader APK, where &nbsp;&ldquo;wsv2.jpeg&rdquo; stands for WhatsApp APK. The other files are different versions of the droppee APKs.</p>
+<p>Due to the size of the WhatsApp APK, we see the downloader is almost 100MB. Comparatively, the WhatsApp APK is abnormally large compared to other common finance malware downloaders that have relatively small code sections and little functionality, as they generally aim to only download and install the droppee (and not run them).</p>
+<p>The PixPirate Droppee uses the WhatsApp app to send malicious <a href="https://www.ibm.com/topics/phishing" rel="noopener nofollow" target="_blank">phishing</a> messages through a victim&rsquo;s WhatsApp account with the intent to spread itself and infect other devices. The malware has the ability to read the contact list of the victim, in addition to being able to add contacts, and then can send WhatsApp messages to a victim&rsquo;s contacts or even WhatsApp groups to further the spread and infect more users.</p>
+<p>The new capabilities and functionality related to the WhatsApp app can include:</p>
+<ul>
+<li>Sending messages</li>
+<li>Deleting messages</li>
+<li>Creating groups and sending messages</li>
+<li>Reading and deleting the user contact list</li>
+<li>Adding and changing the user contact list</li>
+<li>Blocking and unblocking other WhatsApp user accounts</li>
+</ul>
+<p>While the WhatsApp messages are sending, the PixPirate malware uses an overlay technique to hide the device screen, so the victim won&rsquo;t notice the malware is using the WhatsApp app.</p>
+<p><strong></strong></p>
+<p><em>Figure 6:<strong>&nbsp;</strong>PixPirate new infection methodology.</em></p>
+<p>It should be noted that sending WhatsApp phishing messages is an extremely effective tool for attackers to spread and infect other victims, for a couple of reasons:</p>
+<ol>
+<li>WhatsApp messages look more legitimate and reliable than SMS messages. Smishing is an already well-known technique by fraudsters and attackers to spread spam and malicious content, and users are aware of those types of malicious threats. However, that precaution and awareness is not as pronounced with WhatsApp messages.</li>
+<li>As opposed to smishing attacks, where the sender tends to be unknown to the victim which can raise their suspicions, messages received via WhatsApp are often sent from a known contact, which gives the recipient a false sense of security that the message is legitimate.</li>
+</ol>
+<p>Using WhatsApp helps foster PixPirate infections and spread the malware to more victims and devices, even if they are not potential intended targets.</p>
+<h2>Sending a WhatsApp message</h2>
+<p>In the image below, the PixPirate function that is responsible for sending WhatsApp messages from the victim account is clearly visible. Note that the function gets three parameters:</p>
+<ul>
+<li>Contact list &ndash; a list of contacts to send the malicious WhatsApp message</li>
+<li>messagesArr &ndash; array of messages to send</li>
+<li>sleepTime &ndash; time to wait between each message sending</li>
+</ul>
+<p>The malware then uses the phone number from the victim&rsquo;s contact list and uniquely creates an intent where the data field contains the key for sending a WhatsApp message to the targeted phone number with the text it would like to send. In the package message, PixPirate sets the package name of the WhatsApp application (&ldquo;com.whatsapp&rdquo;) and then it triggers the sending message action by starting the activity using the intent it just created.</p>
+<p><strong></strong></p>
+<p><em>Figure 7:<strong>&nbsp;</strong>Malware creating a WhatsApp message.</em></p>
+<p>In the next image, after the message to be sent via PixPirate has been created, the malware locates the &ldquo;send&rdquo; button and it abuses the device&rsquo;s Accessibility service to click on it, just like a human user would, to send the WhatsApp message to the intended recipients.</p>
+<p><strong></strong></p>
+<p><em>Figure 8:&nbsp;Malware sending WhatsApp message function.</em></p>
+<h2>Summary</h2>
+<p>PixPirate is a dangerous remote access tool (RAT) malware campaign first seen in late 2021, but which has recently returned via a new campaign infecting users primarily in Brazil and India, with campaigns beginning to appear in Italy and Mexico. PixPirate&rsquo;s threats and malicious activities are based on the malware&rsquo;s unique accessibility capabilities, including being a RAT and having remote-control capabilities to ensure automatic fraud execution, theft of user data, spreading through WhatsApp messages, hiding and anti-removal, intercepting SMS, recording user activities and more. The malware also holds some anti-virtual machine (anti-vm) and obfuscation capabilities.</p>
+<p>This latest iteration of the PixPirate malware also uses a new hiding technique to conceal its existence on the device, including hiding its icon on the home screen.</p>
+<p>Early on in the malware&rsquo;s lifecycle, PixPirate was identified only in Brazil, targeting Pix payment services and Brazilian banks. Today, however, the new PixPirate version and campaign identified by Trusteer Lab has spread to other regions in the world, with a specific focus on India. Although Trusteer hasn&rsquo;t observed any Indian targets to date, our assumption is this is only the beginning of this heavily maintained malware, to the point that we may see PixPirate outgrow its name in the future.</p>
+<h2>IOCs</h2>
+<p>Downloader SHA256: 1196c9f7102224eb1334cef1b0b1eab070adb3826b714c5ebc932b0e19bffc55</p>
+<p>Droppee SHA256: d723248b05b8719d5df686663c47d5789c323d04cd74b7d4629a1a1895e8f69a</p>
+
+<p>The post <a href="https://securityintelligence.com/posts/pixpirate-back-spreading-via-whatsapp/" rel="nofollow">What’s up India? PixPirate is back and spreading via WhatsApp</a> appeared first on <a href="https://securityintelligence.com" rel="nofollow">Security Intelligence</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 26 Nov 2024 17:00:00 +0000</pubDate>
+<pubDate>Tue, 26 Nov 2024 17:00:00 +0000</pubDate>
+</item>
+
+<item>
 <title>CERT-In Alert: Multiple Vulnerabilities in Android Impacting Millions of Devices</title>
 <link>https://cyble.com/blog/cert-in-alert-multiple-vulnerabilities-in-android-impacting-millions-of-devices/</link>
 <guid>https://cyble.com/blog/cert-in-alert-multiple-vulnerabilities-in-android-impacting-millions-of-devices/</guid>
@@ -481,9 +569,7 @@
 <p>The post <a href="https://cyble.com/blog/cert-in-alert-multiple-vulnerabilities-in-android-impacting-millions-of-devices/" rel="nofollow">CERT-In Alert: Multiple Vulnerabilities in Android Impacting Millions of Devices</a> appeared first on <a href="https://cyble.com" rel="nofollow">Cyble</a>.</p>
 ]]></content:encoded>
 <pubDate>Tue, 26 Nov 2024 14:44:47 +0000</pubDate>
-<pubDate>Tue, 26 Nov 2024 14:44:47 +0000</pubDate>
 </item>
-
 <item>
 <title>Understanding the Limitations of VPNs and Privacy Protection</title>
 <link>https://www.cysecurity.news/2024/11/understanding-limitations-of-vpns-and.html</link>
