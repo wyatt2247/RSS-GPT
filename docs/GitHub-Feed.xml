@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Ubuntu Security Notice USN-7130-1</title>
 <link>https://packetstormsecurity.com/files/182866/USN-7130-1.txt</link>
@@ -13,9 +14,7 @@
 Ubuntu Security Notice 7130-1 - It was discovered that GitHub CLI incorrectly handled username validation. An attacker could possibly use this issue to perform remote code execution if the user connected to a malicious server.
 ]]></content:encoded>
 <pubDate>Wed, 27 Nov 2024 15:01:55 GMT</pubDate>
-<pubDate>Wed, 27 Nov 2024 15:01:55 GMT</pubDate>
 </item>
-
 <item>
 <title>Malicious Python Packages Target Developers Using AI Tools</title>
 <link>https://www.cysecurity.news/2024/11/malicious-python-packages-target.html</link>
