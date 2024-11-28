@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>Fastest Supercomputer Advances Manhattan Project Simulations</title>
 <link>https://www.cysecurity.news/2024/11/fastest-supercomputer-advances.html</link>
@@ -32,10 +33,8 @@ Obviously, supercomputers are geared towards running complex tasks such as simul
 
 Thomas compared the computational power of the El Capitan supercomputer to a staggering human effort, estimating that it would require the combined work of over 8 billion people operating simultaneously for eight years to achieve what El Capitan accomplishes in a single second.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The extraordinary capabilities of El Capitan have sparked discussions about its potential implications for industries reliant on robust cryptographic systems, particularly blockchain technology. The blockchain ecosystem, which depends heavily on secure encryption methods, has raised concerns about whether such a powerful machine could undermine its foundational security principles.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Despite these apprehensions, experts in blockchain encryption have reassured that the fears are largely unfounded. Yannik Schrade, CEO and co-founder of Arcium explained to Decrypt that overcoming the security of blockchain systems would require an overwhelming computational feat. “An attacker would need to brute-force every possible private key,” Schrade noted.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">To put it into perspective, with a private key length of 256 bits, an attacker attempting to compromise transactions would need to exhaustively test all 256-bit key combinations. This level of computation, even with the power of El Capitan, remains practically unachievable within a reasonable timeframe, reaffirming the resilience of blockchain cryptographic systems against potential threats from even the most advanced technologies.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">These insights emphasize the sophistication and continued reliability of cryptographic standards in safeguarding blockchain security, even as computational technologies advance to unprecedented levels.</div>
 ]]></content:encoded>
-<pubDate>2024-11-28T07:31:00.000-05:00</pubDate>
 <pubDate>2024-11-28T07:31:05.037-05:00</pubDate>
 </item>
-
 <item>
 <title>CISA Urges Agencies to Patch Critical "Array Networks" Flaw Amid Active Attacks</title>
 <link>https://thehackernews.com/2024/11/cisa-urges-agencies-to-patch-critical.html</link>
