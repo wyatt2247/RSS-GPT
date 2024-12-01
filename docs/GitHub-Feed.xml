@@ -4,6 +4,73 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>XorBot Evolves with Advanced Evasion Strategies, Targets IoT</title>
+<link>https://www.cysecurity.news/2024/12/xorbot-evolves-with-advanced-evasion.html</link>
+<guid>https://www.cysecurity.news/2024/12/xorbot-evolves-with-advanced-evasion.html</guid>
+<content:encoded><![CDATA[
+<div> <p style="text-align: justify;">&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYzu8ePJgU-_V93b92c0bC1otbvyR7V_4hnUy30y1gL6yv5Bp0-oJ9vMlh74QxrDyLEYmcqLckSWFsnRzrnAtcGOZ4UWj2S2qxwXmO6sKc_kQ74NnssoYYXPHIipx27Kw95BUQ4uoubAMYs_NoULKECJiVdbHEfAVx8PIzuk8cKZj68924YjszQRIxfqu6/s4576/pexels-pixabay-60504.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYzu8ePJgU-_V93b92c0bC1otbvyR7V_4hnUy30y1gL6yv5Bp0-oJ9vMlh74QxrDyLEYmcqLckSWFsnRzrnAtcGOZ4UWj2S2qxwXmO6sKc_kQ74NnssoYYXPHIipx27Kw95BUQ4uoubAMYs_NoULKECJiVdbHEfAVx8PIzuk8cKZj68924YjszQRIxfqu6/w640-h426/pexels-pixabay-60504.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">A resurgence of the XorBot botnet was detected by NSFOCUS, which has been identified as a powerful threat to Internet of Things (IoT) devices across the world. XorBot was first discovered in late 2023; since then, it has evolved significantly, gaining advanced anti-detection mechanisms as well as a wider array of exploits and methods from which to sneak past detection.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cybersecurity defenders are now faced with a new challenge, especially in light of the latest version, version 1.04.
+
+
+
+The XorBot has consistently proven its ability to adapt and evade detection since it was first introduced in 2009. "XorBot is unequivocally one of the biggest threats to the security of the Internet of Things (IoT)," NSFOCUS reports.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">It targets devices such as Intelbras cameras and routers from TP-Link and D-Link, as well as a variety of other internet-connected devices. There are currently up to 12 exploit methods available in the botnet, and it has evolved to control a significant number of devices over the years.
+
+XorBot is particularly known for propagating its infection by exploiting vulnerabilities in IoT devices to spread.
+
+It has been confirmed by Thawte that one of the threat actor groups Matrix, has been linked to a widespread distributed denial-of-service (DDoS) campaign which exploits devices which are connected to the Internet of Things (IoT) due to vulnerabilities or misconfiguration.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The devices involved in this operation, including IP cameras, routers and telecom equipment, have been co-opted into a botnet for purposes of launching disruptive attacks against a network. It appears that the campaign is primarily targeting IP addresses related to China and Japan, with a lesser degree of activity present in other regions including Argentina, Brazil, and the United States. 
+
+
+
+
+
+
+
+
+
+
+
+Interestingly, Ukraine has not been targeted. This suggests that the campaign is being launched for financial reasons, not for political reasons.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As part of the matrix attack, Matrix exploits known vulnerabilities in internet-connected devices by making use of publicly available tools and scripts, including those found on platforms such as GitHub.
+
+A variety of internet-connected devices, such as IP cameras, DVRs, routers, and telecommunication equipment, are vulnerable to attacks via attack chains using known security flaws and default or weak credentials, allowing adversaries to access a wide variety of internet-connected devices.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Besides misconfigured Telnet, SSH, and Hadoop servers, it has also been observed that this threat actor is targeting IP addresses that belong to cloud service provider (CSP) IP address ranges such as Amazon Web Services (AWS) and Microsoft Azure, as well as Google Cloud Platform and rival cloud services just to name a few.
+
+As part of the malicious activity, a large number of publicly available scripts and tools are used, which is ultimately used to deploy the Mirai botnet malware and other DDoS-related programs on compromised devices and servers, as well.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">PYbot, Pynet, DiscordGo, Homo Network, and a JavaScript program that implements a flood attack using HTTP/HTTPS, as well as a tool that enables the disabling of Microsoft Defender Antivirus running on Windows machines are all included in the toolkit.
+
+Moreover, this botnet monopolizes resources in infected devices, leading to the /tmp directory being set as a read-only directory, making it impossible for any other malware to compromise the same device.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The operators of XorBot have taken a new focus on profitability. They openly advertise distributed denial of service (DDoS) attacks as a service, advertising themselves as the Masjesu Botnet, an alias for XorBot. According to NSFOCUS, Telegram has become a central platform for recruiting customers and promoting services, as well as providing an excellent foundation for further botnet growth and expansion.
+
+This botnet, whose activity is aimed at evading detection by using advanced evasion techniques, poses a significant threat to cybersecurity efforts, as it utilizes advanced evasion techniques.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As part of the anti-tracking design, it uses passive online methods to connect with control servers without sending identifiers such as IP addresses, thereby preventing an automated tracking system from being set up, such as how it will wait for instructions and respond with random data to obscure the tracking attempt. In addition to that, this attack uses "code obfuscation" to further impede detection through the embedding of redundant code and the concealment of its signatures, preventing static analysis from being performed.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In addition, XorBot implements a unique communication mechanism that minimizes its visibility over the network, thus making it more stealthy. It is evident from these sophisticated tactics that the botnet has evolved rapidly and that it faces a growing number of threats that are related to the Internet of Things. The NSFOCUS report estimates that botnet operators invest heavily in anti-detection and anti-tracking techniques, making it significantly more difficult for defence mechanisms to counter.</div> <div>
+<p style="text-align: justify;">&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYzu8ePJgU-_V93b92c0bC1otbvyR7V_4hnUy30y1gL6yv5Bp0-oJ9vMlh74QxrDyLEYmcqLckSWFsnRzrnAtcGOZ4UWj2S2qxwXmO6sKc_kQ74NnssoYYXPHIipx27Kw95BUQ4uoubAMYs_NoULKECJiVdbHEfAVx8PIzuk8cKZj68924YjszQRIxfqu6/s4576/pexels-pixabay-60504.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYzu8ePJgU-_V93b92c0bC1otbvyR7V_4hnUy30y1gL6yv5Bp0-oJ9vMlh74QxrDyLEYmcqLckSWFsnRzrnAtcGOZ4UWj2S2qxwXmO6sKc_kQ74NnssoYYXPHIipx27Kw95BUQ4uoubAMYs_NoULKECJiVdbHEfAVx8PIzuk8cKZj68924YjszQRIxfqu6/w640-h426/pexels-pixabay-60504.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">A resurgence of the XorBot botnet was detected by NSFOCUS, which has been identified as a powerful threat to Internet of Things (IoT) devices across the world. XorBot was first discovered in late 2023; since then, it has evolved significantly, gaining advanced anti-detection mechanisms as well as a wider array of exploits and methods from which to sneak past detection.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Cybersecurity defenders are now faced with a new challenge, especially in light of the latest version, version 1.04.
+
+
+
+The XorBot has consistently proven its ability to adapt and evade detection since it was first introduced in 2009. "XorBot is unequivocally one of the biggest threats to the security of the Internet of Things (IoT)," NSFOCUS reports.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">It targets devices such as Intelbras cameras and routers from TP-Link and D-Link, as well as a variety of other internet-connected devices. There are currently up to 12 exploit methods available in the botnet, and it has evolved to control a significant number of devices over the years.
+
+XorBot is particularly known for propagating its infection by exploiting vulnerabilities in IoT devices to spread.
+
+It has been confirmed by Thawte that one of the threat actor groups Matrix, has been linked to a widespread distributed denial-of-service (DDoS) campaign which exploits devices which are connected to the Internet of Things (IoT) due to vulnerabilities or misconfiguration.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The devices involved in this operation, including IP cameras, routers and telecom equipment, have been co-opted into a botnet for purposes of launching disruptive attacks against a network. It appears that the campaign is primarily targeting IP addresses related to China and Japan, with a lesser degree of activity present in other regions including Argentina, Brazil, and the United States. 
+
+
+
+
+
+
+
+
+
+
+
+Interestingly, Ukraine has not been targeted. This suggests that the campaign is being launched for financial reasons, not for political reasons.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As part of the matrix attack, Matrix exploits known vulnerabilities in internet-connected devices by making use of publicly available tools and scripts, including those found on platforms such as GitHub.
+
+A variety of internet-connected devices, such as IP cameras, DVRs, routers, and telecommunication equipment, are vulnerable to attacks via attack chains using known security flaws and default or weak credentials, allowing adversaries to access a wide variety of internet-connected devices.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Besides misconfigured Telnet, SSH, and Hadoop servers, it has also been observed that this threat actor is targeting IP addresses that belong to cloud service provider (CSP) IP address ranges such as Amazon Web Services (AWS) and Microsoft Azure, as well as Google Cloud Platform and rival cloud services just to name a few.
+
+As part of the malicious activity, a large number of publicly available scripts and tools are used, which is ultimately used to deploy the Mirai botnet malware and other DDoS-related programs on compromised devices and servers, as well.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">PYbot, Pynet, DiscordGo, Homo Network, and a JavaScript program that implements a flood attack using HTTP/HTTPS, as well as a tool that enables the disabling of Microsoft Defender Antivirus running on Windows machines are all included in the toolkit.
+
+Moreover, this botnet monopolizes resources in infected devices, leading to the /tmp directory being set as a read-only directory, making it impossible for any other malware to compromise the same device.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The operators of XorBot have taken a new focus on profitability. They openly advertise distributed denial of service (DDoS) attacks as a service, advertising themselves as the Masjesu Botnet, an alias for XorBot. According to NSFOCUS, Telegram has become a central platform for recruiting customers and promoting services, as well as providing an excellent foundation for further botnet growth and expansion.
+
+This botnet, whose activity is aimed at evading detection by using advanced evasion techniques, poses a significant threat to cybersecurity efforts, as it utilizes advanced evasion techniques.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As part of the anti-tracking design, it uses passive online methods to connect with control servers without sending identifiers such as IP addresses, thereby preventing an automated tracking system from being set up, such as how it will wait for instructions and respond with random data to obscure the tracking attempt. In addition to that, this attack uses "code obfuscation" to further impede detection through the embedding of redundant code and the concealment of its signatures, preventing static analysis from being performed.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In addition, XorBot implements a unique communication mechanism that minimizes its visibility over the network, thus making it more stealthy. It is evident from these sophisticated tactics that the botnet has evolved rapidly and that it faces a growing number of threats that are related to the Internet of Things. The NSFOCUS report estimates that botnet operators invest heavily in anti-detection and anti-tracking techniques, making it significantly more difficult for defence mechanisms to counter.</div>
+]]></content:encoded>
+<pubDate>2024-12-01T08:52:00.000-05:00</pubDate>
+<pubDate>2024-12-01T08:52:02.147-05:00</pubDate>
+</item>
 
 <item>
 <title>Critical NachoVPN Vulnerabilities Expose Palo Alto and SonicWall VPN Clients to Malicious Attacks</title>
