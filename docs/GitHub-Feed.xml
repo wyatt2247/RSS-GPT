@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>XorBot Evolves with Advanced Evasion Strategies, Targets IoT</title>
 <link>https://www.cysecurity.news/2024/12/xorbot-evolves-with-advanced-evasion.html</link>
@@ -68,10 +69,8 @@ Moreover, this botnet monopolizes resources in infected devices, leading to the 
 
 This botnet, whose activity is aimed at evading detection by using advanced evasion techniques, poses a significant threat to cybersecurity efforts, as it utilizes advanced evasion techniques.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As part of the anti-tracking design, it uses passive online methods to connect with control servers without sending identifiers such as IP addresses, thereby preventing an automated tracking system from being set up, such as how it will wait for instructions and respond with random data to obscure the tracking attempt. In addition to that, this attack uses "code obfuscation" to further impede detection through the embedding of redundant code and the concealment of its signatures, preventing static analysis from being performed.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In addition, XorBot implements a unique communication mechanism that minimizes its visibility over the network, thus making it more stealthy. It is evident from these sophisticated tactics that the botnet has evolved rapidly and that it faces a growing number of threats that are related to the Internet of Things. The NSFOCUS report estimates that botnet operators invest heavily in anti-detection and anti-tracking techniques, making it significantly more difficult for defence mechanisms to counter.</div>
 ]]></content:encoded>
-<pubDate>2024-12-01T08:52:00.000-05:00</pubDate>
 <pubDate>2024-12-01T08:52:02.147-05:00</pubDate>
 </item>
-
 <item>
 <title>Critical NachoVPN Vulnerabilities Expose Palo Alto and SonicWall VPN Clients to Malicious Attacks</title>
 <link>https://www.cysecurity.news/2024/11/critical-nachovpn-vulnerabilities.html</link>
