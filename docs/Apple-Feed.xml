@@ -4,6 +4,7 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+
 <item>
 <title>AppleAVD AV1_Syntax::Parse_Header Out-Of-Bounds Reads</title>
 <link>https://packetstormsecurity.com/files/182907/GS2024120242451721.tgz</link>
@@ -13,17 +14,14 @@
 AppleAVD has an issue where a large OBU size in AV1_Syntax::Parse_Header reading can lead to out-of-bounds reads.
 ]]></content:encoded>
 <pubDate>Mon, 02 Dec 2024 18:28:37 GMT</pubDate>
-<pubDate>Mon, 02 Dec 2024 18:28:37 GMT</pubDate>
 </item>
 <item>
 <title>AppleAVD AV1_Syntax::f Out-Of-Bounds Reads</title>
 <link>https://packetstormsecurity.com/files/182906/GS2024120242451722.tgz</link>
 <guid>https://packetstormsecurity.com/files/182906/GS2024120242451722.tgz</guid>
 <content:encoded><![CDATA[
-
 AppleAVD has an issue in AV1_Syntax::f leading to out-of-bounds reads.
 ]]></content:encoded>
-<pubDate>Mon, 02 Dec 2024 18:26:25 GMT</pubDate>
 <pubDate>Mon, 02 Dec 2024 18:26:25 GMT</pubDate>
 </item>
 <item>
@@ -31,13 +29,10 @@ AppleAVD has an issue in AV1_Syntax::f leading to out-of-bounds reads.
 <link>https://packetstormsecurity.com/files/182905/GS2024120242451723.tgz</link>
 <guid>https://packetstormsecurity.com/files/182905/GS2024120242451723.tgz</guid>
 <content:encoded><![CDATA[
-
 AppleAVD has an integer underflow in AV1_Syntax::Parse_Header that can lead to out-of-bounds reads.
 ]]></content:encoded>
 <pubDate>Mon, 02 Dec 2024 18:23:21 GMT</pubDate>
-<pubDate>Mon, 02 Dec 2024 18:23:21 GMT</pubDate>
 </item>
-
 <item>
 <title>Internal Threats Loom Large as Businesses Deal With External Threats</title>
 <link>https://www.cysecurity.news/2024/11/internal-threats-loom-large-as.html</link>
