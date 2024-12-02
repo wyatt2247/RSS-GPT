@@ -4,6 +4,67 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Godot Game Engine Targeted in Widespread Malware Attack</title>
+<link>https://www.cysecurity.news/2024/12/godot-game-engine-targeted-in.html</link>
+<guid>https://www.cysecurity.news/2024/12/godot-game-engine-targeted-in.html</guid>
+<content:encoded><![CDATA[
+<div> <p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkIkhs-fiDlTYWPaG42LR10AFNX46Du43Kol9wW8i_rXPHjuaEHna2HqLJs_3zlK5gfUwF3wpeLDWi0iySCirR_IZeuteBcDMU_d4tGC8QdCaEznJItkePSyscCwh2XK-kWb9qWex2I5et91-VX1kvuRvr_-AayDse8w74-yL74VD_glYPfRgY1DqgnP9Z/s5184/pexels-lalesh-194511.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkIkhs-fiDlTYWPaG42LR10AFNX46Du43Kol9wW8i_rXPHjuaEHna2HqLJs_3zlK5gfUwF3wpeLDWi0iySCirR_IZeuteBcDMU_d4tGC8QdCaEznJItkePSyscCwh2XK-kWb9qWex2I5et91-VX1kvuRvr_-AayDse8w74-yL74VD_glYPfRgY1DqgnP9Z/w640-h426/pexels-lalesh-194511.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">
+  
+
+A newly identified malware threat, GodLoader, is targeting gamers globally by exploiting the Godot game development engine, according to a report from Check Point Research. This sophisticated attack has already impacted more than 1.2 million users across various platforms.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">How GodLoader Works&nbsp;</h4><div style="text-align: justify;">&nbsp;</div><div style="text-align: justify;">GodLoader infiltrates devices by leveraging Godot’s .pck files, which package game assets. These files can embed harmful scripts that execute malicious code upon launching a game, effectively bypassing traditional antivirus detection. The malware primarily targets:&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>
+
+-Windows&nbsp;</b></div><div style="text-align: justify;"><b>- macOS&nbsp;</b></div><div style="text-align: justify;"><b>- Linux&nbsp;</b></div><div style="text-align: justify;"><b>- Android&nbsp;</b></div><div style="text-align: justify;"><b>- iOS&nbsp;</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Check Point Research reported that hackers have infected over 17,000 systems in just the past three months. By utilizing Godot’s GDScript (a Python-like scripting language), attackers distribute malware via more than 200 GitHub repositories, often masked as legitimate game assets.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">Exploitation of Open-Source Trust&nbsp;</h4><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+Eli Smadja, Security Research Group Manager at Check Point Software Technologies, highlighted the exploitation of open-source platforms: &nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">"Cybercriminals have turned the flexibility of the Godot Engine into a vulnerability, spreading cross-platform malware like GodLoader by capitalizing on the trust users place in open-source software."&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+Infected computers are not only compromised but may also be converted into cryptocurrency mining rigs through XMRig, rendering them unusable for other tasks.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">Stargazers Ghost Network: Distribution-as-a-Service (DaaS)&nbsp;</h4><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+The attackers used the Stargazers Ghost Network to distribute GodLoader. This platform, active since 2022, employs over 3,000 ghost GitHub accounts to create networks of malicious repositories. These repositories:&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+- Host info stealers like RedLine, Lumma Stealer, Rhadamanthys, and RisePro.&nbsp;</div><div style="text-align: justify;">- Manipulate GitHub’s trending section by starring, forking, and subscribing to their own repositories to appear legitimate.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+During a campaign between September and October 2024, Check Point discovered four separate attacks targeting developers and gamers. These attacks aimed to distribute infected tools and games, enticing users to download malware through seemingly credible GitHub repositories.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">Broader Implications and Future Risks&nbsp;</h4><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+The malware’s ability to target multiple platforms significantly enlarges the attack surface, posing a growing threat to the gaming community. Experts warn that attackers could embed malware into cheats, mods, or cracks for popular Godot-built games, increasing the vulnerability of millions of gamers.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+The Stargazers Ghost Network has already earned over $100,000 by distributing malware through its DaaS platform. With its continuous evolution, this network poses an ongoing threat to both developers and users of the Godot engine.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">Call to Action for Developers and Gamers&nbsp;</h4><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+Industry experts emphasize the urgent need for proactive cybersecurity measures to counter such threats. Recommendations include:&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+- Avoid downloading game assets from unverified sources.&nbsp;</div><div style="text-align: justify;">- Regularly update antivirus and anti-malware software.&nbsp;</div><div style="text-align: justify;">- Implement robust security practices when developing or downloading games built with Godot.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+As the gaming ecosystem continues to expand, vigilance and collaboration between developers and security researchers will be critical in mitigating threats like GodLoader and ensuring a safer gaming environment.</div> <div>
+<p>&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkIkhs-fiDlTYWPaG42LR10AFNX46Du43Kol9wW8i_rXPHjuaEHna2HqLJs_3zlK5gfUwF3wpeLDWi0iySCirR_IZeuteBcDMU_d4tGC8QdCaEznJItkePSyscCwh2XK-kWb9qWex2I5et91-VX1kvuRvr_-AayDse8w74-yL74VD_glYPfRgY1DqgnP9Z/s5184/pexels-lalesh-194511.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkIkhs-fiDlTYWPaG42LR10AFNX46Du43Kol9wW8i_rXPHjuaEHna2HqLJs_3zlK5gfUwF3wpeLDWi0iySCirR_IZeuteBcDMU_d4tGC8QdCaEznJItkePSyscCwh2XK-kWb9qWex2I5et91-VX1kvuRvr_-AayDse8w74-yL74VD_glYPfRgY1DqgnP9Z/w640-h426/pexels-lalesh-194511.jpg" width="640" /></a></div><br /><p></p><div style="text-align: justify;">
+  
+
+A newly identified malware threat, GodLoader, is targeting gamers globally by exploiting the Godot game development engine, according to a report from Check Point Research. This sophisticated attack has already impacted more than 1.2 million users across various platforms.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">How GodLoader Works&nbsp;</h4><div style="text-align: justify;">&nbsp;</div><div style="text-align: justify;">GodLoader infiltrates devices by leveraging Godot’s .pck files, which package game assets. These files can embed harmful scripts that execute malicious code upon launching a game, effectively bypassing traditional antivirus detection. The malware primarily targets:&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>
+
+-Windows&nbsp;</b></div><div style="text-align: justify;"><b>- macOS&nbsp;</b></div><div style="text-align: justify;"><b>- Linux&nbsp;</b></div><div style="text-align: justify;"><b>- Android&nbsp;</b></div><div style="text-align: justify;"><b>- iOS&nbsp;</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Check Point Research reported that hackers have infected over 17,000 systems in just the past three months. By utilizing Godot’s GDScript (a Python-like scripting language), attackers distribute malware via more than 200 GitHub repositories, often masked as legitimate game assets.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">Exploitation of Open-Source Trust&nbsp;</h4><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+Eli Smadja, Security Research Group Manager at Check Point Software Technologies, highlighted the exploitation of open-source platforms: &nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">"Cybercriminals have turned the flexibility of the Godot Engine into a vulnerability, spreading cross-platform malware like GodLoader by capitalizing on the trust users place in open-source software."&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+Infected computers are not only compromised but may also be converted into cryptocurrency mining rigs through XMRig, rendering them unusable for other tasks.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">Stargazers Ghost Network: Distribution-as-a-Service (DaaS)&nbsp;</h4><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+The attackers used the Stargazers Ghost Network to distribute GodLoader. This platform, active since 2022, employs over 3,000 ghost GitHub accounts to create networks of malicious repositories. These repositories:&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+- Host info stealers like RedLine, Lumma Stealer, Rhadamanthys, and RisePro.&nbsp;</div><div style="text-align: justify;">- Manipulate GitHub’s trending section by starring, forking, and subscribing to their own repositories to appear legitimate.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+During a campaign between September and October 2024, Check Point discovered four separate attacks targeting developers and gamers. These attacks aimed to distribute infected tools and games, enticing users to download malware through seemingly credible GitHub repositories.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">Broader Implications and Future Risks&nbsp;</h4><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+The malware’s ability to target multiple platforms significantly enlarges the attack surface, posing a growing threat to the gaming community. Experts warn that attackers could embed malware into cheats, mods, or cracks for popular Godot-built games, increasing the vulnerability of millions of gamers.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+The Stargazers Ghost Network has already earned over $100,000 by distributing malware through its DaaS platform. With its continuous evolution, this network poses an ongoing threat to both developers and users of the Godot engine.&nbsp;</div><div style="text-align: justify;"><br /></div><h4 style="text-align: justify;">Call to Action for Developers and Gamers&nbsp;</h4><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+Industry experts emphasize the urgent need for proactive cybersecurity measures to counter such threats. Recommendations include:&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+- Avoid downloading game assets from unverified sources.&nbsp;</div><div style="text-align: justify;">- Regularly update antivirus and anti-malware software.&nbsp;</div><div style="text-align: justify;">- Implement robust security practices when developing or downloading games built with Godot.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">
+
+As the gaming ecosystem continues to expand, vigilance and collaboration between developers and security researchers will be critical in mitigating threats like GodLoader and ensuring a safer gaming environment.</div>
+]]></content:encoded>
+<pubDate>2024-12-02T08:59:00.001-05:00</pubDate>
+<pubDate>2024-12-02T08:59:24.266-05:00</pubDate>
+</item>
 
 <item>
 <title>XorBot Evolves with Advanced Evasion Strategies, Targets IoT</title>
