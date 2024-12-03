@@ -4,6 +4,19 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Cisco Warns of Exploitation of Decade-Old ASA WebVPN Vulnerability</title>
+<link>https://thehackernews.com/2024/12/cisco-warns-of-exploitation-of-decade.html</link>
+<guid>https://thehackernews.com/2024/12/cisco-warns-of-exploitation-of-decade.html</guid>
+<content:encoded><![CDATA[
+<div> Cisco on Monday updated an advisory to warn customers of active exploitation of a decade-old security flaw impacting its Adaptive Security Appliance (ASA).
+The vulnerability, tracked as CVE-2014-2120 (CVSS score: 4.3), concerns a case of insufficient input validation in ASA's WebVPN login page that could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack <div>
+Cisco on Monday updated an advisory to warn customers of active exploitation of a decade-old security flaw impacting its Adaptive Security Appliance (ASA).
+The vulnerability, tracked as CVE-2014-2120 (CVSS score: 4.3), concerns a case of insufficient input validation in ASA's WebVPN login page that could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack
+]]></content:encoded>
+<pubDate>Tue, 03 Dec 2024 18:21:00 +0530</pubDate>
+<pubDate>Tue, 03 Dec 2024 18:21:00 +0530</pubDate>
+</item>
 
 <item>
 <title>Malaysia’s Fight Against Cybercrime: Two New Bills Tabled in Parliament</title>
