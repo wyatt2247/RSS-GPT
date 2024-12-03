@@ -4,6 +4,193 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Ruijie Reyee OS</title>
+<link>https://www.cisa.gov/news-events/ics-advisories/icsa-24-338-01</link>
+<guid>https://www.cisa.gov/news-events/ics-advisories/icsa-24-338-01</guid>
+<content:encoded><![CDATA[
+<div> <p><a href="https://github.com/cisagov/CSAF" target="_blank"><strong>View CSAF</strong></a></p>
+<h2 id="1-executive-summary">1. EXECUTIVE SUMMARY</h2>
+<ul>
+<li><strong>CVSS v4 9.3</strong></li>
+<li><strong>ATTENTION</strong>: Exploitable remotely/low attack complexity</li>
+<li><strong>Vendor</strong>: Ruijie</li>
+<li><strong>Equipment</strong>: Reyee OS</li>
+<li><strong>Vulnerabilities</strong>: Weak Password Recovery Mechanism for Forgotten Password, Exposure of Private Personal Information to an Unauthorized Actor, Premature Release of Resource During Expected Lifetime, Insecure Storage of Sensitive Information, Use of Weak Credentials, Improper Neutralization of Wildcards or Matching Symbols, Improper Handling of Insufficient Permissions or Privileges, Server-Side Request Forgery (SSRF), Use of Inherently Dangerous Function, Resource Leak</li>
+</ul>
+<h2 id="2-risk-evaluation">2. RISK EVALUATION</h2>
+<p>Successful exploitation of this vulnerabilities could allow attackers to take near full control over the device.</p>
+<h2 id="3-technical-details">3. TECHNICAL DETAILS</h2>
+<h3 id="31-affected-products">3.1 AFFECTED PRODUCTS</h3>
+<p>The following Ruijie product is affected:</p>
+<ul>
+<li>Reyee OS: Versions 2.206.x up to but not including 2.320.x</li>
+</ul>
+<h3 id="32-vulnerability-overview">3.2 Vulnerability Overview</h3>
+<h4 id="321-weak-password-recovery-mechanism-for-forgotten-password-cwe-640"><strong>3.2.1 </strong><a href="https://cwe.mitre.org/data/definitions/640.html" target="_blank"><strong>Weak Password Recovery Mechanism for Forgotten Password CWE-640</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x contains a weak mechanism for its users to change their passwords which leaves authentication vulnerable to brute force attacks.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-47547" target="_blank">CVE-2024-47547</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 9.4 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-47547" target="_blank">CVE-2024-47547</a>. A base score of 9.3 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:L/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:L/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="322-exposure-of-private-personal-information-to-an-unauthorized-actor-cwe-359"><strong>3.2.2 </strong><a href="https://cwe.mitre.org/data/definitions/359.html" target="_blank"><strong>Exposure of Private Personal Information to an Unauthorized Actor CWE-359</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x contains a a feature that could enable sub accounts or attackers to view and exfiltrate sensitive information from all cloud accounts registered to Ruijie's services</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-42494" target="_blank">CVE-2024-42494</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 6.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N" target="_blank">AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-42494" target="_blank">CVE-2024-42494</a>. A base score of 7.2 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="323-premature-release-of-resource-during-expected-lifetime-cwe-826"><strong>3.2.3 </strong><a href="https://cwe.mitre.org/data/definitions/826.html" target="_blank"><strong>Premature Release of Resource During Expected Lifetime CWE-826</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x contains a feature that could enable attackers to invalidate a legitimate user's session and cause a denial-of-service attack on a user's account.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-51727" target="_blank">CVE-2024-51727</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 6.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H" target="_blank">AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-51727" target="_blank">CVE-2024-51727</a>. A base score of 7.1 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="324-insecure-storage-of-sensitive-information-cwe-922"><strong>3.2.4 </strong><a href="https://cwe.mitre.org/data/definitions/922.html" target="_blank"><strong>Insecure Storage of Sensitive Information CWE-922</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could enable an attacker to correlate a device serial number and the user's phone number and part of the email address.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-47043" target="_blank">CVE-2024-47043</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 7.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-47043" target="_blank">CVE-2024-47043</a>. A base score of 8.7 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="325-use-of-weak-credentials-cwe-1391"><strong>3.2.5 </strong><a href="https://cwe.mitre.org/data/definitions/1391.html" target="_blank"><strong>Use of Weak Credentials CWE-1391</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x uses weak credential mechanism that could allow an attacker to easily calculate MQTT credentials.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-45722" target="_blank">CVE-2024-45722</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 7.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-45722" target="_blank">CVE-2024-45722</a>. A base score of 8.7 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="326-improper-neutralization-of-wildcards-or-matching-symbols-cwe-155"><strong>3.2.6 </strong><a href="https://cwe.mitre.org/data/definitions/155.html" target="_blank"><strong>Improper Neutralization of Wildcards or Matching Symbols CWE-155</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could allow an attacker to subscribe to partial possible topics in Ruijie MQTT broker, and receive partial messages being sent to and from devices.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-47791" target="_blank">CVE-2024-47791</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 7.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-47791" target="_blank">CVE-2024-47791</a>. A base score of 8.7 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="327-improper-handling-of-insufficient-permissions-or-privileges-cwe-280"><strong>3.2.7 </strong><a href="https://cwe.mitre.org/data/definitions/280.html" target="_blank"><strong>Improper Handling of Insufficient Permissions or Privileges CWE-280</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could allow MQTT clients connecting with device credentials to send messages to some topics. Attackers with device credentials could issue commands to other devices on behalf of Ruijie's cloud.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-46874" target="_blank">CVE-2024-46874</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 8.1 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H" target="_blank">AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-46874" target="_blank">CVE-2024-46874</a>. A base score of 9.2 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N" target="_blank">CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="328-server-side-request-forgery-ssrf-cwe-918"><strong>3.2.8 </strong><a href="https://cwe.mitre.org/data/definitions/918.html" target="_blank"><strong>Server-Side Request Forgery (SSRF) CWE-918</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could give attackers the ability to force Ruijie's proxy servers to perform any request the attackers choose. Using this, attackers could access internal services used by Ruijie and their internal cloud infrastructure via AWS cloud metadata services.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-48874" target="_blank">CVE-2024-48874</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 9.8 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-48874" target="_blank">CVE-2024-48874</a>. A base score of 9.3 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N" target="_blank">CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="329-use-of-inherently-dangerous-function-cwe-242"><strong>3.2.9 </strong><a href="https://cwe.mitre.org/data/definitions/242.html" target="_blank"><strong>Use of Inherently Dangerous Function CWE-242</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x uses an inherently dangerous function which could allow an attacker to send a malicious MQTT message resulting in devices executing arbitrary OS commands.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-52324" target="_blank">CVE-2024-52324</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 9.8 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-52324" target="_blank">CVE-2024-52324</a>. A base score of 9.2 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N" target="_blank">CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="3210-transmission-of-private-resources-into-a-new-sphere-resource-leak-cwe-402"><strong>3.2.10 </strong><a href="https://cwe.mitre.org/data/definitions/402.html" target="_blank"><strong>Transmission of Private Resources into a New Sphere ('Resource Leak') CWE-402</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could allow an attacker to obtain the devices serial number if physically adjacent and sniffing the RAW WIFI signal.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-47146" target="_blank">CVE-2024-47146</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 6.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N" target="_blank">AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-47146" target="_blank">CVE-2024-47146</a>. A base score of 7.1 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N</a>).</p>
+<h3 id="33-background">3.3 BACKGROUND</h3>
+<ul>
+<li><strong>CRITICAL INFRASTRUCTURE SECTORS:</strong> Communications</li>
+<li><strong>COUNTRIES/AREAS DEPLOYED:</strong> Worldwide</li>
+<li><strong>COMPANY HEADQUARTERS LOCATION:</strong> China</li>
+</ul>
+<h3 id="34-researcher">3.4 RESEARCHER</h3>
+<p>Tomer Goldschmidt and Noam Moshe of Claroty Team82 reported these vulnerabilities to CISA.</p>
+<h2 id="4-mitigations">4. MITIGATIONS</h2>
+<p>Ruijie reports that the issues have been fixed on the cloud and no action is needed by end users. However, CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities, such as:</p>
+<ul>
+<li>Minimize network exposure for all control system devices and/or systems, ensuring they are <a href="https://www.cisa.gov/uscert/ics/alerts/ICS-ALERT-10-301-01" target="_blank">not accessible from the internet</a>.</li>
+<li>Locate control system networks and remote devices behind firewalls and isolating them from business networks.</li>
+<li>When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.</li>
+</ul>
+<p>CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.</p>
+<p>CISA also provides a section for <a href="https://www.cisa.gov/resources-tools/resources/ics-recommended-practices" target="_blank">control systems security recommended practices</a> on the ICS webpage on <a href="https://www.cisa.gov/topics/industrial-control-systems" target="_blank">cisa.gov/ics</a>. Several CISA products detailing cyber defense best practices are available for reading and download, including <a href="https://us-cert.cisa.gov/sites/default/files/recommended_practices/NCCIC_ICS-CERT_Defense_in_Depth_2016_S508C.pdf" target="_blank">Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies</a>.</p>
+<p>CISA encourages organizations to implement recommended cybersecurity strategies for <a href="https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Best_Practices_for_Industrial_Control_Systems.pdf" target="_blank">proactive defense of ICS assets</a>.</p>
+<p>Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at <a href="https://www.cisa.gov/topics/industrial-control-systems" target="_blank">cisa.gov/ics</a> in the technical information paper, <a href="https://www.cisa.gov/uscert/ics/tips/ICS-TIP-12-146-01B" target="_blank">ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies</a>.</p>
+<p>Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.</p>
+<p>CISA also recommends users take the following measures to protect themselves from social engineering attacks:</p>
+<ul>
+<li>Do not click web links or open attachments in unsolicited email messages.</li>
+<li>Refer to <a href="https://www.cisa.gov/uscert/sites/default/files/publications/emailscams0905.pdf" target="_blank">Recognizing and Avoiding Email Scams</a> for more information on avoiding email scams.</li>
+<li>Refer to <a href="https://www.cisa.gov/uscert/ncas/tips/ST04-014" target="_blank">Avoiding Social Engineering and Phishing Attacks</a> for more information on social engineering attacks.</li>
+</ul>
+<p>No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.</p>
+<h2 id="5-update-history">5. UPDATE HISTORY</h2>
+<ul>
+<li>December 3, 2024: Initial Publication</li>
+</ul> <div>
+<p><a href="https://github.com/cisagov/CSAF" target="_blank"><strong>View CSAF</strong></a></p>
+<h2 id="1-executive-summary">1. EXECUTIVE SUMMARY</h2>
+<ul>
+<li><strong>CVSS v4 9.3</strong></li>
+<li><strong>ATTENTION</strong>: Exploitable remotely/low attack complexity</li>
+<li><strong>Vendor</strong>: Ruijie</li>
+<li><strong>Equipment</strong>: Reyee OS</li>
+<li><strong>Vulnerabilities</strong>: Weak Password Recovery Mechanism for Forgotten Password, Exposure of Private Personal Information to an Unauthorized Actor, Premature Release of Resource During Expected Lifetime, Insecure Storage of Sensitive Information, Use of Weak Credentials, Improper Neutralization of Wildcards or Matching Symbols, Improper Handling of Insufficient Permissions or Privileges, Server-Side Request Forgery (SSRF), Use of Inherently Dangerous Function, Resource Leak</li>
+</ul>
+<h2 id="2-risk-evaluation">2. RISK EVALUATION</h2>
+<p>Successful exploitation of this vulnerabilities could allow attackers to take near full control over the device.</p>
+<h2 id="3-technical-details">3. TECHNICAL DETAILS</h2>
+<h3 id="31-affected-products">3.1 AFFECTED PRODUCTS</h3>
+<p>The following Ruijie product is affected:</p>
+<ul>
+<li>Reyee OS: Versions 2.206.x up to but not including 2.320.x</li>
+</ul>
+<h3 id="32-vulnerability-overview">3.2 Vulnerability Overview</h3>
+<h4 id="321-weak-password-recovery-mechanism-for-forgotten-password-cwe-640"><strong>3.2.1 </strong><a href="https://cwe.mitre.org/data/definitions/640.html" target="_blank"><strong>Weak Password Recovery Mechanism for Forgotten Password CWE-640</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x contains a weak mechanism for its users to change their passwords which leaves authentication vulnerable to brute force attacks.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-47547" target="_blank">CVE-2024-47547</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 9.4 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-47547" target="_blank">CVE-2024-47547</a>. A base score of 9.3 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:L/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:L/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="322-exposure-of-private-personal-information-to-an-unauthorized-actor-cwe-359"><strong>3.2.2 </strong><a href="https://cwe.mitre.org/data/definitions/359.html" target="_blank"><strong>Exposure of Private Personal Information to an Unauthorized Actor CWE-359</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x contains a a feature that could enable sub accounts or attackers to view and exfiltrate sensitive information from all cloud accounts registered to Ruijie's services</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-42494" target="_blank">CVE-2024-42494</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 6.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N" target="_blank">AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-42494" target="_blank">CVE-2024-42494</a>. A base score of 7.2 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="323-premature-release-of-resource-during-expected-lifetime-cwe-826"><strong>3.2.3 </strong><a href="https://cwe.mitre.org/data/definitions/826.html" target="_blank"><strong>Premature Release of Resource During Expected Lifetime CWE-826</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x contains a feature that could enable attackers to invalidate a legitimate user's session and cause a denial-of-service attack on a user's account.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-51727" target="_blank">CVE-2024-51727</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 6.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H" target="_blank">AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-51727" target="_blank">CVE-2024-51727</a>. A base score of 7.1 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="324-insecure-storage-of-sensitive-information-cwe-922"><strong>3.2.4 </strong><a href="https://cwe.mitre.org/data/definitions/922.html" target="_blank"><strong>Insecure Storage of Sensitive Information CWE-922</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could enable an attacker to correlate a device serial number and the user's phone number and part of the email address.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-47043" target="_blank">CVE-2024-47043</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 7.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-47043" target="_blank">CVE-2024-47043</a>. A base score of 8.7 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="325-use-of-weak-credentials-cwe-1391"><strong>3.2.5 </strong><a href="https://cwe.mitre.org/data/definitions/1391.html" target="_blank"><strong>Use of Weak Credentials CWE-1391</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x uses weak credential mechanism that could allow an attacker to easily calculate MQTT credentials.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-45722" target="_blank">CVE-2024-45722</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 7.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-45722" target="_blank">CVE-2024-45722</a>. A base score of 8.7 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="326-improper-neutralization-of-wildcards-or-matching-symbols-cwe-155"><strong>3.2.6 </strong><a href="https://cwe.mitre.org/data/definitions/155.html" target="_blank"><strong>Improper Neutralization of Wildcards or Matching Symbols CWE-155</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could allow an attacker to subscribe to partial possible topics in Ruijie MQTT broker, and receive partial messages being sent to and from devices.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-47791" target="_blank">CVE-2024-47791</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 7.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-47791" target="_blank">CVE-2024-47791</a>. A base score of 8.7 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="327-improper-handling-of-insufficient-permissions-or-privileges-cwe-280"><strong>3.2.7 </strong><a href="https://cwe.mitre.org/data/definitions/280.html" target="_blank"><strong>Improper Handling of Insufficient Permissions or Privileges CWE-280</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could allow MQTT clients connecting with device credentials to send messages to some topics. Attackers with device credentials could issue commands to other devices on behalf of Ruijie's cloud.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-46874" target="_blank">CVE-2024-46874</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 8.1 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H" target="_blank">AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-46874" target="_blank">CVE-2024-46874</a>. A base score of 9.2 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N" target="_blank">CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="328-server-side-request-forgery-ssrf-cwe-918"><strong>3.2.8 </strong><a href="https://cwe.mitre.org/data/definitions/918.html" target="_blank"><strong>Server-Side Request Forgery (SSRF) CWE-918</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could give attackers the ability to force Ruijie's proxy servers to perform any request the attackers choose. Using this, attackers could access internal services used by Ruijie and their internal cloud infrastructure via AWS cloud metadata services.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-48874" target="_blank">CVE-2024-48874</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 9.8 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-48874" target="_blank">CVE-2024-48874</a>. A base score of 9.3 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N" target="_blank">CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="329-use-of-inherently-dangerous-function-cwe-242"><strong>3.2.9 </strong><a href="https://cwe.mitre.org/data/definitions/242.html" target="_blank"><strong>Use of Inherently Dangerous Function CWE-242</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x uses an inherently dangerous function which could allow an attacker to send a malicious MQTT message resulting in devices executing arbitrary OS commands.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-52324" target="_blank">CVE-2024-52324</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 9.8 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H" target="_blank">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-52324" target="_blank">CVE-2024-52324</a>. A base score of 9.2 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N" target="_blank">CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N</a>).</p>
+<h4 id="3210-transmission-of-private-resources-into-a-new-sphere-resource-leak-cwe-402"><strong>3.2.10 </strong><a href="https://cwe.mitre.org/data/definitions/402.html" target="_blank"><strong>Transmission of Private Resources into a New Sphere ('Resource Leak') CWE-402</strong></a></h4>
+<p>Ruijie Reyee OS versions 2.206.x up to but not including 2.320.x could allow an attacker to obtain the devices serial number if physically adjacent and sniffing the RAW WIFI signal.</p>
+<p><a href="https://www.cve.org/CVERecord?id=CVE-2024-47146" target="_blank">CVE-2024-47146</a> has been assigned to this vulnerability. A CVSS v3.1 base score of 6.5 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N" target="_blank">AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</a>).</p>
+<p>A CVSS v4 score has also been calculated for <a href="https://www.cve.org/CVERecord?id=CVE-2024-47146" target="_blank">CVE-2024-47146</a>. A base score of 7.1 has been calculated; the CVSS vector string is (<a href="https://www.first.org/cvss/calculator/4.0#CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N" target="_blank">CVSS4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N</a>).</p>
+<h3 id="33-background">3.3 BACKGROUND</h3>
+<ul>
+<li><strong>CRITICAL INFRASTRUCTURE SECTORS:</strong> Communications</li>
+<li><strong>COUNTRIES/AREAS DEPLOYED:</strong> Worldwide</li>
+<li><strong>COMPANY HEADQUARTERS LOCATION:</strong> China</li>
+</ul>
+<h3 id="34-researcher">3.4 RESEARCHER</h3>
+<p>Tomer Goldschmidt and Noam Moshe of Claroty Team82 reported these vulnerabilities to CISA.</p>
+<h2 id="4-mitigations">4. MITIGATIONS</h2>
+<p>Ruijie reports that the issues have been fixed on the cloud and no action is needed by end users. However, CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities, such as:</p>
+<ul>
+<li>Minimize network exposure for all control system devices and/or systems, ensuring they are <a href="https://www.cisa.gov/uscert/ics/alerts/ICS-ALERT-10-301-01" target="_blank">not accessible from the internet</a>.</li>
+<li>Locate control system networks and remote devices behind firewalls and isolating them from business networks.</li>
+<li>When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.</li>
+</ul>
+<p>CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.</p>
+<p>CISA also provides a section for <a href="https://www.cisa.gov/resources-tools/resources/ics-recommended-practices" target="_blank">control systems security recommended practices</a> on the ICS webpage on <a href="https://www.cisa.gov/topics/industrial-control-systems" target="_blank">cisa.gov/ics</a>. Several CISA products detailing cyber defense best practices are available for reading and download, including <a href="https://us-cert.cisa.gov/sites/default/files/recommended_practices/NCCIC_ICS-CERT_Defense_in_Depth_2016_S508C.pdf" target="_blank">Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies</a>.</p>
+<p>CISA encourages organizations to implement recommended cybersecurity strategies for <a href="https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Best_Practices_for_Industrial_Control_Systems.pdf" target="_blank">proactive defense of ICS assets</a>.</p>
+<p>Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at <a href="https://www.cisa.gov/topics/industrial-control-systems" target="_blank">cisa.gov/ics</a> in the technical information paper, <a href="https://www.cisa.gov/uscert/ics/tips/ICS-TIP-12-146-01B" target="_blank">ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies</a>.</p>
+<p>Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.</p>
+<p>CISA also recommends users take the following measures to protect themselves from social engineering attacks:</p>
+<ul>
+<li>Do not click web links or open attachments in unsolicited email messages.</li>
+<li>Refer to <a href="https://www.cisa.gov/uscert/sites/default/files/publications/emailscams0905.pdf" target="_blank">Recognizing and Avoiding Email Scams</a> for more information on avoiding email scams.</li>
+<li>Refer to <a href="https://www.cisa.gov/uscert/ncas/tips/ST04-014" target="_blank">Avoiding Social Engineering and Phishing Attacks</a> for more information on social engineering attacks.</li>
+</ul>
+<p>No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.</p>
+<h2 id="5-update-history">5. UPDATE HISTORY</h2>
+<ul>
+<li>December 3, 2024: Initial Publication</li>
+</ul>
+]]></content:encoded>
+<pubDate>Tue, 03 Dec 24 12:00:00 +0000</pubDate>
+<pubDate>Tue, 03 Dec 24 12:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>AWS Launches New Incident Response Service</title>
