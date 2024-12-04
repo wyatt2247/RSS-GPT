@@ -4,6 +4,57 @@
 <title>Cyble</title>
 <link>https://cyble.com</link>
 
+<item>
+<title>Meet Chameleon: An AI-Powered Privacy Solution for Face Recognition</title>
+<link>https://www.cysecurity.news/2024/12/meet-chameleon-ai-powered-privacy.html</link>
+<guid>https://www.cysecurity.news/2024/12/meet-chameleon-ai-powered-privacy.html</guid>
+<content:encoded><![CDATA[
+<div> <p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-NJuOyXfxkuu3v0d0_E2Xo3QsmtBOYg7jewv5eUwieIMixTHTMrlFqB-sN2uQNOm5w2ltKK2GCa3KB4icRvWZpPqSN0l-hOeBj02aivG10VQLBlXbrviLy7jfQGUklpIxlTSGJYAfNwBYLGwpA7-CSMEaHdA1UwHDC1Za5YcCXKPkBWJ3fW_fNEd7fUg/s4576/pexels-pixabay-60504.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-NJuOyXfxkuu3v0d0_E2Xo3QsmtBOYg7jewv5eUwieIMixTHTMrlFqB-sN2uQNOm5w2ltKK2GCa3KB4icRvWZpPqSN0l-hOeBj02aivG10VQLBlXbrviLy7jfQGUklpIxlTSGJYAfNwBYLGwpA7-CSMEaHdA1UwHDC1Za5YcCXKPkBWJ3fW_fNEd7fUg/s600/pexels-pixabay-60504.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><br /></div></span><p style="text-align: justify;">An artificial intelligence (AI) system developed by a team of researchers can safeguard users from malicious actors' unauthorized facial scanning. The <strong>AI model</strong>, dubbed <strong>Chameleon</strong>, employs a unique masking approach to create a mask that conceals faces in images while maintaining the visual quality of the protected image.</p>
+
+<p style="text-align: justify;">Furthermore, the researchers state that the model is <strong>resource-optimized</strong>, meaning it can be used even with low computing power. While the <strong>Chameleon AI model</strong> has not been made public yet, the team has claimed they intend to release it very soon.</p>
+
+<p style="text-align: justify;">Researchers at <strong>Georgia Tech University</strong> described the AI model in a report published in the online pre-print journal <strong>arXiv</strong>. The tool can add an <strong>invisible mask</strong> to faces in an image, making them unrecognizable to facial recognition algorithms. This allows users to secure their identities from criminal actors and AI data-scraping bots attempting to scan their faces.</p>
+
+<blockquote>
+  <p style="text-align: justify;"><strong>“Privacy-preserving data sharing and analytics like Chameleon will help to advance governance and responsible adoption of AI technology and stimulate responsible science and innovation,”</strong> stated <strong>Ling Liu</strong>, professor of data and intelligence-powered computing at <strong>Georgia Tech's School of Computer Science</strong> and the lead author of the research paper.</p>
+</blockquote>
+
+<p style="text-align: justify;">Chameleon employs a unique masking approach known as <strong>Customized Privacy Protection (P-3) Mask</strong>. Once the mask is applied, the photos cannot be recognized by facial recognition software since the scans depict them <strong>"as being someone else."</strong></p>
+
+<p style="text-align: justify;">While face-masking technologies have been available previously, the <strong>Chameleon AI model</strong> innovates in two key areas:</p>
+
+<ol>
+  <li><div style="text-align: justify;"><strong>Resource Optimization:</strong></div><div style="text-align: justify;">Instead of creating individual masks for each photo, the tool develops <strong>one mask per user</strong> based on a few user-submitted facial images. This approach significantly reduces the computing power required to generate the undetectable mask.</div></li>
+
+  <li><div style="text-align: justify;"><strong>Image Quality Preservation:</strong></div><div style="text-align: justify;">Preserving the image quality of protected photos proved challenging. To address this, the researchers employed <strong>Chameleon's Perceptibility Optimization</strong> technique. This technique allows the mask to be rendered automatically, without requiring any manual input or parameter adjustments, ensuring the image quality remains intact.</div></li>
+</ol>
+
+<p style="text-align: justify;">The researchers announced their plans to make <strong>Chameleon's code</strong> publicly available on <strong>GitHub</strong> soon, calling it a significant breakthrough in privacy protection. Once released, developers will be able to integrate the open-source AI model into various applications.</p> <div>
+<p>&nbsp;</p><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-NJuOyXfxkuu3v0d0_E2Xo3QsmtBOYg7jewv5eUwieIMixTHTMrlFqB-sN2uQNOm5w2ltKK2GCa3KB4icRvWZpPqSN0l-hOeBj02aivG10VQLBlXbrviLy7jfQGUklpIxlTSGJYAfNwBYLGwpA7-CSMEaHdA1UwHDC1Za5YcCXKPkBWJ3fW_fNEd7fUg/s4576/pexels-pixabay-60504.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-NJuOyXfxkuu3v0d0_E2Xo3QsmtBOYg7jewv5eUwieIMixTHTMrlFqB-sN2uQNOm5w2ltKK2GCa3KB4icRvWZpPqSN0l-hOeBj02aivG10VQLBlXbrviLy7jfQGUklpIxlTSGJYAfNwBYLGwpA7-CSMEaHdA1UwHDC1Za5YcCXKPkBWJ3fW_fNEd7fUg/s600/pexels-pixabay-60504.jpg" width="600" /></a></div><span style="font-family: inherit;"><div style="text-align: justify;"><br /></div></span><p style="text-align: justify;">An artificial intelligence (AI) system developed by a team of researchers can safeguard users from malicious actors' unauthorized facial scanning. The <strong>AI model</strong>, dubbed <strong>Chameleon</strong>, employs a unique masking approach to create a mask that conceals faces in images while maintaining the visual quality of the protected image.</p>
+
+<p style="text-align: justify;">Furthermore, the researchers state that the model is <strong>resource-optimized</strong>, meaning it can be used even with low computing power. While the <strong>Chameleon AI model</strong> has not been made public yet, the team has claimed they intend to release it very soon.</p>
+
+<p style="text-align: justify;">Researchers at <strong>Georgia Tech University</strong> described the AI model in a report published in the online pre-print journal <strong>arXiv</strong>. The tool can add an <strong>invisible mask</strong> to faces in an image, making them unrecognizable to facial recognition algorithms. This allows users to secure their identities from criminal actors and AI data-scraping bots attempting to scan their faces.</p>
+
+<blockquote>
+  <p style="text-align: justify;"><strong>“Privacy-preserving data sharing and analytics like Chameleon will help to advance governance and responsible adoption of AI technology and stimulate responsible science and innovation,”</strong> stated <strong>Ling Liu</strong>, professor of data and intelligence-powered computing at <strong>Georgia Tech's School of Computer Science</strong> and the lead author of the research paper.</p>
+</blockquote>
+
+<p style="text-align: justify;">Chameleon employs a unique masking approach known as <strong>Customized Privacy Protection (P-3) Mask</strong>. Once the mask is applied, the photos cannot be recognized by facial recognition software since the scans depict them <strong>"as being someone else."</strong></p>
+
+<p style="text-align: justify;">While face-masking technologies have been available previously, the <strong>Chameleon AI model</strong> innovates in two key areas:</p>
+
+<ol>
+  <li><div style="text-align: justify;"><strong>Resource Optimization:</strong></div><div style="text-align: justify;">Instead of creating individual masks for each photo, the tool develops <strong>one mask per user</strong> based on a few user-submitted facial images. This approach significantly reduces the computing power required to generate the undetectable mask.</div></li>
+
+  <li><div style="text-align: justify;"><strong>Image Quality Preservation:</strong></div><div style="text-align: justify;">Preserving the image quality of protected photos proved challenging. To address this, the researchers employed <strong>Chameleon's Perceptibility Optimization</strong> technique. This technique allows the mask to be rendered automatically, without requiring any manual input or parameter adjustments, ensuring the image quality remains intact.</div></li>
+</ol>
+
+<p style="text-align: justify;">The researchers announced their plans to make <strong>Chameleon's code</strong> publicly available on <strong>GitHub</strong> soon, calling it a significant breakthrough in privacy protection. Once released, developers will be able to integrate the open-source AI model into various applications.</p>
+]]></content:encoded>
+<pubDate>2024-12-04T09:41:00.003-05:00</pubDate>
+<pubDate>2024-12-04T09:41:31.778-05:00</pubDate>
+</item>
 
 <item>
 <title>Bootkitty: The Game-Changing Malware Targeting Linux Systems</title>
